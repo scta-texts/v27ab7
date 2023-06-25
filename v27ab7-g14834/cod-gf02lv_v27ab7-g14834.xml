@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="173"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g14834"><!-- v27ab7-q6-q8 -->
+            <head xml:id="v27ab7-g14834-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-g14834-Hd1e101" type="question-title">
+      Utrum perniciosum sit dicere quod actus voluntatis non possit fer se esse obiectum voluntatis
+    </head>
+            <p xml:id="v27ab7-g14834-d1e104">
+               <pb ed="#L" n="173"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIII.
+<lb ed="#L" n="2"/>Utrum perniciosum sit dicere quod actus voluntatis non possit
+<lb ed="#L" n="3"/>fer se esse obiectum voluntatis.
+</p>
+            <p xml:id="v27ab7-g14834-d1e115">
+               <lb ed="#L" n="4"/>Postea ad secundum praedictorum, scilicet utrum dicere quod actus
+<lb ed="#L" n="5"/>voluntatis non possit esse per se obiectum voluntatis sit perniciosum,
+<lb ed="#L" n="6"/>arguebatur quod sic. Quia dicere contra veritatem Sacrae Scripturae est
+<lb ed="#L" n="7"/>perniciosum. Sed hoc dicere est dicere contra veritatem Sacrae Scripturae.
+<lb ed="#L" n="8"/>Quare et cetera. Maior patet. Minor probatur; quia dicitur in Psaltes :
+<lb ed="#L" n="9"/>concupivit anima mea desiderare iustificationes tuas in omni tempore. Sed
+<lb ed="#L" n="10"/>desiderare iustificationes Dei est actus voluntatis et tamen, ut patet, est
+<lb ed="#L" n="11"/>etiam obiectum ipsius voluntatis. Quare et cetera. Item, ibi dicitur in glossa !
+<lb ed="#L" n="12"/>quod dilectio qua diliguntur diligenda est diligenda. Sed diligere diligenda
+<lb ed="#L" n="13"/>est actus voluntatis et tamen, ut patet, hoc est obiectum voluntatis. Ouare
+<lb ed="#L" n="14"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g14834-d1e141">
+               <lb ed="#L" n="15"/>Contra. Dicere veritatem non est perniciosum ; sed hoc dicere est
+<lb ed="#L" n="16"/>dicere veritatem. Quare et cetera . Maior patet. Minor probatur : nam sicut
+<lb ed="#L" n="17"/>se habet intellectus ad suum actum et obiectum, ita voluntas ad suum ;
+<lb ed="#L" n="18"/>sed actus intellectus non est per se obiectum intellectus; immo actus
+<lb ed="#L" n="19"/>intellectus per se habet aliquid aliud pro obiecto, ut per se patet. Ergo
+<lb ed="#L" n="20"/>similiter et actus voluntatis non est per se obiectum voluntatis.
+</p>
+            <p xml:id="v27ab7-g14834-d1e158">
+               <lb ed="#L" n="21"/>Respondeo dicendum quod cum, prout dicit Philosophus, omnia bonum
+<lb ed="#L" n="22"/>appetant quia unumquodque naturaliter inclinatur in suam perfectionem
+<lb ed="#L" n="23"/>quae est bonum eius, oportet ponere quod intellectus cum non est in actu
+<lb ed="#L" n="24"/>intelligendi appetat suam perfectionem quae est intelligere aliquod 
+intelli<lb break="no" ed="#L" n="25"/>gibile sive suus actus intelligendi. Et similiter oportet ponere quod voluntas
+<lb ed="#L" n="26"/>vel quicumque appetitus animalis cum non est in actu appetendi aliquid
+<lb ed="#L" n="27"/>apprehensum a ratione vel sensu naturaliter appetit suam perfectionem 
+<lb ed="#L" n="28"/>quae est suum appetere vel velle aliquod ? bonum apprehensum. Sicut ergo
+<lb ed="#L" n="29"/>intellectus suo: naturali appetitu appetit esse suum intelligere, ita omnis
+<lb ed="#L" n="30"/>appetitus animalis, suo appetitu naturali sive naturaliter appetit esse suum 
+<lb ed="#L" n="31"/>appetere animale; hoc autem accipitur appetitus animalis pro omni appetitu
+<pb ed="#L" n="174"/>
+               <lb ed="#L" n="1"/>qui consequitur apprehensionem quamcumque sive intellectivam sive 
+sensi<lb break="no" ed="#L" n="2"/>tivam.
+</p>
+            <p xml:id="v27ab7-g14834-d1e191">
+               <lb ed="#L" n="3"/>Et est intelligendum quod actus appetendi quo unumquodque ens sive
+<lb ed="#L" n="4"/>animatum sive inanimatum naturaliter dicitur appetere suum bonum et
+<lb ed="#L" n="5"/>suam perfectionem, licet significetur verbaliter et per modum agendi, tamen
+<lb ed="#L" n="6"/>non est aliquis actus realiter differens a re vel natura cuius dicitur esse.
+<lb ed="#L" n="7"/>Appetitus enim materiae non est aliud ! quam naturalis eius potentialitas
+<lb ed="#L" n="8"/>et capacitas formae ipsam perficientis " Ex hoc enim quod est imperfecta
+<lb ed="#L" n="9"/>secundum formam et nata perfici per illam ex natura sua, illam dicitur
+<lb ed="#L" n="10"/>appetere sive ad illam inclinari naturaliter.
+</p>
+            <p xml:id="v27ab7-g14834-d1e211">
+               <lb ed="#L" n="11"/>Sed actus appetendi quo appetitus animalis secundum quod animalis
+<lb ed="#L" n="12"/>dicitur aliquid appetere est verus actus realiter differens ab ipso appetitu.
+<lb ed="#L" n="13"/>In hoc tamen conveniunt quod nullus talis actus appetitus est simpliciter
+<lb ed="#L" n="14"/>perfectivus appetentis, sed est quaedam inclinatio appetentis ad aliquid
+<lb ed="#L" n="15"/>aliud quod est per se obiectum talis actus, quamvis ipse actus appetitus
+<lb ed="#L" n="16"/>animalis sit aliqualis perfectio appetitus et etiam appetentis realiter differens
+<lb ed="#L" n="17"/>ab appetitu. Sicut enim materia quamdiu caret forma quam appetit suo
+<lb ed="#L" n="18"/>appetitu naturali est imperfecta, ita homo quamdiu caret scientia quam
+<lb ed="#L" n="19"/>appetit appetitu animali qui est actus aliquo modo perficiens appetitum
+<lb ed="#L" n="20"/>est imperfectus.
+</p>
+            <p xml:id="v27ab7-g14834-d1e235">
+               <lb ed="#L" n="21"/>Ex quo patet quod actus appetendi ? cuiuscumque appetitus sive sit
+<lb ed="#L" n="22"/>indifferens ab appetente sive sit differens non potest esse per se obiectum
+<lb ed="#L" n="23"/>ipsius appetitus, sed aliquid aliud. Actus enim sive inclinatio qua materia
+<lb ed="#L" n="24"/>dicitur appetere formam non est obiectum appetitus materiae, immo ipsa
+<lb ed="#L" n="25"/>forma appetita qua perficitur materia appetens ut perfectione ab ipsa realiter
+<lb ed="#L" n="26"/>differente. Et similiter in actu appetendi quo intellectus dicitur appetere
+<lb ed="#L" n="27"/>suum intelligere non est obiectum ipse appetitus  naturalis intellectus quo
+<lb ed="#L" n="28"/>appetit suum intelligere, immo ipsum intelligere est obiectum talis 
+appe<lb break="no" ed="#L" n="29"/>titus quo perficitur ipse intellectus appetens ut perfectione formali ab ipso
+<lb ed="#L" n="30"/>realiter differente; et similiter actus quo appetitus animalis naturaliter appetit
+<lb ed="#L" n="31"/>suam perfectionem, quae est appetere animaliter, non est obiectum 
+huius<lb break="no" ed="#L" n="32"/>modi appetitus naturalis, immo ipsum appetere animaliter est obiectum talis
+<lb ed="#L" n="33"/>appetitus. Ergo similiter actus quo appetitus animalis appetit aliquid 
+anima<lb break="no" ed="#L" n="34"/>liter non est per se obiectum appetitus animalis ut est animalis, immo
+<lb ed="#L" n="35"/>aliquid aliud. Ex quo videtur sequi quod sicut intellectus suo appetitu
+<lb ed="#L" n="36"/>naturali appetit omnem suam perfectionem naturaliter, id est omnem actum
+<pb ed="#L" n="175"/>
+               <lb ed="#L" n="1"/>intelligendi quo perficitur et non appetit aliquem actum appetendi 
+natu<lb break="no" ed="#L" n="2"/>ralem, quia unum et idem esset quo appeteretur ut actu et quod appeteretur
+<lb ed="#L" n="3"/>ut obiectum, quia actu appetendi appeteretur actus appetendi eiusdem
+<lb ed="#L" n="4"/>rationis. Ita etiam appetitus animalis suo appetitu et actu appetendi naturali
+<lb ed="#L" n="5"/>appetit omnem suam perfectionem naturaliter, id est omnem actum 
+appe<lb break="no" ed="#L" n="6"/>tendi animaliter quo perficitur et non appetit aliquem actum appetendi
+<lb ed="#L" n="7"/>naturalem, immo est id ipsum ; et sicut huiusmodi appetitus animalis ut
+<lb ed="#L" n="8"/>naturalis actu appetendi naturali non appetit aliquem actum appetendi
+<lb ed="#L" n="9"/>naturalem sed solum animalem, ita huiusmodi appetitus ut animalis actu
+<lb ed="#L" n="10"/>appetendi animali per se non appetit aliquem actum appetendi animalem
+<lb ed="#L" n="11"/>sed aliquid aliud. Et sic patet quod actus appetendi non est per se obiectum
+<lb ed="#L" n="12"/>animalis appetitus ut animalis est, id est quod actum ! appetendi ànimaliter
+<lb ed="#L" n="13"/>non appetit appetitus animalis per se per actum appetendi animalem. 
+Dic<lb break="no" ed="#L" n="14"/>torum autem istorum ratio est, quia perfectio uniuscuiusque quae naturaliter
+<lb ed="#L" n="15"/>appetitur est formalis perfectio et inhaerens ipsius appetentis ; et appetitus
+<lb ed="#L" n="16"/>quo huiusmodi perfectio appetitur, utpote materia, naturaliter appetit
+<lb ed="#L" n="17"/>formam quae est eius perfectio dicto modo. Et etiam intellectus naturaliter
+<lb ed="#L" n="18"/>appetit intelligere et voluntas velle, sed huiusmodi actus vel perfectio 
+appe<lb break="no" ed="#L" n="19"/>tita, ut dictum est, non potest esse ipse actus appetendi quo appetitur, sed
+<lb ed="#L" n="20"/>est illius obiectum. Sed quia talis actus appetendi non est aliud aliquid
+<lb ed="#L" n="21"/>re differens a natura appetente vel ab ipso appetitu qui tali perfectione
+<lb ed="#L" n="22"/>perficitur, ideo perfectio sic appetita quae sic est obiectum talis actus 
+appe<lb break="no" ed="#L" n="23"/>tendi est etiam perfectio talis naturae appetentis. Sed quia actus appetendi
+<lb ed="#L" n="24"/>animalis qui est perfectio ipsius appetitus formaliter et subiective est res
+<lb ed="#L" n="25"/>differens ab ipso appetitu, obiectum per se talis actus non potest esse
+<lb ed="#L" n="26"/>perfectio appetitus formalis ut inhaerens, sed ut movens et agens appetitum ?
+<lb ed="#L" n="27"/>ad talem actum et speciem dans actui, sed bene est perfectio formalis ut
+<lb ed="#L" n="28"/>inhaerens ipsi appetenti secundum aliam potentiam magis principalem, sicut
+<lb ed="#L" n="29"/>patet cum quis vult scire ; et eadem ratione talis actus appetendi non potest
+<lb ed="#L" n="30"/>esse per se obiectum actus appetendi? animalis dans rationem et speciem
+<lb ed="#L" n="31"/>tali actui ut obiectum formale, quia est per se et formaliter ipse actus
+<lb ed="#L" n="32"/>appetendi habens rationem et speciem ab obiecto alio per se. Voluntas ergo
+<lb ed="#L" n="33"/>appetitu naturali appetit omnem actum volendi animalem per se, sed appetitu
+<lb ed="#L" n="34"/>animali sive actu animali appetendi non appetit per se aliquem actum 
+appe<lb break="no" ed="#L" n="35"/>tendi animalem ; et quia quicquid appetit moraliter appetit actu appetendi
+<lb ed="#L" n="36"/>animali, ideo voluntas nullum actum suum per se appetit  moraliter.
+</p>
+            <p xml:id="v27ab7-g14834-d1e352">
+               <lb ed="#L" n="37"/>Unde, etiam cum voluntas actu animali appetat per se perfectionem
+<pb ed="#L" n="176"/>
+               <lb ed="#L" n="1"/>hominis appetentis et praecipue eius beatitudinem, beatitudo pro quanto
+<lb ed="#L" n="2"/>consistit in actu non potest per se et primo esse aliquis actus voluntatis,
+<lb ed="#L" n="3"/>quia actum beatificum per se volumus et nullum actum voluntatis per se
+<lb ed="#L" n="4"/>velle possumus. Sed quia, ut alias dictum est, sicut distinguitur appetitus
+<lb ed="#L" n="5"/>quo bonum appetitur, ita etiam bonum quod appetitur. Illud autem quod
+<lb ed="#L" n="6"/>appetitur appetitu naturali habet rationem boni naturalis et etiam ipse actus
+<lb ed="#L" n="7"/>appetendi et illud quod appetitur ab homine appetitu perfecte distincto
+<lb ed="#L" n="8"/>ab appetitu naturali habet rationem boni moralis et etiam actus quo hoc
+<lb ed="#L" n="9"/>appetitur tali appetitu dicitur actus appetendi moralis. Ex ' hoc videtur
+<lb ed="#L" n="10"/>quod voluntas nullum actum suum animalem per se velit moraliter sive
+<lb ed="#L" n="11"/>animaliter, sed naturaliter sive suo praedicto appetitu naturali. Sed illud
+<lb ed="#L" n="12"/>quod est per se obiectum talis actus appetendi animaliter solum per se
+<lb ed="#L" n="13"/>vult moraliter et illud dicitur bonum morale et etiam talis actus appetendi
+<lb ed="#L" n="14"/>dicitur actus moralis.
+</p>
+            <p xml:id="v27ab7-g14834-d1e389">
+               <lb ed="#L" n="15"/>Est tamen ad intellectum dictorum notandum quod non omnis actus
+<lb ed="#L" n="16"/>voluntatis ut est appetitus animalis, quo scilicet volumus aliquid aliud quod
+<lb ed="#L" n="17"/>non est actus voluntatis, est actus moralis proprie, ut scilicet sit laudabilis
+<lb ed="#L" n="18"/>vel culpabilis, nec huiusmodi obiectum proprie est bonum morale ; nam,
+<lb ed="#L" n="19"/>ut dictum est supra, bonum distinguimus ? secundum distinctionem 
+appe<lb break="no" ed="#L" n="20"/>tituum et e converso. Nunc autem cum distinguantur principia activa in
+<lb ed="#L" n="21"/>naturam et voluntatem, tunc  illud quod operatur naturaliter sive modo
+<lb ed="#L" n="22"/>naturae sub principio naturali includitur et similiter omne illud quod 
+appe<lb break="no" ed="#L" n="23"/>titur naturaliter sive modo naturae  sub bono naturae includitur, et talis
+<lb ed="#L" n="24"/>appetitus reducitur ad appetitum naturalem. Nunc autem ita est quod
+<lb ed="#L" n="25"/>appetitus sensitivus in bruto, etsi sequatur bonum apprehensum et in hoc
+<lb ed="#L" n="26"/>distinguatur ab appetitu pure naturali, quia tamen modo naturae, scilicet
+<lb ed="#L" n="27"/>determinate et cum impetu, fertur in tale bonum, ideo et obiectum et actus
+<lb ed="#L" n="28"/>huiusmodi ratione modi agendi ad entia naturalia reducuntur et non dicitur
+<lb ed="#L" n="29"/>actus moralis nec obiectum bonum morale. Similiter etiam quia voluntas
+<lb ed="#L" n="30"/>humana respectu finis ultimi sic se habet quod licet tendat in illum secundum
+<lb ed="#L" n="31"/>quod apprehensus est et in hoc differat ab appetitu pure naturali, quia
+<lb ed="#L" n="32"/>tamen in illum fertur modo naturae, scilicet necessitate immutabili et 
+deter<lb break="no" ed="#L" n="33"/>minate, ideo reducitur etiam ad entia naturalia sic quod voluntas naturaliter,
+<lb ed="#L" n="34"/>id est modo naturalis appetitus, dicitur appetere finem ultimum. Ideo
+<lb ed="#L" n="35"/>etiam proprie loquendo talis actus non est moralis nec eius obiectum
+<lb ed="#L" n="36"/>proprie est bonum morale, quia etiam tali actu proprie nec laudamur nec
+<pb ed="#L" n="177"/>
+               <lb ed="#L" n="1"/>vituaperamur quia nobis proprie non potest imputari , quia nec proprie
+<lb ed="#L" n="2"/>habemus dominium super ipsum nec nos sumus nobis ipsis causa respectu
+<lb ed="#L" n="3"/>talium actuum nec nos inclinamus proprie in illos, sed modo naturali 
+incli<lb break="no" ed="#L" n="4"/>namur  sic. Omne autem illud quod appetitur modo electivo dicitur appeti
+<lb ed="#L" n="5"/>appetitu perfecte distincto ab appetitu naturali; et similiter illud quod
+<lb ed="#L" n="6"/>appetitur tali appetitu dicitur bonum morale et talis actus appetitus actus
+<lb ed="#L" n="7"/>moralis est ?, quia secundum tales actus proprie laudamur et vituperamur.
+</p>
+            <p xml:id="v27ab7-g14834-d1e458">
+               <lb ed="#L" n="8"/>Sed quia huiusmodi actus voluntatis qui habent per se aliquid aliud
+<lb ed="#L" n="9"/>pro obiecto possunt apprehendi a ratione ut quaedam bona, non tamen
+<lb ed="#L" n="10"/>nisi ex bonitate obiectorum a quibus habent rationem et speciem, ideo etiam
+<lb ed="#L" n="11"/>per accidens possunt esse obiecta actus voluntatis, non quidem diversi
+<lb ed="#L" n="12"/>simpliciter et secundum speciem, sed iidem  secundum speciem et per
+<lb ed="#L" n="13"/>reflexionem iterati; nam cum volo aliquid et cum ille actus sit bonum
+<lb ed="#L" n="14"/>quoddam ex bonitate obiecti apprehensi sub ratione boni et convenientis,
+ex hac apprehensione voluntas ? reflectendo se super hunc actum sub
+<lb ed="#L" n="15"/>ratione cuiusdam obiecti, scilicet in quantum includit  ipsum obiectum
+<lb ed="#L" n="16"/>principale, potest illud velle et sic cum volo aliquid et apprehendo hoc,
+<lb ed="#L" n="17"/>scilicet velle illud esse quoddam bonum, volo me velle illud et habent isti
+<lb ed="#L" n="18"/>duo actus unum et idem principale et per se obiectum, immo etiam infiniti
+<lb ed="#L" n="19"/>si sic infinities fieret reflexio vel replicatio. De primo enim actu patet quid
+<lb ed="#L" n="20"/>est eius obiectum. De secundo etiam patet quod primus actus non est
+<lb ed="#L" n="21"/>obiectum secundum se et per se actus secundi, sed ratione sui principalis
+<lb ed="#L" n="22"/>obiecti sive in quantum illud includit, et sic ipsum obiectum primum et
+<lb ed="#L" n="23"/>principale magis et per se est obiectum secundi actus et omnium aliorum
+<lb ed="#L" n="24"/>actuum. Cum enim volo aequum et volo me velle aequum et volo me velle
+<lb ed="#L" n="25"/>velle aequum, non volo nisi unum per se et principaliter. Ita etiam cum
+<lb ed="#L" n="26"/>diligo Deum et diligo me diligere Deum et diligo me diligere diligere
+<lb ed="#L" n="27"/>Deum  non est nisi unum per se dilectum, scilicet Deus. Et sic patet quod
+<lb ed="#L" n="28"/>dicere quod actus voluntatis non possit esse primum et per se obiectum
+<lb ed="#L" n="29"/>eius non est perniciosum, sed est verum ; sed dicere quod nullus actus
+<lb ed="#L" n="30"/>voluntatis possit esse obiectum "" voluntatis per accidens sive secundarium
+<lb ed="#L" n="31"/>et per reflexionem, hoc posset esse perniciosum. Et sic etiam dicere quod
+<lb ed="#L" n="32"/>voluntas non possit aliquo modo velle actum suum moraliter non est bene
+<lb ed="#L" n="33"/>dictum, quia si actus principalis est moralis et actus reflexus etiam est
+<lb ed="#L" n="34"/>moralis. Si autem actus !" principalis non sit proprie moralis, nec etiam
+<lb ed="#L" n="35"/>reflexus proprie est moralis.
+</p>
+            <p xml:id="v27ab7-g14834-d1e521">
+               <pb ed="#L" n="178"/>
+               <lb ed="#L" n="1"/>Ad rationem patet responsio, quia auctoritates non dicunt quod
+<lb ed="#L" n="2"/>aliquis actus voluntatis sic ! sit obiectum voluntatis, scilicet per se et
+<lb ed="#L" n="3"/>primo, sed per reflexionem et secundario, ut patet cum dicitur quod
+<lb ed="#L" n="4"/>dilectio qua diliguntur  diligenda est diligenda vel quod debeo diligere
+<lb ed="#L" n="5"/>me diligere Deum et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

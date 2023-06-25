@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g01740"><!-- v27ab7-q5-q6 -->
+            <head xml:id="v27ab7-g01740-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-g01740-Hd1e101" type="question-title">
+      Utrum in angelis sit aliquod principium activum aliud
+      ab intellectu et voluntate
+    </head>
+            <p xml:id="v27ab7-g01740-d1e104">
+               <lb ed="#L" n="22"/>QUAESTIO VI.
+<lb ed="#L" n="23"/>Utrum in angelis sit aliquod principium activum aliud
+<lb ed="#L" n="24"/>ab intellectu et voluntate.
+</p>
+            <p xml:id="v27ab7-g01740-d1e113">
+               <lb ed="#L" n="25"/>Deinde circa creaturas quaerebantur quaedam pertinentia ad naturam
+<lb ed="#L" n="26"/>pure spiritualem, scilicet angelicam ; quaedam pertinentia ad naturam pure
+<lb ed="#L" n="27"/>corporalem, scilicet quantum ad corpus caeleste; quaedam pertinentia ?
+<lb ed="#L" n="28"/>ad naturam compositam ex substantia corporali et spirituali, scilicet 
+quan<lb break="no" ed="#L" n="29"/>tum ad hominem.
+</p>
+            <p xml:id="v27ab7-g01740-d1e126">
+               <lb ed="#L" n="30"/>Circa naturam angelicam quaerebatur unum scilicet, utrum in angelis
+<pb ed="#L" n="22"/>
+               <lb ed="#L" n="1"/>sit aliquod principium activum aliud ab intellectu et voluntate. Et 
+argue<lb break="no" ed="#L" n="2"/>batur quod sic quia, secundum Damascenum, angelus ibi est ubi operatur.
+<lb ed="#L" n="3"/>Ergo oportet? in angelo esse aliquid per quod habeat esse ubi operatur,
+<lb ed="#L" n="4"/>et.per quod possit applicari ei circa quod operatur. Sed intellectus et
+<lb ed="#L" n="5"/>voluntas in angelo non sunt huiusmodi, quia secundum  haec ita se habet
+<lb ed="#L" n="6"/>angelus ad propinquum et remotum quia remota cognoscit et diligit ; ergo
+<lb ed="#L" n="7"/>praeter haec oportet po nere aliquod aliud principium activum in eis.
+</p>
+            <p xml:id="v27ab7-g01740-d1e149">
+               <lb ed="#L" n="8"/>Contra. Angelus est simplicior quam anima rationalis ; ergo non 
+viden<lb break="no" ed="#L" n="9"/>tur esse plura principia sed potius pauciora in angelo quam in anima
+<lb ed="#L" n="10"/>rationali, ubi non ponuntur plura principia activa quam intellectus et
+<lb ed="#L" n="11"/>voluntas. Ergo nec in angelo debent plura poni.
+</p>
+            <p xml:id="v27ab7-g01740-d1e160">
+               <lb ed="#L" n="12"/>Respondeo dicendum quod si angeli essent motores orbium modo quo
+<lb ed="#L" n="13"/>philosophi posuerunt, sic scilicet quod natura eorum esset movere, nec
+<lb ed="#L" n="14"/>secundum se essent in sua perfectione si non moverent et quod moverent
+<lb ed="#L" n="15"/>per suam essentiam ; quia in eis non differt secundum ipsos substantia
+<lb ed="#L" n="16"/>virtus et operatio, non esset in eis aliquid additum suae substantiae ? per
+<lb ed="#L" n="17"/>quod  corpora quaecumque moverent. Etenim quaecumque in eis, 
+secun<lb break="no" ed="#L" n="18"/>dum philosophos, ultra essentiam ponuntur non sunt plura et differentia
+<lb ed="#L" n="19"/>nisi secundum rationem, sicut et in Deo ponimus nos. Sed quia hoc non
+<lb ed="#L" n="20"/>est ponendum, — nam nec moveri est ? perfectio naturalis corporum 
+caeles<lb break="no" ed="#L" n="21"/>tium sic quin cessare debeat motus huiusmodi, — nec etiam sic est natura
+<lb ed="#L" n="22"/>angelorum deputata ad movendum ipsa corpora quod non habeant suam
+<lb ed="#L" n="23"/>perfectionem nisi ipsis existentibus in movendo. Ideo nec oportet ponere
+<lb ed="#L" n="24"/>quod movent per suam essentiam et naturam, sed per aliquam virtutem
+<lb ed="#L" n="25"/>activam in eis existentem quae tamen caelo non necessario sit applicata.
+<lb ed="#L" n="26"/>Cum autem sint substantiae spirituales et intellectuales, non videtur quod
+<lb ed="#L" n="27"/>in eis sit aliqua potentia quae sit principium alicuius operationis nisi 
+intel<lb break="no" ed="#L" n="28"/>lectus et voluntas. Et sicut in nobis sunt plures virtutes passivae vel quasi 
+<lb ed="#L" n="29"/>passivae apprehensivae, in eis autem non est nisi una quae intellectus
+<lb ed="#L" n="30"/>dicitur, omnem vim apprehensivam nobiliori modo quadam virtute 
+eminen<lb break="no" ed="#L" n="31"/>tiori continens; ita etiam cum in nobis sint plures virtutes activae vel
+<lb ed="#L" n="32"/>quasi activae scilicet appetitus intellectivus sive voluntas, et etiam aliquo
+<lb ed="#L" n="33"/>modo sensitivus, et etiam illa potentia quae motiva secundum locum
+<lb ed="#L" n="34"/>dicitur ; videtur quod in angelis erit solum una potentia activa secundum
+<lb ed="#L" n="35"/>rem, multiplex virtute quae voluntas dicitur. Nec tamen dicetur angelus
+<lb ed="#L" n="36"/>movere caelum sola voluntate, quod est reprobatum inter articulos condem-
+<pb ed="#L" n="23"/>
+               <lb ed="#L" n="1"/>natos , quia illud dicitur moveri ! sola voluntate alicuius quod omnino 
+<lb ed="#L" n="2"/>movetur ? secundum eius libitum et non secundum aliquam determinationem
+<lb ed="#L" n="3"/>et proportionem eius ad illud ? et ad finem propter quem movere habet . Non
+<lb ed="#L" n="4"/>sic autem dicetur angelus movere caelum voluntate, quia angelus bonus non
+<lb ed="#L" n="5"/>movet nisl secundum quod ei praestitutum ? est a Deo cuius est minister,
+<lb ed="#L" n="6"/>malus  autem non agit circa corpora nisi secundum quod ei a Deo est
+<lb ed="#L" n="7"/>permissum. Unde Augustinus de malo dicit undecimo super Genesim,
+<lb ed="#L" n="8"/>capitulo decimo septimo : diabolus suam habet voluntatem vel cupiditatem
+<lb ed="#L" n="9"/>nocendi, facultatem autem vel potestatem nec ut faciat habet, nec quomodo
+<lb ed="#L" n="10"/>faciat nisi quia permissus est. Et sic cum divina permissione laxatur frenum
+<lb ed="#L" n="11"/>voluntati daemonum ; ipsi sua voluntate faciunt quod faciunt. De bonis
+<lb ed="#L" n="12"/>autem dicit Augustinus octavo super Genesim ad litteram capitulo XXXI :
+<lb ed="#L" n="13"/>Dei providentia regens atque administrans universam creaturam subdit
+<lb ed="#L" n="14"/>primitus omnia sibi, deinde corporalem creaturam spirituali, irrationalem
+<lb ed="#L" n="15"/>rationali, terrestrem caelesti, ac per haec sublimibus angelis Deo subdite
+<lb ed="#L" n="16"/>fruentibus, et Deo beate servientibus, subdita est omnis natura corporea,
+<lb ed="#L" n="17"/>omnis irrationalis  vita, omnis voluntas vel infirma vel parva , ut hoc
+<lb ed="#L" n="18"/>de subditis agant quod naturae ordo poscit, in omnibus illo iubente cui
+<lb ed="#L" n="19"/>subiecta sunt omnia, et eius in inferioribus iussa perficiunt, moventes se
+<lb ed="#L" n="20"/>per tempus, corpus autem per tempus et locum. Constat autem quod non
+<lb ed="#L" n="21"/>movent se nisi voluntate, et eadem virtute dicto modo regulata quo movent
+<lb ed="#L" n="22"/>se, videntur movere corpora, ut scilicet moveri ipsos voluntate sua est ipsos
+<lb ed="#L" n="23"/>habere esse ubi volunt sive coniungi corpori in ? ratione moventis cui
+<lb ed="#L" n="24"/>volunt et sic coniuncta sua voluntate huiusmodi corpora movent 
+secun<lb break="no" ed="#L" n="25"/>dum quod eis est praestitutum.
+</p>
+            <p xml:id="v27ab7-g01740-d1e273">
+               <lb ed="#L" n="26"/>Sed quia contra articulum dicere non intendo, quia etiam "! videtur in
+<lb ed="#L" n="27"/>solo Deo ubi velle est agere hoc habere locum quod sola voluntate facit
+<lb ed="#L" n="28"/>quae sibi placent in omni creatura, videtur in angelis aliquo modo appetitus
+<lb ed="#L" n="29"/>distinguendus a virtute motiva sicut ab apprehensiva. Nam sicut opus
+<lb ed="#L" n="30"/>apprehensivae est operationem extrinsecam apprehendere et regulare, et
+<lb ed="#L" n="31"/>in hoc etiam ipsum appetitum dirigere, ita opus voluntatis videtur esse id
+<pb ed="#L" n="24"/>
+               <lb ed="#L" n="1"/>quod extrinsecus faciendum apprehensum est appetere vel velle, et ut fiat
+<lb ed="#L" n="2"/>imperare. Et quia imperare quod aliquid fiat non est facere illud, sicut nec
+<lb ed="#L" n="3"/>dirigere faciendum est velle vel facere illud, sed est movere vel impellere
+<lb ed="#L" n="4"/>potentiam motivam vel operativam ad eliciendum huiusmodi actum exterius
+<lb ed="#L" n="5"/>transeuntem, videtur quod cum voluntate sit ibi aliquo modo virtus motiva
+<lb ed="#L" n="6"/>ponenda, quae ab intellectu et voluntate movetur ad exercitium sui actus,
+<lb ed="#L" n="7"/>et applicatur ad movendum corpus, quod voluntas vel angelus voluntate
+<lb ed="#L" n="8"/>sua vult movere. Quia tamen ista virtus motiva est! quid spirituale, simplex,
+<lb ed="#L" n="9"/>indivisibile, et non materiale nec locale, — sicut si  sola voluntate moveret
+<lb ed="#L" n="10"/>non diceretur quod hoc contingeret per approximationem localem sed
+<lb ed="#L" n="11"/>solum per hoc quod ipse actus voluntatis eliceretur a voluntate angeli quae
+<lb ed="#L" n="12"/>est virtus in natura, quae est naturaliter super corporalem substantiam
+<lb ed="#L" n="13"/>constituta, cum quadam applicatione et in ordine ad corpus movendum,
+<lb ed="#L" n="14"/>et sic natura angelica existens in actu volendi tali mox tale corpus esset in
+<lb ed="#L" n="15"/>actu movendi; — ita etiam si ponatur huiusmodi virtus alia  a voluntate,
+<lb ed="#L" n="16"/>non ideo ponetur quod ipsa realiter secundum approximationem localem
+<lb ed="#L" n="17"/>accedat, modo ad unum corpus, modo ad aliud ut corpus moveatur, sicut
+<lb ed="#L" n="18"/>etiam nec voluntas si sola poneretur movens non propter hoc poneretur 
+<lb ed="#L" n="19"/>movens corpus quia accederet vel approximaret localiter ipsa voluntas
+<lb ed="#L" n="20"/>mobili corpori, nec ideo etiam ponetur talis virtus motiva quia ipsa suo
+<lb ed="#L" n="21"/>actu magis accedat vel coniungatur corpori quam voluntas suo actu 
+dice<lb break="no" ed="#L" n="22"/>retur approximari vel coniungi si sola poneretur movens. Sed ponetur talis
+<lb ed="#L" n="23"/>virtus proxime et immediate motiva propter ordinem potentiarum, quia
+<lb ed="#L" n="24"/>scilicet apprehendere et appetere motum vel rem movere vel imperare quod
+<lb ed="#L" n="25"/>corpus aliquod  moveatur non sufficit, sed requiritur tertia potentia 
+execu<lb break="no" ed="#L" n="26"/>tiva per eius actum sic apprehensi et imperati; et per hoc patet ad 
+argu<lb break="no" ed="#L" n="27"/>menta. Cum enim dicitur quod in anima rationali  hominis non est aliqua
+<lb ed="#L" n="28"/>alia virtus motiva ultra intellectum et voluntatem, ergo similiter erit in
+<lb ed="#L" n="29"/>angelo, dicendum quod non est simile, quia anima rationalis naturaliter
+<lb ed="#L" n="30"/>debet esse unita corpori humano ut forma dans illi et esse et? moveri ;
+<lb ed="#L" n="31"/>existens autem in corpore habet cum potentiis sensitivis apprehensivis
+<lb ed="#L" n="32"/>organicis etiam potentiam motivam organicam quae sufficit ad movendum 
+<lb ed="#L" n="33"/>corpus cui deputatur, ideo non oportet quod habeat cum potentia 
+intellec<lb break="no" ed="#L" n="34"/>tiva et volitiva quae sunt potentiae non organicae aliam potentiam motivam
+<lb ed="#L" n="35"/>non organicam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="369"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g31993"><!-- v27ab7-q7-q9 -->
+            <head xml:id="v27ab7-g31993-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-g31993-Hd1e101" type="question-title">
+      Utrum intellectus humanus antequam actu intelligat sit talis res
+      vel natura quod sit secundum se intelligibilis
+    </head>
+            <p xml:id="v27ab7-g31993-d1e104">
+               <pb ed="#L" n="369"/>
+               <lb ed="#L" n="1"/>QUAESTIO IX.
+<lb ed="#L" n="2"/>Utrum intellectus humanus antequam actu intelligat sit talis res
+<lb ed="#L" n="3"/>vel natura quod sit secundum se intelligibilis.
+</p>
+            <p xml:id="v27ab7-g31993-d1e115">
+               <lb ed="#L" n="4"/>Post hoc circa naturam humanam quaerebantur quaedam pertinentia ad
+<lb ed="#L" n="5"/>omnes homines generaliter, quaedam pertinentia ad quosdam homines 
+specia<lb break="no" ed="#L" n="6"/>liter. Circa primum quaerebantur quaedam pertinentia ad ipsam naturam vel
+<lb ed="#L" n="7"/>essentiam hominis, et hoc quantum ad id quod pertinet ad ipsam animam quae
+<lb ed="#L" n="8"/>est substantialis hominis forma, quaedam pertinentia ad ea quae sunt nata ipsi
+<lb ed="#L" n="9"/>animae accidentaliter vel extrinsecus convenire. Circa primum horum 
+quaere<lb break="no" ed="#L" n="10"/>batur unum, scilicet utrum intellectus humanus, antequam actu intelligat, sit
+<lb ed="#L" n="11"/>talis res vel natura quod sit secundum se intelligibilis. Et arguitur quod sic ; 
+<lb ed="#L" n="12"/>quia illud in quo invenitur ratio primi intelligibilis sive prima ratio intelligendi
+<lb ed="#L" n="13"/>est intelligibile. Sed in ipso intellectu, etiam antequam intelligat, invenitur
+<lb ed="#L" n="14"/>ratio primi intelligibilis sive prima ratio intelligendi ; ergo et cetera. Maior
+<lb ed="#L" n="15"/>patet. Minor declaratur, quia secundum Avicennam, prima ratio intelligendi
+<lb ed="#L" n="16"/>est ens, sive ens secundum quod est ' ens est primum intelligibile. Sed ratio
+<lb ed="#L" n="17"/>entitatis invenitur in ipso intellectu, etiam antequam intelligat, nam ipsa anima
+<lb ed="#L" n="18"/>intellectiva non solum est ens quod sit pura potentia sicut materia, sed ens
+<lb ed="#L" n="19"/>actuale, quia est forma specifica hominis ; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g31993-d1e152">
+               <lb ed="#L" n="20"/>Contrarium videtur dicere Philosophus et Commentator, tertio de Anima.
+</p>
+            <p xml:id="v27ab7-g31993-d1e158">
+               <lb ed="#L" n="21"/>Responsio. Circa hoc est intelligendum quod, cum obiectum intellectus
+<lb ed="#L" n="22"/>sit ens secundum quod sua actualitate potest esse motivum et informativum
+<lb ed="#L" n="23"/>intellectus, quicquid est actu ens per se, vel quia est forma et actus simplex
+<lb ed="#L" n="24"/>per se subsistens, vel quia, licet ' in se contineat ens secundum potentiam sive
+<lb ed="#L" n="25"/>potentiale, illud tamen est perfectum per actum simpliciter quo totum 
+compo<lb break="no" ed="#L" n="26"/>situm est ens simpliciter et per se in actu ; omne, inquam, tale potest esse actu
+<lb ed="#L" n="27"/>intelligibile, nisi forte per accidens, in quantum scilicet secundum esse quod
+<lb ed="#L" n="28"/>habet in rebus, non existit nisi contractum et determinatum accidentibus 
+desi<lb break="no" ed="#L" n="29"/>gnativis, quae non sunt per se obiecta secundum talem modum essendi 
+intel<lb break="no" ed="#L" n="30"/>lectus. Talia autem sunt omnia singularia materialia secundum esse quod
+<lb ed="#L" n="31"/>habent ut determinata per hic ' et nunc ; ut sic enim sunt obiecta solum sensus,
+<pb ed="#L" n="370"/>
+               <lb ed="#L" n="1"/>et ideo ut sic non possunt esse per se obiectum intellectus, quia illud quod est
+<lb ed="#L" n="2"/>per se obiectum alicuius virtutis apprehensivae sensitivae et organicae non
+<lb ed="#L" n="3"/>potest esse per se obiectum ' virtutis apprehensivae alterius rationis, quae 
+scili<lb break="no" ed="#L" n="4"/>cet est abstracta non utens organo. Illa tamen natura quae sic existit 
+particu<lb break="no" ed="#L" n="5"/>lariter et divisa secundum tales condiciones accidentales, quia vere est ens in
+<lb ed="#L" n="6"/>actu aut verum actum importans, per abstractionem a talibus condicionibus
+<lb ed="#L" n="7"/>virtute luminis intellectus agentis nata est intelligi et considerari ab intellectu
+<lb ed="#L" n="8"/>secundum se absolute communi et universali apprehensione absque talibus
+<lb ed="#L" n="9"/>condicionibus. Si ergo intellectus secundum se non sit aliquid intelligibile, aut
+<lb ed="#L" n="10"/>hoc est quia secunduni se nihil est in actu, sed est pura potentia ad aliquod esse
+<lb ed="#L" n="11"/>vel ad aliquem actum, vel quia est actus alicuius compositi perficiens materiam
+<lb ed="#L" n="12"/>secundum esse particulatum et determinatum per condiciones materiales sive
+<lb ed="#L" n="13"/>accidentales praedictas.
+</p>
+            <p xml:id="v27ab7-g31993-d1e215">
+               <lb ed="#L" n="14"/>Sed non videtur repugnare intelligibilitati propter hoc secundum dictum,
+<lb ed="#L" n="15"/>quia per intellectum intelligimus ad praesens substantiam animae rationalis
+<lb ed="#L" n="16"/>secundum quod in ea est potentia cognoscitiva quae dicitur intellectus . Nunc
+<lb ed="#L" n="17"/>autem, ut probatur et a sanctis et a philosophis, ex eius operatione quae non
+<lb ed="#L" n="18"/>determinat sibi aliquam partem organicam in corpore, oportet quod ipsa 
+secun<lb break="no" ed="#L" n="19"/>dum suam essentiam sit natura sic immaterialis quod non dependeat in esse suo
+<lb ed="#L" n="20"/>a materia, quia nec de potentia materiae extensae et determinatae per 
+genera<lb break="no" ed="#L" n="21"/>tionem compositi per se educitur, nec etiam per corruptionem eiusdem 
+com<lb break="no" ed="#L" n="22"/>positi per se corrumpitur, nec in potentia materiae resolvitur ; sed est quaedam
+<lb ed="#L" n="23"/>natura sic abstracta ex se a materia et omnes formas materiales excedens et
+<lb ed="#L" n="24"/>etiam naturaliter, id est absque miraculo, nata est per se existere sine omni
+<lb ed="#L" n="25"/>materia, et in hoc cum substantiis separatis quas angelos dicimus conveniens,
+<lb ed="#L" n="26"/>quamvis etiam cum hoc sic sit ad materiam habens habitudinem sive aliqualem
+<lb ed="#L" n="27"/>dependentiam, quod nata est in ratione formae convenire ad constitutionem
+<lb ed="#L" n="28"/>compositi perfecti. Ex quo contingit quod in suo esse separato quandam 
+imper<lb break="no" ed="#L" n="29"/>fectionem habet, cum pars perfectiorem modum essendi habeat in toto quam
+<lb ed="#L" n="30"/>secundum se ; in quo deficit a perfectione et actualitate aliarum substantiarum
+<lb ed="#L" n="31"/>separatarum. Unde licet, perficiat materiam, tamen propter hoc non impeditur
+<lb ed="#L" n="32"/>eius intelligibilitas ; quia sicut in eius esse non dependet a materia, ita nec in
+<lb ed="#L" n="33"/>eius cognoscibilitate.
+</p>
+            <p xml:id="v27ab7-g31993-d1e261">
+               <lb ed="#L" n="34"/>Et ideo restat inquirendum utrum hoc ei repugnet propter primum, et
+<lb ed="#L" n="35"/>videtur quod sic. Quia, cum sint duo genera entium, scilicet materialia quae et 
+<lb ed="#L" n="36"/>sensibilia dicuntur, et immaterialia quae intelligibilia vocantur, sicut in genere
+<lb ed="#L" n="37"/>materialium est aliquod ens infirmum nihil actualitatis importans, sicut materia
+<lb ed="#L" n="38"/>prima quae dicitur pure potentia in genere substantiarum compositarum sive
+<pb ed="#L" n="371"/>
+               <lb ed="#L" n="1"/>materialium, — ita videtur quod debeat esse in genere substantiarum 
+intellectua<lb break="no" ed="#L" n="2"/>lium. Sed illud quod infimum gradum entitatis tenet in genere intellectualium
+<lb ed="#L" n="3"/>est natura animae rationalis. Ergo ipsa nihil actualitatis importat, sed est pura
+<lb ed="#L" n="4"/>potentia in illo genere. Et hoc videtur aliquibus  propter auctoritatem 
+Philo<lb break="no" ed="#L" n="5"/>sophi et Commentatoris in tertio de Anima, ubi dicitur quod intellectus nihil
+<lb ed="#L" n="6"/>est eorum quae sunt ante intelligere. Et hoc arguitur ratione quia, si ' 
+intellec<lb break="no" ed="#L" n="7"/>tus secundum se sit aliquid intelligibile in actu antequam alia intelligat, — cum,
+<lb ed="#L" n="8"/>ut dictum est, sit res separata a materia dicto modo, — ergo se ipsam et per
+<lb ed="#L" n="9"/>consequens alias res immateriales intelligeret antequam alia intelligeret ; quod
+<lb ed="#L" n="10"/>non videtur, quia intelligere est ipsius totius coniuncti. Nos etiam talem actum
+<lb ed="#L" n="11"/>in nobis non percipimus, immo nec ipsum nostrum intellectum nec alia etiam
+<lb ed="#L" n="12"/>separataintelligere possumus, nisi prius materialia per phantasmata intelligamus.
+<lb ed="#L" n="13"/>Item, arguit Commentator sic : recipiens debet  esse totaliter denudatum a
+<lb ed="#L" n="14"/>natura recepti, alioquin idem reciperet se ipsum. Sed intellectus est receptibilis
+<lb ed="#L" n="15"/>secundum actum intelligendi omnium formarum intelligibilium. Ergo ab 
+omni<lb break="no" ed="#L" n="16"/>bus debet esse denudatus.
+</p>
+            <p xml:id="v27ab7-g31993-d1e311">
+               <lb ed="#L" n="17"/>Sed ista non valent. Non enim potest intelligi in natura entis  quod 
+ali<lb break="no" ed="#L" n="18"/>quid habeat rationem purae potentiae nisi unum solum, sicut nec potest 
+intel<lb break="no" ed="#L" n="19"/>ligi quod aliquid habeat rationem ?actus puri nisi unum.Nam,cum solus actus et
+<lb ed="#L" n="20"/>forma distinguat, in eo quod omnem rationem  actus et formae excludit, nulla
+<lb ed="#L" n="21"/>potest intelligi distinctio, prout est alibi  declaratum. Ergo patet quod 
+intellec<lb break="no" ed="#L" n="22"/>tus non potest importare entitatem quae sit pura potentia, quia tunc non 
+differ<lb break="no" ed="#L" n="23"/>ret realiter a substantia materiae primae, et sic perficeretur substantialiter et
+<lb ed="#L" n="24"/>non intentionaliter per formas materiales.
+</p>
+            <p xml:id="v27ab7-g31993-d1e331">
+               <lb ed="#L" n="25"/>Praeterea, cum intellectus sit forma et perfectio no  bilioris naturae, 
+sci<lb break="no" ed="#L" n="26"/>licet humanae, et perfectiones aliarum specierum entis non sunt purae 
+poten<lb break="no" ed="#L" n="27"/>tiae, sed actus simpliciter, quia dant esse simpliciter — pura enim potentia cum
+<lb ed="#L" n="28"/>pura potentia non facit compositum esse in actu — et essent intelligibiles de
+<lb ed="#L" n="29"/>se nisi impedirent condiciones materiales; multo magis hoc debet poni de anima
+<lb ed="#L" n="30"/>humana ; quare manifestum est quod intellectus, prout de ipso loquimur, non
+<lb ed="#L" n="31"/>potest esse potentia simpliciter, sed est actus simpliciter.
+</p>
+            <p xml:id="v27ab7-g31993-d1e349">
+               <lb ed="#L" n="32"/>Nec valet simile, immo magis est ad oppositum. Nam verum est quod, sicut
+<lb ed="#L" n="33"/>est aliquid potentiale materiale, immo quod est vere et solum potentia et materia
+<lb ed="#L" n="34"/>nullo modo actus respectu formarum materialium secundum esse materiale et
+<lb ed="#L" n="35"/>perfectibile per eas, ita etiam est aliquid potentiale respectu formarum intelligi-
+<pb ed="#L" n="372"/>
+               <lb ed="#L" n="1"/>bilium, id est respectu formarum materialium sub ratione intelligibilis et 
+uni<lb break="no" ed="#L" n="2"/>versalis considerabilium, et sic secundum esse intelligibile illud potentiale 
+per<lb break="no" ed="#L" n="3"/>ficientium. Sed, prout arguit Commentator, illud quod est in potentia ad omnes
+<lb ed="#L" n="4"/>intentiones universalium formarum materialium et recipit formas universales
+<lb ed="#L" n="5"/>et non singulares, est natura cognoscens et formas ipsas distinguens. Materia
+<lb ed="#L" n="6"/>autem est. receptiva formarum materialium singularium, et particulariter,
+<lb ed="#L" n="7"/>propter quod eas non cognoscit. Ergo natura intellectus non est natura purae
+<lb ed="#L" n="8"/>materiae, nec est pura potentia ; sed oportet quod sit sic in actu realiter et 
+sub<lb break="no" ed="#L" n="9"/>stantialiter secundum se, quod etiam sit in potentia receptiva formarum 
+mate<lb break="no" ed="#L" n="10"/>rialium secundum esse intelligibile, id est secundum rationem universalis et
+<lb ed="#L" n="11"/>abstracti.
+</p>
+            <p xml:id="v27ab7-g31993-d1e387">
+               <lb ed="#L" n="12"/>Descendendo igitur et applicando ad propositum est intelligendum quod,
+<lb ed="#L" n="13"/>quamvis intellectus sit natura sic abstracta quod natus est per se existere sine
+<lb ed="#L" n="14"/>materia, et cum hoc etiam sic sit materialis quod perficiendo materiam natus
+<lb ed="#L" n="15"/>est constituere compositum perfectum quod est homo, possumus loqui de 
+intel<lb break="no" ed="#L" n="16"/>lectu secundum hunc duplicem modum essendi diversimode.
+</p>
+            <p xml:id="v27ab7-g31993-d1e400">
+               <lb ed="#L" n="17"/>Nam loquendo de ipso secundum primam eius considerationem, sic est
+<lb ed="#L" n="18"/>quaedam substantia separata et quoddam suppositum, id est quoddam secundum
+<lb ed="#L" n="19"/>se existens et subsistens, licet non habeat perfecte rationem suppositi et 
+per<lb break="no" ed="#L" n="20"/>sonae. Et sic est dicendum quod etiam est intelligibile quoddam de se, eo quod
+<lb ed="#L" n="21"/>est actus non limitatus nec contractus secundum condiciones materiales 
+supra<lb break="no" ed="#L" n="22"/>dictas, et est intelligibilis ab aliis substantiis separatis et a se ipso et natus
+<lb ed="#L" n="23"/>intelligere alias substantias separatas ', sicut aliae substantiae separatae, scilicet
+<lb ed="#L" n="24"/>angeli nati sunt intelligere se et alia separata, licet imperfectiori modo haec
+<lb ed="#L" n="25"/>conveniant animae separatae quam angelis, quia est quid imperfectissimum in
+<lb ed="#L" n="26"/>genere intellectualis naturae.
+</p>
+            <p xml:id="v27ab7-g31993-d1e424">
+               <lb ed="#L" n="27"/>Loquendo autem de ipsa secundo modo, quia ut sic est pars cuiusdam com.
+<lb ed="#L" n="28"/>positi cuius est per se elicere operationes modo convenienti sibi, distinguendum
+<lb ed="#L" n="29"/>est, quia istud compositum potest considerari ut continet quantum ad alteram
+<lb ed="#L" n="30"/>partem corpus animale et corruptibile animae non omnino et perfecte obediens
+<lb ed="#L" n="31"/>et subiectum, sed aliquo modo impediens ipsam, et hoc pro statu vitae 
+prae<lb break="no" ed="#L" n="32"/>sentis ; vel ut continet corpus spirituale et incorruptibile animae omnino 
+per<lb break="no" ed="#L" n="33"/>fecte obediens et ipsum nullo modo impediens, sed potius adiuvans.
+</p>
+            <p xml:id="v27ab7-g31993-d1e442">
+               <lb ed="#L" n="34"/>Loquendo de ipsa anima primo modo, cum  ut sic sit perfectio corporis
+<lb ed="#L" n="35"/>cuius admini culo indiget in suis operationibus quae sunt totius coniuncti, ita
+<lb ed="#L" n="36"/>quod corpus subiectum cooperetur animae in sua operatione, non quidem ut
+<lb ed="#L" n="37"/>organum in quo exerceatur huiusmodi operatio, sed ut instrumentum aliquod
+<lb ed="#L" n="38"/>necessarium ad hoc quod ei possit suum obiectum praesentari, sic non est nata
+<lb ed="#L" n="39"/>intelligere primo et per se aliquid nisi adminiculo sensuum et phantasmatum ;
+<pb ed="#L" n="373"/>
+               <lb ed="#L" n="1"/>et ideo non est intelligibilis a se ipsa ut sic, nisi in quantum cadere potest 
+ali<lb break="no" ed="#L" n="2"/>quo modo sub phantasmate. Et quia non potest habere phantasma proprium ',
+<lb ed="#L" n="3"/>oportet quod mediante phantasmate alicuius formae materialis intelligatur, ut
+<lb ed="#L" n="4"/>sic primo oporteat intelligi aliquod materiale sub ratione universalis ; et sic,
+<lb ed="#L" n="5"/>cum intellectus sit potentia abstracta potens reflecti super suum actum 
+pro<lb break="no" ed="#L" n="6"/>prium et res per suum actum nata est cognosci et intelligi, ideo ut sic intellectus
+<lb ed="#L" n="7"/>non est a se intelligibilis antequam aliquid aliud intelligat, sed per actum suum
+<lb ed="#L" n="8"/>quo primo aliud intelligit potest etiam se ipsum intelligere. Et ideo etiam ut
+<lb ed="#L" n="9"/>sic coniunctus est intellectus corpori non potest substantias separatas 
+intelli<lb break="no" ed="#L" n="10"/>gere secundum se, quia nec illae habent phantasmata ; nec etiam actus 
+intelli<lb break="no" ed="#L" n="11"/>gendi quem intellectus ex phantasmatibus habet est actus eorum proprius, sed
+<lb ed="#L" n="12"/>est eorum actibus aliquo modo similis. Et ideo, licet se possit cognoscere per
+<lb ed="#L" n="13"/>suum actum sibi sive suae naturae proprium, non tamen sic potest cognoscere 
+<lb ed="#L" n="14"/>separata, sed tantum per quandam analogiam et attributionem. Et haec quidem
+<lb ed="#L" n="15"/>vera sunt loquendo de ? modo intelligendi quem habet intellectus ut coniunctus
+<lb ed="#L" n="16"/>corpori animali et corruptibili et de actu intelligendi qui est totius coniuncti
+<lb ed="#L" n="17"/>per se, sic quod et corpus ad hoc cooperatur phantasmata ministrando, et etiam
+<lb ed="#L" n="18"/>sic sit subiectum illius actus quod totus homo sic per se intelligat quod actum
+<lb ed="#L" n="19"/>illum et obiectum apprehendat.
+</p>
+            <p xml:id="v27ab7-g31993-d1e501">
+               <lb ed="#L" n="20"/>Sed quia, ut dicit Commentator, tertio de Anima et iam etiam declaratum
+<lb ed="#L" n="21"/>est, intellectus est aliqua forma in actu et intelligit formas materiales, dignius
+<lb ed="#L" n="22"/>videtur quod intelli gat intellectum agentem et formas non materiales. Et ex
+<lb ed="#L" n="23"/>hoc etiam potest argui, sicut videtur sentire Augustinus in libro de Trinitate
+<lb ed="#L" n="24"/>in pluribus locis, scilicet decimo et decimo quarto : cum intellectus sit forma
+<lb ed="#L" n="25"/>et actus et possit intelligere formas materiales et ab ipsa essentialiter 
+diffe<lb break="no" ed="#L" n="26"/>rentes et distantes, cum etiam in patria homo totus compositus ex corpore et
+<lb ed="#L" n="27"/>anima visurus et intellecturus sit alias substantias separatas quae.non possunt
+<lb ed="#L" n="28"/>intelligi per phantasmata, et hoc cognitione naturali qua dicuntur res cognosci
+<lb ed="#L" n="29"/>non in verbo, sed in propria natura, et anima coniuncta sit eiusdem rationis
+<lb ed="#L" n="30"/>cum est in corpore secundum vitam praesentem et futuram, et ipsa, prout dicit
+<lb ed="#L" n="31"/>Augustinus, semper sit sibi praesens, immo praesentior quam aliqua alia natura,
+— videtur quod ipsa etiam secundum se sit intelligibilis a se ipsa etiam  praeter
+<lb ed="#L" n="32"/>hoc quod intelligatur per intellectum aliorum.
+</p>
+            <p xml:id="v27ab7-g31993-d1e532">
+               <lb ed="#L" n="33"/>Et ad hoc est? intelligendum quod circa hoc videntur Commentator et
+<lb ed="#L" n="34"/>Augustinus aliquo modo idem sentire et aliquo modo aliud. Nam Commentator
+<lb ed="#L" n="35"/>videtur sentire quod intellectus noster, ut dictum est, prout noster est et prout
+<lb ed="#L" n="36"/>nos ab initio per eum intelligimus, non intelligit se ipsum, nisi intelligat aliud ;
+<lb ed="#L" n="37"/>et per consequens patet quod nec potest intelligere ut sic substantias separatas,
+<pb ed="#L" n="374"/>
+               <lb ed="#L" n="1"/>eo quod ut sic, ut scilicet noster est et nos per eum intelligimus et nobis 
+com<lb break="no" ed="#L" n="2"/>municatur, non intelligit nisi mediantibus phantasmatibus ; nunc autem 
+intel<lb break="no" ed="#L" n="3"/>lectus non ' habet phantasmata nisi propter  suam operationem quae est 
+intel<lb break="no" ed="#L" n="4"/>ligere. Sed quia etiam intellectus noster est substantia dicto modo separata,
+<lb ed="#L" n="5"/>secundum Commentatorem, semper intelligit se et intellectum agentem et alias
+<lb ed="#L" n="6"/>substantias separatas ; sed quia hoc non est per phantasmata, ideo tale 
+intelli<lb break="no" ed="#L" n="7"/>gere non communicatur nobis quamdiu circa intellectum materialium per 
+phan<lb break="no" ed="#L" n="8"/>tasmata occupamur, scientias diversorum scibilium acquirendo. Sed cum hoc
+<lb ed="#L" n="9"/>ponit quod in postremo, scilicet quando omnino completa est generatio, 
+intel<lb break="no" ed="#L" n="10"/>lectus qui est secundum habitum scientiarum dicitur haberi intellectus adeptus,
+<lb ed="#L" n="11"/>et communicatur nobis etiam in hac vita mortali illud in telligere quod prius
+<lb ed="#L" n="12"/>erat ipsius intellectus secundum se.
+</p>
+            <p xml:id="v27ab7-g31993-d1e575">
+               <lb ed="#L" n="13"/>Augustinus autem videtur sentire quod anima, quia semper sibi praesens
+<lb ed="#L" n="14"/>est, semper se intelligit. Tamen, quia secundum condicionem corporis animalis
+<lb ed="#L" n="15"/>circa exteriora sensibilia occupatur, et etiam ex illis sumit anima cognitionem
+<lb ed="#L" n="16"/>convenientem toti coniuncto, ideo dicit quod non semper se cogitat nec se 
+dis<lb break="no" ed="#L" n="17"/>cernit ab aliis, id est non se intelligit distincte in actu nisi per actum quo
+<lb ed="#L" n="18"/>anima intelligit, id est de ipsa non communicatur nobis cognitio secundum
+<lb ed="#L" n="19"/>cursum communem, nisi illa quam ex phantasmatibus habemus. Sed non 
+expri<lb break="no" ed="#L" n="20"/>mit quod illam perfectam cognitionem quam ponit Commentator in hac vita
+<lb ed="#L" n="21"/>habere valeamus, sed illam in patria expectamus, cum iam non habebimus 
+cor<lb break="no" ed="#L" n="22"/>pus animale sed spirituale, id est spiritui plene obediens et ad suas operationes
+<lb ed="#L" n="23"/>aptum. Et secundum hoc videtur posse dici etiam, secundum Augustinum, quod
+<lb ed="#L" n="24"/>intellectus corpori coniunctus aliquo modo est intelligibilis antequam intelligat
+<lb ed="#L" n="25"/>aliqua naturalia, licet non communicetur nobis talis actus intelligendi in via.
+<lb ed="#L" n="26"/>Vel Augustinus intelligit quod anima intelligit se semper, quia sibi semper
+<lb ed="#L" n="27"/>praesto est, non referendo hoc ad actum secundum qui est intelligere in actu,
+<lb ed="#L" n="28"/>sed ad actum primum qui est intelligere in ? habitu ex huiusmodi praesentia,
+<lb ed="#L" n="29"/>quae tamen non sufficit secundum cursum vitae praesentis ad habendam 
+cogni<lb break="no" ed="#L" n="30"/>tionem ipsius in se actualiter nisi praedicto modo.
+</p>
+            <p xml:id="v27ab7-g31993-d1e617">
+               <lb ed="#L" n="31"/>Unde loquendo de anima secundo modo qui convenit ei pro statu 
+beatitu<lb break="no" ed="#L" n="32"/>dinis, cum ut sic nullo modo a corpore impediatur ex modo intelligendi per
+<lb ed="#L" n="33"/>phantasmata et ex occupatione circa illum modum intelligendi, quin possit
+<lb ed="#L" n="34"/>etiam per se intelligere ea quae per se sunt intelligibilia, sicut ponit 
+Commen<lb break="no" ed="#L" n="35"/>tator possibile esse in vita ista, quod tamen est falsum, — sic anima est 
+intelli<lb break="no" ed="#L" n="36"/>gibilis a se et ab aliis et etiam alia separata sunt ei intelligibilia, non autem
+<lb ed="#L" n="37"/>in vita praesenti quia, licet sit eiusdem rationis secundum essentiam, non tamen
+<lb ed="#L" n="38"/>secundum essendi modum. Unde, sicut anima separata a corpore non potest
+<lb ed="#L" n="39"/>habere illum modum intelligendi quem habet in corpore, ita etiam existens in
+<pb ed="#L" n="375"/>
+               <lb ed="#L" n="1"/>corpore animali non potest habere illum modum quem habet in corpore '
+<lb ed="#L" n="2"/>spirituali.
+</p>
+            <p xml:id="v27ab7-g31993-d1e646">
+               <lb ed="#L" n="3"/>Ad argumentum in oppositum est dicendum quod, cum dicit Aristoteles
+<lb ed="#L" n="4"/>quod intellectus nullam habet naturam nisi hanc  quod est possibilis, et quod
+<lb ed="#L" n="5"/>nihil est in actu eorum quae sunt ante intelligere, respondet ad hoc 
+Commen<lb break="no" ed="#L" n="6"/>tator quod intellectus est in potentia ad omnes formas materiales, et propter
+<lb ed="#L" n="7"/>hoc non est aliqua forma materialis, nec ante intelligere habet aliquam de 
+for<lb break="no" ed="#L" n="8"/>mis materialibus, quia intus apparens prohiberet extraneum, et obstrueret ? et
+<lb ed="#L" n="9"/>sic intellectus nullam habet naturam de formis materialibus  nisi hanc ? quod
+<lb ed="#L" n="10"/>est possibilis, id est nisi hanc? quod est in potentia ad omnes formas materiales,
+<lb ed="#L" n="11"/>et nihil est eorum quae sunt de formis materialibus ante intelligere, id est 
+ante<lb break="no" ed="#L" n="12"/>quam eas intelligat. Et, quanquam non sit unum de genere entium materialium,
+<lb ed="#L" n="13"/>est tamen unum entium de formis non mixtis et abstractis in actu existentibus.
+<lb ed="#L" n="14"/>Unde passio et potentia intellectus possibilis respectu formarum materialium
+<lb ed="#L" n="15"/>et ipsius materiae est multum aequivoce dicta, ut patet per dicta 
+Commenta<lb break="no" ed="#L" n="16"/>toris et Philosophi. Quod autem formae rerum materialium, secundum quod actu
+<lb ed="#L" n="17"/>intellectae, sint sicut forma substantialis intellectus possibilis nullam formam
+<lb ed="#L" n="18"/>de se habentis, sicut dicitur de materia respectu earundem formarum, et sic
+<lb ed="#L" n="19"/>multotiens substantialiter generaretur et corrumperetur intellectus /, est omnino
+<lb ed="#L" n="20"/>ridiculosum. Unde non est intelligendum quod Philosophus, dicendo quod
+<lb ed="#L" n="21"/>intellectus nullam habet naturam nisi hanc ? quod est quid possibile vel aliquid
+<lb ed="#L" n="22"/>consimile, voluit intelligi illud quod intellectus quaedam substantia sit quae
+<lb ed="#L" n="23"/>est pura potentia recipiens esse substantiale in actu per formam intellectam,
+<lb ed="#L" n="24"/>sicut forte aliqui opinantur ipsum intellexisse. Sed modo praedicto intelligenda
+<lb ed="#L" n="25"/>sunt talia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

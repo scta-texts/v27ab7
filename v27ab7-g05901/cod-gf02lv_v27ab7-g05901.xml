@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="69"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g05901"><!-- v27ab7-q5-q15 -->
+            <head xml:id="v27ab7-g05901-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-g05901-Hd1e101" type="question-title">
+      Utrum ille qui a iudice non habente potestatem ipsum absolvendi in foro interiori
+      paenitentiae, ab eodem iudice absolutus in foro exteriori, si de contumaciis non
+      confiteatur proprio sacerdoti, sit in statu salutis
+    </head>
+            <p xml:id="v27ab7-g05901-d1e104">
+               <lb ed="#L" n="14"/>QUAESTIO XV.
+<lb ed="#L" n="15"/>Utrum ille qui a iudice non habente potestatem ipsum absolvendi in foro interiori
+<lb ed="#L" n="16"/>paenitentiae, ab eodem iudice absolutus in foro exteriori, si de contumaciis non
+<lb ed="#L" n="17"/>confiteatur proprio sacerdoti, sit in statu salutis.
+</p>
+            <p xml:id="v27ab7-g05901-d1e115">
+               <lb ed="#L" n="18"/>Deinde circa omissionem voluntatis quae rebatur unum pertinens ad sacramentum
+<lb ed="#L" n="19"/>poenitentiae, scilicet utrum ille qui diversis excommunicationibus propter diversas 
+con<lb break="no" ed="#L" n="20"/>tumacias a iudice non habente potestatem ipsum absolvendi sacramentaliter in foro
+<lb ed="#L" n="21"/>interiori poenitentae, ab eodem iudice a dictis excommunicationibus absolutus in foro
+<lb ed="#L" n="22"/>exteriori, si de huiusmodi contumaciis pro quibus excommunicatus fuit non confiteatur
+<lb ed="#L" n="23"/>proprio sacerdoti et ab illis? sacramentaliter absolvatur, sit in statu salutis.
+</p>
+            <p xml:id="v27ab7-g05901-d1e131">
+               <lb ed="#L" n="24"/>Et arguebatur quod non; quia qui non conteritur nec confitetur de his quae sunt
+<lb ed="#L" n="25"/>peccata mortalia et quae debet scire esse talia non est in statu salutis. Talis est ille; nam
+<lb ed="#L" n="26"/>iudicio naturalis rationis scit quod, qui non obedit suo superiori in his in quibus ei tenetur
+<lb ed="#L" n="27"/>obedire, peccat mortaliter.
+</p>
+            <p xml:id="v27ab7-g05901-d1e143">
+               <lb ed="#L" n="28"/>Contra arguitur. Quia qui probabiliter credit se fuisse absolutum? sufficienter  ab aliquo
+<lb ed="#L" n="29"/>peccato est in statu salutis, licet non faciat se inde absolvi de eodem. Sed talis est 
+huius<lb break="no" ed="#L" n="30"/>modi. Nam scit se esse? absolutum ab illo cui in obediens fuit et probabiliter potest
+<lb ed="#L" n="31"/>aestimare quod talis qui est eius superior ipsum sufficienter absolvit. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-g05901-d1e154">
+               <lb ed="#L" n="32"/>Respondeo dicendum, quod excommunicatio, si iuste feratur, praesupponit peccatum 
+<lb ed="#L" n="33"/>pro quo ipsa potest infligi. Ipsa enim secundum se non est peccatum nec peccatum efficit;
+<lb ed="#L" n="34"/>immo magis est quaedam poena medicinalis, quia hoc habet excommunicatio quod 
+excom<lb break="no" ed="#L" n="35"/>municatum excludit a perceptione et participatione sacramentorum et a communione et
+<lb ed="#L" n="36"/>societate fidelium ; et ideo absolutio ab excommunicatione per se nihil aliud facit nisi quod
+<lb ed="#L" n="37"/>istam poenam amovet et excommunicatum restituit ad statum in quo sit ? habilis ad 
+per<lb break="no" ed="#L" n="38"/>ceptionem sacramentorum et ad communionem fidelium, si aliud non obsistat. Et ideo,
+<lb ed="#L" n="39"/>sicut peccatum pro quo excommunicatio infligitur non causavit ipsa excommunicatio, ita
+<pb ed="#L" n="70"/>
+               <lb ed="#L" n="1"/>etiam absolutio ab excommunicatione illud peccatum non abolet, saltem per se et directe,
+<lb ed="#L" n="2"/>sed relinquit quantum est de se.
+</p>
+            <p xml:id="v27ab7-g05901-d1e180">
+               <lb ed="#L" n="3"/>Sed quia qui convenienter et humiliter absolvitur et cum dolore cordis debet 
+huius<lb break="no" ed="#L" n="4"/>modi absolutionem petere ab excommunicatione lata in eum pro contumacia et peccato
+<lb ed="#L" n="5"/>suo, ideo etiam videtur quod simpliciter cum hoc, virtute contritionis, peccatum 
+huius<lb break="no" ed="#L" n="6"/>modi deleatur.
+</p>
+            <p xml:id="v27ab7-g05901-d1e191">
+               <lb ed="#L" n="7"/>Sed quia ille, cui a Deo remissum est peccatum virtute contritionis, nihilominus
+<lb ed="#L" n="8"/>tenetur tempore et loco confiteri et absolutionem sacramentalem suscipere, talis! sic a
+<lb ed="#L" n="9"/>iudice absolutus videtur remanere obligatus ad confitendum de illo peccato sacerdoti
+<lb ed="#L" n="10"/>et peccare videtur si non confiteatur.
+</p>
+            <p xml:id="v27ab7-g05901-d1e202">
+               <lb ed="#L" n="11"/>Sed, quia aliquid in tantum est peccatum in quantum est  voluntarium, non est autem
+<lb ed="#L" n="12"/>voluntarium ? quod fit vel omittitur per ignorantiam, cum non possimus velle quod 
+igno<lb break="no" ed="#L" n="13"/>ramus ; — alia autem tenentur scire litterati, alia laici; nam ea quae sunt de iure naturali
+<lb ed="#L" n="14"/>omnes scire tenentur aliquo modo, in quantum pertinent ab bonum vel malum moris ;
+<lb ed="#L" n="15"/>quae autem sunt de iure positivo et divino scire tenentur clerici et praecipue praelati,
+<lb ed="#L" n="16"/>quantum ad ea quae ad regimen animarum spectant; laici autem talia scire non possunt
+<lb ed="#L" n="17"/>nisi quantum per doctrinam suorum praelatorum discunt ; — cum ergo de iure naturae sit
+<lb ed="#L" n="18"/>quod inferiores suis superioribus obediant, secundum quod dicitur Romanos, tertio decimo,
+<lb ed="#L" n="19"/>unusquisque tenetur scire quod peccatum inobedientiae est transgredi praeceptum 
+supe<lb break="no" ed="#L" n="20"/>rioris et esse respectu ipsius contumacem et rebellem; et ideo de hoc quilibet tenetur
+<lb ed="#L" n="21"/>conteri et dolere, et debet de hoc suo superiori satisfacere et absolutionem ab ecclesia
+<lb ed="#L" n="22"/>super tali delicto procurare. Sed quia ecclesia habet duplices claves, scilicet 
+iurisdic<lb break="no" ed="#L" n="23"/>tionis in foro exteriori et sacramentales in foro privato; harum autem clavium 
+distinc<lb break="no" ed="#L" n="24"/>tionem et efficaciam scire non videtur ad laicos simplices pertinere, nisi pro quanto
+<lb ed="#L" n="25"/>super hoc a praelatis instruuntur ; nam cum videant quod non sacerdotes excommunicant
+<lb ed="#L" n="26"/>pro contumacia et ab huiusmodi  excommunicatione absolvant et pro inobedientia 
+poe<lb break="no" ed="#L" n="27"/>nam aliquam imponant, ideo si? simplex laicus aestimet se per hoc ecclesiae sufficienter
+<lb ed="#L" n="28"/>reconciliatum, quia videns ecclesiam esse unam et corpus unum cuius rectores sunt
+<lb ed="#L" n="29"/>praelati ecclesiae, cum unus ministrorum ecclesiae super aliquo delicto circa ipsum usus
+<lb ed="#L" n="30"/>est officio suo, non credit quod oporteat alium circa hoc aliquid facere, videtur posse
+<lb ed="#L" n="31"/>per ignorantiam excusari.
+</p>
+            <p xml:id="v27ab7-g05901-d1e250">
+               <lb ed="#L" n="32"/>Sed sacerdotes in talibus debent suos subditos informare, praedicando eis de 
+inobe<lb break="no" ed="#L" n="33"/>dientia, tam respectu praelatorum quam principum ' saecularium. Nam laici etiam, cum
+<lb ed="#L" n="34"/>transgrediuntur praeceptum aliquod principis, si super hoc componant cum eo et pacem
+<lb ed="#L" n="35"/>faciant, non credunt quod plus sit faciendum; quia forte non credebant se obligari
+<lb ed="#L" n="36"/>per huiusmodi transgressionem nisi ad poenam et non ad culpam. Et ideo esset eis
+<lb ed="#L" n="37"/>praedicandum quomodo etiam superiores homines publice et Deum occulte offendunt,
+<lb ed="#L" n="38"/>et quod se omni offensa Dei tenentur confiteri sacerdoti in secreto, licet satisfecerint
+<lb ed="#L" n="39"/>exterius praelato.
+</p>
+            <p xml:id="v27ab7-g05901-d1e271">
+               <lb ed="#L" n="40"/>Per praedicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

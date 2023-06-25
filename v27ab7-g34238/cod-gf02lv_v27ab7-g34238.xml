@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="393"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g34238"><!-- v27ab7-q7-q13 -->
+            <head xml:id="v27ab7-g34238-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-g34238-Hd1e101" type="question-title">
+      Utrum dare non indigenti sit meritorium
+    </head>
+            <p xml:id="v27ab7-g34238-d1e104">
+               <lb ed="#L" n="28"/>QUAESTIO XIII.
+<lb ed="#L" n="29"/>Utrum dare non indigenti sit meritorium.
+</p>
+            <p xml:id="v27ab7-g34238-d1e111">
+               <lb ed="#L" n="30"/>Deinde circa pertinentia ad potentiam appetitivam in ordine ad proximum
+<lb ed="#L" n="31"/>quaerebatur unum, scilicet utrum dare non indigenti sit meritorium. Et 
+argui<lb break="no" ed="#L" n="32"/>tur quod sic ; quia meritorium est facere id quod in Evangelio praecipitur vel
+<pb ed="#L" n="394"/>
+               <lb ed="#L" n="1"/>consulitur ; sed in Evangelio Lucae, sexto, dicitur : omni petenti te tribue ; ergo
+<lb ed="#L" n="2"/>non indigenti si aliquid petat illud est ei dandum.
+</p>
+            <p xml:id="v27ab7-g34238-d1e127">
+               <lb ed="#L" n="3"/>Contra. Facere contra Evangelium non solum non est meritorium, sed
+<lb ed="#L" n="4"/>demeritorium ; sed in Evangelio Lucae, decimo quarto, dicit Christus quod cum
+<lb ed="#L" n="5"/>aliquis facit convivium ad refectionem corporum non debet vocare divites,
+<lb ed="#L" n="6"/>sed pauperes indigentes ; ergo qui aliis quam indigentibus dat demeretur.
+<lb ed="#L" n="7"/>Respondeo dicendum quod dare est actus cuius materia vel obiectum sunt
+<lb ed="#L" n="8"/>bona exteriora quae in usum hominum veniunt, quae sub nomine bonorum
+<lb ed="#L" n="9"/>temporalium vel divitiarum comprehenduntur et, quamvis huiusmodi bona sint 
+<lb ed="#L" n="10"/>propria materia liberalitatis in quantum ad liberalitatem pertinet quod homo
+<lb ed="#L" n="11"/>per eam sic sit dispositus secundum affectum circa divitias quod bene possit uti
+<lb ed="#L" n="12"/>divitiis secundum quod huiusmodi, tamen sunt etiam materia vel instrumenta
+<lb ed="#L" n="13"/>plurium aliarum virtutum, puta misericordiae et beneficentiae et amicitiae et
+<lb ed="#L" n="14"/>aliarum quarundam ; et sic dare potest esse actus respiciens diversas virtutes.
+<lb ed="#L" n="15"/>Indigens etiam  proprie dicitur aliquis respectu alterius qui actu caret re aliqua
+<lb ed="#L" n="16"/>quam per se non potest convenienter habere et in qua potest sibi per alium 
+sub<lb break="no" ed="#L" n="17"/>veniri.
+</p>
+            <p xml:id="v27ab7-g34238-d1e163">
+               <lb ed="#L" n="18"/>Est ergo intelligendum quod dare refertur ad indigentem vel non 
+indi<lb break="no" ed="#L" n="19"/>gentem proprie secundum quod est actus beneficentiae vel misericordiae, in
+<lb ed="#L" n="20"/>quantum ex affectu misericordiae inclinatur quis ad sublevandum defectum
+<lb ed="#L" n="21"/>alterius suo dono. Et hoc modo est dicendum quod non solum 7:02 meritorium,
+<lb ed="#L" n="22"/>sed demeritorium ? est per se loquendo dare non indigenti ; sicut e converso per
+<lb ed="#L" n="23"/>se loquendo bonum est dare indigenti. Unde qui vult eleemosynam dare vel ad
+<lb ed="#L" n="24"/>subveniendum  necessitati alicuius aliquid impendere, debet hoc facere respectu
+<lb ed="#L" n="25"/>magis indigentis et sibi subvenire ex se minus potentis, ceteris paribus; alioquin
+<lb ed="#L" n="26"/>aliter dans vel benefaciens ? respiceret in subveniendo condicionem quam 
+respi<lb break="no" ed="#L" n="27"/>cere non deberet et in hoc male ageret. Sed, quia isti actus non sunt omnino
+<lb ed="#L" n="28"/>sic per se boni vel mali quin ex circumstantia aliqua et ex ordine ad aliquem
+<lb ed="#L" n="29"/>alium finem possunt esse boni et mali, sicut dare indigenti propter vanam
+<lb ed="#L" n="30"/>gloriam malum est,ita etiam dare non indigenti propter vitandum aliquod
+<lb ed="#L" n="31"/>magnum malum potest esse bonum. Et possunt poni multa exempla de 
+tyran<lb break="no" ed="#L" n="32"/>nis et praelatis exactiones facientibus et de aliquibus existentibus in statu
+<lb ed="#L" n="33"/>pauperum qui alios possunt infamare et gravare.
+</p>
+            <p xml:id="v27ab7-g34238-d1e200">
+               <lb ed="#L" n="34"/>Prout autem est actus respiciens virtutem liberalitatis et amicitiae non
+<lb ed="#L" n="35"/>respicit per se indigentem vel non indigentem, sed ordinem et habitudinem
+<lb ed="#L" n="36"/>dantis ad eum cui datur in  honeste et amicabiliter convivendo ; et sic dare non
+<lb ed="#L" n="37"/>indigenti non est malum, sed frequenter bonum; et prout unus alium non
+<lb ed="#L" n="38"/>indigentem ad comestionem invitat et prout unus alteri dat aliquod locale et
+<pb ed="#L" n="395"/>
+               <lb ed="#L" n="1"/>huiusmodi. Sed, si etiam talia fiant ex aliqua intentione mala, sic sunt mala etiam
+<lb ed="#L" n="2"/>iudicanda.
+</p>
+            <p xml:id="v27ab7-g34238-d1e220">
+               <lb ed="#L" n="3"/>Et haec confirmantur per auctoritates ; nam super illud Lucae, sexto:
+<lb ed="#L" n="4"/>omni petenti te ' tribue, dicit Augustinus : non dicit omnia petenti ut id des
+<lb ed="#L" n="5"/>quod iuste et honeste potes ; et cui iuste negaveris quod petit iudicanda est ipsa
+<lb ed="#L" n="6"/>iustitia et aliquando aliquid melius tribuere cum petentem iniusta correxeris. Ex
+<lb ed="#L" n="7"/>qua auctoritate patet quod petenti vel in digenti aliquando est dandum quod
+<lb ed="#L" n="8"/>petit, aliquando non ; et per consequens aliquando malum, aliquando bonum.
+<lb ed="#L" n="9"/>Item, super illud Lucae, decimo quarto : cum facis prandium aut cenam noli
+<lb ed="#L" n="10"/>vocare amicos tuos neque  vicinos ? divites, sed pauperes, debiles, et cetera,
+<lb ed="#L" n="11"/>Beda : fratres et amicos et divites alterutrum celebrare convivia non ob scelus
+<lb ed="#L" n="12"/>interdicit, sed sicut  cetera[e] ? necessitatis humanae commercia ad promerenda
+<lb ed="#L" n="13"/>vitae caelestis praemia nihil valere ostendit ; si autem hoc propter Deum facit,
+<lb ed="#L" n="14"/>jn exemplum filiorum Job, sicut cetera fraternae dilectionis officia ^, ipse qui
+<lb ed="#L" n="15"/>iussit remunerat. Ex qua auctoritate etiam patet quod etiam non indigenti
+<lb ed="#L" n="16"/>dare est bonum quandoque, licet aliquando sit malum; et sic patet veritas
+<lb ed="#L" n="17"/>quaestionis et ad argumenta utriusque partis patet solutio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

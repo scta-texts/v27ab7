@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="25"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g02011"><!-- v27ab7-q5-q7 -->
+            <head xml:id="v27ab7-g02011-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-g02011-Hd1e101" type="question-title">
+      Utrum substantia caeli per se ipsam sil mobilis
+    </head>
+            <p xml:id="v27ab7-g02011-d1e104">
+               <pb ed="#L" n="25"/>
+               <lb ed="#L" n="1"/>QUAESTIO VII.
+<lb ed="#L" n="2"/>Utrum substantia caeli per se ipsam sil mobilis.
+</p>
+            <p xml:id="v27ab7-g02011-d1e113">
+               <lb ed="#L" n="3"/>Deinde circa corpus caeleste quaerebatur unum, scilicet utrum 
+sub<lb break="no" ed="#L" n="4"/>stantia caeli per se ipsam sit mobilis. Et arguebatur quod non, quia
+<lb ed="#L" n="5"/>nullum indivisibile per se movetur, ut probat Philosophus sexto 
+Physico<lb break="no" ed="#L" n="6"/>rum. Sed substantia caeli secundum se est indivisibilis, non habens partem
+<lb ed="#L" n="7"/>et partem nisi per quantitatem. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g02011-d1e126">
+               <lb ed="#L" n="8"/>Contra. Secundum illud aliquid est mobile per se secundum quod
+<lb ed="#L" n="9"/>mensuratur nunc temporis ; quia sicut tempus est mensura motus, ita nunc
+<lb ed="#L" n="10"/>temporis est mensura mobilis secundum quod mobile. Sed nunc temporis
+<lb ed="#L" n="11"/>est mensura substantiae caeli secundum se; nam nunc temporis et nunc
+<lb ed="#L" n="12"/>aevi sunt idem secundum rem et sunt idem cum ipsa substantia caeli.
+<lb ed="#L" n="13"/>Cum ergo nunc aevi sit mensura substantiae caeli secundum se ut entiter
+<lb ed="#L" n="14"/>entis, sicut aevum est mensura esse ipsius angeli, ita etiam nunc temporis
+<lb ed="#L" n="15"/>est mensura substantiae caeli secundum se, id est absque aliqua eius
+<lb ed="#L" n="16"/>quantitate ut tamen ! mobile vel mobiliter ens. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g02011-d1e149">
+               <lb ed="#L" n="17"/>Respondeo dicendum quod ab aliquibus dicitur quod mobile est 
+divi<lb break="no" ed="#L" n="18"/>sibille et quantum, nec moveretur si non esset quantum. Tamen ratio
+<lb ed="#L" n="19"/>mobilitatis per se non convenit ei secundum rationem quanti et divisibilis,
+<lb ed="#L" n="20"/>quia causam motus oportet reducere in naturam. Natura enim principium
+<lb ed="#L" n="21"/>motus secundo ? Physicorum. Non ergo in quantitatem ? sed in substantiam
+<lb ed="#L" n="22"/>vel naturam caeli reducetur motus eius.
+</p>
+            <p xml:id="v27ab7-g02011-d1e165">
+               <lb ed="#L" n="23"/>Item dicitur quod substantiae proprium est quod una et eadem numero
+<lb ed="#L" n="24"/>per se susceptibilis est contrariorum. Ergo ipsa substantia secundum se,
+<lb ed="#L" n="25"/>non secundum rationem quantitatis, est susceptiva contrarietatis, secundum
+<lb ed="#L" n="26"/>ubi et situm sive quae consistit secundum loci mutationem.
+</p>
+            <p xml:id="v27ab7-g02011-d1e176">
+               <lb ed="#L" n="27"/>Item dicitur quod accidentia secundum se sunt invariabilia, et magis
+<lb ed="#L" n="28"/>sunt termini transmutationum quam id quod transmutatur ; sed substantia
+<lb ed="#L" n="29"/>est id quod per se transmutationi subicitur et non accidens. Accidens
+<lb ed="#L" n="30"/>ergo non potest esse mobile per se sed solum per accidens. Cum enim
+<lb ed="#L" n="31"/>accidentia non habeant esse per se, non moventur per se.
+</p>
+            <p xml:id="v27ab7-g02011-d1e189">
+               <pb ed="#L" n="26"/>
+               <lb ed="#L" n="1"/>Contrario ergo modo se habent ad partibilitatem et motum substantia
+<lb ed="#L" n="2"/>et quantitas. Quantitas enim est per se partibilis, quia extensum quid
+<lb ed="#L" n="3"/>nominat, non tamen per se mobilis ', quia non est ens per se: quod enim
+<lb ed="#L" n="4"/>per se movetur per se est, et quod non potest esse nisi in alio non potest
+<lb ed="#L" n="5"/>moveri  nisi per accidens. Sed substantia e contra se habet: partitur enim
+<lb ed="#L" n="6"/>per accidens, quia per quantitatem, et tamen movetur per se quia per se est.
+<lb ed="#L" n="7"/>Sed hoc videtur  male dictum, quia illi per se convenit moveri secundum
+<lb ed="#L" n="8"/>locum et ad ubi, cui per se convenit esse in loco ; sed hoc non convenit
+<lb ed="#L" n="9"/>substantiae per se quia locus per se est contentivus corporis.
+</p>
+            <p xml:id="v27ab7-g02011-d1e213">
+               <lb ed="#L" n="10"/>Item si esse in loco et moveri per se convenirent substantiae, ergo
+<lb ed="#L" n="11"/>circumscripta quantitate ei conveniret, et  quia destructo posteriori non
+<lb ed="#L" n="12"/>destruitur prius sed e contra . Amoto autem motu in actu non amovetur 
+<lb ed="#L" n="13"/>quantitas, sed e converso ?. Unde etiam si substantia panis posset manere
+<lb ed="#L" n="14"/>sine accidentibus non esset in loco, nec moveretur prout nunc loquimur de
+<lb ed="#L" n="15"/>esse in loco circumscriptive, quod requiritur ad hoc quod aliquid proprie
+<lb ed="#L" n="16"/>localiter moveatur. Nunc autem quantitas manens sine substantia est in
+<lb ed="#L" n="17"/>loco et movetur, et ita patet motum non esse priorem quantitate, sed
+<lb ed="#L" n="18"/>e converso quantitatem esse priorem motu.
+</p>
+            <p xml:id="v27ab7-g02011-d1e235">
+               <lb ed="#L" n="19"/>Quia manifestum est quod motus per se vel esse in loco non convenit
+<lb ed="#L" n="20"/>substantiae sine quantitate, dicendum est ergo quod substantia secundum
+<lb ed="#L" n="21"/>se non movetur sic quod ratio substantiae sit immediata et proxima ratio
+<lb ed="#L" n="22"/>movendi in ipsa. Sed ipsa substantia caeli est prima et radicalis causa
+<lb ed="#L" n="23"/>omnium suorum accidentium et dispositionum, sed ordine naturae, primo
+<lb ed="#L" n="24"/>quorundam, et illis mediantibus, aliorum. Et sic primo est causa suae
+<lb ed="#L" n="25"/>quantitatis, et mediante illa, motus. Secundum rationem secundum quam
+<lb ed="#L" n="26"/>subiectum est causa suorum accidentium ordinate, prima ergo et proxima
+<lb ed="#L" n="27"/>ratio mobilitatis caeli ad locum est eius quantitas continua, et sic ipsum
+<lb ed="#L" n="28"/>esse mobile secundum quod quantum. Unde Aristoteles probare credit
+<lb ed="#L" n="29"/>sexto Physicorum quod omne mobile secundum quod mobile de 
+neces<lb break="no" ed="#L" n="30"/>sitate est divisibile, et hoc quidem multum manifestum est in motu locali,
+<lb ed="#L" n="31"/>qui verissime est continuus et unus. Et sua ratio non solum ostendit quod
+<lb ed="#L" n="32"/>mobile est divisibile, sed quod mobile secundum quod mobile est divisibile.
+<lb ed="#L" n="33"/>Quia, ut ibi declaratur, cum aliquid secundum se totum est in aliquo
+<lb ed="#L" n="34"/>termino sive a quo sive ad quem, non movetur ad hoc. Ergo, quod
+<lb ed="#L" n="35"/>moveatür, oportet quod secundum aliquid eius sit in uno termino et 
+secun<lb break="no" ed="#L" n="36"/>dum aliquid eius sit in alio termino ; sed non potest esse secundum
+<pb ed="#L" n="27"/>
+               <lb ed="#L" n="1"/>aliquid in uno et secundum aliquid in alio nisi habeat partem et partem.
+<lb ed="#L" n="2"/>Cum ergo de ratione mobilis secundum quod mobile sit secundum aliquid
+<lb ed="#L" n="3"/>eius esse in uno termino, et secundum aliquid eius in alio, de ratione
+<lb ed="#L" n="4"/>mobilis secundum quod mobile est habere partem et partem. Sed mobile
+<lb ed="#L" n="5"/>licet sit substantia, ratione substantiae tamen non habet partem et partem,
+<lb ed="#L" n="6"/>sed secundum quod quanta. Quia, ut dicitur quinto Metaphysicae, quantum
+<lb ed="#L" n="7"/>quod est per se divisibile in ea quae sunt in ipso et cetera. Unde quantum,
+<lb ed="#L" n="8"/>quod est substantia quanta, est per se divisibile, et non substantia nec !
+<lb ed="#L" n="9"/>quantitas, sed substantia quanta est quae dividitur. Quantitas autem est
+<lb ed="#L" n="10"/>ratio divisibilitatis vel est dispositio secundum quam substantia habet
+<lb ed="#L" n="11"/>partes, sive est ipsa partibilitas substantiae.
+</p>
+            <p xml:id="v27ab7-g02011-d1e304">
+               <lb ed="#L" n="12"/>Item de ratione motus est quod sit divisibilis ; sed ipse est divisibilis
+<lb ed="#L" n="13"/>secundum divisionem spatii et mobilis. Sed sicut ablata divisibilitate spatii,
+<lb ed="#L" n="14"/>tollitur divisibilitas motus, ita etiam ablata divisibilitate mobilis, tollitur
+<lb ed="#L" n="15"/>divisibilitas etiam motus. Motus ergo caeli duplex est causa ; una scilicet
+<lb ed="#L" n="16"/>eius quantitas continua secundum quod quantitas quae communiter est
+<lb ed="#L" n="17"/>causa omnis motus localis secundum quod huiusmodi ; alia natura eius
+<lb ed="#L" n="18"/>propria cuius est haec quantitas dispositio, quae est causa determinans
+<lb ed="#L" n="19"/>motum localem caeli ad circularitatem, sicut in lapide causa motus eius
+<lb ed="#L" n="20"/>localis per se est sua quantitas continua ratione cuius etiam contra naturam
+<lb ed="#L" n="21"/>suam propriam potest moveri violenter sursum, sed causa motus eius
+<lb ed="#L" n="22"/>deorsum est gravitas.
+</p>
+            <p xml:id="v27ab7-g02011-d1e330">
+               <lb ed="#L" n="23"/>Ad argumentum est dicendum quod non bene dicitur quod nunc
+<lb ed="#L" n="24"/>temporis et aevi sunt idem et quod sunt idem quod substantia mobilis, quia
+<lb ed="#L" n="25"/>sicut se habet mensura ad mensuram, ita indivisibile et principium 
+men<lb break="no" ed="#L" n="26"/>surae unius ad principium et indivisibile alterius. Si ergo tempus et aevum
+<lb ed="#L" n="27"/>non sunt idem nec etiam ipsa nunc; sicut enim  in caelo non est idem
+<lb ed="#L" n="28"/>ipsa substantia eius secundum se, quae ut sic in essentia sua quantitatem
+<lb ed="#L" n="29"/>non includit et cuius mensura est nunc aevi, et substantia eius secundum
+<lb ed="#L" n="30"/>quod quanta sive secundum quod mobilis ratione quantitatis, quia 
+sub<lb break="no" ed="#L" n="31"/>stantia caeli ut sic iam includit aliquid additum sibi ratione cuius eius
+<lb ed="#L" n="32"/>mensura est nunc temporis ; — ita etiam realiter oportet ista nunc differre.
+<lb ed="#L" n="33"/>Sed qualiter ipsum nunc temporis quod realiter est aliquid aliud a nunc
+<lb ed="#L" n="34"/>aevi se habeat ad ipsum mobile secundum quod mobile; quomodo scilicet
+<lb ed="#L" n="35"/>est idem vel non idem realiter cum ipso, et quomodo tamen est aliquod
+<lb ed="#L" n="36"/>nunc intrinsecum ipsi tempori et ad eius essentiam pertinens, quia ? ad
+<lb ed="#L" n="37"/>rationem cuiuslibet continui tale indivisibile continuatum pertinet quod
+<pb ed="#L" n="28"/>
+               <lb ed="#L" n="1"/>tamen non potest esse idem realiter cum primo mobili, et plura alia
+<lb ed="#L" n="2"/>circa haec consideranda; — alterius sunt perscrutationis. Sunt tamen 
+quae<lb break="no" ed="#L" n="3"/>cam rationes in promptu ostendentes quod ipsum nunc non est idem cum
+<lb ed="#L" n="4"/>mobili, quia secundum Philosophum quarto Physicorum, sicut se habet
+<lb ed="#L" n="5"/>punctus ad lineam, sic? nunc ad tempus. Sicut ergo punctus continuatus
+<lb ed="#L" n="6"/>lineae est aliquid ipsius lineae, nec potest manere linea non existente, nec
+<lb ed="#L" n="7"/>potest esse idem realiter cum subiecto lineae, ita etiam nunc continuatum 
+<lb ed="#L" n="8"/>temporis  est aliquid intrinsecum tempori, nec potest manere id quod
+<lb ed="#L" n="9"/>realiter est instans, tempore non existente, nec potest realiter esse idem
+<lb ed="#L" n="10"/>cum eo quod est subiectum motus et temporis; sed substantia mobilis
+<lb ed="#L" n="11"/>potest manere motu et tempore cessante.
+</p>
+            <p xml:id="v27ab7-g02011-d1e391">
+               <lb ed="#L" n="12"/>Item. Sicut se habet tempus ad motum et ad mobile mediante motu,
+<lb ed="#L" n="13"/>ita se habet indivisibile in tempore quod est nunc ad indivisibile  in motu
+<lb ed="#L" n="14"/>quod est mutatio vel immutatum  esse in potentia. Sicut ergo tempus non
+<lb ed="#L" n="15"/>est in mobili nisi mediante motu, ita etiam nunc non est in mobili nisi
+<lb ed="#L" n="16"/>mediante mutato esse ; et sicut tempus non est idem cum mobili, sed
+<lb ed="#L" n="17"/>aliquo modo est idem cum motu, ita ? etiam nunc non est idem cum mobili,
+<lb ed="#L" n="18"/>sed aliquo modo est idem cum mutato esse in potentia vel cum mutatione.
+</p>
+            <p xml:id="v27ab7-g02011-d1e409">
+               <lb ed="#L" n="19"/>Item. Cum non minus immediate insit motus et quantitas mobili quam
+<lb ed="#L" n="20"/>tempus et continuum est, cuius partes ad eundem terminum copulantur,
+<lb ed="#L" n="21"/>corpus autem quantitas est quid continuum non tamen ex hoc quod eius
+<lb ed="#L" n="22"/>partes copulantur ad substantiam indivisibilem quae est subiectum 
+quan<lb break="no" ed="#L" n="23"/>titatis, sed quia ad terminum intrinsecum copulantur, et similiter est de
+<lb ed="#L" n="24"/>motu. Substantia autem mobilis non se habet ad tempus etiam nisi
+<lb ed="#L" n="25"/>ut subiectum: mediatum, quia mediante motu et quantitate dimensiva inest
+<lb ed="#L" n="26"/>tempus substantiae. Ex hoc ergo non poterit dici tempus continuum quod
+<lb ed="#L" n="27"/>partes eius copulantur ad eam nisi ut ad subiectum etiam  non proximum
+<lb ed="#L" n="28"/>sed mediante dimensiva quantitate et motu, qualiter tamen ipsum nunc
+<lb ed="#L" n="29"/>aliquo modo possit dici idem cum mobili, vel si aliquo modo hoc verum sit
+<lb ed="#L" n="30"/>quod sit idem cum eo, ut dictum est — hoc alterius perscrutationis est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

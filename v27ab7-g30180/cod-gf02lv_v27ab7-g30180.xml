@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="349"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g30180"><!-- v27ab7-q7-q7 -->
+            <head xml:id="v27ab7-g30180-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-g30180-Hd1e101" type="question-title">
+      Utrum essentia angeli sit composita ex genere et differentia
+    </head>
+            <p xml:id="v27ab7-g30180-d1e104">
+               <pb ed="#L" n="349"/>
+               <lb ed="#L" n="1"/>QUAESTIO VII.
+<lb ed="#L" n="2"/>Utrum essentia angeli sit composita ex genere et differentia.
+</p>
+            <p xml:id="v27ab7-g30180-d1e113">
+               <lb ed="#L" n="3"/>Deinde circa pertinentia ad quasdam substantias et quasdam eorum 
+pro<lb break="no" ed="#L" n="4"/>prietates specialiter quaerebantur quaedam pertinentia specialiter ad naturam
+<lb ed="#L" n="5"/>intellectualem sive angelicam et quaedam pertinentia specialiter ad naturam
+<lb ed="#L" n="6"/>rationalem sive humanam. Circa pertinentia ad naturam angelicam specialiter
+<lb ed="#L" n="7"/>quaerebantur duo, unum pertinens ad eius essentiam et unum pertinens ad
+<lb ed="#L" n="8"/>eius mensuram.
+</p>
+            <p xml:id="v27ab7-g30180-d1e129">
+               <lb ed="#L" n="9"/>Primum horum erat utrum essentia angeli sit composita ex genere et 
+diffe<lb break="no" ed="#L" n="10"/>rentia. Secundum utrum esse omnium sempiternorum sive angelorum 
+mensu<lb break="no" ed="#L" n="11"/>retur unà mensura.
+</p>
+            <p xml:id="v27ab7-g30180-d1e139">
+               <lb ed="#L" n="12"/>Ad primum horum arguitur quod essentia angeli sit composita ex genere
+<lb ed="#L" n="13"/>et differentia, quia omnis species contenta sub aliquo genere est constituta sive
+<lb ed="#L" n="14"/>composita ex genere et differentia ; sed angelus est quaedam species in genere ;
+<lb ed="#L" n="15"/>ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g30180-d1e150">
+               <lb ed="#L" n="16"/>Contra : ubicumque invenitur compositio ex genere et differentia, cum
+<lb ed="#L" n="17"/>differentia importet actum et formam, quanto aliquid constituitur vel 
+compo<lb break="no" ed="#L" n="18"/>nitur ex pluribus differentiis tanto est perfectius et e converso, sicut patet in
+<lb ed="#L" n="19"/>istis materialibus. Sed in angelis quanto aliquid est simplicius tanto perfectius ;
+<lb ed="#L" n="20"/>ergo compositio quae est in angelis non est ex genere et differentia.
+</p>
+            <p xml:id="v27ab7-g30180-d1e163">
+               <lb ed="#L" n="21"/>Respondeo : circa hoc est intelligendum quod idem est quaerere utrum in
+<lb ed="#L" n="22"/>angelis sit compositio ex genere et differentia et utrum sint in genere 
+substan<lb break="no" ed="#L" n="23"/>tiae quasi univoce cum aliis substantiis corporalibus.
+</p>
+            <p xml:id="v27ab7-g30180-d1e172">
+               <lb ed="#L" n="24"/>Non enim videtur omnino certum quod substantia univoce praedicetur de
+<lb ed="#L" n="25"/>illis et corporalibus et per consequens, quamvis in istis corporalibus sit 
+compo<lb break="no" ed="#L" n="26"/>sitio ex genere et differentia, non propter hoc sequitur quod sit compositio ex
+<lb ed="#L" n="27"/>genere et differentia in angelis. Si tamen unitate essent in genere cum 
+corpo<lb break="no" ed="#L" n="28"/>ralibus bene sequeretur ; sed hoc non est manifestum, scilicet quod substantiae
+<lb ed="#L" n="29"/>immateriales univoce sint in genere cum corporalibus. Quamvis enim substantia
+<lb ed="#L" n="30"/>importet modum quendam essendi quasi communem, scilicet modum in se
+<lb ed="#L" n="31"/>existendi et non in alio ut in subiecto qui etiam convenit Deo et creatis 
+omni<lb break="no" ed="#L" n="32"/>bus substantiis, patet tamen quod ex hoc non sequitur quod dicat unum genus
+<lb ed="#L" n="33"/>univocum, alioquin etiam Deus esset in genere. Item, cum etiam accidens in
+<lb ed="#L" n="34"/>communi importet quendam quasi communem modum essendi, scilicet esse in
+<pb ed="#L" n="350"/>
+               <lb ed="#L" n="1"/>alio, tamen ex hoc non habetur una ratio unius generis, sed distinguuntur
+<lb ed="#L" n="2"/>diversa genera etiam generalissima secundum diversos modos essendi in alio;
+<lb ed="#L" n="3"/>et ita forte videretur alicui quod secundum diversos modos essendi  et 
+subsis<lb break="no" ed="#L" n="4"/>tendi in se possent sumi diversa genera substantialia.
+</p>
+            <p xml:id="v27ab7-g30180-d1e209">
+               <lb ed="#L" n="5"/>Sed, quia modus et distinctio praedicamentorum non est res multum
+<lb ed="#L" n="6"/>manifesta et quia sumitur secundum quosdam modos essendi rerum secundum
+<lb ed="#L" n="7"/>quos diversimode ' intelliguntur et significantur res et naturae diversorum
+<lb ed="#L" n="8"/>praedicamentorum, haec autem magis quandam probabilitatem quam 
+eviden<lb break="no" ed="#L" n="9"/>tem certitudinem praebent, ideo perscrutationem talium relinquendo et 
+sup<lb break="no" ed="#L" n="10"/>ponendo quod solum sunt decem genera praedicamentorum et solum unum
+<lb ed="#L" n="11"/>genus substantiae, ut philosophi supposuerunt, ad videndum veritatem quaesiti
+<lb ed="#L" n="12"/>primo considerandum quid nomine generis sit intelligendum, ut ex hoc videatur
+<lb ed="#L" n="13"/>quomodo angeli sunt vel non sunt in genere. Deinde, ne videantur angeli
+<lb ed="#L" n="14"/>dicere puros actus cum exclusione omnis potentialitatis si nullo modo ponantur
+<lb ed="#L" n="15"/>in genere, distinguendum est de genere et declarandum quod secundum unum
+<lb ed="#L" n="16"/>modum generis sunt aliquo modo in genere ponendi.
+</p>
+            <p xml:id="v27ab7-g30180-d1e238">
+               <lb ed="#L" n="17"/>Quantum ad primum est intelligendum quod ad rationem generis vere et
+<lb ed="#L" n="18"/>proprie sumpti pertinet quod importet unitatem et convenientiam secundum rem.
+</p>
+            <p xml:id="v27ab7-g30180-d1e246">
+               <lb ed="#L" n="19"/>Ad cuius declarationem supponenda sunt aliqua : primo quidem, quod
+<lb ed="#L" n="20"/>unitas generis est alia ab unitate analogiae ; namque, secundum Philosophum,
+<lb ed="#L" n="21"/>quinto Metaphysicae, quaedam sunt unum proportione vel analogia, quaedam
+<lb ed="#L" n="22"/>sunt unum genere, quaedam unum specie, quaedam unum numero ; et se habent
+<lb ed="#L" n="23"/>omnia haec per ordinem, quia primum est sine secundo et non e converso, et
+<lb ed="#L" n="24"/>sic deinceps.
+</p>
+            <p xml:id="v27ab7-g30180-d1e262">
+               <lb ed="#L" n="25"/>Secundo, supponendum est quod genus est unum in pluribus unitate 
+uni<lb break="no" ed="#L" n="26"/>voca, quod etiam ex dicto eodem Philosophi manifestum est ; nam, si est alia
+<lb ed="#L" n="27"/>unitas generis ab unitate analogiae, cum sit quid commune multis, non potest
+<lb ed="#L" n="28"/>habere aliam unitatem quam unitatem univoci.
+</p>
+            <p xml:id="v27ab7-g30180-d1e273">
+               <lb ed="#L" n="29"/>His autem suppositis, patet propositum quod nomine generis intelligitur
+<lb ed="#L" n="30"/>aliquid quod solum est in convenientibus secundum rem sive quod genus 
+impor<lb break="no" ed="#L" n="31"/>tat communitatem plurium in quibus est aliqua unitas secundum rem. Illa enim
+<lb ed="#L" n="32"/>quae solum conveniunt in unitate analogiae et proportionis cuiusdam non
+<lb ed="#L" n="33"/>conveniunt in unitate generis, ut patet ex prima suppositione. Sed ita videtur
+<lb ed="#L" n="34"/>esse in omnibus quae non conveniunt in aliqua una re quae, quantum est de se,
+<lb ed="#L" n="35"/>nata est esse in omnibus, scilicet quod non conveniunt nisi in unitate analogiae ;
+<lb ed="#L" n="36"/>ubi enim non est aliqua unitas et convenientia plurium secundum unam rem
+<lb ed="#L" n="37"/>non est convenientia eorum nisi secundum quandam analogiam et proportionem
+<lb ed="#L" n="38"/>inter se. Cum ergo sit alia unitas generis et analogiae, ergo in illis quae non
+<pb ed="#L" n="351"/>
+               <lb ed="#L" n="1"/>conveniunt in una re, sed tantum habitudinem et proportionem aliquam habent
+<lb ed="#L" n="2"/>inter se, est unitas analogiae, non ergo unitas generis.
+</p>
+            <p xml:id="v27ab7-g30180-d1e304">
+               <lb ed="#L" n="3"/>Item, eisdem suppositis, arguitur idem sic: nam genus est vere nomen
+<lb ed="#L" n="4"/>univocum ad ea quae sunt in genere, ut patet per secundam suppositionem ;
+<lb ed="#L" n="5"/>sed ea quae non conveniunt in aliquo uno secundum rem non possunt habere
+<lb ed="#L" n="6"/>aliquod unum nomen commune univocum ; sed ex eo quod habent aliquam
+<lb ed="#L" n="7"/>habitudinem et proportionem vel analogiam inter se bene habent aliquod 
+com<lb break="no" ed="#L" n="8"/>mune nomen non pure aequivocum, sed analogum; alioquin, si non requireretur
+<lb ed="#L" n="9"/>unitas realis alicuius unius rei ad unitatem nominis univoci, sed sufficeret quod
+<lb ed="#L" n="10"/>res essentialiter distinctae in nulla una re convenientes haberent aliquam 
+habi<lb break="no" ed="#L" n="11"/>tudinem et proportionem vel analogiam inter se ad hoc quod eis unum nomen
+<lb ed="#L" n="12"/>commune univocum imponeretur, tunc omnibus entibus posset esse unum
+<lb ed="#L" n="13"/>nomen commune univocuni, scilicet ens, et sic substantia posset dici nomen
+<lb ed="#L" n="14"/>univocum Deo et aliis. Hoc est ergo unum ad rationem generis pertinens :
+<lb ed="#L" n="15"/>convenientia secundum rem eorum quae in genere sunt.
+</p>
+            <p xml:id="v27ab7-g30180-d1e335">
+               <lb ed="#L" n="16"/>Ex quo statim apparet una ratio quare angeli non videntur esse in genere.
+<lb ed="#L" n="17"/>Propter hoc enim videtur quod genus solum sit in corruptibilibus in quibus est
+<lb ed="#L" n="18"/>aliquid unum in quo omnia realiter conveniunt, scilicet materia, quae quidem
+<lb ed="#L" n="19"/>quantum est de se est  una in omnibus et ratione illius omnia sunt quodammodo
+<lb ed="#L" n="20"/>unum et ideo etiam  ordine quodam sunt omnia ad invicem transmutabilia per
+<lb ed="#L" n="21"/>illam, ita quod equus est asinus in potentia remota et e converso. Et hoc videtur
+<lb ed="#L" n="22"/>intentio Commentatoris et Philosophi, decimo Metaphysicae, ubi dicitur quod
+<lb ed="#L" n="23"/>corruptibile et incorruptibile non sunt in eodem genere eo quod non important
+<lb ed="#L" n="24"/>contrarietatem circa unam et eandem potentiam secundum rem, immo 
+poten<lb break="no" ed="#L" n="25"/>tiam quam incorruptibile universaliter includit corruptibile totaliter excludit ;
+<lb ed="#L" n="26"/>propter quod dicitur ibi quod nomen congregans illa est nomen aequivocum.
+<lb ed="#L" n="27"/>Sed nomen generis est nomen univocum ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g30180-d1e364">
+               <lb ed="#L" n="28"/>Item, hoc idem videtur propter quandam aliam rationem quae sumitur ex
+<lb ed="#L" n="29"/>alio importato nomine generis. Quamvis enim genus et differentia et species
+<lb ed="#L" n="30"/>non dicunt res diversas, sed unam et eandem, dicunt tamen diversas rationes
+<lb ed="#L" n="31"/>circa illam sive significant unam et eandem rem sub alia et alia ratione. Hae
+<lb ed="#L" n="32"/>autem rationes sunt secundum quod concipitur sub ratione indeterminati et
+<lb ed="#L" n="33"/>potentialis, determinabilis autem secundum aliquam formalem actualitatem,
+<lb ed="#L" n="34"/>scilicet per differentiam speciem constituentem et sic concipitur sub ratione
+<lb ed="#L" n="35"/>qua convenit ei intentio generis. Ex quo iterum videtur quod angeli non sunt
+<lb ed="#L" n="36"/>in genere. Illud enim quod est iu genere tanquam species debet esse tale quid
+<lb ed="#L" n="37"/>quod ? de ipso, prout secundum se ipsum intelligitur, formentur  plures 
+concep<lb break="no" ed="#L" n="38"/>tus in intellectu ordinate dicto modo se habentes. Sed videtur quod, secundum
+<lb ed="#L" n="39"/>Philosophum et Commentatorem, de separatis non possunt formari tales con-
+<pb ed="#L" n="352"/>
+               <lb ed="#L" n="1"/>ceptus distincti cum secundum se ipsa intelliguntur, quia nec in ipsis est 
+proces<lb break="no" ed="#L" n="2"/>sus in cognitione ab indeterminata cognitione «si est » ad «quid est», ut ad 
+cog<lb break="no" ed="#L" n="3"/>nitionem eorum sub ratione determinata, sed simplici intuitu totaliter mente
+<lb ed="#L" n="4"/>attinguntur et apprehenduntur vel totaliter ignorantur, id est de ipsis in se
+<lb ed="#L" n="5"/>ipsis nulla cognitio indeterminata habetur; et sic non videtur quod de ipsis
+<lb ed="#L" n="6"/>possunt formari diversi conceptus dicto modo differentes ; quare etiam ' non
+<lb ed="#L" n="7"/>erunt proprie in genere. Quia enim sensibilia individua per se non 
+apprehen<lb break="no" ed="#L" n="8"/>duntur  intellectu, sed sub ratione abstracta, ideo id quod de ipsis ab intellectu
+<lb ed="#L" n="9"/>per se apprehenditur apprehenditur sub ratione communi et communi conceptu ;
+<lb ed="#L" n="10"/>ergo e contra, si separata per se et secundum se ipsa in sua propria entitate, ut
+<lb ed="#L" n="11"/>sunt in se ipsis, apprehenduntur, non est eorum aliquis conceptus communis; et
+<lb ed="#L" n="12"/>sic in natura angelorum non solum non est accipere commune quod est genus,
+<lb ed="#L" n="13"/>sed nec etiam commune quod est species. Hoc etiam videtur per Philosophum,
+<lb ed="#L" n="14"/>septimo et secundo Metaphysicae ?, dicentem quod separata non habent 
+diffini<lb break="no" ed="#L" n="15"/>tionem ; diffinitio autem est sermo compositus ex genere et differentia ; quare
+<lb ed="#L" n="16"/>et cetera. Secundum ipsum enim in eis non est quaestio nec doctrina, sed alio
+<lb ed="#L" n="17"/>modo cognoscuntur, ut dictum est.
+</p>
+            <p xml:id="v27ab7-g30180-d1e433">
+               <lb ed="#L" n="18"/>Item, quod in simplicibus talibus non sint  tales diversi et distincti 
+concep<lb break="no" ed="#L" n="19"/>tus vel diversi actus cognoscendi, sed unus simplex, patet per Philosophum et 
+<lb ed="#L" n="20"/>Commentatorem, tertio de Anima, ubi dicitur quod aliud est magnitudo et
+<lb ed="#L" n="21"/>magnitudinis esse et caro et carnis esse. Commentator : id. est, individuum est
+<lb ed="#L" n="22"/>aliquid et intentio per quam est ens, [sed] quidditas et forma eius, est aliud,
+<lb ed="#L" n="23"/>appellans hic ? formam et quidditatem rem secundum quod ut obiectum per se
+<lb ed="#L" n="24"/>intellectus apprehenditur et ut abstractum a condicionibus contrahentibus.
+<lb ed="#L" n="25"/>Deinde dicit quod haec diversitas contingit in omnibus compositis ex materia
+<lb ed="#L" n="26"/>et forma, non autem in rebus simplicibus, quia in illis quidditas 'et essentia est
+<lb ed="#L" n="27"/>idem quod ipsum simplex, quia quidditas in eis non est in materia. Deinde
+<lb ed="#L" n="28"/>subdit : et cum entia sensibilia dividuntur in duplex esse, scilicet in hoc 
+singu<lb break="no" ed="#L" n="29"/>lare et suam formam, et necesse est ut virtus comprehensiva comprehendat ea
+<lb ed="#L" n="30"/>per duas virtutes, quando comprehendit utrumque istorum per se, scilicet
+<lb ed="#L" n="31"/>formam singulariter et individuum singulariter, per unam vero virtutem 
+secun<lb break="no" ed="#L" n="32"/>dum diversam dispositionem quando comprehendit alietatem quae est inter has
+<lb ed="#L" n="33"/>duas intentiones. Comprehendit enim intellectus formam per se, individuum
+<lb ed="#L" n="34"/>autem mediante sensu. Ouia enim istas formas non comprehendit intellectus
+<lb ed="#L" n="35"/>nisi in materiis, ideo comprehendit eas per dispositionem quae diversificatur.
+</p>
+            <p xml:id="v27ab7-g30180-d1e475">
+               <lb ed="#L" n="36"/>Ex istis patet quod in separatis non est accipere aliquam cognitionem
+<lb ed="#L" n="37"/>eorum sub ratione formae, ita quod eius ut sic sit conceptus communis et 
+inde<lb break="no" ed="#L" n="38"/>terminatus et alia cognitione cognoscuntur sub ratione determinata et singulari,
+<pb ed="#L" n="353"/>
+               <lb ed="#L" n="1"/>sed una simplici intuitione cognoscuntur. Et ex hoc videtur quod non solum
+<lb ed="#L" n="2"/>non sit ibi ratio generis et speciei differentes secundum rationem circa eandem
+<lb ed="#L" n="3"/>rem, sed nec ratio speciel et ratio individui vel singularis, sicut est in 
+materia<lb break="no" ed="#L" n="4"/>libus. In materialibus enim differt individuum a natura speciei sicut res 
+singu<lb break="no" ed="#L" n="5"/>lariter in se existens et ut sic nata apprehendi a sensu a se ipsa ut intellecta sub
+<lb ed="#L" n="6"/>ratione conceptus communis et speciei; in immaterialibus autem non sic. Sed
+<lb ed="#L" n="7"/>secundum esse quod habent in re in se ipsis secundum illud et sub eadem
+<lb ed="#L" n="8"/>ratione intelliguntur nec aliter habent esse quam sicut intelliguntur '; sed
+<lb ed="#L" n="9"/>materialia intelliguntur universaliter; non sic autem existunt, sed singulariter.
+</p>
+            <p xml:id="v27ab7-g30180-d1e506">
+               <lb ed="#L" n="10"/>Ex istis ergo videtur quod angeli non eunt proprie in genere nec cadunt
+<lb ed="#L" n="11"/>cum aliis substantiis sub divisione substantiae ut alicuius unius nominis 
+<lb ed="#L" n="12"/>univoci, sed analogi tantum. Unde dicit Simplicius, capitulo de Substantia :
+<lb ed="#L" n="13"/>divisio qua dividitur substantia in corpoream et in incorpoream quibus nihil
+<lb ed="#L" n="14"/>videtur commune merito reprehenditur si accipiantur haec ut secundum unam
+<lb ed="#L" n="15"/>coelementarem contradictionem, et communem ut omnino indifferens ; sed si
+<lb ed="#L" n="16"/>tanquam existente et in abstractione communicate copulata sunt omnia et post
+<lb ed="#L" n="17"/>distinctionem unita manent, non est inconveniens. Ex istis dictis Simplicii
+<lb ed="#L" n="18"/>videtur quod non est ? aliqua unitas et communitas istorum nisi secundum 
+ana<lb break="no" ed="#L" n="19"/>logiam et attributionem vel proportionem. Ergo videtur quod angeli cum sint
+<lb ed="#L" n="20"/>incorporei et non sunt in genere substantiae cum aliis in nullo genere videntur
+<lb ed="#L" n="21"/>esse per consequens. Item Avicenna, quinto Metaphysicae, dicit quod in eo
+<lb ed="#L" n="22"/>cuius essentia est simplex fortasse intellectus ponet in se ipso hos respectus,
+<lb ed="#L" n="23"/>scilicet secundum quos sumitur ratio generis et differentiae et speciei; in esse
+<lb ed="#L" n="24"/>autem eius nihil est quod discernatur esse genus.
+</p>
+            <p xml:id="v27ab7-g30180-d1e541">
+               <lb ed="#L" n="25"/>Sed, quia non videtur conveniens ponere angelos omnino extra genus, quia
+<lb ed="#L" n="26"/>hoc videtur soli Deo convenire eo quod ratione suae actualitatis penitus omnem
+<lb ed="#L" n="27"/>potentialitatem et limitationem omnem excludit, quia etiam non ponimus 
+ange<lb break="no" ed="#L" n="28"/>los esse substantias tantae actualitatis et simplicitatis sicut ponebant philosophi
+<lb ed="#L" n="29"/>substantias separatas quas omnes quasi quosdam Deos ponere videbantur,
+<lb ed="#L" n="30"/>ideo sunt a nobis angeli aliquo modo in genere collocandi.
+</p>
+            <p xml:id="v27ab7-g30180-d1e557">
+               <lb ed="#L" n="31"/>Sed, quia non possunt omnino proprie et uniformiter poni  in genere eodem
+<lb ed="#L" n="32"/>in quo sunt materialia corruptibilia ^, nec tamen consueverunt distingui plura
+<lb ed="#L" n="33"/>genera quam decem quorum unum est substantia, nec ponitur quod sint plura
+<lb ed="#L" n="34"/>genera substantialia sicut sunt plura accidentalia, oportet angelos eo modo quo
+<lb ed="#L" n="35"/>habent esse in genere poni in eodem genere substantiae cum aliis tam 
+corrup<lb break="no" ed="#L" n="36"/>tibilibus quam incorruptibilibus ; et ideo consuevit distingui de genere quod
+<lb ed="#L" n="37"/>uno modo dicitur genus naturale vel reale, alio modo logicum vel rationale ; et
+<lb ed="#L" n="38"/>tunc solet dici quod angeli sunt in eodem genere cum aliis quantum ad ratio-
+<pb ed="#L" n="354"/>
+               <lb ed="#L" n="1"/>nem generis logici, non autem naturalis. Et ideo ad videndum quomodo angeli
+<lb ed="#L" n="2"/>possunt poni in eodem genere saltem logico cum aliis est considerandum
+<lb ed="#L" n="3"/>quomodo differant ' illae rationes generis et deinde quomodo ea quae sunt de
+<lb ed="#L" n="4"/>ratione generis logici possunt in angelis reperiri.
+</p>
+            <p xml:id="v27ab7-g30180-d1e588">
+               <lb ed="#L" n="5"/>Quantum ad primum est intelligendum quod de ratione generis est quod
+<lb ed="#L" n="6"/>totum illud quod dicit species sub ratione actualis et determinati per formam
+<lb ed="#L" n="7"/>quam importat differentia dicat genus sub ratione  potentialis et indeterminati
+<lb ed="#L" n="8"/>determinabilis per actualitatem formae quam dicit principaliter differentia.
+</p>
+            <p xml:id="v27ab7-g30180-d1e600">
+               <lb ed="#L" n="9"/>Ex quo patet quod illud in quo potest sumi ratio generis et differentiae
+<lb ed="#L" n="10"/>debet potentialitatem aliquam importare cum aliqua actualitate sive debet
+<lb ed="#L" n="11"/>importare  rem quae possit accipi sub ratione potentialis et indeterminati et
+<lb ed="#L" n="12"/>sub ratione actualis et determinati per aliquam actualitatem determinatam ; et
+<lb ed="#L" n="13"/>res multae in quibus potest reperiri potentialitas aliquo modo una in qua aliquo
+<lb ed="#L" n="14"/>modo omnes conveniunt et in quibus sunt actualitates diversae quibus ab 
+invi<lb break="no" ed="#L" n="15"/>cem differunt possunt dici esse compositae ex genere et differentia et esse in
+<lb ed="#L" n="16"/>genere uno.
+</p>
+            <p xml:id="v27ab7-g30180-d1e620">
+               <lb ed="#L" n="17"/>Ubi autem ex parte rei invenitur vera potentia quantum est de se respectu
+<lb ed="#L" n="18"/>multorum una secundum rem et indeterminata, sed omnibus illis communis
+<lb ed="#L" n="19"/>per privationem determinationis et actualitatis, scilicet ipsa materia prima et
+<lb ed="#L" n="20"/>per multa ab illa realiter differentia, scilicet actualitates diversarum formarum,
+<lb ed="#L" n="21"/>ordine quodam determinabilis, ibi invenitur aliqua unitas secundum rem ; et
+<lb ed="#L" n="22"/>sic omnibus eis est aliquid dicto modo realiter commune circa quod important
+<lb ed="#L" n="23"/>diversa entia diversas actualitates illud diversimode determinantes et ex hoc
+<lb ed="#L" n="24"/>diversa composita actualia et completa con stituentes in eis. Ergo in quibus
+<lb ed="#L" n="25"/>hoc invenitur potest ratio sumere unitatem et communitatem rationis ex unitate
+<lb ed="#L" n="26"/>et communitate rei ? sic diversimode perfectibilis. Et hoc dicitur communitas
+<lb ed="#L" n="27"/>generis, non quia sumatur ab illa re potentiali quae est materia sic communis
+<lb ed="#L" n="28"/>secundum se, sed a toto composito ex ipsa et forma qua perfectibilis est absque
+<lb ed="#L" n="29"/>cointellectu alicuius formae determinatae qua specificabilis et 
+determinabi<lb break="no" ed="#L" n="30"/>lis? est.
+</p>
+            <p xml:id="v27ab7-g30180-d1e653">
+               <lb ed="#L" n="31"/>Et ex diversitate realium actualitatum formalium respectu differentiae unius
+<lb ed="#L" n="32"/>potentiae ordinatarum potest intellectus sumere rationes diversas diversarum
+<lb ed="#L" n="33"/>differentiarum illud totum sive compositum dicto modo sub ratione 
+indeter<lb break="no" ed="#L" n="34"/>minati sumptum determinativarum ? et completivarum, ut patet descendendo
+<lb ed="#L" n="35"/>ad materialia quae communicant in materia.
+</p>
+            <p xml:id="v27ab7-g30180-d1e666">
+               <lb ed="#L" n="36"/>Ubi autem ex parte rei intra eius essentiam non est accipere veram 
+poten<lb break="no" ed="#L" n="37"/>tiam et substantialem in qua multa entia perfecta communicant et veram 
+actua<lb break="no" ed="#L" n="38"/>litatem per quam multa ad invicem specialiter differant, sed unum et idem
+<pb ed="#L" n="355"/>
+               <lb ed="#L" n="1"/>secundum rem secundum diversas rationes consideratum accipiatur sub una
+<lb ed="#L" n="2"/>consideratione secundum rationem indeterminati et potentialis et sic sub ratione
+<lb ed="#L" n="3"/>generis, et id ipsum sub alia consideratione accipiatur secundum rationem
+<lb ed="#L" n="4"/>determinantis et sic sub ratione differentiae et sub alia secundum rationem
+<lb ed="#L" n="5"/>determinati et sic sub ratione speciei, ita etiam quod multa talia simplicia
+<lb ed="#L" n="6"/>secundum rem et cum materialibus realiter compositis et inter se etiam 
+com<lb break="no" ed="#L" n="7"/>municant secundum rationem cuiusdam potentialitatis quae in eis consideratur
+<lb ed="#L" n="8"/>non quidem secundum unitatem realem, quia talis non est in eis, sed secundum
+<lb ed="#L" n="9"/>quandam unitatem analogiae et proportionis ; puta quod, sicut in materialibus
+<lb ed="#L" n="10"/>est aliquid unum ens compositum ex pluribus rebus, scilicet potentia et actu, et
+<lb ed="#L" n="11"/>sic secundum diversa est ibi actuale et potentiale, ita etiam in separatis est
+<lb ed="#L" n="12"/>accipere unum et idem secundum rem sub ratione potentialitatis et sub ratione
+<lb ed="#L" n="13"/>actualitatis; et sic etiam omnia conveniunt in ratione potentialitatis sic quod
+<lb ed="#L" n="14"/>unumquodque secundum se potentialitatem includit in quantum non est ens
+<lb ed="#L" n="15"/>primum quod sit actus purus, sed est ens per participationem ex se non habens
+<lb ed="#L" n="16"/>entitatem vel esse in actu sed in potentia tantum, licet diversimode secundum
+<lb ed="#L" n="17"/>diversitatem naturarum entium simplicium et compositorum. In talibus autem
+<lb ed="#L" n="18"/>non potest ratio sive intellectus sumere unitatem et communitatem rationis ex
+<lb ed="#L" n="19"/>unitate et communitate rei quae possit habere rationem unius generis, sed '
+<lb ed="#L" n="20"/>oportet quod hoc fiat ex aliqua unitate in modo consimili essendi et intelligendi
+<lb ed="#L" n="21"/>et etiam praedicandi, ut videbitur.
+</p>
+            <p xml:id="v27ab7-g30180-d1e723">
+               <lb ed="#L" n="22"/>Et, quia naturalis est artifex realis, ideo quando rationi  generis et 
+diffe<lb break="no" ed="#L" n="23"/>rentiae respondent ex parte rei praedicta illa, dicuntur habere rationem generis
+<lb ed="#L" n="24"/>et differentiae realis sive naturalis quod pro eodem accipitur. Quia vero logicus
+<lb ed="#L" n="25"/>est artifex rationalis, ideo quando rationi generis et differentiae praedicta 
+secun<lb break="no" ed="#L" n="26"/>dum rem non respondent ex parte rei, sed ex ratione vel secundum rationem
+<lb ed="#L" n="27"/>solum, talia dicuntur habere rationem generis et differentiae logici. Et bene
+<lb ed="#L" n="28"/>videtur dici tale genus solum logicum, non reale vel naturale, eo quod entia
+<lb ed="#L" n="29"/>logicalia sunt entia rationis. Nunc autem genus et differentia et species sic
+<lb ed="#L" n="30"/>accepta solum videntur entia esse rationis. Propter quod Avicenna loquens de
+<lb ed="#L" n="31"/>istis in quibus sunt hae intentiones modo logico, quinto Metaphysicae suae,
+<lb ed="#L" n="32"/>dicit, ut tactum est, quod in eo cuius essentia est simplex fortasse intellectus
+<lb ed="#L" n="33"/>ponet in se ipso hos respectus, scilicet secundum quos sumatur ratio generis et
+<lb ed="#L" n="34"/>differentiae vel speciei;in esse autem eius nihil est quod discernatur esse genus.
+</p>
+            <p xml:id="v27ab7-g30180-d1e754">
+               <lb ed="#L" n="35"/>His igitur ? visis, patet primum, scilicet quomodo differunt genus logicum
+<lb ed="#L" n="36"/>et genus naturale. Hoc igitur ostenso, videamus de secundo, scilicet quomodo
+<lb ed="#L" n="37"/>ea quae sunt de ratione generis logici possunt in angelis reperiri. Sciendum est
+<lb ed="#L" n="38"/>igitur quod, quia ratio generis semper  sumitur a ratione potentialitatis, in
+<lb ed="#L" n="39"/>quantum dicit naturam rei sub ratione indeterminati ut per aliquam actualitatem
+<pb ed="#L" n="356"/>
+               <lb ed="#L" n="1"/>determinabilis, propter quod oportet quod illud in quo potest accipi ratio
+<lb ed="#L" n="2"/>generis sit tale quod non sit actus purus respectu nullius, aliquam 
+potentialita<lb break="no" ed="#L" n="3"/>tem et defectibilitatem habens ut per aliquam determinatam actualitatem 
+deter<lb break="no" ed="#L" n="4"/>minabilis, — unde in Deo nulla ratio generis potest accipi, — ne ista ratio sit
+<lb ed="#L" n="5"/>cassa, oportet quod in re sit unde talis modus potentialitatis accipi possit. Etsi
+<lb ed="#L" n="6"/>quidem sit ' res talis quod realiter sit ibi potentialitas realiter distincta ab actu
+<lb ed="#L" n="7"/>intra essentiam, in illo potest accipi ratio generis realis vel naturalis, ut patet
+<lb ed="#L" n="8"/>in corruptibilibus. Si autem in una essentia simplici oportet utraque accipi, est
+<lb ed="#L" n="9"/>ibi ratio generis logici, ut ex iam dictis patet.
+</p>
+            <p xml:id="v27ab7-g30180-d1e790">
+               <lb ed="#L" n="10"/>Verumtamen, quia videretur ratio esse cassa nisi illud quod in sua natura
+<lb ed="#L" n="11"/>non includit compositionem secundum rem haberet eam saltem annexam, et
+<lb ed="#L" n="12"/>ideo, ut dicitur a quibusdam, cum in angelis non sit compositio intra essentiam
+<lb ed="#L" n="13"/>eorum ex materia et forma, oportet, quod si sit genus in eis, quod cum aliquo
+<lb ed="#L" n="14"/>respectu cuius habeant potentialitatem compositionem faciant. Et ita esse
+<lb ed="#L" n="15"/>dicunt. Quia enim natura angelica compositionem facit cum suo esse et cum
+<lb ed="#L" n="16"/>suis proprietatibus et accidentibus, in angelis videtur debere poni genus ratione
+<lb ed="#L" n="17"/>talis potentialitatis, quia, licet natura in eis sit simplex, habens tamen naturam,
+<lb ed="#L" n="18"/>est compositum; quae compositio poterit correspondere compositioni secundum
+<lb ed="#L" n="19"/>rationem ex genere et differentia ; et sic, si consideretur ipsa natura angeli
+<lb ed="#L" n="20"/>secundum quod est potentialitas quaedam respectu suarum posteriorum 
+perfec<lb break="no" ed="#L" n="21"/>tionum quibus perficitur, sic ex ea sumitur ratio generis, quia in hoc omnes
+<lb ed="#L" n="22"/>angeli conveniunt quod natura ipsorum est in potentia ad ulteriores 
+perfec<lb break="no" ed="#L" n="23"/>tiones. Si autem consideretur ipsa natura ut est actualitas quaedam in 
+deter<lb break="no" ed="#L" n="24"/>minato gradu naturae et entitatis a qua natae sunt fluere tales proprietates
+<lb ed="#L" n="25"/>secundum determinatum gradum per modum nobilitatis, sic ex ea sumitur ratio
+<lb ed="#L" n="26"/>differentiae ; nam secundum hoc inter eos attenditur distinctio quod sunt in
+<lb ed="#L" n="27"/>alio gradu naturae a qua natae sunt fluere proprie tates secundum alium et
+<lb ed="#L" n="28"/>alium gradum.
+</p>
+            <p xml:id="v27ab7-g30180-d1e834">
+               <lb ed="#L" n="29"/>Sed videtur, quod etiam si in angelis debet genus poni, quod non sic
+<lb ed="#L" n="30"/>debet ratio generis et differentiae in eis accipi. Primo, quia ratio generis et
+<lb ed="#L" n="31"/>differentiae sumi debet ab eo quod ad rei essentiam pertinet et ratio generis a
+<lb ed="#L" n="32"/>potentialitate non accidentali sive respectu accidentalium perfectionum et
+<lb ed="#L" n="33"/>differentia ab actualitate essentiali. Cum ergo potentialitas angeli respectu
+<lb ed="#L" n="34"/>suorum accidentium et etiam actualitas ipsorum accidentium non sint ? 
+huius<lb break="no" ed="#L" n="35"/>modi, videtur quod ab illis non convenienter ratio generis et differentiae
+<lb ed="#L" n="36"/>sumatur, licet forte per hoc aliquo modo manifestari possit et cognosci ratio
+<lb ed="#L" n="37"/>potentialitatis et actualitatis intra naturam angeli a qua dicitur posse
+<lb ed="#L" n="38"/>sumi ratio generis et differentiae sicut in materialibus. Ex eo enim
+<lb ed="#L" n="39"/>quod in homine est potentia ad sentire in quo convenit cum brutis et ad
+<pb ed="#L" n="357"/>
+               <lb ed="#L" n="1"/>intelligere in quo differt ab eis non sumitur ratio generis et differentiae ;
+<lb ed="#L" n="2"/>sed ex istis proprietatibus quae de ipso apparent devenimus in 
+cogni<lb break="no" ed="#L" n="3"/>tionem potentialitatis et actualitatis essentialis sive essentiae ipsius hominis
+<lb ed="#L" n="4"/>sub duplici ratione, scilicet sub ratione potentialitatis communis et sub ratione
+<lb ed="#L" n="5"/>actualitatis specialis. Secundo quia, si in aliquibus substantiis separatis esset
+<lb ed="#L" n="6"/>actualitas substantialis sine accidentali et cum essent distinctae secundum
+<lb ed="#L" n="7"/>diversos gradus actualitatum et perfectionum quod requirit diversitas in entibus
+<lb ed="#L" n="8"/>sicut diversitas numerorum in eis, nullo modo posset aliqualis ratio generis 
+repe<lb break="no" ed="#L" n="9"/>riri. Quod tamen non videtur conveniens, cum hoc sit proprium soli primo
+<lb ed="#L" n="10"/>enti a nullo dependenti et respectu nullius potentialitatem habenti a quo omnia
+<lb ed="#L" n="11"/>alia dependent et respectu cuius potentialitatem habent quantumcunque etiam
+<lb ed="#L" n="12"/>sint in sua essentia simplicissima per privationem plurium rerum realem 
+com<lb break="no" ed="#L" n="13"/>positionem facientium. Propter quod in angelis nullam compositionem intra suam
+<lb ed="#L" n="14"/>essentiam habentibus, licet habeant compositionem cum accidentibus suis,
+<lb ed="#L" n="15"/>tamen a potentialitate quam respectu huius ' compositionis habent non debet
+<lb ed="#L" n="16"/>sumi ratio generis.
+</p>
+            <p xml:id="v27ab7-g30180-d1e897">
+               <lb ed="#L" n="17"/>Et ideo videtur dicendum quod, cum ratio generis debeat poni in 
+qua<lb break="no" ed="#L" n="18"/>cumque creatura quantumcunque nobili sub Deo, sic videtur ponenda, quod
+<lb ed="#L" n="19"/>diversae rerum species gradatim naturam et perfectionem entis possident ita
+<lb ed="#L" n="20"/>quod una species super aliam aliquem gradum perfectionis adiicit respectu cuius
+<lb ed="#L" n="21"/>alia carens tali gradu et actualitate quandam imperfectionem et potentialitatem 
+<lb ed="#L" n="22"/>dicitur habere. Ratio ergo determinatae speciei quam complet differentia 
+con<lb break="no" ed="#L" n="23"/>sistit in hoc quod in determinato gradu entis collocatur; ratio vero generis
+<lb ed="#L" n="24"/>sumetur ex eo quod, cum natura sua secundum se sit quid imperfectum propter
+<lb ed="#L" n="25"/>limitationem suae entitatis et deficiens ab actualitate pura ? et sic ut recedens
+<lb ed="#L" n="26"/>ab illa actualitate respectu illius quandam potentialitatem includit, sicut ex eo
+<lb ed="#L" n="27"/>quod illa eadem natura respectu imperfectioris ab eo deficientis actualitatem
+<lb ed="#L" n="28"/>quasi suam  potentialitatem determinantem includit et secundum hoc in uno
+<lb ed="#L" n="29"/>et eodem quantumcumque simplici et perfecto creato, tamen poterit accipi ratio
+<lb ed="#L" n="30"/>potentialitatis et indeterminati et ratio actualis et determinantis ex quibus sumi
+<lb ed="#L" n="31"/>poterit ratio generis et differentiae eo modo quo in simplicibus substantiis sumi
+<lb ed="#L" n="32"/>potest. Sed non est accipere in eis huiusmodi rationes prout sufficiunt ad 
+ratio<lb break="no" ed="#L" n="33"/>nem generis et differentiae naturalis, ut dictum est. Sed nec hoc quod dictum
+<lb ed="#L" n="34"/>est videtur sufficere ad ponendum rationem generis logici in angelis, quia in
+<lb ed="#L" n="35"/>illis quibus non convenit diffinitio quae est sermo compositus ex genere et 
+dif<lb break="no" ed="#L" n="36"/>ferentia logicis non videtur esse genus et differentia, sed secundum Philosophum
+<lb ed="#L" n="37"/>et Commentatorem, septimo et octavo Metaphysicae, simplicia entia separata
+<lb ed="#L" n="38"/>non diffiniuntur nec in eis est cognitio procedensa «siest » ad « quid est »,
+<pb ed="#L" n="358"/>
+               <lb ed="#L" n="1"/>ut praeallegatum est. Unde, secundum eos, in eis non est quaestio et doctrina,
+<lb ed="#L" n="2"/>sed modo simplicis apprehensionis totaliter cognoscuntur. Et hoc videtur 
+ratio<lb break="no" ed="#L" n="3"/>ne ', quia illud cui convenit genus et differentia quibus est diffinibile est tale
+<lb ed="#L" n="4"/>quod de ipso etiam secundum se ipsum formantur plures conceptus in intellectu
+<lb ed="#L" n="5"/>ordinate se habentes secundum indeterminatum et determinatum. Tales autem
+<lb ed="#L" n="6"/>intellectus plures de separatis, cum secundum se intelliguntur, formari non 
+pos<lb break="no" ed="#L" n="7"/>sunt, secundum Philosophum et Commentatorem, sed mente simplici intuitu
+<lb ed="#L" n="8"/>et conceptu totaliter attinguntur vel totaliter ignorantur ; et sic eis non videtur
+<lb ed="#L" n="9"/>attribui intellectus communis, quia in se ipsis ut sunt secundum se intelligibilia
+<lb ed="#L" n="10"/>videntur. Cum igitur illa quibus convenit ratio generis et differentiae per se
+<lb ed="#L" n="11"/>secundum esse singulare eorum non intelliguntur, videtur quod in separatis non
+<lb ed="#L" n="12"/>possit proprie poni genus et differentia, etiam de genere et differentia logice
+<lb ed="#L" n="13"/>loquendo, quia constat quod ut sic importent distinctos conceptus et communes
+<lb ed="#L" n="14"/>circa unam rem, quae nounisi singulariter existit, non tamen in sua 
+singulari<lb break="no" ed="#L" n="15"/>tate per se et primo intelligitur.
+</p>
+            <p xml:id="v27ab7-g30180-d1e982">
+               <lb ed="#L" n="16"/>Item, hoc idem alia ratione videtur, quia, ubi non est reperire aliquam 
+uni<lb break="no" ed="#L" n="17"/>tatem realem, sed solum secundum aliquam habitudinem et similitudinem sive
+<lb ed="#L" n="18"/>proportionem, non videtur posse imponi aliquod nomen commune vere 
+univo<lb break="no" ed="#L" n="19"/>cum sed anologum ; sed ita videtur esse in omnibus in  quibus non est aliqua
+<lb ed="#L" n="20"/>una natura communis. Hoc autem reperitur solum in materialibus ratione 
+mate<lb break="no" ed="#L" n="21"/>riae quae, quia quantum est de se una  numero est in omnibus, ideo etiam
+<lb ed="#L" n="22"/>omnia quodammodo sunt unum in illa et ratione illius omnia sunt invicem
+<lb ed="#L" n="23"/>transmutabilia. Ergo videtur quod solum in materialibus sit possibilis vera ratio
+<lb ed="#L" n="24"/>generis etiam logici. Non enim est ponendum genus naturale vel reale sic in
+<lb ed="#L" n="25"/>materialibus quod non logicum ; immo genus logicum vere est in eis, sed 
+dici<lb break="no" ed="#L" n="26"/>tur etiam naturale propter causam supradictam. Et hoc videtur intentio 
+Com<lb break="no" ed="#L" n="27"/>mentatoris et Philosophi, decimo Metaphysicae, ubi dicitur quod corruptibile
+<lb ed="#L" n="28"/>et incorruptibile non sunt in eodem genere eo quod non important 
+contrarie<lb break="no" ed="#L" n="29"/>tatem circa unam realem potentiam ; immo potentiam quam corruptibile 
+inclu<lb break="no" ed="#L" n="30"/>dit incorruptibile totaliter et universaliter excludit; propter quod dicitur ibi
+<lb ed="#L" n="31"/>quod nomen congregans illa duo est nomen aequivocum ; sed ? hoc  nomen
+<lb ed="#L" n="32"/>generis logici est nomen univocum ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g30180-d1e1021">
+               <lb ed="#L" n="33"/>Sed, quamvis secundum ista videatur quod genus et differentia non omnino
+<lb ed="#L" n="34"/>proprie et perfecte possunt i»materialibus ? sicut materialibus convenire, tamen
+<lb ed="#L" n="35"/>est dicendum quod aliquo modo sunt in genere substantiae, saltem logice
+<lb ed="#L" n="36"/>loquendo. Sed illa ratio generis communis eis et aliis substantiis non potest
+<lb ed="#L" n="37"/>sumi ex uno reali, sed sumitur ex aliqua unitate secundum rationem sumpta ex
+<lb ed="#L" n="38"/>aliqua conformitate quae inter eas invenitur. Ex hoc scilicet quod propter
+<pb ed="#L" n="359"/>
+               <lb ed="#L" n="1"/>eorum similitudinem naturalem cum aliis substantiis in suis naturis et in ratione
+<lb ed="#L" n="2"/>potentialitatis communis et etiam in quodam modo per se existendi habent etiam
+<lb ed="#L" n="3"/>unum modum praedicandi et quodammodo unum modum intelligendi, ideo
+<lb ed="#L" n="4"/>nomina communia dicta de materialibus et de immaterialibus habent 
+sufficien<lb break="no" ed="#L" n="5"/>tem univocationem ad hoc quod possint habere rationem generis logici ad
+<lb ed="#L" n="6"/>substantias materiales et immateriales, supposita tamen tali natura in eis quod
+<lb ed="#L" n="7"/>propter defectum a pura actualitate, ut dictum est, possit in eis accipi ratio
+<lb ed="#L" n="8"/>actualitatis et potentialitatis, quod non contingit in Deo qui nullo modo est in
+<lb ed="#L" n="9"/>genere. Et ideo dicit Simplicius, capitulo de Substantia, ut supra allegatum est,
+<lb ed="#L" n="10"/>divisio qua dividitur substantia in corporeum et ' incorporeum, quibus nihil
+<lb ed="#L" n="11"/>videtur commune, merito reprehenditur si accipiantur haec ut secundum unam
+<lb ed="#L" n="12"/>coelementarem contradictionem et communem ut omnino indifferens ; sed, si
+<lb ed="#L" n="13"/>tanquam existente aliqua et in abstractione communitate " secundum quam
+<lb ed="#L" n="14"/>copulata sunt omnia et post distinctionem unita manent ?,non est inconveniens ;
+<lb ed="#L" n="15"/>et sic communitas generis substantiae ad corruptibilia et incorruptibilia non
+<lb ed="#L" n="16"/>sumitur a communitate reali quae sit aliquid unum secundum rem, sicut 
+con<lb break="no" ed="#L" n="17"/>tingit ubi est vere unum genus reale et naturale, sed ab unitate proportionis et
+<lb ed="#L" n="18"/>analogiae dicto modo et ab unitate modi praedicandi quem habent nomina
+<lb ed="#L" n="19"/>communiter de ipsis dicta ratione talis unius modi essendi et modi intelligendi.
+<lb ed="#L" n="20"/>Ex hoc enim potest eis poni unum nomen commune communitate talis 
+uni<lb break="no" ed="#L" n="21"/>vocationis quae sufficere videtur ad unitatem generis logici, licet maior sit 
+uni<lb break="no" ed="#L" n="22"/>vocatio illius nominis, ut specialiter dicitur de entibus corruptibilibus, et potest
+<lb ed="#L" n="23"/>ilii nomini communi convenire respectu omnium unus modus praedicandi.
+<lb ed="#L" n="24"/>Omnes enim substantiae habent unum modum praedicandi in quantum 
+praedi<lb break="no" ed="#L" n="25"/>cantur non ut in subiecto existentes et hoc propter unum modum existendi.
+<lb ed="#L" n="26"/>Verumtamen hic  modus existendi nequaquam arguere potest in eis esse 
+ratio<lb break="no" ed="#L" n="27"/>nem generis nisi supposita compositione ex actu et potentia ad eorum essentias
+<lb ed="#L" n="28"/>pertinentibus. Quae quidem compositio quomodo intelligi debeat etiam in 
+sub<lb break="no" ed="#L" n="29"/>stantiis separatis ex praedictis patet. It eundem modum intelligendi quantum
+<lb ed="#L" n="30"/>ad substantias separatas videtur Proclus habuisse, prout patet secunda 
+proposi<lb break="no" ed="#L" n="31"/>tione, ubi dicitur quod omne quod participat uno est unum et non unum ;
+<lb ed="#L" n="32"/>quia, ut ibi probatur, omne quod non est ipsum unum, id est primo unum quod
+<lb ed="#L" n="33"/>est Deus quod est actus primus et purus, est aliquid aliud existens quam unum,
+<lb ed="#L" n="34"/>eo quod a primo uno non est recedere nisi per accessum in non unum seu in
+<lb ed="#L" n="35"/>aliquid aliud quam unum ; quia omne participans uno non est ipsum unum sive
+<lb ed="#L" n="36"/>primo unum, sed secundario et per quendam defectum et recessum ab eo. Ergo
+<lb ed="#L" n="37"/>est unum et non unum, id est non sic unum quin aliquo modo multa, quia est
+<lb ed="#L" n="38"/>unum uno modo et non unum alio modo. Est enim in entibus sicut in numeris
+<lb ed="#L" n="39"/>quia, sicut non contingit recedere ab unitate nisi accedendo ad multitudinem et
+<pb ed="#L" n="360"/>
+               <lb ed="#L" n="1"/>est recedere ab unitate plus et minus, sic in entibus non est recedere a primo
+<lb ed="#L" n="2"/>uno nisi accedendo in ea quae multitudinem habent ' secundum plus et minus
+<lb ed="#L" n="3"/>et illa quae sunt magis universalia  sunt diviniora ? et in ordine entium 
+supe<lb break="no" ed="#L" n="4"/>riora. Contingit autem quantum ad aliqua entia perfecta, ut sunt angeli, 
+rece<lb break="no" ed="#L" n="5"/>dere a primo uno absque multitudine plurium secundum rem essentiam eorum
+<lb ed="#L" n="6"/>componentium per quae habeant potentialitatem et actualitatem ; et hoc 
+con<lb break="no" ed="#L" n="7"/>tingit in habendo naturam quodammodo mediam, non per compositionem, sed
+<lb ed="#L" n="8"/>per assimilationem aliquam secundum unam naturam ad diversa, scilicet ad id
+<lb ed="#L" n="9"/>quod est superius et actualius et ad id quod est inferius et potentialius. Sicut
+<lb ed="#L" n="10"/>enim aer dicitur mediam naturam habere quodammodo inter grave et leve
+<lb ed="#L" n="11"/>simpliciter, non secundum naturam compositam ex utraque, sed secundum
+<lb ed="#L" n="12"/>unam simplicem quae respectu ignis levissimi dicitur gravis, respectu terrae
+<lb ed="#L" n="13"/>gravissimae dicitur levis; ita etiam in natura angeli, recedendo ab actualitate
+<lb ed="#L" n="14"/>primi et accedendo ad potentialitatem simpliciter habet quodammodo 
+composi<lb break="no" ed="#L" n="15"/>tionem, non rei, sed rationis ex potentia et actu; non quidem fictae rationis,
+<lb ed="#L" n="16"/>sed rei convenientem secundum comparationem ad superius, sicut minus 
+actua<lb break="no" ed="#L" n="17"/>lis et in hoc potentialioris et secundum comparationem ad inferius sicut magis
+<lb ed="#L" n="18"/>actualis. Hoc autem primo enti convenire non potest ; et ideo, quamvis sibi
+<lb ed="#L" n="19"/>competat modus essendi in se qui est modus substantiae, tamen sibi non 
+com<lb break="no" ed="#L" n="20"/>petit ratio generis.
+</p>
+            <p xml:id="v27ab7-g30180-d1e1169">
+               <lb ed="#L" n="21"/>Cum igitur quaeritur utrum in angelis sit compositio ex genere et 
+differen<lb break="no" ed="#L" n="22"/>tia dicendum quod sic, loquendo de genere logico ; et hoc, quia in angelis est
+<lb ed="#L" n="23"/>potentialitas et actualitas secundum idem reale sub alia ratione ita quod 
+sem<lb break="no" ed="#L" n="24"/>per prior species intelligitur determinari per id quod importat perfectionem
+<lb ed="#L" n="25"/>actualiorem et simpliciorem quam id quo determinatur potentialitas in alio ;
+<lb ed="#L" n="26"/>unde omnes conveniunt in hoc quod est non esse actum purum et sic de se
+<lb ed="#L" n="27"/>quandam potentialitatem in sua entitate important ; sed differunt in hoc quod
+<lb ed="#L" n="28"/>diversis gradibus actualitatum et perfectionum secundum aliquem ordinem
+<lb ed="#L" n="29"/>determinatur huiusmodi communis potentialitas in diversis ; et sic, sicut in eis
+<lb ed="#L" n="30"/>est intelligere compositionem ex actu et potentia, ita in eis est accipere 
+compo<lb break="no" ed="#L" n="31"/>sitionem generis et differentiae .
+</p>
+            <p xml:id="v27ab7-g30180-d1e1196">
+               <lb ed="#L" n="32"/>Ad argumentum in oppositum est dicendum quod non videtur quod in
+<lb ed="#L" n="33"/>separatis eo modo quo ponitur genus et differentia in eis quod quanto est species
+<lb ed="#L" n="34"/>simplicior tanto est perfectior, immo e converso ; alioquin, cum genus sit 
+sim<lb break="no" ed="#L" n="35"/>plicius quam species, esset perfectius; quod est inconveniens, cum genus dicat
+<lb ed="#L" n="36"/>quid potentiale et imperfectum et indeterminatum per ipsam differentiam quae
+<lb ed="#L" n="37"/>dicit actualitatem determinativam et perfectivam et ideo descendendo secun-
+<pb ed="#L" n="361"/>
+               <lb ed="#L" n="1"/>dum lineam praedicamentalem quanto aliquid simplicius tanto minus perfectum
+<lb ed="#L" n="2"/>secundum processum proprium unicuique convenientem in suo latere. Unde,
+<lb ed="#L" n="3"/>sicut in corporalibus per ordinem se habentibus simplex est imperfectius quam
+<lb ed="#L" n="4"/>mixtum et mixtum quam vivum et sic de aliis, ita etiam in intelligentiis potest
+<lb ed="#L" n="5"/>fieri adaptatio. Sed tamen in eis habere rationem maioris numeri et 
+compositio<lb break="no" ed="#L" n="6"/>nis potest esse uno modo per modum compositionis realis; et sic esse 
+compo<lb break="no" ed="#L" n="7"/>sitius est imperfectius vel per modum unitionis et simplicitatis ' realis, licet cum
+<lb ed="#L" n="8"/>plurificatione secundum diversitatem rationis; et sic habere plura non est
+<lb ed="#L" n="9"/>imperfectionis. Et secundum hoc,— sicut Deus absque omni compositione potent
+<lb ed="#L" n="10"/>tialis et actualis, quae requiritur in illo quod potest poni in genere, 
+contine<lb break="no" ed="#L" n="11"/>plures perfectiones unite tamen, ita intelligentia sibi proxima ex genere et 
+diffe<lb break="no" ed="#L" n="12"/>rentia composita modo exposito plures perfectiones continet quam secunda et
+<lb ed="#L" n="13"/>sic potest intelligi minus simplex secundum unam considerationem prima 
+intel<lb break="no" ed="#L" n="14"/>ligentia quam secunda in quantum quicquid continet secunda perfectionis et
+<lb ed="#L" n="15"/>actualitatis continet prima et amplius in uno tamen simplici secundum rem et
+<lb ed="#L" n="16"/>secundum hoc quodammodo plures differentias complectitur, —posset etiam dici
+<lb ed="#L" n="17"/>quod dupliciter potest sumi processus rerum : vel secundum recessum à primo
+<lb ed="#L" n="18"/>actu ; et qui sic imaginantur  processum rerum dicunt quod entia simpliciora
+<lb ed="#L" n="19"/>sunt perfectiora; vel secundum recessum ' a prima potentia; et qui sic 
+imaginan<lb break="no" ed="#L" n="20"/>tur  processum rerum dicunt rem quanto compositiorem tanto perfectiorem ;
+<lb ed="#L" n="21"/>et utrobique semper species est perfectior quam genus, licet genus dicat rem sub
+<lb ed="#L" n="22"/>ratione magis simplici. Sed, quia in incorruptibilibus non est sic genus proprie
+<lb ed="#L" n="23"/>sicut in corruptibilibus, ut prius dictum est, eo quod in incorruptibilibus non
+<lb ed="#L" n="24"/>est aliquid unum secundum rem potentiale in quo omnia conveniunt habentia
+<lb ed="#L" n="25"/>inter se differentias per suas formas speciales secundum diversos gradus 
+digni<lb break="no" ed="#L" n="26"/>tatum et actualitatum illam unam potentialitatem perficientes sicut contingit
+<lb ed="#L" n="27"/>in materialibus, ideo non potest esse processus similis secundum lineam 
+praedi<lb break="no" ed="#L" n="28"/>camentalem per divisionem generis suis differentiis in species quantum ad hoc,
+<lb ed="#L" n="29"/>scilicet quod uniformiter ultimo cadens sub divisione generis utrobique sit
+<lb ed="#L" n="30"/>similiter perfectum vel imperfectum. Quia enim in corruptibilibus sumitur ratio
+<lb ed="#L" n="31"/>generis, ut dictum est, ab uno vere potentiali, ut perfectibile est per diversas
+<lb ed="#L" n="32"/>formas ordinate, ideo processus qui habet fieri in illis fit secundum recessum a
+<lb ed="#L" n="33"/>potentialitate illius ? per accessum ad actualitates diversarum formarum et 
+per<lb break="no" ed="#L" n="34"/>fectionum ; et quia illud unum potentiale natum est perfici omnibus quodam
+<lb ed="#L" n="35"/>ordine a prima usque ad ultimam, ideo illae formae sub quibus primo potest
+<lb ed="#L" n="36"/>esse sunt imperfectiores et potentiales respectu posteriorum ; et quia in ordina-
+<pb ed="#L" n="362"/>
+               <lb ed="#L" n="1"/>tis illud quod est perfectius et actualius continet virtute et perfectione id 
+per<lb break="no" ed="#L" n="2"/>fectionis et actualitatis quod est in minus perfecto et ultra licet in re simplici,
+<lb ed="#L" n="3"/>ideo, cum per differentias intelliguntur tales gradus perfectionum, patet quod in
+<lb ed="#L" n="4"/>materialibus id quod continet plures differentias est perfectius eo quod continet
+<lb ed="#L" n="5"/>pauciores ; sed e contra, quia in incorruptibilibus non sic est aliquid unum 
+per<lb break="no" ed="#L" n="6"/>fectibile diversis formis secundum diversos gradus — iam enim illa essent 
+cor<lb break="no" ed="#L" n="7"/>ruptibilia et ad invicem transmutabilia — non potest sumi processus ex recessu
+<lb ed="#L" n="8"/>ab aliqua vera potentialitate ad ve ram actualitatem differentem ; ergo oportet
+<lb ed="#L" n="9"/>quod accipiatur secundum recessum ab aliqua vera actualitate secundum gradus
+<lb ed="#L" n="10"/>diversarum et minus perfectarum actualitatum, quae quanto magis recedunt a
+<lb ed="#L" n="11"/>prima actualitate tanto sunt imperlíectiores et potentialiores et quodammodo
+<lb ed="#L" n="12"/>compositiores, ita tamen quod quicquid perfectionis est in posteriori est etiam
+<lb ed="#L" n="13"/>in priori et quodammodo amplius, sed magis unite. Sicut enim dicimus quod
+<lb ed="#L" n="14"/>superi ores et perfectiores intelligunt per pauciores species quam inferiores et
+<lb ed="#L" n="15"/>Deus quasi per unam, ita etiam potest dici quod superiores continent pauciores
+<lb ed="#L" n="16"/>differentias quam inferiores et in hac divisione et in illa semper ultimo cadens
+<lb ed="#L" n="17"/>sub divisione plures habet ' differentias et est compositius . Sed in una parte
+<lb ed="#L" n="18"/>illud ultimum cum pluribus differentiis est imperfectius et in alia parte ultimum
+<lb ed="#L" n="19"/>cum pluribus differentiis est perfectius, et hoc propter dissimilitudinem 
+pro<lb break="no" ed="#L" n="20"/>cessuum quorum unus est recedendo a potentialitate, alius vero recedendo ab
+<lb ed="#L" n="21"/>actualitate.
+</p>
+            <p xml:id="v27ab7-g30180-d1e1339">
+               <lb ed="#L" n="22"/>Verumtamen, quamvis talis modus procedendi in angelis circa genus 
+ange<lb break="no" ed="#L" n="23"/>lorum sit conveniens ex parte rei secundum se et secundum eorum realem
+<lb ed="#L" n="24"/>existentiam, non tamen videtur conveniens secundum considerationem 
+secun<lb break="no" ed="#L" n="25"/>dum quam in eis ponitur genus; nam, sicut de ratione generis in communi est '
+<lb ed="#L" n="26"/>quod dicat aliquid sub ratione minus perfecta, eo quod sub ratione magis 
+poten<lb break="no" ed="#L" n="27"/>tiali et determinabili quam species, ita etiam in linea praedicamentali videtur
+<lb ed="#L" n="28"/>esse de ratione generis subalterni quod dicat quid perfectius quam generalius
+<lb ed="#L" n="29"/>et quod species eius dicat quid perfectius quam ? species generis superioris.
+<lb ed="#L" n="30"/>Ergo, sicut in materialibus fit processus generis secundum rationem verae
+<lb ed="#L" n="31"/>potentiae quae una est secundum rem in omnibus ut sub ratione formae 
+incom<lb break="no" ed="#L" n="32"/>pletissimae accipiatur primo et postea sub completiori forma, ita in angelis ubi
+<lb ed="#L" n="33"/>non est potentialitas una secundum rem, sed secundum rationem debet procedi
+<lb ed="#L" n="34"/>secundum processum lineae praedicamentalis secundum quod illa potentialitas
+<lb ed="#L" n="35"/>accipitur ut quid unum secundum rationem vel conceptum determinabile per
+<lb ed="#L" n="36"/>diversos gradus actualitatum vel differentiarum angelorum, et sic etiam fit
+<lb ed="#L" n="37"/>huiusmodi processus per recessum ab huiusmodi potentialitate non sic una
+<lb ed="#L" n="38"/>existente secundum rem, sed secundum conceptum et rationem, sicut fit in
+<pb ed="#L" n="363"/>
+               <lb ed="#L" n="1"/>materialibus suo modo. Et hoc modo etiam debet dici quod, sicut angeli sunt in
+<lb ed="#L" n="2"/>genere ', angelus superior et perfectior est plures habens differentias ; magis
+<lb ed="#L" n="3"/>tamen unitae sunt realiter, quia actualiores quam differentiae quae sunt in
+<lb ed="#L" n="4"/>angelo imperfectiori et inferiori.
+</p>
+            <p xml:id="v27ab7-g30180-d1e1389">
+               <lb ed="#L" n="5"/>Patet igitur ? quod illa propositio assumpta in argumento, scilicet quod ubi
+<lb ed="#L" n="6"/>est compositio ex genere et differentia, quanto species habet plures differentias
+<lb ed="#L" n="7"/>tanto est perfectior, est aliquo modo universaliter vera et aliquo modo non.
+<lb ed="#L" n="8"/>Nam secundum quod secundum convenientiam aliquam rationis similiter
+<lb ed="#L" n="9"/>ponuntur in genere omnes substantiae corruptibiles et incorruptibiles et 
+secun<lb break="no" ed="#L" n="10"/>dum quod consimiliter in eis proceditur a genere in species, sicut in rebus
+<lb ed="#L" n="11"/>corruptibilibus species habens plures differentias est perfectior, ita in rebus
+<lb ed="#L" n="12"/>incorruptibilibus. Secundum igitur quod quid potentiale in omnibus commune
+<lb ed="#L" n="13"/>intelligimus ut unum secundum rationem intelligendi rationem  generis 
+om<lb break="no" ed="#L" n="14"/>nibus convenire intelligimus ; sed secundum quod illud distincte in diversis
+<lb ed="#L" n="15"/>accipimus rationem generis subalterni vel speciei capimus ita quod si 
+accipia<lb break="no" ed="#L" n="16"/>mus ipsum distincte secundum perfectionem generalem ipsum determinantem,
+<lb ed="#L" n="17"/>tunc consideratur sub ratione generis subalterni ; sed, si accipiatur distincte
+<lb ed="#L" n="18"/>secundum perfectionem distinguentem in speciali, tunc accipitur sub ratione
+<lb ed="#L" n="19"/>speciei. Ex quo patet quod secundum processum competentem rationi cuius
+<lb ed="#L" n="20"/>proprium est a communibus ad propria descendere et ab imperfecto ad 
+perfec<lb break="no" ed="#L" n="21"/>tum, quod inditferenter verificatur dicta propositio tam in materialibus quam
+<lb ed="#L" n="22"/>in immaterialibus. Secus tamen est secundum processum rei secundum quem
+<lb ed="#L" n="23"/>in materialibus res incipit ab imperfecto et tendit in perfectum ordine 
+genera<lb break="no" ed="#L" n="24"/>tionis. Sed in immaterialibus ubi talis progressus non potest esse, quia non sunt
+<lb ed="#L" n="25"/>generabilia nec producibilia in esse ex aliquo potentiali reali, solum est pro 
+ces<lb break="no" ed="#L" n="26"/>sus secundum ordinem perfectionis per recessum a prima perfectione ; in quo
+<lb ed="#L" n="27"/>processu quanto aliquid est prius tanto est perfectius.
+</p>
+            <p xml:id="v27ab7-g30180-d1e1441">
+               <lb ed="#L" n="28"/>Ad argumenta in corpore quaestionis inducta quae ostendunt angelos non
+<lb ed="#L" n="29"/>esse in genere facile secundum iam dicta est respondere ; quia, licet non sint in
+<lb ed="#L" n="30"/>eis conceptus distincti sic quod aliquid in separatis apprehendatur sub aliquo
+<lb ed="#L" n="31"/>conceptu communi qui accipiatur ? ex hoc quod aliquid reale commune in eis
+<lb ed="#L" n="32"/>inveniatur et deinde sub conceptu alio speciali, sicut contingit in illis in quibus
+<lb ed="#L" n="33"/>est genus reale et naturale, est tamen in eis aliquis conceptus communis unus
+<lb ed="#L" n="34"/>sumptus, non a tali uno reali, sed ab aliqua unitate secundum modum existendi
+<lb ed="#L" n="35"/>repertum in separatis et materialibus; ex quo sumitur conceptus unus non
+<lb ed="#L" n="36"/>unitate sic analogica sicut est unitas entis, sed unitate univoca tali quae sufficit
+<lb ed="#L" n="37"/>ad rationem generis logici; et per hoc potest responderi tam ad auctoritates
+<lb ed="#L" n="38"/>quam ad rationes superius inductas ad ostendendum quod non sunt in genere;
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

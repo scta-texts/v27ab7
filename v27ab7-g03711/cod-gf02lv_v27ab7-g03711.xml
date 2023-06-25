@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="45"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g03711"><!-- v27ab7-q5-q12 -->
+            <head xml:id="v27ab7-g03711-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-g03711-Hd1e101" type="question-title">
+      Utrum ratione manente erronea per actus appetitus
+      posset homo fieri virtuosus
+    </head>
+            <p xml:id="v27ab7-g03711-d1e104">
+               <pb ed="#L" n="45"/>
+               <lb ed="#L" n="1"/>QUAESTIO XII.
+<lb ed="#L" n="2"/>Utrum ratione manente erronea per actus appetitus
+<lb ed="#L" n="3"/>posset homo fieri virtuosus.
+</p>
+            <p xml:id="v27ab7-g03711-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa voluntatem quaerebantur quaedam pertinentia ad ipsam
+<lb ed="#L" n="5"/>in comparatione ad intellectum, quaedam pertinentia ad ipsam in 
+compa<lb break="no" ed="#L" n="6"/>ratione ad exteriorem actum.
+</p>
+            <p xml:id="v27ab7-g03711-d1e124">
+               <lb ed="#L" n="7"/>Circa voluntatem in comparatione ad intellectum, quaerebatur unum
+<lb ed="#L" n="8"/>pertinens ad modum acquirendi virtutes morales opere ipsius voluntatis,
+<lb ed="#L" n="9"/>scilicet utrum ratione manente erronea, per actus appetitus posset homo
+<lb ed="#L" n="10"/>fieri virtuosus. Et ostendebatur quod sic, quia quando aliqua sic se habent
+<lb ed="#L" n="11"/>quod unum est in potestate nostra et aliud non est in potestate nostra,
+<lb ed="#L" n="12"/>possimus habere illud quod est in potestate nostra, absque hoc quod
+<lb ed="#L" n="13"/>habeamus illud quod non est in potestate nostra. Sed in potestate nostra
+<lb ed="#L" n="14"/>est fieri bonos vel malos, ut ostendit Philosophus tertio Ethicorum ; sed
+<lb ed="#L" n="15"/>non est in potestate nostra recte iudicare vel errare secundum rationem,
+<lb ed="#L" n="16"/>prout dicit Theophrastus secundo de anima: in nobis est quando volumus,
+<lb ed="#L" n="17"/>phantasiam immittere ; sicut enim in pictoribus est quae volunt pingere ita
+<lb ed="#L" n="18"/>et animae; opinari autem quaecumque volimus non est ! in nobis, sed
+<lb ed="#L" n="19"/>quodcumque id quod evidens est coegerit; non enim possibile est aliquid 
+<lb ed="#L" n="20"/>apparens falsum non renuere; sed quod duo et tria sunt quinque 
+neces<lb break="no" ed="#L" n="21"/>sarium est consentire, sive velimus sive nolumus.
+</p>
+            <p xml:id="v27ab7-g03711-d1e160">
+               <lb ed="#L" n="22"/>Contra. Non possumus fieri virtuosi, nisi ex actibus secundum rectam
+<lb ed="#L" n="23"/>rationem regulatis. Unde, secundum Philosophum secundo Ethicorum, non
+<lb ed="#L" n="24"/>solum operationes sequentes habitum sed etiam habitum praecedentes quae
+<lb ed="#L" n="25"/>sunt generativae virtutis, oportet esse recta ratione informatas; sed ratione
+<lb ed="#L" n="26"/>manente erronea, actus appetitus non possunt recta ratione informari. Ergo
+<lb ed="#L" n="27"/>nec potest quis per eos virtuosus effici.
+</p>
+            <p xml:id="v27ab7-g03711-d1e176">
+               <lb ed="#L" n="28"/>Respondeo. Ad evidentiam quaestionis est intelligendum, quod cum
+<lb ed="#L" n="29"/>habens erroneam rationem et existens vitiosus moraliter sit in peccato
+<lb ed="#L" n="30"/>mortali, supponendum est quod nullo modo talis poterit resurgere nec
+<lb ed="#L" n="31"/>effici virtuosus simpliciter et perfecte, sine gratia Dei operante et coope-
+<pb ed="#L" n="46"/>
+               <lb ed="#L" n="1"/>rante. Et ideo supposita generali influentia Dei qua, quantum est ex parte
+<lb ed="#L" n="2"/>sua, paratus est influere et influit adiutorium gratiae, si ex parte nostra
+<lb ed="#L" n="3"/>obicem non ponamus, sed id quod ad nos pertinet facientes, nos humiliter
+<lb ed="#L" n="4"/>disponamus ; — est intelligenda quaestio quomodo ex parte hominis potest
+<lb ed="#L" n="5"/>fieri quod ad virtuosum statum revertatur, ipso ut positum est existente in
+<lb ed="#L" n="6"/>errore rationis, non quidem sic quod error rationis remaneat simul cum
+<lb ed="#L" n="7"/>habitu virtuoso, sed quomodo ' ipso existente in tali errore poterit 
+pro<lb break="no" ed="#L" n="8"/>cedere ad acquirendum habitum virtuosum, per cuius acquisitionem ut
+<lb ed="#L" n="9"/>videbitur oportet  errorem destrui.
+</p>
+            <p xml:id="v27ab7-g03711-d1e209">
+               <lb ed="#L" n="10"/>Et est dicendum quod quaestio videtur quaerere de modo acquirendi
+<lb ed="#L" n="11"/>virtutes morales, quia argumenta procedunt de virtute quae ex 
+assuefac<lb break="no" ed="#L" n="12"/>tione operum acquiritur. Est tamen considerandum quod, cum virtutes 
+intel<lb break="no" ed="#L" n="13"/>lectuales consistant essentialiter in rectitudine rationis, morales autem
+<lb ed="#L" n="14"/>essentialiter consistant in rectitudine appetitus participantis ratione, sive
+<lb ed="#L" n="15"/>rectitudine rationis qua actus ipsius appetitus per eorum conformitatem ad
+<lb ed="#L" n="16"/>ipsam rectificantur, impossibile est habere virtutem sive intellectualem sive
+<lb ed="#L" n="17"/>moralem, ratione erronea existente. Sed quia non virtuosus potest fieri
+<lb ed="#L" n="18"/>virtuosus nisi sit omnino orbatus, ut alibi est declaratum, quaerit quaestio
+<lb ed="#L" n="19"/>de modo quo aliquis habens rationem erroneam potest fieri virtuosus.
+</p>
+            <p xml:id="v27ab7-g03711-d1e233">
+               <lb ed="#L" n="20"/>Et est ratio dubitationis quia, cum non possit virtus acquiri nisi ex
+<lb ed="#L" n="21"/>actibus rationis rectis et virtuosis, licet non virtuoso modo factis, et a ratione
+<lb ed="#L" n="22"/>existente erronea non procedunt nisi actus erronei, videtur quod illa 
+exis<lb break="no" ed="#L" n="23"/>tente, non solum non poterit existere virtus, sed etiam nec fieri poterit vel
+<lb ed="#L" n="24"/>causari ; et consimiliter potest argui e contrario de ratione recta, quod illa
+<lb ed="#L" n="25"/>manente, non poterit quis nec fieri nec esse " vitiosus, nec prudens poterit
+<lb ed="#L" n="26"/>peccare. Et est intelligendum quod ratione existente erronea aliter fit quis
+<lb ed="#L" n="27"/>virtuosus virtute intellectuali et praecipue speculativa ; et aliter morali et
+<lb ed="#L" n="28"/>etiam virtute intellectuali connexa moralibus virtutibus. Nam cum dispositio
+<lb ed="#L" n="29"/>cog noscentis secundum appetitum per se nihil faciat ad sic vel aliter
+<lb ed="#L" n="30"/>videri  quantum ad speculabilia quae movent intellectum secundum  se et
+<lb ed="#L" n="31"/>non secundum conformitatem eorum realem ad intelligentem, — idem enim
+<lb ed="#L" n="32"/>iudicium habet intemperatus de hoc quod est triangulum habere tres 
+angu<lb break="no" ed="#L" n="33"/>los? et temperatus, nonobstante diversitatem eorum secundum appetitum,
+— ideo non oportet ad'acquirendum virtutem intellectualem per se fieri
+<lb ed="#L" n="34"/>aliquam dispositionem in appetitu sive in cognoscente, sed solum per 
+acci<lb break="no" ed="#L" n="35"/>dens ad removendum impedimentum considerationis.
+</p>
+            <p xml:id="v27ab7-g03711-d1e270">
+               <pb ed="#L" n="47"/>
+               <lb ed="#L" n="1"/>Si ergo aliquis habeat opinionem circa hoc quod est caelum esse 
+cor<lb break="no" ed="#L" n="2"/>ruptibile per naturam, eo quod in caelo est materia, et materia est 
+prin<lb break="no" ed="#L" n="3"/>cipium corruptionis et caetera, talis existens in tali errore potest fieri, sive
+<lb ed="#L" n="4"/>procedere ad hoc quod fiat virtuosus secundum intellectum circa caeli
+<lb ed="#L" n="5"/>incorruptibilitatem, et est in eius potestate quod hoc fiat, non solum ab
+<lb ed="#L" n="6"/>alio addiscendo, sed etiam per seipsum inveniendo, quia in potestate nostra
+<lb ed="#L" n="7"/>ratione liberae voluntatis sunt actus omnium aliarum potentiarum, et ipsae
+<lb ed="#L" n="8"/>potentiae quantum ad exercitium suorum actuum, licet non quantum ad
+<lb ed="#L" n="9"/>determinationem eorum; nonobstante ergo quod talis habet opinionem
+<lb ed="#L" n="10"/>erroneam circa incorruptibilitatem caeli, nec sit in potestate sua quin 
+con<lb break="no" ed="#L" n="11"/>siderando de caeli incorruptibilitate vel corruptibilitate, tali dispositione
+<lb ed="#L" n="12"/>stante in ipso secundum modum recurrendi ad phantasmata quaedam modo
+<lb ed="#L" n="13"/>quodam determinato iudicet ipsum esse corruptibile, tamen in potestate
+<lb ed="#L" n="14"/>sua est considerare de caeli corruptibilitate vel non considerare !, et 
+consi<lb break="no" ed="#L" n="15"/>derando de ipsa caeli corruptibilitate potest se circa diversa secundum
+<lb ed="#L" n="16"/>diversitatem phantasmatum propter huiusmodi considerationem convertere.
+<lb ed="#L" n="17"/>Sed cum virtutes intellectuales, ut manifestum est in scientia quae est
+<lb ed="#L" n="18"/>habitus conclusionum specialium, non acquirantur ex eisdem actibus 
+ite<lb break="no" ed="#L" n="19"/>ratis, sed ex diversis adinvicem ordinatis, secundum quod etiam quod
+<lb ed="#L" n="20"/>diversimode occurrunt? secundum diversum ordinem phantasmatum, —
+<lb ed="#L" n="21"/>ex hoc enim quod aliquis frequenter intelligeret circa incorruptibilitatem
+<lb ed="#L" n="22"/>caeli, ipsum scilicet esse incorruptibile, numquam adgeneraretur habitus
+<lb ed="#L" n="23"/>quo sciret hanc conclusionem, sed ex hoc quod ex aliquibus prius notis
+<lb ed="#L" n="24"/>fieret dedu ctio et applicatio ad hoc quod est caelum esse incorruptibile,
+— ille qui prius neutro modo vel erronee circa hoc opinabatur, licet 
+fre<lb break="no" ed="#L" n="25"/>quenter circa hoc cogitaverit, acquireret ? habitum scientiae quo 
+certitudi<lb break="no" ed="#L" n="26"/>naliter sciret caelum esse incorruptibile, ordinate procedendo a principiis
+<lb ed="#L" n="27"/>ad talem conclusionem, et sic quia corruptibilitas caeli non est principium
+<lb ed="#L" n="28"/>et naturaliter cognoscibile, sed ex aliis praecedentibus, debet accipi 
+certi<lb break="no" ed="#L" n="29"/>tudo de hoc, et in potestate sic opinantis, etiam cum sic errat in opinando,
+<lb ed="#L" n="30"/>est quod consideret circa ea ex quibus hoc habet sciri. Si autem sic ordinate
+<lb ed="#L" n="31"/>consideret, tandem deveniet ad notitiam certam causae proximae 
+incorrup<lb break="no" ed="#L" n="32"/>tibilitatis caeli, ex qua eliciet de necessitate oppositum eius quod usque
+<lb ed="#L" n="33"/>tunc opinabatur , sic corrumpetur habitus vitiosus et generabitur ? 
+virtuo<lb break="no" ed="#L" n="34"/>sus. Cum enim principia speculabilium omnino prima sint nobis naturaliter
+<lb ed="#L" n="35"/>innata (aut esset processus in infinitum), et sunt sufficientia ad hoc quod ex
+<pb ed="#L" n="48"/>
+               <lb ed="#L" n="1"/>collatione istorum et applicatione ad posteriora ordine convenienti etiam
+<lb ed="#L" n="2"/>fiat scientia conclusionum posteriorum. Inest etiam nobis naturale 
+desi<lb break="no" ed="#L" n="3"/>derium non solum ad cognitionem principiorum primorum sed etiam illis '
+<lb ed="#L" n="4"/>cognitis ad sciendum conclusiones. Nam cum in principiis sciantur 
+con<lb break="no" ed="#L" n="5"/>clusiones in universali et in potentia, quod est imperfecte scire, 
+unumquod<lb break="no" ed="#L" n="6"/>que? autem naturaliter inclinatur in suam perfectionem et illam naturaliter
+<lb ed="#L" n="7"/>appetit, ideo cum in scire non solum ? imperfecte sed magis perfecte 
+con<lb break="no" ed="#L" n="8"/>sistat ' hominis perfectio, sicut unumquodque ens appetit naturaliter suam
+<lb ed="#L" n="9"/>perfectionem et suam propriam operationem, ita etiam homo scire 
+natura<lb break="no" ed="#L" n="10"/>liter appetit et sic cum notitia talium principiorum unicuique statim insit,
+<lb ed="#L" n="11"/>et potestas ex illis procedendi ordinate ad posteriora secundum formationem
+<lb ed="#L" n="12"/>phantasmatum convenientium quod est in potestate  nostra, et ad hoc etiam
+<lb ed="#L" n="13"/>naturaliter inclinamur et procedimus nisi impedimentum interveniat, et
+<lb ed="#L" n="14"/>multa possunt intervenire impedimenta volontaria, quae scilicet etiam sunt
+<lb ed="#L" n="15"/>in nostra potestate ; ideo in potestate uniuscuiusque est ut de non sciente
+<lb ed="#L" n="16"/>fiat sciens, et etiam de errore ad virtutem reducatur, nisi superveniat 
+impe<lb break="no" ed="#L" n="17"/>dimentum omnino involuntarium, scilicet laesio organi phantasiae vel
+<lb ed="#L" n="18"/>cogitativae, vel aliquid huiusmodi. Sic ergo quia actu iudicare caelum esse
+<lb ed="#L" n="19"/>incorruptibile ex aliqua ratione defectiva apparenti non contradicit 
+actua<lb break="no" ed="#L" n="20"/>liter et formaliter aliquibus principiis praecedentibus ex quibus contrarium
+<lb ed="#L" n="21"/>elici potest, et in quibus huiusmodi  contrarium virtualiter continetur, ratio
+<lb ed="#L" n="22"/>in tali errore existens potest actualiter talia principia cognoscere et eis
+<lb ed="#L" n="23"/>assentire, et tandem ex eis suflicienter explicatis veritatem contrariam
+<lb ed="#L" n="24"/>elicere ; simul enim cum hoc quod est opinari caelum esse corruptibile quia
+<lb ed="#L" n="25"/>habet materiam ! potest secundum actum considerari circa naturam materiae
+<lb ed="#L" n="26"/>quid sit, quia scilicet est ens? quo aliquid est in potentia ad actum, et deinde
+<lb ed="#L" n="27"/>quod duplex est actus scilicet substantialis et accidentalis, et secundum
+<lb ed="#L" n="28"/>hoc  duplex natura potentiae sive materiae et sic de aliis; deinde tandem
+<lb ed="#L" n="29"/>deveniet ad hoc quod in caelo non est materia quae secundum se sit
+<lb ed="#L" n="30"/>potentia ad esse et non esse simpliciter sive ad esse vel non esse 
+sub<lb break="no" ed="#L" n="31"/>stantiale, sed solum ad esse et non esse secundum quid scilicet accidentale,
+<lb ed="#L" n="32"/>sive ad ubi vel situm, et de necessitate assentiet huic quod est caelum
+<lb ed="#L" n="33"/>esse incorruptibile, quod est contrarium ejus quod prius opinabatur, et sic .
+<lb ed="#L" n="34"/>aliquo modo est in potestate nostra sic vel aliter circa incorruptibilitatem
+<lb ed="#L" n="35"/>caeli sentire, et quia secundum quod '' diversimode circa hoc sentimus
+<pb ed="#L" n="49"/>
+               <lb ed="#L" n="1"/>sumus secundum hoc virtuosi vel vitiosi intellectualiter, ideo etiam in
+<lb ed="#L" n="2"/>potestate nostra est quod, existente ratione circa hoc erronea, efficiamur
+<lb ed="#L" n="3"/>virtuosi, eo quod in potestate nostra sunt actus quibus ad hoc devenimus
+<lb ed="#L" n="4"/>dicto modo.
+</p>
+            <p xml:id="v27ab7-g03711-d1e439">
+               <lb ed="#L" n="5"/>Si autem dicatur quod per ista aliqualiter declaratur quod in potestate
+<lb ed="#L" n="6"/>absoluta errantis in speculabilibus est quod per se ipsum possit redire ad
+<lb ed="#L" n="7"/>notitiam veritatis, sed cum hoc non contingat in effectu nisi velit se 
+exer<lb break="no" ed="#L" n="8"/>cere circa considerationes tales et talium per quae hoc fieri possit, remanet
+<lb ed="#L" n="9"/>dubium quid movebit ipsum ad hoc quod velit se circa talia exercere. Ad
+<lb ed="#L" n="10"/>hoc est intelligendum quod, prout dictum est, in natura rei sic est quod
+<lb ed="#L" n="11"/>taliter errans potest per se ipsum ! rectificari; sed utrum rectificabitur hoc
+<lb ed="#L" n="12"/>con sistit in facto; et verum est quod ad hoc quod talis potentia prodeat
+<lb ed="#L" n="13"/>in actum praecipue per seipsum, oportet quod intellectui illius occurrat ?
+<lb ed="#L" n="14"/>sub ratione boni et convenientis considerare et inquirere diligentius circa
+<lb ed="#L" n="15"/>illud in quo errat, licet non credat se errare, et ad hoc potest de facili per
+<lb ed="#L" n="16"/>seipsum pervenire, nisi nimis sit negligens. Cum enim quilibet habens usum
+<lb ed="#L" n="17"/>rationis scire possit cunctas res esse difficiles, et quod veritas circa illas est
+<lb ed="#L" n="18"/>cum summa diligentia inquirenda, hac consideratione semper faciliter debet
+. et potest uti in omnibus quae suae considerationi subduntur, et per hoc sic
+<lb ed="#L" n="19"/>esse sollicitus quod pertingat ad notitiam veritatis sibi possibilem secundum
+<lb ed="#L" n="20"/>cursum communem, et semper manet in eo ? facultas convertendi se ad
+<lb ed="#L" n="21"/>hanc diligentiam, licet frequenter impediatur et suspendatur ab extrinseco,
+<lb ed="#L" n="22"/>vel per desidiam et somnolentiae pigritiam. Hoc etiam ab extrinseco potest
+<lb ed="#L" n="23"/>contingere sibi multis modis, puta si forte conversetur cum aliquibus magis
+<lb ed="#L" n="24"/>scientibus, et eos audiat  loquentes de hac materia, vel si forte occurrat
+<lb ed="#L" n="25"/>sibi etiam casualiter aliqua scriptura in qua inveniat talem materiam melius
+<lb ed="#L" n="26"/>tractatam et sic de aliis. Sed quia talia dependent ex his quae ut in pluribus
+<lb ed="#L" n="27"/>consistunt in factis non per se et essentialiter connexis, sed contingenter
+<lb ed="#L" n="28"/>se habentibus, ideo ? licet certum sit quod ita est in natura rei, ut dictum
+<lb ed="#L" n="29"/>est, et possit poni modus aliquis in communi quo potest aliquis redire ad
+<lb ed="#L" n="30"/>notitiam veritatis et per se et per alios, descendendo tamen ad factum 
+par<lb break="no" ed="#L" n="31"/>ticulare, scilicet utrum talis errans redibit, et per quam viam, quia scilicet
+<lb ed="#L" n="32"/>ad hoc possunt plura impedimenta et promoventia casualiter concurrere,
+<lb ed="#L" n="33"/>nec "potest determinate responderi, nec causa determinata per quam fiet in
+<lb ed="#L" n="34"/>effectu assignari. Quia licet, ut praedictum est, haec duo principia, scilicet
+<pb ed="#L" n="50"/>
+               <lb ed="#L" n="1"/>notitia primorum principiorum quae in nobis est quodammodo naturaliter
+<lb ed="#L" n="2"/>et etiam naturale desiderium sciendi perfectius ' sint principia sufficientia
+<lb ed="#L" n="3"/>ad hoc quod quilibet possit ad scientiam pervenire, tamen ut in pluribus
+<lb ed="#L" n="4"/>intervenit impedimentum, propter quod pauci ad scientiam pertingunt, et ut
+<lb ed="#L" n="5"/>plurimum contingit istud impe dimentum propter appetitum inferiorem
+<lb ed="#L" n="6"/>quo homo inclinatur vehementius ad bona temporalia et carnalia, et statim
+<lb ed="#L" n="7"/>a nativitate est huiusmodi appetitus in actu suo, et praecipue secundum
+<lb ed="#L" n="8"/>conditionem naturae destitutae, et ideo homines ut plurimum circa talia
+<lb ed="#L" n="9"/>intendunt et occupantur nimis et meliora negligunt, et sic nec ad scientiam
+<lb ed="#L" n="10"/>nec ad virtutes perfecte attingunt, sed huiusmodi defectus est homo sibi
+<lb ed="#L" n="11"/>ipsi causa, per suam scilicet negligentiam in  qua detinetur  sponte; —
+<lb ed="#L" n="12"/>propter huiusmodi  varia impedimenta quae etiam facultati hominis 
+sub<lb break="no" ed="#L" n="13"/>sunt, et sic homo per se inclinatur in haec bona " sed ab illis per accidens
+<lb ed="#L" n="14"/>impeditur, et ideo huius  non est alia causa inquirenda, quia eius quod est
+<lb ed="#L" n="15"/>per accidens non est dare causam per se.
+</p>
+            <p xml:id="v27ab7-g03711-d1e542">
+               <lb ed="#L" n="16"/>Si autem aliquis errat secundum rationem practicam agibilium, non sic
+<lb ed="#L" n="17"/>potest reduci ad veritatem ex solis actibus considerationis, quia cum materia
+<lb ed="#L" n="18"/>talis considerationis sit aliquid pertinens ad considerantem, quia est bonum
+<lb ed="#L" n="19"/>vel malum ipsius verum vel apparens respectu cuius natus est homo affici
+<lb ed="#L" n="20"/>bene et male, et secundum hoc etiam bene vel male se habere circa illa, et
+<lb ed="#L" n="21"/>ideo secundum quod considerans est aliter et aliter dispositus, secundum
+<lb ed="#L" n="22"/>hoc etiam iudicium rationis circa talia variatur. Accedere enim vel non
+<lb ed="#L" n="23"/>accedere ad uxorem proximi est aliquid agibile obiectum vel materia 
+pru<lb break="no" ed="#L" n="24"/>dentiae. Sed quia ad accedere ad uxorem proximi sive ad exercere talem
+<lb ed="#L" n="25"/>actum, aliter se habet temperatus quam intemperatus — nam intemperatus
+<lb ed="#L" n="26"/>propter habitum vitiosum est quasi omnino conformatus  tali delectationi
+<lb ed="#L" n="27"/>quae est in tali actu ex frequenter sic contra rationem delectari, non sic
+<lb ed="#L" n="28"/>autem temperatus — ideo quando intemperatus cogitat de hoc quod est 
+acce<lb break="no" ed="#L" n="29"/>dere vel non accedere ad uxorem proximi, iudicat accedendum ratione
+<lb ed="#L" n="30"/>apparenti, quia delectatio carnis cum muliere pulchra est appetenda et ?
+<lb ed="#L" n="31"/>assequenda, talis est ista ^, ergo et caetera. Oppositum iudicat temperatus.
+<lb ed="#L" n="32"/>Unde dicit Philosophus, tertio Ethicorum, quod qualis unusquisque est, talis
+<lb ed="#L" n="33"/>finis videtur ei "!, id est, tale aliquid videtur ei appetendum ut bonum et finis.
+<lb ed="#L" n="34"/>Ad hoc ergo quod intemperatus rectificetur et ad rectum iudicium 
+redu<lb break="no" ed="#L" n="35"/>catur, ut scilicet iudicet quod ad uxorem proximi sui non est accedendum,
+<pb ed="#L" n="51"/>
+               <lb ed="#L" n="1"/>non sufficit exercitium actuum solius rationis. Nam quamdiu aliquis existens
+<lb ed="#L" n="2"/>intemperatus et intemperate agit et considerat, etsi possit considerare aliqua
+<lb ed="#L" n="3"/>in quibus virtualiter contrarium eius continetur, tamen non poterit 
+actua<lb break="no" ed="#L" n="4"/>liter et in particulari aliquibus talibus consentire, nisi facta aliqua 
+dispo<lb break="no" ed="#L" n="5"/>sitione in ipso secundum appetitum. Nam bene poterit considerare hoc
+<lb ed="#L" n="6"/>quod nihil est contra rationem faciendum, et quod ideo non est proximo
+<lb ed="#L" n="7"/>iniurnandum et huiusmodi. Si autem fiat applicatio quod delectatio cum
+<lb ed="#L" n="8"/>uxore proximi est ei iniuriosa, et ideo omittenda, huic non assentiret
+<lb ed="#L" n="9"/>propter contrarium principium, scilicet huiusmodi quod delectatio carnis
+<lb ed="#L" n="10"/>cum muliere pulchra est exercenda; ex quo syllogizat: uxor proximi est
+<lb ed="#L" n="11"/>pulchra, ergo et caetera. Ad hoc ergo quod iudicet quod ad uxorem proximi
+<lb ed="#L" n="12"/>non est accedendum, oportet quod prius iudicet quod delectatio carnis non
+<lb ed="#L" n="13"/>est cum quacumque muliere pulchra exercenda. Hoc autem non potest
+<lb ed="#L" n="14"/>iudicare !', quamdiu est sic dispositus secundum appetitum ; ipse autem
+<lb ed="#L" n="15"/>manet sic dispositus, quamdiu tales actus exercet, et ideo ad hoc quod eius
+<lb ed="#L" n="16"/>ratio rectificetur oportet quod a talibus actibus abstineat et quod in  
+con<lb break="no" ed="#L" n="17"/>trariis se exerceat, per quos contraria dispositio in appetitu inducatur, et
+<lb ed="#L" n="18"/>mediante illa contrarium iudicium in ratione. Nam in talibus dispositio
+<lb ed="#L" n="19"/>appetitus indirecte et per accidens habet rationem obiecti intellectus et
+<lb ed="#L" n="20"/>determinantis ipsum ad determinatum iudicium, sicut et ipsa res ad quam
+<lb ed="#L" n="21"/>appetitus per huiusmodi dispositionem confortatur per se et directe habet
+<lb ed="#L" n="22"/>rationem obiecti. Et sic non potest ratio rectificari in agibilibus nisi 
+recti<lb break="no" ed="#L" n="23"/>ficetur appetitus. Propter quod etiam simul sunt connexae virtutes morales
+<lb ed="#L" n="24"/>appetitus cam virtute intellectuali practica quae est prudentia.
+</p>
+            <p xml:id="v27ab7-g03711-d1e642">
+               <lb ed="#L" n="25"/>Sed adhuc remanet dubium quomodo hoc fieri poterit. Nam cum 
+recti<lb break="no" ed="#L" n="26"/>tudo actus appetitus, per quem generatur rectus habitus, dependeat a 
+recti<lb break="no" ed="#L" n="27"/>tudine rationis, videtur quod prius debet ratio rectificari quam actus 
+appe<lb break="no" ed="#L" n="28"/>titus. Sed hoc non potest fieri, ut dictum est. Quare, ut videtur, ratione practica
+<lb ed="#L" n="29"/>existente erronea, non poterit quis effici virtuosus virtute intellectuali.
+</p>
+            <p xml:id="v27ab7-g03711-d1e655">
+               <lb ed="#L" n="30"/>Et ideo est dicendum quod semper sumus domini actuum nostrorum
+<lb ed="#L" n="31"/>secundum substantiam a principlo usque in finem, sed non secundum
+<lb ed="#L" n="32"/>modum faciendi. Unde quantumcumque iniustus potest facere opus iustitiae
+<lb ed="#L" n="33"/>licet non iuste ; nunc autem opus iustum frequentatum aliquam dispositionem
+<lb ed="#L" n="34"/>efficit in appetitu, secundum cuius variationem fit variatio in ratione, et sic
+<lb ed="#L" n="35"/>in hoc quod sumus domini actuum appetitus, sumus etiam domini visionis
+<lb ed="#L" n="36"/>nostrae vel iudicii nostri in agibilibus et non in speculabilibus, ubi solutn
+<pb ed="#L" n="52"/>
+               <lb ed="#L" n="1"/>sumus domini considerationis quantum ad exercitium actus, non quantum
+<lb ed="#L" n="2"/>ad iudicium, quod dicitur determinatio actus.
+</p>
+            <p xml:id="v27ab7-g03711-d1e679">
+               <lb ed="#L" n="3"/>Opus autem iustum potest iniustus facere, non obstante quod iudicet
+<lb ed="#L" n="4"/>illud non esse faciendum. Nam aliquis potest habere ex aliquo iudicium de
+<lb ed="#L" n="5"/>aliquo non faciendo secundum se simpliciter et absolute, sed ex aliquo alio
+<lb ed="#L" n="6"/>accidente potest cum tali iudicio esse contrarium iudicium de tali re facienda
+<lb ed="#L" n="7"/>ut nunc, et secundum aliquas circumstantias particulares accidentes. Cum
+<lb ed="#L" n="8"/>enim appetitus inclinetur in aliquid dupliciter, uno modo secundum animae
+<lb ed="#L" n="9"/>passionem, alio modo secundum habitum, quia utroque modo contingit
+<lb ed="#L" n="10"/>appetitum habere conformitatem ad aliquid ex aliqua passione, contingit
+<lb ed="#L" n="11"/>quod aliquid iudicetur bonum ut nunc. Sed iudicium quo homo iudicat 
+ali<lb break="no" ed="#L" n="12"/>quid bonum ut secundum se et simpliciter provenit ex inclinatione naturali
+<lb ed="#L" n="13"/>vel alicuius habitus, et ideo prout homo est causa sui habitus, est causa
+<lb ed="#L" n="14"/>etiam consequentis operationis vel iudicii rationis. Sed quia, non obstante
+<lb ed="#L" n="15"/>habitu quo iudicatur aliquod particulare operabile secundum se esse bonum,
+<lb ed="#L" n="16"/>potest ex alia circumstantia accidenti ! vel ex passione iudicari non bonum
+<lb ed="#L" n="17"/>ut nunc et fieri contrarium. Sic autem faciendo per consuetudinem 
+indu<lb break="no" ed="#L" n="18"/>citur habitus contrarius. Ideo, non obstante errore rationis secundum aliquem
+<lb ed="#L" n="19"/>habitum vitiosum, potest acquiri rectum iudicium oppositum ; prout aliquis
+<lb ed="#L" n="20"/>consuetus furari et multa habens iniuste, timore poenarum potest abstinere
+<lb ed="#L" n="21"/>a furto particulari, et reddere quod furatus est, et hoc frequenter faciendo
+<lb ed="#L" n="22"/>diminuitur habitus malus,et age neratur habitus contrarius,qui causat etiam
+<lb ed="#L" n="23"/>aliud iudicium in ratione. Et quia habitus vitiosus impediebat et pervertebat
+<lb ed="#L" n="24"/>iudicium rationis, nec poterat applicari principium universale ad particulare
+<lb ed="#L" n="25"/>agibile sive ad particulare iudicium rectum circa particulare, sic  per 
+habi<lb break="no" ed="#L" n="26"/>tum appetitus virtuosum dispositive, et etiam ? obiectum ipsi rationi quodam
+<lb ed="#L" n="27"/>modo praeparantem  per actum rationis decurrentis a principiis ad 
+opera<lb break="no" ed="#L" n="28"/>bile particulare effective et ? per se causatur rectitudo iudicii rationis, et sic
+<lb ed="#L" n="29"/>acquiritur virtus intellectualis practica in eo in quo precessit ratio erronea
+<lb ed="#L" n="30"/>circa agibilia aliqua. Et sic est in potestate nostra fieri virtuosos virtute tali
+<lb ed="#L" n="31"/>intellectuali, etiam cum habemus rationem erroneam ex habitu, in quantum,
+<lb ed="#L" n="32"/>non repugnante habitu, sumus domini contrariorum actuum secundum 
+appe<lb break="no" ed="#L" n="33"/>titum, ex quibus ageneratur habitus secundum quem fit aliud iudicium.
+</p>
+            <p xml:id="v27ab7-g03711-d1e749">
+               <lb ed="#L" n="34"/>Et ex hoc etiam patet quomodo, ratione existente erronea, potest acquiri
+<lb ed="#L" n="35"/>virtus moralis in appetitu, quia, ratione existente erronea 5, ex " habitu, illo
+<lb ed="#L" n="36"/>non obstante, sumus domini actuum contrariorum. Nam iudicando quod
+<pb ed="#L" n="53"/>
+               <lb ed="#L" n="1"/>a tali esset rapiendum secundum se et simpliciter ratione perversi habitus,
+<lb ed="#L" n="2"/>possum ei reddere quod accepi ab ipso et etiam aliquid ultra in emendam,
+<lb ed="#L" n="3"/>timore poenae ratione cuius iudico illud esse bonum ut nunc, et hoc 
+fre<lb break="no" ed="#L" n="4"/>quenter faciendo potero acquirere habitum contrarium habitui rapinae.
+</p>
+            <p xml:id="v27ab7-g03711-d1e769">
+               <lb ed="#L" n="5"/>Sed quia, ut arguitur, actus appetitus non generant virtutem nisi sint !
+<lb ed="#L" n="6"/>recti et regulati ratione, quamdiu autem aliquis habet rationem erroneam
+<lb ed="#L" n="7"/>iudicat talem actum non esse faciendum, et sic actus ille non informatur
+<lb ed="#L" n="8"/>recta ratione, et sic ut videtur non potest esse habitus virtuosi generativus ;
+<lb ed="#L" n="9"/>propter hoc est intelligendum quod rectitudinem duplicem habet actus,
+<lb ed="#L" n="10"/>unam ex genere et aliam ex fine et circumstantiis. Ad hoc autem quod
+<lb ed="#L" n="11"/>habitus acquiratur sufficit quod appetitus sufficienter eliciat aliquos actus
+<lb ed="#L" n="12"/>consimiles, sed ad hoc quod generetur habitus virtuosus ex actibus 
+frequen<lb break="no" ed="#L" n="13"/>tatis, oportet quod illi actus sint recti et boni ex genere, et hoc est ipsos
+<lb ed="#L" n="14"/>esse virtuosos secundum quid. Sed ad hoc quod sint virtuosi simpliciter,
+<lb ed="#L" n="15"/>oportet quod sint recti ex fine, quod non habent nisi ex recti tudine rationis
+<lb ed="#L" n="16"/>cum debitis circumstantiis illos propter bonum honestum facere iudicantis.
+<lb ed="#L" n="17"/>Et ideo naturaliter prius est actus rationis rectus et prius naturaliter 
+gene<lb break="no" ed="#L" n="18"/>ratur prudentia quam sit actus moralis perfecte virtuosus et rectus et quam
+<lb ed="#L" n="19"/>virtus moralis perfecte generetur. Cum enim aliquis qui fuit intemperatus
+<lb ed="#L" n="20"/>est ex habitu iam acquisito sic dispositus quod abstinet sed cum difficultate
+<lb ed="#L" n="21"/>et quod iudicat uxorem proximi fugiendam et quod eam fugit, nondum ille
+<lb ed="#L" n="22"/>habitus est perfecte virtuosus; quia quamdiu abstinet cum difficultate et
+<lb ed="#L" n="23"/>tristitia appetitus, licet ratio iam  iudicet abstinendum, non est simpliciter
+<lb ed="#L" n="24"/>et perfecte virtuosus. Et ideo cum in principio talis abstinet propter 
+timo<lb break="no" ed="#L" n="25"/>rem et sic facit prius bonum ex genere, non tamen ex fine et circumstantiis,
+<lb ed="#L" n="26"/>ex talibus actibus, quia non sunt simpliciter virtuosi nec a prudentia 
+proce<lb break="no" ed="#L" n="27"/>dentes, quidam habitus generatur sed non simpliciter virtuosus. Sed cum
+<lb ed="#L" n="28"/>iam tantum est processum quod illi actus etiam sunt boni ex fine et 
+circum<lb break="no" ed="#L" n="29"/>stantiis, quia tantum est amotum impedimentum quod ratio iam iudicat esse
+<lb ed="#L" n="30"/>abstinendum propter se, sed adhuc est difficultas in appetitu, tunc, ut supra
+<lb ed="#L" n="31"/>dictum est, sunt simpliciter virtuosi in quantum comparantur ad formam
+<lb ed="#L" n="32"/>quam habent a ratione, sed non in quantum comparantur ad potentiam
+<lb ed="#L" n="33"/>a qua eliciuntur non prompte et faciliter, et tunc proprie et perfecte sunt
+<lb ed="#L" n="34"/>generati ? habitus virtuosi, cum prius solum habitum simpliciter generarent.
+</p>
+            <p xml:id="v27ab7-g03711-d1e838">
+               <lb ed="#L" n="35"/>Haec patent per ea quae dicit Philosophus, decimo Ethicorum, circa
+<lb ed="#L" n="36"/>modum quo possunt fieri aliqui virtuosi virtute morali,de qua principaliter est
+<lb ed="#L" n="37"/>quaestio. Dicit enim ibi quod ad generationem virtutis tria sunt necessaria,
+<pb ed="#L" n="54"/>
+               <lb ed="#L" n="1"/>scilicet natura, consuetudo et doctrina. Nec sufficit doctrina sine aliis, quia,
+<lb ed="#L" n="2"/>ut dicit, sermones non sunt per se sufficientes facere virtuosos sive studiosos,
+<lb ed="#L" n="3"/>sed videntur provocare et movere ad bonum iuvenum liberales posse 
+ser<lb break="no" ed="#L" n="4"/>mones persuasibiles. Huiusmodi ! autem sunt iuvenes qui non sunt vitiis 
+<lb ed="#L" n="5"/>subiecti et passionibus, sed multi homines non possunt provocari ad 
+boni<lb break="no" ed="#L" n="6"/>tatem per sermones quia non obediunt verecun diae, sed magis coercentur
+<lb ed="#L" n="7"/>timore poenarum. Non enim retrahuntur a pravis operationibus propter
+<lb ed="#L" n="8"/>eorum turpitudinem, sed propter poenas quas timent. Et ita oportet ergo
+<lb ed="#L" n="9"/>[quod] antequam sermo efficaciam habeat in aliquo, animam eius bonis 
+con<lb break="no" ed="#L" n="10"/>suetudinibus esse praeparatam ad gaudendum de bonis et ad fugiendum
+<lb ed="#L" n="11"/>mala. Oportet ergo consuetudinem praeexistere per quam homo acquirat
+<lb ed="#L" n="12"/>morem proprium virtutis, ut scilicet diligat bonum et honestum et  
+abomi<lb break="no" ed="#L" n="13"/>netur  turpe. Cum ergo ad perfectionem virtutis moralis requiratur rectitudo
+<lb ed="#L" n="14"/>rationis, et hoc dependet a dispositione appetitus, ideo ad hoc quod 
+adiu<lb break="no" ed="#L" n="15"/>torio rationis quis virtutem perfecte acquirat, oportet praecedere in appetitu
+<lb ed="#L" n="16"/>aliquam dispositionem aut innatam aut ex consuetudine acquisitam, et ideo,
+<lb ed="#L" n="17"/>ut docet ibi, quidam legum positores existimant quod oportet homines
+<lb ed="#L" n="18"/>advocare ad virtutem ita scilicet ut virtuosi qui propria sponte rebus honestis
+<lb ed="#L" n="19"/>obediunt, per praecedentes consuetudines provocentur ad bonum, puta
+<lb ed="#L" n="20"/>sermone vel doctrina cui prompti sunt obedire, ostendendo eis honestatem
+<lb ed="#L" n="21"/>eius quod proponitur. Sed his qui sunt inobedientes et mores habent 
+dege<lb break="no" ed="#L" n="22"/>neres apponunt poenas corporales, puta flagella et diversas punitiones,
+<lb ed="#L" n="23"/>vituperando eos et in propriis rebus damnificando. Illos vero qui sunt 
+tota<lb break="no" ed="#L" n="24"/>liter insanabiles exterminant; et ita oportet ergo eum qui futurus est bonus
+<lb ed="#L" n="25"/>bene nutriri et consuescere et abstinere a pravis, sive propria voluntate sive
+<lb ed="#L" n="26"/>contra suam propriam  voluntatem aliquo modo coactus.
+</p>
+            <p xml:id="v27ab7-g03711-d1e906">
+               <lb ed="#L" n="27"/>Sed quamvis per praedicta aliqualiter appareat quomodo habens 
+erro<lb break="no" ed="#L" n="28"/>neam rationem et existens vitiosus potest fieri virtuosus adiutorio extrinseco
+<lb ed="#L" n="29"/>quo consequitur promoventia ipsum, ad hoc non est sic manifestum 
+quo<lb break="no" ed="#L" n="30"/>modo, excluso adiutorio exteriori, talis per se ipsum possit  fieri virtuosus,
+<lb ed="#L" n="31"/>quoniam tam propter eius corruptionem in intellectu quantum ad errorem,
+<lb ed="#L" n="32"/>quam per infectionem eius in appetitu per malitiam habitus, non videtur in
+<lb ed="#L" n="33"/>ipso remanere habilitas ad hoc quod sibi occurrant consideranda quae 
+<lb ed="#L" n="34"/>essent con venientia ad bonum virtutis, immo potius contraria occurrunt
+<lb ed="#L" n="35"/>secundum eius dispositionem actualem ; quia, ut dictum est, in agibilibus
+<lb ed="#L" n="36"/>secundum conditionem et affectionem appetitus apprehendit et iudicat intel-
+<pb ed="#L" n="55"/>
+               <lb ed="#L" n="1"/>lectus. Cum ergo tali non proponitur aliquod conveniens ab extrinseco,
+<lb ed="#L" n="2"/>videtur ! etiam quod a se a seipso nihil tale apprehendet, et ideo ad 
+huius<lb break="no" ed="#L" n="3"/>modi evidentiam est intelligendum quod talis potest per seipsum fieri bonus
+<lb ed="#L" n="4"/>et virtuosus, quia in eo semper remanent generalia principia agibilium, talia
+<lb ed="#L" n="5"/>per quae potest seipsum dirigere et rectificare ordinate, illa ad magis
+<lb ed="#L" n="6"/>specialia applicando; et verum est quod etiam talia insunt intellectui 
+secun<lb break="no" ed="#L" n="7"/>dum quamdam proportionem ad affectiones quasdam in appetitu. Prout
+<lb ed="#L" n="8"/>enim dicit Anselmus in libro de gratia et libero arbitrio, voluntas dicitur se
+<lb ed="#L" n="9"/>suis affectionibus movere in quantum in ipsa intelliguntur quaedam 
+affec<lb break="no" ed="#L" n="10"/>tiones, quasi quaedam aptitudines, quibus sic est disposita et aliquo modo
+<lb ed="#L" n="11"/>habens quamdam conformitatem ad aliqua, quod cum occurrit sibi aliquid
+<lb ed="#L" n="12"/>cogitandum circa illa, apprehendit talia sub ratione convenientis vel 
+discon<lb break="no" ed="#L" n="13"/>venientis a quo sumitur principium processus intellectus practici qui est
+<lb ed="#L" n="14"/>causativus motionis voluntatis. Circa hoc tamen est intelligendum quod
+<lb ed="#L" n="15"/>cum in agibilibus finis dicatur principium sive ex habitudine appetitus ad
+<lb ed="#L" n="16"/>aliquid sub ratione finis sumitur principium in intellectu — sunt autem plures
+<lb ed="#L" n="17"/>fines et secundum hoc plura principia — verumtamen quantum ad hoc quod
+<lb ed="#L" n="18"/>huiusmodi principia agibilia infiant in ipso intellectu, non oportet praecedere
+<lb ed="#L" n="19"/>in appetitu aliquam dispositionem sive affectionem quae dicat aliquam rem
+<lb ed="#L" n="20"/>absolutam inhaerentem appetitui per modum habitus vel dispositionis sive
+<lb ed="#L" n="21"/>naturalis sive acquisiti, vel etiam sic aliquid habens rationem alicuius verae
+<lb ed="#L" n="22"/>passionis. Sed est distinguendum de principiis et etiam aliquo modo de
+<lb ed="#L" n="23"/>finibus: sunt enim quaedam principia omnino prima et generalia propriis
+<lb ed="#L" n="24"/>principiis et specialibus communiter applicabilia, et respectu istorum sufficit
+<lb ed="#L" n="25"/>naturalis aptitudo appetitus secundum quod habet naturalem idoneitatem
+<lb ed="#L" n="26"/>et aptitudinem ut inclinetur in bonum in communi, et malum etiam 
+detes<lb break="no" ed="#L" n="27"/>tetur, et ideo principia huiusmodi dicuntur nobis naturaliter indita, et haec
+<lb ed="#L" n="28"/>etiam quasi uniformiter in omnibus reperiuntur in quibus est eadem natura
+<lb ed="#L" n="29"/>speciei non orbata. Cum enim ratiocinatio hominis sit quidam motus, 
+pro<lb break="no" ed="#L" n="30"/>greditur ab intellectu aliquorum scilicet per se et naturaliter notorum absque
+<lb ed="#L" n="31"/>investigatione rationis, sicut a quodam principio immobili, et ad intellectum
+<lb ed="#L" n="32"/>etiam terminatur, in quantum iudicamus per principia per se naturaliter
+<lb ed="#L" n="33"/>nota de his quae ratiocinando invenimus. Constat enim quod sicut ratio
+<lb ed="#L" n="34"/>speculativa ratiocinatur de speculativis, ita ratio practica ratiocinatur de
+<lb ed="#L" n="35"/>operabilibus. Ergo  oportet? naturaliter nobis esse indita principia 
+spe<lb break="no" ed="#L" n="36"/>culabilium, ita etiam principia operabilium oportet esse nobis indita, et
+<lb ed="#L" n="37"/>haec dicuntur pertinere ad quemdam habitum naturalem quem dicimus
+<pb ed="#L" n="56"/>
+               <lb ed="#L" n="1"/>synderesim, quae dicitur instigare ad bonum et remurmurare malo, in
+<lb ed="#L" n="2"/>quantum per prima principia procedimus ad inveniendum et iudicamus
+<lb ed="#L" n="3"/>inventa. Et sicut in potestate nostra est applicare principia speculabilium
+<lb ed="#L" n="4"/>naturaliter innata ad conclusiones ordine convenienti, et ita fit nisi contingat .
+<lb ed="#L" n="5"/>impedimentum ut supra dictum est, et ex hoc ageneratur scientia ; ita etiam
+<lb ed="#L" n="6"/>est in potestate nostra applicare huiusmodi principia agibilium ad 
+conclu<lb break="no" ed="#L" n="7"/>siones ordine convenienti, et ageneratur recta notitia quae est principium
+<lb ed="#L" n="8"/>rectae operationis, et ideo cum huiusmodi primorum principiorum maneat !
+<lb ed="#L" n="9"/>notitia semper in unoquoque, in potestate uniuscuiusque est ut fiat bonus,
+<lb ed="#L" n="10"/>cum virtute habitus primorum principiorum possit se dirigere et regulare
+<lb ed="#L" n="11"/>nisi negligens existat. Quia etiam in potestate uniuscuiusque remanet notitia
+<lb ed="#L" n="12"/>istorum, sicut dicit Augustinus, decimo quarto de Trinitate, capitulo 
+trigee<lb break="no" ed="#L" n="13"/>simo quarto, dicens quod etiam impii multa recte reprehendunt, multaque
+<lb ed="#L" n="14"/>laudant in moribus hominum, et ea illis regulis iudicant in quibus vident
+<lb ed="#L" n="15"/>quemadmodum quisque vivere debeat, etiam si nec ipsi eodem modo vivant.
+<lb ed="#L" n="16"/>Istae autem regulae quibus quid sit iustum et iniustum agnoscit et cernit
+<lb ed="#L" n="17"/>esse habendum quod non habet, scriptae sunt in libro lucis illius quae
+<lb ed="#L" n="18"/>veritas dicitur, unde omnis lex iusta describitur et in cor hominis non
+<lb ed="#L" n="19"/>migrando sed tanquam imprimendo transfertur.
+</p>
+            <p xml:id="v27ab7-g03711-d1e1056">
+               <lb ed="#L" n="20"/>Sed quantum ad principia magis specialia et respectu finium magis
+<lb ed="#L" n="21"/>specialium quae diversimode reperi untur in diversis, ultra praedictam
+<lb ed="#L" n="22"/>communem et naturalem idoneitatem quodam modo in omnibus individuis
+<lb ed="#L" n="23"/>uniformem, adsunt quaedam dispositiones vel affectiones vel a natura vel
+<lb ed="#L" n="24"/>acquisitae, secundum quas homo consequitur quamdam conformitatem ad
+<lb ed="#L" n="25"/>diversos fines magis speciales. Et ex hoc contingit quod cum occurrit sibi
+<lb ed="#L" n="26"/>cogitare de talibus, apprehendit illa sub ratione convenientis vel 
+discon<lb break="no" ed="#L" n="27"/>venientis, et in illa inclinatur ut in fines. Et ex hoc format sibi principia
+<lb ed="#L" n="28"/>specialia circa illa, prout quidam nascuntur dispositi a natura ad 
+liberali<lb break="no" ed="#L" n="29"/>tatem, quidam vero magis ad avaritiam, secundum quod Philosophus docet
+<lb ed="#L" n="30"/>in sexto Ethicorum, quod quaedam sunt virtutes naturales et consimiliter
+<lb ed="#L" n="31"/>etiam quaedam vitia contraria insunt aliquo modo a natura. Quomodo etiam
+<lb ed="#L" n="32"/>ex assuefactione infiant habitus diversi tam virtuosi quam vitiosi satis est
+<lb ed="#L" n="33"/>manifestum.
+</p>
+            <p xml:id="v27ab7-g03711-d1e1089">
+               <lb ed="#L" n="34"/>Sed constat quod ille in quo est vitium naturaliter innatum vel 
+acqui<lb break="no" ed="#L" n="35"/>situm, iam est sic dispositus ut secundum illum apprehendat et iudicet
+<lb ed="#L" n="36"/>contra bonum rationis, et sic non apparet quomodo possit fieri virtuosus.
+<lb ed="#L" n="37"/>Et est dicendum quod licet ille in quo est bona dispositio naturalis ad
+<pb ed="#L" n="57"/>
+               <lb ed="#L" n="1"/>virtutem multo facilius possit fieri virtuosus quam talis, sicut per se patet,
+<lb ed="#L" n="2"/>tamen [hoc! etiam] fieri poterit etiam per seipsum virtuosus licet? cum
+<lb ed="#L" n="3"/>magna difficultate et raro. Etiam hoc contingit secundum cursum 
+commu<lb break="no" ed="#L" n="4"/>nem, quamvis enim talis ex huiusmodi dispositione determinetur ad talem
+<lb ed="#L" n="5"/>finem et ad apprehensionem talium principiorum, iste finis tamen est sub
+<lb ed="#L" n="6"/>fine, et principium sub principio et, his non obstantibus, remanet in ipso
+<lb ed="#L" n="7"/>notitia principlorum universalium et desiderium naturale sive aptitudo vel
+<lb ed="#L" n="8"/>idoneitas ad hoc ut inclinetur in bonum iustum et honestum secundum se
+<lb ed="#L" n="9"/>et ut per huiusmodi principia generalia, et per huiusmodi inclinationem
+<lb ed="#L" n="10"/>in bonum iustum et honestum in generali possit fieri applicatio ordinate
+<lb ed="#L" n="11"/>ad particularia principia et ad particulares fines; et sic remanet in potestate
+<lb ed="#L" n="12"/>talis ut per huiusmodi generalia principia et per huiusmodi generale 
+desi<lb break="no" ed="#L" n="13"/>derium et per huiusmodi generalem inclinationem in bonum possit per
+<lb ed="#L" n="14"/>seipsum dirigi in cognitione recta agibilium, et illa ? recte agere. Quamvis
+<lb ed="#L" n="15"/>ergo in aliquo sit talis dispositio naturalis, et ex hoc etiam tale iudicium
+<lb ed="#L" n="16"/>contra rectam rationem in particulari, quia tamen, ut dictum est, in eodem
+<lb ed="#L" n="17"/>remanent praedicta principia, scilicet et notitia principiorum generalium et
+<lb ed="#L" n="18"/>inclinatio in bonum secundum se, et haec etiam insunt homini naturaliter
+<lb ed="#L" n="19"/>et est in potestate sua illis uti, et se iuvare contra praedicta duo, scilicet
+<lb ed="#L" n="20"/>contra iudicium circa particularem finem et contra inclinationem in illum —
+<lb ed="#L" n="21"/>sicut enim homo per huiusmodi iudicium etiam circa  particularem finem
+<lb ed="#L" n="22"/>contra rectam rationem et per huiusmodi inclinationem appetitus in illum
+<lb ed="#L" n="23"/>potest seipsum quasi impedire renitendo rationi rectae et voluntati sic in
+<lb ed="#L" n="24"/>generali remanentibus,— ita etiam remanet in potestate eius ut per huiusmodi
+<lb ed="#L" n="25"/>rectam rationem et inclinationem voluntatis rectam in bonum secundum se,
+<lb ed="#L" n="26"/>possit se muare reprimendo et refrenando appetitum qui natus est etiam
+<lb ed="#L" n="27"/>contra suam propriam inclinationem obedire rationi, secundum illud
+<lb ed="#L" n="28"/>Genesis : subter te erit appetitus tuus, et tu dominaberis illius. Sic ergo
+<lb ed="#L" n="29"/>semper est in potestate hominis quod fiat bonus, supposito adiutorio gratiae
+<lb ed="#L" n="30"/>divinae semper parato ex parte Dei, nisi ex parte nostra obicem ponamus,
+<lb ed="#L" n="31"/>sed quod in nobis est faciamus et ad hoc diligentes simus utendo videlicet
+<lb ed="#L" n="32"/>bonis praedictis nobis naturaliter a Deo secundum intellectum et appetitum
+<lb ed="#L" n="33"/>insertis. Nec ab ? hoc deficit etiam " aliquis nisi solum propter suam 
+negli<lb break="no" ed="#L" n="34"/>gentiam, et quia secundum quod dicit Philosophus, tertio Ethicorum, 
+huius<lb break="no" ed="#L" n="35"/>modi diligentiae domini sumus, quia, ut dicit, in nobis est esse diligentes
+<lb ed="#L" n="36"/>vel negligentes. Ideo sumus causa ignorantiae in intellectu et malitiae in
+<pb ed="#L" n="58"/>
+               <lb ed="#L" n="1"/>voluntate per negligentiam, et ! scientiae rectae et virtutis per diligentiam.
+<lb ed="#L" n="2"/>Sed verum est quod sicut dictum est quod homo impeditur ne ad suam
+<lb ed="#L" n="3"/>perfectionem attingat, ad quam habet praedicta principia a natura, et 
+huius<lb break="no" ed="#L" n="4"/>modi impedimenti non est aliquid unum per se causa , sed ex pluribus
+<lb ed="#L" n="5"/>concurrentibus causaliter potest contingere, ita etiam in agibilibus, 
+huius<lb break="no" ed="#L" n="6"/>modi negligentiae per quam homo impeditur circa agibilia non est dare
+<lb ed="#L" n="7"/>causam unam per se et determinatam, sed ex diversis hoc contingere potest.
+<lb ed="#L" n="8"/>Sed quia, ut dictum est, etiam ipsa impedimenta subsunt potestati nostrae,
+<lb ed="#L" n="9"/>ideo ? etiam omnia quae  ex his contingunt, hominibus  merito imputantur.
+<lb ed="#L" n="10"/>In irrationabilibus  vero locum non potest habere diligentia vel 
+negli<lb break="no" ed="#L" n="11"/>gentia; quia enim super suos actus dominium non habent, non est in eis
+<lb ed="#L" n="12"/>facultas et virtus extendendi se ad actum diligentiae et sollicitudinis per
+<lb ed="#L" n="13"/>quam occurrant? eis ea quae nata sunt ipsa movere vel determinare ad
+<lb ed="#L" n="14"/>actus ; nec habent iudicare de suis actibus quid scilicet sit ayendum et cur.
+</p>
+            <p xml:id="v27ab7-g03711-d1e1213">
+               <lb ed="#L" n="15"/>Secundum hoc ergo est dicendum quod malus potest fieri bonus, non
+<lb ed="#L" n="16"/>solum adiutorio alieno, sed etiam per seipsum. Sicut enim intemperatus
+<lb ed="#L" n="17"/>potest fieri temperatus per hoc quod ab alio proponuntur sibi ordinate
+<lb ed="#L" n="18"/>phantasmata moventia ipsum, non obstante utique habitu vitioso, ad 
+conci<lb break="no" ed="#L" n="19"/>piendum inconvenientia quae ex intemperantia contingunt et eius 
+turpi<lb break="no" ed="#L" n="20"/>tudinem, et bona contraria quae per illam homo perdit et alia huiusmodi,
+<lb ed="#L" n="21"/>etiam sic potest concipere horrorem talis vitii et ipsum aliquo modo 
+detes<lb break="no" ed="#L" n="22"/>tari, licet quamdiu manet habitus vitiosus vehementer aliciatur ad agendum
+<lb ed="#L" n="23"/>intemperate, et cum magna difficultate abstinet. Sic autem procedendo
+<lb ed="#L" n="24"/>potest sanari. Tales autem conceptus ordinati fiunt secundum quod 
+prae<lb break="no" ed="#L" n="25"/>dicta principia generalia ordinate ad specialia applicantur. Ita etiam licet
+<lb ed="#L" n="26"/>non adeo ? faciliter intemperatus potest per seipsum formare talia 
+phantas<lb break="no" ed="#L" n="27"/>mata et procedere per applicationem principiorum generalium, semper enim
+<lb ed="#L" n="28"/>manet in hominis potestate uti potentiis suis ad actus suos et sic semper
+<lb ed="#L" n="29"/>homo potest formare phantasmata, secundum quod vult et secundum quod
+<lb ed="#L" n="30"/>iudicat esse formanda, et ex notitia primorum principiorum potest iudicare
+<lb ed="#L" n="31"/>phantasmata esse formanda, per quae possit fieri applicatio conveniens
+<lb ed="#L" n="32"/>ipsorum principiorum generalium, licet ex altera parte propter dispositionem
+<lb ed="#L" n="33"/>habitus vitiosi occurrant sibi etiam de facili phantasmata alia ad actus
+<lb ed="#L" n="34"/>vitiosos moventia. Unde sicut in speculabilibus in potestate hominis est
+<lb ed="#L" n="35"/>quod fiat sciens et per doctrinam alterius et per propriam inventionem, et
+<lb ed="#L" n="36"/>similiter quod ab er rore ad veritatis notitiam reducitur, sed facilius et
+<lb ed="#L" n="37"/>melius per alterius doctrinam ; ita etiam est dicendum in agibilibus.
+<pb ed="#L" n="59"/>
+               <lb ed="#L" n="1"/>Si ergo quaeratur quid est illud per quod bomo circa agibilia 
+deter<lb break="no" ed="#L" n="2"/>minatur, ut scilicet velit vel agat hoc vel illud, est dicendum quod quilibet
+<lb ed="#L" n="3"/>actus humanus, sive secundum intellectum sive secundum voluntatem,
+<lb ed="#L" n="4"/>determinatur ab obiecto; sed quod hoc fiat a tali vel tali obiecto quantum
+<lb ed="#L" n="5"/>ad multa genera obiectorum, ad hoc determinat homo seipsum per actus
+<lb ed="#L" n="6"/>suos, secundum intellectum iudicantem et voluntatem acceptantem. Quia
+<lb ed="#L" n="7"/>enim rationalis est homo ratione mentis quae est quid abstractum, ideo est
+<lb ed="#L" n="8"/>indeterminatus respectu quorumcumque bonorum particularium ut 
+secun<lb break="no" ed="#L" n="9"/>dum se considerantur, sed a creante determinatur ad bonum simpliciter
+<lb ed="#L" n="10"/>secundum quod bonum, in quantum scilicet homo est secundum suam 
+natu<lb break="no" ed="#L" n="11"/>ram determinatus respectu finis ultimi simpliciter secundum rationem 
+uni<lb break="no" ed="#L" n="12"/>versalem boni, ita quod non potest illum non velle, nec non iudicare 
+volen<lb break="no" ed="#L" n="13"/>dum, et similiter de summo bono, scilicet Deo, cum immediate videtur est
+<lb ed="#L" n="14"/>intelligendum. Sed non sic est' respectu quorumcumque bonorum et finium
+<lb ed="#L" n="15"/>specialium non includentium omnem rationem boni, et secundum hoc etian»
+<lb ed="#L" n="16"/>ut dictum est, respectu boni simpliciter sumuntur principia generalia in
+<lb ed="#L" n="17"/>agibilibus, quae propter hoc etiam dicuntur immutabilia et naturaliter inesse
+<lb ed="#L" n="18"/>cognitio eorum, non per inquisitionem et investigationem ratiocinativam ?
+<lb ed="#L" n="19"/>et discursivam ; respectu autem ? aliorum bonorum specialium sumuntur 
+prin<lb break="no" ed="#L" n="20"/>cipia specialia, quae non insunt sic naturaliter, sed operatione nostra cuius
+<lb ed="#L" n="21"/>domini sumus acquiruntur. Et secundum hoc per principia generalia nobis
+<lb ed="#L" n="22"/>determinata de quibus quidem proprie non iudicamus sed per ipsa de aliis
+<lb ed="#L" n="23"/>iudicare habemus, possumus determinare nos ad principia specialia 
+appli<lb break="no" ed="#L" n="24"/>cando, scilicet illa ad specialia per phantasmata convenienter ordinata.
+<lb ed="#L" n="25"/>Unde sicut respectu eorum quae sunt ad finem aliquem specialem 
+deter<lb break="no" ed="#L" n="26"/>minamus nos per cognitionem particularem syllogismi practici propriissime
+<lb ed="#L" n="27"/>dicti, et hoc virtute principii sumpti ab ipso fine speciali applicati ordinate
+<lb ed="#L" n="28"/>ad minorem propositionem, ita etiam respectu talis finis determinamus nos
+<lb ed="#L" n="29"/>per conclusionem alterius syllogismi aliquo modo etiam practici, et hoc 
+<lb ed="#L" n="30"/>virtute principiorum generalium sumptorum a fine magis communi, et 
+ordi<lb break="no" ed="#L" n="31"/>nate applica torum ad speciales. Et secundum hoc potest dici quod respectu
+<lb ed="#L" n="32"/>ultimi finis qui scilicet ad aliud non ordinatur nec propter aliud appetitur,
+<lb ed="#L" n="33"/>homo non determinat se. Sed respectu quorumcumque aliorum potest se
+<lb ed="#L" n="34"/>determinare et illud quod determinat se ad aliquid potest dici aliquo modo
+<lb ed="#L" n="35"/>se movere ad illud. Non sic autem dicitur se movere ad illud ad quod non
+<lb ed="#L" n="36"/>se determinat sed magis ab alio determinatur. Ideo dicitur ab aliquibus  et
+<pb ed="#L" n="60"/>
+               <lb ed="#L" n="1"/>non male si recte intelligatur, quod voluntas a fine ultimo movetur etiam de
+<lb ed="#L" n="2"/>necessitate simpliciter et absolute, et non movet se proprie respectu illius,
+<lb ed="#L" n="3"/>sed respectu aliorum finium et quorumcumque ordinatorum in finem facta
+<lb ed="#L" n="4"/>in actu per finem ultimum movet se, sed non de necessitate simpliciter et
+<lb ed="#L" n="5"/>absolute, sed supposita volitione finis ad aliquod talium applicati. Quamvis
+<lb ed="#L" n="6"/>enim voluntas, cum sit potentia libera, non possit aliquid velle de necessitate
+<lb ed="#L" n="7"/>quantum ad necessitatem coactionis quae simpliciter repugnat libertati, potest
+<lb ed="#L" n="8"/>tamen aliquid velle de necessitate quantum ad necessitatem immutabilitatis,
+<lb ed="#L" n="9"/>et hoc est solum finis ultimus. Quaecumque autem alia vult non vult tali
+<lb ed="#L" n="10"/>necessitate, sed solum ex suppositione alicuius ! alterius magis principalis.
+</p>
+            <p xml:id="v27ab7-g03711-d1e1369">
+               <lb ed="#L" n="11"/>Per praedicta patet responsio ad obiecta, quia, prout declaratum est ,
+<lb ed="#L" n="12"/>non solum est in potestate hominis fieri bonum, quia in potestate eius
+<lb ed="#L" n="13"/>est agere operationes per appetitum quae ad hoc requiruntur, sed etiam
+<lb ed="#L" n="14"/>est in potestate hominis recte iudicare per intellectum et per hoc ? 
+opera<lb break="no" ed="#L" n="15"/>tiones recte informare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

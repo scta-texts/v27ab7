@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="71"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g06081"><!-- v27ab7-q5-q16 -->
+            <head xml:id="v27ab7-g06081-Hd1e99">Quaestio 16</head>
+            <head xml:id="v27ab7-g06081-Hd1e101" type="question-title">
+      Utrum status religiosorum sit perfectior quam status praelatorum
+      et specialiter sacerdotum parochialium
+    </head>
+            <p xml:id="v27ab7-g06081-d1e104">
+               <pb ed="#L" n="71"/>
+               <lb ed="#L" n="1"/>QUAESTIO XVI.
+<lb ed="#L" n="2"/>Utrum status religiosorum sit perfectior quam status praelatorum
+<lb ed="#L" n="3"/>et specialiter sacerdotum parochialium.
+</p>
+            <p xml:id="v27ab7-g06081-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa pertinentia ad homines quorumdam statuum specialiter
+<lb ed="#L" n="5"/>quaerebantur quaedam pertinentia ad personas ecclesiasticas, quaedam
+<lb ed="#L" n="6"/>pertinentia ad personas laicales. Circa pertinentia ad personas ecclesiasticas,
+<lb ed="#L" n="7"/>quaerebantur quaedam pertinentia ad religiosos et praelatos ad invicem
+<lb ed="#L" n="8"/>comparatos, quaedam pertinentia ad utrosque communiter, quaedam 
+perti<lb break="no" ed="#L" n="9"/>nentia ad religiosos specialiter !.
+</p>
+            <p xml:id="v27ab7-g06081-d1e131">
+               <lb ed="#L" n="10"/>Circa pertinentia ad religiosos et ad praelatos ad invicem comparatos
+<lb ed="#L" n="11"/>quaerebatur unum, scilicet utrum status religiosorum sit perfectior quam
+<lb ed="#L" n="12"/>status praelatorum et specialiter sacerdotum parochialium. Et ostendebatur
+<lb ed="#L" n="13"/>quod status sacerdotum parochialium sit perfectior quam status 
+religio<lb break="no" ed="#L" n="14"/>sorum, quia status perfectionis exercendae est perfectior quam perfectionis
+<lb ed="#L" n="15"/>acquirendae, nam status perfectionis exercendae non est nisl perfectorum,
+<lb ed="#L" n="16"/>sed status perfectionis acquirendae bene est imperfectorum. Sed status
+<lb ed="#L" n="17"/>sacerdotum parochialium est status perfectionis exercendae, quia eorum
+<lb ed="#L" n="18"/>est docere, corripere et cetera. Status autem religiosorum est perfectionis
+<lb ed="#L" n="19"/>acquirendae ; nam est status in quo illi, qui fuerunt in saeculo imperfecti et
+<lb ed="#L" n="20"/>dissoluti, a malis retrahuntur et in operibus virtuosis exercitantur, ut ad
+<lb ed="#L" n="21"/>perfectionem valeant pervenire .
+</p>
+            <p xml:id="v27ab7-g06081-d1e161">
+               <lb ed="#L" n="22"/>Contra. Perfectior est status ad quem requintur observa tio, non solum
+<lb ed="#L" n="23"/>praeceptorum, sed etiam consiliorum, quam ille qui non requirit 
+observa<lb break="no" ed="#L" n="24"/>tionem consiliorum. Sed status religionis requirit cum praeceptis 
+observa<lb break="no" ed="#L" n="25"/>tionem consiliorum ; non autem status sacerdotum, quia bene habent bona
+<lb ed="#L" n="26"/>propria, quod est contra consilium Domini dicentis, Matthaei decimo nono :
+<lb ed="#L" n="27"/>si vis perfectus esse et cetera. Ergo ex hoc sequitur quod praelati non solum
+<lb ed="#L" n="28"/>non sunt in statu perfectiori quam religiosi, sed quod non sunt in statu
+<lb ed="#L" n="29"/>perfectionis, et quod non sunt perfecti secundum quod tales.
+</p>
+            <p xml:id="v27ab7-g06081-d1e181">
+               <lb ed="#L" n="30"/>Respondeo dicendum quod, licet quaestio proponitur? specialiter de
+<pb ed="#L" n="72"/>
+               <lb ed="#L" n="1"/>sacerdotibus parochialibus et non de praelatis maioribus, ex his tamen quae
+<lb ed="#L" n="2"/>circa maiores supponuntur intendo declarare quod etiam sacerdotes 
+paro<lb break="no" ed="#L" n="3"/>chiales, inquantum tales, sunt in statu superiori et perfectiori quam 
+reli<lb break="no" ed="#L" n="4"/>giosi secundum quod huiusmodi. Et ad huius declarationem assumo quod
+<lb ed="#L" n="5"/>tres sunt status in ecclesia sub quibus omnes alii continentur, scilicet :
+<lb ed="#L" n="6"/>status saecularium laicorum, et status clericorum et religiosorum, et status
+<lb ed="#L" n="7"/>praelatorum. Hoc patet per illud quod dicitur Matthaei, vigesimo quarto :
+<lb ed="#L" n="8"/>erunt duo in agro, duae molentes in mola, duo in lecto. Glossa: duo in agro
+<lb ed="#L" n="9"/>sunt duae differentiae praedicatorum in ecclesia quasi in agro laborantium ;
+<lb ed="#L" n="10"/>duo in lecto sunt duae differentiae continentium sive contemplativorum qui
+<lb ed="#L" n="11"/>eligunt quietem, quae lecti nomine significatur, nec in saecularibus sunt
+<lb ed="#L" n="12"/>nec in ecclesiasticis negotiis occupati; duae in mola, duae differentiae
+<lb ed="#L" n="13"/>coniugatorum sive sequentium orbem rerum mobilium. Non sunt autem
+<lb ed="#L" n="14"/>alia genera hominum in ecclesia quam ista ! tria. Unde Ezechiel tres viros
+<lb ed="#L" n="15"/>liberatos vidit: Noe, Daniel, Job ; id est, rectores, continentes et coniugatos.
+<lb ed="#L" n="16"/>Sunt ergo secundum hoc tres status, vel tres ordines, vel tria genera, vel tres
+<lb ed="#L" n="17"/>modi viventium in ecclesia, quorum supremus est status rectorum, infimus
+<lb ed="#L" n="18"/>coniugatorum et medius religiosorum.
+</p>
+            <p xml:id="v27ab7-g06081-d1e227">
+               <lb ed="#L" n="19"/>Et? secundum hoc videtur quod status praelatorum sit status perfectior
+<lb ed="#L" n="20"/>in ecclesia. Est enim status iam perfectorum ; quia rectores, secundum quod
+<lb ed="#L" n="21"/>huiusmodi, sunt perfectiores his qui reguntur; quia rectores, secundum quod
+<lb ed="#L" n="22"/>huiusmodi, sunt perfecti et alios etiam perficientes. Qui autem reguntur,
+<lb ed="#L" n="23"/>secundum quod huiusmodi, non sunt perfecti, sed ad perfectionem tendunt
+<lb ed="#L" n="24"/>et proficiunt. Et quidem hoc communiter supponitur quantum ad maiores
+<lb ed="#L" n="25"/>praelatos, scilicet episcopos, quod sunt in statu perfectiori quam religiosi.
+<lb ed="#L" n="26"/>Hoc enim est a pluribus simpliciter et absolute determinatum, et in scriptis
+<lb ed="#L" n="27"/>magistrorum et doctorum communiter est redactum. Hoc etiam patet per
+<lb ed="#L" n="28"/>hoc quod non est aliquis status religiosorum, quantaecumque perfectionis
+<lb ed="#L" n="29"/>existat, quin de illo fiat transitus sine dispensatione speciali ad statum
+<lb ed="#L" n="30"/>episcoporum; non autem e converso. Hoc autem est de iure communi quod
+<lb ed="#L" n="31"/>de statu inferiori et minus perfecto possit aliquis transire ad maiorem et
+<lb ed="#L" n="32"/>perfectiorem, non autem e converso ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g06081-d1e260">
+               <lb ed="#L" n="33"/>Quantum ergo sufficit ad solvendum quaestionem propositam sub
+<lb ed="#L" n="34"/>forma qua proposita est, sic arguo. Praelati maiores, scilicet episcopi, sunt
+<lb ed="#L" n="35"/>in statu perfectiori quam religiosi; ergo minores, scilicet sacerdotes 
+paro<lb break="no" ed="#L" n="36"/>chiales, sunt in statu perfectiori. Antecedens suppono ex praedictis. 
+Conse<lb break="no" ed="#L" n="37"/>quentiam autem intendo probare, ostendendo quod sacerdotes parochiales
+<pb ed="#L" n="73"/>
+               <lb ed="#L" n="1"/>in officio et operibus, ratione quorum episcopi dicuntur esse in statu 
+per<lb break="no" ed="#L" n="2"/>fectiori et etiam in his quae pertinent ad perfectionem personalem quae
+<lb ed="#L" n="3"/>in ipsis episcopis ratione sui status requiritur, ipsis episcopis assimilantur ;
+<lb ed="#L" n="4"/>non sic autem religiosi ; deinde removendo quaedam quae ad diminuendum
+<lb ed="#L" n="5"/>condicionem status dictorum sacerdotum inducuntur.
+</p>
+            <p xml:id="v27ab7-g06081-d1e286">
+               <lb ed="#L" n="6"/>Quantum ad primum, suppono quod sacerdotes parochiales continentur
+<lb ed="#L" n="7"/>in aliquo praedictorum statuum, non nisi in primo, scilicet rectorum. Nam
+<lb ed="#L" n="8"/>et ! rectores sunt suarum parochiarum in regimine animarum sibi 
+commis<lb break="no" ed="#L" n="9"/>sarum, sicut? et episcopi rectores sunt suarum diocesum ?, et papa etiam
+<lb ed="#L" n="10"/>suae diocesis propriae ac universalis ecclesiae. Unde, licet status 
+episco<lb break="no" ed="#L" n="11"/>porum sit maioris dignitatis et perfectionis quam status sacerdotum, tamen,
+<lb ed="#L" n="12"/>in comparatione ad religiosos, in uno ordine  cum praelatis maioribus
+<lb ed="#L" n="13"/>continentur. Nec enim debent dici sicut praepositi , vel ballivi et huiusmodi
+<lb ed="#L" n="14"/>officiati voluntarii et delegati non ordinarii in principatibus respectu 
+epis<lb break="no" ed="#L" n="15"/>coporum; sed  sicut veri et ordinarii rectores, et sunt operarii in agro 
+<lb ed="#L" n="16"/>Domini cum episcopis et non ab episcopis, sed cum apostolis a Christo
+<lb ed="#L" n="17"/>in principio ecclesiae constituti. Hoc patet per illud quod ? dicit  Lucas,
+<lb ed="#L" n="18"/>decimo : designavit Iesus alios septuaginta duos, et misit illos ante faciem
+<lb ed="#L" n="19"/>suam in omnem civitatem et locum quo erat ipse venturus. Glossa : sicut
+<lb ed="#L" n="20"/>in duodecim apostolis forma episcoporum, sic in septuaginta duobus forma
+<lb ed="#L" n="21"/>est presbyterorum secundi ordinis. Unde ab institutione ecclesiae primitivae
+<lb ed="#L" n="22"/>fuerunt isti ' duo gradus in ecclesia ad regimen animarum ab ipso Christo
+<lb ed="#L" n="23"/>instituti. Propter quod status eorum non est factitius !' sive adventitius nec
+<lb ed="#L" n="24"/>ab homine puro " inventus et de novo in ecclesia inductus, sicut status
+<lb ed="#L" n="25"/>plurimorum religiosorum ; sed magis est status qui ex naturali ordine
+<lb ed="#L" n="26"/>ecclesiae in ipsa ecclesia est necessarius, et ? ab initio ecclesiae cum ordine
+<lb ed="#L" n="27"/>episcoporum est ! ab ipso Christo institutus. Unde, licet episcopi sunt 
+supe<lb break="no" ed="#L" n="28"/>riores, et sacerdotes inferiores et episcoporum adiutores, tamen isti " habent
+<lb ed="#L" n="29"/>auctoritatem et potestatem ordinariam in huiusmodi regimine quantum ad
+<lb ed="#L" n="30"/>sibi subditos a Christo ad eumdem finem ad quem episcopi, scilicet ad
+<lb ed="#L" n="31"/>salutem animarum '. Unde omnes sunt officiales vel vicarii vel ballivi vel
+<lb ed="#L" n="32"/>huiusmodi respectu Christi principalis regis et principis, qui non sunt sic
+<lb ed="#L" n="33"/>ad invicem comparandi ut isti sint aliorum, scilicet maiorum, quasi ballivi
+<lb ed="#L" n="34"/>vel praepositi non vere ordinarii, sed quasi voluntarie delegati, sicut sunt
+<lb ed="#L" n="35"/>aliqui sub rege in regimine temporali; sed unius et eiusdem Domini princi-
+<pb ed="#L" n="74"/>
+               <lb ed="#L" n="1"/>palis officiales, vel praepositi, sive ballivi ordinarii et ab uno eodem Domino
+<lb ed="#L" n="2"/>et principe, ut dictum est, instituti. Hoc patet per boc quod dicitur, vigesima
+<lb ed="#L" n="3"/>prima distinctione, capitulo in Novo Testamento : videntes apostoli messem
+<lb ed="#L" n="4"/>esse multam et operarios paucos, rogaverunt dominum messis ut mitteret
+<lb ed="#L" n="5"/>operarios in messem suam ; unde ab eis e'ecti sunt septuaginta duo ! discipuli
+<lb ed="#L" n="6"/>et a Christo in huiusmodi  officio instituti ; quia, ut patet, apostoli non 
+insti<lb break="no" ed="#L" n="7"/>tuerunt eos, sed ipsos instituendos a Christo elegerunt , ut patet per verba :
+<lb ed="#L" n="8"/>quia Dominus eos misit et apostoli rogaverunt ut mitteret ; quorum typum
+<lb ed="#L" n="9"/>gerunt presbyteri ad quae in eorum loco sunt in ecclesia instituti. Est
+<lb ed="#L" n="10"/>ergo similitudo inter episcopos et presbyteros in officio praelationis et
+<lb ed="#L" n="11"/>regiminis instituti a Christo, et per consequens patet quod, sicut episcopi
+<lb ed="#L" n="12"/>sunt in statu perfectiori quam religiosi, ita et  presbyteri parochiales. Unde
+<lb ed="#L" n="13"/>sicut in ecclesia primitiva status apostolorum et huiusmodi discipulorum
+<lb ed="#L" n="14"/>erat perfectior quolibet statu alio in ecclesia, ita etiam nunc est et erit
+<lb ed="#L" n="15"/>usque in finem.
+</p>
+            <p xml:id="v27ab7-g06081-d1e388">
+               <lb ed="#L" n="16"/>Hoc idem  etiam ostendo " ex hoc quod similitudo etiam est inter eos
+<lb ed="#L" n="17"/>in operibus eorum. Nam opera episcoporum, in quantum sunt praelati, sunt
+<lb ed="#L" n="18"/>ad alios, scilicet ad regimen animarum principaliter. Regimen autem 
+huius<lb break="no" ed="#L" n="19"/>modi consistit in doctrina fidei et morum informatione et correctione et
+<lb ed="#L" n="20"/>in dispensatione sacramentorum, quae sunt vasa gratiae per qua salvamur.
+<lb ed="#L" n="21"/>Sacramenta autem maxime necessaria ad salutem sunt: baptismus ut prima
+<lb ed="#L" n="22"/>tabula et poenitentia ut secunda tabula post naufragium. Haec autem cum
+<lb ed="#L" n="23"/>omnibus aliis, exceptis duobus, sacerdotes administrant. Constat etiam
+<lb ed="#L" n="24"/>quod ad sacerdotes pertinet suis subditis praedicare ex officio ordinario
+<lb ed="#L" n="25"/>et ipsos super quibusdam excessibus corripere, licet non habeant 
+secun<lb break="no" ed="#L" n="26"/>dum usum et consuetudinem ecclesiae tantam potestatem et auctoritatem
+<lb ed="#L" n="27"/>puniendi per censuram ? ecclesiasticam, excommunicando et aliis modis,
+<lb ed="#L" n="28"/>sicut episcopi. Si ergo, ut aliqui dicunt, illa religio praefertur alteri quae
+<lb ed="#L" n="29"/>ordinatur ad finem absolute perfectiorem, maius bonum autem est 
+com<lb break="no" ed="#L" n="30"/>mune quam privatum, quia quanto aliquid est communius tanto divinius 5;
+<lb ed="#L" n="31"/>et ideo religio quae ordinatur ad opus activae  vifae quod ex plenitudine 
+con<lb break="no" ed="#L" n="32"/>templationis derivatur, cuiusmodi est opus quo saluti animarum intenditur,
+<lb ed="#L" n="33"/>quod principaliter pertinet ad praelatos, et sic est propinquissima perfectioni
+<lb ed="#L" n="34"/>praelatorum, inter religiones "" tenet superiorem et pertectiorem gradum
+<lb ed="#L" n="35"/>quam illae !! quae simplici contemplationi intendunt ". Multo magis hac
+<pb ed="#L" n="75"/>
+               <lb ed="#L" n="1"/>de causa sacerdotes debent dici superiores et perfectiores quibuscumque
+<lb ed="#L" n="2"/>religiosis, quia illa pauca, scilicet docere et praedicare et confessiones
+<lb ed="#L" n="3"/>audire et cetera talia, quae dictis perfectioribus religiosis conveniunt non
+<lb ed="#L" n="4"/>nisi participative et ex delegatione et commissione cum pluribus aliis
+<lb ed="#L" n="5"/>actibus perfectis, conveniunt ipsis sacerdotibus essentialiter et ordinaria
+<lb ed="#L" n="6"/>potestate et auctoritate. Ergo status eorum, ratione huiusmodi operum, multo
+<lb ed="#L" n="7"/>similior et propinquior est statui episcoporum quam status dictorum 
+reli<lb break="no" ed="#L" n="8"/>giosorum ; ergo est perfectior.
+</p>
+            <p xml:id="v27ab7-g06081-d1e454">
+               <lb ed="#L" n="9"/>Hoc etiam patet ex similitudine perfectionis et condicionis personalis
+<lb ed="#L" n="10"/>quae requiritur in ipsis sacerdotibus ad illam quae requiritur in episcopis.
+<lb ed="#L" n="11"/>Nam ideo videtur status episcoporum perfectior quia etiam ! perfectiorem
+<lb ed="#L" n="12"/>hominem requirit quam status religionis. Ille enim status est perfectior qui
+<lb ed="#L" n="13"/>per se requirit hominem perfectiorem. Quia ergo status episcoporum requirit
+<lb ed="#L" n="14"/>hominem perfectiorem quam status religionis, qui per se non requirit perfectos
+<lb ed="#L" n="15"/>esse omnes qui vere religiosi sunt, quod requirit status episcoporum, ideo
+<lb ed="#L" n="16"/>status episcoporum  dicitur status perfectior statu religiosorum. Sed eadem
+<lb ed="#L" n="17"/>ratione debet dici status sacerdotum parochialium perfectior statu 
+religio<lb break="no" ed="#L" n="18"/>sorum, quia requirit hominem perfectiorem. Nam cum perfectio personae
+<lb ed="#L" n="19"/>attendatur in hac vita praecipue secundum caritatem ; — perfectio autem 
+cari<lb break="no" ed="#L" n="20"/>tatis in hoc attenditur ut animam suam quis ponat pro fratribus, vel 
+expo<lb break="no" ed="#L" n="21"/>nendo periculis mortis, vel etiam vitam suam totaliter ordinando in utilitatem
+<lb ed="#L" n="22"/>proximorum, et quod proximis tempora lia beneficia et spiritualia 
+impen<lb break="no" ed="#L" n="23"/>dantur — sicut autem huiusmodi dilectio debet esse in ipsis episcopis ?
+<lb ed="#L" n="24"/>respectu subditorum, ita etiam in sacerdotibus ; licet in episcopis, quorum
+<lb ed="#L" n="25"/>status est sublimior ista, perfectius requiritur quam in sacerdotibus.
+<lb ed="#L" n="26"/>Ratione enim sui officii, obligantur ad hoc quod pro salute subditorum ut
+<lb ed="#L" n="27"/>pro fratribus animam ponant in tempore opportuno. Constat etiam quod ?
+<lb ed="#L" n="28"/>spiritualia; tam per doctrinam quam per sacramentorum dispensationem
+<lb ed="#L" n="29"/>quam per suffragia, et cetera talia eis impendunt. Unde dicitur Hebraeos
+<lb ed="#L" n="30"/>quinto : omnis pontifex ex hominibus assumptus, pro hominibus constituitur
+<lb ed="#L" n="31"/>in his quae ad Deum sunt, ut offerat dona et sacrificia pro peccatis ; et licet
+<lb ed="#L" n="32"/>hoc dicat de pontifice per quem principaliter episcopus intelligitur, tamen
+<lb ed="#L" n="33"/>hoc etiam veritatem habet de sacerdote cuius officium est pro peccatis
+<lb ed="#L" n="34"/>populi sacrificia offerre. Haec autem omnia non potest praelatus 
+conve<lb break="no" ed="#L" n="35"/>nienter facere nisi etiam habeat  scientiam ex parte intellectus, quia sine
+<lb ed="#L" n="36"/>ea non posset populum informare, nec alia facere debito modo quae ad
+<pb ed="#L" n="76"/>
+               <lb ed="#L" n="1"/>officium suum pertinent. Constat ergo quod status praelati requirit hominem
+<lb ed="#L" n="2"/>perfectiorem et secundum intellectum et secundum affectum quam status
+<lb ed="#L" n="3"/>religionis. Nam maior perfectio requiritur ad hoc quod aliquis ' aliis 
+perfec<lb break="no" ed="#L" n="4"/>tionem tribuat, quam ad hoc quod aliquis in statu salutis existens 
+perfec<lb break="no" ed="#L" n="5"/>tionem sibi acquirat vel etiam in seipso perfectus sit, sicut etiam omne
+<lb ed="#L" n="6"/>agens, secundum quod huiusmodi, perfectius est patiente. Nunc autem ad
+<lb ed="#L" n="7"/>hoc quod aliquis convenienter possit esse praelatus, non solum episcopus
+<lb ed="#L" n="8"/>sed sacerdos parochialis , requiritur quod scientia sit instructus et quod
+<lb ed="#L" n="9"/>dicto modo secundum affectum sit dilectione caritatis ad proximum 
+inflam<lb break="no" ed="#L" n="10"/>matus. Ad religiosum ? etiam bonum et sufficientem, secundum quod 
+huius<lb break="no" ed="#L" n="11"/>modi, non requiritur hoc, saltem ita perfecte ; immo potest dici quis servare
+<lb ed="#L" n="12"/>religionem sufficienter ad salutem, etiam si non sit multum instructus
+<lb ed="#L" n="13"/>scientia et si huiusmodi  caritatis perfectionem non habeat. Quia etiam
+<lb ed="#L" n="14"/>aliquis imperfectus ad observationem regulae et vitae monasticae in sua
+<lb ed="#L" n="15"/>prima professio ne obligatur et talis est vere et simpliciter religiosus ; non
+<lb ed="#L" n="16"/>tamen iam est vir perfectus, sed est in statu in quo potest perfectionem
+<lb ed="#L" n="17"/>acquirere. Sed hoc non sufficit praelato, cum ad curam animarum obligatur.
+<lb ed="#L" n="18"/>Immo iam debet esse perfectus ut iam perfecte possit agere. Et ideo bene
+<lb ed="#L" n="19"/>dicitur quod status praelatorum est status perfectionis non acquirendae, sed
+<lb ed="#L" n="20"/>exercendae, quia illi statui repugnat quod in ipso  ab imperfecto perfectio 
+<lb ed="#L" n="21"/>acquiratur, immo  exigit iam perfectum et potentem perfecte operari.
+<lb ed="#L" n="22"/>Status autem religionis dicitur perfectionis acquirendae, quia bene sustinet
+<lb ed="#L" n="23"/>imperfectum qui in illo perfectionem possit acquirere ; et non dicitur status
+<lb ed="#L" n="24"/>perfectionis exercendae, tum quia, ut dictum est, perfectum non requirit,
+<lb ed="#L" n="25"/>tum quia sua perfectio, cum ab aliquo acquisita fuerit, non sic eius 
+<lb ed="#L" n="26"/>exercitium ad perficiendum alium ? ordinatur, sicut perfectio praelati. Actus
+<lb ed="#L" n="27"/>enim perfecti religiosi, et si sint perfecti et si illis utendo exerceat 
+perfec<lb break="no" ed="#L" n="28"/>tionem aliquo modo singulariter et ad seipsum, non tamen proprie loquendo,
+<lb ed="#L" n="29"/>prout exercere perfectionem dicitur perfectione publice et "" ad alios uti et ad
+<lb ed="#L" n="30"/>alios perficere. Sed cum sic est perfectus aliquis religiosus, tunc primo est
+<lb ed="#L" n="31"/>dispositus ut ad statum parochialis curae assumatur et sic, hoc ipso quod
+<lb ed="#L" n="32"/>etiam ?' inter religiosos soli perfectiores sunt idonei ad statum talis 
+prae<lb break="no" ed="#L" n="33"/>lationis, patet quod iste status simpliciter est perfectior, quia perfectiorem
+<lb ed="#L" n="34"/>hominem requirit. Unde de hoc, vigesimo primo, quaestione prima, dicit
+<lb ed="#L" n="35"/>Augustinus: non nisi probatiores ac meliores in clericos assumere solemus.
+<lb ed="#L" n="36"/>Patet ergo quod sacerdotes parochiales sunt in perfectiori statu quam reli-
+<pb ed="#L" n="77"/>
+               <lb ed="#L" n="1"/>giosi, sicut et episcopi sunt eis perfectiores. Et hoc quidem patet, tam ratione
+<lb ed="#L" n="2"/>officii quam ratione operum, quam ratione perfectionis personalis quae in
+<lb ed="#L" n="3"/>eis requiritur, in quibus episcopis assimilantur.
+</p>
+            <p xml:id="v27ab7-g06081-d1e606">
+               <lb ed="#L" n="4"/>Nunc ergo restat removeamus quaedam quae inducuntur ad 
+diminuen<lb break="no" ed="#L" n="5"/>dum condiciones status dictorum sacerdotum. Nam cum dicitur quod si
+<lb ed="#L" n="6"/>comparentur opera sacerdotum parochialium, secundum quod huiusmodi,
+<lb ed="#L" n="7"/>ad opera religiosorum, secundum quod huiusmodi, sunt perfectiora 
+simpli<lb break="no" ed="#L" n="8"/>citer; ad hoc dicunt quidam quod verum est quod aliqua particularia opera
+<lb ed="#L" n="9"/>sacerdotum sunt perfectiora aliquibus operibus particularibus religiosorum,
+<lb ed="#L" n="10"/>sicut maius est intendere saluti animarum quam ieiunare vel aliud consimile
+<lb ed="#L" n="11"/>facere, quod specialiter ad religiosum pertinet; sed si in omnibus 
+compa<lb break="no" ed="#L" n="12"/>rentur, opera religiosorum sunt perfectiora. Quamvis enim procurare salutem
+<lb ed="#L" n="13"/>proximorum sit perfectius quam intendere sibi, loquendo in genere, tamen
+<lb ed="#L" n="14"/>quod aliquis totaliter et perfecte intendat suae saluti, maius est quam si
+<lb ed="#L" n="15"/>aliquis multa opera particularia faciat ad salutem aliorum, etiamsi ! saluti
+<lb ed="#L" n="16"/>propriae sufficienter non tamen perfecte intendat. Sed istud non videtur
+<lb ed="#L" n="17"/>benedictum, quia sicut ista ratio arguit de sacerdotibus, ita etiam arguit de
+<lb ed="#L" n="18"/>episcopis, ut per se patet. Nam ut dictum est eisdem operibus circa salutem
+<lb ed="#L" n="19"/>animarum intendunt isti et illi, modo praedicto. Qui etiam ex dilectione
+<lb ed="#L" n="20"/>proximi vult esse intentus saluti eius, secundum quod huiusmodi videtur
+<lb ed="#L" n="21"/>plus esse intentus saluti propriae ; et illud etiam quod facit erga proximum
+<lb ed="#L" n="22"/>si sit talis qualem requirit status eius, ex maiori dilectione Dei et proximi
+<lb ed="#L" n="23"/>procedit et ad dilectionem Dei et sui ordinat. Sed quia haec veritas est ita
+<lb ed="#L" n="24"/>manifesta quod perfectioni sacerdotum per hanc viam obviari non potest,
+<lb ed="#L" n="25"/>attendendo scilicet ad opera quae in illo statu requiruntur et ad 
+perfec<lb break="no" ed="#L" n="26"/>tionem personalem quam oportet illum habere qui convenienter debet 
+offi<lb break="no" ed="#L" n="27"/>cium sacerdotale? exercere, per viam aliam obviatur. Nam cum status
+<lb ed="#L" n="28"/>perfectionis duo importet : et rationem status et rationem perfectionis,
+<lb ed="#L" n="29"/>nituntur quidam ostendere quod tales non sunt in statu perfectionis, quia
+<lb ed="#L" n="30"/>non sunt in statu, eo quod ratio status importat quamdam immobilitatem
+<lb ed="#L" n="31"/>et obligationem ad opera aliqua exercenda. Episcopi autem sunt in statu,
+<lb ed="#L" n="32"/>quia obligantur ; item sunt in statu perfectionis quia obiectum huiusmodi
+<lb ed="#L" n="33"/>obligationis sunt opera perfecta. Sacerdotes autem non obligantur, quia
+<lb ed="#L" n="34"/>possunt de licentia episcopi curam deserere et in saeculo remanere ; et sine
+<lb ed="#L" n="35"/>licentia episcopi possunt ad religionem transire. Et ex hoc arguitur quod
+<lb ed="#L" n="36"/>saltem respectu religiosorum, nec sunt in statu, nec in statu perfectiori ; non
+<lb ed="#L" n="37"/>in statu, quia voluntate propria possunt illum per religionem relinquere ;
+<pb ed="#L" n="78"/>
+               <lb ed="#L" n="1"/>non in statu perfectiori, quia iura communia non concedunt quod aliquis
+<lb ed="#L" n="2"/>sine dispensatione possit a statu perfectiori ad imperfectiorem transire, sed
+<lb ed="#L" n="3"/>e converso. Unde a minori religione sine licentia praelati saltem obtenta
+<lb ed="#L" n="4"/>potest quis transire ad arctiorem; e converso, non sine dispensatione Papae.
+<lb ed="#L" n="5"/>Quod autem ita sit, scilicet quod sacerdos intrans religionem transeat ab
+<lb ed="#L" n="6"/>imperfectiori vita ad perfectiorem, hoc arguitur ex duobus. Capitulo decimo
+<lb ed="#L" n="7"/>nono, quaestione prima: capitulo clerici, sic dicitur quod clerici qui 
+mona<lb break="no" ed="#L" n="8"/>chorum propositum ' appetunt, quia meliorem vitam suscipiunt, libere eis
+<lb ed="#L" n="9"/>ab episcopo in monas teriis largiri oportet ingressus. Clerici autem ibi
+<lb ed="#L" n="10"/>dicuntur sacerdotes saeculares parochias regentes et cetera. Duae sunt
+<lb ed="#L" n="11"/>leges : dicitur, si aliquis horum in ecclesia sua sub episcopo populum retinet
+<lb ed="#L" n="12"/>et saeculariter vivit, si afflatus Spiritu Sancto in aliquo monasterio salvare
+<lb ed="#L" n="13"/>se voluerit, qui lege privata ducuntur nulla ratio exigit ut a lege publica
+<lb ed="#L" n="14"/>constringantur. Quisquis ergo hoc spiritu ducitur, etiam episcopo suo 
+con<lb break="no" ed="#L" n="15"/>tradicente, eat libere nostra auctoritate. Illud autem quod fit afflatu Spiritus
+<lb ed="#L" n="16"/>Sancti, videtur perfectius et melius. Ergo cum talis afflatu Spiritus Sancti
+<lb ed="#L" n="17"/>intret religionem deserendo parochiam, status religionis videtur perfectior.
+</p>
+            <p xml:id="v27ab7-g06081-d1e721">
+               <lb ed="#L" n="18"/>Sed haec non obstant. Nam de nominibus non est multum curandum
+<lb ed="#L" n="19"/>vel disputandum, sed de rebus. Esto ergo quod sacerdotes cum tali 
+solem<lb break="no" ed="#L" n="20"/>nitate non obligentur ad perpetuo regendum parocbiam sicut episcopi, si
+<lb ed="#L" n="21"/>tamen hoc ipsum quod est regere parochiam est quidam modus vivendi
+<lb ed="#L" n="22"/>perfectus et est gradus in modo vivendi perfectior et superior quam gradus
+<lb ed="#L" n="23"/>et modus vivendi in religione ; ero sub hac forma verborum poterit statim
+<lb ed="#L" n="24"/>dici quod vita sacerdotum vel modus vivendi est perfectior quam vita 
+reli<lb break="no" ed="#L" n="25"/>giosorum, etiam si non poterit dici quod in statu perfectiori sunt, quia non
+<lb ed="#L" n="26"/>sunt in statu, sic loquendo stricte de statu ut dicunt isti.
+</p>
+            <p xml:id="v27ab7-g06081-d1e743">
+               <lb ed="#L" n="27"/>Similiter etiam  ad hoc quod aliquis sit in statu perfecto, saltem 
+secun<lb break="no" ed="#L" n="28"/>dum communem usum loquendi de statu, videtur sufficere quod ea quae
+<lb ed="#L" n="29"/>perfectionis sunt observet? cum proposito perpetuo observandi absque
+<lb ed="#L" n="30"/>solemnitate talis obligationis exterioris: verbi gratia, si aliqua mulier 
+con<lb break="no" ed="#L" n="31"/>servet virginitatem cum proposito numquam copulandi se viro carnaliter,
+<lb ed="#L" n="32"/>absque hoc quod voto speciali et  expresso hoc firmet, talis dicitur habere
+<lb ed="#L" n="33"/>statum virginitatis; et si in hoc proposito discedat, praemium virginum 
+obti<lb break="no" ed="#L" n="34"/>nebit. Ergo etiam qui cum tali proposito parochiam sumit, etsi aliter non
+<lb ed="#L" n="35"/>obligaretur ad perpetuo tenendum eam nisi solo proposito, secundum 
+com<lb break="no" ed="#L" n="36"/>munem usum loquendi, videtur posse dici esse in statu ; et hoc modo esse
+<lb ed="#L" n="37"/>in statu sufficeret ad faciendum praedictam comparationem.
+<pb ed="#L" n="79"/>
+               <lb ed="#L" n="1"/>Item, posito quod aliquis assumat curam animarum in ecclesia 
+paro<lb break="no" ed="#L" n="2"/>chiali, licet etiam non habeat propositum in illa perpetuo perseverandi,
+<lb ed="#L" n="3"/>tamen hoc non impedit quin status secundum se sit perfectus, sic videlicet
+<lb ed="#L" n="4"/>quod requirit hominem perfectum qui huiusmodi curam debet suscipere,
+<lb ed="#L" n="5"/>etiamsi opera quae ad illum requiruntur non deberet nisi per tempus 
+modi<lb break="no" ed="#L" n="6"/>cum exercere.
+</p>
+            <p xml:id="v27ab7-g06081-d1e785">
+               <lb ed="#L" n="7"/>Item videtur, quod non bene dictum sit quod non obligentur obligatione
+<lb ed="#L" n="8"/>quae sufficit ad statum ; quia obligatio qua clericus, praecipue habens curam
+<lb ed="#L" n="9"/>animarum, sive praelatus quicumque, obligatur ecclesiae, non est tam de
+<lb ed="#L" n="10"/>iure positivo et ex statuto humano quam de iure naturae et divino. Praelatus
+<lb ed="#L" n="11"/>enim in susceptione curae obligat se quasi sponsus ecclesiae quasi sponsae
+<lb ed="#L" n="12"/>ad gerendum curam eius et singulorum de ecclesia. Obligatur ! autem, non
+<lb ed="#L" n="13"/>sub conditione et ad tempus determinatum, sed simpliciter et absolute.
+<lb ed="#L" n="14"/>Unde nec ipsam deserere debet, nisi forte superveniente casu propter
+<lb ed="#L" n="15"/>quem salubrius et melius esset sibi et suis subditis cedere quam in regimine
+<lb ed="#L" n="16"/>remanere. Et secundum hoc, nullo statuto humano circa hoc existente, post
+<lb ed="#L" n="17"/>susceptionem curae non possent praelati huiusmodi obligationem pro suae
+<lb ed="#L" n="18"/>voluntatis libito rescindere, quia propter dilectionem Dei et proximi se
+<lb ed="#L" n="19"/>constituunt quasi in servitutem hanc; quod quantum est ex se in perpetuum
+<lb ed="#L" n="20"/>oportebit eos in regimine curae susceptae remanere, adimendo sibi 
+liber<lb break="no" ed="#L" n="21"/>tatem dimittendi.
+</p>
+            <p xml:id="v27ab7-g06081-d1e820">
+               <lb ed="#L" n="22"/>Praeterea, quia altercatio de nomine status, quantum ad propositum, est
+<lb ed="#L" n="23"/>inutilis, illa omissa, utamur alio nomine, sic quod, cum secundum 
+supra<lb break="no" ed="#L" n="24"/>dictam glossam Matthaei; vigesimo quarto, tria sunt genera hominum,
+<lb ed="#L" n="25"/>quaeratur quod genus hominum sit perfectius, scilicet coniugatorum vel
+<lb ed="#L" n="26"/>contemplativorum vel rectorum. Et ita bene potest sub his verbis quaestio
+<lb ed="#L" n="27"/>pertractari et eodem modo, sicut sub aliis et secundum communem modum
+<lb ed="#L" n="28"/>loquendi pro eodem potest accipi status hominum, sicut genus hominum.
+<lb ed="#L" n="29"/>Dicitur enim quod est status poenitentium vel incipientium ? proficientium
+<lb ed="#L" n="30"/>et perfectorum et cetera. Ergo frivola videtur et non conveniens evasio qua
+<lb ed="#L" n="31"/>dicitur quod non sunt sacerdotes in statu perfectionis, quia non sunt in
+<lb ed="#L" n="32"/>statu; et ideo istis non obstantibus est dicendum quod sacerdotes curati
+<lb ed="#L" n="33"/>sunt in statu perfecto, a quo tamen licet eos recedere de licentia, etiam ad
+<lb ed="#L" n="34"/>statum simplicem et minus perfectum. Et non bene dicitur quod sacerdotes
+<lb ed="#L" n="35"/>non sunt in statu perfectionis, alioquin essent apostatae cum, dimissis curis,
+<lb ed="#L" n="36"/>remaneant in saeculo ; quia episcopi, etiam de licentia Papae absoluti, bene
+<lb ed="#L" n="37"/>remanent in saeculo in statu simplici et imperfecto ; et tamen apostatae dici
+<pb ed="#L" n="80"/>
+               <lb ed="#L" n="1"/>non debent. Similiter etiam sacerdos curatus qui, ex rationabili causa 
+licen<lb break="no" ed="#L" n="2"/>tiatus ab episcopo, deserit curam, non debet dici apostata. Nomen apostatae
+<lb ed="#L" n="3"/>etiam appropriatum est secundum usum communem illis religiosis qui
+<lb ed="#L" n="4"/>post professionem ad saeculum revertuntur; et non dicitur de omnibus
+<lb ed="#L" n="5"/>qui a quacumque obligatione etiam simpliciter et sine determinatione 
+tem<lb break="no" ed="#L" n="6"/>poris facta discedunt.
+</p>
+            <p xml:id="v27ab7-g06081-d1e873">
+               <lb ed="#L" n="7"/>Praeterea, esto quod praedicta duo capitula essent revocata et 
+rema<lb break="no" ed="#L" n="8"/>neant? iura alia communia, sacerdos non posset intrare religionem sine
+<lb ed="#L" n="9"/>speciali licentia episcopi vel Papae, sicut nunc episcopus non potest sine
+<lb ed="#L" n="10"/>licentia solius Papae; et tunc saltem excluderetur ista via frivola per quam
+<lb ed="#L" n="11"/>aliqui nituntur ostendere quod sacerdotes non sunt in statu perfectiori
+<lb ed="#L" n="12"/>quam religiosi. Et si dicatur ulterius, quod immo rationabile est, quod
+<lb ed="#L" n="13"/>episcopi non possunt dimittere episcopatus sine licentia, etiam propter
+<lb ed="#L" n="14"/>ingressum religionis, quia eorum status secundum se est perfectior; non
+<lb ed="#L" n="15"/>sic autem est rationabile hoc de sacerdotibus, quia eorum status est 
+secun<lb break="no" ed="#L" n="16"/>dum se imperfectior, hoc non valet ; quia respiciendo ad opera et ad 
+condi<lb break="no" ed="#L" n="17"/>cionem perfectionis personalis, ut supra dictum est, eadem ratione est iste ?
+<lb ed="#L" n="18"/>perfectus, sicut ille. Et ideo ad hoc quod sint in statu perfectiori eo modo
+<lb ed="#L" n="19"/>quo isti volunt loqui de statu, non deest nisi obligatio quae posset fieri
+<lb ed="#L" n="20"/>uno verbo si Papa diceret : volumus quod sacerdotes non deserant suas
+<lb ed="#L" n="21"/>parochias et quod non possent ingredi religionem, sicut episcopi, sine
+<lb ed="#L" n="22"/>licentia speciali. Ergo nunc etiam, non obstante concessione eis facta per
+<lb ed="#L" n="23"/>praedicta duo capitula, debent nihilominus dici esse in statu perfectiori
+<lb ed="#L" n="24"/>quam religiosi; quia quod per praedicta capitula conceditur sacerdotibus,
+<lb ed="#L" n="25"/>est indulgentia quaedam et dispensatio. Unde per talem licentiam non
+<lb ed="#L" n="26"/>est inteligendum quod quilibet simpliciter et absolute possit deserere
+<lb ed="#L" n="27"/>curam suam et religionem intrare; quia licet nullus homo hoc prohibeat
+<lb ed="#L" n="28"/>modo propter dictam licentiam, prohibet tamen Deus extra casum propter
+<lb ed="#L" n="29"/>quem videtur huiusmodi indulgentia data esse ; quae scilicet sic est 
+intel<lb break="no" ed="#L" n="30"/>ligenda quod, cum aliquis videns suam insufficientiam et periculum
+<lb ed="#L" n="31"/>in parochia et aestimat quod per alium  melius poterit regi, tunc poterit
+<lb ed="#L" n="32"/>eam deserere. Sic enim movetur privata lege et aflatu Spiritu Sancti
+<lb ed="#L" n="33"/>ducitur. Si enim probabiliter aestimaret quod posset parochiam melius
+<lb ed="#L" n="34"/>regere quam alius et plus bono communi proficere, et non esset in periculo
+<lb ed="#L" n="35"/>multum magno ultra commune periculum quod in talibus communiter 
+repe<lb break="no" ed="#L" n="36"/>ritur, lege Spiritus non duceretur, quia Spiritus ducit ad melius. Bonum
+<lb ed="#L" n="37"/>autem commune est melius et divinius et cetera. Unde in illo casu in quo
+<pb ed="#L" n="81"/>
+               <lb ed="#L" n="1"/>episcopus vel papa daret licentiam sacerdoti, si dicta capitula essent remota,
+<lb ed="#L" n="2"/>debet sacerdos licentia generali per haec capitula data uti. Sicut si etiam
+<lb ed="#L" n="3"/>Papa statueret quod episcopi possent, si vellent, religionem intrare, sicut
+<lb ed="#L" n="4"/>nunc statuit de sacerdotibus curatis, episcopus non deberet uti hac licentia,
+<lb ed="#L" n="5"/>nisi in casu in quo nunc papa deberet alicui huiusmodi licentiam concedere.
+<lb ed="#L" n="6"/>Nec propter hoc diceretur quod episcopi essent in statu imperfectiori quam
+<lb ed="#L" n="7"/>sit status religionis ad quam transire possent.
+</p>
+            <p xml:id="v27ab7-g06081-d1e960">
+               <lb ed="#L" n="8"/>Nec obstat quod in decreto ! primo dicitur: quia meliorem vitam sequi
+<lb ed="#L" n="9"/>cupiunt ; et quod in secundo dicitur quod ducuntur lege privata Spiritus qui
+<lb ed="#L" n="10"/>non inspirat minus bonum ; quia melius potest dici aliquid dupliciter, vel
+<lb ed="#L" n="11"/>melius simpliciter et absolute, vel melius huic et in casu. Qui autem 
+rationa<lb break="no" ed="#L" n="12"/>biliter vult deserere parochiam et religionem intrare, non facit hoc quia
+<lb ed="#L" n="13"/>meliorem sive perfectiorem vitam simpliciter eligat, sed meliorem sibi
+<lb ed="#L" n="14"/>propter casus et causas praedictas. Et quod sic debeat intelligi, patet per
+<lb ed="#L" n="15"/>glossam sequentis capituli super illo verbo: dignior est lex privata, qua
+<lb ed="#L" n="16"/>scilicet sacerdotes ducuntur cum volunt intrare religionem, quam publica.
+<lb ed="#L" n="17"/>Tamen in tribus casibus praeiudicat huic legi privatae publica ; nam mulier,
+<lb ed="#L" n="18"/>licet lege Dei ducatur, non potest invito viro intrare religionem; nec impubes
+<lb ed="#L" n="19"/>invito patre; nec episcopus invito papa. Ex quo patet quod eodem modo
+<lb ed="#L" n="20"/>comparatur status religionis ad statum sacerdotis et episcopi sub ratione
+<lb ed="#L" n="21"/>vitae melioris et sub ratione obiecti legis privatae Spiritus Sancti. Sicut
+<lb ed="#L" n="22"/>ergo sacerdos potest duci lege privata Spiritus ad intrandum religionem
+<lb ed="#L" n="23"/>tamquam ad vitam meliorem, et cum hoc contingit, potest hoc libere facere
+<lb ed="#L" n="24"/>per licentiam generalem, — hoc autem est cum hoc vult propter salutem
+<lb ed="#L" n="25"/>animae suae, ut dicitur in dicto capitulo ; quod contingit quando experitur
+<lb ed="#L" n="26"/>se insufficientem et non posse regere sicut debet, vel cum timet periculum
+<lb ed="#L" n="27"/>vel aliquid huiusmodi, — ita etiam potest episcopus duci eadem lege; sed cum
+<lb ed="#L" n="28"/>hoc contingit non potest hoc facere sine licentia Papae speciali. Constat
+<lb ed="#L" n="29"/>autem quod, cum episcopus vult intrare religionem tamquam volens sequi
+<lb ed="#L" n="30"/>vitam meliorem, ibi accipi oportet meliorem huic et in hoc casu et non
+<lb ed="#L" n="31"/>meliorem simpliciter. Ergo similiter  oportet accipi de sacerdote cum vult
+<lb ed="#L" n="32"/>ingredi religionem, in hoc volens sequi vitam meliorem ; et talis ingressus
+<lb ed="#L" n="33"/>tam episcopi quam sacerdotis est descensus simpliciter, sed ascensus huic
+<lb ed="#L" n="34"/>et in hoc casu.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1021">
+               <lb ed="#L" n="35"/>Quare autem datur sic generalis licentia sacerdotibus non episcopis
+<lb ed="#L" n="36"/>multiplex causa potest esse. Sed sufficit ad praesens quod ubi maius est
+<pb ed="#L" n="82"/>
+               <lb ed="#L" n="1"/>periculum, ibi cautius est agendum. Quia ergo maius est periculum si
+<lb ed="#L" n="2"/>unus episcopus deserat episcopatum quam si sacerdos parochialis, et
+<lb ed="#L" n="3"/>facilius providetur parochiae de alio sacerdote quam episcopatui de
+<lb ed="#L" n="4"/>episcopo, ideo non datur licentia generalis episcopis sicut sacerdotibus.
+<lb ed="#L" n="5"/>E contrario autem, quando aliquis assumitur a statu regulari ad statum
+<lb ed="#L" n="6"/>episcopalem vel sacerdotalem, simpliciter dicitur ascendere ; unde dicitur
+<lb ed="#L" n="7"/>decimo sexto, quaestione prima, capitulo: sunt nonnulli credimus a 
+sacer<lb break="no" ed="#L" n="8"/>dotibus monachis ligandi solvendique ' officium, Deo operante, digne
+<lb ed="#L" n="9"/>administrari si eos digne contingerit hoc ministerio sublimari ; et capitulo
+<lb ed="#L" n="10"/>sequenti: sic vive in monasterio ut clericus esse merearis et cetera. Unde
+<lb ed="#L" n="11"/>cum aliquis de statu religionis transit ad statum cu rae episcopalis vel 
+paro<lb break="no" ed="#L" n="12"/>chialis, non dicitur hoc fieri per dispensationem, sicut etiam contingit cum
+<lb ed="#L" n="13"/>quis transit de laxiori religione ad arctiorem. Immo e converso : tum quia 
+<lb ed="#L" n="14"/>religiosus factus curatus non potest redire ad vitam monasticam sine 
+dis<lb break="no" ed="#L" n="15"/>pensatione sive licentia, tum quia secundum iura monachus sive religiosus,
+<lb ed="#L" n="16"/>saltem de licentia abbatis vel superioris, absque aliqua dispensatione alia
+<lb ed="#L" n="17"/>speciali potest transire vel assumi ad regimen curae parochialis. Hoc autem
+<lb ed="#L" n="18"/>non esset nis] status parochialis esset perfectior quam status simplicis
+<lb ed="#L" n="19"/>monachi, et nisi in hoc monachus ab inferiori statu ad superiorem 
+ascen<lb break="no" ed="#L" n="20"/>deret; quia religiosus quicumque non potest? de licentia sui superioris
+<lb ed="#L" n="21"/>descendere ad statum inferiorem, puta intrare religionem laxiorem vel
+<lb ed="#L" n="22"/>huiusmodi. Patet ergo quod monachus simpliciter ascendit ad statum
+<lb ed="#L" n="23"/>perfectiorem quando curatus efficitur, et descendit quando curam deserens
+<lb ed="#L" n="24"/>ad monasterium revertitur.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1082">
+               <lb ed="#L" n="25"/>Per hoc etiam patet quod, si propter hoc esset status religiosorum
+<lb ed="#L" n="26"/>perfectior quam praelatorum eo quod vita contemplativa est perfectior quam
+<lb ed="#L" n="27"/>activa, et religiosi magis insistunt contemplativae, praelati magis activae,
+<lb ed="#L" n="28"/>tunc religiosi cum efficerentur episcopi descenderent a statu perfectiori ad
+<lb ed="#L" n="29"/>imperfectiorem. Et hoc fieri deberet ex dispensatione, quia etiam religiosi
+<lb ed="#L" n="30"/>facti praelati ita impediuntur a contemplatione, sicut saeculares facti 
+epis<lb break="no" ed="#L" n="31"/>copi. Et quantum ad id quod pertinet ad vitam contemplativam et activam
+<lb ed="#L" n="32"/>non videntur differre episcopus religiosus et episcopus saecularis, supposito
+<lb ed="#L" n="33"/>quod uterque faciat id quod status episcopalis requirit. Sicut ergo, cum quis
+<lb ed="#L" n="34"/>religiosus assumptus est ad curam episcopalem, dicitur quod est in statu
+<lb ed="#L" n="35"/>perfectiori quam esset prius et quam sunt alii in religione sua remanentes,
+<lb ed="#L" n="36"/>ita debet dici cum assumptus est ad curam parochialem. Si autem arguatur
+<lb ed="#L" n="37"/>contra praedicta quod status religiosorum est perfectior stata quorumcumque
+<pb ed="#L" n="83"/>
+               <lb ed="#L" n="1"/>praelatorum, quia status religiosorum videtur esse status contemplativorum ;
+<lb ed="#L" n="2"/>status autem praelatorum videtur esse status activorum, quia circa opera
+<lb ed="#L" n="3"/>activae principaliter videtur insistere praelatus, secundum quod praelatus;
+<lb ed="#L" n="4"/>sed vita contemplativa est simpliciter perfectior quam activa; ergo et cetera,
+— ad hoc est dicendum, quantum sufficit ad propositum, quod aliquis
+<lb ed="#L" n="5"/>status potest dici sta tus perfectionis dupliciter: uno modo, quia ratione
+<lb ed="#L" n="6"/>suae eminentiae homines iam perfectos requirit et sic quodammodo 
+per<lb break="no" ed="#L" n="7"/>fectionem includit; et hoc modo status praelatorum dicitur status 
+perfec<lb break="no" ed="#L" n="8"/>tionis ; alio modo quia, licet non requirat homines iam perfectos, includit
+<lb ed="#L" n="9"/>tamen instrumenta adiuvantia ad perfectionis assecutionem et exigit homines
+<lb ed="#L" n="10"/>non quidem iam perfectos, sed qui adiutorio talium instrumentorum sic se
+<lb ed="#L" n="11"/>exerceant in operibus virtutum in quibus perfectio per se consistit, quod
+<lb ed="#L" n="12"/>ad perfectionis adeptionem valeant pervenire; et hoc modo status religionis
+<lb ed="#L" n="13"/>dicitur esse status perfectionis. Et quia status ille qui requirit homines sic
+<lb ed="#L" n="14"/>perfectos quod etiam ad ipsos pertinet aliquos ! perficere est perfectior
+<lb ed="#L" n="15"/>quam status ille qui non exigit primo et per se perfectos, sed perficiendos
+<lb ed="#L" n="16"/>et compatitur imperfectos; ideo, ut dictum est, status praelatorum est 
+sim<lb break="no" ed="#L" n="17"/>pliciter perfectior quam status religiosorum. Quia enim quantum ad affectum
+<lb ed="#L" n="18"/>praelatus debet esse perfectior, utpote perfectiorem caritatem habens, quia
+<lb ed="#L" n="19"/>in quantum talis, prae ceteris debet esse promptus et paratus ad 
+exponen<lb break="no" ed="#L" n="20"/>dum se morti pro salute proximorum. Item, quantum ad intellectum et
+<lb ed="#L" n="21"/>speculationem, quia etiam alios habet instruere in spiritualibus et deviantes
+<lb ed="#L" n="22"/>dirigere et errores corrigere et etiam ad ardua in speculatione elevare.
+<lb ed="#L" n="23"/>Ideo status praelatorum est simpliciter perfectior statu religiosorum in
+<lb ed="#L" n="24"/>quantum, ut dictum est, status praelationis requirit hominem multo 
+per<lb break="no" ed="#L" n="25"/>fectiorem quam status religionis.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1169">
+               <lb ed="#L" n="26"/>Sed si consideretur usus et exercitium operationum utriusque status,
+<lb ed="#L" n="27"/>cum opera contemplativae simpliciter sint eminentiora quam activae, status
+<lb ed="#L" n="28"/>autem praelati ut plurimum requirit exercitium ? operationum ? activarum
+<lb ed="#L" n="29"/>propter necessitatem et indigentiam subditorum et ut in paucioribus potest
+<lb ed="#L" n="30"/>manere inexercitio contemplativarum, e converso autem videtur esse
+<lb ed="#L" n="31"/>de statu religiosorum secundum hoc, videtur status religionis esse 
+per<lb break="no" ed="#L" n="32"/>fectior, id est, ad usum et executionem operationum perfectorum  aptior .
+<lb ed="#L" n="33"/>Unde unicuique homini tamquam melius et perfectius simpliciter magis
+<lb ed="#L" n="34"/>est eligendum. simpliciter et absolute esse dignum praelatione sive statu
+<lb ed="#L" n="35"/>praelationis quam statu religionis; sed magis eligenda est facultas exer-
+<pb ed="#L" n="84"/>
+               <lb ed="#L" n="1"/>cendi opera contemplativa religiosi quam activa praelati. Et ideo quia ' in
+<lb ed="#L" n="2"/>statu religionis sic perfectus existens quod etiam dignus esset praelatione,
+<lb ed="#L" n="3"/>ut plurimum potest exercere opera contemplativa et ut in paucioribus
+<lb ed="#L" n="4"/>oportet eum circa activa opera  occupari; e contra autem est in statu 
+prae<lb break="no" ed="#L" n="5"/>lationis; — ideo talis magis debet eligere statum religionis, sive statum talem
+<lb ed="#L" n="6"/>in quo absolutus a curis exterioribus possit magis perfecte et magis continue
+<lb ed="#L" n="7"/>contemplationi vacare, quam statum praelationis, sive statum in quo oportet
+<lb ed="#L" n="8"/>eum ut plurimum sic circa activae opera occupari, quia  raro et modicum
+<lb ed="#L" n="9"/>licet ei vacare quieti contemplationis. Nec talem statum debet eligere 
+sim<lb break="no" ed="#L" n="10"/>pliciter et absolute tamquam meliorem et perfectiorem sibi simpliciter et
+<lb ed="#L" n="11"/>absolute, sed tamquam magis necessarium  ac utiliorem per se aliis, sibi
+<lb ed="#L" n="12"/>autem etiam meliorem et magis meritorium, cum propter talem necessitatem
+<lb ed="#L" n="13"/>vult abstrahi ad tempus ab eo quod secundum se est melius. Et secundum
+<lb ed="#L" n="14"/>hanc considerationem dicit Apostolus ad Philippenses: cupio dissolvi et
+<lb ed="#L" n="15"/>esse cum Christo, multo magis et cetera; et Augustinus, decimo  nono
+<lb ed="#L" n="16"/>de civitate Dei : otium sanctum quaerit caritatis veritas ", negotium sanctum
+<lb ed="#L" n="17"/>suscipit necessitas caritatis, et cetera. Unde status in quo aliquis possit
+<lb ed="#L" n="18"/>libere contemplari debet unicuique esse in electione et desiderio simpliciter
+<lb ed="#L" n="19"/>et semper. Sed status praelationis in quo eum oporteat exterioribus occupari
+<lb ed="#L" n="20"/>debet esse in patientia et in electione in casu necessitatis.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1239">
+               <lb ed="#L" n="21"/>Ad rationem in contrarium est dicendum quod cum, ut dictum est, ad
+<lb ed="#L" n="22"/>perfectionem per se et essentialiter pertineant virtutes et actus earum  de
+<lb ed="#L" n="23"/>quibus dantur praecepta, consimilia vero instrumentaliter et dispositive, non
+<lb ed="#L" n="24"/>sic quidem quod perfectio non possit sine illis haberi, sed sic quod melius
+<lb ed="#L" n="25"/>eorum adiutorio acquiritur et conservatur, ille status ergo est perfectior cuius
+<lb ed="#L" n="26"/>professores, secundum quod huiusmodi, perfectius observant praecepta,
+<lb ed="#L" n="27"/>et in quibus perfectius debent esse virtutes et actus earum. Si ergo sit status
+<lb ed="#L" n="28"/>cuius professores, secundum quod huiusmodi, perfectius debent observare
+<lb ed="#L" n="29"/>mandata, etiam si non obligantur ad consilium, quam alius status cuius inde 
+<lb ed="#L" n="30"/>professores obligantur ad observationem consiliorum, sed non exigit quod
+<lb ed="#L" n="31"/>sint perfecti et quod perfecte observent praecepta, ille est perfectior isto.
+<lb ed="#L" n="32"/>Sic autem est in proposito; quia status praelatorum est sic perfectus quod
+<lb ed="#L" n="33"/>professores eius idoneos exigit esse perfectos in virtutibus et actibus earum,
+<lb ed="#L" n="34"/>licet non obliget eos ad observationem omnium consiliorum. Status autem
+<lb ed="#L" n="35"/>religionis est sic perfectus quod ? inde professores eius non requirit esse
+<lb ed="#L" n="36"/>perfectos, sed obligatos ad observandum consilia ut eorum adiutorio ab eis
+<pb ed="#L" n="85"/>
+               <lb ed="#L" n="1"/>praecepta melius et securius observentur et ! ad perfectionis acquisitionem
+<lb ed="#L" n="2"/>promoveantur. Sed si esset status cuius professores, secundum quod 
+huius<lb break="no" ed="#L" n="3"/>modi, perfectius observarent praecepta simul et consilia, ille esset perfectior
+<lb ed="#L" n="4"/>statu cuius professores obligantur solum ad observandum praecepta 
+sim<lb break="no" ed="#L" n="5"/>pliciter et  absolute secundum quemcumque gradum. Sed non sic se habet
+<lb ed="#L" n="6"/>status religiosus respectu status praelatorum. Immo non invenitur talis
+<lb ed="#L" n="7"/>status cuius professores, secundum quod huiusmodi, teneantur ad perfectam
+<lb ed="#L" n="8"/>observationem praeceptorum simul etiam et consiliorum. Sed verum est
+<lb ed="#L" n="9"/>quod status cuius professores, secundum quod huiusmodi, obligantur ad
+<lb ed="#L" n="10"/>observationem consiliorum ut eorum adiutorio melius et securius serventur
+<lb ed="#L" n="11"/>praecepta modo supradicto, cuiusmodi est status religionis, est perfectior
+<lb ed="#L" n="12"/>statu illo cuius professores obligantur solum ad observationem 
+praecep<lb break="no" ed="#L" n="13"/>torum simpliciter et absolute secundum quemcumque gradum, qualis est
+<lb ed="#L" n="14"/>status hominum communium et saecularium ; et secundum hoc procedit
+<lb ed="#L" n="15"/>obiectio.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1312">
+               <lb ed="#L" n="16"/>Sed adhuc potest argui quod immo status religionis sit perfectus
+<lb ed="#L" n="17"/>sic, quia requirit homines perfectos, quia obligat ab initio professores suos
+<lb ed="#L" n="18"/>ad perfectionem et eos requirit perfectos secundum perfectos actus virtutum
+<lb ed="#L" n="19"/>perfectarum. Cum enim perfectus contemptus bonorum temporalium,
+<lb ed="#L" n="20"/>perfecta continentia et perfecta obedientia sint virtutes perfectae, obligare
+<lb ed="#L" n="21"/>se ad servandam virginitatem quod est perfectissimum in virtute 
+conti<lb break="no" ed="#L" n="22"/>nentiae, et  ad obediendum in omnibus alicui probo viro quod videtur esse
+<lb ed="#L" n="23"/>magnae perfectionis in virtute obedientiae, et abrenunciare  bonis 
+tempo<lb break="no" ed="#L" n="24"/>ralibus, quod pertinet ad paupertatem spiritus et contemptum bonorum
+<lb ed="#L" n="25"/>temporalium perfectum; ista, inquam, ad perfectionem pertinent et videntur
+<lb ed="#L" n="26"/>esse perfecti qui hoc faciunt. Huiusmodi autem sunt religiosi, secundum
+<lb ed="#L" n="27"/>quod huiusmodi, non autem praelati, secundum quod huiusmodi '; ergo
+<lb ed="#L" n="28"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g06081-d1e1343">
+               <lb ed="#L" n="29"/>Ad hoc est dicendum quod verum est quod ista sunt opera perfecta 5,
+<lb ed="#L" n="30"/>sic scilicet continere et sic obedire et cetera. Sed sicut non omnis qui 
+obli<lb break="no" ed="#L" n="31"/>gatus est ad opera virtutum, nec omnis qui facit opera virtutum est virtuosus
+<lb ed="#L" n="32"/>perfecte, sive perfectus in virtute, scilicet existens perfectus secundum
+<lb ed="#L" n="33"/>habitum virtutis secundum quem sit sic dispositus ut talia opera faciat ex
+<lb ed="#L" n="34"/>electione prompte et faciliter ac delectabiliter ; ita in proposito non oportet
+<lb ed="#L" n="35"/>quod in continenti, cum aliquis obligat se ad talia opera perfecta, et illa
+<lb ed="#L" n="36"/>quantum ad substantiam operis exercet, sit perfectus; sed est in statu et in
+<pb ed="#L" n="86"/>
+               <lb ed="#L" n="1"/>via acquirendi perfectionem ex usu et exercitio instrumentorum perfectionis
+<lb ed="#L" n="2"/>et ex frequentia ! actuum perfectorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

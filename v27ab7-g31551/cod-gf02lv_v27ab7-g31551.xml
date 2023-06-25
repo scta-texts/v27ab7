@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="364"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g31551"><!-- v27ab7-q7-q8 -->
+            <head xml:id="v27ab7-g31551-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-g31551-Hd1e101" type="question-title">
+      Utrum esse omnium sempiternorum sive angelorum
+      mensuretur una mensura
+    </head>
+            <p xml:id="v27ab7-g31551-d1e104">
+               <pb ed="#L" n="364"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIII.
+<lb ed="#L" n="2"/>Utrum esse omnium sempiternorum sive angelorum
+<lb ed="#L" n="3"/>mensuretur una mensura.
+</p>
+            <p xml:id="v27ab7-g31551-d1e115">
+               <lb ed="#L" n="4"/>Consequenter ad secundum praedictorum sic proceditur et arguitur quod
+<lb ed="#L" n="5"/>esse omnium aeviternorum mensuretur una mensura, quia esse omnium 
+tem<lb break="no" ed="#L" n="6"/>poralium sive transmutabilium mensuratur una mensura, scilicet uno tempore
+<lb ed="#L" n="7"/>quod est mensura primi transmutabilis, scilicet caeli; ergo esse omnium 
+aevi<lb break="no" ed="#L" n="8"/>ternorum mensuratur una mensura, scilicet aevi quod est mensura primi 
+aevi<lb break="no" ed="#L" n="9"/>terni sive perfectissimi angeli.
+</p>
+            <p xml:id="v27ab7-g31551-d1e131">
+               <lb ed="#L" n="10"/>Contra Tunc mensura esse unius est mensura esse alterius, cum unum
+<lb ed="#L" n="11"/>illorum habet causalitatem super aliud et esse unius ab altero dependet, sicut
+<lb ed="#L" n="12"/>patet in transmutabilibus ; sed esse unius aeviterni non dependet ab alio sive
+<lb ed="#L" n="13"/>ab esse alterius, cum unum super aliud causalitatem non habeat ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g31551-d1e143">
+               <lb ed="#L" n="14"/>Respondeo : circa hoc est considerandum quod, sicut per tempus 
+intelli<lb break="no" ed="#L" n="15"/>gimus mensuram successivam rei cuius esse in successione secundum prius et
+<lb ed="#L" n="16"/>posterius consistit, qualis est motus, ita per aevum intelligimus mensuram
+<lb ed="#L" n="17"/>indivisibilem et totam sine successione simul entem rei cuius esse est totum
+<lb ed="#L" n="18"/>simul, quod tamen est defectibile et potens desinere esse ratione suae 
+potentia<lb break="no" ed="#L" n="19"/>tialitatis qua non est actus purus, sed ab illo ut a causa elliciente et quasi con
+<lb ed="#L" n="20"/>servante in sua entitate omnino dependet ; unde ' aevum est mensura 
+aevi<lb break="no" ed="#L" n="21"/>terni quoad suum modum existendi in simultate quadam defectibili. Tamen,
+<lb ed="#L" n="22"/>sicut aeternitas est mensura Dei quoad suum modum existendi in simultate 
+<lb ed="#L" n="23"/>absque omni defectibilitate et quia hoc est de ratione mensurae quod sit aliquid
+<lb ed="#L" n="24"/>in actu quo aliquid natum est cognosci in modo suae entitatis vel durationis, et
+<lb ed="#L" n="25"/>quia mensura debet habere rationem unitatis et simplicitatis et hoc in tali modo
+<lb ed="#L" n="26"/>perfectionis quod per eam possint omnia mensurata secundum suos gradus in
+<lb ed="#L" n="27"/>esse vel duratione comprehendi, sicut Deus est mensura omnium universalis,
+<lb ed="#L" n="28"/>quia est perfectissimum universaliter quo nihil perfectius esse posset et sic
+<lb ed="#L" n="29"/>ratione suae omnimode et universaliter perfectionis rationem mesurandi omnia
+<lb ed="#L" n="30"/>continet, ita videtur quod id quod debet esse mensura entium in aliquo genere
+<lb ed="#L" n="31"/>determinato debet comprehendere in se virtute perfectiones omnes in illo
+<pb ed="#L" n="365"/>
+               <lb ed="#L" n="1"/>genere possibiles et sic debet esse perfectissimum quod natum est esse in illo
+<lb ed="#L" n="2"/>genere. Unde, si albedo in se non comprehenderet lucem, quae est de ratione
+<lb ed="#L" n="3"/>et perfectione coloris secundum modum perfectissimum qui natus est esse
+<lb ed="#L" n="4"/>in genere colorum, non diceretur mensura colorum.
+</p>
+            <p xml:id="v27ab7-g31551-d1e195">
+               <lb ed="#L" n="5"/>Et, sicut etiam si in rerum natura et in actu non esset albedo, nullus alius
+<lb ed="#L" n="6"/>color esset mensura aliorum, ita etiam videtur quod si esset possibilis 
+simpli<lb break="no" ed="#L" n="7"/>cior, uniformior et perfectior motus quam sit motus primi orbis, nec ipse nec
+<lb ed="#L" n="8"/>tempus quo mensuratur esset mensura aliorum motuum. Et ita etiam videtur
+<lb ed="#L" n="9"/>quod,— cum, secundum quod ab aliquibus dicitur, non sit status in 
+perfectioni<lb break="no" ed="#L" n="10"/>bus substantiarum separatarum propter infinitam distantiam earum ad 
+perfec<lb break="no" ed="#L" n="11"/>tionem divinam infinitam, ita quod, quacumque posita quantumcumque perfecte
+<lb ed="#L" n="12"/>accedente ad assimilationem ' divinae perfectionis, potest esse perfectior et
+<lb ed="#L" n="13"/>sic in infinitum, et nunquam erit aliqua simpliciter " infinita, — non potest
+<lb ed="#L" n="14"/>poni aliqua substantia separata mensura specierum omnium substantiarum
+<lb ed="#L" n="15"/>separatarum. Et sic videtur dicendum quod non sit ponere aliquod unum aevum
+<lb ed="#L" n="16"/>quod possit dici mensura esse omnium aeviternorum. Sed, quamvis secundum
+<lb ed="#L" n="17"/>ista verum esset quod non posset esse aliquid unum quod esset mensura esse
+<lb ed="#L" n="18"/>omnium aeviternorum possibilium, esse hoc tamen non impedit quin possit
+<lb ed="#L" n="19"/>esse aliquid unum mensura omnium existentium. Quia enim non est certum
+<lb ed="#L" n="20"/>utrum posset esse motus simpliciter perfectior primo motu — quia, sicut non
+<lb ed="#L" n="21"/>est certum de statu perfectionum in separatis, ita etiam nec de statu 
+perfectio<lb break="no" ed="#L" n="22"/>num in omnibus corporalibus, quin scilicet Deus posset facere vel fecisse 
+mun<lb break="no" ed="#L" n="23"/>dum perfectiora corpora continentem, — quia tamen supponendum est quod
+<lb ed="#L" n="24"/>universum quod nunc est Deus modo convenientiori et perfectiori instituit qui
+<lb ed="#L" n="25"/>sibi secundum cursum communem competere potest, ideo quicquid sit de hoc
+<lb ed="#L" n="26"/>utrum possibilis sit aliquis motus perfectior in hoc mundo motu primi orbis,
+<lb ed="#L" n="27"/>etiam rebus quae nunc sunt remanentibus, quantum est de potentia Dei 
+abso<lb break="no" ed="#L" n="28"/>luta, quia tamen supponitur quod secundum cursum convenientem a Deo huic
+<lb ed="#L" n="29"/>mundo praestitutum non est perfectior, dicitur quod motus primi mobilis et
+<lb ed="#L" n="30"/>tempus ? quod est mensura eius est mensura omnium motuum aliorum. Unde
+<lb ed="#L" n="31"/>ita etiam potest convenienter dici circa angelos sive substantias separatas ; et
+<lb ed="#L" n="32"/>ideo illo dicto non obstante adhuc videtur quod, sicut ponitur una mensura
+<lb ed="#L" n="33"/>omnium temporalium quae tempus dicitur, ita poterit poni una mensura quae
+<lb ed="#L" n="34"/>aevum dicitur omnium aeviternorum.
+</p>
+            <p xml:id="v27ab7-g31551-d1e263">
+               <lb ed="#L" n="35"/>Sed videtur aliud obstare, scilicet quod motus primi mobilis habet 
+causali<lb break="no" ed="#L" n="36"/>tatem super omnes alios motus qui in suo esse ab illo dependent; non sic
+<lb ed="#L" n="37"/>autem esse unius aeviterni habet causalitatem super esse alterius./'Sed hoc
+<lb ed="#L" n="38"/>non videtur impedire, quia non debet intelligi causalitas dicta in genere causae
+<lb ed="#L" n="39"/>efficientis proprie dictae solum ; nam sufficit quod illud quod debet esse men-
+<pb ed="#L" n="366"/>
+               <lb ed="#L" n="1"/>sura aliorum sit quid simplicius et perfectius sive actualius, ita quod virtute
+<lb ed="#L" n="2"/>contineat quasi unite quicquid alia continent secundum diversos gradus et
+<lb ed="#L" n="3"/>divisim, ut patet in albedine respectu omnium colorum et tamen non habet
+<lb ed="#L" n="4"/>causalitatem super illos dicto modo.
+</p>
+            <p xml:id="v27ab7-g31551-d1e287">
+               <lb ed="#L" n="5"/>Nec videtur valere quod dicitur respondendo ad hanc instantiam de 
+albe<lb break="no" ed="#L" n="6"/>dine, sic scilicet ' quod ratio causalitatis secundum genus causae eflicientis per
+<lb ed="#L" n="7"/>se facit ad hoc quod mensura alicuius possit esse mensura aliorum quantum
+<lb ed="#L" n="8"/>ad durationem ; sic autem non est albedo mensura aliorum colorum, sed 
+dici<lb break="no" ed="#L" n="9"/>tur mensura cognitionis entitatis et veritatis corum. Haec, inquam, responsio
+<lb ed="#L" n="10"/>non valet ; quia, si esse albedinis et aliorum colorum consisteret in quodam fieri
+<lb ed="#L" n="11"/>et successione et haberet illud esse in fieri vel successione colorum esse in
+<lb ed="#L" n="12"/>subiecto secundum modum et condicionem naturae et perfectionis ipsorum,
+<lb ed="#L" n="13"/>quomodocumque agens vel subiectum se haberet, sicut illud naturae et 
+essen<lb break="no" ed="#L" n="14"/>tiae quod esset in albedine esset mensura aliorum colorum quantum ad 
+cogni<lb break="no" ed="#L" n="15"/>tionem entitatis et veritatis eorum, ita etiam illud quod esset mensura fieri  et
+<lb ed="#L" n="16"/>durationis illius albedinis esset mensura durationis aliorum. Sicut ergo ex
+<lb ed="#L" n="17"/>acceptione et numeratione prioris et posterioris in primo motu et simplicissimo
+<lb ed="#L" n="18"/>in quo videtur consistere ratio temporis quod dicitur numerus prioris et 
+poste<lb break="no" ed="#L" n="19"/>rioris, in primo motu contingit secundum quandam attributionem et 
+applica<lb break="no" ed="#L" n="20"/>tionem aliorum motuum accipi in eis prius et posterius et illa prius et posterius
+<lb ed="#L" n="21"/>numerare et mensurare per naturam prioris et posterioris in primo motu ; ita
+<lb ed="#L" n="22"/>in proposito videtur. Sicut etiam mensura alicuius motus et durationis eius non
+<lb ed="#L" n="23"/>differunt secundum rem et essentiam sicut motus et fieri , motus sive duratio
+<lb ed="#L" n="24"/>motus in suo esse quod est fieri quoddam non differunt, ita etiam mensura esse
+<lb ed="#L" n="25"/>angeli et durationis eius in illo suo esse realiter non differunt ^; et ideo illud
+<lb ed="#L" n="26"/>quod est mensura esse illius est etiam mensura durationis eius. Cum igitur ordo
+<lb ed="#L" n="27"/>sit in angelis, sicut natura et esse primi potest aliquo modo esse mensura 
+alio<lb break="no" ed="#L" n="28"/>rum, ita etiam illud quod est mensura quasi intrinseca esse primi angeli,
+<lb ed="#L" n="29"/>potest etiam esse mensura quasi extrinseca esse ' omnium aliorum ; et sic potest
+<lb ed="#L" n="30"/>dici quod unum aevum est mensura omnium aeviternorum. Cum enim aevum
+<lb ed="#L" n="31"/>realiter non differat ab esse quantum ad illud quod ei convenit de realitate
+<lb ed="#L" n="32"/>extra, si esse unius est mensura alterius, aevum unius est. mensurans esse 
+alte<lb break="no" ed="#L" n="33"/>rius. Nunc autem non videtur posse negari quin natura unius aeviterni ratione
+<lb ed="#L" n="34"/>suae perfectionis sit mensura alterius minus perfecti. Sed, si quodlibet habeat
+<lb ed="#L" n="35"/>proprium aevum, cum unum etiam sit perfectius altero, aevum unius angeli erit
+<lb ed="#L" n="36"/>mensura aevorum aliorum angelorum.
+</p>
+            <p xml:id="v27ab7-g31551-d1e359">
+               <lb ed="#L" n="37"/>Quod concedunt aliqui, negantes tamen quod unum aevum sit mensura
+<lb ed="#L" n="38"/>esse alicuius alterius angeli propter defectum causalitatis. Et, quia secundum
+<pb ed="#L" n="367"/>
+               <lb ed="#L" n="1"/>aliam rationem mensurandi mensurat unum aevum ', aliud. scilicet secundum
+<lb ed="#L" n="2"/>rationem veritatis, entitatis et perfectionis eius, aevum autem mensurat angelum
+<lb ed="#L" n="3"/>sive esse eius secundum rationem durationis eius et alia est ratio mensurandi
+<lb ed="#L" n="4"/>sic et sic, ideo dicitur quod, licet unum aevum mensuret aliud per se, non
+<lb ed="#L" n="5"/>tamen sequitur etiam quod per accidens aevum mesurans aliud aevum mensuret
+<lb ed="#L" n="6"/>aeviternum mensuratum ab aevo mensurato. Sed hoc videtur inconveniens
+<lb ed="#L" n="7"/>quantum ad utrumque, quia, ut ostendam, unum aevum non potest mensurare
+<lb ed="#L" n="8"/>aliud ; et si natura unius angeli sit mensura respectu alterius, patebit, ut 
+osten<lb break="no" ed="#L" n="9"/>dam, quod mensura esse vel durationis unius sit mensura esse vel durationis
+<lb ed="#L" n="10"/>alterius. Et haec patent, quia mensura non est proprie mensura mensurae, sicut
+<lb ed="#L" n="11"/>numerus unus non est mensura numerans alium numerum. Similiter etiam
+<lb ed="#L" n="12"/>tempus unum non potest dici mensura alterius temporis. Sicut ergo per se
+<lb ed="#L" n="13"/>loquendo tempus non potest esse mensura nisi motus mobilis, ita nec aevum
+<lb ed="#L" n="14"/>potest esse mensura nisi esse ipsius aeviterni. Dicere enim quod tempus sit
+<lb ed="#L" n="15"/>mensura temporis est dicere quod idem sit mensura sui ipsius ; unde dicere
+<lb ed="#L" n="16"/>quod numerus prioris et posterioris in uno motu quod est tempus sit mensura
+<lb ed="#L" n="17"/>non prioris et posterioris, sed numeri prioris et posterioris in alio motu quod
+<lb ed="#L" n="18"/>est etiam tempus, hoc est dicere quod numerus numerat numerum ; numerus
+<lb ed="#L" n="19"/>enim non mensurat nisi numerando. Ponatur ergo quod numerus prioris et
+<lb ed="#L" n="20"/>posterioris in motu caeli accipiatur secundum distantiam a prima usque ad
+<lb ed="#L" n="21"/>tertiam ; item, numerus prioris et posterioris alterius motus proportionatus isti
+<lb ed="#L" n="22"/>accipiatur etian: secundum distantiam a prima ad tertiam ; ergo distantia a
+<lb ed="#L" n="23"/>prima ad tertiam est mensura distantiae a prima ad tertiam, quod est 
+inconve<lb break="no" ed="#L" n="24"/>niens ; nihil ergo est dictum quod tempus mensuret tempus. Quia ergo tempus
+<lb ed="#L" n="25"/>non est nisi prius et posterius numerata in motu sive numerus prioris et 
+poste<lb break="no" ed="#L" n="26"/>rioris in motu, si ergo numerus prioris et posterioris in motu uno est 
+men<lb break="no" ed="#L" n="27"/>sura prioris et posterioris numeratorum in aliquo alio motu, hoc non est aliud
+<lb ed="#L" n="28"/>quam tempus quod est primo et per se mensura intrinseca unius. Motus est ex
+<lb ed="#L" n="29"/>consequenti mensura extrinseca cuiuslibet alterius motus cuius quantum ad
+<lb ed="#L" n="30"/>suum prius et posterius primus motus per suum prius et posterius potest esse
+<lb ed="#L" n="31"/>mensura. lta etiam in aevo debet adaptari quod nihil est dictum quod aevum
+<lb ed="#L" n="32"/>sit mensura alterius aevi et non alterius aeviterni. Verum est tamen quod 
+men<lb break="no" ed="#L" n="33"/>sura magis unigenea aliquo modo esset aevum primi angeli esse aliorum 
+ange<lb break="no" ed="#L" n="34"/>lorum si esse unius causalitatem haberet super alterum, quia haberet 
+causali<lb break="no" ed="#L" n="35"/>tatem secundum duplex genus causae, scilicet efficientis et formalis. Prima
+<lb ed="#L" n="36"/>tamen ratio sufficit ad rationem mensurae simpliciter qua ponitur ordo 
+essen<lb break="no" ed="#L" n="37"/>tialis inter ipsa secundum genus causae formalis propter diversos gradus 
+per<lb break="no" ed="#L" n="38"/>fectionum et ex hoc etiam quodammodo diversus ordo ipsorum ad unam causam
+<lb ed="#L" n="39"/>omnium effectivam.
+</p>
+            <p xml:id="v27ab7-g31551-d1e453">
+               <pb ed="#L" n="368"/>
+               <lb ed="#L" n="1"/>Et per hoc patet responsio ad argumentum in contrarium ; quia, licet
+<lb ed="#L" n="2"/>tempus non esset mensura omnium motuum nisi haberet rationem causalitatis
+<lb ed="#L" n="3"/>effectivae super eos, non tamen ponitur habere rationem mensurandi praecise
+<lb ed="#L" n="4"/>ex ratione causae efficientis, sed potius ex ratione causae formalis quam ratione
+<lb ed="#L" n="5"/>ordinis corporalium et dependentiae eorum ab invicem consequitur etiam
+<lb ed="#L" n="6"/>ratio causalitatis effectivae. Ouod non contingit in angelis secundum genus
+<lb ed="#L" n="7"/>causae efficientis propter separationem eorum a materia; propter quod non
+<lb ed="#L" n="8"/>potest aliquid habere causalitatem secundum genus causae efficientis super eos
+<lb ed="#L" n="9"/>nisi quod in sua actione materiam non praesupponit, scilicet Deus omnipotens.
+<lb ed="#L" n="10"/>Sed in eis reservatur id quod per se requiritur generaliter ad rationem 
+men<lb break="no" ed="#L" n="11"/>surae, scilicet ordo in ratione causae formalis et perfectionis et cetera. Cum
+<lb ed="#L" n="12"/>enim de ratione mensurae sit ut sit principium cognoscendi mensuratum, 
+prin<lb break="no" ed="#L" n="13"/>cipium autem cognoscendi est actus et forma, ideo mensura ; unde mensura
+<lb ed="#L" n="14"/>non importat rationem causae efficientis sed formalis tantum, licet coexigatur in
+<lb ed="#L" n="15"/>aliquibus etiam ratio causae efficientis ' ; et ideo, licet motus primus cuius 
+men<lb break="no" ed="#L" n="16"/>sura est tempus sit causa efficiens respectu aliorum motuum, ex hoc per se non
+<lb ed="#L" n="17"/>habet rationem mensurae respectu aliorum, nec ex hoc per se est quod tempus
+<lb ed="#L" n="18"/>quo primo mensuratur primus motus sit mensura aliorum motuum. Immo ex
+<lb ed="#L" n="19"/>hoc quod est quid simplicius, perfectius, uniformius et actualius, sicut patet per
+<lb ed="#L" n="20"/>Philosophum, sicut si ea quae mensurantur numero aliquo discreto essent sic
+<lb ed="#L" n="21"/>ordinata quod unum esset quid perfectius et actualius et simplicius respectu
+<lb ed="#L" n="22"/>aliorum et essent inter ipsa gradus essentiales secundum perfectiones et 
+actua<lb break="no" ed="#L" n="23"/>litates, numerus esset primo et per se mensura primi et perfectius numerabilis
+<lb ed="#L" n="24"/>et per illud omnium aliorum numerabilium. Nunc autem non est ita; nam in
+<lb ed="#L" n="25"/>esse numerabiliomnia numerabili aequaliter se habent ; nam, licet homo
+<lb ed="#L" n="26"/>sit ens nobilius asino, non tamen in ratione numerabilis, quia numeratur 
+secun<lb break="no" ed="#L" n="27"/>dum divisionem quantitatis quae eiusdem rationis est in homine et equo. Et
+<lb ed="#L" n="28"/>ideo unus est numerus secundum rationem abstractam qui non est passio 
+ali<lb break="no" ed="#L" n="29"/>quorum numerorum determinate, sed per indifferentiam se habens ad omnia
+<lb ed="#L" n="30"/>numerata. Sed, quia in motibus est aliquid unum perfectius et simplicius, ideo
+<lb ed="#L" n="31"/>cum prius et posterius numerentur in omnibus motibus, numerus ille erit unus
+<lb ed="#L" n="32"/>et erit quasi passio primi motus et illo omnes alii numerabuntur. Unde 
+simi<lb break="no" ed="#L" n="33"/>liter in aeviternis; quia est ordo inter ea secundum gradus et perfectionum
+<lb ed="#L" n="34"/>essentialium et quodlibet eorum mensuratur aevo secundum suum proprium
+<lb ed="#L" n="35"/>esse, necesse est quod, uno aevo mensurante aeviternum simplicissimum et 
+per<lb break="no" ed="#L" n="36"/>fectissimum, mensurentur omnia aeviterna, quia in esse aeviterno non 
+aequali<lb break="no" ed="#L" n="37"/>ter se habent, sed gradatim secundum ordinem essentiarum in ipsis aeviternis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

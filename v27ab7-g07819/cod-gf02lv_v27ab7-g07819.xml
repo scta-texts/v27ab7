@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g07819"><!-- v27ab7-q5-q20 -->
+            <head xml:id="v27ab7-g07819-Hd1e99">Quaestio 20</head>
+            <head xml:id="v27ab7-g07819-Hd1e101" type="question-title">
+      Utrum posito tali casu quod maritus moriatur tantis debitis obligatus quod sint
+      obligata dotalia et relinquat sola dotalia, uxor et filii tenentur tale debitum restituere
+    </head>
+            <p xml:id="v27ab7-g07819-d1e104">
+               <lb ed="#L" n="23"/>QUAESTIO XX.
+<lb ed="#L" n="24"/>Utrum posito tali casu quod maritus moriatur tantis debitis obligatus quod sint
+<lb ed="#L" n="25"/>obligata dotalia et relinquat sola dotalia, uxor et filii tenentur tale debitum restituere.
+</p>
+            <p xml:id="v27ab7-g07819-d1e113">
+               <lb ed="#L" n="26"/>Deinde circa laicos quaerebatur unum pertinens ad debiti restitutionem : scilicet,
+<lb ed="#L" n="27"/>posito tali casu quod maritus alicuius mulieris moriatur tantis debitis obligatus quod pro
+<lb ed="#L" n="28"/>debitis suis sint obligata dotalia sive ea quae proveniunt ex parte mulieris ipso vivente,
+<lb ed="#L" n="29"/>et relinquat sola dotalia uxoris uxori  suae et filiis, utrum, inquam, hoc posito, tam uxor
+<lb ed="#L" n="30"/>quam filii post decessum viri tenentur tale debitum restituere.
+</p>
+            <p xml:id="v27ab7-g07819-d1e126">
+               <lb ed="#L" n="31"/>Et arguebatur quod sic. Quia res transit cum suo honore. Ergo cum bona quae 
+ali<lb break="no" ed="#L" n="32"/>quando fuerunt talis viri ut domini principalis, ipso moriente, transeant ad filium et
+<lb ed="#L" n="33"/>uxorem, quae, ratione viri, dum vir viveret, erant obligata ad dictam satisfactionem,
+<lb ed="#L" n="34"/>videtur quod remaneant ad hoc idem obligata cum possidentur a filio vel uxore.
+</p>
+            <p xml:id="v27ab7-g07819-d1e138">
+               <lb ed="#L" n="35"/>Contra : nullus tenetur satisfacere pro alio a quo non habet aliquid de bonis illius.
+<lb ed="#L" n="36"/>Sed ita est in proposito, ut videtur; quia pater non habuit ius et dominium in bonis illis,
+<lb ed="#L" n="37"/>nisi ratione matrimonii. Ergo solum stante matrimonio bona eius fuerunt et, soluto 
+matri<lb break="no" ed="#L" n="38"/>monio per mortem in illis nullum ius sibi competit; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g07819-d1e149">
+               <lb ed="#L" n="39"/>Respondeo dicendum quod secundum iura maritus sic est dominus rerum dotalium,
+<pb ed="#L" n="91"/>
+               <lb ed="#L" n="1"/>id est rerum quae ex parte uxoris proveniunt !, quod ipso dominio realiter et radicaliter
+<lb ed="#L" n="2"/>apud uxorem remanente, ipse est dispensator et gubernator earum sic quod ex ipsis et
+<lb ed="#L" n="3"/>fructibus earum debet onera matrimonii sustinere, nec de ipsa substantia dotis debet
+<lb ed="#L" n="4"/>aliquod diminuere nisi de voluntate mulieris hoc procedat; et super hoc interposito
+<lb ed="#L" n="5"/>sacramento ad hoc quod si talia alienata fuerint, non possunt repeti per ipsam mulierem ;
+<lb ed="#L" n="6"/>et ideo etiam constante matrimonio, uxor contra maritum vergentem ad inopiam, pro sua
+<lb ed="#L" n="7"/>dote salvanda potest agere efficaciter. Ex quo patet quod de iure non est convenienda
+<lb ed="#L" n="8"/>uxor super solutione debitorum mariti nec ea solvere tenetur, nisi ei in bonis successerit;
+<lb ed="#L" n="9"/>et tunc etiam si inventarium secundum formam iuris fecerit, non tenetur nisi ad tantum
+<lb ed="#L" n="10"/>quantum de bonis mariti habuerit". Similiter etiam filius ratione patris non debet 
+con<lb break="no" ed="#L" n="11"/>veniri nec eius debita solvere nisi ef successerit. Secundum enim iura scripta et secundum
+<lb ed="#L" n="12"/>aequitatem iuris naturalis nemo ex contractu alterius obligatur cum de bonis eius ad
+<lb ed="#L" n="13"/>ipsum nihil pervenerit. Sed fil ius quantum ad bona quae ad ipsum ex parte patris 
+pro<lb break="no" ed="#L" n="14"/>veniunt? est quasi eadem persona cum patre et tenetur de illis satisfacere loco patris.
+<lb ed="#L" n="15"/>Cum ergo in casu proposito pater nullum ius habuerit in dictis bonis nisi ratione 
+matri<lb break="no" ed="#L" n="16"/>monii et durante matrimonio et illud fuit etiam multum limitatum, ipso mortuo, perit illud
+<lb ed="#L" n="17"/>ius; et illud naturale dominium quod habebat uxor, etiam vivente marito, licet non usum
+<lb ed="#L" n="18"/>vel exercitium, redit ad ipsam cum effectu plenario, et omnino liberam habet de illis
+<lb ed="#L" n="19"/>dispositionem, nisi pro quanto filius ius haereditarium in illis bonis habet in quantum
+<lb ed="#L" n="20"/>succedere habet matri in illis quae, quia non perveniunt ad ipsum ratione patris, ideo
+<lb ed="#L" n="21"/>ex iliis non tenetur satisfacere pro debitis patris. Immo, esto quod forte secundum
+<lb ed="#L" n="22"/>aliquam consuetudinem maritus habuit tale ius in illis, matrimonio existente, quod de
+<lb ed="#L" n="23"/>ipsis potuisset satisfacere, si voluisset, nec uxor contradicere potuisset, tamen si non
+<lb ed="#L" n="24"/>satisfecit, soluto matrimonio, perit illud ius et revertitur res ad naturam pristinam, prout
+'est consonum iuri naturali et iuri communi scripto. Sed quia diversarum provinciarum
+<lb ed="#L" n="25"/>diversae sunt consuetudines quae iuribus aequipollent, esset super hoc ad consuetudinem
+<lb ed="#L" n="26"/>plenius recurrendum, si tamen sit consuetudo rationabilis, non corruptela.
+</p>
+            <p xml:id="v27ab7-g07819-d1e212">
+               <lb ed="#L" n="27"/>Per praedicta patet responsio ad obiecta.
+</p>
+            <p xml:id="v27ab7-g07819-d1e217">
+               <lb ed="#L" n="28"/>Explicit quintum ? quodlibet magistri Godefridi de Fontibus. Incipit sextum 
+quod<lb break="no" ed="#L" n="29"/>libet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

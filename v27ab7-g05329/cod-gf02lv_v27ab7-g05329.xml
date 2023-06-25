@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="63"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g05329"><!-- v27ab7-q5-q14 -->
+            <head xml:id="v27ab7-g05329-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-g05329-Hd1e101" type="question-title">
+      Utrum licitum sit emere redditus ad vitam et recipere de redditibus emptis ultra sortem
+    </head>
+            <p xml:id="v27ab7-g05329-d1e104">
+               <lb ed="#L" n="28"/>QUAESTIO XIV.
+<lb ed="#L" n="29"/>Utrum licitum sit emere redditus ad vitam et recipere de redditibus
+<lb ed="#L" n="30"/>emptis ultra sortem.
+</p>
+            <p xml:id="v27ab7-g05329-d1e113">
+               <lb ed="#L" n="31"/>Postea arguebatur ad secundum praedictorum et ostendebatur quod non sit 
+lici<lb break="no" ed="#L" n="32"/>tum emere redditus ad vitam, quia in contractu emptionis debet esse aequalitas inter
+<lb ed="#L" n="33"/>ementem et vendentem, sive inter rem quam dat emens et rem quam accipit a vendente.
+<lb ed="#L" n="34"/>Sed in isto contractu emens dat minus ut plus recipiat, quia sperat rem quam emit
+<lb ed="#L" n="35"/>esse plus valituram quam rem quam ipse dat; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g05329-d1e126">
+               <lb ed="#L" n="36"/>Contrarium arguitur per contrarium, quia ille contractus videtur licitus in quo
+<lb ed="#L" n="37"/>constituitur aequalitas inter ementem et vendentem. Sed ita contingit in proposito: nam
+<lb ed="#L" n="38"/>aequaliter est dubium ex parte vendentis et ementis de plus vel minus recipiendo ; ergo
+<lb ed="#L" n="39"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g05329-d1e138">
+               <pb ed="#L" n="64"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod, si contractus qui fit in emptione reddituum ad vitam sit
+<lb ed="#L" n="2"/>contractus mutui, est illicitus; nam huiusmodi ' contractus, scilicet mutui, de natura sua
+<lb ed="#L" n="3"/>debet esse contractus omnino gratuitus sine spe amplius percipiendi in quacumque re.
+<lb ed="#L" n="4"/>Omnis enim superabundantia ? quae ex mutuo ratione mutui procedit est iniqua, quia
+<lb ed="#L" n="5"/>et liberalitatem et iustitiam corrumpit. [Item hoc significat ratio nominis, quia tunc vere
+<lb ed="#L" n="6"/>possum ? dicere: ego tibi mutuo cum meum tuum facio, licet non simpliciter sicut
+<lb ed="#L" n="7"/>in donatione absoluta, quia recipiens mutuum, licet non teneatur reddere illud idem
+<lb ed="#L" n="8"/>quod recipit, tenetur tamen ad aequivalens. Si autem sit contractus emptionis et 
+vendi<lb break="no" ed="#L" n="9"/>tionis, et fiatrationalis adaequatio inter rem emptam et pretium datum, est licitus
+<lb ed="#L" n="10"/>contractus.
+</p>
+            <p xml:id="v27ab7-g05329-d1e164">
+               <lb ed="#L" n="11"/>Sed ex duobus, videtur quod contractus de quo loquimur non sit contractus 
+emptio<lb break="no" ed="#L" n="12"/>nis et venditionis, tum quia non videtur fieri commutatio rei ad rem, tum quia non
+<lb ed="#L" n="13"/>videtur posse fieri conveniens adaequatio. Primum videtur per hoc quod pretium  rei
+<lb ed="#L" n="14"/>emptae potest esse pecunia; extremum autem emptionis sive res empta non videtur
+<lb ed="#L" n="15"/>posse esse pecunia. Cum ergo aliquis dat certam summam pecuniae, puta centum libras,
+<lb ed="#L" n="16"/>ut certam summam pecuniae recipiat cuius aggregatio tandem excedet summam datam
+<lb ed="#L" n="17"/>et sub hac spe dat, non videtur aliquid emere sed videtur certam summam mutuo dare
+<lb ed="#L" n="18"/>et sibi obligare recipientem ad reddendum tantumdem et amplius sub conditione, si
+<lb ed="#L" n="19"/>scilicet tamdiu vixerit. Cum ergo pecunia non sit instituta ut res vendibilis sed ut 
+pre<lb break="no" ed="#L" n="20"/>tium rei vendibilis, videtur quod talis contractus non sit contractus emptionis. Non enim
+<lb ed="#L" n="21"/>videtur referre quod nunc dentur centum librae sub hoc pacto quod in anno 
+quinto<lb break="no" ed="#L" n="22"/>decimo, etiam sub conditione, si mutuans tantum vixerit, restituantur centum et librae ,
+<lb ed="#L" n="23"/>quod esset manifesta usura, et quod per partes scilicet singulis annis decem librae
+<lb ed="#L" n="24"/>restituantur ita quod tandem in quintodecimo anno receptae sint centum librae et ultra
+<lb ed="#L" n="25"/>hoc quinquaginta sint acceptae. Et quod dictum est de pecunia sic ? tradita per modum
+<lb ed="#L" n="26"/>mutui ut sic centum librae annuatim recipiantur, intelligendum  etiamsi aliquid aliud
+<lb ed="#L" n="27"/>detur vel recipiatur, puta decem modii bladi vel huiusmodi quod pecunia aestimari
+<lb ed="#L" n="28"/>potest; quia in hoc contractu nihil emitur, quia iste qui pecuniam recipit nullam rem
+<lb ed="#L" n="29"/>videtur transferre in eum qui dat, sed solum videtur se illi obligare ad restituendum
+<lb ed="#L" n="30"/>dictam pecuniam et ultra, vel in pecunia vel in re alia. Quod etiam non possit fieri 
+con<lb break="no" ed="#L" n="31"/>veniens adaequatio hoc videtur quia cum venditur aliquid ad vitam alicuius unde et
+<lb ed="#L" n="32"/>redditus ad vitam dicitur, videtur quod debeat fieri adaequatio secundum modum
+<lb ed="#L" n="33"/>et conditionem ipsius ementis in comparatione ad eius vitam ; nam cum plus recipit
+<lb ed="#L" n="34"/>qui plus vivit, plus debet dare pro re aliqua diutius vivens quam minus vivens sed si
+<lb ed="#L" n="35"/>licitus est huiusmodi contrac|tus, ab eo non excluditur aliqua aetas. Ponatur ergo
+<lb ed="#L" n="36"/>quod simul velint emere redditus decem librarum ab aliquo monasterio iuvenis viginti
+<lb ed="#L" n="37"/>annorum et senex sexaginta annorum qui sint consimilis conditionis secundum suas
+<lb ed="#L" n="38"/>complexiones et aetates ad attingendum terminum communem vitae humanae, utpote
+<lb ed="#L" n="39"/>causa exempli, aetatem septuaginta annorum et videatur quantum est rationale quod
+<lb ed="#L" n="40"/>senex det pro huiusmodi redditu. Si det sexaginta libras, cum tantumdem recepturus
+<lb ed="#L" n="41"/>sit infra sex annos et probabiliter aestimatur quod vivere debeat  per decem et amplius,
+<lb ed="#L" n="42"/>licet non sit omnino certum, videtur quod habeat satis bonum forum, modo videatur
+<lb ed="#L" n="43"/>quantum debet dare praedictus iuvenis, Non enim videtur rationale quod tam parum
+<pb ed="#L" n="65"/>
+               <lb ed="#L" n="1"/>det Ergo si debet aliquantulum plus dare, videtur quod debeat dare ? secundum 
+pro<lb break="no" ed="#L" n="2"/>portionem ad terminum praedictum vitae ad quem probabile est ipsum attingere sicut
+<lb ed="#L" n="3"/>praedictum senem. Ergo cum ille det sexaginta pro decem libris recipiendis usque ad
+<lb ed="#L" n="4"/>decem annos, scilicet usque ad septuagesimum annum vel amplius, iste debet dare
+<lb ed="#L" n="5"/>trecentas libras pro decem recipiendis usque ad quinquaginta annos. Vel si dicatur
+<lb ed="#L" n="6"/>quod probabilius est quod iste poterit ex diversis causis mori infra quinquaginta annos
+<lb ed="#L" n="7"/>quam ille infra decem, deviatur ergo aliquid, et non videtur quod tantum possit 
+rationa<lb break="no" ed="#L" n="8"/>biliter deponi si aliquo modo debet servari proportio ad aetatem quin iuvenis debeat
+<lb ed="#L" n="9"/>multo plus dare pro decem libris annui redditus quam daret pro praediis immobilibus
+<lb ed="#L" n="10"/>valentibus haereditarie plus quam decem libras. Sed fatuum esset dare tantum vel plus
+<lb ed="#L" n="11"/>pro redditibus minoribus ad vitam quantum pro maioribus redditibus haereditariis.
+<lb ed="#L" n="12"/>Ergo talis contractus videtur irrationabilis et sic illicitus.
+</p>
+            <p xml:id="v27ab7-g05329-d1e266">
+               <lb ed="#L" n="13"/>Sed quia per rationes praedictas videtur ? concludi quod non liceret  emere usum
+<lb ed="#L" n="14"/>fructuum, nec liceret emere redditus haereditarios sub certa summa pecuniae vel bladi
+<lb ed="#L" n="15"/>vel huiusmodi absque hoc quod emeretur aliqua res corporalis vel sensibilis, puta:
+<lb ed="#L" n="16"/>fundus aliquis, quod est contra communem usum ubique terrarum ; ideo non audeo
+<lb ed="#L" n="17"/>iudicare illicitos contractus praedictos. Et ideo ad ostendendum quomodo possit esse
+<lb ed="#L" n="18"/>licitus dictus contractus, declarandum est quomodo est ibi vere contractus emptionis
+<lb ed="#L" n="19"/>et quomodo potest ibi fieri vere conveniens adaequatio.
+</p>
+            <p xml:id="v27ab7-g05329-d1e284">
+               <lb ed="#L" n="20"/>Primum declaro sic, quia omnis res vendibilis est cuius alienatio non est inhibita
+<lb ed="#L" n="21"/>iure naturali, vel divino vel positivo. Rerum autem, secundum iura, quaedam sunt 
+cor<lb break="no" ed="#L" n="22"/>porales quaedam incorporales; et tam hae quam illae vendi possunt. De corporalibus
+<lb ed="#L" n="23"/>manifestum est. Nam potest vendi domus, praedium, equus et huiusmodi, quae sunt res
+<lb ed="#L" n="24"/>sensibiles et corporales. Similiter etiam  ius haereditarium et ius agendi et servitutes,
+<lb ed="#L" n="25"/>tam personales quam reales. Et secundum iura aliud est haereditas, aliud res 
+haeredi<lb break="no" ed="#L" n="26"/>taria. Nam haereditas ius est ad quod consequitur res alia ^; et sic est quid incorporale,
+<lb ed="#L" n="27"/>Aliud est ius agendi, et aliud res ad quam competit actio. Ergo videtur quod possit
+<lb ed="#L" n="28"/>dici in proposito quod redditus ad vitam, sive in pecunia, sive in quacumque re alia,
+<lb ed="#L" n="29"/>sit ius quoddam percipiendi pecuniam vel talem rem; et est quid incorporale aliud ab
+<lb ed="#L" n="30"/>ipsa re corporali. Quamvis ergo pecunia secundum se non sit emibilis, tamen  ius 
+per<lb break="no" ed="#L" n="31"/>cipiendi pecuniam vendi potest; sic etiam ius agendi ad certam pecuniae quantitatem
+<lb ed="#L" n="32"/>potest vendi. Quamvis enim ius agendi ad certam quantitatem pecuniae non ematur nisi
+<lb ed="#L" n="33"/>propter ipsam pecuniam, tamen quia non est ipsa pecunia formaliter, licet in virtute,
+<lb ed="#L" n="34"/>ideo emi potest. Ita etiam  in proposito; licet ius non quaeratur nisi propter ipsam
+<lb ed="#L" n="35"/>pecuniam, quia tamen est aliquid aliud  a pecunia emi potest; cum quo tamen transit 
+<lb ed="#L" n="36"/>pecunia recipienda. Et est ulterius intelligendum quod in huiusmodi contractu non differt
+<lb ed="#L" n="37"/>emere redditum ad vitam in pecunia vel in quacumque re alia ; quia redditus in pecunia
+<lb ed="#L" n="38"/>et in aliis rebus mobilibus non videntur differre specie vel essentialiter et formaliter,
+<lb ed="#L" n="39"/>sed solum materialiter. Nam, cum ex tritico '? vel ex alia re statim possit haberi pecunia,
+<lb ed="#L" n="40"/>non differt redditus in uno et in !! alio. Sicut ergo, cum emitur redditus in tritico, non
+<lb ed="#L" n="41"/>dicitur emi triticum secundum suam substantiam, quia non est in rerum natura ; sed emitur
+<lb ed="#L" n="42"/>ius percipiendi triticum. lta etiam cum emitur redditus in pecunia, non emitur ipsa
+<pb ed="#L" n="66"/>
+               <lb ed="#L" n="1"/>pecunia, sed ius recipiendi ipsam. Verum est tamen quod emitur pecunia aliquo modo
+<lb ed="#L" n="2"/>in virtute. Nec hoc est illicitum ; quia, cum emitur ius percipiendi triticum vel cum emitur
+<lb ed="#L" n="3"/>fundus terrae, cum ex his statim possit haberi pecunia ', etiam emitur pecunia virtute.
+<lb ed="#L" n="4"/>Quia enim omnis res, secundum iura, possibile est in pecuniam converti, ideo eiusdem
+<lb ed="#L" n="5"/>rationis est ius pecuniam recipiendi et alias res quae pecunia aestimantur; et in hoc
+<lb ed="#L" n="6"/>contractu pecunia non est extremum emptionis propriae, sed ipsum ius dicto modo.
+</p>
+            <p xml:id="v27ab7-g05329-d1e352">
+               <lb ed="#L" n="7"/>Hoc etiam videtur ex his quae conceduntur ab illis qui dicunt non licere fieri talem
+<lb ed="#L" n="8"/>contractum ; quia ab eis conceditur quod potest quis super sua possessione assignare
+<lb ed="#L" n="9"/>alicui certos redditus in pecunia, vel haereditarie, vel ad vitam; et in hoc non intelligitur
+<lb ed="#L" n="10"/>talis dare alteri vel transferre in illum immediate pecuniam vel aliquam rem aliam 
+sensi<lb break="no" ed="#L" n="11"/>bilem et materialem determinatam, sed intendit illi constituere quoddam ius percipiendi
+<lb ed="#L" n="12"/>aliquid dicto modo ; et hoc ius intendit transferre in ipsum. Et in hoc non dat pecuniam
+<lb ed="#L" n="13"/>principaliter, quae est res quaedam corporalis ; sed potius ius percipiendi pecuniam, quod
+<lb ed="#L" n="14"/>est res incorporalis, fundata tamen aliquo modo super rem corporalem, puta: super
+<lb ed="#L" n="15"/>personam aliquam vel supra? aliquam haereditatem vel huiusmodi, ordinatam et 
+obli<lb break="no" ed="#L" n="16"/>gatam ad percipiendum etiam rem corporalem, puta: pecuniam vel aliud , ratione illius
+<lb ed="#L" n="17"/>iuris sic constituti. Sed constat quod verius spectat ad eum tale quid vendere quam ad
+<lb ed="#L" n="18"/>illum qui habet huiusmodi redditus sic ex dono, quia secundum regulam iuris : cui ius est
+<lb ed="#L" n="19"/>dandi, ei est ius vendendi. Sed conceditur ab illis quod ille, cui huiusmodi redditus in
+<lb ed="#L" n="20"/>pecunia sic dantur, potest eos licite vendere ; quod non posset si proprie pecunia 
+vende<lb break="no" ed="#L" n="21"/>retur. Ergo oportet dicere quod ius quod talis habet, ad quod consequitur perceptio talis
+<lb ed="#L" n="22"/>pecuniae, venditur ab eo cui est illud ius datum. Sed cum illud ius sit constitutum a
+<lb ed="#L" n="23"/>donante, videtur quod, sicut illud ius gratis dedit illi, ita  pro certa pecuniae summa 
+<lb ed="#L" n="24"/>potest ei vendere. Quod enim ille qui habet huiusmodi redditus formaliter, id est ius
+<lb ed="#L" n="25"/>recipiendi ? tali modo pecuniam, illos possit vendere, et non ille qui illos habet virtualiter
+<lb ed="#L" n="26"/>sive causaliter, videtur irrationale.
+</p>
+            <p xml:id="v27ab7-g05329-d1e398">
+               <lb ed="#L" n="27"/>Ex praedictis ergo videtur quod talis contractus sit contractus emptionis, quia est ibi
+<lb ed="#L" n="28"/>assignare aliquid quod emitur, scilicet: ipse redditus ad vitam, vel haereditarius in pecunia,
+<lb ed="#L" n="29"/>sive ius percipiendi pecuniam sive aliam rem, quod est aliud a pecunia, licet ex illo
+<lb ed="#L" n="30"/>contingat assequi pecuniam; et qua ratione, ut alii dicunt, potest licite emi redditus in
+<lb ed="#L" n="31"/>pecunia haereditarie vel etiam ad vitam,si tamen alius contractus praecessit  eadem ratione
+<lb ed="#L" n="32"/>et immediate. Dicitur enim quod si aliquis emit fundum ab aliqua communitate pro
+<lb ed="#L" n="33"/>centum libris et deinde illum  vendat eidem communitati pro octo libris perpetui redditus
+<lb ed="#L" n="34"/>vel pro duodecim libris redditus ad vitam, hoc potest fieri. Vel cum habet sic octo libras
+<lb ed="#L" n="35"/>vel duodecim, illas ulterius potest licite alteri vendere, vel ad vitam, vel haereditarie ; sed
+<lb ed="#L" n="36"/>cum sic vendit iam non habet nisi huiusmodi redditum pecunia tantum. Ergo vel vendit
+<lb ed="#L" n="37"/>pecuniam vel aliud ; hoc autem est ius percipiendi. Ergo immediate potuit ille qui nunc
+<lb ed="#L" n="38"/>emit a tali tales redditus, emere eos a dicta communitate immediate. Nulla enim in hoc
+<lb ed="#L" n="39"/>est differentia realis; et si aliqua videtur differentia superficialis, etsi sit illicitus et 
+usu<lb break="no" ed="#L" n="40"/>rarius contractus quo immediate emerentur a communitate, ille etiam esset illicitus qui
+<lb ed="#L" n="41"/>non videtur esse nisi quoddam pallium apparenter tegens vitiosum contractum, si vitium
+<lb ed="#L" n="42"/>sit in illo. Item quod est pecunia appretiabile est vendibile. Sed huiusmodi redditus est
+<pb ed="#L" n="67"/>
+               <lb ed="#L" n="1"/>pecunia appretiabilis: Nam quidquid est in nostro patrimonio vel esse potest, excepta
+<lb ed="#L" n="2"/>pecunia, est aestimabile sive appretiabile pecunia secundum iura. Sed redditus in pecunia
+<lb ed="#L" n="3"/>sive ad vitam, sive ad perpetuitatem, potest esse in nostro patrimonio, ut patet. Nam
+<lb ed="#L" n="4"/>potest aliquis habere, etiam ! absque emptione, ius percipiendi in bursa regis certam
+<lb ed="#L" n="5"/>summam pecuniae ad vitam vel ad perpetuitatem; et quod aeque possit emi talis redditus
+<lb ed="#L" n="6"/>in pecunia? patet. Nam, sicut etiam dictum est, conceditur quod si aliquis princeps det
+<lb ed="#L" n="7"/>alicui certos redditus haereditarios vel ad vitam in pecunia, ille cui sic dati sunt illos
+<lb ed="#L" n="8"/>potest vendere, quia sunt res quae ad patrimonium eius pertinere dicuntur. Sed eadem
+<lb ed="#L" n="9"/>ratione ipse princeps illos vendere potest, quia quaecumque inveniuntur in venditione
+<lb ed="#L" n="10"/>facta per unum, inveniuntur in venditione facta per alium.
+</p>
+            <p xml:id="v27ab7-g05329-d1e460">
+               <lb ed="#L" n="11"/>Per hoc patet quid dicendum ad primam difficultatem quantum ad secundum ; et ? est
+<lb ed="#L" n="12"/>dicendum quod videtur posse fieri conveniens aestimatio, non quidem omnimode 
+aequa<lb break="no" ed="#L" n="13"/>litatis rei ad rem secundum se, sed sufficientis proportionis secundum quod in usum
+<lb ed="#L" n="14"/>hominum natae sunt venire. Immo magis rationabiliter potest fieri quam in redditu
+<lb ed="#L" n="15"/>haereditario ; quia illud quod recipitur haereditarie in infinitum excedit illud quod datur
+<lb ed="#L" n="16"/>comparando rem ad rem secundum se. Non sic in proposito; quia vita unius hominis cito
+<lb ed="#L" n="17"/>finitur; non sic vita hominum sibi in infinitum succedentium. Cum enim, non solum lege
+<lb ed="#L" n="18"/>naturae, sed etiam lege scripta vel consuetudine vivendi  firmata, statutum sit quod res
+<lb ed="#L" n="19"/>sic veniant in usum hominum sicut expedit reipublicae, iustum supponitur quod habens
+<lb ed="#L" n="20"/>rem aliquam pecunia ? aestimabilem illam possit alienare pro certa summa pecuniae; et
+<lb ed="#L" n="21"/>iustum videtur quod illa pecunia adaequetur illi rei secundum modum secundum quem.
+<lb ed="#L" n="22"/>communiter et faciliter inveniri possint qui emere velint. Cum inveniuntur qui vendere
+<lb ed="#L" n="23"/>velint propter eorum necessitatem vel commoditatem, et quia, si aspiceretur ad 
+aequa<lb break="no" ed="#L" n="24"/>litatem rei ad rem secundum se, hoc inveniri non posset propter? infinitum excessum
+<lb ed="#L" n="25"/>in haereditariis redditibus et propter indeterminatam proportionem in redditibus ad
+<lb ed="#L" n="26"/>vitam ; ideo sufficit quod sit talis adaequatio secundum quam possit inveniri ut in pluribus
+<lb ed="#L" n="27"/>emens, cum invenitur vendere volens, et hoc sive haeredita rie sive ad vitam. Non debet
+<lb ed="#L" n="28"/>ergo fieri aestimatio in haereditaria emptione ad vitam ementis nec in se nec in suis
+<lb ed="#L" n="29"/>haeredibus; quia cum iuvenis bonae dispositionis emit aliquam haereditatem, continget,
+<lb ed="#L" n="30"/>ut in pluribus, ipsum etiam in vita sua plus recipere de ea quam det pro ea, sed debet
+<lb ed="#L" n="31"/>fieri dicto modo. Etiam ita ? in venditione reddituum ad vitam non debet fieri secundum
+<lb ed="#L" n="32"/>proportionem ad vitam ementis, quia hoc esset fieri adaequationem rei ad rem ut 
+secun<lb break="no" ed="#L" n="33"/>dum se ad invicem comparantur, sed secundum illum modum secundum quem ementes
+<lb ed="#L" n="34"/>inveniuntur. Constat enim quod tantum nullus? vellet dare pro redditu ad vitam sicut pro
+<lb ed="#L" n="35"/>haereditario; et ideo oportet considerari quanto minus, ut in pluribus, homines vellent dare
+<lb ed="#L" n="36"/>in illo contractu quam in alio. Et debent aliae circumstantiae considerari, sive quantum ad
+<lb ed="#L" n="37"/>iuvenes, sive quantum ad senes, secundum quas propter necessitatem vel commoditatem
+<lb ed="#L" n="38"/>vendentis, possunt inveniri tam iuvenes quam senes qui tales redditus emere velint.
+<lb ed="#L" n="39"/>Secundum iura enim, pretia rerum non ex affectu et utilitate singulorum, sed communiter
+<lb ed="#L" n="40"/>funguntur; et tantum valet res communiter quantum vendi potest. Nec his obstat quod
+<lb ed="#L" n="41"/>in? iure cavetur quod, si alimenta alicui relicta sunt, et ipse velit super illis transigere,
+<lb ed="#L" n="42"/>modus transactionis pro aetate eius ? qui transigit et valetudine !' ordinandus est. Nam
+<lb ed="#L" n="43"/>aliter cum puero ", aliter cum iuvene et sene transigendum est. Constat enim alimenta
+<pb ed="#L" n="68"/>
+               <lb ed="#L" n="1"/>cum vita finiri (Digesta de transactione, libro: cum hi, paragrapho modus); sic etiam
+<lb ed="#L" n="2"/>redditus ad vitam cum vita terminatur. Sed hoc non valet; quia ibi fit hoc ut voluntas
+<lb ed="#L" n="3"/>relinquentis alimenta servetur et favore alimentorum quibus multum favent iura. Cum
+<lb ed="#L" n="4"/>enim alimenta sint necessaria ad vitam et pauperibus relinquuntur', non debent vendi
+<lb ed="#L" n="5"/>nisi pro pretio quo probabiliter vita poterit sustentari, ne fame pereant contra 
+inten<lb break="no" ed="#L" n="6"/>tionem relinquentis alimenta. Unde patet etiam quod non potest hoc ad propositum 
+appli<lb break="no" ed="#L" n="7"/>cari, praesertim quia ibi dicitur quod vita vel aetas et valetudo  vendentis, non ementis,
+<lb ed="#L" n="8"/>est? respicienda. Si autem hic aliqua aetas esset respicienda, non respiceretur aetas
+<lb ed="#L" n="9"/>vendentis, quia illa, ut plurimum, est perpetua; ut patet in monasteriis et 
+communita<lb break="no" ed="#L" n="10"/>tibus, sed ementis.
+</p>
+            <p xml:id="v27ab7-g05329-d1e558">
+               <lb ed="#L" n="11"/>Ex his etiam patet quod, cum aliquis ex talium reddituum emptione recipit plus quam
+<lb ed="#L" n="12"/>dedit diutius vivendo, non debet dici recipere aliquid ultra sortem, vel quod hic
+<lb ed="#L" n="13"/>sorti accedat aliquid, ut contingit in usura; quia quicquid recipit a tempore emptionis
+<lb ed="#L" n="14"/>totum est ratione sortis et de eius natura; et sic de suo recipit, si tempore quo emit
+<lb ed="#L" n="15"/>pretium iustum dedit pro re empta. Nec dici potest huiusmodi contractus mutui, ut patet :
+<lb ed="#L" n="16"/>hic enim non datur pecunia mutuo cum obligatione eius cui datur ad restituendum
+<lb ed="#L" n="17"/>tantum et amplius. Hanc enim obligationem ad restituendum quantum traditur, de se
+<lb ed="#L" n="18"/>importat natura mutui. Quod autem ultra hoc obligatur recipiens ad reddendum aliquid
+<lb ed="#L" n="19"/>ultra, hoc est iniquum. Unde non fit hic aliqua vel alicuius rei emptio vel novi iuris quod
+<lb ed="#L" n="20"/>ematur constitutio, quod tamen fit in praedicto contractu. Sicut enim ius quoddam de
+<lb ed="#L" n="21"/>novo constituitur super fundum aliquem, utpote servitus aliqua, manente proprietate et
+<lb ed="#L" n="22"/>possessione paenes illum cuius erat prius, quod dicitur ius reale, rem scilicet concernens;
+<lb ed="#L" n="23"/>ita etiam possunt constitui iura personalia, magis personas quam res concernentia, ut usus
+<lb ed="#L" n="24"/>fructus et redditus ad vitam quae finiuntur cum personis quibus competunt ista iura.
+</p>
+            <p xml:id="v27ab7-g05329-d1e591">
+               <lb ed="#L" n="25"/>Et est ulterius intelligendum quod veritatem nunc circa hanc materiam  declaratam
+<lb ed="#L" n="26"/>confitentur quidam qui aliquando contrarium dicere videbantur, utentes praedicta 
+dis<lb break="no" ed="#L" n="27"/>tinctione circa rem vendibilem, dicentes quod licitum est dare alicui ecclesiae certam 
+sum<lb break="no" ed="#L" n="28"/>mam pecuniae ad emendum terram aliquam 5, ut hanc pecuniam sic dans ad vitam suam
+<lb ed="#L" n="29"/>a dicta? ecclesia recipiat certos redditus ad vitam suam multo plus valentes annuatim quam
+<lb ed="#L" n="30"/>valere possint fructus dictae terrae, si ematur. Et hoc confirmant per illud, (capitulo
+<lb ed="#L" n="31"/>decimo, quaestione secunda : precarie) : quia, sicut habens aliquam terram potest dare illam
+<lb ed="#L" n="32"/>alicui ecclesiae et? ab illa ecclesia, usque quo vixerit, recipere terram aliam valentem
+<lb ed="#L" n="33"/>plus in triplo quam valeat terra data; ita videtur quod habens pecuniam de qua possit
+<lb ed="#L" n="34"/>emi terra tantum valens quantum valet illa quam alius dat, et ad hoc illam pecuniam dat
+<lb ed="#L" n="35"/>ut ex illa talis terra ematur, licite potest certos redditus a dicta ecclesia recipere ad vitam
+<lb ed="#L" n="36"/>suam. Sed cum sic dans ecclesiae certam summam pecuniae, ut ex illa ipsa ecclesia emat
+<lb ed="#L" n="37"/>terram valentem certos redditus, cum non det nisi nudam pecuniam in quam nullum ius,
+<lb ed="#L" n="38"/>sibi retinet et relinquit arbitrio et discretioni etiam personarum illius ecclesiae, ut illam
+<lb ed="#L" n="39"/>convertant in utilitatem ipsius ecclesiae, et forte ecclesia est sic obligata, quia  oporteret
+<lb ed="#L" n="40"/>eos vendere tantum de terra sua, vel de propriis redditibus, vel incurrere maiora damna,
+<lb ed="#L" n="41"/>et constat quod tunc illam pecuniam expedit solvere creditoribus absque hoc quod ex
+<lb ed="#L" n="42"/>illa terra ematur, et nihilominus ecclesia ratione illius pecuniae constituit tale ius illam
+<pb ed="#L" n="69"/>
+               <lb ed="#L" n="1"/>pecuniam tradenti et illud licite emit alius, et est contractus emptionis et venditionis, ut
+<lb ed="#L" n="2"/>dictum est. Sed, prout nunc isti strictius et melius loquentes dicunt, quandocumque !
+<lb ed="#L" n="3"/>aliquis tradit aliquam certam summam pecuniae mutuo, quacumque condicione apposita
+<lb ed="#L" n="4"/>de plus recipiendo ultra sortem, remanet contractus mutui et est illicitus et usurarius.
+<lb ed="#L" n="5"/>Hoc autem non contingit in contractu emptionis reddituum ad vitam, sicut est superius
+<lb ed="#L" n="6"/>declaratum et ab istis nunc concessum.
+</p>
+            <p xml:id="v27ab7-g05329-d1e648">
+               <lb ed="#L" n="7"/>Per praedicta patet responsio ad obiecta. Non enim est contractus vituperabilis in
+<lb ed="#L" n="8"/>quo emens dat aliquid intentione plus recipiendi, si tamen sit ibi verus contractus 
+emp<lb break="no" ed="#L" n="9"/>tionis et detur pecunia conveniens, modo quo expositum est, pro re empta.
+</p>
+            <p xml:id="v27ab7-g05329-d1e657">
+               <lb ed="#L" n="10"/>Similiter etiam non oportet quod omnis contractus, in quo incidit dubium aequaliter
+<lb ed="#L" n="11"/>ex parte contrahentium amborum de plus vel minus habendo in lucro vel in damno, sit
+<lb ed="#L" n="12"/>licitus nisi alia interveniant, scilicet quod non sit contractus mutui, sed emptionis et
+<lb ed="#L" n="13"/>venditionis et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

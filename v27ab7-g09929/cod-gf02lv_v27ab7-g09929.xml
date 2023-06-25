@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g09929"><!-- v27ab7-q6-q4 -->
+            <head xml:id="v27ab7-g09929-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-g09929-Hd1e101" type="question-title">
+      Utrum substantia creata. possit esse immediatum principium alicuius sui actus
+    </head>
+            <p xml:id="v27ab7-g09929-d1e104">
+               <lb ed="#L" n="27"/>QUAESTIO IV.
+<lb ed="#L" n="28"/>Utrum substantia creata. possit esse immediatum principium
+<lb ed="#L" n="29"/>alicuius sui actus.
+</p>
+            <p xml:id="v27ab7-g09929-d1e113">
+               <lb ed="#L" n="30"/>Deinde circa puras creaturas quaerebantur quaedam pertinentia ad
+<lb ed="#L" n="31"/>naturam  substantialem generaliter, quaedam vero pertinentia ad naturam
+<lb ed="#L" n="32"/>accidentalem etiam generaliter, et quaedam pertinentia ad naturam 
+sub<lb break="no" ed="#L" n="33"/>stantialem rationalem specialiter. Circa naturam substantialem in generali
+<lb ed="#L" n="34"/>quaerebatur unum, scilicet utrum substantia aliqua creata possit esse 
+imme<lb break="no" ed="#L" n="35"/>diatum principium alicuius sui actus vel suae operationis. Et arguitur quod
+<pb ed="#L" n="115"/>
+               <lb ed="#L" n="1"/>sic, quia esse est actio sive actus qui immediate fluit ab essentia! 
+sub<lb break="no" ed="#L" n="2"/>stantiae. Ergo talis operationis est ipsa substantia immediatum principium.
+</p>
+            <p xml:id="v27ab7-g09929-d1e135">
+               <lb ed="#L" n="3"/>Praeterea, vivere est quoddam esse ; sed intelligere est quoddam vivere
+<lb ed="#L" n="4"/>et intelligere est operatio intellectualis. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g09929-d1e143">
+               <lb ed="#L" n="5"/>Contra. Posito sufficienti principio alicuius operationis ponitur illa
+<lb ed="#L" n="6"/>operatio. Si ergo substantia aliqua, utpote anima, esset sufficiens principium
+<lb ed="#L" n="7"/>suae operationis, utpote operationis quae est intellipere, semper esset in
+<lb ed="#L" n="8"/>actu secundum talem operationem. Hoc autem est falsum. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g09929-d1e154">
+               <lb ed="#L" n="9"/>Respondeo dicendum quod alicuius operationis principium potest esse
+<lb ed="#L" n="10"/>aliquid dupliciter secundum quod duplex est potentia, scilicet in ratione
+<lb ed="#L" n="11"/>activi et passivi.
+</p>
+            <p xml:id="v27ab7-g09929-d1e163">
+               <lb ed="#L" n="12"/>Si ergo quaeratur de principio activo respectu operationis vel actionis
+<lb ed="#L" n="13"/>vel perfectionis alicuius, sic dicendum, prout alias  dixi, quod nulla 
+sub<lb break="no" ed="#L" n="14"/>stantia creata est immediatum principium suae operationis vel actionis vel
+<lb ed="#L" n="15"/>perfectionis. Nam huiusmodi operatio vel perfectio aut est transiens extra
+<lb ed="#L" n="16"/>operantem et est subiective in alio transmutato ab hoc agente, aut est
+<lb ed="#L" n="17"/>manens in operante subiective in ipso ut eius perfectio existens.
+</p>
+            <p xml:id="v27ab7-g09929-d1e179">
+               <lb ed="#L" n="18"/>De primo sic videtur. Nam quaedam sunt naturalia agentia sive 
+mate<lb break="no" ed="#L" n="19"/>rialia. Haec autem non agunt immediate per suam substantiam, nam cum
+<lb ed="#L" n="20"/>non attingunt immediate et per se ad nudam substantiam materiae 
+trans<lb break="no" ed="#L" n="21"/>mutabilis ut secundum se aliquid est, sed secundum quod existit sub
+<lb ed="#L" n="22"/>determinatis formis et dispositionibus, — quia ut sic solum est transmutabilis
+<lb ed="#L" n="23"/>ab agente creato, et huiusmodi dispositiones entis praeexistentis in quod
+<lb ed="#L" n="24"/>agit agens naturale abiciuntur et contrariae inducuntur actione agentis, hoc
+<lb ed="#L" n="25"/>autem non potest esse nisi agat etiam per aliquas dispositiones contrarias,
+— unde quia tale agens primo inducit formam accidentalem convenientem
+<lb ed="#L" n="26"/>sibi inquantum etiam corrumpit contrariam disconvenientem, ideo etiam
+<lb ed="#L" n="27"/>immediate agit per aliquam dispositionem accidentalem sive suae substantiae
+<lb ed="#L" n="28"/>additam. Unde secundum Commentatorem, septimo  Metaphysicae: elementa
+<lb ed="#L" n="29"/>nec agunt nec patiuntur nisi per qualitates, non per formas substantiales.
+<lb ed="#L" n="30"/>Est tamen forma substantialis id in cuius virtute potentia activa accidentalis
+<lb ed="#L" n="31"/>operatur, et sic non negatur, sicut aliqui videntur aliis imponere, 
+substan<lb break="no" ed="#L" n="32"/>tiam creatam esse potentiam activam. Non enim hoc negatur cum dicatur
+<lb ed="#L" n="33"/>quod ipsa est potentia activa principalis et dispositio quae est accidens est
+<lb ed="#L" n="34"/>quasi instrumentalis.
+</p>
+            <p xml:id="v27ab7-g09929-d1e218">
+               <pb ed="#L" n="116"/>
+               <lb ed="#L" n="1"/>Hoc etiam patet in agentibus intellectualibus, scilicet anima et angelo.
+<lb ed="#L" n="2"/>Nam cum non agunt aliquid extra se nisi modo artis et intellectu practico
+<lb ed="#L" n="3"/>et sic per intellectum et voluntatem, constat autem quod ars sive actus
+<lb ed="#L" n="4"/>intelligendi et volendi sunt aliquae dispositiones additae naturae 
+intellec<lb break="no" ed="#L" n="5"/>tuali, etiam si potentiae animae et angeli non differunt realiter ab ipsis,
+<lb ed="#L" n="6"/>non nisi per aliquid ab eis differens efficiunt aliquid in rebus extra.
+</p>
+            <p xml:id="v27ab7-g09929-d1e236">
+               <lb ed="#L" n="7"/>Deinde quantum ad operationem vel actum sive perfectionem intra
+<lb ed="#L" n="8"/>manentem, etiam  videtur dicendum quod substantia nullius talis actus
+<lb ed="#L" n="9"/>per se ipsam sit principium activum. Nam, aut talis ? actus est naturalis et
+<lb ed="#L" n="10"/>inseparabilis, vel est adventitius et separabilis. Si primo modo, tunc 
+sub<lb break="no" ed="#L" n="11"/>stantia non potest esse causa efficiens illius sic quod de non esse producat
+<lb ed="#L" n="12"/>ipsum in esse, nam simul producitur talis actus in esse cum ipsa substantia
+<lb ed="#L" n="13"/>et ideo ab eo a quo producta est ipsa substantia in esse, est etiam productus
+<lb ed="#L" n="14"/>huiusmodi actus. Nam generans producens aliquam naturam dat ei etiam 
+<lb ed="#L" n="15"/>et producit simul cum ea omnia accidentia eius propria sive inseparabilia,
+<lb ed="#L" n="16"/>quia simul sunt et ab eodem generatio simpliciter substantiae et generatio
+<lb ed="#L" n="17"/>secundum quid omnium suorum accidentium talium.
+</p>
+            <p xml:id="v27ab7-g09929-d1e263">
+               <lb ed="#L" n="18"/>Unde non videtur bene dictum quod generans aliquod  compositum
+<lb ed="#L" n="19"/>ad quod necessario consequuntur per se accidentia et proprietates quaedam,
+<lb ed="#L" n="20"/>sic disponat illud quod quantum est de se sit in potentia accidentali ad
+<lb ed="#L" n="21"/>suum accidens, ex parte materiae quidem sic disponens ipsam ut sit 
+neces<lb break="no" ed="#L" n="22"/>sitas ad receptionem illius accidentis, et ex parte formae sic disponens ipsam
+<lb ed="#L" n="23"/>ut sit necessitas ad illius accidentis productionem de potentia materiae. Ut
+<lb ed="#L" n="24"/>generans ignem disponit materiam ignis ut sit necessitas ad su scipiendum
+<lb ed="#L" n="25"/>levitatem et caliditatem, et similiter formam ignis ut sit necessitas 
+produ<lb break="no" ed="#L" n="26"/>cendi illam de sua materia ethoc totum procedit ex virtute agentis impressa
+<lb ed="#L" n="27"/>igni et quoad materiam et quoad formam, ut pro tanto dicatur quod generans
+<lb ed="#L" n="28"/>rem dat ei accidentia per se et operationem illi propriam. Sed hoc non
+<lb ed="#L" n="29"/>videtur bene dictum; non enim hic habent produci entia naturalia, sed
+<lb ed="#L" n="30"/>prout iam dictum est, simul est generatio simpliciter et secundum quid et
+<lb ed="#L" n="31"/>ab eodem. Sed ordine naturae una est prior altera; et sicut per primam -
+<lb ed="#L" n="32"/>educitur forma substantialis ab ipso principali agente de potentia nudae
+<lb ed="#L" n="33"/>materiae, ita per secundam educitur accidens per se de toto composito
+<lb ed="#L" n="34"/>ab eodem. Sicut enim ignis, ut dicit compositum ex forma substantiali et
+<lb ed="#L" n="35"/>materia, per se generatur prima generatione, ita calidum et rarum tale,
+<lb ed="#L" n="36"/>ut dicit compositum ex subiecto vel substantia in actu et accidente, per se
+<pb ed="#L" n="117"/>
+               <lb ed="#L" n="1"/>generatur in secunda generatione. Et sicut nihil habet rationem agentis
+<lb ed="#L" n="2"/>in prima generatione nisi agens quod generat ignem, ita nec in secunda.
+<lb ed="#L" n="3"/>Sicut enim materia non potest considerari uno modo ut recipiens formam
+<lb ed="#L" n="4"/>substantialem et alio modo ut agens, quia ipsa secundum se non est nisi
+<lb ed="#L" n="5"/>recipiens eam ut actum ad quem per se est in potentia, ita etiam totum
+<lb ed="#L" n="6"/>compositum ex materia et forma substantiali non potest considerari uno
+<lb ed="#L" n="7"/>modo ut recipiens accidens et alio modo ut efficiens, quia totum est per se
+<lb ed="#L" n="8"/>subiectum et totum ' in potentia per se ? ad huiusmodi accidens. Sicut enim
+<lb ed="#L" n="9"/>materia sola est quaedam potentia respectu actus substantialis, ita materia
+'cum forma substantiali est quaedam potentia respectu formae accidentalis.
+<lb ed="#L" n="10"/>Nec videtur bene dictum quod ignis generatus secundum esse substantiale
+<lb ed="#L" n="11"/>a generante sit in potentia accidentali ad huiusmodi sua accidentia, cum
+<lb ed="#L" n="12"/>id de cuius natura est quod simul est sub aliquo actu non sit in potentia
+<lb ed="#L" n="13"/>neque essentiali neque accidentali ad illud. Nec etiam proprie dicitur esse
+<lb ed="#L" n="14"/>in aliquo dispositio quae est necessitas ad aliquid respectu cuius iam realiter
+<lb ed="#L" n="15"/>est in actu. Materia enim in fine transmutationis, cum tamen nondum est
+<lb ed="#L" n="16"/>in actu sub forma, dicitur esse disposita dispositione quae est necessitas,
+<lb ed="#L" n="17"/>sed cum est sub illa nullo modo ; simul autem duratione materia est sub
+<lb ed="#L" n="18"/>dispositione quae est necessitas ad inductionem formae substantialis primo
+<lb ed="#L" n="19"/>et accidentium consequentium secundario ordine naturae. Accidens ergo
+<lb ed="#L" n="20"/>connaturale praecipue et inseparabile non efficitur ab ipsa substantia cuius
+<lb ed="#L" n="21"/>est, sed a causa efficiente ipsam substantiam.
+</p>
+            <p xml:id="v27ab7-g09929-d1e354">
+               <lb ed="#L" n="22"/>Si autem sit adventitium et variabile, ita quod subiectum sit aliquando ?
+<lb ed="#L" n="23"/>sub illo actu et aliquando non, cum unum et idem secundum rem non
+<lb ed="#L" n="24"/>possit esse in potentia et in actu respectu eiusdem, substantia existens
+<lb ed="#L" n="25"/>in potentia ad aliquem actum secundum se non poterit se educere ad actum
+'secundum illum actum. In hoc? enim, ut frequenter dictum est, contra-
+'dictoria implicantur secundum quod idem secundum idem esset in potentia
+<lb ed="#L" n="26"/>et in actu. Et hoc idem satis patet in substantia simplici, scilicet quod in ea
+<lb ed="#L" n="27"/>idem secundum idem esset in potentia et in actu respectu eiusdem. Item
+<lb ed="#L" n="28"/>de substantia composita ex materia et forma. Nam per materiam non habet
+<lb ed="#L" n="29"/>rationem agendi aliquid in seipsum nec etiam per formam substantialem
+"habet rationem efficiendi accidentia vel in se ipso  vel in materia vel in toto
+'composito, quia ipsa forma substantialis cum materia est per se subiectum
+<lb ed="#L" n="30"/>passivum et receptivum omnium actuum posteriorum. Unde non potest dici
+<lb ed="#L" n="31"/>quod tale compositum ratione suae. materiae sit passivum et receptivum
+<pb ed="#L" n="118"/>
+               <lb ed="#L" n="1"/>alicuius accidentis, et ratione formae activum ; quia materia non est 
+recep<lb break="no" ed="#L" n="2"/>tivum alicuius accidentis ut per se subiectum eius; sed per se subiectum
+<lb ed="#L" n="3"/>eius est totum compositum quod est ! in actu per formam substantialem.
+<lb ed="#L" n="4"/>Unde per hoc quod materia est susceptiva formae substantialis, est etiam
+<lb ed="#L" n="5"/>susceptiva, mediante illa, formae accidentalis; quare cum forma substantialis
+<lb ed="#L" n="6"/>per se et secundum quod est in materia sit una cum materia receptivum
+<lb ed="#L" n="7"/>accidentis, non potest dici activum respectu illius. Unde dicit Commentator
+<lb ed="#L" n="8"/>super illud in principio quarti Metaphysicae: ens dicitur multis modis, tamen
+<lb ed="#L" n="9"/>in omnibus dicitur ens quia attribuuntur uni primo enti, scilicet substantiae.
+<lb ed="#L" n="10"/>Istae attributiones in unoquoque sunt diversae. Praedicamenta enim 
+attri<lb break="no" ed="#L" n="11"/>buta sunt substantiae, non quia est agens aut finie eorum, sed quia
+<lb ed="#L" n="12"/>constituuntur per illam et est subiectum eorum . Dicit etiam Philosophus,
+<lb ed="#L" n="13"/>primo Physicorum, quod subiecta natura cum causa formae est omnium
+<lb ed="#L" n="14"/>quae fiunt sicut mater. Igitur, cum anima sit quaedam substantia sive forma
+<lb ed="#L" n="15"/>substantialis, ens in potentia ad operationes et actus cognoscendi et 
+appe<lb break="no" ed="#L" n="16"/>tendi qui sunt intus manentes, ex praedictis patet quod ipsa per suam
+<lb ed="#L" n="17"/>nudam substantiam huiusmodi operationes efficere vel elicere non potest,
+<lb ed="#L" n="18"/>reducendo scilicet se de potentia ad actum secundum illas sine alio agente
+<lb ed="#L" n="19"/>et movente.
+</p>
+            <p xml:id="v27ab7-g09929-d1e422">
+               <lb ed="#L" n="20"/>Deinde considerandum circa prin cipium passivum vel receptivum
+<lb ed="#L" n="21"/>operationum vel actuum sive perfectionum. Et est dicendum quod aliquid
+<lb ed="#L" n="22"/>in genere substantiae est per se ipsum immediatum principium sui actus
+<lb ed="#L" n="23"/>sive suae perfectionis substantialis, scilicet substantia prima ; alioquin
+<lb ed="#L" n="24"/>esset processus in infinitum. Oportet etiam in genere substantiae aliquid
+<lb ed="#L" n="25"/>esse secundum se ipsum proximum principium suae perfectionis 
+acci<lb break="no" ed="#L" n="26"/>dentalis, sive significetur per modum actus permanentis ut quantitas,
+<lb ed="#L" n="27"/>albedo, vel habitus vel huiusmodi, sive per modum operationis quasi 
+trans<lb break="no" ed="#L" n="28"/>euntis et in fieri, ut dealbari; alioquin etiam esset processus in infinitum.
+<lb ed="#L" n="29"/>Sed circa illos actus vel perfectiones videtur distinguendum, quia quidam
+<lb ed="#L" n="30"/>sunt connaturales et invariabiles, quidam autem adventitii et variabiles ac
+<lb ed="#L" n="31"/>separabiles; et istorum quidam habent esse in actu completo et in facto
+<lb ed="#L" n="32"/>esse secundum se et non in fieri vel quasi in fieri sic quod habent esse
+<lb ed="#L" n="33"/>et conservari in subiecto per naturam subiecti et influentiam agentis 
+uni<lb break="no" ed="#L" n="34"/>versalis absque praesentia agentis  proximi, ut caliditas et raritas et 
+huius<lb break="no" ed="#L" n="35"/>modi in aliquo corpore; quaedam autem sunt quorum esse non consistit
+<lb ed="#L" n="36"/>nisi in fieri vel quasi in fieri quorum quidam sunt actus imperfecti et entis
+<pb ed="#L" n="119"/>
+               <lb ed="#L" n="1"/>imperfecti secundum quod huiusmodi, ut sunt omnes mutationes secundum
+<lb ed="#L" n="2"/>formas accidentales de tertia specie qualitatis, quorum esse dependet ! ex
+<lb ed="#L" n="3"/>praesentia agentis subiectum secundum tales dispositiones transmutantis ;
+<lb ed="#L" n="4"/>quidam autem sunt actus completi  et perfecti et entis perfecti quorum
+<lb ed="#L" n="5"/>esse consistit tamen quasi in fieri in quantum dependent continue ex 
+con<lb break="no" ed="#L" n="6"/>tinua praesentia proximi agentis, sicut patet de esse luminis vel intentionis
+<lb ed="#L" n="7"/>coloris in medio, et simile est de actibus animae qui sunt videre, intelligere,
+<lb ed="#L" n="8"/>et cetera. De talibus autem dicit Augustinus, octavo super Genesim, capitulo
+<lb ed="#L" n="9"/>vigesimo sexto : aer praesente lumine non factus est lucidus, sed fit lucidus,
+<lb ed="#L" n="10"/>quia si factus esset non autem fieret, absente lumine, lucidus maneret.
+<lb ed="#L" n="11"/>Huiusmodi autem entia dicuntur habere esse quasi in fieri, non quia in esse
+eorum sit successio sicut in motu et huiusmodi, sed quia sic dependent
+<lb ed="#L" n="12"/>in esse suo ab obiecti et agentis praesentialitate, sicut entia vere successiva.
+<lb ed="#L" n="13"/>Cum ergo sicut est ordo in formis substantialibus respectu materiae, scilicet
+<lb ed="#L" n="14"/>quod materia non est immediate in potentia ad quamlibet formam, ut scilicet
+<lb ed="#L" n="15"/>eodem modo sit transmutabilis ad quamlibet formam sed ordine quodam,
+(ita quod secundum ponentes gradus in formis primo etiam sunt in materia
+<lb ed="#L" n="16"/>quaedam formae ingenerabiles ut forma substantialitatis et corporeitatis
+vel huiusmodi, et superveniunt aliae transmutabiles circa eam ordine
+<lb ed="#L" n="17"/>quodam; secundum alios autem licet in materia numquam sit nisi una
+<lb ed="#L" n="18"/>forma ? substantialis, tamen est talis gradus in formis quod est dare primam
+<lb ed="#L" n="19"/>et ultimam ; nam formae elementorum sunt primae  in processu 
+genera<lb break="no" ed="#L" n="20"/>tionis et ultimae in resolutione corruptionis finalis et formae animalium sunt
+<lb ed="#L" n="21"/>ultimae in processu generationis ; unde quia non quidlibet immediate fit ex
+<lb ed="#L" n="22"/>quolibet, ultima forma adveniens materiae praesupponit in materia formas
+<lb ed="#L" n="23"/>alias praeextitisse ? licet non maneat? simul cum illis), — ita videtur esse ordo
+<lb ed="#L" n="24"/>in accidentibus respectu substantiae subiectae. Nam substantia quae 
+secun<lb break="no" ed="#L" n="25"/>dum se est in potentia ad aliqua accidentia videtur ordine naturae esse
+<lb ed="#L" n="26"/>prius in potentia ad accidentia propria et inseparabilia quam ad communia
+<lb ed="#L" n="27"/>et separabilia sive variabilia et praecipue respectu accidentium quae habent
+<lb ed="#L" n="28"/>esse in fieri vel quasi in fieri. Non enim potest substantia materialis esse
+<lb ed="#L" n="29"/>immediatum subiectum alicuius transmutationis, nisi sit in actu secundum
+<lb ed="#L" n="30"/>aliquod accidens aliquo modo fixum ; nec potest substantia aliqua illuminari
+<lb ed="#L" n="31"/>vel immutari intentionaliter nisi etiam habeat aliquod accidens fixum ut
+<lb ed="#L" n="32"/>diaphaneitatem vel huiusmodi, mediante quo huiusmodi accidentia 
+susci<lb break="no" ed="#L" n="33"/>piat. Unde cum plura accidentia possunt esse simul in uno subiecto, sicut
+<pb ed="#L" n="120"/>
+               <lb ed="#L" n="1"/>ponentes plures formas substantiales in eodem ponunt quod in materia
+<lb ed="#L" n="2"/>non recipitur aliqua forma secundum quam ipsa materia sit transmutabilis
+<lb ed="#L" n="3"/>quin praesupponatur aliqua alia quasi inseparabilis sive ut magis materialis
+<lb ed="#L" n="4"/>respectu alterius, ita videtur debere poni in accidentibus quod ubi ponitur
+<lb ed="#L" n="5"/>circa substantiam aliquis actus accidentalis dicto modo variabilis et 
+prae<lb break="no" ed="#L" n="6"/>cipue habens esse quasi in fieri, debet poni aliquod accidens aliud 
+per<lb break="no" ed="#L" n="7"/>manens, quasi materialis dispositio ad talem actum. Ouamvis enim secundum
+<lb ed="#L" n="8"/>negantes gradus formarum non sit aliqua forma ' substantialis invariabiliter 
+<lb ed="#L" n="9"/>in materia mediante qua aliae formae substantiales variabiles circa eam
+<lb ed="#L" n="10"/>recipiantur in ipsa, hoc autem ponitur in genere formarum accidentalium
+<lb ed="#L" n="11"/>respectu substantiae in qua nata sunt esse accidentia ; hoc est quia materia
+<lb ed="#L" n="12"/>cum sit de se in pura potentia nullum actum sibi determi nat, quia  pura
+<lb ed="#L" n="13"/>potentia secundum se perfectibilis est quocumque ac tu indifferenter.
+<lb ed="#L" n="14"/>Determinatum enim ad aliquid oportet aliquam actualitatem habere per
+<lb ed="#L" n="15"/>quam determinet unam rem sibi magis quam aliam. Et ideo, sicut alias fuit
+<lb ed="#L" n="16"/>determinatum, nulla forma potest invariabiliter esse in materia prima quae
+<lb ed="#L" n="17"/>dicitur hyle secundum cursum naturae. Unde si in caelo sit vere et proprie
+<lb ed="#L" n="18"/>materia, et praecipue eadem materia quae est in elementis, caelum est 
+cor<lb break="no" ed="#L" n="19"/>ruptibile per naturam. Sed subiectum accidentis est in actu, et ideo si est in
+<lb ed="#L" n="20"/>potentia ad accidentia, videtur ex natura sua aliqua sibi secundum suam
+<lb ed="#L" n="21"/>speciem convenientia determinare.
+</p>
+            <p xml:id="v27ab7-g09929-d1e583">
+               <lb ed="#L" n="22"/>Secundum praedicta est dicendum quod substantia secundum seipsam
+<lb ed="#L" n="23"/>bene est principium passivum alicuius sui actus sive perfectionis, non
+<lb ed="#L" n="24"/>quidem quae sit operatio in fieri vel quasi in fieri existens, sed quae sit
+<lb ed="#L" n="25"/>accidens aliquod fixum et manens, et praecipue proprium et inseparabile
+<lb ed="#L" n="26"/>et ipsam secundum rationem suae speciei consequens. Sed respectu 
+poste<lb break="no" ed="#L" n="27"/>riorum accidentium et praecipue eorum quae dicto modo habent esse quasi
+<lb ed="#L" n="28"/>in fieri non est per se immediatum principium etiam passivum.
+</p>
+            <p xml:id="v27ab7-g09929-d1e601">
+               <lb ed="#L" n="29"/>Et secundum hoc videtur quod operationes animae quae sunt cognoscere
+<lb ed="#L" n="30"/>et appetere non insunt animae nisi mediantibus aliquibus proprietatibus
+<lb ed="#L" n="31"/>prioribus ipsam animam fixe et naturaliter perficientibus quae dicuntur
+<lb ed="#L" n="32"/>potentiae animae. Propter quod videtur quod potentiae animae dicant rem
+<lb ed="#L" n="33"/>additam ipsi substantiae animae, non quidem relationem vel respectum
+<lb ed="#L" n="34"/>solum 5 tum quia respectus sive relatio non est principium activum vel
+<lb ed="#L" n="35"/>passivum sive ratio agendi vel patiendi, sed magis consequitur rem 
+abso<lb break="no" ed="#L" n="36"/>lutam cui hoc convenit, tum quia in creaturis nihil advenit substantiae in
+<lb ed="#L" n="37"/>actu per formam substantialem ut res alia quae  non sit accidens. j
+</p>
+            <p xml:id="v27ab7-g09929-d1e623">
+               <pb ed="#L" n="121"/>
+               <lb ed="#L" n="1"/>Relatio ergo realis ut res alia ab essentia ' animae non potest advenire
+<lb ed="#L" n="2"/>vel inesse ipsi substantiae animae, nisi sit accidens. Sed nulla relatio potest
+<lb ed="#L" n="3"/>esse accidens nisi fundetur in aliquo accidente absoluto a quo originaliter
+<lb ed="#L" n="4"/>habet suam realitatem. Propter quod, ut dicit Simplicius super praedicamenta,
+<lb ed="#L" n="5"/>in capitulo de relatione : si praeordinentur quae in ordine subiectorum
+<lb ed="#L" n="6"/>praeexistunt his quae ut accidentia superveniunt, palam quod non solum
+<lb ed="#L" n="7"/>quantum, sed etiam quale praecedit ad aliquid. Nihil ergo potest esse vere
+<lb ed="#L" n="8"/>relativum  ad genus relationis quae constituit unum praedicamentum inter
+<lb ed="#L" n="9"/>alia praedicamenta accidentium, quin fundetur in aliquo accidente 
+abso<lb break="no" ed="#L" n="10"/>luto, quod est quantitas vel qualitas.
+</p>
+            <p xml:id="v27ab7-g09929-d1e650">
+               <lb ed="#L" n="11"/>Ex quo patet quod non videtur valere instantia quae datur contra hanc
+<lb ed="#L" n="12"/>positionem de relationibus realibus, quae sunt accidentia variabilia circa
+<lb ed="#L" n="13"/>substantiam et minimam? entitatem habentia, et tamen fundantur immediate
+<lb ed="#L" n="14"/>in substantia, ut relatio identitatis et diversitatis inter duas substantias,
+<lb ed="#L" n="15"/>etiam  si in eis non sit aliquod accidens absolutum. Haec enim instantia
+<lb ed="#L" n="16"/>falsum supponere videtur. Unum enim in qualitate facit similitudinem quae
+<lb ed="#L" n="17"/>est de genere accidentis ; unum vero in substantia facit relationem 
+iden<lb break="no" ed="#L" n="18"/>titatis quae non est in genere accidentis, nec dicit rem aliquam additam ;
+<lb ed="#L" n="19"/>sed videtur dicendum quod identitas quae causatur ex uno in substantia
+<lb ed="#L" n="20"/>non potest poni relatio realis, et hoc videtur esse intentio Aristotelis in
+<lb ed="#L" n="21"/>praedicamentis quod ? nulla substantia sit ad aliquid, et etiam Simplicius
+<lb ed="#L" n="22"/>in fine capituli de relatione : in substantia secundum se non est relatio, sed
+<lb ed="#L" n="23"/>omnis relatio quae est in substantia inest ei per aliquod accidens inhaerens.
+<lb ed="#L" n="24"/>Est ergo identitas relatio rationis de identitate secundum numerum. Hoc
+<lb ed="#L" n="25"/>satis est manifestum. Similiter etiam cum communitas speciei et generis in
+<lb ed="#L" n="26"/>qua fundatur identitas secundum genus et speciem sit a ratione  et ens
+<lb ed="#L" n="27"/>rationis, quia res nulla communis est pluribus distinctis et diversis, oportet
+<lb ed="#L" n="28"/>quod talis identitas est relatio secundum rationem . Praedicta autem positio
+<lb ed="#L" n="29"/>concordat his  qui dicunt potentias animae differre realiter a substantia
+<lb ed="#L" n="30"/>animae, hac ratione quod potentia et actus ad idem genus referuntur. Quia
+<lb ed="#L" n="31"/>ergo operatio animae non est in genere substantiae, et potentiam respectu
+<lb ed="#L" n="32"/>huiusmodi operationis oportet non esse in genere substantiae. Non enim
+<lb ed="#L" n="33"/>intelligunt, sicut aliqui arguunt contra ipsos, quod nullum accidens imme-
+<pb ed="#L" n="122"/>
+               <lb ed="#L" n="1"/>diate possit inesse substantiae, sed quod tale accidens non inest subiecto
+<lb ed="#L" n="2"/>immediate quod intelligitur "nomine operationis, cuius esse est sic 
+varia<lb break="no" ed="#L" n="3"/>bile et dependens et quasi in fieri existens. Cum argui tur de esse respectu
+<lb ed="#L" n="4"/>essentiae dicendum est quod licet esse illud quod dicit dicat per modum
+<lb ed="#L" n="5"/>actus fluentis, essentia vero per modum substantiae quiescentis, tamen ista
+<lb ed="#L" n="6"/>duo unam et eamdem rem  simpliciter dicunt. Et sic non est verum quod
+<lb ed="#L" n="7"/>esse dicat aliquem actum realiter differentem ab ipsa et cuius ipsa essentia
+<lb ed="#L" n="8"/>sit principium. Item cum dicitur  secundum Augustinum, nono de trinitate,
+<lb ed="#L" n="9"/>quod intelligere et diligere sunt quaedam vivere sive quaedam vitae, quare
+<lb ed="#L" n="10"/>oportet quod subiectum istorum immediatum sit vivens, scilicet anima —
+<lb ed="#L" n="11"/>nullum enim accidens potest esse quid vivens et cetera, — est dicendum quod
+<lb ed="#L" n="12"/>sicut distinguimus de esse primo et secundo, ita et de vivere. Primus actus
+<lb ed="#L" n="13"/>vitae est viventis per se quod est substantia animae separatae vel 
+sub<lb break="no" ed="#L" n="14"/>stantia composita per animam tamen, secundus est substantiae mediante
+<lb ed="#L" n="15"/>sua proprietate. Immo omnia accidentia sunt esse quaedam et sunt entis
+<lb ed="#L" n="16"/>per se quod est substantia, cuius est esse simpliciter, et ista accidentia sunt
+<lb ed="#L" n="17"/>principia quarumdam actionum quae etiam sunt esse quaedam et sunt ipsius
+<lb ed="#L" n="18"/>substantiae ut principalis agentis, aliorum autem ut rationum agendi. 
+Cali<lb break="no" ed="#L" n="19"/>ditas  enim est entitas quaedam, ignis et calere est actus quidam vel esse
+<lb ed="#L" n="20"/>quoddam eius, sed non substantiale, et ideo licet esse substantiae sit, non
+<lb ed="#L" n="21"/>est tamen eius  secundum se, sed secundum quod calida, et ita de calefacere
+<lb ed="#L" n="22"/>intelligendum est. Et sic licet intelligere sit vivere et esse quoddam, non est
+<lb ed="#L" n="23"/>tamen esse nec vivere substantiale animae, cum anima manente hoc circa
+<lb ed="#L" n="24"/>ipsam varietur ; et ideo licet sit actus animae cuius est vivere principaliter,
+<lb ed="#L" n="25"/>illud tamen non est  eius nisi mediante sua aliqua  proprietate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

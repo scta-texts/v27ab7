@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g00482"><!-- v27ab7-q5-q2 -->
+            <head xml:id="v27ab7-g00482-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-g00482-Hd1e101" type="question-title">
+        Utrum Deus possit ex materia. corruptibilis producere aliquod corpus incorruptibile
+      </head>
+            <p xml:id="v27ab7-g00482-d1e104">
+               <pb ed="#L" n="7"/>
+               <lb ed="#L" n="1"/>QUAESTIO II.
+<lb ed="#L" n="2"/>Utrum Deus possit ex materia. corruptibilis producere
+<lb ed="#L" n="3"/>aliquod corpus incorruptibile.
+</p>
+            <p xml:id="v27ab7-g00482-d1e115">
+               <lb ed="#L" n="4"/>Postea arguebatur ad secundum, quod Deus possit ex materia corporis
+<lb ed="#L" n="5"/>corruptibilis producere corpus aliquod incorruptibile per naturam, quia
+<lb ed="#L" n="6"/>materia non est causa corruptionis nisi ratione privationis quae machinatur
+<lb ed="#L" n="7"/>ad maleficium et corruptionem. Privatio autem non est in materia nisi
+<lb ed="#L" n="8"/>materia sit sub forma habente contrarium : tali enim formae est annexa
+<lb ed="#L" n="9"/>privatio. Corpus ergo, in quo est materia sub forma non habente 
+contra<lb break="no" ed="#L" n="10"/>rium, cum careat causa corruptionis, est incorruptibille per naturam. Sed
+<lb ed="#L" n="11"/>Deus posset producere ex materia corporis corruptibilis aliquod corpus in
+<lb ed="#L" n="12"/>quo esset forma non habens contrarium, et sic in illo non esset privatio,
+<lb ed="#L" n="13"/>et sic nec causa corruptionis esset in eo; ergo esset incorruptibile per
+<lb ed="#L" n="14"/>naturam. Maior patet per Philosophum, primo Physicorum, minor probatur.
+<lb ed="#L" n="15"/>Nam forma caeli est forma non habens contrarium, quod patet ex eo quod
+<lb ed="#L" n="16"/>caelo non competunt proprietates contrarietatem importantes, quia nec est
+<lb ed="#L" n="17"/>leve, nec grave, nec calidum, nec frigidum, et cetera. Sed Deus posset
+<lb ed="#L" n="18"/>ex materia terrae producere aliquod corpus caeleste, tum quia videretur
+<lb ed="#L" n="19"/>derogare divinae omnipotentiae si non posset quamcumque formam 
+mate<lb break="no" ed="#L" n="20"/>ralem producere in quacumque materia, tum quia secundum sanctos
+<lb ed="#L" n="21"/>aliquos et plures doctores, caelum quod nunc existit productum est ex
+<lb ed="#L" n="22"/>materia eiusdem rationis cum materia elementorum. Sed qua ratione Deus
+<lb ed="#L" n="23"/>produxit caelum ex tali materia, cum non praeexisteret prius sub forma
+<lb ed="#L" n="24"/>contrarium habente, posset et iam ex materia quae nunc est sub forma 
+cor<lb break="no" ed="#L" n="25"/>ruptibili tale corpus incorruptibile producere.
+</p>
+            <p xml:id="v27ab7-g00482-d1e165">
+               <lb ed="#L" n="26"/>Contra. Quae non communicant in genere non communicant ! in
+<lb ed="#L" n="27"/>materia eiusdem rationis. Sed corruptibile et incorruptibile non 
+commu<lb break="no" ed="#L" n="28"/>nicant in genere, ut patet per Philosophum, nono  Metaphysicae. Ergo
+<lb ed="#L" n="29"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g00482-d1e177">
+               <lb ed="#L" n="30"/>Respondeo dicendum, quod secundum illos qui dicunt Deum posse
+<lb ed="#L" n="31"/>separare secundum esse omnia quae important diversitatem in essentia,
+<pb ed="#L" n="8"/>
+               <lb ed="#L" n="1"/>scilicet motum a mobili, materiam ! a forma, et albedinem a quantitate,
+<lb ed="#L" n="2"/>videretur forte dicendum quod etiam omne ens posset cuilibet enti unire,
+<lb ed="#L" n="3"/>et quamlibet formam cuilibet materiae, et sic posset formam angeli sive
+<lb ed="#L" n="4"/>angelum qui est forma quaedam, vel formam caeli producere in materia,
+<lb ed="#L" n="5"/>vel ex materia elementi, vel alterius corporis corruptibilis: tale autem esset
+<lb ed="#L" n="6"/>incorruptibile. Sed non video quomodo omnia talia sint possibilia ; 
+con<lb break="no" ed="#L" n="7"/>fiteor tamen Deum posse omne illud quod contradictionem non includit,
+<lb ed="#L" n="8"/>licet non intelligam omnia quae facere potest.
+</p>
+            <p xml:id="v27ab7-g00482-d1e203">
+               <lb ed="#L" n="9"/>Quia ergo, sicut contradictionem videtur importare quod Deus formam
+<lb ed="#L" n="10"/>secundum se subsistentem, a materia nullo modo dependentem, vel ad
+<lb ed="#L" n="11"/>ipsam habitudinem essentialem nullam habentem, faceret in materia ; et sic
+<lb ed="#L" n="12"/>illud quod est omnino independens a materia ab illa per se et essentiali
+<lb ed="#L" n="13"/>habitudine dependeret, et quod est omnino immateriale faceret materiale,
+<lb ed="#L" n="14"/>et sic idem esset materiale et immateriale, — ita etiam quod in materia quae,
+<lb ed="#L" n="15"/>quantum est de se, nata est esse sub omnibus formis materialibus et sic,
+<lb ed="#L" n="16"/>quia nullam sibi determinat, cum est sub una appetit esse naturaliter sub
+<lb ed="#L" n="17"/>alia, et talis appetitus inseparabilis est a materia et necessario includit
+<lb ed="#L" n="18"/>veram privationem eo quod diminute perfecta est quia caret forma qua
+<lb ed="#L" n="19"/>nata est perfici, fiat aliqua formarum secundum naturam suam inseparabilis
+<lb ed="#L" n="20"/>a materia, videtur contradictionem importare. Nam ex hoc quod poneretur
+<lb ed="#L" n="21"/>talis materia secundum se esse in potentia ad formam aliam, poneretur 
+natu<lb break="no" ed="#L" n="22"/>raliter spoliabilis ab illa sub qua sic esset, eo quod non posset esse simul
+<lb ed="#L" n="23"/>sub pluribus. Ex hoc autem quod tale corpus poneretur naturaliter 
+incor<lb break="no" ed="#L" n="24"/>ruptibile, talis forma poneretur naturaliter a materia  inseparabilis , et sic
+<lb ed="#L" n="25"/>poneretur separabilis et inseparabilis ; et ideo videtur quod impossibile
+<lb ed="#L" n="26"/>sit fieri aliquod  corpus incorruptibile per naturam ex materia tali. Dictum
+<lb ed="#L" n="27"/>est enim alibi diffusius quod licet materiale non possit converti in purum
+<lb ed="#L" n="28"/>immateriale, non est tamen negandum quin possit converti in materiale
+<lb ed="#L" n="29"/>compositum ex vera materia et forma non sic omnino in materiali ; quin
+<lb ed="#L" n="30"/>vere det esse et actum primum composito, faciens unum ens per se cum
+<lb ed="#L" n="31"/>ipsa materia quae est principalis ratio quod talia sunt convertibilia ad
+invicem. Immo etiam generaliter loquendo, impossibile est aliquod corpus
+<lb ed="#L" n="32"/>incorruptibile per naturam habere quamcumque veram materiam partem
+<lb ed="#L" n="33"/>sui, appellando veram materiam id quod excludit omnem actualitatem et
+<lb ed="#L" n="34"/>de se non importat nisi puram potentiam in genere substantiae, quia cum
+<lb ed="#L" n="35"/>talis res ratione suae talis potentiae de se sit indifferens ad esse et non
+<pb ed="#L" n="9"/>
+               <lb ed="#L" n="1"/>esse simpliciter, et sic est id quo aliquid habet potentiam qua potest esse
+<lb ed="#L" n="2"/>et non esse simpliciter, omne illud in quo est talis natura est naturaliter
+<lb ed="#L" n="3"/>corruptibile, habens naturam per quam potest non esse. Unde dicit 
+Philo<lb break="no" ed="#L" n="4"/>sophus nono Metaphysicae, quod nihil in quo est potentia est 
+sempiter<lb break="no" ed="#L" n="5"/>num, quia omnis potentia ad esse est contradictionis, et ideo illud quod
+<lb ed="#L" n="6"/>habet potentiam ad esse habet etiam potentiam ad non esse.
+</p>
+            <p xml:id="v27ab7-g00482-d1e279">
+               <lb ed="#L" n="7"/>Nec potest dici quod ista et consimilia dicta sunt intelligenda de illa
+<lb ed="#L" n="8"/>potentia ad esse quae est potentia primae materiae generabilium et 
+corrup<lb break="no" ed="#L" n="9"/>tibilium, quae dicitur hyle, sed est quaedam alia potentia et alia materia
+<lb ed="#L" n="10"/>corporum incorruptibilium differens ab illa, non per aliquid sibi additum,
+<lb ed="#L" n="11"/>sed per habitudinem ad aliam et aliam formam, scilicet quia materia caeli
+<lb ed="#L" n="12"/>habet habitudinem ad formam quasi universalem et perfectam, alia vero !
+<lb ed="#L" n="13"/>habet habitudinem ad particulares et imperfectas. Ex quo enim haec 
+habi<lb break="no" ed="#L" n="14"/>tudo non tollit quin haec materia et illa sit de se potentia ad esse 
+sim<lb break="no" ed="#L" n="15"/>pliciter, nullam actualitatem secundum quamcumque formam includendo,
+<lb ed="#L" n="16"/>nullam differentiam potest hoc ponere in natura materiae. Cum etiam
+<lb ed="#L" n="17"/>habitudo materiae non sit nisi quidam appetitus quo inclinatur materia
+<lb ed="#L" n="18"/>ad formam, materia quae est talis potentia ad esse simpliciter non potest
+<lb ed="#L" n="19"/>determinari ad habitudinem determinatam respectu alicuius formae 
+deter<lb break="no" ed="#L" n="20"/>minatae, ita quod quaecumque alia habitudo ad quamcumque formam
+<lb ed="#L" n="21"/>aliam excludatur. Unde non potest convenienter dici quod materia, quae
+<lb ed="#L" n="22"/>est talis potentia, appetat aliquas formas secundum quod sunt imperfectae
+<lb ed="#L" n="23"/>vel non potentes perficere totum appetitum materiae : hoc enim est ex
+<lb ed="#L" n="24"/>imperfectione formae in quantum nulla est quae perfecte possit totum
+<lb ed="#L" n="25"/>appetitum materiae terminare . Potentia enim materiae est sic infinita
+<lb ed="#L" n="26"/>quod, cum sit ad esse simpliciter, quocumque esse acquisito per 
+quam<lb break="no" ed="#L" n="27"/>cumque formam, cum adhuc sit nata esse sub alia forma dante aliquod
+<lb ed="#L" n="28"/>esse simpliciter, materiae appetitus remanet indeterminatus respectu illius,
+<lb ed="#L" n="29"/>et ita est de omnibus. Unde non potest poni diversitas in essentia materiae
+<lb ed="#L" n="30"/>talis ex diversitate  formarum quarum una perfectior et universalior 
+<lb ed="#L" n="31"/>altera, quia materia quae non est nisi potentia ad esse secundum se,
+<lb ed="#L" n="32"/>indifferens est ad omnes. Item arguit sic Commentator, primo Caeli et
+<lb ed="#L" n="33"/>mundi: si caelum haberet materiam quae est potentia ad esse aliquid,
+<lb ed="#L" n="34"/>esset frustra in natura, quia propria operatio potentiae est corruptio et
+<lb ed="#L" n="35"/>generatio 5, vel transmutatio de forma in formam. Si ergo esset aliqua
+<lb ed="#L" n="36"/>materia quae de se est in potentia ad esse, sine generatione et corruptione,
+<pb ed="#L" n="10"/>
+               <lb ed="#L" n="1"/>contingeret quod aliquod ens esset sine actione, propter quam est 
+huius<lb break="no" ed="#L" n="2"/>modi sua potentia et cetera. Et ex istis apparet quod manifestum 
+inconve<lb break="no" ed="#L" n="3"/>niens est dicere quod in caelo est materia eiusdem rationis cum materia
+<lb ed="#L" n="4"/>corruptibilium, et ex hoc etiam patet quod nec hoc est possibile.
+</p>
+            <p xml:id="v27ab7-g00482-d1e357">
+               <lb ed="#L" n="5"/>Et ad evidentiam solutionis rationis ad hoc factae est intelligendum
+<lb ed="#L" n="6"/>quod, secundum doctrinam Philosophi in primo Physicorum, ista tria sunt
+<lb ed="#L" n="7"/>ab! invicem omnino inseparabilia, scilicet materia prima ?, et privatio,
+<lb ed="#L" n="8"/>et contrarium sive forma contraria formae generandae, quia ubicumque est
+<lb ed="#L" n="9"/>unum ? istorum, sunt alia duo. Quia enim materia quae quantum est de se
+<lb ed="#L" n="10"/>est pura potentia in genere substantiae, nullum actum substantialem sibi
+<lb ed="#L" n="11"/>determinat, sed ad omnes formas materiales quantum est de se est 
+indiffe<lb break="no" ed="#L" n="12"/>rens, propter quod non potest esse sine omni forma, sed oportet quod
+<lb ed="#L" n="13"/>semper sit sub aliqua formarum ad quas de se sic est in potentia, et quia 
+<lb ed="#L" n="14"/>cum est sub una non potest esse simul sub alia ad quam tamen quantum
+<lb ed="#L" n="15"/>est de se est in potentia; — ideo materia semper est sub privatione
+<lb ed="#L" n="16"/>omnium formarum, una excepta. Sed sicut est ordo in formis et gradus in
+<lb ed="#L" n="17"/>contrarietate earum, ita etiam suo modo est in privationibus. Unde dicit
+<lb ed="#L" n="18"/>Commentator primo Physicorum, privatio universaliter non separatur
+<lb ed="#L" n="19"/>a materia, quia quantumcumque forma admiscetur cum illa  materia,
+<lb ed="#L" n="20"/>tantum admiscetur cum privatione formae oppositae illi formae cui
+<lb ed="#L" n="21"/>admiscetur, et ipsa non habet in se formam propriam neque privationem
+<lb ed="#L" n="22"/>propriam et cetera.
+</p>
+            <p xml:id="v27ab7-g00482-d1e399">
+               <lb ed="#L" n="23"/>Nec aliud est privationem esse in materia, vel esse annexam formae
+<lb ed="#L" n="24"/>contrariae vel quae habet contrarium, quam materiam esse sub aliqua
+<lb ed="#L" n="25"/>forma determinata qua determinate  perficitur et qua in existente materia
+<lb ed="#L" n="26"/>caret alia qua nata est perfici. Privatio enim nihil aliud est quam negatio
+<lb ed="#L" n="27"/>vel carentia alicuius formae qua nata est perfici subiectum cuius est illa
+<lb ed="#L" n="28"/>negatio. Unde dicitur quod non est negatio simpliciter , sed negatio in
+<lb ed="#L" n="29"/>subiecto apto. Sed quacumque forma posita in materia tali quae secundum
+<lb ed="#L" n="30"/>se est in potentia ad omnes formas naturales, omnia ista concurrunt. Ideo
+<lb ed="#L" n="31"/>impossibile est privationem a materia separari quae est indifferens de se
+<lb ed="#L" n="32"/>ad plures formas sive in qua communicant plures formae. Nam, ut iam
+<lb ed="#L" n="33"/>dictum est, privationem esse in materia nihil aliud est quam ipsam 
+mate<lb break="no" ed="#L" n="34"/>riam carere forma quae communicat in ea cum forma sub qua est, non
+<lb ed="#L" n="35"/>compatiente secum aliam, ipsa materia necessario existente sub aliqua
+<lb ed="#L" n="36"/>forma, sicut in substantia dicitur forma formae contraria nonnisi ex hoc
+<pb ed="#L" n="11"/>
+               <lb ed="#L" n="1"/>quod communicant in eodem subiecto sive in eadem materia ! a qua mutuo
+<lb ed="#L" n="2"/>se expellunt, quia in ipsa non possunt simul esse. Unde omnis forma
+<lb ed="#L" n="3"/>substantialis quae est in materia in qua, quantum est de se, nata est esse
+<lb ed="#L" n="4"/>alia forma, est illi alteri formae contraria. Et haec est causa quare omnia
+<lb ed="#L" n="5"/>quae communicant in materia eiusdem rationis sunt ad invicem 
+trans<lb break="no" ed="#L" n="6"/>mutabilia, unitas scilicet et indifferentia subiecti respectu formarum. Unde
+<lb ed="#L" n="7"/>dicit Philosophus octavo Metaphysicae : Omnia quae sunt ex eadem materia
+<lb ed="#L" n="8"/>unum generatur ex reliquo. Idem etiam dicit primo de Generatione quod ?
+<lb ed="#L" n="9"/>quae communicant in materia sunt ad invicem transmutabilia, ex quo potest
+<lb ed="#L" n="10"/>argui a destructione consequentis : quae non sunt ad invicem 
+transmuta<lb break="no" ed="#L" n="11"/>bilia non communicant in materia.
+</p>
+            <p xml:id="v27ab7-g00482-d1e458">
+               <lb ed="#L" n="12"/>Cum autem dicitur ad talia dicta Philosophi, quod verum est quod
+<lb ed="#L" n="13"/>quae non sunt ad invicem transmutabilia non communicant in materia, ut
+<lb ed="#L" n="14"/>est transmutationis subiectum et ut est privationi coniuncta, quia sic est
+<lb ed="#L" n="15"/>principium transmutationis, sed non oportet quod non communicent in
+<lb ed="#L" n="16"/>materia ut secundum suam essentiam consideratur, — parum videntur a sic
+<lb ed="#L" n="17"/>dicentibus talia dicta Philosophi reputari; quia per hoc imponitur 
+Philo<lb break="no" ed="#L" n="18"/>sopho quod dictum suum non sit per se verum, et casuale dictum sive per
+<lb ed="#L" n="19"/>casum sed importet petitionem principii. Ouia cum dicitur quod quae? non
+<lb ed="#L" n="20"/>sunt ad invicem transmutabilia, non communicant in materia et cetera,
+<lb ed="#L" n="21"/>si hoc sic intelligatur quod verum sit quod quae communicant in materia
+<lb ed="#L" n="22"/>ut est transmutationis subiectum sunt ad invicem transmutabilia, tunc
+<lb ed="#L" n="23"/>dictum suum importat petitionem principii ut nihil aliud sit dictum: quae 
+<lb ed="#L" n="24"/>communicant in materia ? sunt ad invicem transmutabilia — quam quae 
+<lb ed="#L" n="25"/>sunt ad invicem transmutabilia sunt ad invicem transmutabilia. In hoc
+<lb ed="#L" n="26"/>enim quod dico : materia ut est subiecta transmutationi, importatur 
+trans<lb break="no" ed="#L" n="27"/>mutabilitas aliquorum ; illa ergo dicere esse transmutabilia est dicere
+<lb ed="#L" n="28"/>transmutabilia esse transmutabilia. Ergo cum Philosophus non intendat,
+<lb ed="#L" n="29"/>nec consuevit sic loqui sed causaliter, et idem sit causa transmutabilitatis
+<lb ed="#L" n="30"/>aliquorum et huius quod est materiam  esse subiectam transmutationi, non
+<lb ed="#L" n="31"/>potest etiam hoc esse intentio Philosophi ut velit dicere quod materia ut
+<lb ed="#L" n="32"/>est subiecta transmutationi est causa quare aliqua ad invicem 
+trans<lb break="no" ed="#L" n="33"/>mutantur ; — sic enim aliquid esset causa sui ipsius, — sed intendit quod
+<lb ed="#L" n="34"/>ipsa identitas materiae in pluribus per se est causa transmutationis eorum
+<lb ed="#L" n="35"/>ad invicem. Quod patet per hoc quod dicit septimo Metaphysicae : materia
+<lb ed="#L" n="36"/>in unoquoque est per quod est possibile esse et non esse. Unde ubique
+<pb ed="#L" n="12"/>
+               <lb ed="#L" n="1"/>manifeste intelligit Philosophus quod impossibile est aliqua communicare in
+<lb ed="#L" n="2"/>materia eiusdem rationis secundum ipsam essentiam materiae, et illa non
+<lb ed="#L" n="3"/>esse transmutabilia naturaliter ad invicem, licet materia numquam sit 
+trans<lb break="no" ed="#L" n="4"/>mutabilis absque contrario et privatione; quae secundum ipsum etiam
+<lb ed="#L" n="5"/>impossibile est a materia separari universaliter; immo cum corrumpitur '
+<lb ed="#L" n="6"/>una privatio per accessum formae qua prius materia carebat, statim adest
+<lb ed="#L" n="7"/>privatio alterius.
+</p>
+            <p xml:id="v27ab7-g00482-d1e533">
+               <lb ed="#L" n="8"/>Ex praedictis ergo patet quod ponentes in caelo materiam eiusdem
+<lb ed="#L" n="9"/>rationis cum materia elementorum et tamen dicunt ipsum esse 
+incorrupti<lb break="no" ed="#L" n="10"/>bile per naturam, contradictoria simul ponunt. Nam in hoc quod dicunt
+<lb ed="#L" n="11"/>quod materia non est subiectum transmutabile nisi cum est sub privatione
+<lb ed="#L" n="12"/>et sub forma contraria, verum dicunt, sed ista sunt a materia 
+insepa<lb break="no" ed="#L" n="13"/>rabilia et ista non sunt per se et primo totalis ratio transmutabilitatis rerum
+<lb ed="#L" n="14"/>corruptibilium, sed ipsa essentia materiae quae tamen non potest esse
+<lb ed="#L" n="15"/>sine his. Cum autem dicitur quod forma caeli non habet contrarium nec
+<lb ed="#L" n="16"/>privationem annexam verum dicitur, sed cum dicitur quod est in materia
+<lb ed="#L" n="17"/>eiusdem rationis cum materia elementorum iam contradictoria ponuntur ,
+<lb ed="#L" n="18"/>unum ratione materiae, aliud ratione ipsius formae secundum se. Nam ex
+<lb ed="#L" n="19"/>hoc quod est in materia quae est talis naturae quod est in potentia dicto
+<lb ed="#L" n="20"/>modo quae non potest separari a privatione et contrario, ponitur forma esse
+<lb ed="#L" n="21"/>habens contrarium et cui privatio est annexa. Ex hoc autem quod dicitur
+<lb ed="#L" n="22"/>quod eam non consequitur  neque gravitas neque levitas neque calidum
+<lb ed="#L" n="23"/>neque frigidum et huiusmodi, ponitur quod est non habens contrarium et
+<lb ed="#L" n="24"/>ideo sic ponendo ponunt contradictoria.
+</p>
+            <p xml:id="v27ab7-g00482-d1e572">
+               <lb ed="#L" n="25"/>Per dicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

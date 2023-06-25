@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g02873"><!-- v27ab7-q5-q10 -->
+            <head xml:id="v27ab7-g02873-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-g02873-Hd1e101" type="question-title">
+      Utrum intellectus agens efficit aliquam dispositionem circa phantasma
+    </head>
+            <p xml:id="v27ab7-g02873-d1e104">
+               <pb ed="#L" n="35"/>
+               <lb ed="#L" n="1"/>QUAESTIO X.
+<lb ed="#L" n="2"/>Utrum intellectus agens efficit aliquam dispositionem
+<lb ed="#L" n="3"/>circa phantasma.
+</p>
+            <p xml:id="v27ab7-g02873-d1e115">
+               <lb ed="#L" n="4"/>Consequenter ad tertium praedictorum arguebatur quod intellectus
+<lb ed="#L" n="5"/>agens aliquid facit circa rem sive circa phantasma quod est 
+repraesenta<lb break="no" ed="#L" n="6"/>tivum rel intelligibilis, quia, secundum Commentatorem, intellectus facit
+<lb ed="#L" n="7"/>universalitatem in rebus. Et hoc arguitur ratione : cum aliquid est agens
+<lb ed="#L" n="8"/>vel movens in potentia, si fiat agens vel movens in actu, oportet quod
+<lb ed="#L" n="9"/>ipsum aliquo modo transmutetur, et quod circa ipsum fiat aliquid quod de
+<lb ed="#L" n="10"/>se non habet; ergo cum res quae erat intelligibilis in potentia fiat 
+intelli<lb break="no" ed="#L" n="11"/>gibilis et movens intellectum possibilem in actu, et hoc virtute intellectus
+<lb ed="#L" n="12"/>agentis, oportet quod circa ipsam aliquid fiat ab intellectu agente.
+</p>
+            <p xml:id="v27ab7-g02873-d1e137">
+               <lb ed="#L" n="13"/>Contra. Secundum Commentatorem tertio de Anima, aliquo modo se
+<lb ed="#L" n="14"/>habet intellectus agens ad possibilem sicut artifex ad naturam, et ad 
+intel<lb break="no" ed="#L" n="15"/>lectum in actu sicut artificium ! ad artem. Ergo, ut videtur, circa id quod
+<lb ed="#L" n="16"/>est extra ipsum, scilicet circa rem vel phantasma, nihil facit ; sed circa 
+intel<lb break="no" ed="#L" n="17"/>lectum ipsum  possibilem.
+</p>
+            <p xml:id="v27ab7-g02873-d1e151">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod, cum intellectus noster de potentia 
+redu<lb break="no" ed="#L" n="19"/>catur in actum, et aliquando sit intelligens in actu, aliquando intelligens in
+<lb ed="#L" n="20"/>potentia, et nihil reducit seipsum de potentia in actum, oportet ponere
+<lb ed="#L" n="21"/>aliquod? agens, virtute cuius sive quo movente reducatur de potentia in
+<lb ed="#L" n="22"/>actum. Ideo cum intellectus existens in actu intelligendi dicat quoddam
+<lb ed="#L" n="23"/>compositum, ad constitutionem ipsius compositi requiritur agens et patiens.
+<lb ed="#L" n="24"/>Prout enim dicit Commentator, tertio de Anima , quemadmodum enim in
+<lb ed="#L" n="25"/>generatione rerum naturalium generabilium et corruptibilium necesse est
+<lb ed="#L" n="26"/>esse tria ex natura illius generis, agens scilicet, patiens, et factum, ita debet
+<lb ed="#L" n="27"/>esse in intellectu, et sic intellectus agens videtur dici agens respectu 
+possi<lb break="no" ed="#L" n="28"/>bilis. Sed cum semper sit naturaliter coniunctus ipsi intellectui possibili,
+<lb ed="#L" n="29"/>non videtur quod aliquam novam actionem faciat in ipsum, nisi vel prius in
+<lb ed="#L" n="30"/>ipso intellectu agente sit aliquid de novo factum, ratione cuius potest agere
+<pb ed="#L" n="36"/>
+               <lb ed="#L" n="1"/>in possibilem cum prius hoc non posset, vel nisi ipse intellectus agens
+<lb ed="#L" n="2"/>de novo aliquid faciat circa phantasma vel obiectum quod prius non 
+facie<lb break="no" ed="#L" n="3"/>bat, ratione cuius phantasma vel obiectum potest movere et immutare 
+intel<lb break="no" ed="#L" n="4"/>lectum possibilem ad actum intelligendi quod prius facere non valebat.
+<lb ed="#L" n="5"/>Primum est irrationale ', nam si hoc contingeret, iam intellectus agens 
+pos<lb break="no" ed="#L" n="6"/>sibilis et passibilis diceretur, quod est falsum. Ergo relinquitur secundum.
+<lb ed="#L" n="7"/>Sed tamen, nec hic modus quo per intellectum agentem reducatur 
+intel<lb break="no" ed="#L" n="8"/>lectus possibilis ad actum intelligendi sic quod, praesente phantasmate,
+<lb ed="#L" n="9"/>aliquid fiat per intellectum agentem circa ipsum, quod prius non fiebat, est
+<lb ed="#L" n="10"/>bene manifestum.
+</p>
+            <p xml:id="v27ab7-g02873-d1e206">
+               <lb ed="#L" n="11"/>Sed cum agens et patiens per se ad invicem referuntur , et intellectus
+<lb ed="#L" n="12"/>agens dicitur agens respectu intellectus qui possibilis dicitur, videtur quod
+<lb ed="#L" n="13"/>actio intellectus agentis per se sit in ipsum intellectum possibilem, non in
+<lb ed="#L" n="14"/>phantasmata, quia respectu illorum per se et immediate non videtur dici
+<lb ed="#L" n="15"/>agens, licet sua actio in intellectu possibili non sit sine illis vel illorum
+<lb ed="#L" n="16"/>praesentia, et licet etiam actio sua aliquo modo terminetur ad illa vel 
+susci<lb break="no" ed="#L" n="17"/>piatur ab illis. Quod enim intellectus agens primo et immediate agat aliquid
+<lb ed="#L" n="18"/>sive aliquam dispositionem vel virtutem circa phantasmata ipsa, qua 
+phan<lb break="no" ed="#L" n="19"/>tasmata quae prius erant potentia intelligibilia fiant actu intelligibilia sive
+<lb ed="#L" n="20"/>in actu moventia intellectum possibilem, non videtur. Nam quicquid fieri
+<lb ed="#L" n="21"/>posset in phantasmatibus quae sunt in phantasia esset aliquid in phantasia
+<lb ed="#L" n="22"/>organica et haberet esse signatum sicut ipsa phantasmata, et per huiusmodi
+<lb ed="#L" n="23"/>dispositionem non possent fieri phantasmata intelligibilia. Quicquid enim
+<lb ed="#L" n="24"/>est circa singulare, et singularem modum essendi habens, est etiam 
+sin<lb break="no" ed="#L" n="25"/>gulare singularem modum habens ; cum tali autem dispositione intelligibile
+<lb ed="#L" n="26"/>in potentia sicut est phantasma non potest movere intellectum vel actu
+<lb ed="#L" n="27"/>intelligibile fieri.
+</p>
+            <p xml:id="v27ab7-g02873-d1e245">
+               <lb ed="#L" n="28"/>Item cum universaliter agens sit praestantius patiente, secundum
+<lb ed="#L" n="29"/>Augustinum duodecimo super Genesim, ipsum autem phantasma vel 
+obiec<lb break="no" ed="#L" n="30"/>tum materiale sub quacumque dispositione existente in ipso, ut existit in
+<lb ed="#L" n="31"/>phantasmate, vel singulariter, non potest esse praestantius intellectu 
+possi<lb break="no" ed="#L" n="32"/>bili, ideo videtur quod intellectus agens aliquid non possit agere circa
+<lb ed="#L" n="33"/>phantasma quo possit fieri actu intelligibile et movens intellectum.
+</p>
+            <p xml:id="v27ab7-g02873-d1e261">
+               <lb ed="#L" n="34"/>Et secundum hoc ad videndum quid ? intellectus agens faciat  circa
+<lb ed="#L" n="35"/>phantasmata, quia ipsa  spiritualia secundum se intelligere non possimus,
+<lb ed="#L" n="36"/>declaratur hoc nobis per quasdam similitudines et metaphoras, et dicitur
+<lb ed="#L" n="37"/>quod intellectus agens est quasi lumen intellectuale se habens ad intel-
+<pb ed="#L" n="37"/>
+               <lb ed="#L" n="1"/>lectum possibilem et ad phantasma sive ad obiectum repraesentatum in
+<lb ed="#L" n="2"/>phantasmate, sicut lux sensibilis ad medium et organum et ad colorem ;
+<lb ed="#L" n="3"/>ut sicut organum visus vel medium diaphanum non posset recipere speciem
+<lb ed="#L" n="4"/>coloris nisi virtute luminis ipsum illustrantis, nec color posset sua specie
+<lb ed="#L" n="5"/>immutare vel movere hoc sine ipsa luce, ita potest in proposito adaptari.
+</p>
+            <p xml:id="v27ab7-g02873-d1e285">
+               <lb ed="#L" n="6"/>Sed adhuc non quiescit intellectus, quia in luce sensibili videtur 
+dicen<lb break="no" ed="#L" n="7"/>dum quod, quia per ipsam habet medium aliquam dispositionem quam
+<lb ed="#L" n="8"/>prius non habebat, est receptivum speciei quam prius recipere non poterat,
+<lb ed="#L" n="9"/>et! etiam si color, quantum est de se, illam agere posset. Si autem sicut
+<lb ed="#L" n="10"/>medium non potest huiusmodi  speciem ex se recipere nisi lumine 
+infor<lb break="no" ed="#L" n="11"/>matum, sic etiam color illum agere non potest de se, tunc videtur quod
+<lb ed="#L" n="12"/>sicut medium quod speciem coloris recipere non poterit aliquam 
+disposi<lb break="no" ed="#L" n="13"/>tionem recipit a luce, ita aliquam dispositionem recipiet color ad hoc quod
+<lb ed="#L" n="14"/>possit suam speciem efficere in medio. Ergo similiter in proposito remanet
+<lb ed="#L" n="15"/>quaerendum. Cum phantasma secundum se non possit movere intellectum
+<lb ed="#L" n="16"/>possibilem nisi illustratum lumine intellectus agentis, videtur quod illustratio
+<lb ed="#L" n="17"/>intellectus agentis aliquam dispositionem efficiat circa ipsum phantasma,
+<lb ed="#L" n="18"/>quia idem manens idem natum est facere idem. Ergo si praesente 
+illustra<lb break="no" ed="#L" n="19"/>tione intellectus agentis, phantasma sive id quod in phantasmate 
+reprae<lb break="no" ed="#L" n="20"/>sentatur fit ? intelligibile actu et movens intellectum possibilem actu, videtur
+<lb ed="#L" n="21"/>aliquid esse factum in ipso quod prius non erat; et tunc redit difficultas
+<lb ed="#L" n="22"/>supra inducta : quia omnis dispositio possibilis esse in phantasmate vel in
+<lb ed="#L" n="23"/>phantastico est singulare et modum singularis habens, cum tali autem 
+dis<lb break="no" ed="#L" n="24"/>positione non potest phantasma movere intellectum, ideo videtur dicendum
+<lb ed="#L" n="25"/>quod huiusmodi actio vel operatio intellectus agentis non est positiva sic
+<lb ed="#L" n="26"/>quod faciat aliquam dispositionem positivam et formalem subiective in
+<lb ed="#L" n="27"/>phantasmate; sed est huiusmodi operatio vel actio per modum cuiusdam
+<lb ed="#L" n="28"/>remotionis et abstractionis vel sequestrationis unius ab altero, non quidem
+<lb ed="#L" n="29"/>secundum rem, sed secundum immutandi rationem.
+</p>
+            <p xml:id="v27ab7-g02873-d1e340">
+               <lb ed="#L" n="30"/>Sicut enim si poneretur quod, cum albedo et dulcedo lactis simul sunt
+<lb ed="#L" n="31"/>quod lac, per seipsum absque praesentia luminis non posset se facere
+<lb ed="#L" n="32"/>in medio secundum speciem coloris vel albi quin faceret se secundum
+<lb ed="#L" n="33"/>speciem dulcis, sed lumine praesente facere posset se secundum speciem
+<lb ed="#L" n="34"/>albi absque specie dulcis, et sic diceretur fieri abstractio albi a dulci  non
+<lb ed="#L" n="35"/>secundum.rationem essendi sed secundum rationem immutandi ; ita etiam
+<lb ed="#L" n="36"/>cum in obiecto sensibili et singulari quod est aliqua substantia materialis
+<lb ed="#L" n="37"/>puta hic lapis, apprehenso per speciem phantasmatis singulariter, aliud sit
+<pb ed="#L" n="38"/>
+               <lb ed="#L" n="1"/>secundum rem ipsa quidditas, et aliud est designatio per accidentales 
+dis<lb break="no" ed="#L" n="2"/>positiones individuantes ; nam illud quod est in hoc lapide ad naturam
+<lb ed="#L" n="3"/>suam substantialem pertinens etsi sit particulatum et individuatum, tamen
+<lb ed="#L" n="4"/>ipsum quod est sic designatum et individuatum ! secundum se est quid non
+<lb ed="#L" n="5"/>individuatum et indesignatum. Et si secundum se, praeter huiusmodi 
+indi<lb break="no" ed="#L" n="6"/>viduantia, existeret id ipsum quod sic est  individuatum, videretur esse
+<lb ed="#L" n="7"/>quoddam intelligibile per se ; nec ad hoc quod intelligeretur videretur esse
+<lb ed="#L" n="8"/>aliqua abstractio vel sequestratio necessaria. Ergo ipsam sic existentem
+<lb ed="#L" n="9"/>particulatam impedit intelligi hoc solum, quod sic existit et sic in 
+phantas<lb break="no" ed="#L" n="10"/>mate repraesentatur. Sicut ergo qui ipsam realiter ab huiusmodi 
+condi<lb break="no" ed="#L" n="11"/>tionibus separaret, sive qui illa realiter excluderet et amoveret, potentia
+<lb ed="#L" n="12"/>intelligibile faceret actu intelligibile, absque hoc quod aliquam dispositionem
+<lb ed="#L" n="13"/>formalem in ipsa quidditate substantiali efficeret , sed prohibens quodam
+<lb ed="#L" n="14"/>modo removeret; ita etiam separans ipsam sic secundum considerationem,
+<lb ed="#L" n="15"/>sive faciens quod id quod est in hoc lapide suae quidditatis substantialis
+<lb ed="#L" n="16"/>absque conditionibus praedictis immutet aliquam potentiam, facit ipsam de
+<lb ed="#L" n="17"/>potentia intelligibili actu intelligibilem. Hoc autem fit quodam contactu
+<lb ed="#L" n="18"/>spirituali et virtuali luminis intellectus agentis, nam supponendum est quod
+<lb ed="#L" n="19"/>haec est natura intellectus agentis quod sua applicatione ad objectum 
+singu<lb break="no" ed="#L" n="20"/>lare vel phantasma quodam modo contingat illud sua virtute solum quantum
+<lb ed="#L" n="21"/>ad id quod pertinet dicto modo ad eius quidditatem substantialem; et hoc
+<lb ed="#L" n="22"/>est in natura talis obiecti singularis, scilicet quod sit praecise tactum sive
+<lb ed="#L" n="23"/>quod virtute intellectus agentis suo lumine ipsum contingentis, secundum
+<lb ed="#L" n="24"/>illud praecise scilicet secundum huiusmodi suam quidditatem, sic possit
+<lb ed="#L" n="25"/>movere ipsum intellectum possibilem. Et ista videntur concordare his quae
+<lb ed="#L" n="26"/>communiter dicuntur et his quae dixit Commentator in hac materia, tertio de
+<lb ed="#L" n="27"/>Anima, dicens quod intentiones imaginatae non sunt  solae moventes 
+intel<lb break="no" ed="#L" n="28"/>lectum possibilem extrahentes eum de potentia in actum. Ita enim non
+<lb ed="#L" n="29"/>esset differentia inter universale et individuum, et intellectus esset de genere
+<lb ed="#L" n="30"/>virtutis imaginativae. Unde cum hoc quod intentiones imaginatae se habent
+<lb ed="#L" n="31"/>ad intellectum possibilem sicut sensibilia ad sensum, oportet ponere alium
+<lb ed="#L" n="32"/>motorem qui facit eas in actu movere intellectum possibilem, et hoc nihil
+<lb ed="#L" n="33"/>aliud est quam facere eas intellectivas in actu, abstrahendo eas a materia.
+<lb ed="#L" n="34"/>Et ita quemadmodum visus non movetur a coloribus nisi quando fuerint in
+<lb ed="#L" n="35"/>actu, quod non completur nisi lumine praesente cum ipsum sit  extrahens
+<pb ed="#L" n="39"/>
+               <lb ed="#L" n="1"/>eos de potentia in actum, ita intentiones imaginatae non movent 
+intel<lb break="no" ed="#L" n="2"/>lectum materialem nisi quando fuerint intellecta ! in actu, quod non 
+perfi<lb break="no" ed="#L" n="3"/>citur in eis nisi aliquo praesente quod sit intellectus in actu. Abstrahere
+<lb ed="#L" n="4"/>enim intellecta nihil aliud est quam facere intentiones imaginatas in actu
+<lb ed="#L" n="5"/>postquam erant in potentia; intelligere enim nihil aliud est quam recipere
+<lb ed="#L" n="6"/>huiusmodi ? intentiones. Cum enim invenimus idem transferri in suo esse
+<lb ed="#L" n="7"/>de ordine in ordinem, scilicet intentiones imaginatas, dicimus quod necesse
+<lb ed="#L" n="8"/>est ut hoc sit a causa agente et recipiente ; reciplens ergo est materialis,
+<lb ed="#L" n="9"/>et agens est efficiens.
+</p>
+            <p xml:id="v27ab7-g02873-d1e461">
+               <lb ed="#L" n="10"/>Et secundum ista multa verificari possunt? communia dicta. Sic enim
+<lb ed="#L" n="11"/>verum est quod intellectus facit universalitatem in rebus, non quidem quod
+<lb ed="#L" n="12"/>per eius actionem contingat quod res secundum id quod sunt in seipsis
+<lb ed="#L" n="13"/>sint universales, sed sic quod eius actione vel virtute fit quod quidditas rei,
+<lb ed="#L" n="14"/>quae singulariter existit, per hoc quod per lumen intellectus agentis 
+attin<lb break="no" ed="#L" n="15"/>gitur secundum id quod est quidditas essentialis praeter designantia 
+acci<lb break="no" ed="#L" n="16"/>dentia, ab intellectu possibili sic apprehendatur. Illud enim quod sic ab
+<lb ed="#L" n="17"/>intellectu agente attingitur et intellectui possibili obicitur, quamvis in esse
+<lb ed="#L" n="18"/>quod habet cum determinatis conditionibus individuantibus ipsum, sit solius
+<lb ed="#L" n="19"/>Sortis determinate, secundum id tamen secundum quod attingitur sive id
+<lb ed="#L" n="20"/>quod solum  attingitur sic non plus est determinatum ad Sortem quam ad
+<lb ed="#L" n="21"/>Platonem. Sicut? enim materia Sortis ut secundum se absque omni forma
+<lb ed="#L" n="22"/>determinata considerata non plus est Sortis quam Platonis vel cuiuscumque
+<lb ed="#L" n="23"/>alterius, et sic in omnibus quadam unitate est una natura ; ita etiam forma
+<lb ed="#L" n="24"/>Sortis sive ipsa humanitas Sortis, ut praeter omnes conditiones praedictas
+<lb ed="#L" n="25"/>considerata, non plus est Sortis quam alterius, sed est id quod est aliquid
+<lb ed="#L" n="26"/>secundum se in tali specie vel natura ; et sic quadam unitate est una 
+huma<lb break="no" ed="#L" n="27"/>nitas in omnibus quia non importat in se unde in diversis distinguatur.
+<lb ed="#L" n="28"/>Unde Avicenna, quinto Metaphysicae : humanitas quae est in Platone,
+<lb ed="#L" n="29"/>ex eo quod humanitas, non est alia ab ea quae est in Socrate. Non est
+<lb ed="#L" n="30"/>tamen concedendum quod haec et illa sunt una numero. Hoc tamen, scilicet
+<lb ed="#L" n="31"/>ut absque diversitate numerali ipsa quidditas secundum se absolute 
+com<lb break="no" ed="#L" n="32"/>prehendatur, fit contactu luminis intellectus agentis praeter conditiones
+<lb ed="#L" n="33"/>individuantes ipsam quidditatem in se attingentis, ut dictum est ut sic
+<lb ed="#L" n="34"/>ipsum universale secundum formalem rationem sit in intellectu subiective,
+<lb ed="#L" n="35"/>quia ipse conceptus intellectus est universalis et abstractus, quia nec est in
+<lb ed="#L" n="36"/>subiecto designato nec est etiam obiecti quantum ad huiusmodi conditiones
+<pb ed="#L" n="40"/>
+               <lb ed="#L" n="1"/>designantes. Non sic autem universale est secundum formalem rationem in
+<lb ed="#L" n="2"/>re extra, quia nulla res materialis existit extra in rerum natura nisi 
+singu<lb break="no" ed="#L" n="3"/>lariter sit, scilicet per conditiones individuantes designata; sed materialiter
+<lb ed="#L" n="4"/>est universale in rebus quia in singulari est res quidditativa aliud 
+essentia<lb break="no" ed="#L" n="5"/>liter a conditionibus individuantibus cui intellectus agens non dat esse
+<lb ed="#L" n="6"/>separatum et abstractum ab illis secundum rem. Et ideo rei extra non dat
+<lb ed="#L" n="7"/>universalitatem realem et formalem, sed hoc dat ei quod quia attingitur
+<lb ed="#L" n="8"/>dicto modo secundum hunc modum quo sic attingitur fit obiectum 
+intel<lb break="no" ed="#L" n="9"/>lectus abstracti et causat abstractum conceptum qui est universale 
+forma<lb break="no" ed="#L" n="10"/>liter. Et hoc est quod dicitur quod licet res existant singulariter, tamen
+<lb ed="#L" n="11"/>universaliter intelliguntur. Unde dicit Commentator ubi supra, universalia
+<lb ed="#L" n="12"/>nullum habent esse extra animam. Quod intendit Plato, quoniam si ita esset
+<lb ed="#L" n="13"/>non oporteret ponere intellectum agentem et etiam quae dicuntur de 
+intel<lb break="no" ed="#L" n="14"/>lectu agente verificantur secundum hunc modum ponendi, scilicet quod se
+<lb ed="#L" n="15"/>habet ad intellectum possibilem sicut ars ad materiam et ad intellectum
+<lb ed="#L" n="16"/>in actu sicut artificium ad artificiatum et huiusmodi. Et non dicitur quod se
+<lb ed="#L" n="17"/>habeat ad phantasmata sicut ars, quia proprie loquendo actione intellectus
+<lb ed="#L" n="18"/>agentis non fit aliqua dispositio formalis in ipsis phantasmatibus quasi in
+<lb ed="#L" n="19"/>materia sed solum fit! dicta sequestratio vel arbitratio vel remotio 
+prohi<lb break="no" ed="#L" n="20"/>bentium et huiusmodi, quo facto virtute ipsius  intellectus agentis et jn eius
+<lb ed="#L" n="21"/>lumine fit informatio intellectus possibilis ab ipsa intellectione talis 
+cogno<lb break="no" ed="#L" n="22"/>scibilis sive a specie intelligibili quae aliquo modo in lumine intellectus
+<lb ed="#L" n="23"/>agentis continetur virtualiter. Per hoc patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

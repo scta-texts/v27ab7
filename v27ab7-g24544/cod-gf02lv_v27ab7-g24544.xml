@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g24544"><!-- v27ab7-q7-q4 -->
+            <head xml:id="v27ab7-g24544-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-g24544-Hd1e101" type="question-title">
+      Utrum Spiritus Sanctus possit dici procedere per modum voluntatis, si non procederet a Filio sed a solo Patre
+    </head>
+            <p xml:id="v27ab7-g24544-d1e104">
+               <lb ed="#L" n="14"/>QUAESTIO IV.
+<lb ed="#L" n="15"/>Utrum Spiritus Sanctus possit dici procedere per modum voluntatis,
+<lb ed="#L" n="16"/>si non procederet a Filio sed a solo Patre.
+</p>
+            <p xml:id="v27ab7-g24544-d1e113">
+               <lb ed="#L" n="17"/>Ad secundum praedictorum arguebatur quod Spiritus Sanctus procederet per modum
+<lb ed="#L" n="18"/>voluntatis, etiam si non procederet a Filio; quia, posito causato vel principiato, oportet
+<lb ed="#L" n="19"/>causam poni vel principium. Distinctio Spiritus Sancti a Filio est quoddam causatum
+<lb ed="#L" n="20"/>vel principiatum quod potest poni vel intelligi habere esse, etiam si Spiritus Sanctus
+<lb ed="#L" n="21"/>non procedat a Filio; ergo, cum huius principium vel causa non potest esse nisi hoc
+<lb ed="#L" n="22"/>quod Filius procedat per modum naturae vel intellectus, Spiritus Sanctus per modum
+<lb ed="#L" n="23"/>amoris vel voluntatis, sequetur quod Spiritus Sanctus  procederet ? per modum voluntatis,
+<lb ed="#L" n="24"/>etiamsi non procederet a Filio.
+</p>
+            <p xml:id="v27ab7-g24544-d1e133">
+               <lb ed="#L" n="25"/>Primum assumptum, scilicet quod Spiritus Sanctus potest poni vel intelligi esse
+<lb ed="#L" n="26"/>distinctus a Filio, etiamsi non procedat ab ipso, declaratur ex hoc quod, cum supponitur
+<lb ed="#L" n="27"/>Spiritus Sanctus procedere a Filio, dupliciter videtur Filius distingui personaliter a
+<lb ed="#L" n="28"/>Spiritu Sancto, scilicet et in eo quod natus vel Filius, non autem procedens vel spiratus,
+<lb ed="#L" n="29"/>et in eo quod spirans vel producens, cum Spiritus Sanctus non sit natus vel Filius
+<lb ed="#L" n="30"/>nec spirans vel producens, sed solum spiratus vel productus. Sed, si Spiritus Sanctus
+<lb ed="#L" n="31"/>non procederet a Filio, nihilominus uno istorum modorum distingueretur, scilicet quia
+<lb ed="#L" n="32"/>non obstante quod ipse Filius non spiraret Spiritum Sanctum, tamen ipse esset a Patre
+<lb ed="#L" n="33"/>natus vel? Filius et non procedens vel spiratus; et ipse Spiritus Sanctus esset non
+<lb ed="#L" n="34"/>natus, sed spiratus vel procedens a Patre, non obstante quod non esset spiratus a Filio;
+<lb ed="#L" n="35"/>quare et cetera.
+</p>
+            <p xml:id="v27ab7-g24544-d1e160">
+               <lb ed="#L" n="36"/>Secundum: assumptum, scilicet quod huiusmodi distinctionis principium vel causa
+<lb ed="#L" n="37"/>non potest esse nisi hoc quod Filius procedat per modum intellectus, et? Spiritus
+<lb ed="#L" n="38"/>Sanctus per modum voluntatis, declaratur  ex hoc quod causa vel principium talis
+<pb ed="#L" n="288"/>
+               <lb ed="#L" n="1"/>distinctionis non posset esse nisi quod Spiritus Sanctus procederet alio  modo a Patre
+<lb ed="#L" n="2"/>quam Filius procederet ab eodem; sed non possunt alii modi procedendi poni quam
+<lb ed="#L" n="3"/>per modum naturae et intellectus; sed non dicitur procedere Filius per modum amoris
+<lb ed="#L" n="4"/>et voluntatis. Ergo istum modum procedendi oporteret attribui Spiritui Sancto; quare
+<lb ed="#L" n="5"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g24544-d1e182">
+               <lb ed="#L" n="6"/>Contra. Processus Spiritus Sancti non potest dici esse per modum voluntatis ad
+<lb ed="#L" n="7"/>differentiam generationis Filii quae dicitur esse per modum naturae vel intellectus nisi
+<lb ed="#L" n="8"/>quia essentia divina, in quantum in ea radicatur vis productiva Spiritus Sancti, sive ipsa
+<lb ed="#L" n="9"/>vis productiva Spiritus Sancti  radicata in essentia divina intelligitur ut libera vel
+<lb ed="#L" n="10"/>immunis a coactione, aut ut liberum arbitrium, aut ut tendens in aliquid extrinsecum,
+<lb ed="#L" n="11"/>aut ut amor mutuus duorum. Non sic autem intelligitur se habere essentia divina in
+<lb ed="#L" n="12"/>quantum in ea radicatur vis generativa Filii sive ipsa vis generativa Filii? radicata in
+<lb ed="#L" n="13"/>essentia divina. Non primo modo, quia ita immunis a coactione est vis productiva Filii
+<lb ed="#L" n="14"/>sicut Spiritus Sancti ; nec secundo modo, quia nulla processio intrinseca in divinis
+<lb ed="#L" n="15"/>potest esse per indifferentiam liberi arbitrii ; nec tertio modo, quia terminus processionis
+<lb ed="#L" n="16"/>personarum non est aliquid extra essentiam divinam. Ergo relinquitur solus quartus
+<lb ed="#L" n="17"/>modus, scilicet quod processio Spiritus Sancti dicatur esse per modum voluntatis, quia
+<lb ed="#L" n="18"/>principium suae productionis est vis spirativa in quantum fundatur in essentia divina
+<lb ed="#L" n="19"/>sub ratione amoris mutui duorum; sed talis modus amoris non potest intelligi nisi ut
+<lb ed="#L" n="20"/>est Patris et Filii simul; ergo non potest intelligi Spiritus Sanctus procedere per modum
+<lb ed="#L" n="21"/>voluntatis si non ponatur procedere a Filio sicut et a Patre.
+</p>
+            <p xml:id="v27ab7-g24544-d1e219">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod quaestio si sic intelligitur, utrum scilicet, si Spiritus
+<lb ed="#L" n="23"/>Sanctus non procederet a Filio, esset nihilominus alia persona, distincta a persona Filii,
+<lb ed="#L" n="24"/>procedens a Patre per modum voluntatis, videtur aliquibus  quod possit dici, dicta
+<lb ed="#L" n="25"/>positione  stante, et processiones et procedentes secundum illas ab invicem differre
+<lb ed="#L" n="26"/>realiter; nam, etiam in eis quae differunt per formas et essentias absolutas, aliqua
+<lb ed="#L" n="27"/>differunt realiter in quantum important formas absolutas contrarias sive oppositas quae
+<lb ed="#L" n="28"/>simul in eodem subiecto esse non possunt, ut album et nigrum ; aliqua autem in quantum
+<lb ed="#L" n="29"/>important formas non contrarias nec proprie oppositas, sed disparatas, quae simul in
+<lb ed="#L" n="30"/>eodem subiecto essepossunt, ut album et dulce et cetera. Ita etiam in divinis ubi non
+<lb ed="#L" n="31"/>est differentia realis nisi per reales relationes poterit esse realis distinctio per relationes
+<lb ed="#L" n="32"/>oppositas, qualis est inter personas quarum una procedit ab alia vel per disparatas,
+<lb ed="#L" n="33"/>qualis est inter personas quae disparatis productionibus producuntur sive ab eodem
+<lb ed="#L" n="34"/>sive a pluribus.
+</p>
+            <p xml:id="v27ab7-g24544-d1e250">
+               <lb ed="#L" n="35"/>Unde ad conclusionem intentam sic argui potest: cum diversas processiones oportet
+<lb ed="#L" n="36"/>ad distinctos terminos terminari, oportet quod procedentes diversis processionibus ab
+<lb ed="#L" n="37"/>invicem realiter sint distincti; ergo videtur quod, si Spiritus Sanctus non procederet
+<lb ed="#L" n="38"/>a Filio, [quod] tamen ab eo distingueretur in quantum procederet alia processione a Patre
+<lb ed="#L" n="39"/>quam Filius.
+</p>
+            <p xml:id="v27ab7-g24544-d1e263">
+               <lb ed="#L" n="40"/>Nec debet dici quod, cum ex parte producentis, scilicet Patris, diversae relationes
+<pb ed="#L" n="289"/>
+               <lb ed="#L" n="1"/>reales disparatae sive diversae processiones activae non ponunt distinctionem 
+suppo<lb break="no" ed="#L" n="2"/>sitorum, sed unus et idem est generans et spirans, ita etiam ex parte producti non debeat
+<lb ed="#L" n="3"/>poni diversitas suppositorum, immo unus erat genitus et spiratus; quia non est simile ex
+<lb ed="#L" n="4"/>parte principii actionis et termini, quia termini debent esse perfecti in esse subsistentiae,
+<lb ed="#L" n="5"/>non autem principia; sed sufficit quod sunt in eodem perfecto ut diversae rationes
+<lb ed="#L" n="6"/>agendi, ut patet in artifice qui producit filium naturalem et suam imaginem artificialem
+<lb ed="#L" n="7"/>ut terminos in esse subsistentiae ab invicem realiter distinctos et tamen principia 
+produc<lb break="no" ed="#L" n="8"/>tionum istarum in uno subsistente coniunguntur. Similiter etiam patet de ideis divinis !
+<lb ed="#L" n="9"/>quae sunt ratio et principium producendi diversas res subsistentes et tamen sola ratione
+<lb ed="#L" n="10"/>differunt in uno simplici secundum essentiam et naturam ; et est multo maior distinctio
+<lb ed="#L" n="11"/>inter vim spirandi et generandi Patris quam inter plures ideas; ergo etiam in proposito,
+<lb ed="#L" n="12"/>licet relationes disparatae in Patre non faciant diversitatem personarum, tamen 
+oppo<lb break="no" ed="#L" n="13"/>sitae eis in terminis productis facient diversitatem personarum. Ut sic ponendo, sicut ?
+<lb ed="#L" n="14"/>veritas fidei ponit, quod Spiritus Sanctus procedat a Filio et a Patre, quasi dupliciter
+<lb ed="#L" n="15"/>distinguitur? a Filio: et relatione opposita in quantum spiratus ab eo, et relatione
+<lb ed="#L" n="16"/>disparata in quantum spiratus a Patre, ipse vero Filius genitus ab eodem. Quare cum
+<lb ed="#L" n="17"/>proposito  quod Filius non produceret Spiritum Sanctum productione spirativa per
+<lb ed="#L" n="18"/>modum voluntatis, non propter hoc aliquid tollitur in Patre pertinens ad vim spirativam
+<lb ed="#L" n="19"/>et ad modum producendi per modum voluntatis, cum productio qua Pater producit
+<lb ed="#L" n="20"/>Spiritum Sanctum vi spirativa et per modum voluntatis realiter differat a productione
+<lb ed="#L" n="21"/>qua ipse producit Filium vi generativa et per modum intellectus. Per hoc quod ponitur
+<lb ed="#L" n="22"/>Spiritum Sanctum  non procedere a Filio, non tollitur differentia realis produc tionum
+<lb ed="#L" n="23"/>praedictarum in quantum fundantur in vi generativa et spirativa Patris, sed tantum ?
+<lb ed="#L" n="24"/>tollitur differentia Spiritus Sancti a Filio, quae est per oppositam relationem qua dicitur
+<lb ed="#L" n="25"/>esse spiratus a Filio et etiam realis differentia spirationis activae et generationis passivae
+<lb ed="#L" n="26"/>in Filio, quia aufertur vis spirativa a Filio sicut et vis generandi activa nunc tollitur ab
+<lb ed="#L" n="27"/>eodem. Ergo remanet distinctio realis et inter productiones et inter productos secundum
+<lb ed="#L" n="28"/>relationes disparatas.
+</p>
+            <p xml:id="v27ab7-g24544-d1e331">
+               <lb ed="#L" n="29"/>Quod autem possit esse distinctio realis in divinis per disparatas relationes et non
+<lb ed="#L" n="30"/>solum per oppositas hoc videtur, quia ex distinctione reali personarum quae emanant
+<lb ed="#L" n="31"/>non est sumenda distinctio emanationum, sed potius e converso; ergo processiones per
+<lb ed="#L" n="32"/>modum intellectus et voluntatis sive generatio et spiratio inter se distinctionem habent
+<lb ed="#L" n="33"/>secundum se et non ex distinctone personarum. Immo ad distinctionem emanationum ?
+<lb ed="#L" n="34"/>etiam videtur reducenda distinctio personarum emanantium. Inter emanationes tamen
+<lb ed="#L" n="35"/>non est quaerenda distinctio secundum relationes originis oppositas, quia una ab alia
+<lb ed="#L" n="36"/>non procedit, nec una dicitur ad aliam relative. Oportet ergo ponere differentiam inter
+<lb ed="#L" n="37"/>emanationes secundum relationes disparatas. Et ista etiam reducitur ad distinctionem
+<lb ed="#L" n="38"/>principiorum emanandi, quae sunt vis spirativa et generativa; si enim vis spirativa, ut
+<lb ed="#L" n="39"/>Patris est, non differret a vi generativa eius, tunc nec genera tio a spiratione differret:
+<lb ed="#L" n="40"/>quare, cum Filius vim spirativam non habeat nisi a Patre et non magis distinctam a vi
+<lb ed="#L" n="41"/>generativa Patris quam secundum quod eam habet Pater, similiter emanatio spirationis
+<lb ed="#L" n="42"/>ut est a Filio non distingueretur ab emanatione generationis, nec per consequens ipse
+<pb ed="#L" n="290"/>
+               <lb ed="#L" n="1"/>Filius a Spiritu Sancto, quod est inconveniens. Ergo oportet dicere quod et in Patre
+<lb ed="#L" n="2"/>et in Filio principia emanationum habeant distinctionem, sed non nisi disparationis ;
+<lb ed="#L" n="3"/>ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g24544-d1e374">
+               <lb ed="#L" n="4"/>Item, Pater sua proprietate personali in esse suppositi distincti a quocumque alio
+<lb ed="#L" n="5"/>constituitur; ergo si Spiritus Sanctus non procederet a Patre, sed procederet a solo
+<lb ed="#L" n="6"/>Filio, tamen Pater a Spiritu Sancto personaliter et realiter distingueretur. Ergo, etiam si
+<lb ed="#L" n="7"/>Spiritus Sanctus a Filio non procederet, sed a solo Patre, adhuc Filius sua personalitate
+<lb ed="#L" n="8"/>a Spiritu Sancto, et e converso, distingueretur.
+</p>
+            <p xml:id="v27ab7-g24544-d1e387">
+               <lb ed="#L" n="9"/>Sed, non obstantibus istis, videtur potius dicendum quod, si Spiritus Sanctus non
+<lb ed="#L" n="10"/>procederet a Filio, ipse non procederet a Patre per modum voluntatis qui posset
+<lb ed="#L" n="11"/>importare modum procedendi realiter distinctum a modo procedendi quo Filius procedit
+<lb ed="#L" n="12"/>per modum intellectus a Patre; sed processio per modum intellectus et processio per
+<lb ed="#L" n="13"/>modum voluntatis non differrent nisi secundum rationem ; et secundum hoc etiam Filius
+<lb ed="#L" n="14"/>et Spiritus Sanctus non distinguerentur ab invicem realiter ut duae personae, sed essent
+<lb ed="#L" n="15"/>una persona distincta realiter a Patre; inter se autem non essent plures vel distinctae
+<lb ed="#L" n="16"/>nisi tantum secundum rationem ; et sic tolleretur trinitas personarum, quia non essent nisi
+<lb ed="#L" n="17"/>duae personae realiter ab invicem distinctae.
+</p>
+            <p xml:id="v27ab7-g24544-d1e409">
+               <lb ed="#L" n="18"/>Cum enim, ut dictum est, in essentia et essentialibus non sit ponere aliquam 
+distinc<lb break="no" ed="#L" n="19"/>tionem nisi solum secundum rationem, sed omnis distinctio realis est ibi secundum
+<lb ed="#L" n="20"/>diversos modos habendi eandem essentiam, qui sunt ut a quo alius illam habet, vel ut
+<lb ed="#L" n="21"/>ab alio ' illam habens, ubicumque invenitur diversus modus habendi invenitur distinctio
+<lb ed="#L" n="22"/>realis inter habentes sive inter supposita. Ex hoc ergo quod unus naturam divinam habet
+<lb ed="#L" n="23"/>uno modo ab alio, ex hoc bene est distinctio realis et inter habentem sic et eum a quo
+<lb ed="#L" n="24"/>sic habetur. Et, si plures secundum plures modos habendi habeant eandem naturam,
+<lb ed="#L" n="25"/>sive ab uno sive a pluribus, illi realiter distinguuntur a pluribus vel ab uno, quia in illis
+<lb ed="#L" n="26"/>reperitur ratio distinctionis quae est habere ab alio respectu illius vel illorum a quo vel
+<lb ed="#L" n="27"/>a quibus sic habetur, in quo vel quibus est ratio distinctionis respectu illius vel illorum
+<lb ed="#L" n="28"/>ut a quo vel a quibus alii, 
+</p>
+            <p xml:id="v27ab7-g24544-d1e435">
+               <lb ed="#L" n="29"/>Sed cum ponitur quod unus naturam divinam ab alio non habet nec e converso,
+<lb ed="#L" n="30"/>in illis inter se tollitur omnis ratio distinctionis, et ideo inter se non possunt esse realiter
+<lb ed="#L" n="31"/>distincti. Et hoc modo expresse ostendit Anselmus quod Spiritus Sanctus non 
+distin<lb break="no" ed="#L" n="32"/>gueretur a Filio si respectu eius non esset Deus de Deo. Ex quo ulterius sequitur quod
+<lb ed="#L" n="33"/>non possunt esse plures processiones in divinis realiter distinctae nisi sint ad minus tres
+<lb ed="#L" n="34"/>personae sic distinctae quod una procedat a prima et tertia a secunda ; nam, ut dictum
+<lb ed="#L" n="35"/>est, differentia realis est in divinis secundum differentiam relationum realium ; sed 
+rela<lb break="no" ed="#L" n="36"/>tiones reales plures per se ab invicem distinctae ex oppositione mutua sive ex eo quod
+<lb ed="#L" n="37"/>oppositae sunt ad invicem distinguuntur; et hae simul in eodem supposito vel relato
+<lb ed="#L" n="38"/>esse non possunt, quia idem ad se opponi vel referri non habet.
+</p>
+            <p xml:id="v27ab7-g24544-d1e459">
+               <lb ed="#L" n="39"/>Cum autem in divinis, propter immensam divinae naturae perfectionem et eius
+<lb ed="#L" n="40"/>pluribus personis secundum plures modos habendi sive secundum diversos modos 
+origi<lb break="no" ed="#L" n="41"/>nandi communicabilitatem, possit esse oppositio secundum originem et distinctionem
+<lb ed="#L" n="42"/>suppositorum, in ea possunt fundari plures relationes secundum oppositionem ad invicem
+<lb ed="#L" n="43"/>distinctae. Non oportet enim quod distinctio talium per se sumatur ex distinctione 
+fun<lb break="no" ed="#L" n="44"/>damenti, quia ratione suae oppositionis secundum se distinctionem important sive ab
+<pb ed="#L" n="291"/>
+               <lb ed="#L" n="1"/>invicem distinguuntur. Sed, cum relationes disparatae secundum se oppositionem non
+<lb ed="#L" n="2"/>habeant ' ad invicem, oportet quod distinctionem habeant vel ex diversitate 
+fundamen<lb break="no" ed="#L" n="3"/>torum, ut patet de simili et aequali? in creaturis, vel ex distinctione suppositorum, ut
+<lb ed="#L" n="4"/>patet de duabus filiationibus in duobus filiis respectu unius paternitatis patris, ut etiam
+<lb ed="#L" n="5"/>videbitur de generatione et spiratione. Uno ergo existente fundamento, per se non possunt
+<lb ed="#L" n="6"/>multiplicari relationes disparatae; si autem cum hoc sit unum suppositum, nullo modo
+<lb ed="#L" n="7"/>multiplicabuntur. Ergo cum duobus suppositis secundum originem sive? secundum 
+<lb ed="#L" n="8"/>modum habendi naturam divinam existentibus inter se distinctis habent esse per se
+<lb ed="#L" n="9"/>duae relationes oppositae, scilicet originantis et a quo originatur !, ut Patris et Filii
+<lb ed="#L" n="10"/>inter se et Spiritus Sancti et Filii inter se, supposito quod unus ab alio originetur. Per
+<lb ed="#L" n="11"/>se ergo est distinctio personarum et Filii a Patre a quo procedit, et Spiritus Sancti a
+<lb ed="#L" n="12"/>Filio et Patre a quibus procedit; et per se differt generatio activa sive relatio Patris
+<lb ed="#L" n="13"/>ad Filium a generatione passiva sive a relatione Filii ad Patrem, et etiam spiratio activa
+<lb ed="#L" n="14"/>Patris et Filii a spiratione passiva Spiritus Sancti; et ex consequenti est realis distinctio
+<lb ed="#L" n="15"/>secundum disparationem spirationis activae a generatione activa in Patre et a 
+genera<lb break="no" ed="#L" n="16"/>tione passiva in Filio, in quantum scilicet propter oppositionem relationum praedictarum
+<lb ed="#L" n="17"/>et distinctionem dictorum suppositorum per dictas relationes ipsa communis spiratio
+<lb ed="#L" n="18"/>activa Patris et Filii quae per se opponitur spirationi passivae Spiritus Sancti et sic per
+<lb ed="#L" n="19"/>se ab illa distinguitur, nec cum ea stare potest, est ? in personis per oppositas relationes
+<lb ed="#L" n="20"/>distinctas ut in Patre et Filio; et sic, quia stat cum generare et cum generari, quae non
+<lb ed="#L" n="21"/>stant simul, quia per se distinguuntur et opponuntur, ideo ipsa spiratio activa non est
+<lb ed="#L" n="22"/>generatio activa nec generatio passiva, sed realiter secundum disparationem 
+distin<lb break="no" ed="#L" n="23"/>guitur? ab utraque.
+</p>
+            <p xml:id="v27ab7-g24544-d1e527">
+               <lb ed="#L" n="24"/>Essentia autem divina, licet stet cum generatione activa et passiva, quae simul non
+<lb ed="#L" n="25"/>stant in eodem supposito, tamen nullo modo nec secundum oppositionem nec secundum
+<lb ed="#L" n="26"/>disparationem realiter distinguitur ab utroque, sed solum secundum rationem, quia ipsa
+<lb ed="#L" n="27"/>essentia per se non distinguitur nec opponitur alicui a quo generans et genitus per se
+<lb ed="#L" n="28"/>distinguantur et cui per se opponantur:; nam, sicut stat cum generatione activa et passiva
+<lb ed="#L" n="29"/>Patris et Filii, ita stat cum spiratione passiva Spiritus Sancti. Unde, quia spirare Patris,
+<lb ed="#L" n="30"/>quod per se distinguitur a spirari Spiritus Sancti, stat cum generari Filii et etiam quia
+<lb ed="#L" n="31"/>spirare Filii, quod per se distinguitur a spirari Spiritus Sancti, stat cum generare Patris,
+<lb ed="#L" n="32"/>et generare et generari per se opponuntur et distinguuntur, ideo spirare a generare
+<lb ed="#L" n="33"/>et generari ex consequenti secundum disparationem distinguitur, praesupposita tamen
+<lb ed="#L" n="34"/>distinctione reali per se et secundum oppositionem eius quod est spirare Patris et Filii
+<lb ed="#L" n="35"/>ad spirari Spiritus Sancti. Si autem spirare non staret vel non esset cum generari a quo
+<lb ed="#L" n="36"/>per se ét realiter differt generare et spirare, ex consequenti non haberet differentiam
+<lb ed="#L" n="37"/>realem ad generare cum quo stat; si etiam spirare, quod per se distinguitur a spirari,
+<lb ed="#L" n="38"/>non staret cum generari, ex consequenti generari non differret realiter a spirari; sed
+<lb ed="#L" n="39"/>Sicut unus supposito est generans, ita etiam nonnisi unus supposito esset spirans, et
+<lb ed="#L" n="40"/>tunc etiam nonnisi unus supposito esset spiratus et generatus, nec differrent generare
+<lb ed="#L" n="41"/>et spirare ad invicem nec etiam spirari et generari nisi solum secundum rationem, quia
+<lb ed="#L" n="42"/>tollerent id unde realis differentia sumi debet et remaneret solum distinctio realis spirati
+<lb ed="#L" n="43"/>et generati ad generantem et spirantem propter oppositionem quae solum remanet inter
+<pb ed="#L" n="292"/>
+               <lb ed="#L" n="1"/>ipsos. Si enim Spiritus Sanctus non procederet a Filio, non poneretur maior oppositio
+<lb ed="#L" n="2"/>inter Filium generatum et Spiritum Sanctum spiratum quam inter Patrem generantem
+<lb ed="#L" n="3"/>et spirantem ; sed, quia spiratio et generatio in Patre non habent oppositionem originis,
+<lb ed="#L" n="4"/>non possunt facere vel constituere distinctionem personarum. Ergo, cum non plus 
+dif<lb break="no" ed="#L" n="5"/>ferrent generari et spirari in Filio et Spiritu Sancto, per hoc non constituerentur duae
+<lb ed="#L" n="6"/>personae. Non enim potest dici quod ex alio habeat differentiam Filius et Spiritus quam
+<lb ed="#L" n="7"/>ex tali quali diversitate relationum, quia, illa circumscripta, non remanet nisi essentia
+<lb ed="#L" n="8"/>omnino indistincta !,
+</p>
+            <p xml:id="v27ab7-g24544-d1e593">
+               <lb ed="#L" n="9"/>Ergo nulla est ratio quare possit dici quod spiratio et generatio activa possunt esse
+<lb ed="#L" n="10"/>in una persona principiante; generatio autem et spiratio passiva non possunt esse in
+<lb ed="#L" n="11"/>una persona principiata. Cum enim dicitur quod in principiatis est maior diversitas vel
+<lb ed="#L" n="12"/>differentia quam in principiis, hoc intelligitur de principiatis  quae secundum se et
+<lb ed="#L" n="13"/>secundum suam naturam diversitatem realem et essentialem secundum absoluta important,
+<lb ed="#L" n="14"/>sicut patet et in Deo et in creaturis. Nam Deus secundum diversas ideas sola ratione
+<lb ed="#L" n="15"/>differentes producit ea quae realiter ab invicem differunt, quia etiam illa important
+<lb ed="#L" n="16"/>naturas secundum se differentes; artifex etiam, in quo simul sunt ars et natura, per artem
+<lb ed="#L" n="17"/>producit suam imaginem vel aliquod ? artificiatum et per potentiam naturalem suum
+<lb ed="#L" n="18"/>filium naturalem, quae tamen realiter et subiecto differunt eo quod absolute  et 
+essen<lb break="no" ed="#L" n="19"/>tialiter differentiam realem important inter se. Sed ubi in productis non potest esse
+<lb ed="#L" n="20"/>differentia realis secundum aliquid absolutum, non potest hoc contingere. Unde, quando
+<lb ed="#L" n="21"/>aliqua differunt secundum relationes disparatas inter se propter respectus diversos ad
+<lb ed="#L" n="22"/>diversa relativa ad quae habent habitudinem, nisi tamen haec de se maiorem diversitatem
+<lb ed="#L" n="23"/>important, ex huiusmodi habitudine non debet eis tribui maior distinctio quam invenitur
+<lb ed="#L" n="24"/>in illo vel? illis ad quem vel quos est huiusmodi habitudo, ut patet in aliis ; nam, si aliquod
+<lb ed="#L" n="25"/>unum subiecto sit duplum ad aliquod subduplum per suam quantitatem et sit dissimile
+<lb ed="#L" n="26"/>ad aliquod nigrum per? suam albedinem, non maior debet poni ex hoc diversitas in
+<lb ed="#L" n="27"/>dimidio et nigro quam in duplo et albo; et sicut duplum et album non habent 
+opposi<lb break="no" ed="#L" n="28"/>tionem quae impediat ea simul esse in uno subiecto, ita etiam est de dimidio et nigro,
+<lb ed="#L" n="29"/>scilicet quod solum requiritur in eis diversitas secundum essentiam ut in ipsis fundentur
+<lb ed="#L" n="30"/>dictae relationes reales disparatae et possunt esse simul in eodem subiecto; et esset
+<lb ed="#L" n="31"/>simile magis si duplum causaret subduplum et album causaret ni grum, sicut contingit
+<lb ed="#L" n="32"/>in personis divinis relativis.
+</p>
+            <p xml:id="v27ab7-g24544-d1e648">
+               <lb ed="#L" n="33"/>Quod autem in principio vel causa  non oportet esse tantam diversitatem vel 
+distinc<lb break="no" ed="#L" n="34"/>tionem sicut in principiato, sicut patet praecipue in causa non univoca, hoc contingit ex
+<lb ed="#L" n="35"/>eo quod causatum defective et imperfecte participat id perfectionis et actualitatis quod
+<lb ed="#L" n="36"/>est in causa; unde sparsim et divisim reperitur in pluribus causatis illud quod unite
+<lb ed="#L" n="37"/>reperitur in causa. Quia ergo quilibet effectus aequivocus deficit a perfectione causae,
+<lb ed="#L" n="38"/>ideo semper est recessus a tali causa secundum diversos gradus perfectionum diversarum
+<lb ed="#L" n="39"/>realiter in causatis, quae unite sunt in causa ; nec tales diversi effectus in tali diversitate
+<lb ed="#L" n="40"/>reali producerentur a tali causa sic magis una, nisi huiusmodi effectus in seipsis diver
+<lb ed="#L" n="41"/>sitatem graduum ex tali habitudine et recessu a causa importarent.
+</p>
+            <p xml:id="v27ab7-g24544-d1e670">
+               <lb ed="#L" n="42"/>Cum ergo in proposito persona producta in divinis eiusdem perfectionis et essentiae
+<lb ed="#L" n="43"/>sit cum producente, plures personae productae non possunt dici differre ex eo quod
+<pb ed="#L" n="293"/>
+               <lb ed="#L" n="1"/>secundum diversas rationes producuntur ab eadem, cum univoce habeat quaelibet persona
+<lb ed="#L" n="2"/>quicquid perfectionis habet alia; et ideo, si distinguantur, oportet quod hoc ex alia ratione
+<lb ed="#L" n="3"/>contingat.
+</p>
+            <p xml:id="v27ab7-g24544-d1e686">
+               <lb ed="#L" n="4"/>Ponendo ergo Spiritum Sanctum procedere a Filio et a Patre, licet non ponatur
+<lb ed="#L" n="5"/>quaternitas rerum propter trinitatem personarum et unitatem essentiae, quia illa nullo
+<lb ed="#L" n="6"/>modo cum eis nec per se nec ex consequenti connumeratur, ponitur tamen quaternitas
+<lb ed="#L" n="7"/>rerum rem appellando relationem realem propter continuationem spirationis activae cum
+<lb ed="#L" n="8"/>generatione activa et cum generatione passiva et cum spiratione passiva, ut dictum est.
+</p>
+            <p xml:id="v27ab7-g24544-d1e699">
+               <lb ed="#L" n="9"/>Ex praedictis patet quod, considerando illud a quo sumitur formalis ratio distinctionis
+<lb ed="#L" n="10"/>personarum divinarum secundum rationem relationum distinguentium et habitudinem
+<lb ed="#L" n="11"/>earum ad invicem, non potest poni quod Spiritus Sanctus procedat processione realiter
+<lb ed="#L" n="12"/>distincta a processione Filii quae dicitur per modum naturae si non procedat a Filio.
+<lb ed="#L" n="13"/>Et, quia modus secundum quem dicitur Spiritus Sanctus procedere dicitur per modum
+<lb ed="#L" n="14"/>voluntatis, patet quod Spiritus Sanctus non procederet per modum voluntatis ! qui realiter
+<lb ed="#L" n="15"/>a modo procedendi Filii distingueretur si non procederet a Filio.
+</p>
+            <p xml:id="v27ab7-g24544-d1e717">
+               <lb ed="#L" n="16"/>Hoc etiam videtur posse declarari ex habitudine istorum actuum et modorum 
+proce<lb break="no" ed="#L" n="17"/>dendi ad invicem qui dicuntur per modum voluntatis et intellectus. Sicut enim in actibus
+simplicibus voluntatis et intellectus qui dicuntur esse quasi essentiales, scilicet 
+intel<lb break="no" ed="#L" n="18"/>ligere et velle vel amare hic? est ordo quod unus est prior altero et habet causalitatem
+<lb ed="#L" n="19"/>sive rationem principii super ipsum, ita etiam debet esse in actibus perfectis et completis,
+<lb ed="#L" n="20"/>scilicet dicendi et spirandi quibus producuntur notitia perfecta et declarativa quae dicitur
+<lb ed="#L" n="21"/>Verbum, et amor perfectissimus sive incentivus qui dicitur Spiritus Sanctus, in quibus
+<lb ed="#L" n="22"/>quasi perficiuntur operationes beatificae divinae, licet ab aliis hoc penitus? non 
+conce<lb break="no" ed="#L" n="23"/>datur, scilicet quod processiones divinarum personarum sint in divinis hoc modo quod
+<lb ed="#L" n="24"/>ibi primo sit notitia quasi confusa, deinde declarativa. Sicut ergo qui ponit quod sit
+<lb ed="#L" n="25"/>aliquis amor qui non procedit a voluntate, mediante actu intellectus simplici ut habente
+<lb ed="#L" n="26"/>causalitatem super processionem talis amoris voluntatis, non potest ponere quod procedat
+<lb ed="#L" n="27"/>per? modum simplicis actus voluntatis qui dicitur simpliciter velle vel amare, ita, qui
+<lb ed="#L" n="28"/>ponit quod amor perfectus in divinis non procedat a voluntate divina, mediante actu
+<lb ed="#L" n="29"/>intellectus perfecto quo producitur notitia declarativa, non potest ponere quod talis amor
+<lb ed="#L" n="30"/>procedat per modum voluntatis actu per fectissimo quem circumloquimur per spirare.
+</p>
+            <p xml:id="v27ab7-g24544-d1e753">
+               <lb ed="#L" n="31"/>Unde, ponendo quod Filius procedat per modum intellectus et Spiritus Sanctus per
+<lb ed="#L" n="32"/>modum voluntatis, ponitur quod Spiritus Sanctus procedat a Filio; nam oportet amorem
+<lb ed="#L" n="33"/>procedere a Verbo, eo quod nihil amatur nisi verbo cordis concipiatur ; unde, sicut si non
+<lb ed="#L" n="34"/>esset realis processio personarum nec realis distinctio earum ab invicem, tamen, ut dictum
+<lb ed="#L" n="35"/>est, essent secundum rationem intelligendi notitia procedens per modum intellectus et
+<lb ed="#L" n="36"/>amor precedens per modum voluntatis, ita quod  non posset intelligi procedere amor
+<lb ed="#L" n="37"/>secundum modum voluntatis et hoc secundum rationem intelligendi nisi intelligeretur
+<lb ed="#L" n="38"/>procedere a notitia procedente secundum rationem intelligendi; ita etiam, posita 
+distinc<lb break="no" ed="#L" n="39"/>tione personarum, non poterit esse nec intelligi quin Spiritus Sanctus, qui est amor et
+<lb ed="#L" n="40"/>procedit per modum voluntatis, procedat a Filio qui procedit per modum intellectus.
+<lb ed="#L" n="41"/>Immo, etiam nisi esset naturalis ordo et origo trium potentiarum animae in una mentis
+<lb ed="#L" n="42"/>essentia et actuum  etiam  dictarum potentiarum inter se, sic videlicet quod naturali
+<pb ed="#L" n="294"/>
+               <lb ed="#L" n="1"/>ordine primum habeat esse in mente memoria et, mediante illa, intelligentia et, mediante
+<lb ed="#L" n="2"/>utraque, voluntas ; et ita etiam adaptando de actibus non esset in anima imago trinitatis,
+<lb ed="#L" n="3"/>ut patet ubique per Augustinum; et, sicut si intelligentia non oriretur a memoria non
+<lb ed="#L" n="4"/>distingueretur ab ea, ita etiam si voluntas non orietur ab utraque, non distingueretur
+<lb ed="#L" n="5"/>ab'! eis. Et ita etiam suo modo de actibus est dicendum.
+</p>
+            <p xml:id="v27ab7-g24544-d1e795">
+               <lb ed="#L" n="6"/>Ergo, qui ponit quod Spiritus Sanctus non procedat a Filio et tamen procedat per
+<lb ed="#L" n="7"/>modum voluntatis, sic quod modus procedendi per modum voluntatis realiter distinguatur
+<lb ed="#L" n="8"/>a modo procedendi Filii a Patre per modum intellectus, et quod ex hoc Spiritus Sanctus
+<lb ed="#L" n="9"/>a Filio realiter et secundum suppositum distinguatur, implicat duplicia contradictoria :
+<lb ed="#L" n="10"/>scilicet quod Filius distinguatur et non distinguatur a Spiritu Sancto, et quod dictae
+<lb ed="#L" n="11"/>processiones realiter differant et non differant; nam, qui ponit Spiritum Sanctum non
+<lb ed="#L" n="12"/>procedere a Filio, ponit eum non distingui ab ipso realiter, et ex consequenti etiam
+<lb ed="#L" n="13"/>ponit processiones Filii et Spiritus Sancti a Patre non differre ab invicem realiter propter
+<lb ed="#L" n="14"/>praedicta. Cum ex hoc distinguantur quod unus procedat per modum voluntatis et alter
+<lb ed="#L" n="15"/>per modum intellectus, quod est unum procedere ab alio, ut declaratum est, in quantum
+<lb ed="#L" n="16"/>autem ponit dictas processiones realiter differre, ponit quod termini etiam realiter 
+diffe<lb break="no" ed="#L" n="17"/>rant, et sic quod Filius et Spiritus Sanctus ab invicem realiter distinguuntur.
+</p>
+            <p xml:id="v27ab7-g24544-d1e824">
+               <lb ed="#L" n="18"/>Sed ad hoc respondetur ab aliquibus , qui dicunt quod secundum dictum modum
+<lb ed="#L" n="19"/>ponendi non po nuntur incompossibilia, hoc quod Spiritus Sanctus distinguatur et non
+<lb ed="#L" n="20"/>distinguatur a Filio; immo solum ponitur ex hoc quod simpliciter distinguitur, et quod
+<lb ed="#L" n="21"/>si non distinguatur, hoc est secundum quid; nam, si ponatur aliquid convenire alicui
+<lb ed="#L" n="22"/>secundum comparationem et rationem secundum quam natum est ei hoc convenire et
+<lb ed="#L" n="23"/>anon conveniat ei secundum rationem et comparationem secundum quam non  est natum
+<lb ed="#L" n="24"/>ei convenire, non sequitur quod hoc ei conveniat et non conveniat; ut si quatuor sit
+<lb ed="#L" n="25"/>duplum ad duo et non sit duplum ad tria, non sequitur quod sit duplum et non duplum,
+<lb ed="#L" n="26"/>sed quod sit duplum simpliciter. non duplum autem secundum quid ; ita etiam in 
+propo<lb break="no" ed="#L" n="27"/>sito; nam, si Spiritus Sanctus distinguitur a Filio in comparatione ad Patrem a quo ambo
+<lb ed="#L" n="28"/>diversimode procedunt, ex hoc habet quod simpliciter distinguatur Spiritus Sanctus a
+<lb ed="#L" n="29"/>Filio; si autem non distinguatur ab eo ex comparatione quam habet ad ipsum, quia hoc
+<lb ed="#L" n="30"/>posito non est natus habere ad ipsum comparationem per se distinguentem, ex hoc non
+<lb ed="#L" n="31"/>dicetur non distingui nisi secundum quid.
+</p>
+            <p xml:id="v27ab7-g24544-d1e857">
+               <lb ed="#L" n="32"/>Sed hoc non valet; nam ex comparatione quam habet ad Patrem non est natus per
+<lb ed="#L" n="33"/>se distingui nisi a Patre, quia ex comparatione ad Patrem distinguitur ab eo in quantum
+<lb ed="#L" n="34"/>ab ipso originatur; a nulla enim persona per se distinguitur divina persona nisi a qua
+<lb ed="#L" n="35"/>originatur vel quae ab ipsa originatur; et sic, ex eo quod distinguitur sive originatur a
+<lb ed="#L" n="36"/>Patre, non est natus distingui a Filio nisi etiam simul ab ipso originetur. Ergo, qui ponit
+<lb ed="#L" n="37"/>quod a Filio non originetur, ponit quod ab ipso per se et realiter non distinguatur.
+<lb ed="#L" n="38"/>Ponendo autem cum hoc quod non procedendo a Filio procedit a Patre alio modo
+<lb ed="#L" n="39"/>quam Filius, quia, ut dictum est, illi modi procedendi non differrent realiter etiam
+<lb ed="#L" n="40"/>relatione reali disparata, quia talis distinctio processionum coexigit quod Spiritus
+<lb ed="#L" n="41"/>Sanctus a Filio procedat, ut dictum est, sed solum secundum rationem, ponitur quod
+<pb ed="#L" n="295"/>
+               <lb ed="#L" n="1"/>solum distinguitur a Filio secundum rationem et sic secundum quid, et sic simpliciter
+<lb ed="#L" n="2"/>non distingueretur a Filio, sed secundum quid distinguetur ab eo.
+</p>
+            <p xml:id="v27ab7-g24544-d1e888">
+               <lb ed="#L" n="3"/>Item, dicunt quod ponendo Spiritum Sanctum non procedere a Filio, et tamen
+<lb ed="#L" n="4"/>ipsum distingui realiter ab eodem, non implicantur contradictoria, scilicet quod 
+distin<lb break="no" ed="#L" n="5"/>guatur et non distinguatur, sed solum ponitur hoc impossibile quod Filius non differat
+<lb ed="#L" n="6"/>a Spiritu Sancto spiratione activa et Spiritus Sanctus ab eo spiratione passiva ; quia
+<lb ed="#L" n="7"/>tunc solum ponitur aliquid per incompossibile quando cum eo quod principaliter ponitur
+<lb ed="#L" n="8"/>contradictio eius implicatur, scilicet quando privat aliquid quod est de eius significato
+<lb ed="#L" n="9"/>et essentia, ut si dicerem : homo si esset animal non rationale differret a bruto, quia
+<lb ed="#L" n="10"/>remoto rationali non remanet nisi id unde convenit cum bruto ; quando vero non implicat
+<lb ed="#L" n="11"/>contradictorium eius quod est de significato et essentia positi, ponit tamen aliquid quod
+<lb ed="#L" n="12"/>est repugnans alicui pertinenti ad principale positum, tunc non ponit principaliter 
+con<lb break="no" ed="#L" n="13"/>tradictionem eius, sed solum per quandam consequentiam ; et ideo tale positum solum
+<lb ed="#L" n="14"/>ponitur per impossibile et non per incompossibile. Quia ergo spiratio activa est extra
+<lb ed="#L" n="15"/>significatum Filii et quasi consecutivum personae eius ordine quodam, ideo verum est
+<lb ed="#L" n="16"/>dicere quod Filius, etsi non spiret Spiritum Sanctum, tamen differt ab eo nativitate, quia
+<lb ed="#L" n="17"/>non spirare non privat nativitatem a Filio nisi per quandam consequentiam. Tamen
+<lb ed="#L" n="18"/>neganda est haec, scilicet quod Filius non differt a Spiritu Sancto spiratione activa vel
+<lb ed="#L" n="19"/>quod differt ab eo sola nativitate pro tanto, quia repugnat posito, scilicet quod Spiritus
+<lb ed="#L" n="20"/>Sanctus differt realiter a Filio. Repugnans autem posito quod est extra essentiam et
+<lb ed="#L" n="21"/>significatum suum semper in falsis positionibus est negandum, secundum artem 
+obliga<lb break="no" ed="#L" n="22"/>toriam habitam in octavo Topicorum. Et ponitur exemplum: nam, si poneretur homo
+<lb ed="#L" n="23"/>differre a bruto et! tamen non esset risibilis, non ponerentur contradictoria, scilicet
+<lb ed="#L" n="24"/>quod homo differret et non differret a bruto, sed solum hoc impossibile quod homo non
+<lb ed="#L" n="25"/>differret a bruto per risibilitatem vel quod homo non esset risibilis et cetera.
+</p>
+            <p xml:id="v27ab7-g24544-d1e940">
+               <lb ed="#L" n="26"/>Sed hoc non valet; quia, licet spirare active non sit de ratione et essentia personae
+<lb ed="#L" n="27"/>Filii simpliciter, quia scilicet ipsam non constituit nec per se distinguit a Patre, tamen ad
+<lb ed="#L" n="28"/>hoc quod per se distinguatur a Spiritu Sancto et ad hoc quod per se etiam ? ad ipsum
+<lb ed="#L" n="29"/>referatur, est de eius essentia, sicut spirari passive a Filio est de ratione et essentia
+<lb ed="#L" n="30"/>Spiritus Sancti in quantum est persona distincta a Filio et ad ipsum relata; prout etiam
+<lb ed="#L" n="31"/>spirare active in Patre, licet non sit de ratione personae Patris simpliciter, ut scilicet
+<lb ed="#L" n="32"/>eius in esse personali constitutiva et distinctiva, tamen ad hoc quod per se a Spiritu
+<lb ed="#L" n="33"/>Sancto distinguatur et referatur per se ad ipsum est de eius essentia. Proprietas enim
+<lb ed="#L" n="34"/>constitutiva Patris est prima realis relatio, qua scilicet per se et primo respicit primam
+<lb ed="#L" n="35"/>personam ; et ideo etiam illa est per se distinctiva eius a prima persona procedente. lta
+<lb ed="#L" n="36"/>etiam est de persona secunda respectu primae.
+</p>
+            <p xml:id="v27ab7-g24544-d1e967">
+               <lb ed="#L" n="37"/>Sed tamen illae proprietates personales Patris et Filii sic ipsos per se inter se
+<lb ed="#L" n="38"/>distinguentes, et ex consequenti ab omnibus aliis quae sunt praeter ipsas, quia per
+<lb ed="#L" n="39"/>illas non habent oppositionem ad Spiritum Sanctum nec secundum illas sunt principia
+<lb ed="#L" n="40"/>originalia Spiritus Sancti, sed prout in communi vi spirativa uniuntur, ideo de ratione
+<lb ed="#L" n="41"/>utriusque est talis proprietas relativa communis ; et hoc in quantum per se habent
+<lb ed="#L" n="42"/>habitudinem et distinctionem respectu Spiritus Sancti; et ideo, sicut qui ponit Patrem
+<lb ed="#L" n="43"/>non producere Filium, ponit eum non distingui ab eo, ita, qui ponit Filium non producere
+<lb ed="#L" n="44"/>Spiritum Sanctum, non ponit eum distingui ab eo; et sic, — licet spirare vel producere
+<pb ed="#L" n="296"/>
+               <lb ed="#L" n="1"/>Spiritum non sit de ratione Filii simpliciter et secundum se, sed etiam nec est de ratione
+<lb ed="#L" n="2"/>Patris, immo est quid consequens ad perfectionem utriusque et sic ponendo quod Pater
+<lb ed="#L" n="3"/>vel Filius non spirent Spiritum Sanctum et tamen ab invicem distinguantur ut duae
+<lb ed="#L" n="4"/>personae divi nae, non ponuntur incompossibilia per se, sed hoc impossibile quod
+<lb ed="#L" n="5"/>non babeant plenam foecunditatem nec mutuum amorem et cetera, — tamen ponere
+<lb ed="#L" n="6"/>quod Pater et Filius non producunt Spiritum Sanctum et tamen ab eo realiter 
+distin<lb break="no" ed="#L" n="7"/>guuntur est ponere incompossibilia. Qui ergo ponit Spiritum Sanctum non procedere
+<lb ed="#L" n="8"/>vel non spirari a Filio ponit aliquid repugnans per se ei quod est distingui a Filio.
+<lb ed="#L" n="9"/>Igitur qui ponit cum hoc expresse quod Spiritus Sanctus distinguatur a Filio, ponit
+<lb ed="#L" n="10"/>contradictoria.
+</p>
+            <p xml:id="v27ab7-g24544-d1e1011">
+               <lb ed="#L" n="11"/>Quod autem dictum est, quod proprietas spirationis activae est! de ratione 
+perso<lb break="no" ed="#L" n="12"/>narum Patris et Filii in quantum per se distinguuntur a Spiritu Sancto, hoc sic 
+intel<lb break="no" ed="#L" n="13"/>ligendum est quod, licet per istam proprietatem non constituantur in esse personali,
+<lb ed="#L" n="14"/>immo quasi praesupponuntur constitutae et ab invicem per se distinctae, tamen per
+<lb ed="#L" n="15"/>hanc per se distinguuntur a Spiritu Sancto, quia ab eo non distinguuntur per se in
+<lb ed="#L" n="16"/>quantum Pater generans nec in quantum Filius generatus, sed in quantum una communi
+<lb ed="#L" n="17"/>vi spirativa habent spirare vel Spiritum producere.
+</p>
+            <p xml:id="v27ab7-g24544-d1e1029">
+               <lb ed="#L" n="18"/>Ad argumenta igitur posita in corpore solutionis, pro prima opinione ? est? 
+respon<lb break="no" ed="#L" n="19"/>dendum : cum igitur arguitur quod ex distinctione processionum contingit distinctio
+<lb ed="#L" n="20"/>productorum, non e converso et cetera, et quod distinctio personarum reducitur ad
+<lb ed="#L" n="21"/>distinctionem processionum et distinctio processionum ad distinctionem  principiorum
+<lb ed="#L" n="22"/>quae sunt vis generativa Filii et vis spirativa Spiritus Sancti, dicendum quod hoc aliquo
+<lb ed="#L" n="23"/>modo verum est; sed addendum est quod illa principia, et ex consequenti etiam 
+proces<lb break="no" ed="#L" n="24"/>siones, non haberent distinctionem realem, etiam  secundum relationes disparatas, nisi
+<lb ed="#L" n="25"/>intelligeretur habitudo Patris per vim generativam ad solum Filium, ut qui ab ipso est
+<lb ed="#L" n="26"/>per generationem, et quasi consequenter habitudo Patris et Filii simul ad Spiritum
+<lb ed="#L" n="27"/>Sanctum, ut qui ab ambobus per communem spirationem; nec posset intelligi vis spirativa
+<lb ed="#L" n="28"/>differre realiter a vi generativa activa Patris cum qua simul stat in Patre, nisi 
+intelli<lb break="no" ed="#L" n="29"/>geretur stare cum vi generativa quasi passiva Filii et Filio convenire. Quia enim vis
+<lb ed="#L" n="30"/>spirativa Patris stat cum vi generativa passiva Filii cum qua non stat vis generativa
+<lb ed="#L" n="31"/>activa Patris; et e converso, quia vis spirativa Filii stat cum vi generativa activa Patris
+<lb ed="#L" n="32"/>cum qua non stat vis generativa passiva Filii, ideo vis spirativa Patris et Filii differunt
+<lb ed="#L" n="33"/>realiter a vi generativa Patris et Filii, et hoc ut relationes disparatae propter 
+opposi<lb break="no" ed="#L" n="34"/>tionem relationum et suppositorum  oppositorum in quibus et cum quibus stant, ut prius
+<lb ed="#L" n="35"/>declaratum est; principalis enim distinctio realis in divinis est distinctio personarum
+<lb ed="#L" n="36"/>sive suppositorum relatorum in quibus est distinctio, quia una persona est a qua alia
+<lb ed="#L" n="37"/>et altera est quae est ab alia; emanationes vero et proprietates relativae quae 
+intelli<lb break="no" ed="#L" n="38"/>guntur et includuntur in hoc quod dicitur qui? ab alio et a quo alius, sunt id ipsum
+<lb ed="#L" n="39"/>realiter quod ipsae personae distinctae; unde non est intelligendum quod ista sint
+<lb ed="#L" n="40"/>quaedam plura realiter distincta et sic ordinata quod distinctio prima realis sit inter
+<lb ed="#L" n="41"/>principia emanationum, et ex huiusmodi distinctione principiorum sit ulterius distinctio
+<lb ed="#L" n="42"/>alia realis emanationum, et ex huiusmodi distinctione emanationum sit tertia distinctio
+<lb ed="#L" n="43"/>realis personarum emanantium; sed haec omnia non dicunt nisi unam realem 
+distinc<lb break="no" ed="#L" n="44"/>tionem principalem, scilicet ipsarum personarum.
+<pb ed="#L" n="297"/>
+               <lb ed="#L" n="1"/>Cum arguitur postea quod si vis spirativa, ut Patris est, non differret a vi generativa
+<lb ed="#L" n="2"/>eius, spiratio non differret a generatione et cetera, dicendum quod, licet vis spirativa
+<lb ed="#L" n="3"/>per se et secundum oppositionem non differat a vi generativa Patris nec etiam a vi
+<lb ed="#L" n="4"/>generativa Filii, tamen quasi ex consequenti et secundum disparationem differt ab
+<lb ed="#L" n="5"/>utraque, ut dictum est, propter oppositionem relationum et suppositorum in quibus vel?
+<lb ed="#L" n="6"/>cum quibus sunt. Verum est ergo quod, si nullo modo differrent, generatio esset? spiratio
+<lb ed="#L" n="7"/>et ! Filius esset Spiritus Sanctus. Sed, quia differunt realiter dicto modo et non ut 
+consi<lb break="no" ed="#L" n="8"/>derantur secundum habitudinem quam habent inter se et secundum se solum sive ut
+<lb ed="#L" n="9"/>habent esse in solo Patre, secundum hoc, inquam, non contingit talis distinctio realis,
+<lb ed="#L" n="10"/>sed ut consideratur vis spirativa ut simul stans cum vi generativa activa et passiva habet
+<lb ed="#L" n="11"/>habitudinem ad Spiritum Sanctum spirabilem ; et tunc non sequitur quod generatio activa
+<lb ed="#L" n="12"/>sit spiratio, sed hoc sequeretur si poneretur quod vis spirativa et generativa Patris non
+<lb ed="#L" n="13"/>haberent aliam differentiam quam habere possent ex esse potentiae spirativae in solo
+<lb ed="#L" n="14"/>Patre absque hoc quod poneretur simul in Filio. Sic enim non differrent nisi ratione, quia
+<lb ed="#L" n="15"/>nec inter se oppositionem haberent nec esset ipsa vis spirativa in habentibus per se
+<lb ed="#L" n="16"/>oppositionem. Nunc autem, quia vis spirativa Patris non est a Patre in Filio secundum
+<lb ed="#L" n="17"/>quod est eadem vi generativa Patris, immo secundum quod est differens, quia secundum
+<lb ed="#L" n="18"/>quod stat cum vi generativa passiva Filii, — communicando enim Filio esse divinum per
+<lb ed="#L" n="19"/>generationem activam procedentem a vi generativa activa, communicat etiam ei vim
+<lb ed="#L" n="20"/>spirativam activam ut quae solum habet respectum ad spirationem Spiritus Sancti — ideo
+<lb ed="#L" n="21"/>ponitur realis differentia inter vim generativam Patris et vim spirativam eius, non solum
+<lb ed="#L" n="22"/>secundum ? quod considerantur ut sunt Patris, sed alio modo iam dicto. 
+</p>
+            <p xml:id="v27ab7-g24544-d1e1140">
+               <lb ed="#L" n="23"/>Item, cum arguitur quod, quia Pater sua proprietate personali in esse suppositi
+<lb ed="#L" n="24"/>distincti a quocumque alio constituitur, ideo si Spiritus non procederet a Patre, sed
+<lb ed="#L" n="25"/>procederet a solo Filio, tamen Pater a Spiritu Sancto personaliter et realiter 
+distin<lb break="no" ed="#L" n="26"/>gueretur; ergo, etiam si Spiritus Sanctus non procederet a Filio, sed a solo Patre, adhuc
+<lb ed="#L" n="27"/>Filius sua personalitate a Spiritu Sancto, et e converso, distingueretur; nam, etiam nunc
+<lb ed="#L" n="28"/>cum  Spiritus Sanctus procedit a Filio, ipse Filius relatione spiritiva non distinguitur
+<lb ed="#L" n="29"/>secundum suppositum a Spiritu Sancto, quia illa non est personae Filii constitutiva, —
+<lb ed="#L" n="30"/>non valet. Nam, licet Spiritus Sanctus non procederet immediate nisi a solo Filio, tamen
+<lb ed="#L" n="31"/>procederet mediate a Patre; unde Pater et Spiritus Sanctus personaliter distinguerentur
+<lb ed="#L" n="32"/>in quantum Spiritus Sanctus esset per originem a Patre, licet mediante origine Filii.
+<lb ed="#L" n="33"/>Sed si non procedit a Filio immediate, omnino tollitur oppositio relationis secundum
+originem; quare et cetera. Sed ex dicta positione qua diceretur Spiritum Sanctum
+<lb ed="#L" n="34"/>procedere a solo Filio et tamen distingui a Patre, licet non ponerentur ista impossibilia,
+<lb ed="#L" n="35"/>scilicet quod distinguetur et non distinguetur a Patre, tamen plura alia impossibilia ex
+<lb ed="#L" n="36"/>hoc sequerentur. Ouamvis etiam Filius non distinguatur personaliter a Spiritu Sancto
+<lb ed="#L" n="37"/>per relationem realem spirationis activae, quia, cum illa sit communis Patri et Filio
+<lb ed="#L" n="38"/>et conveniat Filio iam quasi in esse personali per proprietatem generationis passivae
+<lb ed="#L" n="39"/>constituto et non est proprietas constitutiva, tamen realiter refert ipsum Filium et Patrem
+<lb ed="#L" n="40"/>ad Spiritum Sanctum, ut principium ad principiatum ; sed relatio spirationis passivae
+<lb ed="#L" n="41"/>constituit suppositum distinctum, scilicet Spiritum Sanctum a Filio simul et a Patre,
+<lb ed="#L" n="42"/>et realiter refert etiam Spiritum Sanctum ad utrumque, quia non est in Spiritu Sancto
+<lb ed="#L" n="43"/>alia relatio realis nisi ista; et ideo oportet quod et constituat et distinguat et referat
+<pb ed="#L" n="298"/>
+               <lb ed="#L" n="1"/>personam Spiritus Sancti dicto modo. Sed si Spiritus Sanctus non procederet a Filio,
+<lb ed="#L" n="2"/>licet Filius nihilominus haberet in se suam proprietatem personalem per quam habet
+<lb ed="#L" n="3"/>distinctionem personalem ab omni alia persona, tamen ! non distingueretur personaliter
+<lb ed="#L" n="4"/>nisi a Patre nec referretur etiam  nisi ad Patrem ?,
+</p>
+            <p xml:id="v27ab7-g24544-d1e1199">
+               <lb ed="#L" n="5"/>Argumentum pro parte illa concedendum est ratione conclusionis. Nam, si Spiritus
+<lb ed="#L" n="6"/>Sanctus non procederet a Filio, non posset poni diversitas realis inter ipsum et Filium,
+<lb ed="#L" n="7"/>nec etiam diversitas realis inter processiones per modum naturae et voluntatis inveniretur,
+<lb ed="#L" n="8"/>sed esset diversitas hic et ibi solum secundum rationem ; nam, ut dictum est, secundum
+<lb ed="#L" n="9"/>hoc deberet poni quod eo modo, scilicet secundum rationem intelligendi quo esset 
+distin<lb break="no" ed="#L" n="10"/>guere per modum procedendi secundum voluntatem et secundum intellectum et ipsum
+<lb ed="#L" n="11"/>Spiritum Sanctum a Filio, esset ponendum Spiritum Sanctum procedere a Filio ut 
+pro<lb break="no" ed="#L" n="12"/>cedentem a procedente et processionem aliquo modo ex processione, modo etiam non
+<lb ed="#L" n="13"/>distinguuntur istae processiones realiter, quia una sit per modum immunitatis a coactione
+<lb ed="#L" n="14"/>vel per modum liberi arbitrii vel terminata ad extra, et alia non, sed quia una est per
+<lb ed="#L" n="15"/>modum simplicis ema nationis, nulla alia praesupposita et nullo alio producto supposito
+<lb ed="#L" n="16"/>ex quo vel ex qua aliquo modo habeat esse. Talis enim est modus procedendi naturaliter ;
+<lb ed="#L" n="17"/>et talis modus etiam procedendi est secundum intellectum. Processio enim quae est a
+<lb ed="#L" n="18"/>naturali agente non supponit aliam processionem nec alium habentem esse secundum
+<lb ed="#L" n="19"/>praecedentem  productionem nisi per accidens in quantum unum naturale agens ab
+<lb ed="#L" n="20"/>alio dependet. Sed hoc non pertinet ad rationem naturae in quantum natura est. Alia
+<lb ed="#L" n="21"/>vero est per modum cuiusdam consequentis emanationis ad aliquam praecedentem quam
+<lb ed="#L" n="22"/>et praesupponit et per quam aliquo modo habet esse. Talis est enim modus procedendi
+<lb ed="#L" n="23"/>secundum voluntatem ; non enim voluntas in aliquid tendit nisi praeexistente productione
+<lb ed="#L" n="24"/>intellectus aliquid concipientis. Unde illa processio per modum naturae intelligitur in
+<lb ed="#L" n="25"/>divinis quae nullam aliam praesupponit; illa vero per modum voluntatis quae ex 
+prae<lb break="no" ed="#L" n="26"/>supposita processione principium sumit; et sic oportet pro cessionem aliquo mudo ex
+<lb ed="#L" n="27"/>processione esse et procedentem ex procedente; hoc autem facit realem distinctionem
+<lb ed="#L" n="28"/>in divinis, ut dictum est.
+</p>
+            <p xml:id="v27ab7-g24544-d1e1254">
+               <lb ed="#L" n="29"/>Nec tamen ex hoc quod Spiritus Sanctus dicitur procedere per modum voluntatis
+<lb ed="#L" n="30"/>et non per modum naturae sequitur quod? una persona procedat naturaliter et alia non,
+<lb ed="#L" n="31"/>cum utraque procedat secundum originem naturalem sive ex naturali perfectione divinae
+<lb ed="#L" n="32"/>naturae competente et per utramque fiat communicatio eiusdem verae naturae et essentiae.
+<lb ed="#L" n="33"/>Dicitur enim aliquid produci naturaliter propter habitudinem naturalem quam habet ad
+<lb ed="#L" n="34"/>suum principium ; hoc autem convenit Filio respectu Patris et Spiritui Sancto respectu
+<lb ed="#L" n="35"/>Patris et Filii. Per modum vero naturae produci dicitur quod producitur ab aliquo 
+prin<lb break="no" ed="#L" n="36"/>cipio sic producente sicut producit natura; hoc autem est proprium Filio in divinis, ut
+<lb ed="#L" n="37"/>dictum est. Per modum vero voluntatis aliquid produci dicitur quod producitur ab aliquo
+<lb ed="#L" n="38"/>principio sic? producente sicut producit voluntas; boc autem est proprium Spiritui Sancto.
+</p>
+            <p xml:id="v27ab7-g24544-d1e1279">
+               <lb ed="#L" n="39"/>Ad argumentum in oppositum est dicendum quod, licet modo distinguatur Filius a
+<lb ed="#L" n="40"/>Spiritu Sancto tum quia genitus tum quia spirans, non sic Spiritus Sanctus, tamen secundum
+<lb ed="#L" n="41"/>quod genitus per se et primo solum distinguitur a Patre generante, ex consequenti
+<lb ed="#L" n="42"/>autem a qualibetcumque '? alia persona quae nata est esse in divinis, sive a quocumque
+<pb ed="#L" n="299"/>
+               <lb ed="#L" n="1"/>alio in quo non invenitur proprietas constitutiva Filii, sed secundum quod spirans per se
+<lb ed="#L" n="2"/>et primo distinguitur a Spiritu Sancto; quia, etiamsi non esset genitus et spiraret, ab eo
+<lb ed="#L" n="3"/>distingueretur, ut patet de Patre respectu Spiritus Sancti; sed, si non spiraret et esset
+<lb ed="#L" n="4"/>genitus, non distingueretur, quia, si aliquid ab alio' per se distinguitur, oportet quod
+</p>
+            <p xml:id="v27ab7-g24544-d1e1301">
+               <lb ed="#L" n="5"/>aliud ab isto per rationem oppositam distinguatur. Unde, sicut Spiritus Sanctus non
+<lb ed="#L" n="6"/>distingueretur per se a Filio nisi spiraretur ab eo, ita etiam, licet? Filius esse haberet 
+<lb ed="#L" n="7"/>etsi non spiraret, tamen non haberet unde per se a Spiritu Sancto distingueretur ; et E
+<lb ed="#L" n="8"/>ideo, posito quod Filius non spiret, oportet poni quod Filius a Spiritu Sancto realiter
+<lb ed="#L" n="9"/>non distinguatur. Unde Filius sua filiatione per se distinguitur a Patre secundum 
+oppo<lb break="no" ed="#L" n="10"/>sitionem relativam filiationis ad paternitatem, sed a Spiritu Sancto distinguitur filiatione
+<lb ed="#L" n="11"/>per hoc quod Spiritus Sanctus non habet filiationem quam Filius habet, et sic non per se
+<lb ed="#L" n="12"/>vel per illud quod oppositionem habet, sed ex consequenti per habere et non habere
+<lb ed="#L" n="13"/>filiationem ; per se autem distinguitur ab eo per oppositionem relationis originis.
+</p>
+            <p xml:id="v27ab7-g24544-d1e1323">
+               <lb ed="#L" n="14"/>Et haec patent per Anselmum. Sic enim arguit Anselmus quod Spiritus Sanctus non
+<lb ed="#L" n="15"/>distinguitur a Patre, propter hoc scilicet quia Pater habet filium, non sic autem Spiritus
+<lb ed="#L" n="16"/>Sanctus, et quia Spiritus Sanctus est ab alio, non autem Pater; quia, posito quod Pater
+<lb ed="#L" n="17"/>non haberet filium vel quod Spiritus Sanctus haberet filium vel quod Pater esset ab alio,
+<lb ed="#L" n="18"/>adhuc Spiritus Sanctus distingueretur a Patre. Ergo sola causa per se distinguens Spiritum
+<lb ed="#L" n="19"/>Sanctum a Patre personaliter est quia ipse Spiritus est a Patre. Ita etiam secundum
+<lb ed="#L" n="20"/>ipsum procedendum est in proposito : quia si sufficienter et per se distingueretur Spiritus
+<lb ed="#L" n="21"/>Sanctus a Filio, quia unus a Patre uno modo et alius a Patre alio modo, ergo si poneretur
+<lb ed="#L" n="22"/>Filius non procedere a Patre, Spiritus Sanctus ab eo non posset intelligi distingui. Sed
+<lb ed="#L" n="23"/>hoc, secundum Anselmum. supponitur esse falsum. 
+</p>
+            <p xml:id="v27ab7-g24544-d1e1347">
+               <lb ed="#L" n="24"/>Sed e contra? : si ponatur Spiritum Sanctum procedere a Filio, sive Filius procedat
+<lb ed="#L" n="25"/>a Patre sive non, tamen Spiritus Sanctus distinguitur. Ergo Spiritum Sanctum esse a
+<lb ed="#L" n="26"/>Filio est per se causa et sola distinguendi unum ab alio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

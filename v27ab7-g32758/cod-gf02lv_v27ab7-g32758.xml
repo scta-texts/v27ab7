@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="377"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g32758"><!-- v27ab7-q7-q11 -->
+            <head xml:id="v27ab7-g32758-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-g32758-Hd1e101" type="question-title">
+      Utrum eadem cognitione cognoscatur de Deo si est et quid est
+    </head>
+            <p xml:id="v27ab7-g32758-d1e104">
+               <lb ed="#L" n="14"/>QUAESTIO XI.
+<lb ed="#L" n="15"/>Utrum eadem cognitione cognoscatur de Deo
+<lb ed="#L" n="16"/>si est et quid est.
+</p>
+            <p xml:id="v27ab7-g32758-d1e113">
+               <lb ed="#L" n="17"/>Consequenter circa pertinentia ad actus et habitus quibus homo ordinatur
+<lb ed="#L" n="18"/>ad consequendum finem, sine etiam quibus ipse finis non attingitur, 
+quaereban<lb break="no" ed="#L" n="19"/>tur quaedam pertinentia ad actus apprehensivae potentiae, quaedam pertinentia
+<lb ed="#L" n="20"/>ad actus appetitivae. Circa primum quaerebatur unum, scilicet utrum eadem
+<lb ed="#L" n="21"/>cognitione cognoscatur de Deo si est et quid est. Et arguitur quod sic ; quia,
+<lb ed="#L" n="22"/>sicut se habet aliquid ad entitatem, ita etiam ad veritatem et ad cognitionem.
+<lb ed="#L" n="23"/>Sed eadem est veritas et entitas esse Dei et quidditas eius ; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g32758-d1e131">
+               <lb ed="#L" n="24"/>Contra. Si eadem esset cognitio tunc, cum de Deo certitudinaliter sciatur
+<lb ed="#L" n="25"/>si est, de eo etiam sciretur certitudinaliter quid est. Consequens est falsum ;
+<lb ed="#L" n="26"/>ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g32758-d1e141">
+               <lb ed="#L" n="27"/>Respondeo. Circa hoc est primo intelligendum quid per cognitionem si
+<lb ed="#L" n="28"/>est et quid est intelligere debemus ; deinde quomodo diversimode de rebus 
+<lb ed="#L" n="29"/>quibuscumque cognitionem habere possumus; tertio, quomodo has 
+cogni<lb break="no" ed="#L" n="30"/>tiones ad Dei cognitionem applicare debemus.
+</p>
+            <p xml:id="v27ab7-g32758-d1e152">
+               <lb ed="#L" n="31"/>Quantum ad. primum est  intelligendum quod, cum quid est et quia est
+<lb ed="#L" n="32"/>(quod aliquando accipitur pro si est) sint praecognitiones et etiam quaestio-
+<pb ed="#L" n="378"/>
+               <lb ed="#L" n="1"/>nes, prout patet per principium primi Posteriorum et secundi, hoc est aliter et
+<lb ed="#L" n="2"/>aliter. Quia praescire vel cognoscere de aliquo quid est, ut est praecognitio,
+<lb ed="#L" n="3"/>intelligitur notitia quae de significato nominis simpliciter et absolute babetur,
+<lb ed="#L" n="4"/>non concipiendo an sit aliquid in rerum natura necne, sed solum quod est quid
+<lb ed="#L" n="5"/>secundum apprehensionem intellectus ; unde tale quid est dicitur quid 
+nomi<lb break="no" ed="#L" n="6"/>nis, id est scire quid per nomen significatur et est primum quod de aliquo
+<lb ed="#L" n="7"/>cognoscitur praecedens omnem aliam cognitionem qua cognoscitur de re 
+signi<lb break="no" ed="#L" n="8"/>ficata si est aliquid vel quid est in rerum natura. Prout enim dicitur secundo
+<lb ed="#L" n="9"/>Posteriorum, significare est per nomen ea quae non sunt sicut ea quae sunt ;
+<lb ed="#L" n="10"/>et ideo hoc modo accipiendo quid est sic est praecognitio quod nullo modo
+<lb ed="#L" n="11"/>potest esse quaestio, sed antecedit omnem quaestionem.
+</p>
+            <p xml:id="v27ab7-g32758-d1e185">
+               <lb ed="#L" n="12"/>Quid est vero, prout refertur ad rerum essentias, quaestio est. Similiter,
+<lb ed="#L" n="13"/>si est (vel quia est in quantum pro eodem accipitur) potest esse praecognitio et
+<lb ed="#L" n="14"/>quaestio, sed secundum diversas rationes. Nam supposita prima notitia qua
+<lb ed="#L" n="15"/>cognoscitur de aliquo quid est nominis, potest ignorari an sit res et natura 
+ali<lb break="no" ed="#L" n="16"/>qua ; et cum refertur ad ea quae sunt prima in esse respectu aliorum et quorum
+<lb ed="#L" n="17"/>esse per alia priora, via scilicet ratiocinativa et discursiva intellectus, directe
+<lb ed="#L" n="18"/>probari et manifestari non potest, sed per ea, cum nota sunt alia via, scilicet
+<lb ed="#L" n="19"/>per simplicem apprehensionem ex sensu procedentem, possunt alia notificari,
+<lb ed="#L" n="20"/>— hoc modo si est proprie non est quaestio eo quod quaestio est proprie 
+dubi<lb break="no" ed="#L" n="21"/>tabilis propositio quae potest per viam ratiocinativam et discursivam intellectus
+<lb ed="#L" n="22"/>vel via demonstrativa vel via diffinitiva certificari et terminari in aliqua 
+scien<lb break="no" ed="#L" n="23"/>tia; sed est praecognitio, quia est cognitio eius quod necesse est praecognoscere
+<lb ed="#L" n="24"/>ad hoc quod quaedam alia posteriora vel in esse vel in cognitione per illud '
+<lb ed="#L" n="25"/>et de illo cognoscantur ; puta : statim scito quid est quod dicitur per hoc nomen
+<lb ed="#L" n="26"/>ens, scitur etiam quia est vel si est, prout scilicet statim apprehenditur, quod
+<lb ed="#L" n="27"/>importat quandam unitatem analogiae; et scito quid est quod dicitur per
+<lb ed="#L" n="28"/>nomen entis mobilis, statim scitur etiam quia est vel si est; et illa de quibus sic
+<lb ed="#L" n="29"/>cognoscitur si est vel quia est sunt illa quae sunt subiecta primarum scientiarum.
+</p>
+            <p xml:id="v27ab7-g32758-d1e227">
+               <lb ed="#L" n="30"/>Cum autem refertur ad ea quae non sunt sic prima in esse, quin esse eorum
+<lb ed="#L" n="31"/>[possit] per alia vel priora in esse simpliciter et natura, vel saltem in esse cognito
+<lb ed="#L" n="32"/>a nobis in quibus habent locum principaliter quae de praecognitionibus et
+<lb ed="#L" n="33"/>quaestionibus traduntur ^, possit probari et manifestari via ratiocinativa et 
+dis<lb break="no" ed="#L" n="34"/>cursiva sive inquisitiva, sic est quaestio simpliciter.
+</p>
+            <p xml:id="v27ab7-g32758-d1e240">
+               <lb ed="#L" n="35"/>Sed, cum ordo sit in rebus a nobis cognoscibilibus, et per unum cognitum
+<lb ed="#L" n="36"/>possimus in notitiam incogniti devenire, illud de quo cognoscitur si est vel quia
+<lb ed="#L" n="37"/>est dicto modo per aliam viam ! ratiocinativa;e potest accipi ut praecognitum
+<lb ed="#L" n="38"/>quoddam et cognitio eius si est ut praecognitio respectu aliorum de ipso vel
+<lb ed="#L" n="39"/>circa ipsum sciendorum, ut illa quae probata sunt esse in una scientia possunt
+<pb ed="#L" n="379"/>
+               <lb ed="#L" n="1"/>esse subiecta in aliis scientiis in quibus cognitio habita de talibus in priori
+<lb ed="#L" n="2"/>scientia habet rationem praecognitionis in alia.
+</p>
+            <p xml:id="v27ab7-g32758-d1e260">
+               <lb ed="#L" n="3"/>Prout in unaquaque scientia de subiecto oportet praecognoscere si est vel
+<lb ed="#L" n="4"/>quia est, quod quidem si est sive ut est praecognitio sive ut est quaestio vel ut
+<lb ed="#L" n="5"/>importat notitiam quae habetur de esse subiecti vel rei alicuius vel secundum se
+<lb ed="#L" n="6"/>absque discursu praedicto quod pertineret ad notitiam quae dicitur 
+praecogni<lb break="no" ed="#L" n="7"/>tio vel ' ex discursu rationis dicto modo quod pertinet ad notitiam quae habetur
+<lb ed="#L" n="8"/>de aliquo de quo prius quaerebatur et dubitabatur an esset, dicit notitiam rei
+<lb ed="#L" n="9"/>quantum ad eius entitatem maxime confusam et indistinctam sub ratione etiam
+<lb ed="#L" n="10"/>maxime communi sive entis sub unitate analogiae quam importat ens ad decem
+<lb ed="#L" n="11"/>praedicamenta et prout est unum subiectum metaphysicae . Unde, cum 
+sci<lb break="no" ed="#L" n="12"/>tur de aliquo quod est aliquid in rerum natura et non solum secundum 
+con<lb break="no" ed="#L" n="13"/>ceptionem vel imaginationem et fictionem unde scitur in generali vel communi
+<lb ed="#L" n="14"/>quod est res quae est substantia vel accidens, sed cum praeter conceptum 
+sub<lb break="no" ed="#L" n="15"/>stantiae et accidentis non possit poni alius conceptus communior aliquo niodo
+<lb ed="#L" n="16"/>unus in quo possit sistere intellectus, nec intellectus potest scire de aliquo quod
+<lb ed="#L" n="17"/>est ens sive quod habet esse in rerum natura sistendo in hoc confuso intellectu
+<lb ed="#L" n="18"/>entis analogi, sed oportet quod intelligat illud esse ens determinate quod est
+<lb ed="#L" n="19"/>substantia vel quod. est accidens, tunc cognitio ? si est est cognitio alicuius
+<lb ed="#L" n="20"/>secundum rationem generis generalissimi, scilicet quod est substantia vel 
+acci<lb break="no" ed="#L" n="21"/>dens, quod est quantitas vel qualitas. Cognitio autem qua cognoscitur de aliquo
+<lb ed="#L" n="22"/>quid est rei est cognitio omnino determinata et perfecta rei secundum speciem
+<lb ed="#L" n="23"/>continentem genus et differentias, et est illa cognitio per diffinitionem 
+investi<lb break="no" ed="#L" n="24"/>gatam  via ratiocinativa, quae docetur secundo Posteriorum, ita, inquam, 
+per<lb break="no" ed="#L" n="25"/>fecta quod non remaneat locus quaestioni quid est, quod contingit quando 
+com<lb break="no" ed="#L" n="26"/>pleta est definitio per ultimam differentiam.
+</p>
+            <p xml:id="v27ab7-g32758-d1e316">
+               <lb ed="#L" n="27"/>Ut autem ampliorem intellectum habeamus illarum cognitionum si est
+<lb ed="#L" n="28"/>et quid est, et quomodo se habent per ordinem ad invicem, est intelligendum
+<lb ed="#L" n="29"/>quod quadruplex est rei cognitio, sicut etiam quadruplex est rei entitas sive
+<lb ed="#L" n="30"/>unitas, scilicet numero, specie , genere, analogia sive proportione, secundum
+<lb ed="#L" n="31"/>Philosophum, quinto Metaphysicae. Cognitio autem rei secundum proportionem
+<lb ed="#L" n="32"/>et analogiam est secundum quod res habent identitatem analogiae et 
+propor<lb break="no" ed="#L" n="33"/>tionis ad invicem ; unde quorumcumque est analogia et proportio ad invicem
+<lb ed="#L" n="34"/>unum ex alio secundum talem proportionem et similitudinem cognosci potest ;
+<lb ed="#L" n="35"/>unde cognitio secundum analogiam duplex est : una est secundum analogiam
+<lb ed="#L" n="36"/>quae est unius entis ad aliud, quae non comprehenditur sub uno genere, propter
+<lb ed="#L" n="37"/>quod nec de ipsis potest formari unus conceptus, sicut cognoscitur accidens in
+<lb ed="#L" n="38"/>quantum est aliquid substantiae quae est primum et per se ens. Unde, ut dictum
+<lb ed="#L" n="39"/>est, non concipitur res aliqua conceptu aliquo communi sic quod post illum
+<pb ed="#L" n="380"/>
+               <lb ed="#L" n="1"/>concipiatur ut ens per se quod est substantia vel ut ens quod est dispositio 
+sub<lb break="no" ed="#L" n="2"/>stantiae ; immo quicquid concipitur, sub ratione alicuius praedicati determinati
+<lb ed="#L" n="3"/>concipitur.
+</p>
+            <p xml:id="v27ab7-g32758-d1e355">
+               <lb ed="#L" n="4"/>Sed ultra hunc conceptum qui est alicuius sub ratione entis quod est
+<lb ed="#L" n="5"/>substantia sive sub ratione entis quod est accidens, absolute est ponere alium
+<lb ed="#L" n="6"/>conceptum alio modo determinatum et hoc secundum quandam analogiam
+<lb ed="#L" n="7"/>guae non est ex habitudine unius entis ad aliud, sed etiam non entis ad ens.
+<lb ed="#L" n="8"/>Propter quod non entia aliqua cum habent proportionem et attributionem ad
+<lb ed="#L" n="9"/>entia, ut sunt figmenta et privationes vel etiam negationes, aliquo modo
+<lb ed="#L" n="10"/>cognosci possunt. Propter quod dicit ' Philosophus quarto Metaphysicae, quod
+<lb ed="#L" n="11"/>negationes praedicamentorum ad praedicamenta attributionem habent et ad ens
+<lb ed="#L" n="12"/>et ideo non ens esse non ens dicimus. Et Avicenna dicit quod esse notius est
+<lb ed="#L" n="13"/>quam non esse; esse enim cognoscitur per se, non esse vero cognoscitur per
+<lb ed="#L" n="14"/>esse aliquo modo ^; non ens autem quod nullam similitudinem vel 
+proportio<lb break="no" ed="#L" n="15"/>nem habet ad ens nullo modo conceptum in nobis facere potest, quia non ens
+<lb ed="#L" n="16"/>in quantum huiusmodi nullum conceptum facit. Ex similitudine ergo entium
+<lb ed="#L" n="17"/>possumus  formare conceptus non entium ; nam ex conceptu auri et montis
+<lb ed="#L" n="18"/>formamus conceptum aurei montis. Et ex tali proportionis cognitione quae est
+<lb ed="#L" n="19"/>communis enti et non enti fit nominis impositio. Qui enim talem ad minus
+<lb ed="#L" n="20"/>cognitionem non habet non potest imponere nomen ad significandum.
+</p>
+            <p xml:id="v27ab7-g32758-d1e394">
+               <lb ed="#L" n="21"/>Et ex hoc ulterius patet quod sicut ex rerum cognitione per analogiam
+<lb ed="#L" n="22"/>et proportionem non oportet quod cognoscatur esse rei vel non esse, licet etiam
+<lb ed="#L" n="23"/>res sit, ita non oportet quod qui intelligit quid significatur per nomen [quod]
+<lb ed="#L" n="24"/>intelligat rem significatam per nomen esse vel non esse, quia nomen non 
+impo<lb break="no" ed="#L" n="25"/>nitur rei enti vel non enti secundum quod huiusmodi, sed rei conceptae 
+secun<lb break="no" ed="#L" n="26"/>dum quod huiusmodi , quod est commune enti et non enti ^, quia tam ens
+<lb ed="#L" n="27"/>quam non ens potest concipi ex proportione et similitudine unius ad alterum.
+<lb ed="#L" n="28"/>Unde,ex hoc quod concipitur mente quod profertur hoc nomine Deus vel 
+quo<lb break="no" ed="#L" n="29"/>cumque alio, non sequitur Deum esse vel quodcumque aliud nisi in intellectu ;
+<lb ed="#L" n="30"/>nec oportet illud quod nomine significatur esse aliquid extra in rerum natura.
+</p>
+            <p xml:id="v27ab7-g32758-d1e418">
+               <lb ed="#L" n="31"/>Hoc tamen non est sic intelligendum quod cognitio de aliquo si est 
+inclu<lb break="no" ed="#L" n="32"/>dat quod illud sciatur esse sic in rerum natura quod existat extra in actu in
+<lb ed="#L" n="33"/>propria forma et materia ; immo sufficit quod habeat esse in rerum natura vel
+<lb ed="#L" n="34"/>dicto modo in actu vel in potentia et in virtute suorum principiorum, prout
+<lb ed="#L" n="35"/>rosa non existente in actu de ipsa scitur quod est aliquid in rerum natura, quia
+<lb ed="#L" n="36"/>est vere flos et vere substantia in potentia ; de chimaera autem scitur quod
+<lb ed="#L" n="37"/>non est aliquid in rerum natura, quia nec in actu nec in potentia et cetera.
+<lb ed="#L" n="38"/>Unde ex hoc patet quod cognitio quid significat nomen separatur a cognitione
+<pb ed="#L" n="381"/>
+               <lb ed="#L" n="1"/>si est, eo quod quid est nominis est commune enti et non enti. Et haec etiam
+<lb ed="#L" n="2"/>cognitio in unaquaque re secundum rationem proportionis, quae est maxime
+<lb ed="#L" n="3"/>confusa, est prima omnium cognitionum ; post istam vero est cognitio rei si est.
+<lb ed="#L" n="4"/>Cognito ' enim quid nominis de aliquo, statim quaeritur utrum sit ens, quod est
+<lb ed="#L" n="5"/>quaerere utrum sit aliqua res et natura in illo genere entis quod per huiusmodi
+<lb ed="#L" n="6"/>nomen significatur. Unde cognoscere aliquid si est proprie est cognoscere quid
+<lb ed="#L" n="7"/>est illud, saltim sub ratione generis generalissimi ; propter quod, sicut genus
+<lb ed="#L" n="8"/>generalissimum pertinet ad quidditatem rei, ita cognitio si est pertinet ad 
+cogni<lb break="no" ed="#L" n="9"/>tionem quid est. Unde dicit Aristoteles, secundo Posteriorum, quod cognitio
+<lb ed="#L" n="10"/>si est est pars cognitionis eius quod quid est et quantum habemus de re si est
+<lb ed="#L" n="11"/>tantum habemus de ea quid est ; et haec cognitio si est sequitur cognitionem
+<lb ed="#L" n="12"/>quid est nominis, sicut cognitio minus confusa magis confusam. Magis confusa
+<lb ed="#L" n="13"/>enim sunt nobis semper magis manifesta et certa, ut dicit Philosophus, in primo
+<lb ed="#L" n="14"/>Physicorum. Sicut ergo unitas generis sequitur unitatem analogiae, ita cognitio
+<lb ed="#L" n="15"/>si est, quae est cognitio rei secundum rationem generis, sequitur cognitionem
+<lb ed="#L" n="16"/>quid est nominis sive quid significat nomen, quod est cognitio secundum
+<lb ed="#L" n="17"/>rationem analogiae modo supradicto.
+</p>
+            <p xml:id="v27ab7-g32758-d1e477">
+               <lb ed="#L" n="18"/>Et ex his ulterius patet quod cognitio quid est rei qua cognoscitur res 
+com<lb break="no" ed="#L" n="19"/>plete et determinate secundum rationem speciei, et hoc est per rationem
+<lb ed="#L" n="20"/>diffinitivam dicentem quid est res, sequitur alias duas cognitiones praedictas
+<lb ed="#L" n="21"/>sicut magis determinata magis confusas; et sicut cognitio generis tanquam
+<lb ed="#L" n="22"/>magis confusa praecedit cognitionem speciei magis determinatam, ita cognitio
+<lb ed="#L" n="23"/>si est praecedit cognitionem quid est ; et sicut cognitio speciei non potest esse
+<lb ed="#L" n="24"/>sine cognitione generis, ita nec cognitio quid est sine cognitione si est. Unde
+<lb ed="#L" n="25"/>dicitur, secundo Posteriorum : impossibile est scire quid est ignorantem si est,
+<lb ed="#L" n="26"/>quia de eo quod non est non contingit scire quid est. Et sicut sciens quid 
+signi<lb break="no" ed="#L" n="27"/>ficat nomen, quaerit si est, ita sciens si est quaerit quid est ; et sicut cognitio
+<lb ed="#L" n="28"/>quid significat nomen separatur a cognitione si est et non e converso, ita 
+cogni<lb break="no" ed="#L" n="29"/>tio si est separatur a cognitione quid est et non e converso ; quia communius et
+<lb ed="#L" n="30"/>prius separatur a posteriori et specialiori et non e converso. Unitas autem et
+<lb ed="#L" n="31"/>entitas proportionis analogiae est communior quam unitas generis, et unitas
+<lb ed="#L" n="32"/>generis est communior quam unitas speciei, quia, ut dicit Philosophus, quinto
+<lb ed="#L" n="33"/>Metaphysicae : quae sunt unum genere sunt unum proportione et non e 
+con<lb break="no" ed="#L" n="34"/>verso ; et quae sunt unum specie sunt unum genere et non e converso. Ex his
+<lb ed="#L" n="35"/>patet quod istae cognitiones, scilicet quid est nominis et si est et quid est sunt
+<lb ed="#L" n="36"/>idem cum cognitionibus quibus cognoscitur aliquid vel secundum proportionem
+<lb ed="#L" n="37"/>vel secundum genus vel secundum speciem. Nec sunt plures modi cognoscendi
+<lb ed="#L" n="38"/>rem cum etiam oninis entitas et unitas reducatur  ad illa.
+</p>
+            <p xml:id="v27ab7-g32758-d1e525">
+               <lb ed="#L" n="39"/>Quarto modo entitatis et unitatis quae dicitur unitas numeralis sive qua
+<pb ed="#L" n="382"/>
+               <lb ed="#L" n="1"/>dicitur aliquid unum numero non respondet aliquis modus cognitionis 
+intellec<lb break="no" ed="#L" n="2"/>tivae de qua nunc loquimur, eo quod talia non sunt intelligibilia per se, sed
+<lb ed="#L" n="3"/>sensibilia.
+</p>
+            <p xml:id="v27ab7-g32758-d1e539">
+               <lb ed="#L" n="4"/>Deinde est intelligendum quod duplex est modus cognoscendi res, unus 
+<lb ed="#L" n="5"/>quidem naturalis, scilicet per se immediate et quasi intuitive acceptus ab ipsis
+<lb ed="#L" n="6"/>rebus secundum se, quemadmodum videre colorem dicitur cognitio naturalis ;
+<lb ed="#L" n="7"/>alius autem modus cognoscendi res est per inquisitionem et investigationem
+<lb ed="#L" n="8"/>via ratiocinationis et discursus . Et, secundum Philosophum et Commentatorem,
+<lb ed="#L" n="9"/>differentia est inter istas cognitiones, quia prima dicitur cognitio naturalis quae
+<lb ed="#L" n="10"/>est modo sensus, quae non acquiritur per cognitionem praecedentem ; secunda
+<lb ed="#L" n="11"/>vero cognitio acquiritur ex aliqua cognitione praecedente, ita quod in omni
+<lb ed="#L" n="12"/>tali cognitione oportet quod praecedat cognitio qua nobis sunt aliqua 
+naturali<lb break="no" ed="#L" n="13"/>ter nota et per quorum notitiam intellectus per inquisitionem et 
+investigatio<lb break="no" ed="#L" n="14"/>nem deveniat ' in notitiam aliorum.
+</p>
+            <p xml:id="v27ab7-g32758-d1e565">
+               <lb ed="#L" n="15"/>Item, in cognitione naturali non contingit error et dubitatio, ut patet in
+<lb ed="#L" n="16"/>cognitione sensitiva ; haec autem contingunt in cognitione  intellectus quae fit
+<lb ed="#L" n="17"/>per inquisitionem et investigationem. Item, in cognitione naturali ipsum 
+cogni<lb break="no" ed="#L" n="18"/>tum per se et immediate et secundum modum secundum quem existit in propria
+<lb ed="#L" n="19"/>natura movet ipsam potentiam cognitivam ; et hoc naturaliter, ut patet in
+<lb ed="#L" n="20"/>cognitione sensitiva. Sed in alia, cum ipsa intellecta non habeant per se esse
+<lb ed="#L" n="21"/>secundum quod intelliguntur, sed per abstractionem agentis intellectus, non
+<lb ed="#L" n="22"/>nisi mediantibus phantasmatibus movent intellectum.
+</p>
+            <p xml:id="v27ab7-g32758-d1e585">
+               <lb ed="#L" n="23"/>De tertio articulo, scilicet quomodo haec duplex cognitio specialiter de Deo
+<lb ed="#L" n="24"/>habetur est intelligendum quod de Deo potest a nobis haberi praedictus duplex
+<lb ed="#L" n="25"/>modus cognoscendi, primus in gloria ubi cognoscitur cognitione immediate
+<lb ed="#L" n="26"/>accepta ? ab ipsa essentia divina in se ipsa per simplicem intuitum absque aliqua
+<lb ed="#L" n="27"/>investigatione et inquisitione ; in quo modo nullus error potest contingere vel
+<lb ed="#L" n="28"/>defectus; alius modus cognoscendi Deum est per inquisitionem et 
+investiga<lb break="no" ed="#L" n="29"/>tionem rationis dividendo et componendo , syllogizando etc., qui accipitur
+<lb ed="#L" n="30"/>ex comparatione et proportione aliqua aliorum ad ipsum et mediantibus 
+phan<lb break="no" ed="#L" n="31"/>tasmatibus ex aliis rebus acceptis, propter quod in isto modo cognoscendi
+<lb ed="#L" n="32"/>potest contingere error, quia sensibilia et materialia a quorum cognitione et
+<lb ed="#L" n="33"/>mediantibus quorum phantasmatibus ascenditur ad cognitionem divinam habent
+<lb ed="#L" n="34"/>defectivam et imperfectam habitudinem et proportionem ad divina.
+</p>
+            <p xml:id="v27ab7-g32758-d1e614">
+               <lb ed="#L" n="35"/>Loquendo ergo de cognitione primo modo, dicendum est quod eadem
+<lb ed="#L" n="36"/>cognitione cognoscitur de Deo si est et quid est ; nam, cum Deus sit actus
+<lb ed="#L" n="37"/>purus in simplici et actuali singularitate unius essentiae omnino secundum se
+<lb ed="#L" n="38"/>indistincte et ab aliis distincte existens, et ideo nec illa natura prout in se ipsa
+<lb ed="#L" n="39"/>cognoscitur nude ' et immediate potest intelligi sub ratione communi et indis-
+<pb ed="#L" n="383"/>
+               <lb ed="#L" n="1"/>tincta sive universali determinabili per aliquid sub ratione formalis 
+determina<lb break="no" ed="#L" n="2"/>tionis, sicut contingit in his quae sunt composita ex genere et differentia, ideo
+<lb ed="#L" n="3"/>in se non potest intelligi nisi intellectui completo et determinato. Unde,
+<lb ed="#L" n="4"/>secundum Philosophum et Commentatorem, separata a materia, quae etiam
+<lb ed="#L" n="5"/>non ponebant proprie in genere, cognitione qua in se ipsis cognoscuntur non
+<lb ed="#L" n="6"/>possunt cognosci per definitionem procedendo a coníusa et indeterminata
+<lb ed="#L" n="7"/>cognitione eorum ad determinatam secundum descensum generis in speciem
+<lb ed="#L" n="8"/>per differentias, sed aut penitus ignoratur eorum substantia, sic scilicet quod
+<lb ed="#L" n="9"/>de ipsis in se nihil cognoscitur, aut totaliter et perfecte mente attingitur. Et
+<lb ed="#L" n="10"/>multo magis hoc secundum veritatem de Deo est tenendum et sic dicendum
+<lb ed="#L" n="11"/>quod de Deo est eadem cognitio qua cognoscitur si est et quid est, non quia in
+<lb ed="#L" n="12"/>eo sit idem esse essentiae ' et esse existentiae quod dicitur quidditas, sed 
+refe<lb break="no" ed="#L" n="13"/>renda est utraque cognitio ad ipsam essentiam et naturam quae in sua entitate
+<lb ed="#L" n="14"/>non est nata cognosci secundum aliquem conceptum generalem communem et
+<lb ed="#L" n="15"/>confusum, sub ratione scilicet generis communis, deinde per specificationem
+<lb ed="#L" n="16"/>actualium differentiarum sub ratione speciei determinatae entitatis et perfec.
+<lb ed="#L" n="17"/>tionis.
+</p>
+            <p xml:id="v27ab7-g32758-d1e666">
+               <lb ed="#L" n="18"/>Loquendo autem de cognitione Dei quoad modum cognoscendi secundum ,
+<lb ed="#L" n="19"/>qui ? habet locum in hominibus viatoribus, videtur aliquibus quod de Deo
+<lb ed="#L" n="20"/>nullo modo possit haberi cognitio quod est. Nam dicit Damascenus, libro primo,
+<lb ed="#L" n="21"/>capitulo secundo : quid est Dei substantia vel quid est Deus secundum 
+substan<lb break="no" ed="#L" n="22"/>tiam ignoramus et dicere non possumus; incomprehensibile  hoc et omnino
+<lb ed="#L" n="23"/>ignotum. Dicit enim quod incorporeum esse Deum et incorruptibilem et cetera
+<lb ed="#L" n="24"/>huiusmodi, haec quid est Deus non significant ?^, sed quid non est. Et capitulo
+<lb ed="#L" n="25"/>quarto : quoniam quod  est manifestum est, quid autem est secundum 
+substan<lb break="no" ed="#L" n="26"/>tiam et naturam incomprehensibile et ignotum est. Et Gregorius super Ezechiel :
+<lb ed="#L" n="27"/>quantumcumque mens in contemplatione profecerit non ad id quod ipse est,
+<lb ed="#L" n="28"/>sed ad aliquid quod sub ipso est pervenit . Et ideo aliqui videntur dicere quod
+<lb ed="#L" n="29"/>solum de Deo scitur si est, loquendo non ? de esse quo Deus in se ipso subsistit,
+<lb ed="#L" n="30"/>sed de esse quod significat compositionem intellectus sive quod vera est 
+propo<lb break="no" ed="#L" n="31"/>sitio qua dicitur Deus est, quod quidem potest etiam sufficienter ? ex divinis
+<lb ed="#L" n="32"/>effectibus demonstrari. Sed, quia inquisitio et investigatio laboriosa 
+philosopho<lb break="no" ed="#L" n="33"/>rum in philosophia et sanctorum in Sacra Scriptura circa acquisitionem 
+cogni<lb break="no" ed="#L" n="34"/>tionis de Deo apparet non solum fuisse ad cognoscendum de Deo si est solum
+<lb ed="#L" n="35"/>dicto modo, — patet enim quod non solum conati sunt inducere motiva ad
+<lb ed="#L" n="36"/>probandum Deum esse sive quod illa propositio qua dicitur Deus est sit vera,
+— quin immo cum hoc certitudinaliter scitum est ex aliis ulterius quid est Deus
+<pb ed="#L" n="384"/>
+               <lb ed="#L" n="1"/>secundum rem per illos qui sollicite studuerunt devenire in eius notitiam magis
+<lb ed="#L" n="2"/>specialem, quod patet in his quae de Deo sancti et philosophi tractaverunt.
+</p>
+            <p xml:id="v27ab7-g32758-d1e716">
+               <lb ed="#L" n="3"/>Item, de Deo non potest sciri ipsum esse isto modo, scilicet sciendo illam
+<lb ed="#L" n="4"/>propositionem complexam dicentem quod Deus est esse veram, nisi sciendo
+<lb ed="#L" n="5"/>etiam, licet modo incompleto, de Deo si est sive eius aliqualem entitatem. De
+<lb ed="#L" n="6"/>eo enim de quo solum cognoscitur quid nominis sive quid dicitur per nomen,
+<lb ed="#L" n="7"/>non scitur si est etiam complexum, id est quod propositio qua tale quid dicitur
+<lb ed="#L" n="8"/>esse sit vera. Sciendo enim quid nomine Zircocervi ' dicitur, non scitur quid sit
+<lb ed="#L" n="9"/>dicto modo, scilicet quod ista propositio qua dicitur hircocervus est sit vera vel
+<lb ed="#L" n="10"/>etiam falsa. Nunc autem de eo de quo contingit sciri si. est, cum haec cognitio
+<lb ed="#L" n="11"/>sit quodammodo pars cognitionis quid est, ut visum est, potest etiam sciri de
+<lb ed="#L" n="12"/>illo quid est. Quare etiam scitur de Deo quid est.
+</p>
+            <p xml:id="v27ab7-g32758-d1e741">
+               <lb ed="#L" n="13"/>Item, nullo modo cognosceremus quae de Deo negantur nisi aliquo modo
+<lb ed="#L" n="14"/>cognosceremus quae de Deo ' affirmantur, quod est aliquo modo cognoscere
+<lb ed="#L" n="15"/>quae ad eius naturam et quidditatem pertinent. Dicendum est ergo quod in via
+<lb ed="#L" n="16"/>possimus aliquo modo cognoscere de Deo quid est quia, prout dicit Augustinus,
+<lb ed="#L" n="17"/>de Orando Deum, ad probandum si omnino Deum quid sit nesciremus omnino
+<lb ed="#L" n="18"/>eum non amaremus nec etiam eum invocaremus, ut dicit in principio 
+Confes<lb break="no" ed="#L" n="19"/>sionum : quis te invocat nesciens te et cetera. Unde auctoritates quae videntur
+<lb ed="#L" n="20"/>dicere contrarium sunt intelligendae sic quod non possumus ? de Deo in vita
+<lb ed="#L" n="21"/>ista scire quid est secundum se et immediate, scilicet sumendo cognitionem ex
+<lb ed="#L" n="22"/>ipso secundum primum modum cognoscendi supradictum. Intelligendae enim
+<lb ed="#L" n="23"/>sunt sic quod in via certitudinaliter et perfecte potest sciri si est et quod ista
+<lb ed="#L" n="24"/>propositio vera est qua dicitur Deus est ; sed non potest certitudinaliter et 
+per<lb break="no" ed="#L" n="25"/>fecte sciri quid est. Minus enim sufficit ad sciendum si est quam ad sciendum
+<lb ed="#L" n="26"/>quid est, sicut circa complexa minus sufficit ad sciendum quia est quam ad
+<lb ed="#L" n="27"/>sciendum propter quid est. Et potest sciri de aliquo certitudinaliter quia est et
+<lb ed="#L" n="28"/>ignorari propter quid est et cetera.
+</p>
+            <p xml:id="v27ab7-g32758-d1e778">
+               <lb ed="#L" n="29"/>Ex praedictis autem patet quomodo se habent dictae cognitiones, scilicet 
+<lb ed="#L" n="30"/>si est et quid est circa Deum quantum ad istum modum cognoscendi ipsum, quia
+<lb ed="#L" n="31"/>ita videntur? se habere sicut circa alia, non propter ipsum Deum cognitum
+<lb ed="#L" n="32"/>simpliciter et absolute, sicut contingit in creaturis, sed propter modum 
+cognos<lb break="no" ed="#L" n="33"/>cendi ipsum, ut sic scilicet ex proportione eius ad materialia et ex materialibus
+<lb ed="#L" n="34"/>cognoscibilia. Propter quod, sicut in materialibus sive ex materialibus 
+cognos<lb break="no" ed="#L" n="35"/>cibilibus per investigationem et inquisitionem discursivam rationis primo est
+<lb ed="#L" n="36"/>cognitio confusa magis, deindo minus confusa modo supra expo sito, ita etiam
+<lb ed="#L" n="37"/>fit in Deo secundum dictum modum cognoscendi. Primo enim cognoscimus
+<lb ed="#L" n="38"/>quid nominis de Deo ex aliqua proportione et habitudine ad materialia, puta
+<pb ed="#L" n="385"/>
+               <lb ed="#L" n="1"/>cum videamus quod in inferioribus suntj;aliquae causae principales respectu
+<lb ed="#L" n="2"/>aliorum et unum ens regitur ab alio ut familia a patrefamilias, servus a domino,
+<lb ed="#L" n="3"/>vel secundum aliquid huiusmodi ; impositum est hoc nomen Deus ad 
+signifi<lb break="no" ed="#L" n="4"/>candum aliquid in universo quod sit una causa prima omnium et quo maius
+<lb ed="#L" n="5"/>cogitari non possit, sed hoc cognito non cognoscitur statim si est ' de ipso, id
+<lb ed="#L" n="6"/>est quod illud quod hoc nomine significatur habea|[n]t esse in rerum natura ; sed
+<lb ed="#L" n="7"/>solum ex huiusmodi cognitione cognoscitur quid est aliquid secundum 
+concep<lb break="no" ed="#L" n="8"/>tionem intellectus.
+</p>
+            <p xml:id="v27ab7-g32758-d1e822">
+               <lb ed="#L" n="9"/>Per alia autem investigatur de ipso cognitio si est, prout ex hoc quod in
+<lb ed="#L" n="10"/>motibus et motoribus non est procedere in infinitum, ut ostendit Philosophus
+<lb ed="#L" n="11"/>in septimo Physicorum, ubi probatur unum esse motorem primum ex quo
+<lb ed="#L" n="12"/>arguit Deum esse. Cognito ? autem de Deo sic si est, adhuc non scitur de eo
+<lb ed="#L" n="13"/>quid est. Sed ex eo quod motus primi mobilis est continuus et semper in actu,
+<lb ed="#L" n="14"/>id est saltem natus est esse semper et continuari in actu per suum motorem,
+<lb ed="#L" n="15"/>Philosophus, in octavo Physicorum ostendit primum motorem esse perpetuum
+<lb ed="#L" n="16"/>et actum purum absque omni potentia.
+</p>
+            <p xml:id="v27ab7-g32758-d1e842">
+               <lb ed="#L" n="17"/>Deinde, in libro Metaphysicae, accipiens et supponens si est de Deo, magis
+<lb ed="#L" n="18"/>in speciali investigat et inquirit quid est eius, ut patet per speciales et nobiles
+<lb ed="#L" n="19"/>condiciones plures quas in ipso esse eminenter concludit, huiusmodi 
+condicio<lb break="no" ed="#L" n="20"/>nibus quasi pro differentiis utens in processu a cognitione si est quasi secundum
+<lb ed="#L" n="21"/>rationem generis confusam ad cognitionem quid est quasi secundum rationem
+<lb ed="#L" n="22"/>speciei determinatam.
+</p>
+            <p xml:id="v27ab7-g32758-d1e858">
+               <lb ed="#L" n="23"/>Quamvis autem circa materialia sic se habeant dictae cognitiones quod
+<lb ed="#L" n="24"/>fiunt realiter secundum processum a genere ad speciem per differentias 
+deter<lb break="no" ed="#L" n="25"/>minatas, prout etiam sunt vere in genere et sic utrique  modo cognoscendi
+<lb ed="#L" n="26"/>respondet res ipsa secundum se, tamen, quia Deus nullo modo est in genere,
+<lb ed="#L" n="27"/>talis diversa cognitio si est et quid est non est ponenda de Deo ex eo quod ei
+<lb ed="#L" n="28"/>convenit in se ipso secundum se, sed ex eo quod ? convenit ei in ? habitudine
+<lb ed="#L" n="29"/>et proportione ad creaturas in quibus secundum talia applicata ei secundum
+<lb ed="#L" n="30"/>supereminentiam et analogiam quod quid est de Deo cognoscitur. Unde, 
+quan<lb break="no" ed="#L" n="31"/>tum est ex parte cognoscentis et tali modo cognoscendi, Deus primo 
+cognosci<lb break="no" ed="#L" n="32"/>tur si est confusa cognitione quasi secundum rationem generis generalissimi ;
+<lb ed="#L" n="33"/>deinde aliquantulum specificatur haec eius cognitio et incipit fieri cognitio quid
+<lb ed="#L" n="34"/>est magis in speciali, cognoscendo de ipso quod est substantia incorporea
+<lb ed="#L" n="35"/>vivens; deinde magis cognoscendo quod est substantia incorporea vivens et
+<lb ed="#L" n="36"/>intelligens, et potest esse prima sine ' secunda et sic deinceps non propter 
+poten<lb break="no" ed="#L" n="37"/>tialitatem in ipso quae sic ? secundum diversos gradus actualitatum perficiatur,
+<lb ed="#L" n="38"/>sed propter potentialitatem quae est in his ex quorum habitudine et proportione
+<pb ed="#L" n="386"/>
+               <lb ed="#L" n="1"/>hoc de Deo cognoscimus. Huiusmodi enim cognitionem habemus de creaturis
+<lb ed="#L" n="2"/>secundum modum quo intelligimus eas esse in genere et determinari per 
+diffe<lb break="no" ed="#L" n="3"/>rentias.
+</p>
+            <p xml:id="v27ab7-g32758-d1e904">
+               <lb ed="#L" n="4"/>Sed ex tali modo cognoscendi licet diversificato sic ex parte cognoscentis
+<lb ed="#L" n="5"/>et cogniti non in se, sed in aliis dicto modo nullo modo intelligimus Deum
+<lb ed="#L" n="6"/>esse in genere, sed tantum illa ex quorum habitudine de Deo secundum tales
+<lb ed="#L" n="7"/>modos distinctos cognoscendi si est et quid est concipimus. Cum enim 
+quaeri<lb break="no" ed="#L" n="8"/>tur de Deo quid est, respondetur substantia ; item, substantia incorporea ; item,
+<lb ed="#L" n="9"/>substantia incorporea vivens et intelligens. Ergo manifestum est quod talia de
+<lb ed="#L" n="10"/>Deo cognoscendo cognoscimus de ipso quid est et cetera '.
+</p>
+            <p xml:id="v27ab7-g32758-d1e923">
+               <lb ed="#L" n="11"/>Et ex praemissis patet quomodo intelligendi sunt quidam articuli  ab
+<lb ed="#L" n="12"/>Episcopo Parisiensi condemnati qui tamen praedictis contrarii videntur. Unus
+<lb ed="#L" n="13"/>enim sic dicit : Deum in hac vita intelligere possumus per essentiam ; error
+<lb ed="#L" n="14"/>alius dicit : de Deo non potest cognosci nisi quia est sive ipsum esse. Error
+<lb ed="#L" n="15"/>primus enim non potest stare cum secundo nisi aliquo modo distinguatur de
+<lb ed="#L" n="16"/>cognitione qua cognoscibilis est Deus per essentiam et haec distinctio ex 
+prae<lb break="no" ed="#L" n="17"/>dictis satis est manifesta.
+</p>
+            <p xml:id="v27ab7-g32758-d1e941">
+               <lb ed="#L" n="18"/>Ad argumentum in oppositum patet responsio ; quia, licet idem sit in Deo
+<lb ed="#L" n="19"/>esse et quid est, tamen ipse non innotescit nobis ut secundum se est, sed
+<lb ed="#L" n="20"/>mediantibus creaturis ; et licet certitudinaliter et perfecte possit cognosci per
+<lb ed="#L" n="21"/>creaturas si est, non tamen per eas scitur certitudinaliter et perfecte quid est,
+<lb ed="#L" n="22"/>quia aequivocus effectus deficit a repraesentatione suae causae non attingendo
+<lb ed="#L" n="23"/>ad perfectionem suae naturae ; non tamen deficit in ostendendo ipsum esse, cum
+<lb ed="#L" n="24"/>esse eius dependens sit ab ea.
+</p>
+            <p xml:id="v27ab7-g32758-d1e959">
+               <lb ed="#L" n="25"/>Nec tamen est hoc intelligendum solum in Deo specialiter, quia verum sit
+<lb ed="#L" n="26"/>quod idem sit esse eius et quod quid  est, id est essentia ? eius, sicut videtur
+<lb ed="#L" n="27"/>argumentum supponere. Hoc enim verum est in omnibus, scilicet quod esse
+<lb ed="#L" n="28"/>non dicit aliquam rem additam essentiae et tamen, cum alia, puta materialia,
+<lb ed="#L" n="29"/>secundum rationem abstractam sint  nata cognosci secundum suas essentias in
+<lb ed="#L" n="30"/>se ipsis ab intellectu humano 5, alia est cognitio qua cognoscitur de ipsis si est
+<lb ed="#L" n="31"/>quam quid est ; et ideo planum est quod alterum istorum non refertur ad esse
+<lb ed="#L" n="32"/>existentiae et alterum ad esse essentiae, sicut etiam videtur argumentum 
+sup<lb break="no" ed="#L" n="33"/>ponere ; immo utrumque refertur ad esse essentiae ut si est referatur ad esse
+<lb ed="#L" n="34"/>essentiae ? in generali, quid est vero ad esse essentiae in speciali; alioquin, cum in
+<lb ed="#L" n="35"/>creaturis naturaliter prius esset esse essentiae quod est quasi aeternum et incor-
+<pb ed="#L" n="387"/>
+               <lb ed="#L" n="1"/>ruptibile secundum aliquos et acquiritur ei esse existentiae per agens, tunc si
+<lb ed="#L" n="2"/>quaestio si est quaereret de rei ' actuali existentia et quaestio quid est de 
+sim<lb break="no" ed="#L" n="3"/>plici rei essentia, quaestio quid est esset prior quam quaestio si est. Nam scito
+<lb ed="#L" n="4"/>quid est aliquid secundum essentiam, cum illa sit indifferens ad esse essentiae
+<lb ed="#L" n="5"/>et existentiae, adhuc habet locum quaestio si est in existentia . Ergo, cum in
+<lb ed="#L" n="6"/>creaturis non dicantur differre cognitio si est a cognitione quid est propter 
+dif<lb break="no" ed="#L" n="7"/>ferentiam esse existentiae et essentiae, nec in Deo debet poni quod propter hoc
+<lb ed="#L" n="8"/>sit una cognitio si est et quid est, quia esse et essentia realiter non differunt,
+<lb ed="#L" n="9"/>sed propter causam praedictam. Ubi ergo est aliquid secundum essentiam suam
+<lb ed="#L" n="10"/>ex natura sua cognoscibile primo sub ratione con fusa et indeterminata, deinde
+<lb ed="#L" n="11"/>sub ratione determinata, ibi differunt tales cognitiones. Hoc autem in 
+cogni<lb break="no" ed="#L" n="12"/>tione est omnium quae a nobis per investigationem rationis cognoscuntur. Et
+<lb ed="#L" n="13"/>ideo quia essentia Dei et esse eius, quae sunt idem omnino, non innotescit
+<lb ed="#L" n="14"/>nobis nisi per investigationem, ideo, licet cum nobis innotescet ? notitia 
+sim<lb break="no" ed="#L" n="15"/>plieis visionis quae dicitur naturalis ex parte rei cognoscendae, non erit differens
+<lb ed="#L" n="16"/>cognitio haec et illa; tamen modo est differens, cum de ipso cognitiones has
+<lb ed="#L" n="17"/>habemus per investigationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

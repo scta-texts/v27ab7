@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="398"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g34674"><!-- v27ab7-q7-q16 -->
+            <head xml:id="v27ab7-g34674-Hd1e99">Quaestio 16</head>
+            <head xml:id="v27ab7-g34674-Hd1e101" type="question-title">
+      Utrum sacerdos qui alicui confitenti talem poenitentiam iniunxit ex qua mors istius
+      secula est ex hoc irregularitatem incurrerit
+    </head>
+            <p xml:id="v27ab7-g34674-d1e104">
+               <lb ed="#L" n="18"/>QUAESTIO XVI.
+<lb ed="#L" n="19"/>Utrum sacerdos qui alicui confitenti talem poenitentiam iniunxit ex qua mors istius
+<lb ed="#L" n="20"/>secula est ex hoc irregularitatem incurrerit,
+</p>
+            <p xml:id="v27ab7-g34674-d1e113">
+               <lb ed="#L" n="21"/>Post haec proponebatur aliud pertinens ad sacerdotes quantum ad ministerium eorum
+<lb ed="#L" n="22"/>circa sacramentum poenitentiae et erat tale? : posito quod aliquis sacerdos poenitentiam 
+impor<lb break="no" ed="#L" n="23"/>tabilem alicui confitenti iniunxit, credens tamen secundum suam conscientiam talem 
+poeni<lb break="no" ed="#L" n="24"/>tentiam fuisse convenientem ; dictus autem poenitens volens dictam poenitentiam pro viribus
+<lb ed="#L" n="25"/>adimplere ! ex hoc mortem incurrit, quaeritur utrum dictus sacerdos ex hoc incurrerit 
+irregu<lb break="no" ed="#L" n="26"/>laritatem. Et arguitur quod sic per simile; quia, si medicus det alicui aegroto medicinam
+<lb ed="#L" n="27"/>corporalem credens illam secundum conscientiam suam et artem medicinae convenientem et
+<lb ed="#L" n="28"/>dictus aegrotus ex hoc incurrat mortem, consulitur ? tali medico a domino  papa quod 
+absti<lb break="no" ed="#L" n="29"/>neat a promotione si habeat conscientiam quod occasione sua incurrerit dictus aegrotus mortem,
+<lb ed="#L" n="30"/>ut patet, Extra, de Aetate et Qualitate ordinandorum, capitulo : ad Aures. Hoc autem non
+<lb ed="#L" n="31"/>consulit ei nisi propter irregularitatem quam ex dicto facto videtur incurrisse ; ergo similiter
+<lb ed="#L" n="32"/>debet in proposito iudicari. In decretali enim dicitur: si super praemissis conscientia te
+<lb ed="#L" n="33"/>remordet, ad majores ordines de nostro <sic>con silio</sic> non accedas.
+</p>
+            <p xml:id="v27ab7-g34674-d1e146">
+               <pb ed="#L" n="399"/>
+               <lb ed="#L" n="1"/>Contra. Ea. quae propter bonum exitum fiunt, si ad malum exitum vergant, non debent
+<lb ed="#L" n="2"/>facientibus imputari, ut dicitur, vigesimo tertio, quaestione quinta, capitulo : de Occidendis !;
+<lb ed="#L" n="3"/>ita est in proposito ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g34674-d1e158">
+               <lb ed="#L" n="4"/>Respondeo dicendum quod irregularitas est quaedam poena sive quoddam impedimentum
+<lb ed="#L" n="5"/>promotionis consequens ad actum homicidii aliquo modo voluntarii. Ouandocumque ergo
+<lb ed="#L" n="6"/>aliquis voluntarie occidit hominem vel facit aliquid ex quo contingit eum mori, incurrit 
+irre<lb break="no" ed="#L" n="7"/>gularitatem. Nunc autem, cum per laborem nimium possit corpus tantum gravari quod ex hoc?
+<lb ed="#L" n="8"/>homo ? mortem incurrat, si quis debens alicui poenitenti imponere laborem sive aliquid quo
+<lb ed="#L" n="9"/>corpus gravetur ut satisfaciat pro peccatis et imponat voluntarie improportionatam poemam
+<lb ed="#L" n="10"/>ipsi poenitenti ex qua probabiliter mors sequi posset, poenitens autem volens perficere 
+poeni<lb break="no" ed="#L" n="11"/>tentiam sibi iniunctam, quia etiam ad hoc reputat se teneri, ex hoc moritur, videtur ex hoc
+<lb ed="#L" n="12"/>incurrere sacerdos irregularitatem. Sed est intelligendum quod tunc voluntarie intelligitur
+<lb ed="#L" n="13"/>quis  imponere talem poenitentiam improportionatam inductivam mortis, quando non adhibet
+<lb ed="#L" n="14"/>diligentiam quam debet et potest circa condicionem poenitentis, considerando scilicet 
+fortitu<lb break="no" ed="#L" n="15"/>dinem corporis et discretionem animi per quam, si per huiusmodi poenitentiam perciperet
+<lb ed="#L" n="16"/>nimis se gravari, possit illam omittere et aliud consilium habere et circa quantitatem 
+poeniten<lb break="no" ed="#L" n="17"/>liae et comparationem ad condicionem ipsius poenitentis, Si autem ex intentione mala tantam
+<lb ed="#L" n="18"/>poenitentiam iniungit in gravamen poenitentis, aut ex negligentia crassa hoc facit, et poenitens
+<lb ed="#L" n="19"/>ex sua indiscretione percipiens illam esse intolerabilem, nihilominus eam continuat, quia
+<lb ed="#L" n="20"/>propter iniunctionem sacerdotis ad hoc reputat se teneri et ex hoc moritur, irregularitatem
+<lb ed="#L" n="21"/>incurrere videtur. Si autem adhibet circa hoc diligentiam quae consuevit communiter in talibus
+<lb ed="#L" n="22"/>adhiberi nec vellet aliquo modo quod poenitens ex huiusmodi poenitentia mortem incurreret,
+<lb ed="#L" n="23"/>licet moriatur postea, non incurrit irregularitatem.
+</p>
+            <p xml:id="v27ab7-g34674-d1e204">
+               <lb ed="#L" n="24"/>Est tamen intelligendum quod in medicina spirituali poenitentiae adhibenda minor 
+dili<lb break="no" ed="#L" n="25"/>gentia sufficit quam in corporali, quantum ad hoc quod huiusmodi medicinam exhibens 
+irregu<lb break="no" ed="#L" n="26"/>laritatem non incurrit. Nam, cum aliquid est inductivum mortis ex necessitate naturae etiam
+<lb ed="#L" n="27"/>contra voluntatem morientis, sicut contingit de rebus quae per medicos administrantur, ad hoc
+<lb ed="#L" n="28"/>quod minister illius rei evitet hunc elfectum et ostendatur non velle mortem illius, debet
+<lb ed="#L" n="29"/>multo maiorem diligentiam adhibere ad hoc quod illud secundum convenientem proportionem
+<lb ed="#L" n="30"/>indigent) ministretur quam respectu illius quod non est inductivum de necessitate, Sed potest
+<lb ed="#L" n="31"/>talis effectus per voluntatem liberam suscipientis faciliter evitari, Cum enim aliquis ministrat
+<lb ed="#L" n="32"/>aliquid tale, puta poenitentiam nimis gravem alicui sanae mentis, potest probabiliter aestimare
+<lb ed="#L" n="33"/>quod si sentiat se tali poenitentia nimium gravari et aflligi, quod peteret eam alleviari et mutari 5,
+<lb ed="#L" n="34"/>alioquin. ipsemet voluntarie se interficeret ; et ideo minorem diligentiam adhibens circa hoc
+<lb ed="#L" n="35"/>non videtur ex hoc dici habere voluntatem illum interficiendi, quia potest supponere quod
+<lb ed="#L" n="36"/>ille non faciet sibi iniunctum ultra vires. Sed, si esset poenitens adeo simplex quod videretur
+<lb ed="#L" n="37"/>nescire iudicare quod non sit intentio iniungentis quod non faciat de sibi iniuncto nisi quod
+<lb ed="#L" n="38"/>poterit sustinere bono modo, secundum  hoc debet iniungens in iniungendo maiorem 
+diligen<lb break="no" ed="#L" n="39"/>tiam adhibere, et saltem poenitentem simplicem in hoc informare quod si videatur sibi quod
+<lb ed="#L" n="40"/>non possit dictam poenitentiam tolerare quod faciat illam alleviari vel mutari et quod de illa
+<lb ed="#L" n="41"/>non faciat aliquid ultra posse et cetera.
+</p>
+            <p xml:id="v27ab7-g34674-d1e246">
+               <lb ed="#L" n="42"/>Per hoc patet solutio ad argumenta. Littera autem in decretali posita se ipsam solvit ; nam
+<pb ed="#L" n="400"/>
+               <lb ed="#L" n="1"/>ibi dicitur : si super praemissis conscientia te remordet, ad maiores ordines de nostro consilio
+<lb ed="#L" n="2"/>non accedas, Glossa : remordet, ut si forte imperite medicinam dedisset vel si negligens fuit et
+<lb ed="#L" n="3"/>cetera, Praeterea, ut dictum est, non est simile de medico corporis et de medico animae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

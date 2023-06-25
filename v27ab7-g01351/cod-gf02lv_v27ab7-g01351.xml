@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="17"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g01351"><!-- v27ab7-q5-q5 -->
+            <head xml:id="v27ab7-g01351-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-g01351-Hd1e101" type="question-title">
+      Utrum incorruptionis corporis Christi fuit causa acceleratio
+      resurrectionis vel conservatio miraculosa alicuius formae
+      quae prius erat in corpore vivo
+    </head>
+            <p xml:id="v27ab7-g01351-d1e104">
+               <pb ed="#L" n="17"/>
+               <lb ed="#L" n="1"/>QUAESTIO V.
+<lb ed="#L" n="2"/>Utrum incorruptionis corporis Christi fuit causa acceleratio
+<lb ed="#L" n="3"/>resurrectionis vel conservatio miraculosa alicuius formae
+<lb ed="#L" n="4"/>quae prius erat in corpore vivo.
+</p>
+            <p xml:id="v27ab7-g01351-d1e117">
+               <lb ed="#L" n="5"/>Postea ad secundum arguebatur quod causa incorruptionis illius ! non
+<lb ed="#L" n="6"/>fuit acceleratio resurrectionis, quia illa incorruptio soli Christo et ex 
+spe<lb break="no" ed="#L" n="7"/>ciali privilegio videtur convenire. Sed incorruptio, quae est praeservatio
+<lb ed="#L" n="8"/>ab incineratione et putrefactione per acceleratam resuscitationem, 
+ante<lb break="no" ed="#L" n="9"/>quam facta sit huiusmodi corruptio, non fuit privilegium Christi nec soli
+<lb ed="#L" n="10"/>Christo convenit, quia etiam videtur matri suae Virgini Beatae convenire ;
+<lb ed="#L" n="11"/>ut patet per Augustinum, in quodam sermone de Assumptione Beatae
+<lb ed="#L" n="12"/>Mariae. Ergo oportet ponere aliquam incorruptionem aliam a praedictis,
+<lb ed="#L" n="13"/>et aliam causam illius incorruptionis a putrefactione et incineratione, quam
+<lb ed="#L" n="14"/>accelerationem resurrectionis. Hoc autem non videtur esse nisi reservatio
+<lb ed="#L" n="15"/>alicuius formae praeexistentis in corpore, qua manente miraculose, non
+<lb ed="#L" n="16"/>potest corpus Christi putrefieri vel incinerari, etiam si resuscitatum non
+<lb ed="#L" n="17"/>fuisset.
+</p>
+            <p xml:id="v27ab7-g01351-d1e148">
+               <lb ed="#L" n="18"/>Contra. Petrus sic arguit Actuum vigesimo quarto. David praedixit
+<lb ed="#L" n="19"/>de Christo : non dabis ?sanctum tuum videre corruptionem, et sic secundum
+<lb ed="#L" n="20"/>David, corpus Christi non vidit corruptionem. Sed si non vidit 
+corrup<lb break="no" ed="#L" n="21"/>tionem, surrexit. Ergo sequitur ex auctoritate David, quod Christus 
+sur<lb break="no" ed="#L" n="22"/>rexit. Dicit enim Petrus sic, ut habetur Actuum  vigesimo quarto : David
+<lb ed="#L" n="23"/>dicens, caro mea requiescet in spe quoniam non derelinques animam
+<lb ed="#L" n="24"/>meam in inferno, nec dabis ? sanctum tuum videre corruptionem, locutus
+<lb ed="#L" n="25"/>est de resurrectione Christi, quia neque derelictus est in inferno, nec caro
+<lb ed="#L" n="26"/>eius vidit corruptionem, sed ista consequentia quam facit Petrus ex dicto
+<lb ed="#L" n="27"/>David non teneret, si alia fuit causa dictae incorruptionis quam resurrectio
+<lb ed="#L" n="28"/>praeveniens huiusmodi corruptionem. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-g01351-d1e175">
+               <lb ed="#L" n="29"/>Respondeo dicendum quod Christus fuit vere homo, et veritatem
+<lb ed="#L" n="30"/>humanae naturae voluit ostendere, in vita defectus naturales, sive poenales,
+<pb ed="#L" n="18"/>
+               <lb ed="#L" n="1"/>scilicet famem, sitim, et! cetera talia suscipiendo, et in morte sicut alii
+<lb ed="#L" n="2"/>homines vera mortis corruptione deficiendo. Unde supponendum est quod,
+<lb ed="#L" n="3"/>sicut ipso vivente fuerunt in ipso  omnia quae ad naturam vivi hominis
+<lb ed="#L" n="4"/>pertinent, quantum ad naturalia omnino univoce prout sunt in aliis 
+homi<lb break="no" ed="#L" n="5"/>nibus puris, ita etiam suppono esse tenendum quod in instanti suae mortis
+<lb ed="#L" n="6"/>fuerunt in corpore eius mortuo omnia quae ad naturam corporis hominis
+<lb ed="#L" n="7"/>mortui naturaliter pertinent, omnino univoce prout sunt in corporibus 
+alio<lb break="no" ed="#L" n="8"/>rum hominum mortuorum, in hora qua anima a corpore separatur; quia
+<lb ed="#L" n="9"/>nec auctoritas docet contrarium, nec sensus aliquid  etiam potuit 
+appre<lb break="no" ed="#L" n="10"/>hendere per quod posset aliud iudicari. Ipse enim voluit fratribus per omnia
+<lb ed="#L" n="11"/>assimilari in vita et in morte, quantum ad defectus naturales. Unde dicit
+<lb ed="#L" n="12"/>Damascenus, libro tertio, capitulo vigesimo septimo, quod in graeco 
+corrup<lb break="no" ed="#L" n="13"/>tionis nomen duo significat . Signat  enim humanas has  passiones,
+<lb ed="#L" n="14"/>famem, sitim, laborem, clavorum perforationem, et mortem, scilicet animae
+<lb ed="#L" n="15"/>a corpore separationem, et quaecumque talia. Secundum hoc autem 
+signa<lb break="no" ed="#L" n="16"/>tum dicimus corruptibile Domini corpus; omnia enim haec voluntarie
+<lb ed="#L" n="17"/>assumpsit.
+</p>
+            <p xml:id="v27ab7-g01351-d1e221">
+               <lb ed="#L" n="18"/>Cum ergo diversae sunt opiniones circa qualitatem corporis cuius.
+<lb ed="#L" n="19"/>cumque hominis mortui, secundum diversitatem opinionum circa formam
+<lb ed="#L" n="20"/>corporis eius vivi, secundum hoc diversimode est loquendum de modo
+<lb ed="#L" n="21"/>existendi corporis Christi post animae separationem . Secundum ponentes
+<lb ed="#L" n="22"/>enim ? in homine tantum unam Ííormam substantialem, scilicet animam,
+<lb ed="#L" n="23"/>virtute continentem omnes alias inferiores formas, esset dicendum quod
+<lb ed="#L" n="24"/>reservatio corporis Christi ab incorruptione, post separationem animae, non
+<lb ed="#L" n="25"/>potuit esse conservatio alicuius formae praeexistentis; immo oporteret
+<lb ed="#L" n="26"/>ponere fuisse in corpore eius aliam formam sicut et in aliis hominibus,
+<lb ed="#L" n="27"/>quae tamen non fuit corrupta uiteriori resolutione in elementa per 
+putre<lb break="no" ed="#L" n="28"/>factionem. Sed hoc posito, adhuc remanet quaestio, utrum talis forma
+<lb ed="#L" n="29"/>aliquo miraculo sic fuit conservata per unum diem integrum et duas noctes
+<lb ed="#L" n="30"/>absque corruptione ulteriori, aut solum per tam velocem resurrectionem
+<lb ed="#L" n="31"/>fuit praeventa huiusmodi corruptio.
+</p>
+            <p xml:id="v27ab7-g01351-d1e254">
+               <lb ed="#L" n="32"/>Secundum ponentes autem plures formas in homine sic quod, anima
+<lb ed="#L" n="33"/>separata, remanet naturaliter et absque miraculo aliqua forma praeexistens
+<lb ed="#L" n="34"/>quae stat per aliquantulum tempus, absque resolutione ulteriori manens,
+<lb ed="#L" n="35"/>est dicendum quod etiam in corpore Christi remansit huiusmodi forma
+<pb ed="#L" n="19"/>
+               <lb ed="#L" n="1"/>naturalis per dictum spatium absque ulteriori corruptione. Sed hoc posito,
+<lb ed="#L" n="2"/>adhuc remanet etiam quaestio praedicta.
+</p>
+            <p xml:id="v27ab7-g01351-d1e272">
+               <lb ed="#L" n="3"/>Secundum illos autem qui ponunt in homine duas formas, ita tamen
+<lb ed="#L" n="4"/>quod in separatione animae alia, scilicet naturalis, simul naturaliter 
+corrum<lb break="no" ed="#L" n="5"/>pitur et alia introducitur, nec potest ista forma naturalis ! remanere anima
+<lb ed="#L" n="6"/>separata etiam ad horam, nisi miraculose et virtute supernaturali ; qui simul
+<lb ed="#L" n="7"/>cum hoc ponunt quod corpus Christi mortuum fuit unum et idem numero
+<lb ed="#L" n="8"/>cum corpore eius vivo, non solum unitate suppositi divini, sed unitate
+<lb ed="#L" n="9"/>eiusdem formae naturalis, non sic autem in aliis hominibus contingit, sed
+<lb ed="#L" n="10"/>corpus Beatae Mariae mortuum, in hora separationis animae, fuit omnino
+<lb ed="#L" n="11"/>aliud numero per aliam formam substantialem de novo introductam ; —
+<lb ed="#L" n="12"/>secundum istos inquam oportet ponere quod in corpore Christi remansit
+<lb ed="#L" n="13"/>supernaturaliter et miraculose huiusmodi forma naturalis. Potest etiam
+<lb ed="#L" n="14"/>secundum istos dici quod miraculose, sed forte virtute primi miraculi quo
+<lb ed="#L" n="15"/>a verbo assumpta fuit haec forma simul cum materia, etiam eodem miraculo
+<lb ed="#L" n="16"/>ab ulteriori corruptione praeservabatur; et tunc esset soluta quaestio 
+prae<lb break="no" ed="#L" n="17"/>dicta quia diceretur quod causa ulterioris incorruptionis non fuit acceleratio
+<lb ed="#L" n="18"/>resurrectionis huiusmodi corruptionem praevenientis sed miraculosa 
+reten<lb break="no" ed="#L" n="19"/>tio ? talis formae sic supernaturaliter retentae et conservatae, ratione cuius
+<lb ed="#L" n="20"/>non magis propinquum fuisset illud corpus corruptioni usque ad mille
+<lb ed="#L" n="21"/>annos quam in ipsa prima hora separationis animae.
+</p>
+            <p xml:id="v27ab7-g01351-d1e316">
+               <lb ed="#L" n="22"/>Sed ut dictum est alias, iste modus ponendi non videtur conveni ens,
+<lb ed="#L" n="23"/>tum quia excludendo univocationem et unitatem speciei in corpore Christi
+<lb ed="#L" n="24"/>mortuo et corporibus aliorum hominum mortuorum, ponit diversitatem 
+<lb ed="#L" n="25"/>nimiam inter veritatem corporis Christi mortui et aliorum hominum, quae
+<lb ed="#L" n="26"/>nec auctoritate nec ratione videtur haberi, immo videtur potius et auctoritati
+<lb ed="#L" n="27"/>et ration! adversari, nam, ut dictum est, rationale videtur quod Christus
+<lb ed="#L" n="28"/>veritatem mortis et quae ipsam in hora mortis naturaliter consequuntur
+<lb ed="#L" n="29"/>sustinuit, sicut et alii, et puto quod quantum ad accidentia exteriora quae
+<lb ed="#L" n="30"/>per sensum comprehenduntur, ( et quae magnam partem conferunt ad
+<lb ed="#L" n="31"/>cognoscendum quod quid  est, non fuisset inventa notabilis diversitas inter
+<lb ed="#L" n="32"/>corpus eius et corpora aliorum mortuorum consimilis dispositionis et 
+com<lb break="no" ed="#L" n="33"/>plexionis cum ipso qui in eadem hora mortui fuissent, eo modo  sicut ipse .
+<lb ed="#L" n="34"/>Dicit etiam  Damascenus, quod omnia praedicta quae ad naturales 
+prae<lb break="no" ed="#L" n="35"/>dictos defectus pertinent, Christus ipse ? voluntarie suscepit. Talis modus
+<lb ed="#L" n="36"/>etiam  incorruptionis videtur non concordare Scripturae, quia ex Scriptura
+<pb ed="#L" n="20"/>
+               <lb ed="#L" n="1"/>tantum colligitur duplex corruptio, una est per mortem et per alias 
+poena<lb break="no" ed="#L" n="2"/>litates de qua dictum est per Damascenum, alia est per resolutionem in
+<lb ed="#L" n="3"/>elementa sive per putrefactionem et a prima nullus ponit Christum 
+exemp<lb break="no" ed="#L" n="4"/>tum, sed solum a secunda, nec inter ista media praedicta incorruptio est
+<lb ed="#L" n="5"/>posita in Scriptura. Unde dicit Damascenus ubi supra : signat etiam 
+cor<lb break="no" ed="#L" n="6"/>ruptio perfectam corporis in ea ex quibus compositum est dissolutionem
+<lb ed="#L" n="7"/>et destitutionem ; huiusmodi autem corruptionis corpus Domini 
+experimen<lb break="no" ed="#L" n="8"/>tum non habuit ut ait Propheta : quoniam non dabis sanctum tuum
+<lb ed="#L" n="9"/>videre corruptionem et cetera. Et ideo videtur quod in corpore Christi in
+<lb ed="#L" n="10"/>hora separationis fuit forma eiusdem rationis et speciei cum formis quae
+<lb ed="#L" n="11"/>in corporibus aliorum hominum in hora mortis reperiuntur, et quod illa
+<lb ed="#L" n="12"/>forma fuisset corrupta et per putrefactionem in elementa resoluta, si naturae
+<lb ed="#L" n="13"/>proprie fuisset derelicta et acceleratione resurrectionis non fuisset 
+huius<lb break="no" ed="#L" n="14"/>modi corruptio praeventa.
+</p>
+            <p xml:id="v27ab7-g01351-d1e384">
+               <lb ed="#L" n="15"/>Sed quia, posito quod talis forma fuerit in corpore Christi, adhuc potuit
+<lb ed="#L" n="16"/>reservari a corruptione ulteriori dupliciter, vel sic quod non solum a dicta '
+<lb ed="#L" n="17"/>resolutione in elementa sed etiam a qualibet alteratione disponente ad
+<lb ed="#L" n="18"/>huiusmodi resolutionem quae non potuit fieri sine miraculo, vel solum a
+<lb ed="#L" n="19"/>dicta resolutione et non ab alteratione tali, qualis in tam modico et tam
+<lb ed="#L" n="20"/>frigido tempore fieri potuit, quid horum factum fuerit est incertum. Sed
+<lb ed="#L" n="21"/>quia absque periculo et inconvenienti potest poni quod solum a dicta 
+reso<lb break="no" ed="#L" n="22"/>lutione fuit praeservatum, quia potuit fieri virtute naturali in tali et tam
+<lb ed="#L" n="23"/>modico tempore quod non corrumperetur ulteriori corruptione substantiali,
+<lb ed="#L" n="24"/>et ubi potest sustineri cursus naturae non est ad miracula recurrendum,
+<lb ed="#L" n="25"/>ideo videtur quod convenienter potest poni causa dictae secundae 
+incor<lb break="no" ed="#L" n="26"/>ruptionis acceleratio resurrectionis, tali quidem modo quod quia praevenit
+<lb ed="#L" n="27"/>antequam esset notabilis alteratio in eius corpore facta, ideo non fuit ibi
+<lb ed="#L" n="28"/>talis corruptio, et hoc quidem videtur intellexisse Petrus, Actuum vigesimo
+<lb ed="#L" n="29"/>quarto ?, unde sumptum est argumentum ubi recitans verba Psaltis : caro
+<lb ed="#L" n="30"/>mea requiescet in spe, non derelinques animam meam in inferno nec dabis
+<lb ed="#L" n="31"/>sanctum tuum videre corruptionem, subdit : propheta locutus est de 
+resur<lb break="no" ed="#L" n="32"/>rectione Christi propter quam non vidit corruptionem, quia neque derelictus
+<lb ed="#L" n="33"/>est in inferno (glosa secundum animam) nec caro eius vidit corruptionem
+(glosa : putrefactionis et vermium). Item dicit glosa alia; ibi caro eius non est
+<lb ed="#L" n="34"/>corrupta sed veloci resurrectione glorificata nec est derelictus quia surrexit.
+<lb ed="#L" n="35"/>Hoc idem dicit glosa super Psaltem. Unde nusquam? fit mentio de illa
+<pb ed="#L" n="21"/>
+               <lb ed="#L" n="1"/>media incorruptione inter separationem animae a corpore quae fit per 
+mor<lb break="no" ed="#L" n="2"/>tem et inter resolutionem in elementa quae fit per putrefactionem. -
+</p>
+            <p xml:id="v27ab7-g01351-d1e440">
+               <lb ed="#L" n="3"/>Sed quia haec in facto et in potentia et miraculis Dei consistunt circa
+<lb ed="#L" n="4"/>haec nihil est temere asserendum. Sed hoc est circa haec firmiter 
+creden<lb break="no" ed="#L" n="5"/>dum quod Christus potuit corpus suum mortuum existens sub tali forma
+<lb ed="#L" n="6"/>cadaveris absque ulteriori corruptione conservare etiam per tempus 
+infi<lb break="no" ed="#L" n="7"/>nitum, si non fuisset eius resurrectio subsecuta; est etiam dicendum quod
+<lb ed="#L" n="8"/>sic potuit corpus matris suae, post separationem animae absque 
+putrefac<lb break="no" ed="#L" n="9"/>tione conservare; nec est necessarium dicere quod differenti miraculo 
+con<lb break="no" ed="#L" n="10"/>servaverit suum corpus ? et corpus matris suae, quoniam scilicet illo modo
+<lb ed="#L" n="11"/>quo unum conservavit potuerit etiam aliud conservare. Fuit tamen aliqua
+<lb ed="#L" n="12"/>differentia in ratione congruitatis talis conservationis. Quia enim prima
+<lb ed="#L" n="13"/>corruptio quae est per mortem, et secunda quae est per resolutionem in
+<lb ed="#L" n="14"/>elementa et per putrefactionem sunt in homine poena consequens originale,
+<lb ed="#L" n="15"/>Christus debebat esse ? immunis ab utraque ; sed alteram voluntarie 
+susti<lb break="no" ed="#L" n="16"/>nuit, quia fuit pretium nostrae redemptionis, sed ab alia quae non nobis
+<lb ed="#L" n="17"/>utilis fuisset se voluit conservare. Sed mater eius, quia supponitur 
+con<lb break="no" ed="#L" n="18"/>traxisse originale, utramque  secundum legem communem. debuit sustinere,
+<lb ed="#L" n="19"/>sed a secunda Filius volu it ipsam conservare ex gratia et privilegio
+<lb ed="#L" n="20"/>speciali, prout docet Augustinus in secundo de Assumptione, et per haec
+<lb ed="#L" n="21"/>patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

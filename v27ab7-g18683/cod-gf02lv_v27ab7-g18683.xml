@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="218"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g18683"><!-- v27ab7-q6-q11 -->
+            <head xml:id="v27ab7-g18683-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-g18683-Hd1e101" type="question-title">
+      Utrum voluntas habeat dominium super actum intellectus tam speculativi quam practici
+    </head>
+            <p xml:id="v27ab7-g18683-d1e104">
+               <lb ed="#L" n="6"/>QUAESTIO XI.
+<lb ed="#L" n="7"/>Utrum voluntas habeat dominium super actum intellectus
+<lb ed="#L" n="8"/>tam speculativi quam practici.
+</p>
+            <p xml:id="v27ab7-g18683-d1e113">
+               <lb ed="#L" n="9"/>Postea ad secundum praedictorum arguebatur quod voluntas habeat
+<lb ed="#L" n="10"/>dominium super actum intellectus tam speculativi quam practici. Quantum
+<lb ed="#L" n="11"/>ad intellectum speculativum sic arguebatur: nam fides est habitus 
+specu<lb break="no" ed="#L" n="12"/>lativus; sed super actum fidei habet voluntas dominium, nam, secundum
+<lb ed="#L" n="13"/>Augustinum super Iohannem, cetera potest homo facere. volens, credere
+<lb ed="#L" n="14"/>non nisi volens, quare et cetera. Ouantum ad intellectum practicum hoc
+<lb ed="#L" n="15"/>arguebatur sic: quod habet dominium super aliquid habet dominium super
+<lb ed="#L" n="16"/>illud quod ad ipsum sequitur. Sed voluntas habet dominium super 
+opera<lb break="no" ed="#L" n="17"/>tiones nostras ; sed ex operationibus nostris acquiruntur habitus in appetitu
+<lb ed="#L" n="18"/>secundum quos ? fit variatio in iudicio rationis, quare et cetera .
+</p>
+            <p xml:id="v27ab7-g18683-d1e137">
+               <lb ed="#L" n="19"/>Contra. Illud quod ordinatur ab alio et se habet ad aliud tanquam
+<lb ed="#L" n="20"/>ad principans et melius non habet dominium super actus illius, sed potius
+<lb ed="#L" n="21"/>e converso. Sed voluntas se habet ad intellectum sicut inferius et minus
+<lb ed="#L" n="22"/>nobile ad superius et melius. Ergo et cetera. Maior patet. Minor probatur
+<lb ed="#L" n="23"/>per Se necam in epistola: id cuique optimum esse debet cui nascitur ;
+<lb ed="#L" n="24"/>quo censetur: in homine quod est optimum est ratio; hac antecedit animalia,
+<lb ed="#L" n="25"/>deos sequitur. Ratio ergo perfecta proprium hominis bonum est.
+</p>
+            <p xml:id="v27ab7-g18683-d1e156">
+               <lb ed="#L" n="26"/>Respondeo dicendum quod secundum illum modum extraneum 
+lo<lb break="no" ed="#L" n="27"/>quendi ? de intellectu et voluntate, quo dicitur ab aliquibus  quod voluntas
+<pb ed="#L" n="219"/>
+               <lb ed="#L" n="1"/>per se non movetur nec determinatur ab intellectu, sive ab obiecto 
+secun<lb break="no" ed="#L" n="2"/>dum quod apprehenditur ab intellectu, sed movetur a se ipsa, sic quod
+<lb ed="#L" n="3"/>aliquando contra iudicium practicae rationis et aliquando absque aliquo
+<lb ed="#L" n="4"/>iudicio intellectus practici ex sola apprehensione simplici alicuius quod
+<lb ed="#L" n="5"/>potest fieri vel non fieri, eligi vel non eligi, absque hoc quod iudicetur
+<lb ed="#L" n="6"/>faciendum vel non faciendum ' voluntas libere eligit facere vel non facere ;
+<lb ed="#L" n="7"/>et ex his ulterius contingit quod, cum voluntas sic determinat se ad aliquid
+<lb ed="#L" n="8"/>eligendum vel faciendum vel contra iudicium rationis vel sine aliquo iudicio
+<lb ed="#L" n="9"/>rationis de faciendo vel non faciendo, ex dispositione voluntatis qua sua
+<lb ed="#L" n="10"/>affectione se determinat sic ad alterum, sit conforme iudicium in ratione;
+<lb ed="#L" n="11"/>et dicitur quod ?, quamvis non oporteat quod malitiam voluntatis praecedat
+<lb ed="#L" n="12"/>error rationis, oportet tamen quod statim ipsam malitiam voluntatis sequatur
+<lb ed="#L" n="13"/>error in ratione confórmis ipsi voluntati. Et similiter videtur dicendum cum
+<lb ed="#L" n="14"/>absque iudicio de faciendo voluntas determinat se ad eligendum vel
+<lb ed="#L" n="15"/>faciendum, consequitur conformis actus in intellectu iudicans sic debere
+<lb ed="#L" n="16"/>habere; — secundum ista quidem videretur dicendum quod intellectus nullo
+<lb ed="#L" n="17"/>modo per se et proprie determinat voluntatem, sed in agibilibus voluntas
+<lb ed="#L" n="18"/>determinat intellectum. Immo sic nulla necessitas vel utilitas esset 
+intel<lb break="no" ed="#L" n="19"/>lectus practici; ex quo contra illius iudicium vel etiam sine illo per 
+intel<lb break="no" ed="#L" n="20"/>lectum speculativum voluntas potest velle et eligere?; et etiam, illo existente,
+<lb ed="#L" n="21"/>nihil facit ad hoc quod voluntas eligat, cum possit contrarium illius et 
+iudi<lb break="no" ed="#L" n="22"/>catum per ipsum non eligere. Et specialiter hoc nituntur declarare in Deo,
+<lb ed="#L" n="23"/>scilicet quod circa ea quae Deus agit extra se non determinatur per 
+intel<lb break="no" ed="#L" n="24"/>lectum practicum quod hoc sit agendum, sed solum quod hoc sic potest
+<lb ed="#L" n="25"/>agi; per voluntatem autem Deus libere eligit illud agere. Unde dicitur quod
+<lb ed="#L" n="26"/>in Deo non habet locum proprie intellectus practicus, quia non iudicat
+<lb ed="#L" n="27"/>aliquid esse faciendum vel non faciendum . Et nullum opus faciendum
+<lb ed="#L" n="28"/>intellectus determinat sed solum voluntas ; quoniam si intellectus divinus
+<lb ed="#L" n="29"/>ab aeterno determinasset mundum aliquando esse faciendum, de necessitate
+<lb ed="#L" n="30"/>fuisset factus iuxta hanc suam determinationem, quia aut voluntas ipsa de
+<lb ed="#L" n="31"/>necessitate consecuta fuisset huiusmodi determinationem intellectus, et sic
+<lb ed="#L" n="32"/>absoluta necessitate omnia fierent a Deo, sicut posuerunt Philosophi ; aut
+<lb ed="#L" n="33"/>voluntas non de necessitate consecuta est determinationem intellectus ;
+<lb ed="#L" n="34"/>potuit ergo quantum est de se fuisse non executa in opus quod intellectus
+<lb ed="#L" n="35"/>determinasset agendum ; quod impossibile est ponere. In Deo ergo absque
+<lb ed="#L" n="36"/>omni determinatione intellectus voluntas Dei determinat aliquid agendum,
+<pb ed="#L" n="220"/>
+               <lb ed="#L" n="1"/>quia intellectus circa illa nihil sententians dimittit in libertate voluntatis
+<lb ed="#L" n="2"/>quid eligat vel ad quid semetipsam determinet circa operanda.
+</p>
+            <p xml:id="v27ab7-g18683-d1e250">
+               <lb ed="#L" n="3"/>Sed ista omnino irrationabiliter dicuntur. Cum enim obiectum ' 
+volun<lb break="no" ed="#L" n="4"/>tatis per se sit naturaliter prius obiectum intellectus, quia est bonum 
+appre<lb break="no" ed="#L" n="5"/>hensum secundum quod apprehensum sive ens conveniens apprehensum,
+<lb ed="#L" n="6"/>ideo sicut per ens quod sub ratione convenientis apprehenditur determinatur
+<lb ed="#L" n="7"/>intellectus practicus ad actum apprehendendi, ita etiam voluntas ad actum
+<lb ed="#L" n="8"/>volendi vel eligendi. Et sicut voluntas nihil potest velle nisi sit 
+appre<lb break="no" ed="#L" n="9"/>hensum, ita nihil potest  velle fugiendum  nisi sit apprehensum ut 
+fugien<lb break="no" ed="#L" n="10"/>dum, et nihil potest velle prosequendum nisi sit apprehensum ut agendum,
+<lb ed="#L" n="11"/>id est nisi iudicatum sit esse agendum. In ratione enim obiecti voluntatis
+<lb ed="#L" n="12"/>non solum includitur quod sit aliquid apprehensum, sed quod sit 
+appre<lb break="no" ed="#L" n="13"/>hensum ut conveniens ad prosecutionem ' vel ut disconveniens et fugiendum,
+<lb ed="#L" n="14"/>alioquin respectu cuiuslibet apprehensi posset voluntas fieri in actu fugae
+<lb ed="#L" n="15"/>vel prosecutionis . Oportet erro semper ponere conformitatem inter actus
+<lb ed="#L" n="16"/>intellectus et voluntatis ut illud quod eligit vel refugit voluntas intellectus
+<lb ed="#L" n="17"/>iudicet fugiendum vel prosequendum . Et sic oportet ponere quod, cum
+<lb ed="#L" n="18"/>potentia ad actum determinetur per obiectum, voluntas directe in omni
+<lb ed="#L" n="19"/>actu suo determinatur ab intellectu, id est ab obiecto apprehenso prius ab
+<lb ed="#L" n="20"/>intellectu, ut dictum est, et quod absque derogatione libertatis voluntatis
+<lb ed="#L" n="21"/>non potest velle nisi secundum quod ? apprehendit et iudicat intellectus.
+<lb ed="#L" n="22"/>Nec hoc ponit necessitatem coactionis vel absolutam quae videntur derogare
+<lb ed="#L" n="23"/>libertati, sed solum necessitatem ex suppositione et cuiusdam 
+immutabili<lb break="no" ed="#L" n="24"/>tatis , aliquando simpliciter, scilicet respectu omnino ultimi finis, aliquando
+<lb ed="#L" n="25"/>solum ex suppositione stante, scilicet tali apprehensione rationis respectu
+<lb ed="#L" n="26"/>aliorum quorumcumque, ut haec alibi sunt determinata. Hoc etiam dicendum
+<lb ed="#L" n="27"/>est suo modo conveniente circa Deum, scilicet quod non potuit? velle
+<lb ed="#L" n="28"/>mundum facere nec elegit " nisi secundum rationem intelligendi prius
+<lb ed="#L" n="29"/>apprehenderet mundum esse fiendum. Impossibile est enim quod velit
+<lb ed="#L" n="30"/>aliquid facere nisi iudicet esse faciendum, quia non potest velle facere si
+<lb ed="#L" n="31"/>iudicat non faciendum.
+</p>
+            <p xml:id="v27ab7-g18683-d1e315">
+               <lb ed="#L" n="32"/>Item, si nec iudicat faciendum, nec non faciendum apprehendendo
+<lb ed="#L" n="33"/>ipsum mundum, cum talis intellectus quasi speculativus nihil iudicans de
+<lb ed="#L" n="34"/>fugiendo vel prosequendo non sit principium operationis, voluntas Dei
+<lb ed="#L" n="35"/>fieret in actu sine obiecto. Nec tamen sequitur quod Deus fecerit mundum
+<lb ed="#L" n="36"/>necessitate absoluta, sed ex suppositione, quia !! intelligendum est quod, licet
+<pb ed="#L" n="221"/>
+               <lb ed="#L" n="1"/>respectu essentiarum rerum intellectus divinus sit necessarius simpliciter
+<lb ed="#L" n="2"/>et absolute, non potens illa nec intelligere nec aliter quam intelligit 
+intel<lb break="no" ed="#L" n="3"/>ligere, sicut etiam intellectus noster respectu rerum necessariarum, tamen
+<lb ed="#L" n="4"/>respectu factionis rerum non est sic, quia ab aeterno erat quasi indifferens
+<lb ed="#L" n="5"/>ad considerandum mundum sub ratione fiendi vel sub ratione non fiendi
+<lb ed="#L" n="6"/>et talem ! faciendi vel non faciendi. Sed tamen ab aeterno se ipso et propter
+<lb ed="#L" n="7"/>suam bonitatem communicandam concepit ipsum sub ratione fiendi et sub
+<lb ed="#L" n="8"/>ratione sic et secundum talia entia fiendi. Et verum est quod, ista 
+concep<lb break="no" ed="#L" n="9"/>tione stante, necesse fuit ipsum fieri, quia necesse fuit voluntatem sic velle
+<lb ed="#L" n="10"/>sicut concepit intellectus. Unde dicit Damascenus, libro secundo, capitulo
+<lb ed="#L" n="11"/>trigesimo secundo : secundum praecognitionem eius praeiudicavit et 
+deter<lb break="no" ed="#L" n="12"/>minavit omnia Deus secundum bonitatem et iustitiam eius. Ergo cum per
+<lb ed="#L" n="13"/>se et directe intellectus determinet voluntatem, non potest esse quod
+<lb ed="#L" n="14"/>voluntas per se et directe determinet intellectum. Hoc enim esset quidam
+<lb ed="#L" n="15"/>circulus, nec esset ordo inter istas potentias et earum actus.
+</p>
+            <p xml:id="v27ab7-g18683-d1e363">
+               <lb ed="#L" n="16"/>Ad evidentiam ergo quaestionis est intelligendum quod, cum potentia
+<lb ed="#L" n="17"/>dicat ordinem ad actum ut ad suam perfectionem inhaerentem, actus autem
+<lb ed="#L" n="18"/>et etiam potentia ad obiectum ut ad causam formalem et moventem a qua
+<lb ed="#L" n="19"/>habet rationem et speciem, unaquaeque potentia determinatur ad actum
+<lb ed="#L" n="20"/>suum per se et directe solum ab obiecto, quod scilicet determinat actum
+<lb ed="#L" n="21"/>cui dat formam et speciem. Et sic universaliter actus intellectus per se
+<lb ed="#L" n="22"/>determinatur ab obiecto intelligibili et actus appetitus ab obiecto appetibili
+<lb ed="#L" n="23"/>secundum rationem causae moventis et agentis; ut secundum condicionem
+<lb ed="#L" n="24"/>et dignitatem obiecti sit etiam condicio et dignitas actus. Perfectior enim
+<lb ed="#L" n="25"/>est actus quo cognoscuntur et diliguntur perfectiora quam quo minus
+<lb ed="#L" n="26"/>perfecta. Et hoc non est nisi ratione condicionis ? obiecti, cum subiectum»
+<lb ed="#L" n="27"/>scilicet ipsa potentia utrobique sit eadem, quamvis etiam secundum 
+condi<lb break="no" ed="#L" n="28"/>cionem et dignitatem subiecti sive potentiae sit etiam condicio et dignitas
+<lb ed="#L" n="29"/>actus in generali, non in speciali. Perfectior enim est actus quo cognoscitur
+<lb ed="#L" n="30"/>lapis per intellectum quam quo cognoscitur per sensum ; et actus quo
+<lb ed="#L" n="31"/>appetitur aliquid per voluntatem secundum ordinem convenientem ei in
+<lb ed="#L" n="32"/>ordine ad rationem quam quo appetitur illud idem per appetitum inferiorem,
+<lb ed="#L" n="33"/>praecipue in ordine ad id quod convenit appetenti secundum 
+apprehen<lb break="no" ed="#L" n="34"/>sionem sensitivam. Et hoc modo bene determinatur etiam actus a potentia
+<lb ed="#L" n="35"/>secundum rátionem causae subiectivae et patientis. Et secundum hoc per
+<lb ed="#L" n="36"/>se et directe non habet actus  alicuius potentiae determinationem nisi a
+<pb ed="#L" n="222"/>
+               <lb ed="#L" n="1"/>proprio obiecto vel subiecto. Sic autem determinari actum alicuius potentiae
+<lb ed="#L" n="2"/>est facere potentiam esse in tali actu. Illud ergo quo movente vel agente
+<lb ed="#L" n="3"/>per se intellectus habet esse in actu intelligendi dicitur intellectum 
+deter<lb break="no" ed="#L" n="4"/>minare secundum hunc actum sive hunc ! actum intellectus determinatum
+<lb ed="#L" n="5"/>causare et determinare. Unde, hoc modo voluntas non habet dominium
+<lb ed="#L" n="6"/>respectu intellectus quantum ad aliquam determinationem sui actus.
+</p>
+            <p xml:id="v27ab7-g18683-d1e426">
+               <lb ed="#L" n="7"/>Sed quia, ut solet dici, voluntas cuius obiectum est finis et bonum
+<lb ed="#L" n="8"/>etiam aliarum potentiarum ideo habet eas movere quantum ad exercitium
+<lb ed="#L" n="9"/>ad suos actus ; et quia sic habet quodammodo coniungere activum et 
+pas<lb break="no" ed="#L" n="10"/>sivum a quibus per se fit actus determinatio, secundum hoc voluntas per
+<lb ed="#L" n="11"/>accidens et indirecte habet dominium super intellectum quantum ad 
+deter<lb break="no" ed="#L" n="12"/>minationem actus tam practici quam speculativi, ita tamen quod, cum
+<lb ed="#L" n="13"/>voluntas non sit principium alicuius actus nisi facta in actu secundum
+<lb ed="#L" n="14"/>aliquam apprehensionem intellectus, immo intellectus et voluntas semper
+<lb ed="#L" n="15"/>sunt quasi unum principium in omnibus actibus qui dicuntur causari a
+<lb ed="#L" n="16"/>voluntate ", voluntas nullam determinationem facit in quacumque potentia
+<lb ed="#L" n="17"/>nisi hoc aliquo modo prius a ratione apprehenditur faciendum. Talia tamen
+<lb ed="#L" n="18"/>dicuntur fieri a voluntate absque expressione intellectus, tum quia ipsa
+<lb ed="#L" n="19"/>voluntas aliquo modo immediatius ? agit, tum quia in posteriori satis 
+intel<lb break="no" ed="#L" n="20"/>ligitur prius. Secundum hoc ergo est intelligendum quod voluntas aliquo
+<lb ed="#L" n="21"/>modo determinat intellectum. Ex apprehensione enim nobilitatis obiecti
+<lb ed="#L" n="22"/>circa speculabilia aliqua, voluntas, sive ipse homo per voluntatem ex 
+huius<lb break="no" ed="#L" n="23"/>modi apprehensione factus in actu volendi illa, specialiter quasi ap plicat
+<lb ed="#L" n="24"/>intellectum et illa obiecta ad invicem movendo quantum ad exercitium actus
+<lb ed="#L" n="25"/>ad considerandum circa talia specialiter, quo facto ipse intellectus a 
+specia<lb break="no" ed="#L" n="26"/>libus obiectis  ad speciales actus per se determinatur et ab eis actuatur,
+<lb ed="#L" n="27"/>non ab ipsa voluntate. Unde, si voluntas applicet intellectum ad 
+considera<lb break="no" ed="#L" n="28"/>tionem alicuius, sive secundum simplicem apprehensionem, sive secundum
+<lb ed="#L" n="29"/>complexam, ad hoc scilicet quod talem vel talem apprehensionem habeat
+<lb ed="#L" n="30"/>intellectus de illo, vel assentiendo affirmative vel dissentiendo negative,
+<lb ed="#L" n="31"/>non oportet tamen hoc fieri in intellectu, scilicet quod talem rem sic vel sic
+<lb ed="#L" n="32"/>apprehendat, sive quod de tali re formet talem apprehensionem veridicam.
+<lb ed="#L" n="33"/>Si enim voluntas applicet intellectum ad cognoscendum quod quid est de
+<lb ed="#L" n="34"/>angelo, bene determinatur intellectus quantum ad exercitium huiusmodi 
+<lb ed="#L" n="35"/>actus a voluntate et excluditur actus consi derandi circa alia per voluntatem
+<lb ed="#L" n="36"/>qua vult intellectum nunc determinate considerare circa quod quid est
+<pb ed="#L" n="223"/>
+               <lb ed="#L" n="1"/>angeli; sed quia quidditas angeli! est ita remota a sensibus a quibus
+<lb ed="#L" n="2"/>sortitur intellectus notitiam quod non potest repraesentari in aliquo 
+phan<lb break="no" ed="#L" n="3"/>tasmate nec etiam pro statu viae potest immediate videri et sic ? non potest
+<lb ed="#L" n="4"/>intellectus sua apprehensione circa hoc formare diffinitionem ? indicantem
+<lb ed="#L" n="5"/>quod quid est; ideo nullo modo determinatur intellectus ad hunc actum.
+<lb ed="#L" n="6"/>Similiter etiam si moveat voluntas intellectum ad considerandum circa hoc
+<lb ed="#L" n="7"/>quod est astra esse paria vel imparia, bene determinatur intellectus quantum
+<lb ed="#L" n="8"/>ad exercitium huiusmodi  actus, id est ad hoc quod circa hoc determinate
+<lb ed="#L" n="9"/>consideret, sed quia obiectum non sic est evidens intellectui quod ex eius
+<lb ed="#L" n="10"/>apprehensione possit formare rationem concludentem quod sint astra paria
+<lb ed="#L" n="11"/>vel imparia, non determinatur intellectus ad alterum, quantumcumque
+<lb ed="#L" n="12"/>voluntas appetat ? vel imperet quod ad alterum cum aliqua certitudine
+<lb ed="#L" n="13"/>determinetur et displiceat ei quod hoc non sit factum.
+</p>
+            <p xml:id="v27ab7-g18683-d1e524">
+               <lb ed="#L" n="14"/>Sicut autem dictum est circa intellectum speculativum, ita etiam se
+<lb ed="#L" n="15"/>habet circa practicum quantum ad hoc. Nam sicut verum simplieiter est
+<lb ed="#L" n="16"/>obiectum intellectus speculativi, ita verum in ordine ad voluntatem et ad
+<lb ed="#L" n="17"/>opus est obiectum practici. Cum ergo voluntas movetur a fine aliquo
+<lb ed="#L" n="18"/>et determinat intellectum quantum ad exercitium actus considerandi 
+expe<lb break="no" ed="#L" n="19"/>dientia ad consecutionem talis finis, non est in dominio vel potestate
+<lb ed="#L" n="20"/>voluntatis quid intellectus iudicet vel non iudicet expediens et cui 
+assen<lb break="no" ed="#L" n="21"/>tiat esse consentiendum vel non consentiendum, sive eligendum vel non
+<lb ed="#L" n="22"/>eligendum. Hoc enim dependet ex re obiecta et apprehensa in habitudine
+<lb ed="#L" n="23"/>ad finem dictum  et in convenienti applicatione intellectus, remotis 
+impedi<lb break="no" ed="#L" n="24"/>mentis, ad considerandum quae circa talia sunt consideranda. Ergo sic
+<lb ed="#L" n="25"/>habet determinare intellectum ad exercitium actus; et sic habere dicitur
+<lb ed="#L" n="26"/>dominium super intellectum, uno modo, sicut dictum est, faciendo quod
+<lb ed="#L" n="27"/>activum quod natum est determinare per se passivum coniungatur ipsi
+<lb ed="#L" n="28"/>passivo et ipsum ad actum determinet  quantum ex natura sua natum est
+<lb ed="#L" n="29"/>ipsum determinare et movere, non faciendo quod sic vel aliter ipsum 
+obiec<lb break="no" ed="#L" n="30"/>tum habeat intellectum determinare ; alio modo in agi bilibus et quantum
+<lb ed="#L" n="31"/>ad intellectum practicum fit illa determinatio intellectus quantum ad suum
+<lb ed="#L" n="32"/>actum per dominium voluntatis indirecte tamen, ex hoc quod per 
+volunta<lb break="no" ed="#L" n="33"/>tem fit aliquid ratione cuius ipsum obiectum sic vel aliter intellectum
+<lb ed="#L" n="34"/>moveat et determinet. Et  hoc sic declaratur, quia cum assensus intellectus
+<lb ed="#L" n="35"/>causetur per se et directe ex condicione apprehensi, ex consuetudine autem
+<lb ed="#L" n="36"/>actuum frequentatorum per imperium voluntatis potest etiam fieri quaedam
+<pb ed="#L" n="224"/>
+               <lb ed="#L" n="1"/>dispositio in cognoscente per quam contrahet quamdam conformitatem
+<lb ed="#L" n="2"/>et connaturalitatem ad quasdam res sic quod ex huiusmodi dispositione
+<lb ed="#L" n="3"/>continget quod quandocumque talis res apprehendetur, sub ratione 
+con<lb break="no" ed="#L" n="4"/>venientis apprehendetur ; et sic quantum ad intellectum practicum, voluntas.
+<lb ed="#L" n="5"/>etiam indirecte est causa talis iudicii et dominium habet super intellectum
+<lb ed="#L" n="6"/>quantum ad huiusmodi determinationem. Et hoc videtur dicere 
+Philo<lb break="no" ed="#L" n="7"/>sophus, tertio Ethicorum, ubi dicit quod, cum non velit aliquis nisi apparens
+<lb ed="#L" n="8"/>bonum, id est illud quod secundum iudicium rationis apparet esse bonum,
+<lb ed="#L" n="9"/>si aliquis non esset dominus suae phantasiae, id est suae talis 
+aestima<lb break="no" ed="#L" n="10"/>tionis, non esset in eo secundum hoc esse bonum vel malum ; et ideo dicit
+<lb ed="#L" n="11"/>quod unusquisque est sibi causa talis phantasiae vel apparitionis, in 
+quan<lb break="no" ed="#L" n="12"/>tum est sibi causa talem vel talem esse secundum habitum ex 
+consue<lb break="no" ed="#L" n="13"/>tudine acquisitum. Ut enim dicit ibi ' qualis  unusquisque est finis talis
+<lb ed="#L" n="14"/>videtur ei. Aliud enim habet iudicium aliquis circa aliqua antequam sit in
+<lb ed="#L" n="15"/>passione concupiscentiae vel antequam habeat habitum intemperantiae
+<lb ed="#L" n="16"/>acquisitum, et cum est in passione vel postquam habet huiusmodi habitum
+<lb ed="#L" n="17"/>acquisitum.
+</p>
+            <p xml:id="v27ab7-g18683-d1e616">
+               <lb ed="#L" n="18"/>Per praedicta patet responsio ad argumentum ad oppositum, quantum
+<lb ed="#L" n="19"/>ad id quod arguitur quod voluntas habet dominium super intellectum
+<lb ed="#L" n="20"/>practicum quantum ad determinationem actus circa agibilia humana. Quia
+<lb ed="#L" n="21"/>patet quod hoc non facit voluntas per se et directe, sed per accidens et
+<lb ed="#L" n="22"/>indirecte, faciendo ad acquisitionem talis dispositionis ratione cuius talia
+<lb ed="#L" n="23"/>efficiantur ut convenientia et ut sic apprehendantur cum occurrunt 
+intel<lb break="no" ed="#L" n="24"/>lectui, et sic huiusmodi determinationem per se et directe facit obiectum,
+<lb ed="#L" n="25"/>voluntas autem per accidens et indirecte.
+</p>
+            <p xml:id="v27ab7-g18683-d1e636">
+               <lb ed="#L" n="26"/>Ad dictum argumentum autem quantum ad id arguitur quod etiam ?
+<lb ed="#L" n="27"/>respectu intellectus speculativi habet dominium, dicendum quod, sicut
+<lb ed="#L" n="28"/>dictum est circa intellectum practicum, quod ex dispositione causata ex
+<lb ed="#L" n="29"/>consuetudine operum voluntatis vel appetitus causatur dicta apprehensio
+<lb ed="#L" n="30"/>vel huiusmodi assensus vel iudicium intellectus practici, ita etiam ex aliqua
+<lb ed="#L" n="31"/>dispositione existente in intellectu vel ex natura vel per acquisitionem ex
+<lb ed="#L" n="32"/>consuetudine audiendi aliqua frequentius, et etiam per infusionem alicuius
+<lb ed="#L" n="33"/>habitus a Deo, potest intellectus sic esse dispositus quod firmiter assentiet
+<lb ed="#L" n="34"/>aliquibus, non propter rei vel rationis sumptae ex parte rei secundum se
+<lb ed="#L" n="35"/>aliquam evidentiam, sed propter quamdam connaturalitatem intellectus
+<lb ed="#L" n="36"/>sive intelligibilitatis ad illa ex huiusmodi dispositione. Ouod patet, quia
+<lb ed="#L" n="37"/>etiam falsis, sub ratione tamen veri, omnino certitudinaliter aliquando
+<pb ed="#L" n="225"/>
+               <lb ed="#L" n="1"/>adhaerent aliqui non potentes ad hoc reddere aliquam rationem specialem.
+<lb ed="#L" n="2"/>Cum etiam adhaerent aliquibus certissimis in veritate, tamen non adhaerent
+<lb ed="#L" n="3"/>eis propter ipsarum in sua entitate evidentiam, sed propter huiusmodi
+<lb ed="#L" n="4"/>aliqualem dispositionem. Unde dicit Commentator super illud, secundo
+<lb ed="#L" n="5"/>Metaphysicae: quidam quaerunt testimonium multorum hominum ! ; et
+<lb ed="#L" n="6"/>isti, cum concedunt prima intellecta, non concedunt ea nisi in quantum
+<lb ed="#L" n="7"/>sunt famosa, ita quod si acciderit quod contraria eorum sint famosa, 
+nega<lb break="no" ed="#L" n="8"/>bunt ea. Et in prologo super tertio Physicorum dicit quod consuetudo est
+<lb ed="#L" n="9"/>maxima causa impediens a pluribus rebus manifestis per se, 
+quemadmo<lb break="no" ed="#L" n="10"/>dum quando homo fuerit assuetus ad aliquas actiones et operationes ,
+<lb ed="#L" n="11"/>licet noceant illi, erunt ei faciles et credet quod sint utiles. Similiter cum
+<lb ed="#L" n="12"/>homo fuerit assuetus audire sermones falsos a pueritia, erit illa consuetudo
+<lb ed="#L" n="13"/>causa ad negandum veritatem manifestam. Et ista mala consuetudo potest
+<lb ed="#L" n="14"/>auferri per habere consuetudinem audiendi contraria vera, sicut malitiae
+<lb ed="#L" n="15"/>acquisitae per malam consuetudinem destruuntur per habere 
+consuetudi<lb break="no" ed="#L" n="16"/>nem habituum bonorum oppositorum illis. Et ita ideo fides vulgi ? est
+<lb ed="#L" n="17"/>fortior quam fides philosophorum, quoniam vulgus non assuevit audire
+<lb ed="#L" n="18"/>aliud ; philosophi autem audiunt multa. Unde, non solum verum est in
+<lb ed="#L" n="19"/>moralibus quod dicit Philosophus, secundo Ethicorum : non parum differt
+<lb ed="#L" n="20"/>sic vel sic a iuventute assuefieri, sed multum. Sed hoc etiam verificatur in
+<lb ed="#L" n="21"/>aliis, ut patet, quia ex consuetudine huiusmodi  et non alia ratione vel minus
+<lb ed="#L" n="22"/>evidenti quidam ut plurimum quibusdam opinionibus adhaerent. Propter
+<lb ed="#L" n="23"/>quod magna diligentia adhibenda est ut homo assuescat cogitare et audire
+<lb ed="#L" n="24"/>meliora. Huiusmodi autem  diligentiae domini sumus ; ut dicit 
+Philo<lb break="no" ed="#L" n="25"/>sophus, tertio Ethicorum : eius quod est diligentes esse domini sumus, et si
+<lb ed="#L" n="26"/>forte aliquis talis  est ut non diligens sit eius quod est , tales esse etiam
+<lb ed="#L" n="27"/>domini sumus causa, viventes remisse. Negligentia vero multa mala facit in
+<lb ed="#L" n="28"/>talibus; et quia praedictarum dispositionum causa secundum intellectum,
+<lb ed="#L" n="29"/>qua scilicet ex frequenter audire vel cogitare aliqua efficimur tales quod non
+<lb ed="#L" n="30"/>de facili, nisi talia recipimus, — quarum secundum appetitum, ut dictum
+<lb ed="#L" n="31"/>est, sumus causa et domini propter libertatem voluntatis per quam in nobis
+<lb ed="#L" n="32"/>est circa talia intellectum applicare vel ab eis ipsum divertere, — ideo etiam
+<lb ed="#L" n="33"/>talia nobis imputantur. Cum ergo credibilibus complexis non assentiat
+<lb ed="#L" n="34"/>intellectus propter evidentiam rei vel rationis quia, secundum Gregorium,
+<lb ed="#L" n="35"/>fides non habet meritum cui humana ratio praebet experimentum ; nec
+<pb ed="#L" n="226"/>
+               <lb ed="#L" n="1"/>etiam ex dispositione acquisita per consuetudinem operum voluntatis vel
+<lb ed="#L" n="2"/>appetitus, in quantum est de his quae non pertinent ad practicum 
+intel<lb break="no" ed="#L" n="3"/>lectum ; nec voluntas potest etiam determinare intellectum speculativum
+<lb ed="#L" n="4"/>nisi modo supradicto qui non sufficit ad assensum causandum qui debet
+<lb ed="#L" n="5"/>esse in fideli; quia ex hoc quod aliquis per imperium voluntatis faceret
+<lb ed="#L" n="6"/>intellectum stare in consideratione credibilium et in adinventione rationum
+<lb ed="#L" n="7"/>per quas posset assensus induci, vel ad audiendum viros authenticos circa .
+<lb ed="#L" n="8"/>notitiam talium, non posset causari nisi quaedam pro babilis aestimatio '
+<lb ed="#L" n="9"/>ex apparentia rationum vel ex auctoritate dicentis, et non firma  adhaesio
+<lb ed="#L" n="10"/>absque formidine de opposito, — et ideo non videtur causari huiusmodi
+<lb ed="#L" n="11"/>firmitas adhaesionis directae, nisi ex aliqua dispositione ipsius credentis
+<lb ed="#L" n="12"/>vel infusa vel causata dicto modo per assuefactionem audiendi talia; quae
+<lb ed="#L" n="13"/>tamen non sufficit ad causandum firmam adhaesionem solum circa vera;
+<lb ed="#L" n="14"/>quia si aliquis puer inter fideles nutriatur et modo fidelium instruatur,
+<lb ed="#L" n="15"/>qui nec baptizetur nec ei gratia causans habitum fidei infundatur, talis
+<lb ed="#L" n="16"/>tamen ex consuetudine audiendi credibilia acquiret dispositionem per quam
+<lb ed="#L" n="17"/>quodammodo ita firmiter adhaerebit creditis etiam absque formidine, sicut
+<lb ed="#L" n="18"/>alius baptizatus; — prout non solum haeretici qui ? quantum ad aliquos
+<lb ed="#L" n="19"/>articulos fidem informem habent, sed etiam infideles se rectam fidem
+<lb ed="#L" n="20"/>habere aestimantes firmiter et absque formidine adhaerent suis fictionibus,
+<lb ed="#L" n="21"/>et pro eis etiam morti se exponunt. Sed tamen hoc non sufficeret  ad
+<lb ed="#L" n="22"/>causandum firmam adhaesionem solum circa vera, sed infusa dispositio
+<lb ed="#L" n="23"/>ad hoc totum sufficere potest. Nam quod solum veris facit adhaerere patet ;
+<lb ed="#L" n="24"/>quia per infusionem a veritate prima quae " Deus est, est habita. Ouod
+<lb ed="#L" n="25"/>autem firmam adhaesionem facit patet, quia etiam hoc facit dispositio per
+<lb ed="#L" n="26"/>consuetudinem acquisita. Ouod autem potest facere dispositio per 
+consue<lb break="no" ed="#L" n="27"/>tudinem acquisita, potest efficacius et perfectius facere dispositio a Deo
+<lb ed="#L" n="28"/>infusa. Et secundum hoc dicendum quod habitus fidei a Deo infusus
+<lb ed="#L" n="29"/>existens in intellectu facit quod intellectus sic  firmiter assentiat creditis,
+<lb ed="#L" n="30"/>etiamsi nullam rationem habeat specialem quare eis sit adhaerendum.
+<lb ed="#L" n="31"/>Quamvis enim, secundum Augustinum, aliquae sunt rationes persuadentes
+<lb ed="#L" n="32"/>etiam infideli quare sit potius credendum auctoritati Sacrae Scripturae et
+<lb ed="#L" n="33"/>Ecclesiae quam alicui alio , quae etiam dispositive possunt cooperari ad fidei
+<lb ed="#L" n="34"/>habitum suscipiendum a Deo infundente, tamen rationes sufficienter 
+osten<lb break="no" ed="#L" n="35"/>dentes nondum "' credenti !! quod assentiendum est huic quod in hac
+<pb ed="#L" n="227"/>
+               <lb ed="#L" n="1"/>Scriptura non est nisi verum, induci non possunt; alioquin fides esset
+<lb ed="#L" n="2"/>habitus qui per humanam investigationem posset haberi; et theologia esset
+<lb ed="#L" n="3"/>vere humana scientia, quia posset humano ingenio haberi evidens notitia
+<lb ed="#L" n="4"/>eorum quae in Sacra Scriptura continentur. Huiusmodi dispositio ergo
+<lb ed="#L" n="5"/>dicitur habitus sive lumen fidei qui, cum sit quidam supernaturalis influxus
+<lb ed="#L" n="6"/>a Deo, in virtute eius sic elevatur et habilitatur intellectus quod firmiter
+<lb ed="#L" n="7"/>assentiat omnibus contentis in Sacra Scriptura, et quae ex ea elici possunt
+<lb ed="#L" n="8"/>tanquam veris absque formidine de opposito. Cum dicitur quod, secundum
+<lb ed="#L" n="9"/>Augustinum super Iohannem, cetera potest homo volens, credere non nisi
+<lb ed="#L" n="10"/>volens ! et cetera, hoc non dicit quia per inclinationem et imperium 
+volun<lb break="no" ed="#L" n="11"/>tatis per se et directe determinetur intellectus ad dictum assensum, sed
+<lb ed="#L" n="12"/>pro tanto quod ?, cum credibilia sunt ? sic supra rationem quod multum
+<lb ed="#L" n="13"/>probabiliores rationes secundum apparentiam sumptam ex sensibus quae
+<lb ed="#L" n="14"/>defectiva sunt, sunt contra illa quam pro illis, ideo quod quis credit hoc est
+<lb ed="#L" n="15"/>altero dictorum modorum, scilicet per dispositionem acquisitam quae causat
+<lb ed="#L" n="16"/>fidem non proprie dictam, vel per infusionem quae est fides vere et proprie.
+<lb ed="#L" n="17"/>Hoc autem subiacet aliquo modo voluntati in quantum , si etiam cogatur
+<lb ed="#L" n="18"/>ire ad ecclesiam et recipere sacramentum fidei, scilicet virtute cuius 
+huius<lb break="no" ed="#L" n="19"/>modi habitus infunditur, si quis obicem non ponat, et etiam audire 
+prae<lb break="no" ed="#L" n="20"/>dicationem per quam probabilitates ad ea quae sunt fidei inducuntur 5, vel
+<lb ed="#L" n="21"/>etiam per se ipsum occurrat sibi cogitatio de his quae fidei sunt et de
+<lb ed="#L" n="22"/>aliquibus probabilitatibus circa illa per quae homo disponeretur si non
+<lb ed="#L" n="23"/>poneret per malam voluntatem obicem resistentiae, et homo per voluntatem
+<lb ed="#L" n="24"/>potest contra hoc obicem ponere, quia potest homo per dominium 
+volun<lb break="no" ed="#L" n="25"/>tatis non assentire effectui  baptismi, potest etiam intellectum convertere
+<lb ed="#L" n="26"/>ad efficacius cogitandum circa rationes contra veritatem fidei, et divertere
+<lb ed="#L" n="27"/>ab aliis; et sic cum possit cogi quantum ad multa, tamen quantum ad
+<lb ed="#L" n="28"/>assentiendum his quae fidei sunt nec rationi sunt evidentia, sed apparent
+<lb ed="#L" n="29"/>repugnantia, requiritur voluntas ut removeatur prohibens, scilicet conversio
+<lb ed="#L" n="30"/>intellectus ad ea quae sunt contra fidem, et fiat conversio ad contrarium
+<lb ed="#L" n="31"/>ipsum, sic in servitutem redigendo in obsequium Christi, ut dicit Apostolus,
+<lb ed="#L" n="32"/>et sic disponendo quod, obice remoto, Deus habitum fidei infundat ; et hoc
+<lb ed="#L" n="33"/>forte intendunt dicentes quod intellectus assentit alicui, non quia suffi- 
+<lb ed="#L" n="34"/>cienter moveatur ab obiecto proprio, sed per quamdam electionem 
+volun<lb break="no" ed="#L" n="35"/>tatis declinantis in unam partem magis quam in aliam; et cum hoc sit cum
+<lb ed="#L" n="36"/>formidine, est opinio; cum autem sine formidine, est fides; et sic credere
+<pb ed="#L" n="228"/>
+               <lb ed="#L" n="1"/>est actus intellectus prout a voluntate est motus. Non enim per hoc 
+intelli<lb break="no" ed="#L" n="2"/>gitur quod intellectus assentit aliquibus secundum beneplacitum voluntatis,
+<lb ed="#L" n="3"/>sed sicut dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

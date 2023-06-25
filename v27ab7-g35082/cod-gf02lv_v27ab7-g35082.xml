@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="402"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g35082"><!-- v27ab7-q7-q18 -->
+            <head xml:id="v27ab7-g35082-Hd1e99">Quaestio 18</head>
+            <head xml:id="v27ab7-g35082-Hd1e101" type="question-title">
+      Utrum magister in theologia debet dicere
+      contra articulum episcopi si credat oppositum esse verum
+    </head>
+            <p xml:id="v27ab7-g35082-d1e104">
+               <lb ed="#L" n="24"/>QUAESTIO XVIII.
+<lb ed="#L" n="25"/>Utrum magister in theologia debet dicere
+<lb ed="#L" n="26"/>contra articulum episcopi si credat oppositum esse verum.
+</p>
+            <p xml:id="v27ab7-g35082-d1e113">
+               <lb ed="#L" n="27"/>Deinde circa pertinentia ad doctores quaerebatur unum, scilicet si 
+propo<lb break="no" ed="#L" n="28"/>natur magistro in theologia quaestio aliqua, cuius unam partem tenet firmiter
+<lb ed="#L" n="29"/>tanquam veram propter rationes et auctoritates ex quibus iudicio eius illa pars -
+<lb ed="#L" n="30"/>concluditur tanquam vera, illa tamen pars per <ref xml:id="v27ab7-g35082-Rd1e123" target="http://scta.info/resource/z88d99-avn8u1-d1e107@225-248">sententiam alicuius episcopi</ref>
+               <pb ed="#L" n="403"/>
+               <lb ed="#L" n="1"/>condemnatur tanquam falsa et excommunicationem incurrunt quicumque illam
+<lb ed="#L" n="2"/>asserunt sive docent, quaeritur quam partem debeat determinare dictus 
+magis<lb break="no" ed="#L" n="3"/>ter. Et arguitur quod illam quam reputat falsam et non aliam, quia nullus
+<lb ed="#L" n="4"/>debet facere illud per quod sententiam excommunicationis incurreret. Sed talis
+<lb ed="#L" n="5"/>magister, si determinaret pro parte quam reputat veram, incurreret sententiam
+<lb ed="#L" n="6"/>excommunicationis ; ergo illam non debet determinare, sed oppositam.
+</p>
+            <p xml:id="v27ab7-g35082-d1e143">
+               <lb ed="#L" n="7"/>Contra. Nullus debet mentiri ', maxime etiam doctor theologiae in doctrina
+<lb ed="#L" n="8"/>veritatis. Sed, si determinaret talem quaestionem pro parte quam jreputat falsam,
+<lb ed="#L" n="9"/>mentiretur ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g35082-d1e153">
+               <lb ed="#L" n="10"/>Respondeo dicendum quod praecepta affirmativa quae sunt de bonis
+<lb ed="#L" n="11"/>faciendis sub quibus cadit actus docendi veritatem obligant semper, sed non
+<lb ed="#L" n="12"/>ad semper. E contrario est de negativis quae sunt de malis vitandis sub quibus
+<lb ed="#L" n="13"/>cadit non docere falsitatem. Unde, quamvis nunquam falsitas sit docenda, non
+<lb ed="#L" n="14"/>tamen semper veritas est docenda, sed pre loco et tempore adhibitis debitis
+<lb ed="#L" n="15"/>circumstantiis. Unde dicit Augustinus super illud Psaltis : perdes omnes qui
+<lb ed="#L" n="16"/>loquuntur mendacium ; aliud est mentiri sive falsum dicere, aliud verum 
+occul<lb break="no" ed="#L" n="17"/>tare sive non dicere. Manifestum autem est non esse culpam quandoque verum
+<lb ed="#L" n="18"/>occultare ; falsum autem dicere non invenitur concessum.
+</p>
+            <p xml:id="v27ab7-g35082-d1e175">
+               <lb ed="#L" n="19"/>Circa propositum casum ergo est dicendum quod veritas quam reputat se
+<lb ed="#L" n="20"/>doctor scire aut est de necessariis ad salutem, aut est de aliis indifferentibus sic
+<lb ed="#L" n="21"/>quod quaecumque pars asseratur nec per se et directe nec per reductionem est
+<lb ed="#L" n="22"/>contra fidem rectam vel bonos mores. Tunc si talis quaestio proponatur magistro
+<lb ed="#L" n="23"/>reputanti se scire veram esse partem quam ? praelatus iudicat esse falsam et
+<lb ed="#L" n="24"/>ideo eam tanquam erroneam condemnans  sub poena excommunicationis 
+prae<lb break="no" ed="#L" n="25"/>cipit quod nullus illam partem audeat docere vel quoquo modo sustinere, talis
+<lb ed="#L" n="26"/>magister neutram partem debet asserere. Non partem quam reputat veram eo
+<lb ed="#L" n="27"/>quod ratione praecepti affirmativi tenetur dicere veritatem quam sentit et hoc
+<lb ed="#L" n="28"/>tempore et loco, tantum adhibitis debitis circumstantiis : nunc autem 
+praecep<lb break="no" ed="#L" n="29"/>tum superioris de contrario excludit ista eo quod in praeceptis prohibitoriis
+<lb ed="#L" n="30"/>quae sunt de talibus quae non facere secundum se non est malum, praelatis
+<lb ed="#L" n="31"/>quamdiu tolerantur est obediendum ; et ideo rebus sic se habentibus, scilicet
+<lb ed="#L" n="32"/>aliquo existente in loco in quo praelatus habet iurisdictionem, praecepto eius
+<lb ed="#L" n="33"/>etiam durante, non est tempus nec locus dicendi talem veritatem quam aliquis
+<lb ed="#L" n="34"/>sentit.
+</p>
+            <p xml:id="v27ab7-g35082-d1e212">
+               <lb ed="#L" n="35"/>Verumtamen, si certa ratione vel auctoritate appareat quod sit vera pars
+<lb ed="#L" n="36"/>quam praelatus condemnat tanquam falsam et erroneam aut si etiam non sit
+<lb ed="#L" n="37"/>omnino certa, sed probabilem veritatem contineat ita quod, ratione 
+probabili<lb break="no" ed="#L" n="38"/>tatis, possit tanquam verum probabile ? sustineri sive etiam circa illud possint
+<lb ed="#L" n="39"/>esse opiniones contrariae, videtur talis excommunicatio et condemnatio erronea,
+<pb ed="#L" n="404"/>
+               <lb ed="#L" n="1"/>quia per illam impeditur inquisitio et notitia veritatis. Verum tamen singularis
+<lb ed="#L" n="2"/>persona non habet se opponere, ut scilicet in tali casu dicat contrarium et dicat
+<lb ed="#L" n="3"/>praelato tolerato ab Ecclesia non obediendum in hoc ; nam, cum non immineat
+<lb ed="#L" n="4"/>casus necessitatis ad docendum talem veritatem quae pro falsitate 
+condemna<lb break="no" ed="#L" n="5"/>tur, si sic liceret unicuique personae singulari se praelatis opponere, vinculum
+<lb ed="#L" n="6"/>obedientiae rumperetur ; sed esset instandum apud praelatum quod talem 
+con<lb break="no" ed="#L" n="7"/>demnationem et excommunicationem revocaret. Quamvis enim malum contra
+<lb ed="#L" n="8"/>salutem ex hoc non eveniat, tamen malum contra perfectionem intellectus ex
+<lb ed="#L" n="9"/>hoc contingit; nam homines non possunt libere tractare veritates quibus eorum
+<lb ed="#L" n="10"/>intellectus non modicum perficeretur. 
+</p>
+            <p xml:id="v27ab7-g35082-d1e249">
+               <lb ed="#L" n="11"/>Item, scandalum evenit exinde apud infideles et etiam apud multos fideles
+<lb ed="#L" n="12"/>de ignorantia et simplicitate talium praelatorum in hoc quod illud reputatur
+<lb ed="#L" n="13"/>erroneum et fidei contrarium quod tamen non repugnat fidei nec bonis moribus,
+<lb ed="#L" n="14"/>et sic etiam intelligentes non fideles minus reputant fidem. 
+</p>
+            <p xml:id="v27ab7-g35082-d1e260">
+               <lb ed="#L" n="15"/>Si autem sit de pertinentibus ad salutem, aut omnino certum est veritatem
+<lb ed="#L" n="16"/>quam doctor aestimat se habere esse tenendam ex evidentia auctoritatis sacrae
+<lb ed="#L" n="17"/>Scripturae vel rationis veridicae, tunc sententia et inhibitio est omnino erronea
+<lb ed="#L" n="18"/>nec aliquem ligat, quia sententia excommunicationis continens manifestum
+<lb ed="#L" n="19"/>errorem non ligat, puta quod si aliquis dicat docens quod Deus creavit caelum
+<lb ed="#L" n="20"/>et terram sit excommunicatus et huiusmodi ; et ideo in tali casu debet doctor
+<lb ed="#L" n="21"/>dicere illud quod sentit, non obstante quod si  ex hoc quod videtur inobediens
+<lb ed="#L" n="22"/>aliqui scandalizantur ; quia, ut dicit Gregorius, super Ezechiel, si de veritate
+<lb ed="#L" n="23"/>scandalum surgit, utilius scandalum nasci permittitur quam veritas subiciatur ;
+<lb ed="#L" n="24"/>et secundum Boetium : quod pro caritate ! est institutum non debet contra
+<lb ed="#L" n="25"/>caritatem militare.
+</p>
+            <p xml:id="v27ab7-g35082-d1e286">
+               <lb ed="#L" n="26"/>Idem autem est iudicium cum illud quod condemnatur tanquam falsum, etsi
+<lb ed="#L" n="27"/>falsum sit, ab aliquo tamen verum reputatur sive auctoritate Scripturae sive
+<lb ed="#L" n="28"/>ex ratione quam ad hoc credat aliquis se habere et reputat illud esse 
+necessa<lb break="no" ed="#L" n="29"/>rium ad salutem. In tali quidem casu debet quis conscientiam deponere. Sed si
+<lb ed="#L" n="30"/>illam non deposuerit, illa stante, debet inhibitionem et excommunicationem
+<lb ed="#L" n="31"/>erroneam reputare, licet secundum rem non sit ita; et sic debet dicere illud
+<lb ed="#L" n="32"/>quod  reputat se scire circa hoc tanquam verum ; semper enim agens contra
+<lb ed="#L" n="33"/>conscientiam erroneam magis peccat quam agens secundum eam. Unde in 
+pro<lb break="no" ed="#L" n="34"/>posito peccaret gravius si timore poenae, volendo scilicet praecepto  superioris
+<lb ed="#L" n="35"/>ratione excommunicationis adiunctae obedire, omitteret dicere illud quod
+<lb ed="#L" n="36"/>secundum conscientiam erroneam iudicat esse tale verum quod ad veritatem
+<lb ed="#L" n="37"/>doctrinae pertinet, quam inobedientiam hominis et poenam excommunicationis
+<pb ed="#L" n="405"/>
+               <lb ed="#L" n="1"/>incurrendo, illud quod verum aestimat affirmando, in quantum gravius peccat
+<lb ed="#L" n="2"/>directe peccans contra Deum quam contra hominem.
+</p>
+            <p xml:id="v27ab7-g35082-d1e322">
+               <lb ed="#L" n="3"/>Quia tamen non est de facili supponendum in talibus praelatum manifeste
+<lb ed="#L" n="4"/>errare ' quamdiu ab Ecclesia toleratur, si forte inveniatur aliquid condemnasse
+<lb ed="#L" n="5"/>tanquam erroneum, et contrarium aestimetur verum prout ex superficie 
+dicto<lb break="no" ed="#L" n="6"/>rum apparet, fidelis doctor debet conari illud exponere bono modo. Per 
+prae<lb break="no" ed="#L" n="7"/>dicta patet responsio ad obiecta.
+</p>
+            <p xml:id="v27ab7-g35082-d1e335">
+               <lb ed="#L" n="8"/>Explicit septimum quolibet. Incipit octavum .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

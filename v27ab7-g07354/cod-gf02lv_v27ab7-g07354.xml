@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="86"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g07354"><!-- v27ab7-q5-q17 -->
+            <head xml:id="v27ab7-g07354-Hd1e99">Quaestio 17</head>
+            <head xml:id="v27ab7-g07354-Hd1e101" type="question-title">
+      Utrum tantum valeat una missa pro pluribus quantum valet cuilibet una sola
+    </head>
+            <p xml:id="v27ab7-g07354-d1e104">
+               <lb ed="#L" n="3"/>QUAESTIO XVII
+<lb ed="#L" n="4"/>Utrum tantum valeat una missa pro pluribus quantum valet cuilibet una sola.
+</p>
+            <p xml:id="v27ab7-g07354-d1e111">
+               <lb ed="#L" n="5"/>Deinde circa pertinentia ad utrosque ? status scilicet religiosorum et praelatorum
+<lb ed="#L" n="6"/>communiter quaerebatur unum pertinens ad officium missae quod per eos exercetur sive
+<lb ed="#L" n="7"/>celebratur, scilicet tali casu posito quod aliquis sacerdos obligat se ad dicendum missam
+<lb ed="#L" n="8"/>pro pluribus qui hoc petunt singulatim? et a quibus singulis occasione missae dicendae
+<lb ed="#L" n="9"/>certam pecuniam recepit, utrum tantum valeat una missa pro omnibus quantum valeret
+<lb ed="#L" n="10"/>cuilibet una sola; aut saltem utrum per unam solam potest satisfacere. Et probatur quod
+<lb ed="#L" n="11"/>sic; quia maioris valoris est una missa sola propter infinitatem sacrificii quod in illa
+<lb ed="#L" n="12"/>offertur quam etiam infinita pecunia . Ergo cum dicens unam solam missam plus det
+<lb ed="#L" n="13"/>quam accipiat, licite potest hoc fieri.
+</p>
+            <p xml:id="v27ab7-g07354-d1e133">
+               <lb ed="#L" n="14"/>Contra: si sufficit et tantum valet una missa pro multis quantum singulae pro
+<lb ed="#L" n="15"/>singulis; ergo sciens quod missa quam desiderat est dicenda pro alio, in aliqua ecclesia
+<lb ed="#L" n="16"/>frustra daret pecuniam ut pro ipso specialiter talis missa diceretur quae nihilominus
+<lb ed="#L" n="17"/>dicenda erat et diceretur.
+</p>
+            <p xml:id="v27ab7-g07354-d1e145">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod si missa dicta pro uno specialiter tantum valet omnibus
+<lb ed="#L" n="19"/>existentibus in purgatorio sicut illi pro quo dicitur, quaestio locum non haberet. 
+Suppo<lb break="no" ed="#L" n="20"/>nendo ergo ad praesens, quod non videtur, quod cum una missa quantum est de se multis
+<lb ed="#L" n="21"/>tantum valet sicut uni soli, tum propter virtutem sacrificii infiniti quod in illa offertur,
+<lb ed="#L" n="22"/>tum propter indivisionem huiusmodi boni quod est in missa quod non secundum diversas
+<lb ed="#L" n="23"/>portiones a diversis participatur; — ergo si plus valet uni quam alii, hoc ex alio contingit:
+<lb ed="#L" n="24"/>scilicet, ex condicione vel convenienti dispositione eorum pro quibus celebratur et ex
+<lb ed="#L" n="25"/>condicione missam celebrantis et hoc sacrificium pro indigentibus offerentis. Haec autem
+<lb ed="#L" n="26"/>dicitur devotio ipsius sacerdotis, non solum devotio personalis caritate informata, sed
+<lb ed="#L" n="27"/>etiam intentio vel attentio eius actualis, etiam  si extra caritatem sit?^, ut est persona
+<lb ed="#L" n="28"/>publica et ut est ad hoc officium deputata tanquam minister principalis et summi 
+sacer<lb break="no" ed="#L" n="29"/>dotis Christi. Quae debet tamen  esse rationalis et discreta  et secundum divinum
+<lb ed="#L" n="30"/>beneplacitum quantum est possibile regulata et ordinata. Cum enim summus  Pontifex
+<lb ed="#L" n="31"/>et sacerdos sit principalis dispensator huiusmodi thesauri ; homo autem ut minister 
+effica<lb break="no" ed="#L" n="32"/>ciam habet huiusmodi sacrificium ex devotione offerentis ut habet rationem instrumenti
+<lb ed="#L" n="33"/>a principali sacerdote Christo regulati, cum ergo, ceteris paribus, aliquis debeat orare
+<lb ed="#L" n="34"/>et bona spiritualia communicare quibusdam plus quam aliis, si forte minus ferventer
+<lb ed="#L" n="35"/>attenderet actu ad illos ad quos magis attendere deberet, puta si aliquis magis debens
+<lb ed="#L" n="36"/>offerre huiusmodi sacrificium pro suis parochianis quam pro aliis, nihilominus vellet
+<lb ed="#L" n="37"/>principalius dirigere intentionem suam ad extraneos, nisi ob causam rationabilem et
+<pb ed="#L" n="87"/>
+               <lb ed="#L" n="1"/>specialem, forte non plus valeret ex hoc extraneis quam propriis; immo defectum
+<lb ed="#L" n="2"/>voluntatis eius Deus rectificando, effectum huiusmodi ! sacrificii dirigeret sicut sacerdos
+<lb ed="#L" n="3"/>deberet diri gere? secundum rectam rationem. Similiter etiam si fiat anniversarium
+<lb ed="#L" n="4"/>alicuius qui ex magna devotione bona multa reliquit ecclesiae et se disposuit quantum
+<lb ed="#L" n="5"/>potuit ad hoc quod missa quae pro ipso diceretur ei valeret; si forte dicens missam
+<lb ed="#L" n="6"/>huiusmodi magis actu afficiatur ad alium, non tamen forte propter hoc illi plus valebit
+<lb ed="#L" n="7"/>quam ei pro quo est missa rationabiliter? ordinata et instituta.
+</p>
+            <p xml:id="v27ab7-g07354-d1e208">
+               <lb ed="#L" n="8"/>Cum ergo ex devotione rationabili et debito modo regulata offerentis sic valeat missa
+<lb ed="#L" n="9"/>si aequalem et aeque rationabilem devotionem vel affectionem potest aliquis habere ad
+<lb ed="#L" n="10"/>plures sicut ad unum, videtur quod aequaliter valeat illis pluribus sicut si quilibet haberet
+<lb ed="#L" n="11"/>propriam. Si ergo aeque rationabile est quod cor suum ad unum habeat sicut ad alium,
+<lb ed="#L" n="12"/>et hoc facit in actu quantum ad hoc aequaliter valet, utpote si ambo sunt aeque extranei
+<lb ed="#L" n="13"/>vel coniuncti sibi vel ecclesiae cuius est minister et aequaliter se disposuerunt et sua
+<lb ed="#L" n="14"/>devotione et bonorum suorum largitione, sed cum actualis fervor devotionis sit finitus,
+<lb ed="#L" n="15"/>licet eius radix, scilicet caritas, sit quodammodo infinita virtute, non videtur quod aequalem
+<lb ed="#L" n="16"/>affectionem talem possit aliquis habere ad plures sicut ad paucos vel unum, sicut etiam
+<lb ed="#L" n="17"/>non potest aeque perfecta amicitia acquisita haberi ad plures sicut ad paucos. Unde cum
+<lb ed="#L" n="18"/>diversi singulatim petunt ab uno sacerdote quod dicat missam pro singulis et credit
+<lb ed="#L" n="19"/>quilibet se habiturum missam propriam, videtur quod sacerdos ad hoc quod petunt non
+<lb ed="#L" n="20"/>deberet se obligare intendens dicere tantum unam missam pro omnibus nisi hoc omnibus
+<lb ed="#L" n="21"/>explicaret ; quia non debet supponere quod tantum debeat affici ad plures sicut ad unum;
+<lb ed="#L" n="22"/>et si hoc non facit, videtur esse voluntas eius  cupida et irrationalis. Si autem omnino
+<lb ed="#L" n="23"/>velint quod ab illo etiam sola missa dicatur, non male facit ille sacerdos et videtur quod,
+<lb ed="#L" n="24"/>aliis suppositis quae supponenda sunt, tantum valet, praecipue autem cum pro pluribus
+<lb ed="#L" n="25"/>dicitur una missa pro quibus non sic rationabiliter possent plures dici, utpote cum 
+paro<lb break="no" ed="#L" n="26"/>chiani vel canonici plures alicuius ecclesiae qui potius debent procurare sua anniversaria
+<lb ed="#L" n="27"/>fieri in sua ecclesia sic successive, procurant fieri huiusmodi sua anniversaria quod oportet
+<lb ed="#L" n="28"/>plura simul? concurrere, quam si diversi sua anniversaria fieri procurarent in extraneis
+<lb ed="#L" n="29"/>ecclesiis. Et quia hoc fit rationabili et recta intentione secundum ordinationem ecclesiae,
+<lb ed="#L" n="30"/>credo? quod tantum vel forte plus valet talis una missa dicta pro pluribus quam si singulae
+<lb ed="#L" n="31"/>pro singulis aliter dicerentur, cum scilicet a sacerdote ecclesiae parochialis huiusmodi
+<lb ed="#L" n="32"/>dicitur missa pro hominibus qui sunt illi sacerdoti vel ecclesiae specialiter et  magis
+<lb ed="#L" n="33"/>astricti, ratione cuius magis etiam debent parochiales sacerdotes et etiam ipsi pro quibus
+<lb ed="#L" n="34"/>est missa dicenda affici ad hoc quod sicut in vita reficiebantur bonis spiritualibus illius
+<lb ed="#L" n="35"/>ecclesiae, ita etiam post vitam eisdem reficiantur et propter hoc etiam de bonis suis ibi
+<lb ed="#L" n="36"/>relinquere potius debent. Propter quod cum sacerdos in tali casu facit quod potest et
+<lb ed="#L" n="37"/>rationabilis  intentio est ex parte utraque  supponendum est quod defectum intentionis
+<lb ed="#L" n="38"/>fervoris actualis, si esset, supplet summus Sacerdos quantum ad effectum sacramenti et
+<lb ed="#L" n="39"/>quantum ad efficaciam quam habet virtus missae. Sic ergo videtur dicendum, ut dictum
+<lb ed="#L" n="40"/>est de canonicis pluribus quorum anniversaria oportet fieri simul una die nec possunt
+<lb ed="#L" n="41"/>habere nisi unam missam ', de sacerdotibus curatis respectu suorum parochianorum,
+<pb ed="#L" n="88"/>
+               <lb ed="#L" n="1"/>scilicet quod tantum valet una missa pro pluribus sicut singulae pro singulis aliter
+<lb ed="#L" n="2"/>celebratae.
+</p>
+            <p xml:id="v27ab7-g07354-d1e291">
+               <lb ed="#L" n="3"/>Sed non sic videtur rationabile de sacerdotibus quibus non sunt sic astricti illi pro
+<lb ed="#L" n="4"/>quibus celebrari oportet nec etiam ecclesiae illi in qua missa est celebranda, ut dictum
+<lb ed="#L" n="5"/>est; et similiter non sic est de religiosis respectu hominum extraneorum. Et ideo non
+<lb ed="#L" n="6"/>debent bona temporalia recipere pro missa dicenda pro talibus pluribus nisi sic quod,
+<lb ed="#L" n="7"/>cum ! promiserunt iam dicere missam tali die pro una persona, non obligent se ad
+<lb ed="#L" n="8"/>diceadum eadem die pro alia nisi saltem hoc exprimant, scilicet quod iam debert  dicere
+<lb ed="#L" n="9"/>pro alia; nam non est supponendum quod aliquis vellet habere missam a religioso vel
+<lb ed="#L" n="10"/>ab alio qui non est deputatus ad dicendum missas pro extraneis, nisi crederet habere solus
+<lb ed="#L" n="11"/>missam. Sed ab his qui volunt missas habere a suis ecclesiis supponendum est quod
+<lb ed="#L" n="12"/>intendunt habere missas secundum rationalem usum et possibilitatem illius ecclesiae.
+</p>
+            <p xml:id="v27ab7-g07354-d1e315">
+               <lb ed="#L" n="13"/>Per praedicta patet responsio ad obiecta, quia aliquando tantum potest valere una
+<lb ed="#L" n="14"/>missa et aliquando non; et dicta est ratio huius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

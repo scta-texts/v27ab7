@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="254"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g21685"><!-- v27ab7-q6-q16 -->
+            <head xml:id="v27ab7-g21685-Hd1e99">Quaestio 16</head>
+            <head xml:id="v27ab7-g21685-Hd1e101" type="question-title">
+      Utrum si corpus humanum resurgeret sine quantitate esset
+      idem numero quod prius
+    </head>
+            <p xml:id="v27ab7-g21685-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO XVI.
+<lb ed="#L" n="17"/>Utrum si corpus humanum resurgeret sine quantitate esset
+<lb ed="#L" n="18"/>idem numero quod prius.
+</p>
+            <p xml:id="v27ab7-g21685-d1e113">
+               <lb ed="#L" n="19"/>Deinde circa naturam corporis humani quaerebatur unum, scilicet si
+<lb ed="#L" n="20"/>corpus aliquod humanum resurgeret sine quantitate, utrum esset idem
+<lb ed="#L" n="21"/>corpus numero quod prius fuit. Et arguebatur quod non, quia ! Philosophus
+<lb ed="#L" n="22"/>in primo Physicorum divisionem et distinctionem aliquorum ad invicem
+<lb ed="#L" n="23"/>secundum numerum attribuit quantitati ; erro quod non habet quantitatem
+<lb ed="#L" n="24"/>non est divisum et distinctum ab alio secundum numerum; quare nec ipsum
+<lb ed="#L" n="25"/>etiam est aliquid unum numero, quia quod non est divisum ab alio 
+secun<lb break="no" ed="#L" n="26"/>dum numerum non est etiam in se indivisum secundum numerum ; quare
+<lb ed="#L" n="27"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g21685-d1e135">
+               <lb ed="#L" n="28"/>Contra. Homo componitur ex materia et forma; ergo ubi est eadem
+<lb ed="#L" n="29"/>materia et eadem forma numero est idem homo numero ; sed non obstante
+<pb ed="#L" n="255"/>
+               <lb ed="#L" n="1"/>quod homo resurgeret sine <sic>quantatite</sic> haberet tamen eandem naturam et
+<lb ed="#L" n="2"/>eamdem formam numero quam prius habuit ; quare et cetera. Eod ER
+</p>
+            <p xml:id="v27ab7-g21685-d1e152">
+               <lb ed="#L" n="3"/>Respondeo dicendum quod quaestio videtur supponere falsum et 
+impos<lb break="no" ed="#L" n="4"/>sibile, quo tamen supposito adhuc videtur esse dubium quod quaeritur et
+<lb ed="#L" n="5"/>ideo primo declarandum est quomodo ! hoc impossibile est quod 
+suppo<lb break="no" ed="#L" n="6"/>nitur sic. Nam illud quod includitur in ratione et diffinitione alicuius non
+<lb ed="#L" n="7"/>potest ab eo separari; sed in ratione hominis includitur quantitas; nam, cum
+<lb ed="#L" n="8"/>homo ? dicat ens quoddam non metaphysicum quod abstrahit et a materia
+<lb ed="#L" n="9"/>sensibili et quanta, nec mathematicum ? quod abstrahit a materia sensibili,
+<lb ed="#L" n="10"/>non a quanta, sed est ens naturale quod non abstrahit a materia quanta
+<lb ed="#L" n="11"/>nec sensibili, sed solum ab hac materia determinata per hanc determinatam
+<lb ed="#L" n="12"/>quantitatem et per has determinatas qualitates, — sicut ergo nihil potest esse
+<lb ed="#L" n="13"/>substantia quae est de consideratione metaphysici quod abstrahit ab ente
+<lb ed="#L" n="14"/>secundum quod ens sive ab actu et potentia quae concernuntur a 
+meta<lb break="no" ed="#L" n="15"/>physico, et sicut non potest etiam esse figura[e] triangularis vel rotunda[e]
+<lb ed="#L" n="16"/>quae considerantur a mathematico quod abstrahit a quanto, ita etiam nihil
+<lb ed="#L" n="17"/>potest esse homo qui consideratur a naturali quod abstrahit  a quantitate
+<lb ed="#L" n="18"/>et qualitate. Si enim de ratione entium naturalium non esset nisi materia
+<lb ed="#L" n="19"/>et forma substantialis, non essent naturalia sed pure metaphysica, nec aliter
+<lb ed="#L" n="20"/>diffiniret naturalis quam metaphysicus; ita est enim quod universaliter
+<lb ed="#L" n="21"/>quaelibet forma naturalis determinat sibi materiam secundum determinatas
+<lb ed="#L" n="22"/>dispositiones accidentales nec nata est perficere materiam secundum se
+<lb ed="#L" n="23"/>omnino nudam cum exclusione talium dispositionum et, licet eam non
+<lb ed="#L" n="24"/>perficiat mediantibus istis sed immediate 5, sine istis tamen suam naturam
+<lb ed="#L" n="25"/>consequentibus materiam " perficere non potest. Non enim quaelibet forma
+<lb ed="#L" n="26"/>cuiuslibet materiae esse potest sive materiae sub quibuscumque 
+disposi<lb break="no" ed="#L" n="27"/>tionibus existentis potest esse perfectio nec anima, secundum quod dicit
+<lb ed="#L" n="28"/>Philosophus, primo de Anima, nata est perficere quodlibet corpus; ipsa enim
+<lb ed="#L" n="29"/>non potest esse forma nisi corporis  organici; corpus autem non est 
+orga<lb break="no" ed="#L" n="30"/>nicum nisi habeat quantitatem et qualitates sensibiles secundum quas in
+<lb ed="#L" n="31"/>suis partibus diversificatur. Unde dicit Philosophus, septimo Metaphysicae,
+<lb ed="#L" n="32"/>quod forma hominis semper habet esse in carnibus et  ossibus et partibus
+<lb ed="#L" n="33"/>similibus istis; et Com mentator: impossibile est enim hominem intelligere Sed.
+<lb ed="#L" n="34"/>sine carnibus et ossibus.
+</p>
+            <p xml:id="v27ab7-g21685-d1e224">
+               <lb ed="#L" n="35"/>Unde, homo dicitur quoddam compositum non simpliciter ex anima
+<lb ed="#L" n="36"/>et materia, sed ex anima et materia tali, scilicet ex anima et carne et ossibus;
+<pb ed="#L" n="256"/>
+               <lb ed="#L" n="1"/>sed, quamvis propter hoc quod de ratione hominis aliquo modo videntur
+<lb ed="#L" n="2"/>esse dispositiones materiae homo accipitur ut quoddam totum aggregatum
+<lb ed="#L" n="3"/>ex aliquibus ad genus substantiae pertinentibus et aliquibus ad genus
+<lb ed="#L" n="4"/>accidentis, sicut etiam quantum secundum quod huiusmodi dicit aggregatum
+<lb ed="#L" n="5"/>ex substantia subiecta et ex ipsa quantitate et ideo ut sic non potest unum
+<lb ed="#L" n="6"/>ab alio excludi quia jam non esset illud totum !, sed ex hoc tamen non
+<lb ed="#L" n="7"/>videtur omnino negandum quin Deus id quod est ibi ad solam substantiam
+<lb ed="#L" n="8"/>pertinens posset separare ab eo quod est ibi pertinens  ad sola accidentia,
+<lb ed="#L" n="9"/>sicut patet in quanto quod illud quod pertinet ad quantitatem potest 
+<lb ed="#L" n="10"/>separare, ut patet in sacramento altaris. Et secundum hoc bene verum est
+<lb ed="#L" n="11"/>quod homo sic consideratus non esset quid naturale nisi pro quanto
+<lb ed="#L" n="12"/>secundum se haberet habitudinem naturalem ad proprias dispositiones suae
+<lb ed="#L" n="13"/>materiae, licet iam actu careret eis, sicut etiam anima rationalis separata
+<lb ed="#L" n="14"/>non est sic pure ens metaphysicum, sicut intelligentiae vel angeli, propter
+<lb ed="#L" n="15"/>naturalem habitudinem et inclinationem ad corpus naturale quod includit
+<lb ed="#L" n="16"/>dispositiones materiales et naturales; et quia divinae potentiae nolo 
+prae<lb break="no" ed="#L" n="17"/>iudicare, licet non videam quomodo possibilis sit talis separatio, tamen non
+<lb ed="#L" n="18"/>dico eam impossibilem Deo.
+</p>
+            <p xml:id="v27ab7-g21685-d1e272">
+               <lb ed="#L" n="19"/>Et ideo etiam  hoc supposito respondendum est ad id quod circa hoc
+<lb ed="#L" n="20"/>quaeritur et est dicendum quod aliquo modo esset idem homo qui prius
+<lb ed="#L" n="21"/>et aliquo modo non. Distinguendum est  enim  de uno sive de unitate quae
+<lb ed="#L" n="22"/>numerum constituit et secundum hoc patebit intentum. Est enim quoddam
+<lb ed="#L" n="23"/>unum quod convertitur cum ente et quoddam quod dicitur principium
+<lb ed="#L" n="24"/>numeri ; intelligendum tamen quod quaelibet unitas est principium alicuius
+<lb ed="#L" n="25"/>numeri, quia omnis multitudo est aliquis numerus ; sed cum dicitur quod
+<lb ed="#L" n="26"/>est quoddam unum quod est principium numeri intelligitur specialiter de
+<lb ed="#L" n="27"/>numero qui est quantitas discreta sive de genere accidentis quod est 
+quan<lb break="no" ed="#L" n="28"/>titas. Generaliter ergo hoc est supponendum quod, cum unum dicat 
+indi<lb break="no" ed="#L" n="29"/>visionem in se et divisionem ab aliis, omne illud quod habet entitatem et
+<lb ed="#L" n="30"/>naturam in se indivisam et divisam ab aliis est unum et est pars alicuius
+<lb ed="#L" n="31"/>numeri et unum numero secundum quod est aliquid illius numeri.
+</p>
+            <p xml:id="v27ab7-g21685-d1e303">
+               <lb ed="#L" n="32"/>Sed tale ens licet sic intelligatur indivisum in se et ab aliis divisum,
+<lb ed="#L" n="33"/>si tamen non sic existat vel subsistat in rerum natura, sed dividatur et
+<lb ed="#L" n="34"/>multiplicetur in diversa quae ulterius non multiplicantur vel dividuntur, hoc
+<lb ed="#L" n="35"/>non est proprie unum numero, sed specie vel genere.
+</p>
+            <p xml:id="v27ab7-g21685-d1e314">
+               <lb ed="#L" n="36"/>Sed illud quod sic est indivisum in se et divisum ab aliis quod non est
+<pb ed="#L" n="257"/>
+               <lb ed="#L" n="1"/>sic ulterius multiplicabile divisione tali, scilicet per contractionem et 
+deter<lb break="no" ed="#L" n="2"/>minationem eius ad aliquid minus contractum, illud proprie est unum
+<lb ed="#L" n="3"/>numero in quocumque genere sit sive ! substantiae sive accidentis; et hoc
+<lb ed="#L" n="4"/>modo est unum numero quaelibet substantia subsistens et omnia accidentia
+<lb ed="#L" n="5"/>in substantia subsistente existentia. Est enim quilibet angelus subsistens
+<lb ed="#L" n="6"/>unum numero isto modo, etiamsi sit sua. species tota, ita quod illa species
+<lb ed="#L" n="7"/>in alio non possit reperiri cui angelus talis subsistens connumeretur ; nam,
+<lb ed="#L" n="8"/>hoc non obstante ita indivisus esset in se et ab alis divisus sicut si cum
+<lb ed="#L" n="9"/>eo existeret vel existere posset alius sub eadem specie.
+</p>
+            <p xml:id="v27ab7-g21685-d1e340">
+               <lb ed="#L" n="10"/>Et omne tale ens unum numero ex eodem habet quod est unum
+<lb ed="#L" n="11"/>numero et quod est individuum ; substantiae enim cui convenit per se esse
+<lb ed="#L" n="12"/>et subsistere per se convenit etiam esse unam numero et individualiter,
+<lb ed="#L" n="13"/>immo etiam nonnisi individualiter aliquid esse habet et hoc aliquid .
+</p>
+            <p xml:id="v27ab7-g21685-d1e352">
+               <lb ed="#L" n="14"/>Quod autem existens non existit nisi individualiter et sic unumquodque
+<lb ed="#L" n="15"/>existens est quoddam individuum, hoc, inquam, formaliter inest ei per suam
+<lb ed="#L" n="16"/>formam qua est id quod est et in se indivisum et ab alio ? divisum. Quid
+<lb ed="#L" n="17"/>ergo addit suppositum et individuum in genere substantiae simpliciter sive
+<lb ed="#L" n="18"/>etiam non quantae supra  naturam et a quo est talis individuatio, quamvis
+<lb ed="#L" n="19"/>non sit praesentis speculationis, tamen  videtur quod causa efficiens sit
+<lb ed="#L" n="20"/>agens producens ipsam in esse existentiae; terminus enim actionis 
+culus<lb break="no" ed="#L" n="21"/>libet agentis non est nisi hoc aliquid ; formaliter autem non videtur addere
+<lb ed="#L" n="22"/>individuum vel suppositum tale aliquod ens positivum 5, sed negationem
+<lb ed="#L" n="23"/>aliquo modo prout etiam unum a negatione imponitur ; alioquin si esset sic
+<lb ed="#L" n="24"/>unum formaliter per aliquid positivum additum, cum illud additum esset res
+<lb ed="#L" n="25"/>et natura aliqua, esset etiam unum unitate quae convertitur cum ente, et hoc
+<lb ed="#L" n="26"/>peraliquid additum eadem ratione et sic in infinitum, quod est 
+incon<lb break="no" ed="#L" n="27"/>veniens. Per nihil ergo additum est tale unum; et hac unitate oportet etiam
+<lb ed="#L" n="28"/>quodlibet ens de genere quantitatis etiam esse unum. Unde , linea unà
+<lb ed="#L" n="29"/>numero dicit indivisionem in sua entitate et divisionem ab aliis hoc modo;
+<lb ed="#L" n="30"/>ergo duo angeli diversarum specierum cum hoc quod differunt specie
+<lb ed="#L" n="31"/>propter naturas secundum se et specifice differentes quas important, 
+dif<lb break="no" ed="#L" n="32"/>ferunt etiam numero propter hoc quod quilibet illorum importat etiam 
+indi<lb break="no" ed="#L" n="33"/>visionem in se et divisionem ab aliis in  esse sic subsistenti quod non est
+<lb ed="#L" n="34"/>ulterius divisibilis dicto modo; duo angeli autem '? si ponantur sub una
+<lb ed="#L" n="35"/>specie contineri, sicut constat de duabus animabus quae multiplicantur
+<pb ed="#L" n="258"/>
+               <lb ed="#L" n="1"/>secundum multiplicitatem corporum, dicetur quod differrent non specie, quia
+<lb ed="#L" n="2"/>important formam quae secundum se est una, sed numero, quia illa forma
+<lb ed="#L" n="3"/>est sic multiplicata in duobus sic subsistentibus quod in sua subsistentia
+<lb ed="#L" n="4"/>habent indivisionem et divisionem ab aliis.
+</p>
+            <p xml:id="v27ab7-g21685-d1e413">
+               <lb ed="#L" n="5"/>Et hoc modo etiam duo homines si resurgerent sine accidentibus 
+dif<lb break="no" ed="#L" n="6"/>ferrent numero substantiali sive essentiali cuius unitates convertuntur cum
+<lb ed="#L" n="7"/>ente, et quilibet illorum esset idem homo numero qui prius quantum ad
+<lb ed="#L" n="8"/>identitatem talis unitatis vel entitatis, quia scilicet esset constitutus ex eadem
+<lb ed="#L" n="9"/>materia et eadem forma substantiali quae constituerent unum et idem 
+sup<lb break="no" ed="#L" n="10"/>positum quod primo ! constituerunt.
+</p>
+            <p xml:id="v27ab7-g21685-d1e429">
+               <lb ed="#L" n="11"/>Unum autem quod est principium numeri proprie  dicti ut est aliquid
+<lb ed="#L" n="12"/>de genere quantitatis non convertitur cum ente nec reperitur nisi in his
+<lb ed="#L" n="13"/>in quibus est quantitas continua, quia nec est nisi in talibus diversitas
+<lb ed="#L" n="14"/>secundum numerum talem et distinctio aliquorum secundum talem 
+nume<lb break="no" ed="#L" n="15"/>rum ex divisione quantitatis continuae ?, cuius est per se habere partes
+<lb ed="#L" n="16"/>eiusdem rationis; et per ipsam formaliter habet substantia partes etiam
+<lb ed="#L" n="17"/>eiusdem rationis, prout quaelibet pars lapidis est lapis et quaelibet pars
+<lb ed="#L" n="18"/>materiae est materia et quaelibet pars ossis est os et quaelibet pars corporis
+<lb ed="#L" n="19"/>est corpus ; et sic de aliis quae extenduntur extensione quantitatis.
+</p>
+            <p xml:id="v27ab7-g21685-d1e451">
+               <lb ed="#L" n="20"/>Et, quia non est in rebus processus in infinitum, unitas et multitudo
+<lb ed="#L" n="21"/>talis est in  substantiis per aliquid additum, scilicet per huiusmodi 
+quanti<lb break="no" ed="#L" n="22"/>tatem, et, cum quaelibet quantitas sit una tali unitate, — non enim differunt
+<lb ed="#L" n="23"/>numero partes substantiae lapidis nisi quia etiam differunt numero ipsae
+<lb ed="#L" n="24"/>partes quantitatis, — tales partes ipsius quantitatis, ut scilicet sunt partes
+<lb ed="#L" n="25"/>quantitatis, non sunt unum vel plura dicto modo per aliquam rem additam,
+<lb ed="#L" n="26"/>sicut nec sunt quid extensum per aliquid additum ; immo, sicut sunt ipsa
+<lb ed="#L" n="27"/>extensio essentialiter quam participat substantia in qua est, sic etiam sunt
+<lb ed="#L" n="28"/>ipsa multitudo accidentalis essentialiter quam participat substantia; et est
+<lb ed="#L" n="29"/>talis multitudo accidentalis substantiae quae est essentialis quantitati ; unde,
+<lb ed="#L" n="30"/>in aliis a quantitate differentibus numero pertinente ad quantitatem est talis
+<lb ed="#L" n="31"/>differentia numeralis per aliquid additum entitati essentiali eorum.
+</p>
+            <p xml:id="v27ab7-g21685-d1e480">
+               <lb ed="#L" n="32"/>Sed in quantitate non differunt realiter, sed solum secundum rationem
+<lb ed="#L" n="33"/>unum quod convertitur cum ente et quod est principium numeri, quia ipsum
+<lb ed="#L" n="34"/>quod est essentialiter continuitas et partibilitas quaedam secundum se 
+indi<lb break="no" ed="#L" n="35"/>visum quid et ? divisum ab aliis et sic est unum sua tali unitate essentiali
+<lb ed="#L" n="36"/>ut participatur ab alio, scilicet a substantia cui accidit, est unitas accidentalis
+<pb ed="#L" n="259"/>
+               <lb ed="#L" n="1"/>illi; unde, quod est unitas essentialis in quantitate secundum se est unitas
+<lb ed="#L" n="2"/>accidentalis in substantia cui accidit.
+</p>
+            <p xml:id="v27ab7-g21685-d1e500">
+               <lb ed="#L" n="3"/>Et secundum hoc esset dicendum quod dicti duo homines non 
+dif<lb break="no" ed="#L" n="4"/>ferrent numero ab invicem, nec unus illorum esset idem numero homo qui
+<lb ed="#L" n="5"/>prius, quia, licet haberet illam unitatem substantialem quam prius, non tamen
+<lb ed="#L" n="6"/>haberet illam unitatem ! accidentalem ; et de tali unitate numerali qua plura
+<lb ed="#L" n="7"/>individua differunt numero verum est dicere quod non convenit alicui ? nisi
+<lb ed="#L" n="8"/>quanto et quod talis uniuscuiusque individuatio in se et distinctio 
+secun<lb break="no" ed="#L" n="9"/>dum numerum talem ab alio ? non est nisi per quantitatem.
+</p>
+            <p xml:id="v27ab7-g21685-d1e519">
+               <lb ed="#L" n="10"/>Et quia non est nisi duplex genus partium entium actu, scilicet 
+secun<lb break="no" ed="#L" n="11"/>dum essentiam et formam, quia unaquaeque  forma secundum se et absolute
+<lb ed="#L" n="12"/>considerata nonnisi specifice per se distinguitur ab alia, item secundum
+<lb ed="#L" n="13"/>quantitatem et extensi onem, quia unumquodque extensum et quantum per
+<lb ed="#L" n="14"/>se habet partes eiusdem rationis secundum se, ut linea, tempus et huiusmodi
+<lb ed="#L" n="15"/>quae non distinguuntur formaliter et secundum speciem ab invicem, scilicet
+<lb ed="#L" n="16"/>partes lineae inter se et partes temporis et sic de aliis, — ideo videtur quod
+<lb ed="#L" n="17"/>quaecumque carent quantitate oportet esse differentia sic numero quod
+<lb ed="#L" n="18"/>etiam differant secundum speciem ; et solum ? in illis, in quibus potest esse
+<lb ed="#L" n="19"/>quantitas, potest esse differentia  secundum numerum absque differentia
+<lb ed="#L" n="20"/>secundum speciem.
+</p>
+            <p xml:id="v27ab7-g21685-d1e545">
+               <lb ed="#L" n="21"/>Hoc tamen non obstante, ponuntur plures animae numero differentes ;
+<lb ed="#L" n="22"/>sed hoc dicitur fieri ex eo quod diversorum corporum numero differentium
+<lb ed="#L" n="23"/>sunt formae cum quibus etiam huiusmodi individuationem sive numeralem
+<lb ed="#L" n="24"/>distinctionem consequuntur. Hoc modo etiam forte ponerentur duo homines
+<lb ed="#L" n="25"/>resurgentes sine quantitate numero differre, quia habuerunt quantitatem
+<lb ed="#L" n="26"/>vel habere nati sunt; sed hoc ipsum est difficile intelligere quod, separata
+<lb ed="#L" n="27"/>quantitate in actu ab aliquibus quae nata sunt uniri quantitati ", in illis
+<lb ed="#L" n="28"/>remaneat distinctio secundum numerum, puta in animabus separatis et in
+<lb ed="#L" n="29"/>talibus duobus  hominibus si sic resurgerent. Ouantumcumque tamen sit
+<lb ed="#L" n="30"/>difficile hoc intelligere, tamen de animabus simpliciter hoc est tenendum ;
+<lb ed="#L" n="31"/>sed magis est difficile intelligere quomodo possunt esse plures angeli
+<lb ed="#L" n="32"/>numero differentes; quod tamen hoc sit possibile non est omnino negandum
+<lb ed="#L" n="33"/>secundum quod dicit quidam articulus quo contrarium condemnatur .
+</p>
+            <p xml:id="v27ab7-g21685-d1e576">
+               <pb ed="#L" n="260"/>
+               <lb ed="#L" n="1"/>Per praedicta patet responsio ad argumenta, quia procedunt secundum
+<lb ed="#L" n="2"/>dictos modos diversos quo aliquid dicitur vel non dicitur unum numero.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

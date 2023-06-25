@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="110"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g09509"><!-- v27ab7-q6-q2 -->
+            <head xml:id="v27ab7-g09509-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-g09509-Hd1e101" type="question-title">
+      Utrum Deus possit eumdem motum numero qui fuit reparare
+    </head>
+            <p xml:id="v27ab7-g09509-d1e104">
+               <lb ed="#L" n="10"/>QUAESTIO II.
+<lb ed="#L" n="11"/>Utrum Deus possit eumdem motum numero qui fuit reparare.
+</p>
+            <p xml:id="v27ab7-g09509-d1e111">
+               <lb ed="#L" n="12"/>Post hoc quaerebatur utrum Deus possit eumdem motum numero
+<lb ed="#L" n="13"/>qui fuit reparare. Et arguebatur quod sic; quia non minoris potentiae est
+<lb ed="#L" n="14"/>Deus respectu successivorum quam respectu permanentium. Sed Deus
+<lb ed="#L" n="15"/>potest permanentia quae fuerunt, eadem numero reparare ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g09509-d1e122">
+               <lb ed="#L" n="16"/>Contra. Deus non potest facere quod praeteritum sit praesens, quia
+<lb ed="#L" n="17"/>iam non esset praeteritum, nec quod pars motus praecedens sit cum 
+poste<lb break="no" ed="#L" n="18"/>riori parte motus vel post illam. Sed hoc contingeret, si eumdem motum
+<lb ed="#L" n="19"/>numero repararet; ergo  et cetera.
+</p>
+            <p xml:id="v27ab7-g09509-d1e134">
+               <lb ed="#L" n="20"/>Respondeo dicendum, quod Deus cuius potentia est infinita potest
+<lb ed="#L" n="21"/>quicquid est possibile fieri. Possibile est autem fieri id quod enti 
+univer<lb break="no" ed="#L" n="22"/>saliter non opponitur; hoc autem est quicquid contradictionem non importat.
+<lb ed="#L" n="23"/>Ea ergo quorum reparatio secundum identitatem numeralem contradictionem
+<lb ed="#L" n="24"/>implicat Deus non potest eadem numero reparare. Talia autem sunt omnia
+<lb ed="#L" n="25"/>quorum esse consistit in fieri et successione, sive quorum esse non est
+<lb ed="#L" n="26"/>totum simul, nec partes essentiales et quantitativas simul habere possunt,
+<lb ed="#L" n="27"/>sed secundum ordinem et successionem durationis secundum prius et 
+pos<lb break="no" ed="#L" n="28"/>terius. De numero autem talium est motus; quare motum eumdem numero
+<lb ed="#L" n="29"/>non potest reparare Deus. Quia enim ? unitas talium in sua ratione includit
+<lb ed="#L" n="30"/>durationis continuitatem, eorum interruptio repugnat unitati talium, et ideo
+<lb ed="#L" n="31"/>cum, motu aliquo desinente, non possit habere continuitatem cum illo qui
+<pb ed="#L" n="111"/>
+               <lb ed="#L" n="1"/>postea habet esse; quia interruptio facta est et ! intercidit tempus medium,
+<lb ed="#L" n="2"/>propter quod non potest eodem tempore mensurari motus prius existens,
+<lb ed="#L" n="3"/>et postea existens ; ideo oportet esse alium numero. Motus enim secundum
+<lb ed="#L" n="4"/>numerum temporis et divisionem necessario dividitur et numeratur. Ergo
+<lb ed="#L" n="5"/>una pars praecedens in motu non potest esse alia pars sequens in eodem
+<lb ed="#L" n="6"/>motu, nec mensurari eadem parte temporis, licet ambae sint partes unius
+<lb ed="#L" n="7"/>motus propter continuationem eorum inter se et sic men surentur eodem
+<lb ed="#L" n="8"/>tempore, continuo habente etiam plures partes continuas, sicut etiam nullum
+<lb ed="#L" n="9"/>tempus praecedens potest esse unum cum tempore sequente, intercidente
+<lb ed="#L" n="10"/>interruptione, sed oportet quod sint duo quaedam tempora numero 
+diffe<lb break="no" ed="#L" n="11"/>rentia et distincta. Huius? autem ratio est quod? talia sic constituuntur
+<lb ed="#L" n="12"/>ex suis partibus quod una existente alia non potest existere, quia omnes
+<lb ed="#L" n="13"/>habent esse in continuo et successivo fieri. Unde sicut una existente non
+<lb ed="#L" n="14"/>potest alia simul existere cum illa, ita etiam cum una praeterit et alia est
+<lb ed="#L" n="15"/>in fieri, alia quae praeterit non potest eadem numero reparari, alioquin pars
+<lb ed="#L" n="16"/>prior et posterior simul essent, et aliquid simul esset in diversis spatiis et
+<lb ed="#L" n="17"/>temporibus, et simul diversis motibus numero moveretur. Quod sic patet:
+<lb ed="#L" n="18"/>moveatur aliquod corpus ab uno termino a ad alium terminum c per 5
+<lb ed="#L" n="19"/>medium. Si Deus posset hunc motum cum desierit reparare eumdem numero,
+<lb ed="#L" n="20"/>ita etiam cum prima pars ab a usque 5 desierit, posset illam reparare.
+<lb ed="#L" n="21"/>Ponatur ergo quod repararet  statim cum desiit. Sed tunc mobile movetur
+<lb ed="#L" n="22"/>abinc;ergo simul movebitur ab a in b et a » in c, et pars motus quae fuit
+<lb ed="#L" n="23"/>in tempore praeterito esse habebit  in spatio et in tempore posteriori : quae
+<lb ed="#L" n="24"/>omnia sunt impossibilia, immo incompossibilia.
+</p>
+            <p xml:id="v27ab7-g09509-d1e217">
+               <lb ed="#L" n="25"/>Sed non sic contingit in permanentibus, quorum unitas non sic per se
+<lb ed="#L" n="26"/>et directe includit unitatem continuitatis et continuitatem durationis, quorum
+<lb ed="#L" n="27"/>scilicet esse non consistit in fieri, nec eorum partes constituunt ipsa 
+secun<lb break="no" ed="#L" n="28"/>dum successionem, sed simul habent esse in ipsis in facto esse, et ideo
+<lb ed="#L" n="29"/>talibus non repugnat quod secundum se tota et secundum quamlibet partem
+<lb ed="#L" n="30"/>suam habeant esse in diversis temporibus, et ideo eis non repugnat quod
+<lb ed="#L" n="31"/>postquam sunt corrupta, iterum eadem numero habeant esse, si sit qui sua 
+<lb ed="#L" n="32"/>potentia illa valeat reparare.
+</p>
+            <p xml:id="v27ab7-g09509-d1e237">
+               <lb ed="#L" n="33"/>Nunc autem quia talia naturaliter non producuntur in esse nisi per
+<lb ed="#L" n="34"/>motum successivum secundum quem agentia naturalia producunt suos
+<lb ed="#L" n="35"/>effectus, et ipse motus non potest idem numero reparari 5, ideo ab agente
+<lb ed="#L" n="36"/>naturali non possunt talia cum fuerint corrupta eadem numero reparari.
+<pb ed="#L" n="112"/>
+               <lb ed="#L" n="1"/>Immo etiam nec a Deo agente possent per eumdem motum per quem 
+pro<lb break="no" ed="#L" n="2"/>ducta fuerunt in esse reparari, quia nec illum motum posset Deus eumdem
+<lb ed="#L" n="3"/>numero reparare. Sed quia Deus potest agere sine causis mediis et absque
+<lb ed="#L" n="4"/>motu, ideo potest talia eadem numero reparare.
+</p>
+            <p xml:id="v27ab7-g09509-d1e259">
+               <lb ed="#L" n="5"/>Ad argumentum in oppositum est dicendum quod verum est quod non
+<lb ed="#L" n="6"/>minus potens est Deus respectu successivorum quam respectu 
+permanen<lb break="no" ed="#L" n="7"/>tium, quantum ad id quod natum est subici alicui potentiae. Sed entia
+<lb ed="#L" n="8"/>successiva sic differunt a permanentibus quod eorum reparatio includit
+<lb ed="#L" n="9"/>contradictionem et excludit omnem possibilitatem, et ideo nullius potentiae
+<lb ed="#L" n="10"/>subesse potest. Sed non sic est de entibus permanentibus, ut dictum est.
+<lb ed="#L" n="11"/>Ideo et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

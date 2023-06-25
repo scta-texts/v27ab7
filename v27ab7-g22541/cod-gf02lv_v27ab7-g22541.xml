@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="264"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g22541"><!-- v27ab7-q7-q1 -->
+            <head xml:id="v27ab7-g22541-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-g22541-Hd1e101" type="question-title">
+      Utrum distinctio attributorum divinorum accipiatur per 
+      comparationem ad intrinseca vel respectu ad extrinseca sive ad ea
+      quae reperiuntur in creaturas
+    </head>
+            <p xml:id="v27ab7-g22541-d1e104">
+               <pb ed="#L" n="264"/>
+               <lb ed="#L" n="1"/>QUODLIBETUM SEPTIMUM
+<lb ed="#L" n="2"/>QUAESTIO I.
+<lb ed="#L" n="3"/>Utrum distinctio attributorum divinorum accipiatur per 
+compa<lb break="no" ed="#L" n="4"/>rationem ad intrinseca vel respectu ad extrinseca sive ad ea
+<lb ed="#L" n="5"/>quae reperiuntur in creaturas.
+</p>
+            <p xml:id="v27ab7-g22541-d1e120">
+               <lb ed="#L" n="6"/>Quaerebantur quaedam circa Deum, quaedam circa creaturas. Circa
+<lb ed="#L" n="7"/>Deum quaerebantur quaedam pertinentia ad unitatem essentiae, quaedam
+<lb ed="#L" n="8"/>pertinentia ! ad distinctionem personarum. Circa pertinentia ad unitatem
+<lb ed="#L" n="9"/>essentiae. quaerebatur unum, scilicet utrum distinctio attributorum 
+divi<lb break="no" ed="#L" n="10"/>norum accipiatur per comparationem vel respectum ad intrinseca sive ad
+<lb ed="#L" n="11"/>ea. quae conveniunt Deo in seipso, vel per comparationem sive respectum
+<lb ed="#L" n="12"/>ad extrinseca ? sive ad ea quae reperiuntur in creaturis. Et arguitur quod
+<lb ed="#L" n="13"/>per comparationem ad intrinseca ; quia ubi reperitur maior distinctio potest
+<lb ed="#L" n="14"/>reperiri minor; sed in Deo quantum ad ea quae conveniunt ei in se ipso
+<lb ed="#L" n="15"/>reperitur maior distinctio, videlicet personarum quae realiter et secundum
+<lb ed="#L" n="16"/>supposita distinguuntur, quam sit distinctio attributorum quae solum 
+dif<lb break="no" ed="#L" n="17"/>ferunt ratione. Ergo illa minor distinctio etiam sumi potest dicto modo.
+</p>
+            <p xml:id="v27ab7-g22541-d1e149">
+               <lb ed="#L" n="18"/>Contra, Quandocumque inveniuntur aliqua plura distincta secundum
+<lb ed="#L" n="19"/>rationem quibus respondent plura distincta secundum rem; distinctio talium
+<lb ed="#L" n="20"/>secundum rationem differentium sumitur ex comparatione ad illa quae
+<lb ed="#L" n="21"/>realiter distinguuntur. Sed attributa divina differunt solum secundum 
+ratio<lb break="no" ed="#L" n="22"/>nem et illis correspondent distincta secundum rem in creaturis et non alibi,
+<lb ed="#L" n="23"/>ut patet ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g22541-d1e166">
+               <lb ed="#L" n="24"/>Respondeo circa hanc quaestionem : primo, considerandum est quid
+<pb ed="#L" n="265"/>
+               <lb ed="#L" n="1"/>nomine attributi intelligatur ; deinde, quod plura talia in Deo reperiuntur ;
+<lb ed="#L" n="2"/>tertio, unde et quomodo talium plurium distinctio contingit.
+</p>
+            <p xml:id="v27ab7-g22541-d1e177">
+               <lb ed="#L" n="3"/>Circa primum intelligendum quod attributum in Deo potest intelligi
+<lb ed="#L" n="4"/>duobus modis : uno modo sic quod intelligatur aliqua divina perfectio
+<lb ed="#L" n="5"/>eminens, ex eo quod perfectionem simpliciter et absolute absque defectu
+<lb ed="#L" n="6"/>et limitatione importat in creatura, ipsi Deo in quo omnis perfectio 
+creatu<lb break="no" ed="#L" n="7"/>rarum eminentius invenitur ! tributa; alio modo sic quod attributum 
+gene<lb break="no" ed="#L" n="8"/>raliter dicatur in quacumque re aliquid quo res perficitur non in esse
+<lb ed="#L" n="9"/>simpliciter quod dicitur esse substantiale et primum, sed in bene esse quod
+<lb ed="#L" n="10"/>dicitur esse accidentale. Secundum talia enim quae dant rei? bene esse
+<lb ed="#L" n="11"/>intelliguntur esse quaedam attributa illis quae dant esse simpliciter et 
+abso<lb break="no" ed="#L" n="12"/>lute; et secundum hoc attributum in Deo dicitur id quod in ipso intelligitur
+<lb ed="#L" n="13"/>ut quaedam dispositio quae simpliciter et absolute absque aliqua limitatione
+<lb ed="#L" n="14"/>perfectionem nobilem importans ipsum quasi in esse secundo et in bene
+<lb ed="#L" n="15"/>esse perficit, et hoc modo in Deo dicuntur communiter esse attributa ; unde,
+<lb ed="#L" n="16"/>attributa divina significant quasi quasdam qualitates divinae substantiae
+<lb ed="#L" n="17"/>ipsam ? quasi accidentaliter et in bene esse perficientes, secundum quod
+<lb ed="#L" n="18"/>dicit Augustinus, libro decimo quinto, de Trinitate, capitulo sexto, ut  si
+<lb ed="#L" n="19"/>dominus aeternus, vivus, sapiens, potens, speciosus, iustus, spiritus, sic
+<lb ed="#L" n="20"/>horum omnium ? novissimum quod posui tantummodo videtur significare
+<lb ed="#L" n="21"/>substantiam, cetera vero huius substantiae qualitates. Patet igitur quid
+<lb ed="#L" n="22"/>nomine attributi intelligere debemus.
+</p>
+            <p xml:id="v27ab7-g22541-d1e223">
+               <lb ed="#L" n="23"/>Nunc igitur post hoc ostendendum est quod talia plura sunt in Deo.
+<lb ed="#L" n="24"/>Huiusmodi autem qualitates sive perfectiones sic Deum quasi accidentaliter
+<lb ed="#L" n="25"/>perficientes plures sunt ; nam, cum omnem  perfectionem creaturae sit in
+<lb ed="#L" n="26"/>Deo ponere, licet per alium modum eminentiorem, quaecumque ' in creaturis
+<lb ed="#L" n="27"/>absolute et simpliciter absque defectu et limitatione perfectionem important
+<lb ed="#L" n="28"/>in Deo eminentius inveniuntur et in eo rationem perfectionis quae 
+attri<lb break="no" ed="#L" n="29"/>butum dicitur habent. Talia autem sunt plura. Hoc autem contingit Deo
+<lb ed="#L" n="30"/>ratione suae perfectionis infinitae et illimitatae, scilicet quod omnium
+<lb ed="#L" n="31"/>entium perfectiones in se continet eminenti modo, prout dicit Dyonisius,
+<lb ed="#L" n="32"/>quinto capitulo, de Divinis Nominibus : Deus non quodaminodo est existens,
+<lb ed="#L" n="33"/>sed simpliciter et incircumscripte, totum? in se ipso esse coaccepit et
+<lb ed="#L" n="34"/>simpliciter quicquid  utique est in ante '? existente et est et intelligitur
+<lb ed="#L" n="35"/>et salvatur.
+</p>
+            <p xml:id="v27ab7-g22541-d1e254">
+               <lb ed="#L" n="36"/>His ergo visis, considerandum est unde sit huiusmodi pluralitas. Scien-
+<pb ed="#L" n="266"/>
+               <lb ed="#L" n="1"/>dum est igitur quod, cum Deus sit in essentia sua simplicissimus et maxime
+<lb ed="#L" n="2"/>unus, talia autem attributa ! dicunt? perfectiones absolutas quae non sunt
+<lb ed="#L" n="3"/>nisi ipsa essentia divina, constat quod in Deo secundum se non habent
+<lb ed="#L" n="4"/>aliquam distinctionem realem, sed omnino sunt quid unum et indistinctum.
+<lb ed="#L" n="5"/>Unde dicit Dyonisius, ubi supra, quod omnia in divino esse continentur
+<lb ed="#L" n="6"/>immensurate et convolute et unite. Etenim, in monade omnis numerus
+<lb ed="#L" n="7"/>uniformiter quidem ante subsistit et omnis numerus unite  quidem in
+<lb ed="#L" n="8"/>monade; et in tota omnium ' natura omnium  naturae secundum singulas
+<lb ed="#L" n="9"/>rationes convolutae sunt per unam et inconfusam unitatem. Nec est in
+<lb ed="#L" n="10"/>Deo aliqua pluralitas vel distinctio realis secundum essentiam et essentialia,
+<lb ed="#L" n="11"/>sed solum secundum personas vel supposita et personales proprietates.
+<lb ed="#L" n="12"/>Oportet ergo quod distinctio et pluralitas huiusmodi ? attributorum, quae
+<lb ed="#L" n="13"/>non potest esse secundum realem differentiam quam habeant ex re ipsa
+<lb ed="#L" n="14"/>secundum se, sit distinctio et pluralitas solum secundum rationem, 
+con<lb break="no" ed="#L" n="15"/>tingens ex opere rationis vel intellectus apprehendentis divinam essentiam
+<lb ed="#L" n="16"/>unam et simplicem secundum rem et multas perfectiones quasi in potentia
+<lb ed="#L" n="17"/>quantum ad actualitatem distinctionis continentem sub diversis rationibus
+<lb ed="#L" n="18"/>actualiter et formaliter distinguentis, puta sub ratione sapientiae, bonitatis
+<lb ed="#L" n="19"/>et cetera, ut sic opere intellectus quasi reducatur in actu sive ad actualem
+<lb ed="#L" n="20"/>distinctionem et multitudinem illa quasi potentialis multitudo.
+</p>
+            <p xml:id="v27ab7-g22541-d1e304">
+               <lb ed="#L" n="21"/>Sed circa talem distinctionem et diversitatem attributorum contingentem
+<lb ed="#L" n="22"/>operatione  intellectus Deum apprehendentis, quaeri potest an contingat ex
+<lb ed="#L" n="23"/>apprehensione qua apprehenditur Deus secundum se et absolute, scilicet
+<lb ed="#L" n="24"/>absque aliqua comparatione vel respectu ad extra sive ad creaturas, aut non,
+<lb ed="#L" n="25"/>nisi ex aliqua comparatione et respectu ad ipsas perfectiones creaturarum.
+<lb ed="#L" n="26"/>Et est respondendum : secundum quod aliquid dicitur attributum primo
+<lb ed="#L" n="27"/>modo, sic non contingit huiusmodi distinctio et multitudo nisi ex operatione
+<lb ed="#L" n="28"/>intellectus, praecipue creati, apprehendentis Deum ex his quae in creaturis
+<lb ed="#L" n="29"/>reperiuntur. Talis enim intellectus non potens apprebendere essentiam
+<lb ed="#L" n="30"/>divinam in se ipsa ut unite omnem perfectionem continentem, sed ex 
+per<lb break="no" ed="#L" n="31"/>fectionibus creaturarum devenit in cognitionem perfectionis divinae ut ex
+<lb ed="#L" n="32"/>effectibus habentibus similitudinem aliquam suae causae et qui in sua
+<lb ed="#L" n="33"/>causa virtualiter continentur ita quod ex diversis perfectionibus, quae 
+sim<lb break="no" ed="#L" n="34"/>pliciter et absolute absque defectu et limitatione perfectionem important,
+<lb ed="#L" n="35"/>in creaturis repertis, quae realiter differunt et de quibus format intellectus
+<lb ed="#L" n="36"/>diversos conceptus, devenit in cognitionem perfectionis divinae quam, quia
+<pb ed="#L" n="267"/>
+               <lb ed="#L" n="1"/>apprehendit ex sic diversis, licet secundum se sit una et simplex et 
+secun<lb break="no" ed="#L" n="2"/>dum unam rem simplicem omnes huiusmodi perfectiones contineat, tamen
+<lb ed="#L" n="3"/>illam sub aliqua una ratione apprehendit in quantum continet unam talem
+<lb ed="#L" n="4"/>perfectionem et sub alia ut comprehendit aliam. Hoc modo autem doctores
+<lb ed="#L" n="5"/>videntur loqui communiter de distinctione attributorum, modicam aut 
+nul<lb break="no" ed="#L" n="6"/>lam mentionem ! faciendo de distinctione attributorum secundum quod
+<lb ed="#L" n="7"/>Deus ab intellectu suo apprehenditur ut habet esse in se ipso.
+</p>
+            <p xml:id="v27ab7-g22541-d1e359">
+               <lb ed="#L" n="8"/>Sed cum intellectus divinus possit uno simplici intellectu vel conceptu
+<lb ed="#L" n="9"/>apprehendere actualiter et distincte quaecumque intellectus creatus non
+<lb ed="#L" n="10"/>beatus potest apprehendere de eodem, non videtur rationabile quin etiam,
+<lb ed="#L" n="11"/>circumscripto intellectu creato et omni diversitate creaturarum quoad
+<lb ed="#L" n="12"/>existentiam actualem, intellectus divinus circa simplicitatem divinae 
+essen<lb break="no" ed="#L" n="13"/>tiae distinctionem et plura litatem huiusmodi perfectionum apprehendat,
+<lb ed="#L" n="14"/>non quidem sic quod propter diversitatem realem creaturarum quasi prius
+<lb ed="#L" n="15"/>apprehensam hanc diversitatem rationum in se apprehendat et  suo 
+intel<lb break="no" ed="#L" n="16"/>lectu efficiat, sed sic quod perfectionem suae essentiae apprehendendo sic
+<lb ed="#L" n="17"/>ipsam apprehendit quod intelligit eam sub perfectionibus ratione 
+differen<lb break="no" ed="#L" n="18"/>tibus; quae perfectiones etiam secundum quamdam similitudinem, realiter
+<lb ed="#L" n="19"/>tamen differentes, natae sunt esse in creaturis. Et secundum hunc modum
+<lb ed="#L" n="20"/>aliquibus  videtur quod, in quantum attributum dicitur aliquid secundo
+<lb ed="#L" n="21"/>modo supradicto et in quantum Deus apprehenditur perfecta cognitione
+<lb ed="#L" n="22"/>secundum quod est in se ipso, pluralitas habet esse ? et distinctio 
+attribu<lb break="no" ed="#L" n="23"/>torum operatione intellectus comparantis  ea quae de Deo in se ipso 
+appre<lb break="no" ed="#L" n="24"/>hendere potest inter se, absque comparatione ? vel respectu ad creaturas ;
+<lb ed="#L" n="25"/>nam, cum essentia divina non comparetur ad creaturas nisi secundum
+<lb ed="#L" n="26"/>rationem causalitatis alicuius, tunc Deus non diceretur bonus vel sapiens
+<lb ed="#L" n="27"/>nisi quia causat bonitatem vel sapientiam in creaturis; sed secundum hoc
+<lb ed="#L" n="28"/>posset dici lapis quia causat lapidem, quod tamen est negandum.
+</p>
+            <p xml:id="v27ab7-g22541-d1e408">
+               <lb ed="#L" n="29"/>Item, distinctio et pluralitas personarum in Deo non est ex eo quod
+<lb ed="#L" n="30"/>per intellectum ad creaturas natura divina comparetur, sed distinctio et
+<lb ed="#L" n="31"/>pluralitas secundum rationem attributorum videtur esse fundamentum 
+plu<lb break="no" ed="#L" n="32"/>ralitatis et distinctionis personarum secundum rem sive emanationis 
+perso<lb break="no" ed="#L" n="33"/>narum ^. Filius enim non procederet naturaliter nascendo tanquam verbum
+<lb ed="#L" n="34"/>conceptum modo operationis intellectualis et Spiritus Sanctus liberaliter
+<pb ed="#L" n="268"/>
+               <lb ed="#L" n="1"/>spirando tanquam amor productus modo voluntariae operationis nisi esset
+<lb ed="#L" n="2"/>aliqua pluralitas et distinctio intellectus et eius operationis a voluntate et
+<lb ed="#L" n="3"/>eius operatione, quae pertinent  communiter ad divina attributa et ad quae
+<lb ed="#L" n="4"/>omnia attributa videntur reducenda, ut veritas, sapientia, bonitas, iustitia
+<lb ed="#L" n="5"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g22541-d1e437">
+               <lb ed="#L" n="6"/>Item, illud quod prius et principalius est in Deo quam in creatura
+<lb ed="#L" n="7"/>non videtur esse in Deo ex aliquo respectu ad aliquid extra sive ad 
+crea<lb break="no" ed="#L" n="8"/>turam; sed ea quae per attributa ? intelliguntur prius et principalius 
+<lb ed="#L" n="9"/>conveniunt Deo, scilicet bonitas, sapientia et cetera, quia sunt in Deo per
+<lb ed="#L" n="10"/>essentiam, in creatura autem per quamdam imperfectam participationem ;
+<lb ed="#L" n="11"/>quare et cetera.
+</p>
+            <p xml:id="v27ab7-g22541-d1e453">
+               <lb ed="#L" n="12"/>Item, sicut ratione differunt in Deo sapientia, bonitas, ita essentia
+<lb ed="#L" n="13"/>sive divinitas et sapientia in Deo differunt ratione, licet sint idem re. Sed
+<lb ed="#L" n="14"/>inconveniens est dicere quod essentia et sapientia quae differunt ratione
+<lb ed="#L" n="15"/>non habent esse in Deo nisi ex comparatione ad essentiam et sapientiam
+<lb ed="#L" n="16"/>creaturae quae differunt realiter, et quod deitas non dicatur essentia et
+<lb ed="#L" n="17"/>sapientia nisi ex comparatione ad correspondentia  in creaturis ; nam, si
+<lb ed="#L" n="18"/>deitas non diceretur sapientia nisi in comparatione ad sapientiam creatam ,
+<lb ed="#L" n="19"/>ita etiam deitas non diceretur essentia  nisi in comparatione ad essentiam
+<lb ed="#L" n="20"/>creatam ", quod apparet esse inconveniens.
+</p>
+            <p xml:id="v27ab7-g22541-d1e475">
+               <lb ed="#L" n="21"/>Item, cum distinctio idearum in Deo sumatur ex comparatione 
+intel<lb break="no" ed="#L" n="22"/>lectus apprehendentis divinam essentiam in comparatione ad essentias
+<lb ed="#L" n="23"/>creaturarum, sl etiam sic sumeretur distinctio attributorum non viderentur
+<lb ed="#L" n="24"/>perfectiones attributales differre a perfectionibus idealibus, quod est 
+incon<lb break="no" ed="#L" n="25"/>veniens.
+</p>
+            <p xml:id="v27ab7-g22541-d1e488">
+               <lb ed="#L" n="26"/>Item, constat quod, circumscripta comparatione ad exteriora, Deus
+<lb ed="#L" n="27"/>intelligit se, diligit se; et intelligit se non sub ratione boni, sed veri, et
+<lb ed="#L" n="28"/>amat se non sub ratione veri, sed boni ; haec autem important diversitatem
+<lb ed="#L" n="29"/>et distinctionem secundum rationem quae ad distinctionem attributorum
+<lb ed="#L" n="30"/>pertinet; ergo et cetera. -
+</p>
+            <p xml:id="v27ab7-g22541-d1e501">
+               <lb ed="#L" n="31"/>Videtur ergo secundum ista dicendum quod, in quantum Deus per
+<lb ed="#L" n="32"/>suum intellectum quasi negotiando circa essentiam suam conceptam, eam
+<lb ed="#L" n="33"/>comparat ad suum intellectum sive ad se ipsam ut est intellectus quidam
+<lb ed="#L" n="34"/>ut obiectum sui intellectus et concipit suam essentiam ut est intelligens
+<lb ed="#L" n="35"/>et intellecta; et quod intellectus divinus, ratio intelligendi et etiam ipse
+<lb ed="#L" n="36"/>actus intelligendi-sunt aliquo modo plura et differentia et hoc absque com-
+<pb ed="#L" n="269"/>
+               <lb ed="#L" n="1"/>paratione ad aliquid extra; et consimiliter accidit de his quae respiciunt
+<lb ed="#L" n="2"/>voluntatem, ut sic dicatur etiam quod in Deo est accipere distinctionem
+<lb ed="#L" n="3"/>plurium sola ratione differentium spectantium ad attributa respicientia tam
+<lb ed="#L" n="4"/>intellectum quam volunta tem, in quantum intellectus divinus concipiens
+<lb ed="#L" n="5"/>divinam essentiam concipit se ipsam et omnia concipienda circa eam ut
+<lb ed="#L" n="6"/>mutuo se respicientia in perficiendo divinas operationes secundum 
+intel<lb break="no" ed="#L" n="7"/>lectum et voluntatem ; et quod hoc fieri possibile est eo quod in ipsa divina
+<lb ed="#L" n="8"/>essentia, quae est obiectum intellectus divini, secundum se continentur in
+<lb ed="#L" n="9"/>virtute et quasi in potentia omnes perfectiones attributales per ipsum actum
+<lb ed="#L" n="10"/>intellectus quasi actualiter distinguibiles et quasi de potentia in ! actum
+<lb ed="#L" n="11"/>reducibiles et etiam distinctionem ipsius naturae vel essentiae divinae ab
+<lb ed="#L" n="12"/>ipsis attributis, ut ipsa natura divina in se et secundum se considerata
+<lb ed="#L" n="13"/>dicatur essentia vel natura, ut vero est motiva intellectus ad actum 
+intel<lb break="no" ed="#L" n="14"/>ligendi dicatur veritas et ut est motiva voluntatis ad actum amandi dicatur
+<lb ed="#L" n="15"/>bonitas; et sic de aliis.
+</p>
+            <p xml:id="v27ab7-g22541-d1e552">
+               <lb ed="#L" n="16"/>Sic autem dicendo responderi potest ad argumentum in oppositum.
+<lb ed="#L" n="17"/>Cum dicitur quod plura secundum rationem et cetera non sunt plura
+<lb ed="#L" n="18"/>et distincta nisi ex comparatione ad plura secundum rem, fallit. Quia in
+<lb ed="#L" n="19"/>creatura differt verum et bonum ex comparatione ad unum solum secundum
+<lb ed="#L" n="20"/>diversas rationes in ipso, quae sunt bonitas in voluntate divina et sapientia
+<lb ed="#L" n="21"/>in eius intelligentia quae, unum  dicunt in re, sed diversa in ratione. Recto
+<lb ed="#L" n="22"/>enim ordine rationis a reali simplicitate divinae essentiae secundum rationem
+<lb ed="#L" n="23"/>intelligendi ipsius intellectus divinam essentiam secundum se 
+apprehen<lb break="no" ed="#L" n="24"/>dentis primo concipiuntur diversae et distinctae rationes attributorum ; et
+<lb ed="#L" n="25"/>ex eadem secundum diversas rationes attributorum procedunt diversae et
+<lb ed="#L" n="26"/>realiter distinctae emanationes personarum et, mediantibus diversis 
+perso<lb break="no" ed="#L" n="27"/>narum emanationibus, procedit a divina essentia universitas creaturarum.
+<lb ed="#L" n="28"/>Falsum ergo supponitur quod diversitas attributorum sumitur ex distinctione
+<lb ed="#L" n="29"/>rerum, cum sit e converso. Sciendum est ergo quod, quamvis diversitas
+<lb ed="#L" n="30"/>rationum in creatura non habeat esse nisi per comparationem ad rem extra,
+<lb ed="#L" n="31"/>non tamen ad diversas res correspondentes illis diversis rationibus, sed
+<lb ed="#L" n="32"/>solum ad eandem secundum diversas rationes in ipsa; et accipitur 
+huius<lb break="no" ed="#L" n="33"/>modi diversitas secundum rationem circa rem quae de se est in potentia ad
+<lb ed="#L" n="34"/>talem diversitatem, partim ab extrinseco, partim ab operatione intellectus.
+</p>
+            <p xml:id="v27ab7-g22541-d1e596">
+               <lb ed="#L" n="35"/>Sed est alia diversitas secundum rationem circa rem ex mera operatione
+<lb ed="#L" n="36"/>intellectus ; et tunc non requiritur respectus ad aliquid extra, sed accipitur
+<lb ed="#L" n="37"/>ab intra secundum quod unam et eandem rem in se ipsa, ut scilicet habet
+<pb ed="#L" n="270"/>
+               <lb ed="#L" n="1"/>esse in suo conceptu, considerat vel sub ratione diffinitionis explicantis
+<lb ed="#L" n="2"/>partes rei vel sub ratione diffiniti coadunantis ! eas; et sic accipitur 
+diffe<lb break="no" ed="#L" n="3"/>rentia rationum attributorum absque omni respectu ad aliud .
+</p>
+            <p xml:id="v27ab7-g22541-d1e614">
+               <lb ed="#L" n="4"/>Posset etiam dici quod diversitas huiusmodi rationum reducitur ad
+<lb ed="#L" n="5"/>aliquam diversitatem realem intra ipsam divinam essentiam quae est 
+diver<lb break="no" ed="#L" n="6"/>sitas personarum et personalium emanationem. Cum enim omnia attributa
+<lb ed="#L" n="7"/>divina pertinent ad intellectum vel ad voluntatem, Filius autem procedit per
+<lb ed="#L" n="8"/>modum naturae et intellectus, Spiritus Sanctus  per modum libertatis et
+<lb ed="#L" n="9"/>voluntatis, quaecumque in attributis pertinent ad intellectum reducuntur
+<lb ed="#L" n="10"/>et habent respectum ad emanationem Verbi et cetera, ut sic ab intellectu
+<lb ed="#L" n="11"/>divinam essentiam in se ipsa apprehendente non concipiantur diversae
+<lb ed="#L" n="12"/>rationes sapientiae et intellectus, amoris et bonitatis nisi ex respectu ad
+<lb ed="#L" n="13"/>emanationem personarum. Sed quia, ut communiter supponitur , talis
+<lb ed="#L" n="14"/>distinctio secundum rationem plurium circa unam rem non coniingit ex
+<lb ed="#L" n="15"/>ipsa re secundum se, nec ex ea ut cadit sub simplici apprehensione 
+intel<lb break="no" ed="#L" n="16"/>lectus, sed in quantum cadit sub apprehensione intellectus aliqua plura
+<lb ed="#L" n="17"/>ad invicem conferentis vel comparantis, videtur quod in essentia divina non
+<lb ed="#L" n="18"/>potest esse distinctio sapientiae et bonitatis nisi in quantum essentia divina
+<lb ed="#L" n="19"/>apprehenditur ab intellectu comparante ipsam ad aliqua plura vel nisi aliqua
+<lb ed="#L" n="20"/>plura comparentur ad ipsam, quod non potest esse nisi comparetur ad extra.
+</p>
+            <p xml:id="v27ab7-g22541-d1e653">
+               <lb ed="#L" n="21"/>Unde, non obstantibus rationibus iam positis, videtur esse tenendum
+<lb ed="#L" n="22"/>contrarium eius quod concludunt. Quod enim in uno omnino simplici et
+<lb ed="#L" n="23"/>indistincto secundum rem ponantur aliqua plura et distincta pure secundum
+<lb ed="#L" n="24"/>rationem absque comparatione ad aliqua, quae aliquo modo differunt ab eo
+<lb ed="#L" n="25"/>in quo huiusmodi distincta sola ratione ponuntur, est impossibile, alioquin
+<lb ed="#L" n="26"/>ab uno eodem modo se habente secundum rem et secundum conceptionem
+<lb ed="#L" n="27"/>sumeretur unitas et pluralitas. Cum igitur essentia divina ut secundum se
+<lb ed="#L" n="28"/>consideratur non sit nisi quid indistinctum omnino simplex re et ratione,
+<lb ed="#L" n="29"/>non potest dici quod absque comparatione eius ad aliquid in quo invenitur
+<lb ed="#L" n="30"/>diversitas rei vel rationis talis distinctio possit esse, quia, cum 
+apprehen<lb break="no" ed="#L" n="31"/>ditur id quod omnino unitum et simplex est sub ratione quae sibi competit
+<lb ed="#L" n="32"/>secundum se et absque habitudine ad aliquid in quo sit aliqua distinctio,
+<lb ed="#L" n="33"/>sicut apprehensum non est nisi unum secundum rem, ita nec potest 
+appre<lb break="no" ed="#L" n="34"/>hendi nisi secundum unam et simplicem rationem ; et sic in essentia divina,
+<lb ed="#L" n="35"/>cum apprehenditur secundum se, non apprehenditur nisi una res 
+simpli<lb break="no" ed="#L" n="36"/>cissima et sub una et simplicissima ratione; et sic non potest accipi ibi
+<lb ed="#L" n="37"/>movens et motum sive ratio moventis et moti et intelligentis  et intellecti
+<pb ed="#L" n="271"/>
+               <lb ed="#L" n="1"/>et cetera, ut aliquo modo differentia. Non enim potest intellectus divinus
+<lb ed="#L" n="2"/>se ipsum apprehendere sub alia ratione sapientem et bonum vel 
+intelli<lb break="no" ed="#L" n="3"/>gentem et intellectum ex comparatione suae essentiae ad id quod dicitur
+<lb ed="#L" n="4"/>intelligens et intelligibile vel huiusmodi ut ad differentia quaedam 
+secun<lb break="no" ed="#L" n="5"/>dum se ; nec illa etiam, scilicet intelligibile et intelligens, potest circa suam
+<lb ed="#L" n="6"/>essentiam apprehendere ut differentia quaedam ex comparatione eorum
+<lb ed="#L" n="7"/>ad invicem vel ut mutuo se respicientia nisi lam in sua differentia existere
+<lb ed="#L" n="8"/>supponantur sive quamdam differentiam importantia. Quae enim 
+appre<lb break="no" ed="#L" n="9"/>henduntur ut quaedam differentia mutuo se respicientia et quae etiam
+<lb ed="#L" n="10"/>operatione intellectus ut differentia ad invicem comparantur, iam in sua
+<lb ed="#L" n="11"/>differentia existere supponuntur. Quae autem operatione rationis vel 
+intel<lb break="no" ed="#L" n="12"/>lectus ! habent quod sunt quaedam entia secundum rationem et ad invicem
+<lb ed="#L" n="13"/>ratione differentia, non possunt dici constitui in tali suo esse et habere
+<lb ed="#L" n="14"/>differentiam hanc secundum rationem ? ex comparatione eorum inter se
+<lb ed="#L" n="15"/>per operationem rationis vel intellectus; immo ista secunda operatio ?
+<lb ed="#L" n="16"/>primam necessario supponit, ita quod primo per operationem unam rationis
+<lb ed="#L" n="17"/>in esse distincto tali constituuntur et secundo per aliam operationem 
+intel<lb break="no" ed="#L" n="18"/>lectus sic distincta ad invicem comparantur. Sicut enim cum res naturae
+<lb ed="#L" n="19"/>absolute ad invicem comparantur supponuntur habere esse distinctum
+<lb ed="#L" n="20"/>secundum rem, sic etiam cum res rationis ad invicem comparantur 
+suppo<lb break="no" ed="#L" n="21"/>nuntur habere distinctum esse secundum rationem.
+</p>
+            <p xml:id="v27ab7-g22541-d1e740">
+               <lb ed="#L" n="22"/>Ergo si intellectus divinus apprehendit suam essentiam ut differentem
+<lb ed="#L" n="23"/>secundum rationem ab attributis et etiam ipsa attributa ut differentia ratione
+<lb ed="#L" n="24"/>et sub hac differentia ista ad invicem comparat, in ipsa secundum se 
+actua<lb break="no" ed="#L" n="25"/>liter sunt ista ut sic differentia, et sub sua actuali distinctione quam sic
+<lb ed="#L" n="26"/>habent secundum se movent intellectum divinum ut illa sic distincta 
+con<lb break="no" ed="#L" n="27"/>cipiat et ad invicem comparet, hoc autem non videtur conveniens. Ergo
+<lb ed="#L" n="28"/>videtur quod ista pluralitas et distinctio accipiatur ex comparatione divinae
+<lb ed="#L" n="29"/>essentiae simplicis secundum rem et rationem, ut secundum se consideratur,
+<lb ed="#L" n="30"/>ad aliqua quae secundum se diversitatem et distinctionem important. 
+Quae<lb break="no" ed="#L" n="31"/>cumque enim differunt aut habent differentiam secundum se sive ex se ipsis
+<lb ed="#L" n="32"/>formaliter per illud  quod sunt secundum se ipsa absque comparatione  ad
+<lb ed="#L" n="33"/>alia  differentia, talia differunt secundum rem ; alia autem sunt quae habent
+<lb ed="#L" n="34"/>pluralitatem sive differentiam ex comparatione ad aliqua realiter differentia
+<lb ed="#L" n="35"/>et ista differunt ratione. Et hoc patet in creaturis. Nam, supposita unitate
+<lb ed="#L" n="36"/>formae speciei secundum rem, in illa distinguit intellectus rationem generis,
+<pb ed="#L" n="272"/>
+               <lb ed="#L" n="1"/>et differentiae quae dicuntur non diversae res, sed diversae rationes. Sed
+<lb ed="#L" n="2"/>haec diversitas non posset accipi in illa re una et simplici nisi per 
+intel<lb break="no" ed="#L" n="3"/>lectum compararetur ad aliqua realiter differentia et! secundum quendam
+<lb ed="#L" n="4"/>ordinem illi unicae  rei? convenientia. Unum et idem etiam non haberet
+<lb ed="#L" n="5"/>diversas rationes veri et boni, nisi intelligere et velle illud unum et idem
+<lb ed="#L" n="6"/>subiecto essent alicubi actus realiter diversi et ad invicem ordinati. Hoc
+<lb ed="#L" n="7"/>etiam patet in Deo, quia, circumscripta comparatione omnimoda ad diversas
+<lb ed="#L" n="8"/>essentias creaturarum realem diversitatem importantium, essentia divina non
+<lb ed="#L" n="9"/>apprehenderetur ab intellectu divino sub ratione diversarum idearum vel
+<lb ed="#L" n="10"/>formarum sola ratione differentium, sed sub una simpli ci ratione omnino
+<lb ed="#L" n="11"/>indistincta.
+</p>
+            <p xml:id="v27ab7-g22541-d1e801">
+               <lb ed="#L" n="12"/>Videtur ergo dicendum quod, sicut divinus intellectus apprehendens
+<lb ed="#L" n="13"/>suam essentiam secundum rem unam et simplicem, virtute tamen omnium
+<lb ed="#L" n="14"/>perfectiones quantumcumque limitatas et determinatas continentem propter
+<lb ed="#L" n="15"/>quod est imitabilis a quibuscumque rebus quascumque perfectiones 
+deter<lb break="no" ed="#L" n="16"/>minatas importantibus, intelligendo illam essentiam ut unam secundum rem
+<lb ed="#L" n="17"/>intelligit tamen illam ut aliquo modo multiplicem secundum rationem, sive
+<lb ed="#L" n="18"/>intelligit in illa una re multa secundum rationem, in quantum apprehendit
+<lb ed="#L" n="19"/>eam sub alia ratione imitabilem a leone et sub alia ab asino, et hoc in
+<lb ed="#L" n="20"/>quantum asinus et leo secundum diversas perfectiones diversorum graduum
+<lb ed="#L" n="21"/>ipsam perfectionem divinam sunt participabiles et imitabiles — istae autem
+<lb ed="#L" n="22"/>distinctae imitabilitates quae in Deo apprehenduntur ab eius intellectu ex
+<lb ed="#L" n="23"/>tali comparatione et habitudine ad diversitatem realem creaturarum dicuntur
+<lb ed="#L" n="24"/>ideae sive formae exemplares quae sunt et ratio cognoscendi diversas res et
+<lb ed="#L" n="25"/>ratio producendi easdem ; — ita intellectus divinus suam essentiam secundum
+<lb ed="#L" n="26"/>rem simplicem, virtute tamen omnium entium perfectiones simplices et 
+abso<lb break="no" ed="#L" n="27"/>lutas absque limitatione et defectu continentem apprehendens ut propter
+<lb ed="#L" n="28"/>eminentiam suae perfectionis eisdem perfectionibus eminentius est 
+per<lb break="no" ed="#L" n="29"/>fectus, intelligit illam essentiam ut unam secundum rem, multiplici 
+perfec<lb break="no" ed="#L" n="30"/>tione secundum rationem differentem perfectam. Et si non apprehenderet
+<lb ed="#L" n="31"/>quod creatura diversis perfectionibus realiter differentibus perficeretur in
+<lb ed="#L" n="32"/>quantum est bona et sapiens sive quod ista diversas perfectiones important
+<lb ed="#L" n="33"/>in creatura, non apprehenderet etiam se sub alia ratione perfectum sapientia
+<lb ed="#L" n="34"/>et sub alia perfectum bonitate; nec apprehenderet differentiam secundum
+<lb ed="#L" n="35"/>rationem inter suam sapientiam et suam bonitatem nisi coapprehenderet ?
+<lb ed="#L" n="36"/>differentiam secundum ? rem sapientiae et bonitatis creaturae. Non videtur
+<pb ed="#L" n="273"/>
+               <lb ed="#L" n="1"/>ergo bene dictum quod potest esse aliqua diversitas secundum rationem
+<lb ed="#L" n="2"/>circa rem aliquam simplicem, omnino facta circa eam sola et mera 
+ope<lb break="no" ed="#L" n="3"/>ratione intellectus absque habitudine et comparatione aliqua ad aliquam
+<lb ed="#L" n="4"/>diversitatem realem. Immo ad omnem diversitatem secundum rationem
+<lb ed="#L" n="5"/>tria requiruntur, scilicet ipsa res secundum rem circa quam accipitur talis
+<lb ed="#L" n="6"/>differentia rationis ut fundamentum talis diversitatis, ne sit intellectus
+<lb ed="#L" n="7"/>vanus illam rem apprehendens, quia talis diversitas non habet esse in ipsa
+<lb ed="#L" n="8"/>re secundum se, sed secundum quod sub apprehensione cadit intellectus ;
+<lb ed="#L" n="9"/>et aliqua realis diversitas ad quam illud unum per intellectum comparetur,
+<lb ed="#L" n="10"/>quia intellectus illud quod est unum et simplex in se apprehendens 
+secun<lb break="no" ed="#L" n="11"/>dum se, non secundum habitudinem ad aliqua diversa, non potest 
+appre<lb break="no" ed="#L" n="12"/>hendere nisi sub una simplici ratione. Unde, quamvis possit dici quod
+<lb ed="#L" n="13"/>huiusmodi multitudo perfectionum attributalium in ipsa essentia divina,
+<lb ed="#L" n="14"/>quae secundum se est obiectum intellectus, continetur in virtute et quasi
+<lb ed="#L" n="15"/>in potentia in essentia, ita quod per actum intellectus ipsius sint reducibiles
+<lb ed="#L" n="16"/>quasi de potentia ad actum et distinguibiles secundum actum, non tamen
+<lb ed="#L" n="17"/>debet dici quod huiusmodi quasi potentia possit reduci ad actum et quod
+<lb ed="#L" n="18"/>possit fieri quasi talis distinctio actualis operatione intellectus ipsam divinam
+<lb ed="#L" n="19"/>essentiam in se ipsam secundum se ipsam absque omni habitudine ad
+<lb ed="#L" n="20"/>diversa considerantis.
+</p>
+            <p xml:id="v27ab7-g22541-d1e904">
+               <lb ed="#L" n="21"/>Respondendum est ergo ad argumenta contra hanc positionem in
+<lb ed="#L" n="22"/>corpore solutionis inducta. Et est dicendum ad primum quod Deus 
+com<lb break="no" ed="#L" n="23"/>paratur ad creaturam non solum sub ratione causalitatis, in quantum scilicet
+<lb ed="#L" n="24"/>in se praehabens omnes perfectiones rerum secundum quas est imitabilis
+<lb ed="#L" n="25"/>a creaturis secundum diversas perfectiones creaturarum illas et cognoscit
+<lb ed="#L" n="26"/>et efficere potest, — nec hoc modo accipitur ratio distinctionis attributorum
+<lb ed="#L" n="27"/>in Deo, sed magis ratio distinctionis idearum, — sed secundum rationem
+<lb ed="#L" n="28"/>eminentiae, in quantum scilicet omnibus perfectionibus, quae scilicet sunt
+<lb ed="#L" n="29"/>perfectiones simpliciter et absolute quibus perficitur creatura in seipsa, est
+<lb ed="#L" n="30"/>eminentissime perfectus; et hoc modo accipitur ratio distinctionis 
+attributo<lb break="no" ed="#L" n="31"/>rum. Unde Deus non dicitur sapiens solum secundum hoc quod sapientiam
+<lb ed="#L" n="32"/>efficit, sed quia perfectione secundum quam sapientes sumus et secundum
+<lb ed="#L" n="33"/>virtutem qua sapientes nos facit ipsum aliquatenus imitamur, et  ipse 
+emi<lb break="no" ed="#L" n="34"/>nentius perficitur eo quod per sapientiam significatur quam creatura. Sed
+<lb ed="#L" n="35"/>omnes istae perfectiones consideratae ut in Deo sunt simpliciter et absolute
+<lb ed="#L" n="36"/>non sunt nisi quid unum simplex omnimode indistinctum re et ratione, sed
+<pb ed="#L" n="274"/>
+               <lb ed="#L" n="1"/>sub rationibus distinctis haec apprehen duntur ab intellectu dicto modo
+<lb ed="#L" n="2"/>naturam divinam in comparatione ad realiter differentia conferente.
+</p>
+            <p xml:id="v27ab7-g22541-d1e948">
+               <lb ed="#L" n="3"/>Ad secundum est dicendum quod, circumscripta omni habitudine et
+<lb ed="#L" n="4"/>comparatione ad res extra, id quod in divinis habet rationem principiandi
+<lb ed="#L" n="5"/>emanationes personales, quod est id quod nomine intellectus et voluntatis
+<lb ed="#L" n="6"/>significamus, vere est et vere principiat huiusmodi emanationes ; sed non
+<lb ed="#L" n="7"/>apprehenditur sub istis diversis rationibus, sed solum sub ratione essentiae
+<lb ed="#L" n="8"/>divinae ut ei coniungitur respectus realis; et sic verum est quod, 
+circum<lb break="no" ed="#L" n="9"/>scripta comparatione ad creaturas, ea quae sunt principia emanationum
+<lb ed="#L" n="10"/>personalium in Deo habent esse et intelligi sub rationibus distinctis. Sed
+<lb ed="#L" n="11"/>talia non sunt quae ! per distinctas rationes attributorum ut sic intelliguntur;
+<lb ed="#L" n="12"/>nec ratio et voluntas, ut sub istis rationibus distinctis intelliguntur , sunt
+<lb ed="#L" n="13"/>principia emanationum personalium, sicut nec ipsa essentia secundum se.
+<lb ed="#L" n="14"/>Sed, quia huiusmodi principiis emanationum et etiam ipsis emanationibus
+<lb ed="#L" n="15"/>quaedam secundum quamdam proportionalitatem tam in principiis quam in
+<lb ed="#L" n="16"/>emanationibus in creaturis respondent, ut natura vel intellectus et voluntas,
+<lb ed="#L" n="17"/>quae respondent ? principiis, et actus quo producitur verbum in intellectu
+<lb ed="#L" n="18"/>et quo producitur amor in voluntate, ideo etiam Deus suo intellectu 
+appre<lb break="no" ed="#L" n="19"/>hendens suam essentiam ut est ratio principiandi dictas emanationes in
+<lb ed="#L" n="20"/>habitudine ad diversa principia et diversas emanationes in creatura 
+intel<lb break="no" ed="#L" n="21"/>lectuali secundum intellectum et voluntatem, accipit etiam illa principia in
+<lb ed="#L" n="22"/>se sub ratione principiandi per modum intellectus et voluntatis.
+</p>
+            <p xml:id="v27ab7-g22541-d1e994">
+               <lb ed="#L" n="23"/>Item, hoc patet ex hoc quod talis distinctio secundum rationes proprias
+<lb ed="#L" n="24"/>attributorum secundum rationem intelligendi non videtur praesupponi 
+ema<lb break="no" ed="#L" n="25"/>nationi personarum, sed quod distinctio principiorum istarum emanationum
+<lb ed="#L" n="26"/>distinctarum secundum rationem intelligendi praesupponatur in quantum
+<lb ed="#L" n="27"/>sunt principia naturae divinae secundum se et naturaliter, non operatione
+<lb ed="#L" n="28"/>intellectus convenientia; nam, cum Verbum productum intelligatur quasi
+<lb ed="#L" n="29"/>terminus intellectualis operationis in quo omnino perficitur et quasi 
+com<lb break="no" ed="#L" n="30"/>pletur intellectualis operatio in quantum ipsum est expressivum et 
+deter<lb break="no" ed="#L" n="31"/>minativum omnium quae in ipsa essentia secundum se quasi in volute
+<lb ed="#L" n="32"/>continentur, prout aliqui loquuntur de Verbo, videtur quod non possit
+<lb ed="#L" n="33"/>intelligi aliqua actualis et completa distinctio aliquorum attributorum 
+intel<lb break="no" ed="#L" n="34"/>lectorum nisi Verbo iam producto et in ipso Verbo, sicut patet de ideis
+<lb ed="#L" n="35"/>quae, etsi sint in divina essentia, non tamen sunt in ea nisi ut cadit sub
+<lb ed="#L" n="36"/>intellectu perfecto et quasi completo per Verbi productionem ; unde per
+<lb ed="#L" n="37"/>appropriationem in Verbo esse dicuntur, prout dicit Augustinus, sexto
+<pb ed="#L" n="275"/>
+               <lb ed="#L" n="1"/>de Trinitate, quod Verbum est ars Patris plena omnium rationum viventium ;
+<lb ed="#L" n="2"/>unde universaliter quaecumque Deus perfecto et distincto intellectu 
+intel<lb break="no" ed="#L" n="3"/>ligit, in Verbo iam producto intelligit. Ex quo patet quod nulla actualis
+<lb ed="#L" n="4"/>distinctio aliquorum ratione differentium potest accipi in Deo et ab intellectu
+<lb ed="#L" n="5"/>divino ut praecedens aliquo modo productionem personarum, nec 
+intelli<lb break="no" ed="#L" n="6"/>gendo ipsam essentiam secundum se, nec etiam per comparationem ad
+<lb ed="#L" n="7"/>diversitatem realem personarum et emanationum personalium, quia talis
+<lb ed="#L" n="8"/>distinctio videtur sequi distinctionem personarum et personalium 
+emana<lb break="no" ed="#L" n="9"/>tionum. Si! enim talis distinctio sic differentium secundum rationem non
+<lb ed="#L" n="10"/>potest esse nisi operatione intellectus sic unam rem apprehendentis, ante
+<lb ed="#L" n="11"/>operationem vero intellectus divini qua producitur Verbum non est alia
+<lb ed="#L" n="12"/>operatio prior etiam secundum rationem intelligendi qua constituatur aliqua
+<lb ed="#L" n="13"/>distinctio secundum rationem circa ea quae ad ipsum Deum pertinent, quia
+<lb ed="#L" n="14"/>primus actus intelligendi in Deo est principium emanationis Verbi. 
+Sup<lb break="no" ed="#L" n="15"/>posita proprietate relativa, cum producatur Verbum naturaliter actu 
+natu<lb break="no" ed="#L" n="16"/>rali ipsius intellectus, nec etiam illa emanatione supposita, potest intelligi
+<lb ed="#L" n="17"/>distinctio secundum rationem attributorum quae important perfectiones
+<lb ed="#L" n="18"/>absolutas absque comparatione ad extra; nam, cum Deus intelligit se ut
+<lb ed="#L" n="19"/>producentem Verbum et Spiritum Sanctum tali et tali productione, ex hoc
+<lb ed="#L" n="20"/>non acci pit distinctionem vel aliqua distincta nisi secundum respectus
+<lb ed="#L" n="21"/>reales. Nec aliquam distinctionem secundum absolutas perfectiones ex hoc
+<lb ed="#L" n="22"/>accipere potest, sed omnimodam unitatem et indistinctionem, quia illae
+<lb ed="#L" n="23"/>processiones nullam causant distinctionem in essentia et in essentialibus.
+<lb ed="#L" n="24"/>Sed ex hoc quod supponitur emanatio personarum potest accipere 
+distinc<lb break="no" ed="#L" n="25"/>tionem secundum rationem essentiae divinae  ad suas proprietates, in
+<lb ed="#L" n="26"/>quantum ex diversitate proprietatum in una essentia fundatarum potest
+<lb ed="#L" n="27"/>accipi aliqua distinctio secundum rationem in essentia prout ad diversa
+<lb ed="#L" n="28"/>realiter comparatur, non tamen ita quod distinctio haec quae est secundum
+<lb ed="#L" n="29"/>rationem ? intelligendi praecedat emanationem personarum, sed ipsa 
+ema<lb break="no" ed="#L" n="30"/>natione quae est id quod primum est in divinis supposita sit talis distinctio.
+</p>
+            <p xml:id="v27ab7-g22541-d1e1096">
+               <lb ed="#L" n="31"/>Ad tertium dicendum quod considerando id rei et perfectionis 
+sim<lb break="no" ed="#L" n="32"/>pliciter quod significatur per nomina attributorum et id quod eis quasi
+<lb ed="#L" n="33"/>materialiter et fundamentaliter substat in Deo, non est ponendum quin
+<lb ed="#L" n="34"/>ista conveniant Deo secundum se sine comparatione ad creaturas; quia
+<lb ed="#L" n="35"/>quicquid perfectionis est in creaturis per participationem contingit eis ex
+<lb ed="#L" n="36"/>habitudine ad id quod est virtute omnis perfectio essentialiter quod est
+<lb ed="#L" n="37"/>ipsum esse divinum infinitum, non autem e converso. Et dicendum secundum
+<pb ed="#L" n="276"/>
+               <lb ed="#L" n="1"/>haec quod id quod nomine sapientiae vel bonitatis vel alicuius alterius 
+attri<lb break="no" ed="#L" n="2"/>buti intelligitur perfectissime esse habet in Deo ; et est Deus vere sapiens,
+<lb ed="#L" n="3"/>bonus et cetera, sive id quod per ipsas perfectiones importatur, etiam
+<lb ed="#L" n="4"/>circumscripta omni operatione intellectus ipsum ad perfectiones 
+creatura<lb break="no" ed="#L" n="5"/>rum comparantis. Sed, quia considerando sic divinam essentiam secundum
+<lb ed="#L" n="6"/>se absque omni habitudine ad extra non potest apprehendi sub diversis
+<lb ed="#L" n="7"/>rationibus, ut dictum est, ideo omnes huiusmodi perfectiones attributales
+<lb ed="#L" n="8"/>quibus sic Deus in se est perfectus apprehenderentur ' unite et indistincte
+<lb ed="#L" n="9"/>et sub una simplici ratione infinitatis divinae essentiae ; unde, considerando
+<lb ed="#L" n="10"/>id formalis rationis sive id secundum quod formaliter et actualiter 
+distin<lb break="no" ed="#L" n="11"/>guuntur huiusmodi rationes attributales, sic non conveniunt haec Deo sub
+<lb ed="#L" n="12"/>huiusmodi, scilicet rationibus formaliter et actualiter distinctis, circumscripta
+<lb ed="#L" n="13"/>comparatione vel habitudine essentiae divinae ad diversas perfectiones
+<lb ed="#L" n="14"/>creaturae et operatione intellectus ; et sic non diceretur Deus sapiens
+<lb ed="#L" n="15"/>distincta et propria ratione et bonus alia ratione etiam  propria et dis- 
+<lb ed="#L" n="16"/>tincta; nec sapientia et bonitas possent importare distinctas rationes circa
+<lb ed="#L" n="17"/>Deum. Et haec est intentio Commentatoris, duodecimo Metaphysicae, ubi
+<lb ed="#L" n="18"/>loquens de hac materia dicit quod vita, sapientia et cetera dicuntur proprie
+<lb ed="#L" n="19"/>de Deo, et dicitur vere et proprie Deus vivens et sapiens et cetera. Talia
+<lb ed="#L" n="20"/>autem et consimilia quae significantur per modum dispositionis et dispositi
+<lb ed="#L" n="21"/>in rebus immaterialibus reducuntur ad unum in esse et ad duo ! in 
+conside<lb break="no" ed="#L" n="22"/>ratione; intellectus enim innatus est dividere adunata in esse; sed in rebus
+<lb ed="#L" n="23"/>compositis, cum disponit compositum vel habentem formam, per formam
+<lb ed="#L" n="24"/>intelligit utraque adunata aliquo modo et differentia alio modo. Quando
+<lb ed="#L" n="25"/>autem fuerint considerata dispositum et dispositio in immaterialibus tunc
+<lb ed="#L" n="26"/>reducuntur ad unam intentionem omnino et nullus modus erit quo 
+prae<lb break="no" ed="#L" n="27"/>dicatum distinguetur a subiecto et disposito extra intellectum, scilicet in
+<lb ed="#L" n="28"/>essentia rei. Sed nullam differentiam intellectus intelligit inter ea in essendo
+<lb ed="#L" n="29"/>nisi secundum acceptionem, scilicet quia idem recipit dispositum et 
+dispo<lb break="no" ed="#L" n="30"/>sitionem ut duo quorum proportio est ad invicem sicut proportio praedicati
+<lb ed="#L" n="31"/>ad subiectum. Intellectus enim intelligere potest idem his duobus modis
+<lb ed="#L" n="32"/>secundum similitudinem ad propositionem categoricam in rebus compositis
+<lb ed="#L" n="33"/>sicut intelligit multa secundum similitudinem. Secundum hanc igitur 
+inten<lb break="no" ed="#L" n="34"/>tionem Commentatoris, attributa omnia significant unam rem omnino 
+indis<lb break="no" ed="#L" n="35"/>tinctam extra intellectum, sed distinctam secundum respectus vel rationes
+<lb ed="#L" n="36"/>diversas in intellectu per operationem intellectus modo supradicto.
+</p>
+            <p xml:id="v27ab7-g22541-d1e1194">
+               <lb ed="#L" n="37"/>Ad quartum dicendum quod, circumscripta dicta habitudine, divinitas
+<pb ed="#L" n="277"/>
+               <lb ed="#L" n="1"/>non posset concipi sub ratione sapientiae et bonitatis, ut sub rationibus
+<lb ed="#L" n="2"/>formaliter distinctis. Posset tamen apprehendi divinitas sub ratione essentiae
+<lb ed="#L" n="3"/>sive entitatis suae; nam haec est prima ratio sub qua potest aliquid esse
+<lb ed="#L" n="4"/>obiectum intellectus. Unde non potest Deus se intelligere nisi sub ratione
+<lb ed="#L" n="5"/>suae entitatis vel essentiae, quae est formalis ratio qua se ipsum intelligit.
+<lb ed="#L" n="6"/>Bonitas autem, sapientia et cetera important distinctas perfectiones, quae 
+<lb ed="#L" n="7"/>sub illa prima ratione essentiae divinae sub qua Deus se intelligit, implicite
+<lb ed="#L" n="8"/>et unite continentur ; et ideo, ad hoc quod sub actuali et formali distinctione
+<lb ed="#L" n="9"/>et ab ipsa essentia et inter se apprehendantur, oportet quod Deus sub
+<lb ed="#L" n="10"/>dicta habitudine apprehendatur. Ex quo patet quod, etiamsi Deus posset
+<lb ed="#L" n="11"/>rationem suae essentiae apprehendere secundum se absque dicta 
+habi<lb break="no" ed="#L" n="12"/>tudine, non tamen posset eam apprehendere ut distinctam secundum
+<lb ed="#L" n="13"/>rationem a ratione sapientiae et aliorum attributorum ; sed oportet quod
+<lb ed="#L" n="14"/>apprehen datur sub habitudine ad creaturas ubi realiter differunt essentia
+<lb ed="#L" n="15"/>et sapientia et cetera. Potest tamen apprehendi essentia divina ut distincta
+<lb ed="#L" n="16"/>ratione  a proprietate relativa? personarum absque habitudine ad creaturas,
+<lb ed="#L" n="17"/>non tamen absque habitudine ad differentia realiter re relativa. Quia enim
+<lb ed="#L" n="18"/>proprietates  relativae  realiter distinguuntur ab invicem et proprietas quae
+<lb ed="#L" n="19"/>est in una persona non est in alia, essentia autem non distinguitur, sed id
+<lb ed="#L" n="20"/>essentiae quod est in una persona est etiam in alia, ideo potest apprehendi
+<lb ed="#L" n="21"/>etiam ipsa essentia ut differens ratione a qualibet proprietate.
+</p>
+            <p xml:id="v27ab7-g22541-d1e1246">
+               <lb ed="#L" n="22"/>Ad quintum patet solutio ex his quae dicta sunt ad primum ; nam
+<lb ed="#L" n="23"/>rationes ideales dicuntur ipsa essentia divina ut sub diversis et 
+quodam<lb break="no" ed="#L" n="24"/>modo limitatis rationibus apprehenditur imitabilis a perfectionibus 
+creatu<lb break="no" ed="#L" n="25"/>rarum realiter limitatis ; unde rationes ideales non important perfectionem
+<lb ed="#L" n="26"/>divinam sub ratione absoluta vel ut perfectionem simpliciter et absolute,
+<lb ed="#L" n="27"/>sed sub quadam quasi contractione et limitatione. Accipiuntur etiam ex
+<lb ed="#L" n="28"/>habitudine ad creaturam secundum rationem causae, scilicet ut sunt rationes
+<lb ed="#L" n="29"/>non solum cognoscendi, sed etiam efficiendi in producendo ipsas creaturas
+<lb ed="#L" n="30"/>in existentia. Perfectiones autem attributales dicuntur ipsa essentia divina
+<lb ed="#L" n="31"/>ut sub perfectionibus diversis limitationem et contractionem non 
+impor<lb break="no" ed="#L" n="32"/>tantibus ipsam essentiam in se ipsa perficientibus apprehenditur. Unde
+<lb ed="#L" n="33"/>important perfectionem divinam sub ratione absoluta vel, ut dicunt, 
+per<lb break="no" ed="#L" n="34"/>fectionem simpliciter et absolute et absque contractione vel limitatione.
+<lb ed="#L" n="35"/>Accipiuntur etiam in comparatione ad perfectiones creaturarum non 
+secun<lb break="no" ed="#L" n="36"/>dum rationem causae, sed secundum rationem eminentiae, prout dictum est.
+</p>
+            <p xml:id="v27ab7-g22541-d1e1282">
+               <lb ed="#L" n="37"/>Per iam dicta ad tertiam rationem patet solutio ad illud quod ultimo
+<pb ed="#L" n="278"/>
+               <lb ed="#L" n="1"/>et sexto arguebatur ; quia, circumscripta huiusmodi comparatione vel 
+habi<lb break="no" ed="#L" n="2"/>tudine, Deus bene intelligeret se esse bonum et sapientem et cetera quantum
+<lb ed="#L" n="3"/>ad id perfectionis realis quod importatur per hoc et in eo esset realiter id
+<lb ed="#L" n="4"/>quod per intelügere et velle vel amare importatur et esset in eo id quod
+<lb ed="#L" n="5"/>per bonum et verum quae sunt obiecta voluntatis et intellectus importatur.
+<lb ed="#L" n="6"/>Sed omnia haec essent in eo unite. Et etiam sub una ratione intelligeret
+<lb ed="#L" n="7"/>Deus essentiam suam quantum ad omnia ista, nec intelligeret se sub alia
+<lb ed="#L" n="8"/>ratione ! ut? bonum et sub alia ut verum et sub alia ut intelligentem et sub
+<lb ed="#L" n="9"/>alia ut volentem ; nec apprehenderentur ista ut differentia ratione ; immo
+<lb ed="#L" n="10"/>in eo essent idem re et ratione verum et bonum, intellectus et voluntas,
+<lb ed="#L" n="11"/>intelligere et amare et cetera.
+</p>
+            <p xml:id="v27ab7-g22541-d1e1313">
+               <lb ed="#L" n="12"/>Ad argumentum vero quod ad quaestionem principaliter inducebatur
+<lb ed="#L" n="13"/>est dicendum quod verum est ubi est invenire maiorem distinctionem potest
+<lb ed="#L" n="14"/>minor inveniri, sed non oportet quod eodem modo in natura. Ergo, Zn divina
+<lb ed="#L" n="15"/>invenitur maior distinctio secundum quod ipsa essentia divina indistincta
+<lb ed="#L" n="16"/>in se tribus personis realiter distinctis indivisa communicatur ; et ideo etiam
+<lb ed="#L" n="17"/>in ea bene est minor distinctio, scilicet secundum rationem distinctorum
+<lb ed="#L" n="18"/>ut idearum et attributorum. Sed, quia prima distinctio habet esse ex natura
+<lb ed="#L" n="19"/>divina secundum se absque aliqua comparatione ad aliud, ideo per 
+opera<lb break="no" ed="#L" n="20"/>tionem intellectus ad esse talis distinctionis non requiritur quod ad aliud
+<lb ed="#L" n="21"/>comparetur. Sed, quia alia distinctio non habet esse nisi per operationem
+<lb ed="#L" n="22"/>intellectus considerantis naturam divinam non secundum se et absolute,
+<lb ed="#L" n="23"/>sed in habitudine ad diversa secundum rem, ideo hoc non potest esse nisi
+<lb ed="#L" n="24"/>ex comparatione divinae essentiae ad aliquid extra ipsam, ad hoc etiam est
+<lb ed="#L" n="25"/>dicendum quod, supposita tali distinctione reali intrinseca quae maior est,
+<lb ed="#L" n="26"/>potest etiam ibi esse alia distinctio secundum rationem quae minor est,
+<lb ed="#L" n="27"/>etiam absque comparatione ad extra; sed illa non est attributorum propter
+<lb ed="#L" n="28"/>causas praedictas, sed ipsius essentiae divinae ad ipsas proprietates et ad
+<lb ed="#L" n="29"/>emanationes et secundum quaedam alia talia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

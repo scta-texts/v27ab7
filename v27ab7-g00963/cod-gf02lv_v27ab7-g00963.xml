@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="12"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g00963"><!-- v27ab7-q5-q3 -->
+            <head xml:id="v27ab7-g00963-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-g00963-Hd1e101" type="question-title">
+      Quid est illud positivum quod est substractum negationi quae importatur
+      in hoc nomine innascibilitas quae est notio Patris
+    </head>
+            <p xml:id="v27ab7-g00963-d1e104">
+               <lb ed="#L" n="26"/>OUAESTIO III.
+<lb ed="#L" n="27"/>Quid est illud positivum quod est substractum negationi quae importatur
+<lb ed="#L" n="28"/>in hoc nomine innascibilitas quae est notio Patris.
+</p>
+            <p xml:id="v27ab7-g00963-d1e113">
+               <lb ed="#L" n="29"/>Deinde circa personalia quaerebantur quaedam pertinentia ad personam Patris,
+<lb ed="#L" n="30"/>quaedam pertinentia ad personam Filii Circa Patrem quaerebatur unum, scilicet quid
+<lb ed="#L" n="31"/>est illud positivum quod est substractum negationi quae importatur in hoc nomine
+<lb ed="#L" n="32"/>innascibilitas, quae est notio Patris. Et arguebatur quod illud positivum quod est sub-
+<pb ed="#L" n="13"/>
+               <lb ed="#L" n="1"/>stractum negationi importatae nomine innascibilitas, non sit essentia !, quia cum 
+innasci<lb break="no" ed="#L" n="2"/>bilitas sit notio propria Patris, et personam Patris notificans, illud quod illi negationi
+<lb ed="#L" n="3"/>substernitur non potest esse id quod commune est tribus personis; hoc est essentia 7.
+<lb ed="#L" n="4"/>Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g00963-d1e135">
+               <lb ed="#L" n="5"/>Item nec ipsa persona Patris. Quia cum notio dicatur quia notificat personam, sive
+<lb ed="#L" n="6"/>notionem facit de persona ?, illud quod substernitur huic  negationi debet esse aliquid
+<lb ed="#L" n="7"/>notificans ipsam personam Patris. Ergo nec  potest esse ipsa  persona Patris, alioquin
+<lb ed="#L" n="8"/>idem secundum idem notificaret seipsum.
+</p>
+            <p xml:id="v27ab7-g00963-d1e147">
+               <lb ed="#L" n="9"/>Item nec proprietas Patris, sive personae Patris constitutiva, quia cum illa sit etiam
+<lb ed="#L" n="10"/>quaedam notio Patris, iam in Patre non essent duae notiones propriae Patri sed una
+<lb ed="#L" n="11"/>tantum.
+</p>
+            <p xml:id="v27ab7-g00963-d1e156">
+               <lb ed="#L" n="12"/>Contra. In persona Patris non sunt nisi praedicta positiva, ergo in altero illorum
+<lb ed="#L" n="13"/>oportet huiusmodi negationem fundari.
+</p>
+            <p xml:id="v27ab7-g00963-d1e163">
+               <lb ed="#L" n="14"/>Respondeo dicendum quod circa istam  quaestionem ? tria sunt declaranda. Primo
+<lb ed="#L" n="15"/>quomodo, quia notio aliquid dignitatis importat, oportet quod ingenitum fundetur 
+<lb ed="#L" n="16"/>super aliquo positivo. Secundo quomodo fundatur super positivo quod est ipsa essentia
+<lb ed="#L" n="17"/>communis et tamen est proprium Patris. Tertio quomodo fundatur in ipsa essentia 
+prae<lb break="no" ed="#L" n="18"/>cise ut est Patris vel in Patre, et ideo etiam aliquo modo ei substernitur proprietas Patris
+<lb ed="#L" n="19"/>alia existens a proprietate innascibilitatis.
+</p>
+            <p xml:id="v27ab7-g00963-d1e179">
+               <lb ed="#L" n="20"/>Quantum !? ad primum, ergo sciendum quod notio in divinis dicitur id quod est propria
+<lb ed="#L" n="21"/>ratio cognoscendi aliquam personam. Cum ergo secundum originem !! et emanationem
+<lb ed="#L" n="22"/>personae divinae multiplicentur et distinguantur, per ea quae ad huiusmodi originem
+<lb ed="#L" n="23"/>pertinent notificantur; et quia ad huiusmodi originem pertinet quod una persona sic se
+<lb ed="#L" n="24"/>habeat quod non sit ab alia, sed aliae ab ipsa, et sic habet rationem primi principii, duo
+<lb ed="#L" n="25"/>ad eius dignitatem pertinent per quae potest ipsa notificari. Nam in quantum habet
+<lb ed="#L" n="26"/>rationem primi et sic non entis ab alio, notificatur ' per aliquid quod negationem im- 
+<lb ed="#L" n="27"/>portat, scilicet per innascibilitatem, vel per ingenitum. In quantum autem habet rationem
+<lb ed="#L" n="28"/>principii et ut ab ea alius, notificatur per aliquid positivum, scilicet per Paternitatem.
+<lb ed="#L" n="29"/>Et sic personae Patris conveniunt duae notiones propriae, quarum unam oportet 
+impor<lb break="no" ed="#L" n="30"/>tare negationem.
+</p>
+            <p xml:id="v27ab7-g00963-d1e205">
+               <lb ed="#L" n="31"/>Sed quia notio debet importare aliquid ad dignitatem pertinens, negatio autem et
+<lb ed="#L" n="32"/>non ens non videtur aliquam dignitatem importare — nam negatio simpliciter quae
+<lb ed="#L" n="33"/>dicitur negatio extra genus ita dicitur de non ente sicut de ente quia non homo dicitur
+<lb ed="#L" n="34"/>leo et chimaera, — ideo oportet quod negatio notionem importans fundetur in aliquo
+<lb ed="#L" n="35"/>positivo, et sic sit negatio in genere importans aliquid quod est secundum aliquem
+<lb ed="#L" n="36"/>modum essendi. Patet igitur primum.
+</p>
+            <p xml:id="v27ab7-g00963-d1e221">
+               <lb ed="#L" n="37"/>Sequitur de secundo quomodo haec notio fundatur in essentia communi et tamen
+<lb ed="#L" n="38"/>est propria Patri. Propter quod sciendum quod ? quia illud quod substractum ' est
+<lb ed="#L" n="39"/>notionibus et relationibus in personis divinis est ipsa essentia, ideo videtur dicendum
+<lb ed="#L" n="40"/>quod substractum huic negationi est divina essentia, ut sit sensus. Pater est ingenitus,
+<lb ed="#L" n="41"/>id est est habens in se divinam essentiam non ab alio, hoc enim scilicet habere divinam
+<pb ed="#L" n="14"/>
+               <lb ed="#L" n="1"/>essentiam in se non ab alio ! est proprium personae Patris, et hoc modo etiam  ingenitum
+<lb ed="#L" n="2"/>est ? proprium illi. Nam ingenitum, prout per ipsum importatur negatio in genere in
+<lb ed="#L" n="3"/>divinis, dicit uno modo id quod non est terminus productionis alicuius determinatae
+<lb ed="#L" n="4"/>scilicet generationis per se, est tamen communicatum vel habitum in aliquo per 
+genera<lb break="no" ed="#L" n="5"/>tionem et sic divina essentia dicitur in se esse ingenita; alio modo id quod nec est
+<lb ed="#L" n="6"/>terminus per se generationis nec habitum vel communicatum per generationem, est
+<lb ed="#L" n="7"/>tamen terminus productionis alterius sive habens esse per aliam productionem quae
+<lb ed="#L" n="8"/>tamen non est sine generatione, et hoc modo Spiritus Sanctus secundum Iohannem
+<lb ed="#L" n="9"/>ingenitus dicitur.
+</p>
+            <p xml:id="v27ab7-g00963-d1e257">
+               <lb ed="#L" n="10"/>Tertio modo id quod nullius productionis est terminus, immo nec est terminus 
+genera<lb break="no" ed="#L" n="11"/>tionis nec in alio habet esse per generationem nec habet esse modo essendi qui supponat
+<lb ed="#L" n="12"/>generationem, et hoc modo Pater dicitur ingenitus. Sed quia generatio divina est prima
+<lb ed="#L" n="13"/>omnium productionum, dicere in divinis sic esse aliquid ingenitum idem est cum eo quod
+<lb ed="#L" n="14"/>est nullo modo esse ab alio; et ideo, ut dicit <name xml:id="v27ab7-g00963-Nd1e270">Ricardus</name> sexto de Trinitate : quia solus
+<lb ed="#L" n="15"/>Pater a nullo est, idcirco nulla ratione genitus dici potest, propter quod nomen ingeniti
+<lb ed="#L" n="16"/>accepit. Ex quo patet quod per illud ingenitum includitur inspiratum, quia ablata
+<lb ed="#L" n="17"/>prima processione aufertur secunda, et sic hoc modo dicitur solus Pater ingenitus. Unde
+<lb ed="#L" n="18"/>dicit Hilarius, tertio de Trinitate, de Patre: ipse est plenus, perfectus, aeternus, non
+<lb ed="#L" n="19"/>aliunde quid sumens, sed ad id quod ita manet sibi ipse sufficiens, hoc ergo  ingenitus.
+<lb ed="#L" n="20"/>Ex quo patet quod ingenitum positive dicit plenitudinem et sufficientiam in Patre, ex se
+<lb ed="#L" n="21"/>negative autem dicit nihil habere ab alio; ut secundum hoc ingenitum sit notio ratione
+<lb ed="#L" n="22"/>negationis quam importat, aliquid tamen dignitatis importans ex hoc quod supra talem
+<lb ed="#L" n="23"/>affirmationem fundatur. Habere enim omnia quae divinitatis sunt essentialia ex se 
+forma<lb break="no" ed="#L" n="24"/>liter toti Trinitati convenit. Sed ea sic  habere ex se formaliter quod cum hoc a nullo
+<lb ed="#L" n="25"/>principiative, hoc magnae dignitatis est, et soli Patri convenit. Patet ergo quod licet
+<lb ed="#L" n="26"/>ingenitum habeat fundamentum positivum quod est essentia communis, tamen est 
+pro<lb break="no" ed="#L" n="27"/>prium Patri esse ingenitum et sic patet secundum.
+</p>
+            <p xml:id="v27ab7-g00963-d1e301">
+               <lb ed="#L" n="28"/>Sequitur de tertio, scilicet quomodo fundatur in essentia praecise ut est Patris, et
+<lb ed="#L" n="29"/>ideo etiam aliquo modo ei substernitur proprietas Patris, ita tamen quod ipsa essentia
+<lb ed="#L" n="30"/>sit formalis ratio innascibilitatis, et non paternitatis, propter quod oportet aliam esse
+<lb ed="#L" n="31"/>proprietatem innascibilitatis  a proprietate Paternitatis. Ad cuius evidentiam est ulterius
+<lb ed="#L" n="32"/>intelligendum quod ei quod est ingenitum in divinis non substernitur sola divina essentia,
+<lb ed="#L" n="33"/>nec etiam quodcumque suppositum simpliciter et absolute, sed suppositum determinatum
+<lb ed="#L" n="34"/>cum determinata  proprietate. Nam hoc quod dico ingenitum potest considerari 
+dupli<lb break="no" ed="#L" n="35"/>citer. Uno modo secundum se et ratione formae, et sic ei non est substractum nisi
+<lb ed="#L" n="36"/>essentia, absque aliqua proprietate relativa : ingenitum enim simpliciter dicitur 
+suppo<lb break="no" ed="#L" n="37"/>situm quodcumque, sive absolutum, sive respectivum, habens essentiam aliquam ex se
+<lb ed="#L" n="38"/>formaliter, ita quod a nullo principative . Secundum hoc, si persona Patris esset
+<lb ed="#L" n="39"/>hypostasis absque proprietate paternitatis quae essentiam divinitatis haberet non ab
+<lb ed="#L" n="40"/>alio, esset ingenita, absque eo quod huiusmodi relatio vel notio haberet aliquod ?? 
+rela<lb break="no" ed="#L" n="41"/>tivum substractum. Alio modo consideratur ratione materiae, scilicet ut circa divinam
+<lb ed="#L" n="42"/>naturam, et sic substractum est illi negationi, uno modo aliquid quasi dispositive et
+<pb ed="#L" n="15"/>
+               <lb ed="#L" n="1"/>determinative ut in quo habet fundari et hoc non est nisi divina essentia, — alio modo
+<lb ed="#L" n="2"/>ut quo habet fundari in illo, et haec est ipsa proprietas Paterna sive generare — eo
+<lb ed="#L" n="3"/>enim quod generare in divinis est prima productio necessarium est quod generans
+<lb ed="#L" n="4"/>non ab alio princi pative  habeat divinam naturam, — tertio modo ut cuius est et hoc
+<lb ed="#L" n="5"/>est ipsum suppositum cum proprietate Paternitatis.
+</p>
+            <p xml:id="v27ab7-g00963-d1e349">
+               <lb ed="#L" n="6"/>Per praedicta potest responderi ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

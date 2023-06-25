@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="238"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g20331"><!-- v27ab7-q6-q13 -->
+            <head xml:id="v27ab7-g20331-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-g20331-Hd1e101" type="question-title">
+      Utrum pluribus instantibus mensurantibus plura mutata esse
+      in motu angeli successivo respondeat unum instans 
+      temporis nostri
+    </head>
+            <p xml:id="v27ab7-g20331-d1e104">
+               <pb ed="#L" n="238"/>
+               <lb ed="#L" n="1"/>QUAESTIO XIII.
+<lb ed="#L" n="2"/>Utrum pluribus instantibus mensurantibus plura mutata esse
+<lb ed="#L" n="3"/>in motu angeli successivo respondeat unum instans 
+tem<lb break="no" ed="#L" n="4"/>poris nostri.
+</p>
+            <p xml:id="v27ab7-g20331-d1e117">
+               <lb ed="#L" n="5"/>Deinde circa pertinentia ad naturam angelicam specialiter quaerebatur
+<lb ed="#L" n="6"/>unum pertinens ad mensuram suae operationis, scilicet utrum pluribus
+<lb ed="#L" n="7"/>instantibus mensurantibus plura mutata esse in motu ' angeli successivo
+<lb ed="#L" n="8"/>respondeat unum instans temporis nostri. Et arguebatur quod sic, quia
+<lb ed="#L" n="9"/>indivisibile additum indivisibili non facit maius, sed omnia instantia in
+<lb ed="#L" n="10"/>quibus movetur angelus sive quae mensurant sua mutata esse sunt 
+indivi<lb break="no" ed="#L" n="11"/>sibilia; ergo simul sumpta non faciunt maius quam quodlibet illorum; ergo
+<lb ed="#L" n="12"/>possunt esse in uno indivisibili  alio, in quo scilicet quodlibet eorum potest
+<lb ed="#L" n="13"/>esse scilicet in instanti temporis nostri ; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g20331-d1e139">
+               <lb ed="#L" n="14"/>Contra. Si hoc esset, sequeretur quod in eodem instanti temporis nostri
+<lb ed="#L" n="15"/>quod est indivisibile esset angelus in duobus locis, quia in duobus 
+instan<lb break="no" ed="#L" n="16"/>tibus temporis mensurantis motum angeli esset in diversis locis et illis
+<lb ed="#L" n="17"/>instantibus responderet ? unum instans temporis nostri ; hoc autem non
+<lb ed="#L" n="18"/>est possibile fieri; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g20331-d1e153">
+               <lb ed="#L" n="19"/>Respondeo dicendum quod de motu angelorum in loco et de mensura
+<lb ed="#L" n="20"/>huius motus est loquendum secundum modum quo angeli habent esse
+<lb ed="#L" n="21"/>in loco. Unde si non ponerentur angeli esse in loco nisi per operationem
+<lb ed="#L" n="22"/>exteriorem, corporalia scilicet movendo vel transmutando, facilius esset
+<lb ed="#L" n="23"/>videre quomodo  moverentur secundum locum et quomodo talis motus
+<lb ed="#L" n="24"/>eorum mensuraretur vel non mensuraretur tempore. Sed quia ponuntur
+<lb ed="#L" n="25"/>diffinitive esse in loco et circumscripta huiusmodi operatione exteriori,
+<lb ed="#L" n="26"/>ponitur a quibusdam  modus quo habent moveri secundum locum per
+<lb ed="#L" n="27"/>operationem interiorem, prout scilicet suis actibus intelligendi et volendi
+<lb ed="#L" n="28"/>applicant  se loco. Et secundum quod successive sic se applicat  diversis
+<lb ed="#L" n="29"/>partibus loci. angelus dicitur movere se successive secundum locum, et tunc 
+<pb ed="#L" n="239"/>
+               <lb ed="#L" n="1"/>dicitur quod ', cum applicatio sua ad singulas partes loci sit in instanti
+<lb ed="#L" n="2"/>indivisibili licet sit successio in tali motu propter ordinem et successionem
+<lb ed="#L" n="3"/>talium applicationum, est tamen sine mora, quia non est in aliquo signo in
+<lb ed="#L" n="4"/>actu et ut quiescens, sed solum in potentia et transiens, et ideo est motus
+<lb ed="#L" n="5"/>talis angeli in suo tempore successionem habente et composito ex 
+instan<lb break="no" ed="#L" n="6"/>tibus indivisibilibus quibus omnibus respondet unum instans in tempore
+<lb ed="#L" n="7"/>nostro. Sicut etiam  si, prout dicit Philosophus et Commentator, corpus 
+ali<lb break="no" ed="#L" n="8"/>quod grave moveretur in vacuo, motus esset in  instanti et sic esset successio
+<lb ed="#L" n="9"/>et ordo secundum quod prius esset corpus tale in una parte spatii quam in
+<lb ed="#L" n="10"/>alia, esset tamen sine mora et ideo  in instanti. Et dicitur quod non est
+<lb ed="#L" n="11"/>inconveniens quod talia plura instantia sic successionem habentia habeant
+<lb ed="#L" n="12"/>unum instans in tempore nostro correspondens non obstante successione
+<lb ed="#L" n="13"/>et multitudine horum instantium et simplicitate et indivisibilitate instantis
+<lb ed="#L" n="14"/>temporis nostri, quia instans aeternitatis est simplicius, cui tamen coexistit
+<lb ed="#L" n="15"/>totum tempus quantumcumque sit in suis partibus successivum. Quod autem
+<lb ed="#L" n="16"/>possit esse successio sine mora declarant per hoc quod non plus est de
+<lb ed="#L" n="17"/>mora in tempore et in instanti simul quod succedit tempori quam in 
+tem<lb break="no" ed="#L" n="18"/>pore solum. Et ex istis sic arguitur: angelus existens in una parte spatii
+<lb ed="#L" n="19"/>applicat se ad aliam partem, aut ergo hoc facit in eodem instanti temporis
+<lb ed="#L" n="20"/>nostri aut in alio ; si in eodem habetur propositum ; si in alio et alio, cum
+<lb ed="#L" n="21"/>inter duo instantia temporis nostri cadat tempus medium, ergo in illo
+<lb ed="#L" n="22"/>tempore medio nusquam erit angelus, quod est inconveniens. Quia ergo
+<lb ed="#L" n="23"/>quaestio procedit ex suppositione huiusmodi qua sic ponitur angelus
+<lb ed="#L" n="24"/>moveri secundum locum,si talis motus non sit possibilis nec per consequens
+<lb ed="#L" n="25"/>tali motui respondet aliquid in tempore nostro, sed quia etiam supposito
+<lb ed="#L" n="26"/>aliquo falso potest esse dubium de his quae " illud possent vel non possent
+<lb ed="#L" n="27"/>concomitari ', ideo adhuc forte supposito quod talis sit modus licet non
+<lb ed="#L" n="28"/>sit talis in rei veritate, potest esse dubium quod quaeritur.
+</p>
+            <p xml:id="v27ab7-g20331-d1e242">
+               <lb ed="#L" n="29"/>Et ideo circa hoc intelligendum primo quod talis modus ponendi
+<lb ed="#L" n="30"/>angelum in loco et moveri de loco ad locum conveniens non videtur; nam si
+<lb ed="#L" n="31"/>praeter hoc quod angelus est in loco per operationem exteriorem oportet
+<lb ed="#L" n="32"/>eum sive substantiam eius esse in loco diffinitive, etiamsi in ipso nihil
+<lb ed="#L" n="33"/>operetur per quamdam applicationem suae virtutis ad locum, cum 
+circum<lb break="no" ed="#L" n="34"/>scripta dicta operatione exteriori quam forte angelus natus est facere per
+<lb ed="#L" n="35"/>intellectum suum et voluntatem sive per quamcumque potentiam vel 
+virtu<lb break="no" ed="#L" n="36"/>tem et per talem applicationem ad locum sive per actum intelligendi et
+<pb ed="#L" n="240"/>
+               <lb ed="#L" n="1"/>volendi sive per quamcumque aliam virtutem et actum applicatum ad locum
+<lb ed="#L" n="2"/>vel ad illud quod est in loco, nihil efficiat in loco ipso vel in eo quod est in
+<lb ed="#L" n="3"/>loco !, ex huiusmodi applicatione virtutis, id est operationis intellectus
+<lb ed="#L" n="4"/>et voluntatis, nullo modo dicetur angelus esse in loco, sed potius locus
+<lb ed="#L" n="5"/>in ipso secundum quod intellectum est in intelligente per actum intellectus
+<lb ed="#L" n="6"/>et volitum in volente per actum volitionis, cum isti sint actus intus
+<lb ed="#L" n="7"/>manentes. Quod enim per aliquem actum voluntatis vel intellectus cuius
+<lb ed="#L" n="8"/>obiectum est locus vel locatum possit dici transferre substantiam suam ad
+<lb ed="#L" n="9"/>locum illum vel per se vel etiam per accidens non videtur nisi huiusmodi
+<lb ed="#L" n="10"/>actus sit principium alicuius effectus existentis in loco; nam, prout dictum
+<lb ed="#L" n="11"/>est, sine hoc effectu angelus nullo modo est in loco ; sed potius aliquo modo
+<lb ed="#L" n="12"/>locus est in angelo, sicut arca ? quam facturus est artifex antequam existat
+<lb ed="#L" n="13"/>extra est in mente eius nec per hoc potest dici artifex vel ars sua operativa
+<lb ed="#L" n="14"/>esse " in loco arc[h]ae vel in quo est arc[h]a sive materia eius nisi cum actu
+<lb ed="#L" n="15"/>operatur circa eam; si autem aliquid efficit per huiusmodi operationem non
+<lb ed="#L" n="16"/>differret ille modus ab illo modo qui non sufficit articulo condemnato .
+</p>
+            <p xml:id="v27ab7-g20331-d1e299">
+               <lb ed="#L" n="17"/>Sed tamen supposito modo existendi in loco et movendi secundum
+<lb ed="#L" n="18"/>locum, sicut isti ponunt, licet non videatur  rationabilis, adhuc restat ut
+<lb ed="#L" n="19"/>investigetur veritas quaesiti et ideo, supposito tali modo movendi secundum
+<lb ed="#L" n="20"/>locum, scilicet per huiusmodi actiones intelligendi et volendi partibus loci
+<lb ed="#L" n="21"/>applicatas, investigetur veritas circa quaesitum et videtur quod non differt
+<lb ed="#L" n="22"/>quaerere utrum omnibus actibus illis intellectus correspondeat unum instans
+<lb ed="#L" n="23"/>in tempore nostro et quaerere utrum omnibus illis mutatis esse 
+corres<lb break="no" ed="#L" n="24"/>pondeat unum instans. Nam, si sic movetur per huiusmodi applicationem,
+<lb ed="#L" n="25"/>non videtur alia mora et successio in illis mutatis esse secundum locum
+<lb ed="#L" n="26"/>vel spatium et in illis actibus applicativis  sive per quos fit huiusmodi
+<lb ed="#L" n="27"/>applicatio; non enim videtur posse dici quod in ipsis actibus in tellectus
+<lb ed="#L" n="28"/>et voluntatis per quos? applicatur virtus angeli ad determinatas partes spatii
+<lb ed="#L" n="29"/>sit mora? et non in applicationibus quae fiunt per huiusmodi actus. Dicendo
+<lb ed="#L" n="30"/>quod, quia angelus respicit unamquamque intellectionem per se et ut aliquid
+<lb ed="#L" n="31"/>in actu nec ut sic est in eis ordo, ideo in qualibet est mora; quia vero per
+<lb ed="#L" n="32"/>huiusmodi actus non applicat suam virtutem ad unam partem per se, sed
+<pb ed="#L" n="241"/>
+               <lb ed="#L" n="1"/>ut applicet ulterius ad aliam partem et ideo est in illis ordo et non respicit
+<lb ed="#L" n="2"/>quamlibet partem ut aliquid in actu et ideo non est in eis mora, — hoc ! non
+<lb ed="#L" n="3"/>valet; quia si est mora in actu intelligendi et non in applicatione et mutato
+<lb ed="#L" n="4"/>esse tunc aliquando est illa intellectio in actu et secundum eam non est in
+<lb ed="#L" n="5"/>aliquo loco; nec tamen est in aliquo loco? nisi per huiusmodi applicationem,
+<lb ed="#L" n="6"/>ut dicunt, et sic tunc in nullo loco esset.
+</p>
+            <p xml:id="v27ab7-g20331-d1e351">
+               <lb ed="#L" n="7"/>Item, cum inter duos terminos motus angeli sint multa mutata esse,
+<lb ed="#L" n="8"/>aut illa sunt continua aut discreta ; si continua tunc,quia illa infinita
+<lb ed="#L" n="9"/>sunt, moveretur motu continuo cuius contrarium dicunt ; si non continua,
+<lb ed="#L" n="10"/>ergo sunt finita; et cum tempore discreto mensurentur inter istos dictos
+<lb ed="#L" n="11"/>terminos, sunt etiam plures intellectiones, quia una sola intellectione non 
+<lb ed="#L" n="12"/>se applicaret tam multis partibus spatii? et mutatis esse sic discretis et
+<lb ed="#L" n="13"/>ut discretae sunt. Si autem sit mora in duratione actuum intelligendi,
+<lb ed="#L" n="14"/>non autem in duratione mutatorum esse, ergo, sicut isti etiam ponunt de
+<lb ed="#L" n="15"/>motu gravis in vacuo et de illuminatione medii, angelus in eodem instanti
+<lb ed="#L" n="16"/>temporis nostri erit in una parte spatii quacumque priori et etiam in ultima,
+<lb ed="#L" n="17"/>immo in termino a quo et termino ad quem ; nam si sit in alio et alio 
+<lb ed="#L" n="18"/>instanti temporis nostri in termino a quo et termino ad quem et inter illa
+<lb ed="#L" n="19"/>duo instantia est tempus medium, ergo in illo  tempore habuerit  esse in
+<lb ed="#L" n="20"/>partibus spatii contentis inter dictos terminos et in istis partibus spatii
+<lb ed="#L" n="21"/>habuit esse secundum mutata esse; ergo mutata esse inter istos terminos
+<lb ed="#L" n="22"/>illo tempore mensurantur ; ergo non instanti, cuius contrarium isti dicunt.
+<lb ed="#L" n="23"/>Habemus ergo duo: scilicet quod mutata esse angeli tempore discreto 
+men<lb break="no" ed="#L" n="24"/>surentur et quod nihilominus ista mutata esse sunt in uno instanti temporis
+<lb ed="#L" n="25"/>nostri et ita, quamvis sint in tempore discreto, tamen sunt sine mora propter
+<lb ed="#L" n="26"/>quod possunt esse in uno instanti temporis nostri. Si ergo in ipsis actibus
+<lb ed="#L" n="27"/>intelligendi sit mora et sic illi actus habent tempus nostrum respondens
+<lb ed="#L" n="28"/>eis, non autem ipsa mutata esse, cum simul fuerint in illis actibus ut sibi ?
+<lb ed="#L" n="29"/>inhaerentibus et in dictis partibus spatii ut in loco, ergo simul respondebit
+<lb ed="#L" n="30"/>angelo secundum aliquid unum et idem instans et tempus ita quod totus
+<lb ed="#L" n="31"/>motus angeli continens multa mutata esse sine mora coexistit instanti
+<lb ed="#L" n="32"/>temporis nostri et omnes actus intelligendi morosi, quos tamen oportet
+<lb ed="#L" n="33"/>simul esse, cum dictis mutatis esse coexistunt tempori, quod videtur 
+incon<lb break="no" ed="#L" n="34"/>veniens.
+</p>
+            <p xml:id="v27ab7-g20331-d1e414">
+               <lb ed="#L" n="35"/>Item, non videtur valere modus ponendi angelum moveri vel mutari
+<pb ed="#L" n="242"/>
+               <lb ed="#L" n="1"/>de uno loco ad alium locum sine mora, sicut dicitur quod si esset vacuum
+<lb ed="#L" n="2"/>grave moveretur sive mutaretur in instanti a sursum usque deorsum; non
+<lb ed="#L" n="3"/>enim potest esse simul in diversis terminis ; ergo in alio instanti est angelus
+<lb ed="#L" n="4"/>sive etiam grave in termino a quo et in alio termino, scilicet ad quem ; sed
+<lb ed="#L" n="5"/>inter quaecumque instantia cadit tempus medium ; quare in illo tempore
+<lb ed="#L" n="6"/>medio aut nusquam erit aut si moveatur tempore mensurabitur motus eius.
+<lb ed="#L" n="7"/>Et quod ita sit ex parte motus angeli secundum modum ponendi istorum
+<lb ed="#L" n="8"/>praecipue videtur ex iam dictis; nam quando est in actu intelligendi est
+<lb ed="#L" n="9"/>in aliquo ubi, scilicet in A ; cum autem debet esse in B et deinde in C per
+<lb ed="#L" n="10"/>applicationem suae virtutis dicto modo et hoc facit per actum intelligendi
+<lb ed="#L" n="11"/>et volendi respectu talis loci, aut ergo sine mora per huiusmodi applicationes
+<lb ed="#L" n="12"/>suae virtutis mediantibus huiusmodi actibus intellectus et voluntatis est
+<lb ed="#L" n="13"/>successive in B et in C, aut cum eadem mora qua ! est in ipsis actibus
+<lb ed="#L" n="14"/>intellectus. Non potest dici quod omnino sine mora, quia dum est in illis
+<lb ed="#L" n="15"/>spatiis quasi in loco, sunt etiam in ipso simul cum hoc dicti actus ut in
+<lb ed="#L" n="16"/>subiecto, quia, ut ponitur, non est in loco nisi per huiusmodi 
+applica<lb break="no" ed="#L" n="17"/>tiones quae non sunt nisi dum sunt huiusmodi actus nec etiam sunt
+<lb ed="#L" n="18"/>huiusmodi actus qui sunt in eo nisi dum est in dictis spatiis; nisi ponatur
+<lb ed="#L" n="19"/>quod per aliquam moram sint in actu aliquo tali per quem  non sint in
+<lb ed="#L" n="20"/>aliquo loco, quod videtur inconveniens. Sicut ergo arguitur de mutatis
+<lb ed="#L" n="21"/>esse angeli in loco secundum dictas applicationes secundum quas sic
+<lb ed="#L" n="22"/>est in loco quod aut sunt in eodem instanti temporis nostri aut in alio,
+<lb ed="#L" n="23"/>ita videtur posse argui de ipsis acti bus per quos fit huiusmodi applicatio ?
+<lb ed="#L" n="24"/>sic: aut enim actus intelligendi quibus angelus se applicat diversis 
+par<lb break="no" ed="#L" n="25"/>tibus spatii sunt in eodem instanti temporis aut in diversis; si in eodem,
+<lb ed="#L" n="26"/>non est in eis mora et habetur propositum; si in diversis, ergo inter illa
+<lb ed="#L" n="27"/>est tempus medium; ergo in illo tempore vel non fuit in aliquo actu
+<lb ed="#L" n="28"/>intelligendi et per consequens nec in aliqua parte spatii per applicationes
+<lb ed="#L" n="29"/>factas mediantibus illis actibus, quod est inconveniens, aut fuit per
+<lb ed="#L" n="30"/>totum illud tempus morose in illis actibus inter quos tamen fuit interruptio,
+<lb ed="#L" n="31"/>sed non morosa, et tunc fuit in illis actibus ut successivis et morosis et
+<lb ed="#L" n="32"/>consequenter entibus; sed illis actibus durantibus non fuit extra locum, sed
+<lb ed="#L" n="33"/>fuit in partibus praedicti spatii; ergo etiam tali esse angeli in talibus partibus
+<lb ed="#L" n="34"/>spatii sive talibus mutatis esse  angeli respondet etiam  pars temporis
+<lb ed="#L" n="35"/>nostri et non instans, sicut ipsi dicunt; et ideo, ut dictum est, iudicandum
+<lb ed="#L" n="36"/>est? de dictis mutatis esse " sicut et de actibus praedictis.
+</p>
+            <p xml:id="v27ab7-g20331-d1e499">
+               <pb ed="#L" n="243"/>
+               <lb ed="#L" n="1"/>Supposito ergo tali modo ponendi, quem tamen non video esse 
+con<lb break="no" ed="#L" n="2"/>venientem, videtur quod non solum pluribus vel omnibus dictis mutatis esse
+<lb ed="#L" n="3"/>correspondet aliqua pars temporis nostri et non instans, sed etiam cuilibet tali
+<lb ed="#L" n="4"/>mutato esse et quod haec etiam oportet ponere in actibus praedictis ; nam
+<lb ed="#L" n="5"/>quaecumque sic se habent quod tempore nostro existente incipiunt esse et
+<lb ed="#L" n="6"/>desinunt esse, quantumcumque illud esse quo incipiunt et desinunt habere
+<lb ed="#L" n="7"/>esse ! sit simplex et simul secundum se non habens successionem, oportet
+<lb ed="#L" n="8"/>tamen ponere quod illud esse habet correspondens tempus  et non instans,
+<lb ed="#L" n="9"/>alioquin in eodem instanti temporis nostri aliquid simul esset et non esset
+<lb ed="#L" n="10"/>quod est impossibile ; sed ita est in actibus intellectus angeli et per 
+conse<lb break="no" ed="#L" n="11"/>quens in mutatis esse. Quod patet sic: nam actus potentiarum animae sicut
+<lb ed="#L" n="12"/>et actus potentiarum ? angeli in hoc conveniunt quod, quia sunt perfectiones
+<lb ed="#L" n="13"/>simpliciter et entis in actu, secundum quod huiusmodi, sunt toti simul non
+<lb ed="#L" n="14"/>habentes per se in esse suo successionem, sicut habent illa quorum esse
+<lb ed="#L" n="15"/>consistit in motu et transmutatione prout quilibet motus est actus entis
+<lb ed="#L" n="16"/>in potentia secundum quod huiusmodi, — quamvis istis actibus animae sint
+<lb ed="#L" n="17"/>quaedam mutationes annexae per accidens propter condicionem et 
+trans<lb break="no" ed="#L" n="18"/>mutationem obiectorum et orranorum quae non sic sunt in actibus 
+poten<lb break="no" ed="#L" n="19"/>tiarum angeli; visio enim et intellectio hominis est tota simul sicut et
+<lb ed="#L" n="20"/>intellectio angeli, sed visio incipit et desinit tempore existente; ergo etsi
+<lb ed="#L" n="21"/>suum esse per se tempore non mensure[n]tur in quantum suum esse non
+<lb ed="#L" n="22"/>est in continuo fieri, licet dependeat ex continua praesentia obiecti, tamen
+<lb ed="#L" n="23"/>oportet quod suum esse quod fuit inter eius inceptionem et eius desitionem
+<lb ed="#L" n="24"/>Coexstiterit parti temporis et non instanti. Ita etiam oportet dicere de 
+actio<lb break="no" ed="#L" n="25"/>nibus intelligendi angeli et de mutatis esse eius in loco quae habent esse
+<lb ed="#L" n="26"/>secundum dictas applicationes, scilicet quod non existunt solum in  instanti;
+<lb ed="#L" n="27"/>ex quo ergo quaelibet intellectio angeli est quoddam ens per se et in se
+<lb ed="#L" n="28"/>indistinctum et distinctum ab alio; et similiter quodlibet mutatum esse, quia
+<lb ed="#L" n="29"/>ponitur quod tales intellectiones non sunt continuae. Similiter etiam. nec
+<lb ed="#L" n="30"/>mutata esse; quia ponitur quod tam illae quam ista mensurantur mensura
+<lb ed="#L" n="31"/>non continua sed discreta, oportet ponere quod quaelibet intellectio per se
+<lb ed="#L" n="32"/>incipiat et per se desinat et similiter quodlibet mutatum esse, et sic oportet
+<lb ed="#L" n="33"/>ponere quod huiusmodi inceptio et desitio et esse inter medium coexistunt
+<lb ed="#L" n="34"/>tempori nostro continuo, cum haec ponantur esse et fieri tempore nostro
+<lb ed="#L" n="35"/>existente. Quaecumque " enim sunt tempore nostro existente  vel 
+mensu<lb break="no" ed="#L" n="36"/>rantur ipso tempore, per se quidem motus et quae actu moventur, per
+<pb ed="#L" n="244"/>
+               <lb ed="#L" n="1"/>accidens autem quies et quae quiescunt apta nata moveri, vel coexistunt
+<lb ed="#L" n="2"/>tempori nostro et habent aliquid in tempore nostro correspondens. Nihil
+<lb ed="#L" n="3"/>aliud enim est coexistere tempori  quam habere simul esse dum tempus
+<lb ed="#L" n="4"/>nostrum est. Non autem potest illa inceptio et desitio coexistere tempori
+<lb ed="#L" n="5"/>nostro sic quod haec in eodem instanti habeant fieri; sed, ut prius dictum
+<lb ed="#L" n="6"/>est, oportet quod ei quod incipit et desinit esse nostro tempore existente
+<lb ed="#L" n="7"/>correspondeat tempus sic quod in alio instanti temporis nostri habeat primo
+<lb ed="#L" n="8"/>esse et in alio habeat primo non esse, alioquin in eodem instanti temporis
+<lb ed="#L" n="9"/>nostri esset et non esset; quod est impossibile cum instans temporis sit
+<lb ed="#L" n="10"/>omnino indivisibile, licet sit aliquid eius quod per se est divisibile. Quod
+<lb ed="#L" n="11"/>patet: licet enim esse angeli mensuretur mensura indivisibili quod dicitur
+<lb ed="#L" n="12"/>aevum ex quo tamen esse angeli est simul cum tempore sive tempore
+<lb ed="#L" n="13"/>existente, si postquam angelus incepit esse desinat esse, necessario 
+corres<lb break="no" ed="#L" n="14"/>pondet suo esse quod habuit inter istos terminos pars temporis nostri ;
+<lb ed="#L" n="15"/>unde si angelus unus creetur hodie et alius post tres dies, isti non possunt
+<lb ed="#L" n="16"/>di ci esse creati in eodem instanti temporis nostri, ut per se patet; similiter
+<lb ed="#L" n="17"/>si angelus hodie creatus post tres dies desinat esse, non potest dici quod
+<lb ed="#L" n="18"/>esse ? angeli quod habuit  inter istos terminos non coexistat parti temporis
+<lb ed="#L" n="19"/>nostri, sed solum instanti. Haec enim omnia manifesta videntur et ideo
+<lb ed="#L" n="20"/>dicendum quod oportet omnes intellectiones angeli quae sunt quaedam
+<lb ed="#L" n="21"/>entia discreta in se indivisa " et ab invicem distincta sic se habere ad
+<lb ed="#L" n="22"/>tempus nostrum quamdiu durabit quod cuilibet secundum se incipienti
+<lb ed="#L" n="23"/>et secundum se desinenti respondeat aliqua pars temporis nostri non ut
+<lb ed="#L" n="24"/>mensura eius, sed ut quid ei coexistens. Similiter etiam  dicendum de mutatis
+<lb ed="#L" n="25"/>esse; et ideo talis imaginatio circa motum angeli non valet. Illa etiam posita
+<lb ed="#L" n="26"/>esse vera, non potest esse verum quod consequenter dicitur quod omnibus
+<lb ed="#L" n="27"/>illis mutatis esse corresponderet unum instans temporis nostri. Qualis autem
+<lb ed="#L" n="28"/>modus ponendi angelum esse in loco et moveri secundum locum praeter
+<lb ed="#L" n="29"/>istum et praeter illum alium qui non sufficit secundum articulum episcopi 
+<lb ed="#L" n="30"/>sit conveniens non est praesentis speculationis; nec ego etiam scio illum.
+</p>
+            <p xml:id="v27ab7-g20331-d1e650">
+               <lb ed="#L" n="31"/>Ad rationem factam in positione praedicta dicendum quod, positione
+<lb ed="#L" n="32"/>dicta imaginata, duobus mutatis esse angeli non respondet instans temporis
+<lb ed="#L" n="33"/>nostri, sed aliqua pars temporis. Quia tamen talia mutata esse ponuntur
+<lb ed="#L" n="34"/>consequenter entia, inter illa non intercidit duratio media; sed verum est
+<pb ed="#L" n="245"/>
+               <lb ed="#L" n="1"/>quod in toto tempore illo fuit sub illis duobus mutatis esse. Ulterius 
+dicen<lb break="no" ed="#L" n="2"/>dum quod secundum illam suppositionem non solum est successio in illo
+<lb ed="#L" n="3"/>motu propter ordinem mutatorum esse, sed est ibi mora durationis cuiuslibet
+<lb ed="#L" n="4"/>mutati esse existentis inter dictos terminos ratione inceptionis et desitionis
+<lb ed="#L" n="5"/>sui esse. Sed non opportet secundum illam suppositionem esse moram
+<lb ed="#L" n="6"/>inter duo mutata esse quae ponuntur consequenter entia; unde, est mora
+<lb ed="#L" n="7"/>in illo toto motu non propter moram ! inter mutata esse, sed propter
+<lb ed="#L" n="8"/>moram cuiuslibet mutati esse. Et oportet secundum dictam positionem
+<lb ed="#L" n="9"/>quod, licet cuilibet tali mutato esse quod dicitur morosum secundum se
+<lb ed="#L" n="10"/>non respondeat mensura divisibilis, quia tale esse est totum simul sicut et
+<lb ed="#L" n="11"/>esse ipsius angeli et ideo secundum se non est tale esse morosum nec
+<lb ed="#L" n="12"/>successivum tamen comparatum ad tempus nostrum cui coexistit, oportet
+<lb ed="#L" n="13"/>ipsum intelligere sub mora et  coexistere non ? indivisibili temporis nostri,
+<lb ed="#L" n="14"/>sed divisibili parti temporis. Exemplum autem de motu gravis in medio
+<lb ed="#L" n="15"/>vacuo cui respondet unum instans in tempore nostro, illo impossibili 
+impli<lb break="no" ed="#L" n="16"/>canti incompossibilia posito, non valet; quia, licet in diversis partibus
+<lb ed="#L" n="17"/>haberet esse successive secundum ordinem naturae, tamen  duratione non,
+<lb ed="#L" n="18"/>sicut patet etiam ? de illuminatione medii, quia successione durationis non
+<lb ed="#L" n="19"/>est una pars prius illuminata quam alia; unde totum spatium vacuum esset
+<lb ed="#L" n="20"/>pro non medio vel spatio, quia sive spatium sit magnum sive parvum non
+<lb ed="#L" n="21"/>refert; unde non aliter faceret se lapis in terminum multum distantem
+<lb ed="#L" n="22"/>posito vacuo et in terminum minime distantem etiam posito vacuo . Sed
+<lb ed="#L" n="23"/>si poneretur lapis in vacuo ita quod prius se faceret indeterminatam et
+<lb ed="#L" n="24"/>distinctam partem spatii in qua etiam propriam inceptionem et desitionem
+<lb ed="#L" n="25"/>haberet et sic componeretur  motus eius ex discretis, comparatione facta
+<lb ed="#L" n="26"/>ad tempus nostrum, tunc esset simile.
+</p>
+            <p xml:id="v27ab7-g20331-d1e720">
+               <lb ed="#L" n="27"/>Cum vero dicitur quod partibus temporis successivi respondet unum
+<lb ed="#L" n="28"/>instans indivisibile scilicet aeternitatis, ergo etiam pluribus partibus motus
+<lb ed="#L" n="29"/>angeli unum instans temporis nostri, non valet, quia illud instans 
+aeterni<lb break="no" ed="#L" n="30"/>tatis est sic simplex quod est stans non fluens non incipiens nec desinens
+<lb ed="#L" n="31"/>et ideo non est in illa mensura accipere prius et posterius sive partem et
+<lb ed="#L" n="32"/>partem ; propter quod quicquid illi coexistit secundum  id quod indivisibile
+<lb ed="#L" n="33"/>est coexistit, licet id quod coexistit divisibile sit et babeat propriam 
+men<lb break="no" ed="#L" n="34"/>suram divisibilem, ut motus, vel sit in se mensura divisibilis ut tempus ; sed
+<lb ed="#L" n="35"/>instans temporis est fluens non stans et est aliquid  entis divisibilis partes
+<lb ed="#L" n="36"/>habentis ; et ideo tali enti cuius est aliquid, scilicet tempori, potest aliquid '?
+<pb ed="#L" n="246"/>
+               <lb ed="#L" n="1"/>coexistere, et secundum illud indivisibile ut ipsum esse Dei et etiam esse
+<lb ed="#L" n="2"/>angeli cum non desinit  esse, et etiam secundum illud quod divisibile est
+<lb ed="#L" n="3"/>sive secundum partes eius per se et secundum rationem mensurati ut motus
+<lb ed="#L" n="4"/>per accidens in ratione coexistentis ut dictae intellectiones et mutata esse
+<lb ed="#L" n="5"/>angeli vel etiam ipsum esse angeli si postquam incepit esse desineret esse,
+<lb ed="#L" n="6"/>forma etiam argumenti non valet; successivum habens partes ut tempus
+<lb ed="#L" n="7"/>potest esse in instanti indivisibilis  aeternitatis quod  est simplicissimum ;
+<lb ed="#L" n="8"/>ergo similiter aliquod aliud successivum potest esse in alio indivisibili,
+<lb ed="#L" n="9"/>nam secundum hoc sequeretur quod motus qui est divisibilis et coexistit in
+<lb ed="#L" n="10"/>instanti indivisibili aeternitatis posset esse in indivisibili temporis, quod
+<lb ed="#L" n="11"/>est falsum.
+</p>
+            <p xml:id="v27ab7-g20331-d1e770">
+               <lb ed="#L" n="12"/>Cum etiam dicitur quod successio potest esse sine mora, ut patet de
+<lb ed="#L" n="13"/>tempore et instanti, non valet, quia hoc non est proprie successio ; idem
+<lb ed="#L" n="14"/>enim non succedit sibi ipsi ; nunc autem instans est aliquid temporis et ideo
+<lb ed="#L" n="15"/>in tempore includitur nec ei succedit, sicut etiam nec punctus est posterius
+<lb ed="#L" n="16"/>linea quia est aliquid lineae; sed ipsum tempus cuius est aliquid instans 
+suc<lb break="no" ed="#L" n="17"/>cessionem habet in partibus suis et ideo etiam moram ; quia etiam instans
+<lb ed="#L" n="18"/>est sic indivisibile quod non potest secundum se incipere esse et desinere
+<lb ed="#L" n="19"/>esse, et ideo nec morosum esse potest nec potest coexistere alicui moroso
+<lb ed="#L" n="20"/>secundum suam moram ; et ideo etiam sicut secundum se moram non habet
+<lb ed="#L" n="21"/>nec etiam respectu alterius, ita etiam cum alio maiorem moram facere non
+<lb ed="#L" n="22"/>potest. Sed ut dictum est, non sic est in proposito, quia quodlibet mutatum
+<lb ed="#L" n="23"/>esse est aliquid secundum se et unum, non est aliquid alterius ut eius
+<lb ed="#L" n="24"/>terminus vel initium, item quodlibet secundum se est quid morosum 
+com<lb break="no" ed="#L" n="25"/>parando ipsum ad aliud  dicto modo.
+</p>
+            <p xml:id="v27ab7-g20331-d1e803">
+               <lb ed="#L" n="26"/>Cum arguitur ad quaestionem quod plura indivisibilia non faciunt
+<lb ed="#L" n="27"/>moram et cetera, dicendum quod, licet quodlibet intelligere angeli sic sit
+<lb ed="#L" n="28"/>indivisibile secundum se quod est totum simul et non habet esse secundum
+<lb ed="#L" n="29"/>successionem suarum partium, tamen, cum ponitur habere esse post non
+<lb ed="#L" n="30"/>esse et non esse post esse ut sic comparatur ad mensuram non suam 
+pro<lb break="no" ed="#L" n="31"/>priam, sed alienam ut ad tempus nostrum, oportet quod intelligatur habere
+<lb ed="#L" n="32"/>moram cui necessario correspondet pars temporis nostri et non instans ;
+<lb ed="#L" n="33"/>similiter dicendum de mutatis esse quod licet  hoc supposito quod quodlibet
+<lb ed="#L" n="34"/>sit sic ' indivisibile quod angelus applicando se alicui parti spatii  non se 
+<lb ed="#L" n="35"/>applicat illi successive '" et in fieri sic quod prius uni quam alteri sed toti
+<lb ed="#L" n="36"/>simul, tamen quia illud est !! ut quid distinctum cui, ut dictum est, convenit
+<pb ed="#L" n="247"/>
+               <lb ed="#L" n="1"/>incipere et desinere esse proprium, sicut et corpori in loco quies centi
+<lb ed="#L" n="2"/>etiamsi sine motu ibi crearetur virtute divina et iterum sine motu 
+aufe<lb break="no" ed="#L" n="3"/>retur, ideo ut sic oportet illud intelligi sub mora et ei partem temporis
+<lb ed="#L" n="4"/>correspondere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

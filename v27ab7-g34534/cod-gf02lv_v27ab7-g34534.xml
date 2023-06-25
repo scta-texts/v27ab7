@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="397"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g34534"><!-- v27ab7-q7-q15 -->
+            <head xml:id="v27ab7-g34534-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-g34534-Hd1e101" type="question-title">
+      Utrum sacerdos celebrans missam et verba pertinentia ad formam sacramenti
+      eucharistiae varians et transmutans conficiat
+    </head>
+            <p xml:id="v27ab7-g34534-d1e104">
+               <pb ed="#L" n="397"/>
+               <lb ed="#L" n="1"/>QUAESTIO XV.
+<lb ed="#L" n="2"/>Utrum sacerdos celebrans missam et verba pertinentia ad formam sacramenti
+<lb ed="#L" n="3"/>eucharistiae varians et transmutans conficiat.
+</p>
+            <p xml:id="v27ab7-g34534-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa ea quae pertinent ad homines fideles specialiter quaerebantur quaedam 
+per<lb break="no" ed="#L" n="5"/>tinentia ad quosdam clericos specialiter et quaedam pertinentia ad sacerdotes, quaedam 
+per<lb break="no" ed="#L" n="6"/>tinentia ad doctores. Circa primum quaerebantur quaedam pertinentia ad sacerdotes quantum
+<lb ed="#L" n="7"/>ad ministerium eorum circa dispensationem sacramentorum, quaedam pertinentia ad ipsos
+<lb ed="#L" n="8"/>quantum ad ministerium eorum circa executionem officiorum ecclesiasticorum, Circa primum
+<lb ed="#L" n="9"/>quaerebantur duo, unum pertinens ad sacerdotes quantum ad ministerium eorum circa 
+sacra<lb break="no" ed="#L" n="10"/>mentum eucharistiae et unum pertinens ad sacramentum poenitentiae. Primum horum erat
+<lb ed="#L" n="11"/>utrum sacerdos celebrans missam et verba pertinentia ad formam sacramenti eucharistiae
+<lb ed="#L" n="12"/>varians vel ! transmutans respectu materiae sic quod verba haec : hoc est corpus meum, adaptat
+<lb ed="#L" n="13"/>vino; alia vero : hic? est calix sanguinis mei, adaptat pani, conficiat. Et arguitur quod sic,
+<lb ed="#L" n="14"/>quia in sacramento baptismi potest fieri mutatio circa formam verborum, uipote si dicam : in
+<lb ed="#L" n="15"/>nomine patria et filia et cetera, et tamen per hoc non impeditur effectus baptismi ; ergo ita
+<lb ed="#L" n="16"/>erat in proposito.
+</p>
+            <p xml:id="v27ab7-g34534-d1e146">
+               <lb ed="#L" n="17"/>Contra, Verba non efficiunt nisi applicata materiae ; sed in hoc casu non applicantur verba
+<lb ed="#L" n="18"/>convenienti materiae ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g34534-d1e154">
+               <lb ed="#L" n="19"/>Respondeo dicendum, cum secundum Augustinum sacramentum ex duobus constet, 
+sci<lb break="no" ed="#L" n="20"/>licet ex forma verborum et materia sensibili exteriori, ubi ? alterum istorum deficit non potest
+<lb ed="#L" n="21"/>esse veritas sacramenti. In sacramento autem altaris continente corpus et sanguinem Christi
+<lb ed="#L" n="22"/>sub duplici specie, panis scilicet et vini, requiritur respectu cuiuslibet propria forma verborum,
+<lb ed="#L" n="23"/>et ideo, si sit materia praesens et deficiant verba, deficit sacramentum. Si autem sint verba et
+<lb ed="#L" n="24"/>deficiat materia, eliam deficit sacramenium in toto. Si autem sit materia determinata cui forma
+<lb ed="#L" n="25"/>determinata applicetur, est veritas sacramenti quantum ad hoc. Unde, si forma verborum 
+dicen<lb break="no" ed="#L" n="26"/>dorum super materiam panis materiae convenienti applicentur, est ibi vere corpus Christi
+<lb ed="#L" n="27"/>sacramentaliter; si autem deficiat applicatio verborum dicendorum super illam materiam,
+<lb ed="#L" n="28"/>deficit sacramentum quantum ad hoc. Et similiter intelligendum est de applicatione verborum
+<lb ed="#L" n="29"/>dicendorum super matetiam vini. Nunc ergo quia in casu proposito, licet sit materia praesens
+<lb ed="#L" n="30"/>et prolatio verborum propriorum unicuique parti materiae, quia tamen non applicantur verba
+<lb ed="#L" n="31"/>propriae materiae, ideo omnino deficit ibi materia quantum ad sacramenti constitutionem, eo
+<lb ed="#L" n="32"/>quod forma non est ibi alicui parti materiae propriae applicata. Unde, cum vinum non sit
+<lb ed="#L" n="33"/>propria materia respectu verborum quibus transsubstantiatio fit in corpus, nec panis sit propria
+<lb ed="#L" n="34"/>materia respectu verborum quibus transsubstantiatio fit in sanguinem, ideo referendo formam
+<lb ed="#L" n="35"/>verborum ad materiam cui applicantur deficit ibi sacramentum propter defectum materiae, non
+<pb ed="#L" n="398"/>
+               <lb ed="#L" n="1"/>secundum se, quia realiter est praesens, sed secundum esse subiectum debitae formae. Unde
+<lb ed="#L" n="2"/>non debet dici proprie defectus in sacramento propter mutationem factam circa formam, nam
+<lb ed="#L" n="3"/>supponitur quod forma verborum perfecte proferatur, sed propter defectum materiae debitae
+<lb ed="#L" n="4"/>non subiectae tali formae, quia materia sic praesens, ut sic consideratur, non plus est materia
+<lb ed="#L" n="5"/>conveniens huic sacramento quam quaecumque alia. Non plus enim est materia ex qua debet
+<lb ed="#L" n="6"/>transsubstantiatio in sanguinem fieri panis quam pomum vel caro vel quodcumque aliud ; nec
+<lb ed="#L" n="7"/>plus est materia transsubstantianda in corpus Christi vinum quam aqua vel quicumque alius
+<lb ed="#L" n="8"/>liquor ; et ideo debet dici defectus sacramenti in proposito, sicut si loco panis esset supposita
+<lb ed="#L" n="9"/>caro vel huiusmodi et loco vini esset supposita aqua vel aliquod huiusmodi ; sicut etiam in
+<lb ed="#L" n="10"/>sacramento baptismi, si loco aquae supponeretur alius liquor essentialiter differens et 
+profer<lb break="no" ed="#L" n="11"/>rentur perfecte verba formam illius sacramenti continentia, non diceretur ! defectus ? circa
+<lb ed="#L" n="12"/>sacramentum propter mutationem circa formam vel circa verba, sed propter defectum materiae
+<lb ed="#L" n="13"/>debitae. Sed, si forma verborum propriorum propriae materiae applicaretur et tunc esset ibi
+<lb ed="#L" n="14"/>aliqua variatio circa verba vel addendo vel subtrahendo vel litteras vel syllabas variando,
+<lb ed="#L" n="15"/>tanta variatio fieri posset quod contingeret defectus sacramenti propter mutationem circa
+<lb ed="#L" n="16"/>formam vel verba et non propter defectum in materia,
+</p>
+            <p xml:id="v27ab7-g34534-d1e230">
+               <lb ed="#L" n="17"/>Per hoc patet solutio ad argumentum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="400"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g34837"><!-- v27ab7-q7-q17 -->
+            <head xml:id="v27ab7-g34837-Hd1e99">Quaestio 17</head>
+            <head xml:id="v27ab7-g34837-Hd1e101" type="question-title">
+      Utrum sacerdotes, praecipue curati, teneantur quotidie dicere officium mortuorum
+    </head>
+            <p xml:id="v27ab7-g34837-d1e104">
+               <lb ed="#L" n="4"/>QUAESTIO XVII.
+<lb ed="#L" n="5"/>Utrum sacerdotes, praecipue curati, teneantur quotidie dicere officium mortuorum.
+</p>
+            <p xml:id="v27ab7-g34837-d1e111">
+               <lb ed="#L" n="6"/>Deinde circa pertinentia ad sacerdotes quantum ad ministerium eorum circa executionem
+<lb ed="#L" n="7"/>ecclesiasticorum officiorum quaerebatur unum, scilicet utrum sacerdotes, praecipue curati,
+<lb ed="#L" n="8"/>teneantur quotidie dicere officium mortuorum, Et arguitur quod sic ; quia si illud quod minus
+<lb ed="#L" n="9"/>videtur inesse inest, et illud quod magis. Sed minus videtur quod canonici teneantur dicere
+<lb ed="#L" n="10"/>quotidie huiusm odi o'ficium, cum sint simplices clerici et in gradu inferiori et ideo ad minus
+<lb ed="#L" n="11"/>officium videatur teneri. Sed tales tenentur quia qui recipit stipendium debet facere illud !
+<lb ed="#L" n="12"/>propter quod est institutum ; sed bona temporalia in Ecclesia sunt stipendia clericorum collata
+<lb ed="#L" n="13"/>a defunctis ut clerici orent pro eis ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g34837-d1e131">
+               <lb ed="#L" n="14"/>Contra. Si sacerdotes praedicti tenerentur ad tale officium dicendum, viderentur per aliquod
+<lb ed="#L" n="15"/>statutum ad hoc obligari ; sed tale statutum non invenitur in iure ; ergo et cetera,
+</p>
+            <p xml:id="v27ab7-g34837-d1e139">
+               <lb ed="#L" n="16"/>Respondeo dicendum quod ad dicendum officium ecclesiasticum tenentur personae 
+eccle<lb break="no" ed="#L" n="17"/>siasticae vel ex iure divino vel naturae, vel ex statuto sive iure humano sive Ecclesiae sive ex
+<lb ed="#L" n="18"/>consuetudine quae statuto vel iuri positivo aequipollet. Nunc autem de iure divino et naturae
+<lb ed="#L" n="19"/>est quod quaelibet creatura rationalis insistat  divinis laudibus et ? orationibus pro bonis
+<lb ed="#L" n="20"/>obtinendis et malis vitandis et gratiarum actionibus pro bonis iam adeptis et malis vitatis. Sed
+<lb ed="#L" n="21"/>personae ecclesiasticae ratione status sui, ratione cuius principaliter ad laudandum et orandum
+<lb ed="#L" n="22"/>Deum ordinantur, ad hoz principalius tenentur et, licet omnibus generaliter deputaverit lex
+<lb ed="#L" n="23"/>divina data per Movsen statutum tempus quo fideles praecipue debent intendere et insistere
+<lb ed="#L" n="24"/>laudibus divinis, scilicet diem sabbati, in lege tamen Evangelii non invenitur tempus ad hoc
+<lb ed="#L" n="25"/>sic specialiter deputatum ; per quod, innuitur quod hi qui sunt sub lege Evangelii tanquam
+<lb ed="#L" n="26"/>perfectiores quasi nullo tempore cum ad hoc offert se facultas a divinis obsequiis et laudibus
+<lb ed="#L" n="27"/>vacare debent.
+</p>
+            <p xml:id="v27ab7-g34837-d1e168">
+               <lb ed="#L" n="28"/>Verumtamen,quia non semper aequaliter possunt homines intendere talibus propter mul tas
+<lb ed="#L" n="29"/>necessarias occup itiones circa alia, quia etiam non omnes possunt aequaliter talibus intendere,
+<lb ed="#L" n="30"/>Ecclesia, cui Christus reliquit  potestatem, determinavit omnibus generaliter certum tempus,
+<lb ed="#L" n="31"/>scilicet diem dominicum, ut tunc specialiter et in loco speciali et hora certa magis intendant
+<lb ed="#L" n="32"/>talibus, laici meditando et orando, clerici officia publice exercendo. Et cum hoc specialiter .
+<lb ed="#L" n="33"/>clericos instituit et ordinavit sive deputavit ad hoc quod singulis diebus determinatis laudibus
+<lb ed="#L" n="34"/>divinis et orationibus, scilicet septem horis canonicis, sint intenti secundum exemplum 
+Prophe<lb break="no" ed="#L" n="35"/>tae dicentis in psalmo : septies in die laudem dixi tibi. Unde, quia canon idem est quod regula,
+<pb ed="#L" n="401"/>
+               <lb ed="#L" n="1"/>eo quod dictae horae sunt ab Ecclesia generaliter omnibus clericis qui ad statum clericalem per
+<lb ed="#L" n="2"/>sacros ordines et per susceptionem beneficiorum ecclesiasticorum assumuntur quasi pro 
+com<lb break="no" ed="#L" n="3"/>muni regula impositae et quae secundum determinatos modos et tempora ! secundum 
+determi<lb break="no" ed="#L" n="4"/>natas regulas, ab omnibus etiam  generaliter et regulariter sunt dicendae ; propter boc etiam
+<lb ed="#L" n="5"/>dicuntur horae canonicae sive regulares. Ad illas ergo ex praecepto et statuto Ecclesiae generali
+<lb ed="#L" n="6"/>omnes clerici beneficiati vel in sacris ordinibus constituti tenentur, nisi aliquando legitimo 
+<lb ed="#L" n="7"/>impedimento excusentur. Et de hoc sunt iura satis expressa : Extra, de Celebratione missarum :
+<lb ed="#L" n="8"/>Praesbyter? mane,et cetera; Dolentes referimus. Et vicesima prima distinctione, capitulo :
+<lb ed="#L" n="9"/>Ultimo. Hoc etiam ex usu et consuetudine Ecclesiae supponitur.
+</p>
+            <p xml:id="v27ab7-g34837-d1e210">
+               <lb ed="#L" n="10"/>Sed 4s offizio mortuorum et de quibusdam aliis observandis circa divinum officium qui et
+<lb ed="#L" n="11"/>quomodo ad illud tenentur non est expressum in iure communi tanquam in communi regula
+<lb ed="#L" n="12"/>omnium clericorum. Quia etiam circa hoc diversae sunt ? consuetudines et observationes
+<lb ed="#L" n="13"/>secundum diversas ecclesias speciales, ideo dicendum est de illis quantum ad officium 
+mor<lb break="no" ed="#L" n="14"/>tuorum de quo est quaestio specialiter proposita quod, sicut omnes clerici generaliter tenentur
+<lb ed="#L" n="15"/>ad horas quae communiter appellantur canonicae sive regulares modo supradicto, ita clerici
+<lb ed="#L" n="16"/>unius specialis ecclesiae tenentur ad officia quae vel ex statuto vel ex consuetudine in illo
+<lb ed="#L" n="17"/>loco quasi regularia sive canonica reputantur. Regularia ? autem sive canonica intelligo reputari
+<lb ed="#L" n="18"/>ad quae dicenda est modus regularis ex statuto impositus vel ex communi consuetudine 
+obser<lb break="no" ed="#L" n="19"/>vatus ; alia autem non reputantur canonica, sed voluntaria et quasi causalia et indeterminata.
+<lb ed="#L" n="20"/>Sicut ergo universalis Ecclesia consuevit solemniter dicere vigilias et officium mortuorum die
+<lb ed="#L" n="21"/>determinato ad hoc regulariter ? deputato, scilicet in festo Omnium Sanctorum." post vesperas ;
+<lb ed="#L" n="22"/>et ideo omnes clerici qui tenentur ad officium Ecclesias, quod per horas canonicas intelligimus,
+<lb ed="#L" n="23"/>tenentur dicere illud offlcium sive sint ia ecclesiis suis sive non, cessante legitimo impedi.
+<lb ed="#L" n="24"/>mento, — ita, cum in qualibet ecclesia sit circa officium tale aliqua specialis consuetudo (puta ut
+<lb ed="#L" n="25"/>dicatur ordinarie officium mortuorum semel in septimana vel qualitercumque aliter secundum
+<lb ed="#L" n="26"/>certum tempus et modum : puta etiam in aliqua ecclesia statutum est vel communi 
+consuetu<lb break="no" ed="#L" n="27"/>dine observatum quod si non eveniat festum novem lectionum nec sit funus praesens nec
+<lb ed="#L" n="28"/>aliquod anniversarium speciale), nihilominus dicitur officium mortuorum vel cum tribus
+<lb ed="#L" n="29"/>lectionibus extra quadragesimam vel cum novem in quadragesima, tale officium secundum
+<lb ed="#L" n="30"/>hunc modum videtur posse dici in tali ecclesia canonicum sive etiam cum horis canonicis
+<lb ed="#L" n="31"/>computandum, quantum ad hoc quod ad illud dicendum omnes clerici praecipue in tali ecclesia
+<lb ed="#L" n="32"/>beneficiati obligantur. Nam, cum talia officia mortuorum videantur instituta generaliter in
+<lb ed="#L" n="33"/>remedium defunctorum qui ob hoc bona sua temporalia ecclesiae reliquerunt nec habent
+<lb ed="#L" n="34"/>specialia anniversaria instituta, videtur ergo quod, sicut cum occurrit determinatum 
+anniver<lb break="no" ed="#L" n="35"/>sarium alicuius qui deputavit certa bona pro suo auniversario faciendo, illi qui portionem
+<lb ed="#L" n="36"/>recipiunt de bonis illis tenentur dicere officium mortuorum pro tali, ita etiam qui indistincte
+<lb ed="#L" n="37"/>recipilunt portiones suas de bonis ab aliis defunctis collatis provenientes tenentur dicere
+<lb ed="#L" n="38"/>praedictum officium mortuorum.
+</p>
+            <p xml:id="v27ab7-g34837-d1e275">
+               <lb ed="#L" n="39"/>Cum ergo quaeritur utrum sacerdotes, praecipue curati, tenentur omni die dicere officium
+<lb ed="#L" n="40"/>mortuorum, generalius loquendo videtur dicendum quod, cum clericus teneatur dicere officium
+<lb ed="#L" n="41"/>ecclesiasticum non solum secundum statuta generalia Ecclesiae, sed etiam secundum statuta
+<lb ed="#L" n="42"/>vel consuetudines ecclesiae cui specialiter deputatur, quilibet clericus beneficiatus in aliqua
+<pb ed="#L" n="402"/>
+               <lb ed="#L" n="1"/>ecclesia, etiam si sit absens, tenetur dicere officium mortuorum quod, ut dictum est, regulari l
+<lb ed="#L" n="2"/>observantia et secundum consuetudinem dicitur in eadem ecclesia et etiam aliud ! officium
+<lb ed="#L" n="3"/>mortuorum specialius sicut quod dicitur in anniversario alicuius qui  ad hoc certa stipendia
+<lb ed="#L" n="4"/>deputavit tenetur dicere, saltem cum percipit beneficium ad hoc specialiter deputatum, 
+Ali<lb break="no" ed="#L" n="5"/>quando autem dicitur officium mortuorum in ecclesia extraordinarie propter aliquam causam
+<lb ed="#L" n="6"/>specialiter emergentem, puta ad preces alicuius personae vel propter aliquid huiusmodi ; et ad
+<lb ed="#L" n="7"/>illud officium non tenetur quis nisi cum est in ecclesia cum illis qui hoc concesserunt vel
+<lb ed="#L" n="8"/>ordinaverunt, Sed hoc habet magis locum in clericis bencficiatis in ecclesiis collegiatis, in
+<lb ed="#L" n="9"/>quibus propter multitudinem clericorum est divinum officium ampliatum et etiam solemnius
+<lb ed="#L" n="10"/>exercendum.
+</p>
+            <p xml:id="v27ab7-g34837-d1e310">
+               <lb ed="#L" n="11"/>Sed quantum ad sacerdotes parochiales videtur esse dicendum quod consuetudo ecclesiae
+<lb ed="#L" n="12"/>oe ad quam assumuntur est ab eis observanda quantum ad modum dicendi vigilias communes et
+<lb ed="#L" n="13"/>regulares, id est quae dicuntur vel dici consueverunt a sacerdotibus illius ecclesiae, etiam ? cum
+<lb ed="#L" n="14"/>non occurrebat casus specialis, puta praesentia funeris vel anniversarium speciale. De 
+anniver<lb break="no" ed="#L" n="15"/>sariis autem est tenendum quod pro singulis sunt singula officia exsolvenda, si occurrant
+<lb ed="#L" n="16"/>distinctis diebus nec superveniat impedimentum alicuius festivitatis ratione cuius debet populo
+<lb ed="#L" n="17"/>celebrari officium de festo vel nisi superveniat aliquod impedimentum legitimum. Intelligo
+<lb ed="#L" n="18"/>TH autem in talibus recurrendum ad consue tudincm in tali ecclesia et etiam in aliis viciniis, et ad
+: consuetudinem praecedentium sacerdotum illius ecclesiae, si fuerint viri honesti et si credatur
+<lb ed="#L" n="19"/>quod officium mortuorum quod dicebant quasi regulariter etiam extra casus praedictos non ex
+<lb ed="#L" n="20"/>propria devotione, sed ex obligatione ratione sui officii talia dicere consueverunt, Hoc etiam
+<lb ed="#L" n="21"/>dico, si non sit super modum dicendi talia officia per ordinarium aliquod statutum synodale
+<lb ed="#L" n="22"/>editum. Nam de talibus essent statuta facienda cum invenitur negligentia sacerdotum qui in
+<lb ed="#L" n="23"/>hoc et in aliis tenentur statuta synodalia observare. Per praedicta patet responsio  ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

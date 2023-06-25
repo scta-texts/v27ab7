@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="250"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g21313"><!-- v27ab7-q6-q15 -->
+            <head xml:id="v27ab7-g21313-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-g21313-Hd1e101" type="question-title">
+      Utrum intellectus agens pertineat ad rationem. superiorem
+    </head>
+            <p xml:id="v27ab7-g21313-d1e104">
+               <pb ed="#L" n="250"/>
+               <lb ed="#L" n="1"/>QUAESTIO XV.
+<lb ed="#L" n="2"/>Utrum intellectus agens pertineat ad rationem. superiorem.
+</p>
+            <p xml:id="v27ab7-g21313-d1e113">
+               <lb ed="#L" n="3"/>Postea ad secundum arguebatur quod intellectus agens non pertineat
+<lb ed="#L" n="4"/>ad rationem superiorem, quia secundum ' Damascenum, nulla natura 
+pro<lb break="no" ed="#L" n="5"/>pria operatione destituitur. Operatio autem intellectus agentis videtur esse
+<lb ed="#L" n="6"/>illuminare phantasmata et abstractionem facere. Sed hanc operationem non
+<lb ed="#L" n="7"/>habet in actu rationis superioris, quia secundum Augustinum, duodecimo
+<lb ed="#L" n="8"/>de Trinitate : per superiorem portionem rationis inhaeremus  intelligibili
+<lb ed="#L" n="9"/>atque incommutabili veritati et eius est iudicare de istis corporalibus 
+secun<lb break="no" ed="#L" n="10"/>dum rationes incorporales atque aeternas; quae nisi supra mentem
+<lb ed="#L" n="11"/>humanam essent, incommutabiles profecto non essent. Secundum ista
+<lb ed="#L" n="12"/>videtur quod operatio intellectus agentis non habeat locum in portione
+<lb ed="#L" n="13"/>superiori rationis, quia ipsa illustratur rationibus aeternis et incorporalibus
+<lb ed="#L" n="14"/>quae non habent illuminari lumine intellectus agentis ; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g21313-d1e142">
+               <lb ed="#L" n="15"/>Contra. Secundum Augustinum, ibidem : imago Trinitatis praecipue
+<lb ed="#L" n="16"/>relucet in ratione superiori. Sed intellectus agens pertinet ad imaginem ;
+<lb ed="#L" n="17"/>nam secundum Augustinum, duodecimo super Genesim: semper agens
+<lb ed="#L" n="18"/>est ? praestantius patiente; ergo cum intellectus possibilis qui habet locum
+<lb ed="#L" n="19"/>parentis pertineat ad imaginem, intellectus qui habet locum agentis ad
+<lb ed="#L" n="20"/>ipsam potius pertinebit. Ergo videtur quod pertineat ad rationem
+<lb ed="#L" n="21"/>superiorem.
+</p>
+            <p xml:id="v27ab7-g21313-d1e161">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod, si ratio superior et inferior essent diversae
+<lb ed="#L" n="23"/>po tentiae realiter ab invicem differentes, posset quaestio sic intelligi :
+<lb ed="#L" n="24"/>utrum intellectus agens realiter sit aliquid animae secundum portionem
+<lb ed="#L" n="25"/>rationis superioris vel inferioris.
+</p>
+            <p xml:id="v27ab7-g21313-d1e172">
+               <lb ed="#L" n="26"/>Si autem non sunt diversae potentiae realiter differentes, tunc quaestio
+<lb ed="#L" n="27"/>non quaerit nisi utrum ad actum intelligendi ea quae deputantur rationi
+<lb ed="#L" n="28"/>superiori, requiritur operatio intellectus agentis vel ad actum intelligendi
+<lb ed="#L" n="29"/>alia . Et quia, prout Augustinus dicit loquens de istis, duodecimo de 
+Trini<lb break="no" ed="#L" n="30"/>tate, capitulo quarto, cum de natura mentis humanae disserimus, de una
+<lb ed="#L" n="31"/>quadam re disserimus ?, nec eam in id quo inhaeremus  intelligibili et
+<pb ed="#L" n="251"/>
+               <lb ed="#L" n="1"/>incommutabili veritati quod est sublimioris rationis cuius est iudicare de
+<lb ed="#L" n="2"/>corporalibus secundum rationes incorporeas et sempiternas et etiam id '!
+<lb ed="#L" n="3"/>quod in actione corporalium temporaliumque tractandorum versatur, nisi
+<lb ed="#L" n="4"/>per officia generamus, communiter supponitur quod non sint res diversae.
+<lb ed="#L" n="5"/>Et ideo non potest quaestio habere primum intellectum.
+</p>
+            <p xml:id="v27ab7-g21313-d1e201">
+               <lb ed="#L" n="6"/>Circa secundum vero intellectum quaestionis , est considerandum
+<lb ed="#L" n="7"/>quod, secundum statum vitae praesentis, non est nisi unus modus 
+intelli<lb break="no" ed="#L" n="8"/>gendi omnia sive materialia et transmutabilia, sive immaterialia et aeterna,
+<lb ed="#L" n="9"/>scilicet per abstractionem speciei intelligibilis virtute intellectus agentis,
+<lb ed="#L" n="10"/>mediante phantasmate sive obiecto in virtute phantastica. Propter quod qui
+<lb ed="#L" n="11"/>non habent phantasticum bene dispositum, nihil omnino secundum 
+cur<lb break="no" ed="#L" n="12"/>sum naturae possunt intelligere circa corporalia sive incorporalia. Et ideo,
+<lb ed="#L" n="13"/>pro statu tali, in omni operatione intellectuali necessaria est operatio 
+intel<lb break="no" ed="#L" n="14"/>lectus agentis, propter duo: scilicet, propter subiectum susceptivum, ut
+<lb ed="#L" n="15"/>scilicet virtute eius, quia est lumen quoddam , ipse intellectus possibilis sit
+<lb ed="#L" n="16"/>illustratus et dispositus ad speciei intelligibilis, cum abstracta est, 
+suscep<lb break="no" ed="#L" n="17"/>tionem ; et etiam propter obiectum activum ut ipse intellectus virtute
+<lb ed="#L" n="18"/>luminis sui ipsum sua natura, quae est lux quaedam contingens, 
+con<lb break="no" ed="#L" n="19"/>sequatur quamdam abstractionem a condicionibus particularibus, et sic
+<lb ed="#L" n="20"/>possit intellectum possibilem immutare, prout fuit alias declaratum . Non
+<lb ed="#L" n="21"/>quidem quod huiusmodi duplicem operationem faciat intellectus agens
+<lb ed="#L" n="22"/>vere transmutando de potentia praecedente actum aliquem ad actum illum
+<lb ed="#L" n="23"/>ipsum intellectum possibilem, vel se ipsum respectu obiecti deducendo ;
+<lb ed="#L" n="24"/>sed sic quod, irradiando super phantasmata, sicut lux solis super colores ,
+<lb ed="#L" n="25"/>illud quod in phantasmate ut sic sub particularibus condicionibus tantum
+<lb ed="#L" n="26"/>repraesentatur ?, virtute intellectus agentis praeter huiusmodi condiciones
+<lb ed="#L" n="27"/>individuantes, ut est aliquid secundum se ipsi intellectui possibili 
+reprae<lb break="no" ed="#L" n="28"/>sentetur ; sicut etiam colores qui  secundum se sine luce visum non 
+immu<lb break="no" ed="#L" n="29"/>tant, virtute lucis praesentis ipsum immutant ^, licet non sit omnino simile.
+<lb ed="#L" n="30"/>Et istam actionem acit intellectus agens semper et naturaliter, quantum est
+<lb ed="#L" n="31"/>de se, licet non semper virtute eius fiat talis abstractio a phantasmatibus et
+<lb ed="#L" n="32"/>immutatio intellectus possibilis per ipsam 5, eo quod huic actioni suae
+<lb ed="#L" n="33"/>substernuntur phantasmata quasi pro materia quae non semper sunt 
+con<lb break="no" ed="#L" n="34"/>venlenter disposita et ordinata. Unde, semper secundum se est lux; sed
+<pb ed="#L" n="252"/>
+               <lb ed="#L" n="1"/>illam ! non semper participant phantasmata, quia nec semper subsunt ei,
+<lb ed="#L" n="2"/>ut materia conveniens; sicut etiam lux sensibilis, quantum est de se, semper
+<lb ed="#L" n="3"/>facit suam abstractionem, id est, est in actu, quantum est de se, 
+abstra<lb break="no" ed="#L" n="4"/>hendi respectu colorum, sed non semper abstrahit colores, nisi prout ei
+<lb ed="#L" n="5"/>convenienter dispositi subiciuntur. De hac autem actione intellectus agentis
+<lb ed="#L" n="6"/>loquitur Philosophus, tertio de Anima, cum dicit quod intellectus agens est
+<lb ed="#L" n="7"/>habitus quidam  ut lumen et se habet ad phantasmata sicut lux sensibilis
+<lb ed="#L" n="8"/>ad colores.
+</p>
+            <p xml:id="v27ab7-g21313-d1e286">
+               <lb ed="#L" n="9"/>Aliam autem actionem respectu intellectus possibilis, cui semper est
+<lb ed="#L" n="10"/>coniunctus et coevus, semper facit ipsum sic semper illuminando. De quo
+<lb ed="#L" n="11"/>Commentator, tertio de Anima, dicit quod, sicut aer recipit coloris speciem
+<lb ed="#L" n="12"/>et lucis, sic intellectus possibilis recipit similitudinem rei repraesentatae per
+<lb ed="#L" n="13"/>phantasmata lumine intellectus agentis. Unde, quia intellectus possibilis qui
+<lb ed="#L" n="14"/>est huiusmodi actionis et illustrationis quasi materia semper est praesens
+<lb ed="#L" n="15"/>et subiectus lumini intellectus agentis, dicitur haec actio perpetua.
+</p>
+            <p xml:id="v27ab7-g21313-d1e304">
+               <lb ed="#L" n="16"/>Nec tamen intelligitur quod huiusmodi intellectus agens hoc modo
+<lb ed="#L" n="17"/>agat in intellectum possibilem secundum rationem causae efficientis ipsum,
+<lb ed="#L" n="18"/>aliquo modo transmutando et de potentia ad actum reducendo ut sic
+<lb ed="#L" n="19"/>activum et passivum sint coniuncta subiecto, sed quasi formaliter ipsum
+<lb ed="#L" n="20"/>suo lumine perficiendo. Sic enim huiusmodi illustrationem facit ipse 
+intel<lb break="no" ed="#L" n="21"/>lectus agens, ut dictum est, non effective, sed solum formaliter. Qui autem
+<lb ed="#L" n="22"/>animam creavit per modum causae efficientis, hanc illustrationem fecit
+<lb ed="#L" n="23"/>istas potentias simul in eadem substantia producendo. Sicut etiam cum
+<lb ed="#L" n="24"/>producitur aliquod corpus luminosum in quo sunt istae duae dispositiones,
+<lb ed="#L" n="25"/>scilicet diaphaneitas vel perspicuitas et ipsa lux, dicitur quod lux facit
+<lb ed="#L" n="26"/>huiusmodi corpus, ut est perspicuum, luminosum, non transmutando ipsum
+<lb ed="#L" n="27"/>de potentia praecedente actum ad talem actum reducendo — sed totum
+<lb ed="#L" n="28"/>simul factum est secundum rationem causae efficientis ab agente extrinseco
+— sed ipsum formaliter perficiendo hoc fit a luce.
+</p>
+            <p xml:id="v27ab7-g21313-d1e335">
+               <lb ed="#L" n="29"/>Istis ergo suppositis, est dicendum quod intellectus agens pertinet ad
+<lb ed="#L" n="30"/>rationem quantum ad utrumque eius praedictam portionem vel officium, —
+<lb ed="#L" n="31"/>supposito, sicut communiter supponitur, quod sit aliquid animae, — sic
+<lb ed="#L" n="32"/>scilicet quod intellectus agens et possibilis sunt duae potentiae in una
+<lb ed="#L" n="33"/>substantia animae et non sit aliquod ens separatum ; supposito etiam, ut
+<lb ed="#L" n="34"/>communiter dicitur, quod secundum statum praesentem ex naturalibus non
+<lb ed="#L" n="35"/>possumus attingere ad hoc quod immaterialia immediate per suam nudam
+<lb ed="#L" n="36"/>substantiam videamus ; prout etiam animam nostram sic actu non possimus
+<pb ed="#L" n="253"/>
+               <lb ed="#L" n="1"/>intelligere per se ipsam, sed sicut alia ; et sic per eius operationem cuius
+<lb ed="#L" n="2"/>operationis est aliquid repraesentatum per phantasiam obiectum.
+</p>
+            <p xml:id="v27ab7-g21313-d1e362">
+               <lb ed="#L" n="3"/>Cum arguitur per Augustinum in contrarium ! intelligendum quod
+<lb ed="#L" n="4"/>aliqui  dicunt quod intellectus agens est aliquid animae, sed lux eius
+<lb ed="#L" n="5"/>non sufficit per se ad illustrandum, sic quod de rebus certa et immutabilis
+<lb ed="#L" n="6"/>veritas apprehendatur ; sed ad hoc requiritur illustratio lucis omnino 
+immu<lb break="no" ed="#L" n="7"/>tabilis, scilicet lucis increatae qua etiam lumen intellectus agentis roboratur
+<lb ed="#L" n="8"/>et confortatur ?. Et secundum istos, tunc diceretur quod, non obstante quod
+<lb ed="#L" n="9"/>certa veritas circa ? aeterna apprehendatur virtute luminis increati generalis
+<lb ed="#L" n="10"/>et extrinseci, ad hoc tamen etiam simul requiritur illustratio luminis 
+intel<lb break="no" ed="#L" n="11"/>lectus agentis creati proprii et determinati. Alii  dicunt communius et
+<lb ed="#L" n="12"/>probabilius quod ad cognoscendum ea quae facultati naturali subsunt
+<lb ed="#L" n="13"/>sufficit lumen intellectus agentis cum influentia generali, quae necessaria est
+<lb ed="#L" n="14"/>et ad conservationem rerum in esse et ad exercendum operationes earum.
+</p>
+            <p xml:id="v27ab7-g21313-d1e391">
+               <lb ed="#L" n="15"/>Cum ergo dicit Augustinus, duodecimo de Trinitate, capitulo primo ,
+<lb ed="#L" n="16"/>quod mens iudicat de corporalibus secundum rationes incorporales et 
+sem<lb break="no" ed="#L" n="17"/>piternas quae, nisi supra mentem nostram essent, immutabiles non essent,
+<lb ed="#L" n="18"/>et consimilia dicit in pluribus aliis locis, est intelligendum quod, in quantum
+<lb ed="#L" n="19"/>huiusmodi rationes incommutabiles tamquam prima principia et regula
+<lb ed="#L" n="20"/>omnium aliorum accipiuntur immediate virtute luminis agentis, et non ex
+<lb ed="#L" n="21"/>praecedenti nostra cognitione mentali et intellectuali, (sicut cetera, quae
+<lb ed="#L" n="22"/>menti nostrae subsunt, in quantum virtute istarum deducimus " nos ad 
+cogni<lb break="no" ed="#L" n="23"/>tionem eorum et de ipsis iudicamus per ista, tamquam per prima), de istis
+<lb ed="#L" n="24"/>autem regulis non iudicamus ; quia sunt omnino prima in genere 
+cogni<lb break="no" ed="#L" n="25"/>tionis intellectualis, pro tanto dicuntur supra mentem ei quasi divinitus
+<lb ed="#L" n="26"/>impressae, non quasi a mente acquisitae, quia scilicet non ratiocinando
+<lb ed="#L" n="27"/>acquiritur cognitio talium, sed statim se offerunt. Item, talia principia et
+<lb ed="#L" n="28"/>ipsum lumen agentis in virtute cuius statim apprehenduntur possunt dici
+<lb ed="#L" n="29"/>esse supra mentem nostram, alioquin non essent huiusmodi rationes etiam
+<lb ed="#L" n="30"/>incommutabiles in quantum derivantur  a luce increata, ut illius quaedam
+<lb ed="#L" n="31"/>participatio et imago, virtute cuius, scilicet lucis increatae, quanto 
+excel<lb break="no" ed="#L" n="32"/>lentius participant tanto habent huiusmodi incommutabilitatem et digni-
+<pb ed="#L" n="254"/>
+               <lb ed="#L" n="1"/>tatem magis. Unde, lux increata essentialiter et realiter est supra mentem
+<lb ed="#L" n="2"/>et aliquid extra mentem; et quia in virtute illius, lux intellectus agentis
+<lb ed="#L" n="3"/>et ipsa prima principia virtualiter et immediate in lumine intellectus agentis
+<lb ed="#L" n="4"/>quodammodo comprehensa efficiuntur, habent vim reducendi nos ad actum
+<lb ed="#L" n="5"/>cuiuslibet cognitionis nec etiam ipsa lux intellectus agentis nec veritas
+<lb ed="#L" n="6"/>huiusmodi principiorum in virtute dicti luminis agentis immediate 
+compre<lb break="no" ed="#L" n="7"/>hensorum esset incommutabilis nisi essent quaedam participationes illius
+<lb ed="#L" n="8"/>luminis increati omnino in se immutabilis.Et haec videtur intentio Augustini
+<lb ed="#L" n="9"/>cum dicit, decimo quarto, de Trinitate, capitulo trigesimo quarto, regulae
+<lb ed="#L" n="10"/>quibus quid sit iustum etiam iniustus agnoscit scriptae sunt in libro lucis
+<lb ed="#L" n="11"/>illius quae veritas dicitur. Unde omnis lex iusta describitur ! et in cor hominis
+<lb ed="#L" n="12"/>non migrando, sed tamquam imprimendo transfertur sicut imago annuli
+<lb ed="#L" n="13"/>in ceram transit et annulum non derelinquit. Ouomodo autem intellectus
+<lb ed="#L" n="14"/>agens pertinet ad imaginem quod supraponitur in alio argumento est alibi
+<lb ed="#L" n="15"/>declaratum .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

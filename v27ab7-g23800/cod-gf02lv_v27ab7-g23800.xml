@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="279"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g23800"><!-- v27ab7-q7-q2 -->
+            <head xml:id="v27ab7-g23800-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-g23800-Hd1e101" type="question-title">
+      Utrum distinctio personarum in divinis fiat per absoluta vel relativa
+    </head>
+            <p xml:id="v27ab7-g23800-d1e104">
+               <pb ed="#L" n="279"/>
+               <lb ed="#L" n="1"/>QUAESTIO II.
+<lb ed="#L" n="2"/>Utrum distinctio personarum in divinis fiat per absoluta
+<lb ed="#L" n="3"/>vel relativa.
+</p>
+            <p xml:id="v27ab7-g23800-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa pertinentia ad Deum quantum ad distinctionem 
+perso<lb break="no" ed="#L" n="5"/>narum quaerebantur quaedam pertinentia ad distinctionem personarum
+<lb ed="#L" n="6"/>generaliter, quaedam ad distinctionem personarum quarundam specialiter.
+<lb ed="#L" n="7"/>Circa primum quaerebatur unum, scilicet utrum distinctio personarum in
+<lb ed="#L" n="8"/>divinis fiat per absoluta vel relativa.
+</p>
+            <p xml:id="v27ab7-g23800-d1e128">
+               <lb ed="#L" n="9"/>Et arguitur quod per absoluta. Quia non potest negari fieri 
+distinc<lb break="no" ed="#L" n="10"/>tionem personarum per absoluta nisi propter hoc quod componantur duo
+<lb ed="#L" n="11"/>praedicamenta in divinis, scilicet substantia ratione essentiae quae 
+com<lb break="no" ed="#L" n="12"/>municatur et relatio ratione proprietatum relativarum secundum quas
+<lb ed="#L" n="13"/>dicitur fieri distinctio personarum quibus essentia communicatur, si 
+pone<lb break="no" ed="#L" n="14"/>retur fieri huiusmodi distinctio per absoluta, tollerentur respectus sive 
+rela<lb break="no" ed="#L" n="15"/>tiones in divinis  vel communicatio essentiae divinae; sed per hoc nullum
+<lb ed="#L" n="16"/>istorum tollitur; ergo non debet negari per talia fieri distinctionem. Maior
+<lb ed="#L" n="17"/>patet. Minor probatur: primo, quantum ad primum articulum ; quia, quanto
+<lb ed="#L" n="18"/>aliqua res est magis absoluta et minus dependens ab alia, tanto plures
+<lb ed="#L" n="19"/>respectus in ea possunt fundari eo quod quanto est magis absoluta tanto
+<lb ed="#L" n="20"/>magis est activa; ad omnia autem producta vel productibilia habet 
+respec<lb break="no" ed="#L" n="21"/>tum ; ergo, posito quod in divinis fiat distinctio personarum per ? absoluta,
+<lb ed="#L" n="22"/>nihilominus fundabuntur in Deo respectus diversi. Dicta minor etiam 
+pro<lb break="no" ed="#L" n="23"/>batur quantum ad secundum articulum ; quia, ut iam dictum est, quanto
+<lb ed="#L" n="24"/>aliquid est magis absolutum tanto magis est activum vel productivum ;
+<lb ed="#L" n="25"/>sed illud quod est causativum vel productivum aliquorum in hoc se ipsum
+<lb ed="#L" n="26"/>communicat; ergo, posito quod in divinis fiat distinctio personarum per
+<lb ed="#L" n="27"/>absoluta, nihilominus poterit dici quod divina essentia pluribus 
+com<lb break="no" ed="#L" n="28"/>municatur.
+</p>
+            <p xml:id="v27ab7-g23800-d1e175">
+               <lb ed="#L" n="29"/>Contra. Per illud quod non multiplicatur non potest fieri distinctio
+<lb ed="#L" n="30"/>plurium personarum; sed absoluta in divinis quae sunt essentialia non
+<lb ed="#L" n="31"/>multiplicantur, sicut nec ipsa essentia; ergo et cetera.
+<pb ed="#L" n="280"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod secundum veritatem fidei nobis in Scriptura
+<lb ed="#L" n="2"/>praecipue evangelica revelatae ! tenendum est esse unitatem in trinitate
+<lb ed="#L" n="3"/>et trinitatem in unitate quae exprimitur per trinarium personarum : Patrem
+<lb ed="#L" n="4"/>et Filium et Spiritum Sanctum, quod tamen in hac vita intellectu perfecte
+<lb ed="#L" n="5"/>capere non possimus; propter  quod, qui hanc unitatem cum trinitate conati
+<lb ed="#L" n="6"/>sunt ultra vires intelligere ex eis quae in unitate et distinctione creaturarum
+<lb ed="#L" n="7"/>inveniuntur in diversas haereses inciderunt inter quas duae videntur extrema
+<lb ed="#L" n="8"/>tenere, scilicet haeresis Arriani et Sabelli.
+</p>
+            <p xml:id="v27ab7-g23800-d1e204">
+               <lb ed="#L" n="9"/>Nam Arrianus, volens tenere veram et realem distinctionem 
+supposi<lb break="no" ed="#L" n="10"/>torum Patris et Filii et Spiritus Sancti et? non potens intelligere quod una
+<lb ed="#L" n="11"/>essentia indistincta habet esse in suppositis realiter ab invicem diversis 
+<lb ed="#L" n="12"/>et distinctis, posuit? quod personae essentialiter ab invicem sunt distinctae ;
+<lb ed="#L" n="13"/>et, cum essentia divina sit omnino indivisibilis, oportuit eum ponere quod
+<lb ed="#L" n="14"/>sola persona prima esset Deus et quod aliae essent creaturae nobilissimae.
+<lb ed="#L" n="15"/>Unde non ponebat hanc trinitatem in  unitate ' essentiae divinae convenire 
+<lb ed="#L" n="16"/>nec quamlibet personam esse Deum. Sabellius autem e converso, volens
+<lb ed="#L" n="17"/>tenere summam unitatem et indistinctionem essentiae in tribus personis,
+<lb ed="#L" n="18"/>volens etiam propter auctoritatem Sacrae Scripturae distinctionem 
+perso<lb break="no" ed="#L" n="19"/>narum in Evangelio expressarum aliqualiter ponere in ipsa unitate essentiae,
+<lb ed="#L" n="20"/>ita quod divinitas de qualibet vere praedicaretur  et quaelibet ?? vere Deus
+<lb ed="#L" n="21"/>diceretur, non potens tamen intelligere quomodo, servata unitate essentiae
+<lb ed="#L" n="22"/>divinae, posset in ea intelligi pluralitas aliquorum realiter et supposito ab
+<lb ed="#L" n="23"/>invicem diffe rentium, sed omnis multitudo quae intelligi potest circa
+<lb ed="#L" n="24"/>unitatem simplicis naturae videtur esse distinctorum solum secundum
+<lb ed="#L" n="25"/>rationem et non ponere aliquam pluralitatem extra intellectum, posuit quod
+<lb ed="#L" n="26"/>sicut !! non est nisi una essentia secundum rem in qua accipi possunt multa
+<lb ed="#L" n="27"/>attributa distincta solum secundum " rationem,ita quod deitas ut intelligitur
+<lb ed="#L" n="28"/>esse sapientia distinguitur secundum rationem a se ipsa ut intelligitur esse
+<lb ed="#L" n="29"/>bonitas et cetera, ita etiam ponebat quod in Deo non est nisi una persona
+<lb ed="#L" n="30"/>vel unum suppositum absolutum realiter indivisum et indistinctum, sed
+<lb ed="#L" n="31"/>secundum rationem multiplicatum ; et illud unum et idem suppositum dicitur
+<lb ed="#L" n="32"/>Pater et dicitur Filius et dicitur Spiritus Sanctus sub alia et !? alia ratione.
+<lb ed="#L" n="33"/>Arrianus ergo posuit distinctionem personarum fieri per absoluta realiter
+<lb ed="#L" n="34"/>et essentialiter distincta; Sabellius autem per quaedam relativa relationem
+<lb ed="#L" n="35"/>secundum rationem importantia solum.
+</p>
+            <p xml:id="v27ab7-g23800-d1e265">
+               <pb ed="#L" n="281"/>
+               <lb ed="#L" n="1"/>Nunc autem fides catholica ! viam tutissimam mediam tenens ponit
+<lb ed="#L" n="2"/>unitatem essentiae indivisae realiter, trinitatem autem personarum realiter
+<lb ed="#L" n="3"/>ab invicem distinctarum. Isto autem posito, certa ratione potest sciri quid
+<lb ed="#L" n="4"/>repugnat ? isti distinctioni et quid est illud sine quo non potest habere esse
+<lb ed="#L" n="5"/>talis distinctio, licet? non potest perfecte intelligi quomodo habet esse,
+<lb ed="#L" n="6"/>sicut nec potest sciri quod habet esse.
+</p>
+            <p xml:id="v27ab7-g23800-d1e283">
+               <lb ed="#L" n="7"/>Sed circa hoc sunt diversi modi ponendi. Nam quibusdam videtur quod
+<lb ed="#L" n="8"/>haec distinctio non possit fieri per relativa; quia, — cum proprietas relativa
+<lb ed="#L" n="9"/>comparetur ad essentiam in qua fundatur et ad terminum oppositum
+<lb ed="#L" n="10"/>ad quem eius respectus vel habitudo terminatur et ad quem per ipsam
+<lb ed="#L" n="11"/>relationem suppositum refertur; per ? comparationem autem " ad essentiam
+<lb ed="#L" n="12"/>non habet distinctionem aliquam facere vel importare, quia sic est id ipsum
+<lb ed="#L" n="13"/>quod essentia; per comparationem autem ad oppositum terminum non
+<lb ed="#L" n="14"/>per se habet aliquid distinguere, sed solum habet aliquid ad aliud vel ad
+<lb ed="#L" n="15"/>alterum referre; illud autem de cuius ratione est per se solum ad aliquid
+<lb ed="#L" n="16"/>referre non videtur constituere illud quod refertur , sed videtur illud 
+sup<lb break="no" ed="#L" n="17"/>ponere constitutum et sic etiam ab illo ad quod per relationem referri habet
+<lb ed="#L" n="18"/>distinctum, — difficile est videre quomodo relatio possit esse constitutiva et
+<lb ed="#L" n="19"/>distinctiva suppositi quod per ipsam refertur. Hoc enim omnino in creaturis
+<lb ed="#L" n="20"/>est impossibile ; propter quod videtur quod per relationes non possunt
+<lb ed="#L" n="21"/>personae divinae constitui et distingui, sed oportet quod relationes ipsas
+<lb ed="#L" n="22"/>supponant constitutas et distinctas. Cum enim essentia divina non referatur
+<lb ed="#L" n="23"/>relationibus, sed suppositum, non videtur quod oppositae relationes possint
+<lb ed="#L" n="24"/>immediate intelligi vel fundari vel esse in ipsa essentia omnino indivisa ;
+<lb ed="#L" n="25"/>quare videtur quod circa ipsam praeintelligantur quaedam absoluta 
+ali<lb break="no" ed="#L" n="26"/>quam distinctionem importantia circa ipsam ; et per illa oportet supposita
+<lb ed="#L" n="27"/>praeconstitui et per relationes actus notionales consequentes et ipsis quasi
+<lb ed="#L" n="28"/>supervenientes referri. Haec autem absoluta non sunt aliqua per modum
+<lb ed="#L" n="29"/>informationis et perfectionis se habentia, sicut sapientia, bonitas et cetera,
+<lb ed="#L" n="30"/>quae sunt essentialia et communia ; sed sunt quendam modum habendi
+<lb ed="#L" n="31"/>determinatum essentiae divinae importantia.
+</p>
+            <p xml:id="v27ab7-g23800-d1e340">
+               <lb ed="#L" n="32"/>Sed istud  non valet; nam, secundum Augustinum et alios, quicquid
+<lb ed="#L" n="33"/>est in divinis est pure relatio vel respectus vel pure substantia vel 
+abso<lb break="no" ed="#L" n="34"/>lutum; ergo illud per quod fit distinctio et constitutio personarum una
+<lb ed="#L" n="35"/>cum ipsa essentia communi vel est pure relativum vel est pure absolutum.
+<lb ed="#L" n="36"/>Non absolutum, quia per illud quod reperitur in qualibet persona non
+<pb ed="#L" n="282"/>
+               <lb ed="#L" n="1"/>potest fieri distinctio personarum ; sed quicquid non significat relationem
+<lb ed="#L" n="2"/>in divinis, sed est absolutum et ad essentiam pertinens, secundum
+<lb ed="#L" n="3"/>Augustinum !, in qualibet persona singulatim reperitur et de tribus simul
+<lb ed="#L" n="4"/>collectis in singulari praedicatur, non sic autem quod relationem realem
+<lb ed="#L" n="5"/>importat; ergo per absolutum non potest fieri distinctio, sed per 
+respec<lb break="no" ed="#L" n="6"/>tivum. Quaecumque enim essentialia, quibuscumque modis intelligantur
+<lb ed="#L" n="7"/>vel nominentur, sola ratione ab invicem et ab essentia differunt et ideo per
+<lb ed="#L" n="8"/>essentialia non possunt in divinis aliqua esse distincta realiter secundum
+<lb ed="#L" n="9"/>suppositum, sed sola ratione, ut ponebat Sabellius. Certum est ergo quod
+<lb ed="#L" n="10"/>per absoluta non potest fieri distinctio personarum, quia vel essent solum
+<lb ed="#L" n="11"/>distinctae personae secundum rationem vel essent distinctae secundum
+<lb ed="#L" n="12"/>essentiae realem divisionem et distinctionem. Sicut enim non potest intelligi
+<lb ed="#L" n="13"/>quod sunt plures relationes nisi sint realiter multiplicatae et ab invicem
+<lb ed="#L" n="14"/>distinctae, ita non potest intelligi quod sint plures substantiae vel essentiae
+<lb ed="#L" n="15"/>absolutae quin sint realiter multiplicatae et ab invicem divisae. Dicere
+<lb ed="#L" n="16"/>ergo quod sunt? aliqua absoluta quae sunt propria personis, cum illud
+<lb ed="#L" n="17"/>quod est ut proprium in una non sit in alia, est ponere realem 
+distinc<lb break="no" ed="#L" n="18"/>tionem in essentia divina, quod est impossibile.
+</p>
+            <p xml:id="v27ab7-g23800-d1e395">
+               <lb ed="#L" n="19"/>Oportet ergo ponere personas realiter distinctas per relativa ? quae
+<lb ed="#L" n="20"/>distinctionem [et]  realem important inter se propter oppositionem quam
+<lb ed="#L" n="21"/>habent et tamen distinctionem in essentia non faciunt, quia sunt realiter
+<lb ed="#L" n="22"/>idem cum ipsa. Oppositae autem sunt inter se secundum rationem et 
+rela<lb break="no" ed="#L" n="23"/>tionem originis, quia important hoc quod est esse ab alio vel a quo alius;
+<lb ed="#L" n="24"/>idem autem sunt cum essentia et nullam faciunt compositionem cum ea ;
+<lb ed="#L" n="25"/>et per consequens nec plures res vel personae eis constitutae, quia in ipsa
+<lb ed="#L" n="26"/>substantia immediate fundantur ipsae relationes et non mediante aliquo
+<lb ed="#L" n="27"/>accidente. Unde et substantiales relationes, non accidentales dicuntur, et
+<lb ed="#L" n="28"/>Sic, sicut essentia secundum se non dividitur, ita etiam nec per huiusmodi 
+<lb ed="#L" n="29"/>relationes ipsa dividitur. Tamen ut comparantur ad ipsam sunt ' id ipsum
+<lb ed="#L" n="30"/>quod ipsa; propter quod cum illarum pluralitate stat  unitas essentiae,
+<lb ed="#L" n="31"/>propter oppositionem tamen quam habent utad invicem comparantur
+<lb ed="#L" n="32"/>realiter distinguuntur, nec una potest de alia praedicari, nec simul possunt
+<lb ed="#L" n="33"/>esse in eodem quod per ipsas referatur, quia idem reali relatione ad se
+<lb ed="#L" n="34"/>ipsum referri non potest. Unde qui ponunt quod plures relationes reales
+<lb ed="#L" n="35"/>possunt habere unum fundamentum in quo fundantur et cum hoc unum
+<lb ed="#L" n="36"/>quod sit subiectum et suppositum quod referatur et quod etiam "" sit terminus
+<pb ed="#L" n="283"/>
+               <lb ed="#L" n="1"/>ad quem habitudo relativa terminatur, nullo modo videntur posse ponere
+<lb ed="#L" n="2"/>vel saltem ostendere pluralitatem suppositorum in divinis.
+</p>
+            <p xml:id="v27ab7-g23800-d1e444">
+               <lb ed="#L" n="3"/>Ad distinctionem personarum ergo in unitate essentiae indistinctae
+<lb ed="#L" n="4"/>oportet supponere essentiam omnino indivisibilem in plura supposita, 
+com<lb break="no" ed="#L" n="5"/>municabilem per diversos modos habendi illam, ut personae intelligantur
+<lb ed="#L" n="6"/>distinctae ex hoc quod unam et eandem? essentiam habent secundum
+<lb ed="#L" n="7"/>alium et alium modum habendi. Unde alietas personarum consistit in alietate
+<lb ed="#L" n="8"/>modi habendi essentiam, ita tamen quod illa alietas modi habendi ? non
+<lb ed="#L" n="9"/>est nisi alietas secundum relationes originis  et non est aliquid  pertinens
+<lb ed="#L" n="10"/>ad essentiam vel essentialia, vel praecedens secundum rationem intelligendi
+<lb ed="#L" n="11"/>ipsas relationes quibus supposita secundum hos modos habendi distincta
+<lb ed="#L" n="12"/>ad invicem referantur; sed iste alius et alius modus habendi essentiam
+<lb ed="#L" n="13"/>divinam in alia vel ab alia et alia persona non est nisi ipsa proprietas
+<lb ed="#L" n="14"/>relativa per quam et constituitur persona in esse personali et ab alia "
+<lb ed="#L" n="15"/>distinguitur et ad aliam refertur relatione originis. Isti enim modi habendi
+<lb ed="#L" n="16"/>essentiam divinam distincti non sunt nisi bi: habere eam, scilicet non ab
+<lb ed="#L" n="17"/>alio, sed sicut a quo alius, cum non habeat eam sibi communicatam, hoc
+<lb ed="#L" n="18"/>autem est eam habere sub vi vel cum vi activa, quae "est vis generandi
+<lb ed="#L" n="19"/>et spirandi active; et habere eam ab alio vel ut ab alio sibi communicatam,
+<lb ed="#L" n="20"/>hoc est eam habere sub vi vel cum vi quasi passiva quae est vis generandi
+<lb ed="#L" n="21"/>vel spirandi quasi passive; sicut etiam esse talem, ut a quo alius, non est
+<lb ed="#L" n="22"/>nisi esse generative vel spirative ; et esse talem, ut qui ab alio, non est nisi
+<lb ed="#L" n="23"/>esse generatum vel spira tum.
+</p>
+            <p xml:id="v27ab7-g23800-d1e492">
+               <lb ed="#L" n="24"/>Constat ergo quod diversi modi habendi quos mcludunt personae cum
+<lb ed="#L" n="25"/>essentia non sunt nisi ipsae proprietates relativae personarum constitutivae
+<lb ed="#L" n="26"/>et distinctivae. Unde dicit Damascenus, libro tertio, capitulo quinto: 
+una<lb break="no" ed="#L" n="27"/>quaeque hypostasis per se ipsam existit et propriam proprietatem, scilicet
+<lb ed="#L" n="28"/>existentiae modum diversum possidet; et libro primo, capitulo decimo
+<lb ed="#L" n="29"/>tertio: haec omnia, scilicet bonus, sapiens, aeternus et cetera communiter
+<lb ed="#L" n="30"/>in omni  deitate sunt suscipienda et eodem modo et simpliciter et 
+imperti<lb break="no" ed="#L" n="31"/>biliter et unite; distinctive vero Pater et Filius et Spiritus Sanctus et cum
+<lb ed="#L" n="32"/>causa et sine causa et ingenitum et genitum et processibile; quae non
+<lb ed="#L" n="33"/>substantiae sunt significativa, sed eius quae ad invicem est habitudinis et
+<lb ed="#L" n="34"/>existentiae modi. Illud autem per quod fit prima distinctio est etiam  illud
+<lb ed="#L" n="35"/>per quod fit et '" constitutio personarum divinarum ; per illud enim per quod
+<lb ed="#L" n="36"/>aliquid ' in se ' constituitur et ab alio distinguitur, et e converso ; et quod
+<pb ed="#L" n="284"/>
+               <lb ed="#L" n="1"/>sit non per absoluta, sed per relativa omnes doctores dicunt. Unde Ricardus,
+<lb ed="#L" n="2"/>quarto de Trinitate, capitulo decimo septimo : proprietas personalis est ex
+<lb ed="#L" n="3"/>qua unusquisque habet esse is qui ipse est per quam quilibet unus est et
+<lb ed="#L" n="4"/>ab omnibus aliis distinctus. Et Boetius, de Trinitate: Deus nullas habet
+<lb ed="#L" n="5"/>differentias quibus differat a Deo; differentiae vero ! ubi absunt et abesse
+<lb ed="#L" n="6"/>pluralitas. Substantia ergo continet unitatem ; relatio multiplicat trinitatem ;
+<lb ed="#L" n="7"/>atque ideo singulatim proferuntur atque separatim quae relationis sunt ;
+<lb ed="#L" n="8"/>nam, idem Pater qui Filius ; non est idem tamen Deus est  Pater et Filius.
+<lb ed="#L" n="9"/>Per istas enim relativas proprietates convenienter potest fieri constitutio
+<lb ed="#L" n="10"/>personarum et distinctio . Sed tamen hoc proprium et singulare est in Deo
+<lb ed="#L" n="11"/>propter eius infinitatem et illimitationem quod ponitur in ipso una essentia
+<lb ed="#L" n="12"/>et tamen sunt et distincta supposita dicto modo per relationes et sunt
+<lb ed="#L" n="13"/>ista supposita in divinis vere supposita ratione essentiae quae est verissime
+<lb ed="#L" n="14"/>substantia quam includunt ^; vere etiam " sunt distincta ratione 
+relationum<lb break="no" ed="#L" n="15"/>oppositarum quas important. Unde in constitutione personae oportet includi
+<lb ed="#L" n="16"/>essentiam communem quasi materiale et proprietatem relativam quasi
+<lb ed="#L" n="17"/>formale, sicut in constitutione speciei concurrit genus et differentia. 
+Verum<lb break="no" ed="#L" n="18"/>tamen sciendum est quod ipsa relatio vel proprietas relativa secundum
+<lb ed="#L" n="19"/>rationem ? intelligendi prius habet sub ratione proprietatis sive  formae
+<lb ed="#L" n="20"/>ipsam personam constituere ut suppositum quoddam distinctum, quam ad
+<lb ed="#L" n="21"/>aliud suppositum distinctum secundum formam et rationem relationis referre.
+</p>
+            <p xml:id="v27ab7-g23800-d1e570">
+               <lb ed="#L" n="22"/>Ad argumentum in oppositum patet responsio. Nam, si non ponatur
+<lb ed="#L" n="23"/>fieri distinctio in divinis per relationes reales oppositas originis distinguentes\
+<lb ed="#L" n="24"/>personas, tollentur omnes relationes reales a divinis, quia ea quae 
+con<lb break="no" ed="#L" n="25"/>veniunt Deo in se ipso ut sunt ipsa essentia et essentialia attributa non
+<lb ed="#L" n="26"/>possunt ad invicem habere distinctionem realem, sed solum secundum
+<lb ed="#L" n="27"/>rationem ; et ideo nec ad invicem possunt referri relatione reali et realiter.
+<lb ed="#L" n="28"/>Propter quod oportet quod ad hoc quod relatio realis sit in Deo quod hoc
+<lb ed="#L" n="29"/>sit per illud quod Deo competit secundum suppositum unum et in 
+habi<lb break="no" ed="#L" n="30"/>tudine ad aliud ad quod refertur secundum relationem originis. Unde, si
+<lb ed="#L" n="31"/>Verbum in divinis non oriretur realiter a mente Patris per actum verum
+<lb ed="#L" n="32"/>divinum, non esset vera relatio originis inter Verbum productum et Patrem
+<lb ed="#L" n="33"/>producentem nec distin gueretur Verbum a Patre per relationem realem ;
+<lb ed="#L" n="34"/>et sic non esset distinctio realis inter ipsos. Verum est tamen quod per hoc
+<lb ed="#L" n="35"/>non tolleretur relatio rationis, tam in his quae Deo conveniunt secundum
+<lb ed="#L" n="36"/>se, ut dictum est, quam in respectu ad creaturas. Posito enim, sicut infideles.
+<pb ed="#L" n="285"/>
+               <lb ed="#L" n="1"/>ponunt, quod non esset aliqua distinctio realis inter personas et tamen
+<lb ed="#L" n="2"/>Deus esset causa rerum, in ipso esset relatio secundum rationem ad omnes
+<lb ed="#L" n="3"/>suos effectus qui ad ipsum realiter referrentur.
+</p>
+            <p xml:id="v27ab7-g23800-d1e614">
+               <lb ed="#L" n="4"/>Patet etiam quod per hoc quod tolleretur distinctio inter personas per
+<lb ed="#L" n="5"/>relationes, tolleretur communicatio essentiae divinae eo modo quo 
+intel<lb break="no" ed="#L" n="6"/>ligimus communicari eam, quia essentia una et eadem secundum rem non
+<lb ed="#L" n="7"/>posset in pluribus reperiri si tollantur proprietates vel relationes reales
+<lb ed="#L" n="8"/>originis quibus originans ad originatum et e converso realiter referuntur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

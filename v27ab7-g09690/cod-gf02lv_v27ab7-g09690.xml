@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="112"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g09690"><!-- v27ab7-q6-q3 -->
+            <head xml:id="v27ab7-g09690-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-g09690-Hd1e101" type="question-title">
+      Utrum Corpus Christi gloriosum quod est in caelo habet vere esse in altari sub speciebus panis
+    </head>
+            <p xml:id="v27ab7-g09690-d1e104">
+               <lb ed="#L" n="12"/>QUAESTIO III.
+<lb ed="#L" n="13"/>Utrum Corpus Christi gloriosum quod est in caelo habet vere esse in altari
+<lb ed="#L" n="14"/>sub speciebus panis.
+</p>
+            <p xml:id="v27ab7-g09690-d1e113">
+               <lb ed="#L" n="15"/>Deinde circa creaturas quaerebantur quaedam pertinentia ad naturam creatam a
+<lb ed="#L" n="16"/>natura divina in unitate suppositi assumptam ', quaedam vero circa alias creaturas puras.
+</p>
+            <p xml:id="v27ab7-g09690-d1e120">
+               <lb ed="#L" n="17"/>Circa primum quaerebatur unum, videlicet utrum verum Corpus Christi gloriosum
+<lb ed="#L" n="18"/>quod est in caelo hal eat vere esse in altari sub speciebus panis. Et arguebatur quod non,
+<lb ed="#L" n="19"/>quia dicitur — de consecratione, distinctione secunda, capitulo: prima quidem, — quod cum
+<lb ed="#L" n="20"/>dixisset Iesus illud Iohannis, sexto: nisi quis manducaverit meam carnem et biberit meum
+<lb ed="#L" n="21"/>sanguinem non habebit vitam aeternam, quidam propter duritiam sermonis recesserunt
+<lb ed="#L" n="22"/>€t tunc Iesus alios instruens quomodo  hoc esset intelligendum dixit: Spiritus est qui
+<lb ed="#L" n="23"/>vivificat, caro nihil prodest; et ita spiritualiter intelligite quae? locutus sum, non hoc
+<lb ed="#L" n="24"/>corpus quod videtis manducaturi estis; sacramentum quod vobis commendavi 
+spiritua<lb break="no" ed="#L" n="25"/>liter  intellectum vivificabit vos. Caro autem non prodest quicquam. Et iníra ^: donec
+<lb ed="#L" n="26"/>finiatur saeculum sursum est Dominus. Sed tamen etiam vobiscum est haec veritas
+<lb ed="#L" n="27"/>Dominus. Corpus enim in quo resurrexit in uno loco esse oportet, veritas autem eius
+<lb ed="#L" n="28"/>ubique est diffusa. Ex istis videtur quod verum Corpus Christi non sit in altari quia, ut
+<lb ed="#L" n="29"/>exponit Augustinus, verba Christi spiritualiter sic sunt intelligenda quod non illud Corpus
+<lb ed="#L" n="30"/>quod videbatur sumitur in sacramento, prout etiam dicit in fine: verum Corpus Christi est
+<lb ed="#L" n="31"/>in  uno solo loco, scilicet in caelo ; quare et cetera. Et etiam rubrica huius 5 capituli dicit :
+<lb ed="#L" n="32"/>non carnaliter sed spiritualiter Corpus Christi et sanguinem Christi debemus accipere.
+</p>
+            <p xml:id="v27ab7-g09690-d1e158">
+               <lb ed="#L" n="33"/>Contra. Non minus potens est virtus divina ad convertendum substantiam panis in
+<lb ed="#L" n="34"/>substantiam corporis sui in caelo existentis quam ad pruducendum ex nihilo quamcumque
+<lb ed="#L" n="35"/>creaturam. Ergo cum constet ipsum omnia produxisse ex nihilo, potest etiam substantiam
+<lb ed="#L" n="36"/>aliquam in corporis sui substantiam convertere. Unde dicitur eadem distinctione, capitulo:
+<lb ed="#L" n="37"/>quia Corpus : sicut ad nutum praecipientis Domini repente ex nihilo substiterunt excelsa
+<pb ed="#L" n="113"/>
+               <lb ed="#L" n="1"/>caelorum, ita pari potestate in substantiam corporis sui visibiles creaturas convertit,
+<lb ed="#L" n="2"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g09690-d1e178">
+               <lb ed="#L" n="3"/>Respondeo dicendum quod Corpus Christi non figurative vel signative sive sicut
+<lb ed="#L" n="4"/>in signo est in altari, sed vere et realiter, mediantibus dimensionibus panis, est in eodem
+<lb ed="#L" n="5"/>loco in quo panis erat et adhuc esset substantia panis si dictis dimensionibus afficeretur
+<lb ed="#L" n="6"/>sicut ante conversionem afficiebatur eisdem.
+</p>
+            <p xml:id="v27ab7-g09690-d1e189">
+               <lb ed="#L" n="7"/>Dupliciter enim potest aliquid habere esse in aliquo loco vere et realiter: uno modo
+<lb ed="#L" n="8"/>per se et directe et immediate, et sic est aliquid in loco cum per dimensiones suas proprias
+<lb ed="#L" n="9"/>quibus per se afficitur est in illo loco quo ipsum secundum huiusmodi dimensiones 
+cir<lb break="no" ed="#L" n="10"/>cumscribitur et quibus huiusmodi locum occupat et replet; et sic Corpus Christi non potest
+<lb ed="#L" n="11"/>esse nisi in uno loco et sic est modo in caelo. Nec potest hoc modo habere esse in alio
+<lb ed="#L" n="12"/>loco nisi per eius motum localem quo ad locum alium transferatur, sicut etiam substantia
+<lb ed="#L" n="13"/>panis ante eius conversionem est in loco determinato mediantibus dimensionibus suis
+<lb ed="#L" n="14"/>quibus afficitur.
+</p>
+            <p xml:id="v27ab7-g09690-d1e209">
+               <lb ed="#L" n="15"/>Alio modo potest aliquid? esse in loco realiter et vere per accidens et mediate sive
+<lb ed="#L" n="16"/>per aliud. Sic est aliquid in loco aliquo cum aliquid quod per suas dimensiones existens
+<lb ed="#L" n="17"/>in aliquo loco convertitur in aliquid aliud quantum ad suam substantiam, dimensionibus
+<lb ed="#L" n="18"/>per quas conversum erat in loco remanentibus; et sic Corpus Christi sine sui mutatione,
+<lb ed="#L" n="19"/>sed alterius in ipsum conversione, potest esse de novo in aliquo uno loco ubi prius non
+<lb ed="#L" n="20"/>erat vel etiam simul in pluribus locis secundum quod plura in ipsum converti possunt.
+<lb ed="#L" n="21"/>Cum ergo substantia panis quae vere est in loco vere etiam convertatur et 
+transsubstan<lb break="no" ed="#L" n="22"/>tietur in verum Corpus Christi, dictis dimensionibus in loco sicut prius remanentibus nec
+<lb ed="#L" n="23"/>aliquid aliud afficientibus, et huiusmodi panis non adnihilatur, sed in illud quod verius est
+<lb ed="#L" n="24"/>et nobilius ? transit et quodam modo conservatur, ipsum Corpus Cliristi sic in se quodam
+<lb ed="#L" n="25"/>modo continens et conservans substantiam panis non adnihilatam, sed dicto modo in se
+<lb ed="#L" n="26"/>transsubstantiatam et conversam, vere est ibi mediantibus dictis dimensionibus quae factae
+<lb ed="#L" n="27"/>sunt iam ipsius corporis Christi, non quidem ipsum afficientes et ei inhaerentes, sed ipsum
+<lb ed="#L" n="28"/>ratione eius quod afficiebant — quia sic  conversum est et factum id ipsum quod Corpus
+<lb ed="#L" n="29"/>Christi — ad locum eumdem determinantes ad quem etiam id quod conversum est sic per
+<lb ed="#L" n="30"/>ipsas prius secundum se solum antequam converteretur determinabatur, et nunc etiam
+<lb ed="#L" n="31"/>illud in quod conversum est (quia, ut dictum est, non adnihilatur) per ipsum sic conversum
+<lb ed="#L" n="32"/>sive ipsum conversum ut existens id ipsum quod est illud in quod est conversum adhuc
+<lb ed="#L" n="33"/>determinatur. Unde quia substantia panis erat subiectum illarum dimensionum, erat ibi
+<lb ed="#L" n="34"/>realiter et localiter co quod ad locum illum mediantibus suis propriis dimensionibus 
+com<lb break="no" ed="#L" n="35"/>parabatur; corpus vero Christi, quia illis dimensionibus non afficitur nec sunt eius per
+<lb ed="#L" n="36"/>informationem et inhaerentiam, non potest ibi esse localiter. Sed quia ipsa substantia
+<lb ed="#L" n="37"/>corporis Christi succedit ibi substantiae panis quae in Corpus Christi totaliter est 
+con<lb break="no" ed="#L" n="38"/>versa et non est adnihilata, ideo est ibi realiter et vere quamdiu dictae dimensiones
+<lb ed="#L" n="39"/>remanent sub eadem dispositione et habitudine qua ipsam  substantiam panis afficiebant
+<lb ed="#L" n="40"/>et afficere potuissent. Quantum ad hoc ergo quod Corpus Christi comparatur ad locum
+<lb ed="#L" n="41"/>talem, mediantibus dimensionibus alienis, pro tanto, quia illis non informatur nec afficitur
+<lb ed="#L" n="42"/>nec illae sunt suae proprie et per se, id est, suam propriam naturam humanam naturaliter
+<pb ed="#L" n="114"/>
+               <lb ed="#L" n="1"/>consequentes et sibi ratione huiusmodi suae naturae secundum se competentes secundum '
+<lb ed="#L" n="2"/>quas per se habet esse in loco et loco commensurari, dicitur ibi non esse localiter. Quantum
+<lb ed="#L" n="3"/>ad hoc vero quod dimensionibus illis manentibus succedit verum Corpus Christi substantiae
+<lb ed="#L" n="4"/>panis dicto modo in ipsum Corpus Christi vere et realiter conversae dicitur ibi esse non
+<lb ed="#L" n="5"/>signative vel figurative, sed vere et realiter — sacramentaliter tamen ! —; unde si sit aliqua
+<lb ed="#L" n="6"/>hostia non consecrata sed similis consecratae et ad consecrandum ordinata et disposita,
+<lb ed="#L" n="7"/>Corpus Christi non diceretur esse ubi est talis hostia non solum localiter, sed nec vere nec
+<lb ed="#L" n="8"/>realiter, sed solum signative? sive ut in signo vel figura, sicut dicitur esse ubi est aliqua
+<lb ed="#L" n="9"/>imago et similitudo corporis Christi. Sed dicitur vere et realiter esse ubi est hostia 
+conse<lb break="no" ed="#L" n="10"/>crata, licet non localiter; et ex hoc patet quod corruptione vel mutatione tali facta circa
+<lb ed="#L" n="11"/>dictas dimensiones quod non possent esse dimensiones panis existentis, sicut substantia
+<lb ed="#L" n="12"/>panis per illas non posset habere esse in loco localiter post talem corruptionem, quia in
+<lb ed="#L" n="13"/>ipsa substantia panis non manerent, ita etiam facta conversione Corpus Christi per tales
+<lb ed="#L" n="14"/>dimensiones non poterit habere esse ubi ipsae sunt dicto modo sacramentaliter,
+</p>
+            <p xml:id="v27ab7-g09690-d1e305">
+               <lb ed="#L" n="15"/>Per praedicta patet responsio ad rationem in oppositum . Nam cum Augustinus
+<lb ed="#L" n="16"/>exponens Verba Christi dicit; non hoc Corpus quod videtis manducaturi estis, non intendit
+<lb ed="#L" n="17"/>excludere veritatem corporis Christi, sed declarare quod non esset manducandum in hac
+<lb ed="#L" n="18"/>specie qua ab eis videbatur. Unde dicit Magister, libro quarto sententiarum, distinctione
+<lb ed="#L" n="19"/>decima, ubi tractat hanc materiam : his verbis quae Augustinus exponit non negatur verum
+<lb ed="#L" n="20"/>Corpus Christi esse in altari et a fidelibus manducari, sed his verbis instruimur quod ipsum
+<lb ed="#L" n="21"/>Corpus non per partes discretum 5, sed integrum, nec visibile in forma humana, sed 
+invisi<lb break="no" ed="#L" n="22"/>biliter sub specie panis et vini Corpus et sanguinem nobis traderet ; et sic intelligitur
+<lb ed="#L" n="23"/>spiritualiter 5, id est invisibiliter, quia non in forma humana apparet, sed sub specie panis
+<lb ed="#L" n="24"/>et vini operitur et in uno loco tantum est visibiliter secundum formam propriam humanam
+<lb ed="#L" n="25"/>et tamen verum Corpus est ubique, scilicet ubi hoc sacramentum celebratur et panis
+<lb ed="#L" n="26"/>consecratur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

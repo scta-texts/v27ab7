@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="32"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g02651"><!-- v27ab7-q5-q9 -->
+            <head xml:id="v27ab7-g02651-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-g02651-Hd1e101" type="question-title">
+      Utrum intellectus agens habeat operationem in aperta
+      visione essentiae divinae
+    </head>
+            <p xml:id="v27ab7-g02651-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO IX.
+<lb ed="#L" n="17"/>Utrum intellectus agens habeat operationem in aperta
+<lb ed="#L" n="18"/>visione essentiae divinae.
+</p>
+            <p xml:id="v27ab7-g02651-d1e113">
+               <lb ed="#L" n="19"/>Postea arguebatur ad secundum praedictorum, ostendendo scilicet
+<lb ed="#L" n="20"/>quod intellectus agens non habeat aliquam operationem in visione qua
+<lb ed="#L" n="21"/>videtur Deus aperte a beatis, quia operatio intellectus agentis videtur esse,
+<lb ed="#L" n="22"/>virtute sui luminis abstrahere species universales  a sensibilibus et facere
+<lb ed="#L" n="23"/>intelligibilia in potentia in actu intelligibilia . Sed Deus non est intelligibile
+<lb ed="#L" n="24"/>sic in potentia quod per abstractionem fiat intelligibile in actu. Ergo et
+<lb ed="#L" n="25"/>cetera.
+</p>
+            <p xml:id="v27ab7-g02651-d1e131">
+               <lb ed="#L" n="26"/>Contra. Praemium respondet merito. Ergo id quod est principium
+<lb ed="#L" n="27"/>merendi debet praemiari. Sed intellectus agens est principium merendi,
+<lb ed="#L" n="28"/>tam secundum vitam activam quam contemplativam, quia eius virtute fiunt
+<lb ed="#L" n="29"/>nobis nota tam agibilia quam speculabilia, ergo debet premiari. Hoc autem
+<lb ed="#L" n="30"/>non contingeret si nullam operationem in patria haberet; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g02651-d1e145">
+               <pb ed="#L" n="33"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod, prout dicit Augustinus quarto decimo de
+<lb ed="#L" n="2"/>Trinitate, c. quinto decimo, imago naturae eius, qua natura nulla melior est,
+<lb ed="#L" n="3"/>ibi quaerenda ' et invenienda est in nobis, quo etiam natura nostra nihil
+<lb ed="#L" n="4"/>habet melius, et, prout ibi declarat, hoc est in actibus potentiarum animae,
+<lb ed="#L" n="5"/>quibus attingit ad Dei cognitionem et amorem. Unde etiam dicit ibi, quod
+<lb ed="#L" n="6"/>eo ipso anima imago Dei est quod capax eius est, particepsque esse potest,
+<lb ed="#L" n="7"/>scilicet per cognitionem et dilectionem. Unde summe perficitur anima et
+<lb ed="#L" n="8"/>summe habet perfectionem imaginis, cum actu beatificativo Deo fruitur,
+<lb ed="#L" n="9"/>ipsum aperte videndo et perfecte diligendo. Et quia tota mens est ad Dei
+<lb ed="#L" n="10"/>imaginem secundum omnes eius potentias, et est in ipsa secundum actus
+<lb ed="#L" n="11"/>harum potentiarum imago, licet minus perfecte secundum quod cognoscit
+<lb ed="#L" n="12"/>alia a Deo, et ad illos actus aliquid omnes potentiae operantur, et, ut dictum
+<lb ed="#L" n="13"/>est, intellectus agens in quantum ad actum intelligendi operatur etiam ad
+<lb ed="#L" n="14"/>imaginem pertinet; — illa autem quae pertinent ad imaginem respectu
+<lb ed="#L" n="15"/>actuum in quibus minus perfecte ratio imaginis invenitur videntur etiam
+<lb ed="#L" n="16"/>pertinere ad ipsam respectu actuum circa Deum in quibus imago perfectius
+<lb ed="#L" n="17"/>invenitur ; hoc autem non esset nisi ad actus illos aliquid operarentur vel
+<lb ed="#L" n="18"/>conferrent ; — ideo videtur dicendum quod intellectus agens aliquam 
+ope<lb break="no" ed="#L" n="19"/>rationem habet vel aliquid confert ad actum visionis beatae.
+</p>
+            <p xml:id="v27ab7-g02651-d1e191">
+               <lb ed="#L" n="20"/>Sed tamen, quantum ad actum qui est respectu cognoscibilium 
+mate<lb break="no" ed="#L" n="21"/>rialium, intellectus agens qui est lumen quoddam, suo lumine habet 
+dupli<lb break="no" ed="#L" n="22"/>cem operationem. Unam scilicet respectu ipsorum cognoscibilium, et
+<lb ed="#L" n="23"/>aliam respectu ipsius intellectus possibilis qui reducitur in actum 
+cogni<lb break="no" ed="#L" n="24"/>tionis illorum. Quia et phantasmata, sive res materiales ut in phantasmate
+<lb ed="#L" n="25"/>repraesentantur, aliquo modo illustrat et informat ad hoc quod habeant
+<lb ed="#L" n="26"/>vim movendi intellectum possibilem sic quod ipse intellectus possibilis
+<lb ed="#L" n="27"/>possit ? secundum speciem intelligibilem per illa  fieri actu intelligens ut
+<lb ed="#L" n="28"/>infra videbitur. Et etiam ipsum intellectum possibilem illustrat et aliquo
+<lb ed="#L" n="29"/>modo informat ad hoc quod sit susceptivus speciei intelligibilis praesentibus
+<lb ed="#L" n="30"/>phantasmatibus. Unde dicitur esse quidam habitus ut lux, habitus quidem
+<lb ed="#L" n="31"/>in anima existens ut lumen quoddam, ipsum ad receptionem specierum
+<lb ed="#L" n="32"/>intelligibilium elevans? et disponens ; — sicut si diceretur de aere diaphano
+<lb ed="#L" n="33"/>illuminato, quod si ipsa diaphaneitas esset virtus visiva, lux ejus quae est
+<lb ed="#L" n="34"/>quasi quidam habitus et forma, duplicem operationem haberet, unam 
+res<lb break="no" ed="#L" n="35"/>pectu coloris ponendo quod color non posset facere suam speciem 
+inten<lb break="no" ed="#L" n="36"/>tionalem in diaphano ' nisi virtute praesentiae lucis, et aliam respectu ipsius
+<pb ed="#L" n="34"/>
+               <lb ed="#L" n="1"/>diaphani ponendo quod non esset susceptivum talis intentionis secundum
+<lb ed="#L" n="2"/>quam fieret actu videns nisi illustratum huiusmodi luce; et sicut ' 
+etiam<lb break="no" ed="#L" n="3"/>modo ponitur secundum aliquos quod oportet pupillam esse aliqua luce
+<lb ed="#L" n="4"/>illustratam, non solum medium vel colorem, ad hoc quod potentia visiva .
+<lb ed="#L" n="5"/>fiat actu videns.
+</p>
+            <p xml:id="v27ab7-g02651-d1e243">
+               <lb ed="#L" n="6"/>Sed respectu visionis divinae essentiae non potest habere intellectus
+<lb ed="#L" n="7"/>agens aliquam operationem circa ipsam essentiam divinam, quia lumen
+<lb ed="#L" n="8"/>suum est quasi tenebra respectu illius  lucis infinitae quae seipsa est 
+actua<lb break="no" ed="#L" n="9"/>lissima et summe intellectualis. Sed circa ipsum in tellectum possibilem
+<lb ed="#L" n="10"/>qui est nuda potentia respectu cuiuscumque ' intelligibilis et luminis 
+intellec<lb break="no" ed="#L" n="11"/>tualis, oportet quod habeat aliquam operationem quae est ipsum suo lumine
+<lb ed="#L" n="12"/>naturali dispositive illustrare et informare ut sit susceptivus cuiuscumque
+<lb ed="#L" n="13"/>intelligibilis.
+</p>
+            <p xml:id="v27ab7-g02651-d1e263">
+               <lb ed="#L" n="14"/>Licet tamen illud lumen sive huiusmodi illustratio, qua intellectus 
+pos<lb break="no" ed="#L" n="15"/>sibilis lumine intellectus agentis illustratur, sufficiat ad intelligendum 
+intel<lb break="no" ed="#L" n="16"/>ligibilia sibi proportionalia, non tamen sufficit respectu intelligibilis infiniti
+<lb ed="#L" n="17"/>et super naturalis, sed cum hoc requiritur lumen aliquod gloriae 
+per<lb break="no" ed="#L" n="18"/>fectius, quo elevatur, et amplius et perfectius illustratur et disponitur, ut
+<lb ed="#L" n="19"/>possit praesentia intelligibilis supernaturalis perfici, et eius aperta visione
+<lb ed="#L" n="20"/>informari. Et quia gratia et gloria perficit et supponit naturam, sicut anima
+<lb ed="#L" n="21"/>non posset perfici beata visione immo nec quocumque actu intelligendi
+<lb ed="#L" n="22"/>nisi in ea esset intellectus possibilis, qui est potentia ejus naturalis 
+secun<lb break="no" ed="#L" n="23"/>dum quam est capax subiective cuiuslibet intelligibilis, ita etiam, si in ea
+<lb ed="#L" n="24"/>non esset intellectus agens qui est potentia ejus naturalis qua ipse 
+possi<lb break="no" ed="#L" n="25"/>bilis illustratur et disponitur vel perficitur ad hoc quod possit fieri in actu
+<lb ed="#L" n="26"/>dicto modo, non esset capax cuiuscumque actus intelligendi.
+</p>
+            <p xml:id="v27ab7-g02651-d1e294">
+               <lb ed="#L" n="27"/>Sed ut dictum est, lumen intellectus agentis sufficienter elevat et 
+per<lb break="no" ed="#L" n="28"/>ficit intellectum possibilem ut praesente objecto sibi proportionato fiat in
+<lb ed="#L" n="29"/>actu secundum illud, sed non sufficit respectu primi intelligibilis quantum
+<lb ed="#L" n="30"/>ad immediatam visionem ; sed ultra lumen connaturale intellectus agentis,
+<lb ed="#L" n="31"/>requiritur lumen supernaturale scilicet lumen gloriae, elevans et illustrans
+<lb ed="#L" n="32"/>intellectum possibilem sic quod idoneitas quaedam in ipso fit per hoc  ad
+<lb ed="#L" n="33"/>hoc ut fiat in actu visionis huiusmodi ? immediatae. Huiusmodi enim lumen
+<lb ed="#L" n="34"/>gloriae non habet secundam actionem respectu obiecti, scilicet respectu Dei,
+<lb ed="#L" n="35"/>quae attribuitur lumini intellectus agentis respectu obiectorum materialium.
+<lb ed="#L" n="36"/>Et per hoc patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

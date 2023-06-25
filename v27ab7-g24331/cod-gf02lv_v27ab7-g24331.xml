@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="285"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g24331"><!-- v27ab7-q7-q3 -->
+            <head xml:id="v27ab7-g24331-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-g24331-Hd1e101" type="question-title">
+      Utrum procedere vel esse ab alio ponit aliquam indignitatem in persona procedente
+    </head>
+            <p xml:id="v27ab7-g24331-d1e104">
+               <lb ed="#L" n="9"/>QUAESTIO III.
+<lb ed="#L" n="10"/>Utrum procedere vel esse ab alio ponit aliquam indignitatem in persona procedente.
+</p>
+            <p xml:id="v27ab7-g24331-d1e111">
+               <lb ed="#L" n="11"/>Deinde circa pertinentia ad distinctionem quarundam personarum specialiter
+<lb ed="#L" n="12"/>quaerebantur duo: unum pertinens ad duas personas procedentes communiter, et
+<lb ed="#L" n="13"/>unum pertinens ad Spiritum Sanctum singulariter. Primum horum erat utrum 
+pro<lb break="no" ed="#L" n="14"/>cedere vel esse ab alio? ponit aliquam indignitatem in persona procedente; secundum
+<lb ed="#L" n="15"/>vero praedictorum erat utrum Spiritus Sanctus possit dici procedere per modum
+<lb ed="#L" n="16"/>voluntatis si non procederet a Filio, sed a solo Patre.
+</p>
+            <p xml:id="v27ab7-g24331-d1e127">
+               <lb ed="#L" n="17"/>Ad primum arguitur et ostenditur quod procedere vel esse ab alio ponat aliquam
+<lb ed="#L" n="18"/>indignitatem in persona procedente; quia persona quae habet minoritatem respectu
+<lb ed="#L" n="19"/>alterius habet aliquam indignitatem respectu illius; sed persona producta ex eo quod
+<lb ed="#L" n="20"/>ab alio habet minoritatem respectu producentis; ergo et cetera. Maior patet. Minor
+<lb ed="#L" n="21"/>declaratur : quia, secundum Hilarium, persona producens in eo quod producens habet
+<lb ed="#L" n="22"/>auctoritatem et maioritatem respectu productae in eo quod producta; cum ergo
+<lb ed="#L" n="23"/>maioritas et auctoritas dicant relationes quibus opponuntur minoritas et subauctoritas,
+<lb ed="#L" n="24"/>oportet quod in persona producta sit minoritas et subauctoritas ? respectu personae
+<lb ed="#L" n="25"/>producentis.
+</p>
+            <p xml:id="v27ab7-g24331-d1e150">
+               <lb ed="#L" n="26"/>Contrarium arguitur. Quia persona quae non habet minoritatem respectu alterius
+<lb ed="#L" n="27"/>non habet aliquam indigni tatem respectu illius; sed persona producta ex eo quod
+<lb ed="#L" n="28"/>est ab alio non habet aliquam minoritatem respectu illius a qua est; ergo et cetera.
+<lb ed="#L" n="29"/>Maior patet. Minor probatur : quia, secundum eundem Hilarium, persona producta,
+<lb ed="#L" n="30"/>utpote Filius, in eo quod producta, non est minor alia a qua producitur ut Patre ; quare
+<lb ed="#L" n="31"/>et cetera. Dicit enim Hilarius, octavo de Trinitate: donantis auctoritate maior est Pater,
+<lb ed="#L" n="32"/>sed minor non est cui unum esse donatum est. 
+</p>
+            <p xml:id="v27ab7-g24331-d1e168">
+               <lb ed="#L" n="33"/>Respondeo dicendum quod, ubi est omnimoda aequalitas excludens maius et minus
+<lb ed="#L" n="34"/>perfectum et omnimoda simultas excludens prius et posterius, non potest esse aliqua
+<lb ed="#L" n="35"/>indignitas sive in dignitate minoritas; quod enim aliquid habeat  indignitatem respectu
+<lb ed="#L" n="36"/>alterius, hoc potest esse quia non habet rem et naturam tantae dignitatis et perfectionis
+<lb ed="#L" n="37"/>sicut aliud, sicut patet in artificiato producto ab artifice quod est similitudo et imago
+<pb ed="#L" n="286"/>
+               <lb ed="#L" n="1"/>eius in diversitate naturae et perfectiozis ', vel quia, etsi habeat rem tantae dignitatis
+<lb ed="#L" n="2"/>et perfectionis quantae est in alio, habet eam cum  modo minus nobili et perfecto
+<lb ed="#L" n="3"/>respectu illius, in quantum scilicet illam naturam de se non hábet nisi in potentia,
+<lb ed="#L" n="4"/>et ut habeat eam in actu oportet quod hoc sit virtute et perfectione alterius ipsum
+<lb ed="#L" n="5"/>de potentia ad actum producentis; et sic habet esse posterius altero, ut patet in filio
+<lb ed="#L" n="6"/>naturali a patre naturali producto, non obstante quod est aequalis in natura. Cum ergo
+<lb ed="#L" n="7"/>persona quae est ab alia in divinis eandem essentiam omnino habeat quam habet
+<lb ed="#L" n="8"/>persona a qua est, cum etiam non habeat eam de se in potentia, quia Filius in divinis
+<lb ed="#L" n="9"/>non est in potentia ad actualem participationem naturae divinae quae est in Patre,
+<lb ed="#L" n="10"/>nec virtute et actione Patris fit? ut de potentia ad actum reducatur, sed simul cum
+<lb ed="#L" n="11"/>Patre semper habet esse actu secundum naturam divinitatis, — ideo procedens in divinis
+<lb ed="#L" n="12"/>nullam habet indignitatem vel minoritatem in dignitate respectu illius a quo procedit
+<lb ed="#L" n="13"/>ex ipsa processione, nec ratione rei habitae quae est omnino eadem, nec ratione modi
+<lb ed="#L" n="14"/>habendi qui non importat exitum de potentia ad actum per alium , sed semper esse 
+<lb ed="#L" n="15"/>j» eadem actualitate quam habet alius; quia, secundum Anselmum, de Processione
+<lb ed="#L" n="16"/>Spiritus Sancti, non procedit ibi aliquid quasi de non esse proficiens ad esse, sed
+<lb ed="#L" n="17"/>importat tantummodo respectum sive relationem originis in quantum in illa eadem
+<lb ed="#L" n="18"/>actualitate et perfectione quam habet alius ipse semper etiam habet esse, sed ab illo
+<lb ed="#L" n="19"/>alio; esse autem ab alio, ex sola ratione qua ? ab alio, nec dignitatem nec indignitatem,
+<lb ed="#L" n="20"/>quae fundantur in aliquo formali absoluto et positivo, importat. Hoc enim exigit 
+immen<lb break="no" ed="#L" n="21"/>sitas perfectionis illius naturae divinae quod indivisa et eiusdem actualitatis et 
+perfec<lb break="no" ed="#L" n="22"/>tionis existens pluribus sit communicata sic quod unus habeat eam ab alio.
+</p>
+            <p xml:id="v27ab7-g24331-d1e231">
+               <lb ed="#L" n="23"/>Unde sola dignitas in divinis consistit in habere naturam illam perfectissimam cuius
+<lb ed="#L" n="24"/>perfectio requirit ut dictis modis a pluribus habeatur; propter quod quilibet modus
+<lb ed="#L" n="25"/>habendi eam ad perfectionem divinam pertinet; nam haec tria simul, scilicet: habere
+<lb ed="#L" n="26"/>eam sic quod ab uno habente eam non ab alio, alii vero duo habeant ipsam per 
+gene<lb break="no" ed="#L" n="27"/>rationem et spirationém, et quod unus habeat eam ab illo solo per generationem, alius
+<lb ed="#L" n="28"/>ab ambobus per spirationem, quasi ex aequo absque ordine prioris et posterioris temporis
+<lb ed="#L" n="29"/>sive duratione vel natura, sive dignitate, quasi constituunt perfectionem divinam sive
+<lb ed="#L" n="30"/>concurrunt ad constitutionem quasi divinae perfectionis pro quanto consistit in actibus
+<lb ed="#L" n="31"/>perfectissimis secundum intellectum et voluntatem, sicut tres anguli ex aequo constituunt
+<lb ed="#L" n="32"/>perfectionem trianguli aequilateri; et ideo nec maior est dignitas in uno quam in alio;
+<lb ed="#L" n="33"/>immo quilibet est aequalis dignitatis alteri. Non sic est autem  in creaturis ubi esse
+<lb ed="#L" n="34"/>ab alio, licet per se non sit indignitatis quia etiam solam relationem dicit, supponit
+<lb ed="#L" n="35"/>tamen indignitatem, quia potentialitatem ponit in habente esse ab alio. Unde dicit
+<lb ed="#L" n="36"/>Augustinus, de Fide ad Petrum, circa principium, loquens de personis divinis : nullus
+<lb ed="#L" n="37"/>horum extra quemlibet ipsorum est, quia nemo alterum aut praecedit aeternitate? aut
+<lb ed="#L" n="38"/>excedit magnitudine aut superat potestate. Et Athanasius in Symbolo: in Trinitate nihil
+<lb ed="#L" n="39"/>prius aut posterius, nihil maius aut minus; sed totae tres personae coaeternae sibi sunt
+<lb ed="#L" n="40"/>et coaequales. Hoc modo etiam determinat Anselmus hanc quaestionem eam tractans
+<lb ed="#L" n="41"/>libro de Processionibus Spiritus Sancti.
+<pb ed="#L" n="287"/>
+               <lb ed="#L" n="1"/>quod productum prius habet non esse quam esse ab alio, indignitatem importat, quia
+<lb ed="#L" n="2"/>includit veram potentialitatem respectu veri actus; ubi autem non, non. Quia ergo
+<lb ed="#L" n="3"/>natura divina de qua quasi fit productio, in quantum ipsa est quae per productionem
+<lb ed="#L" n="4"/>producto communicatur a producente, ex se est summa actualitas, nullo modo secundum
+<lb ed="#L" n="5"/>esse potentiale habens prius esse quam secundum esse actuale, in divinis personam unam
+<lb ed="#L" n="6"/>procedere ab alia nullam indignitatem ponit in persona procedente nec minoritatem in
+<lb ed="#L" n="7"/>dignitate.
+</p>
+            <p xml:id="v27ab7-g24331-d1e292">
+               <lb ed="#L" n="8"/>Ad argumentum in oppositum est dicendum secundum quod exponit Magister verba
+<lb ed="#L" n="9"/>Hilarii, libro primo, distinctione decima sexta, quod maioritas qua Pater ab Hilario
+<lb ed="#L" n="10"/>dicitur maior Filio significat auctoritatem quae est in Patre in quantum ipse a nullo,
+<lb ed="#L" n="11"/>sed alii ab ipso et non dignitatem aliquam et eminentiam supra Filii dignitatem ; unde
+<lb ed="#L" n="12"/>verba etiam Hilarii hoc sonant cum dicit in octavo de Trinitate: donantis auctoritate
+<lb ed="#L" n="13"/>Pater maior est, sed minor non est cui unum esse largitur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

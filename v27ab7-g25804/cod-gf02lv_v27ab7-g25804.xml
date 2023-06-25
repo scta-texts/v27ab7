@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g25804"><!-- v27ab7-q7-q5 -->
+            <head xml:id="v27ab7-g25804-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-g25804-Hd1e101" type="question-title">
+      Utrum suppositum addat aliquam rem supra essentiam vel naturam
+    </head>
+            <p xml:id="v27ab7-g25804-d1e104">
+               <lb ed="#L" n="27"/>QUAESTIO V.
+<lb ed="#L" n="28"/>Utrum suppositum addat aliquam rem supra essentiam
+<lb ed="#L" n="29"/>vel naturam.
+</p>
+            <p xml:id="v27ab7-g25804-d1e113">
+               <lb ed="#L" n="30"/>Deinde circa creaturam quaerebantur quaedam pertinentia ad omnem
+<lb ed="#L" n="31"/>substantiam in se subsistentem generaliter et quaedam  pertinentia ad
+<lb ed="#L" n="32"/>quasdam substantias et ad quasdam earum proprietates specialiter.
+</p>
+            <p xml:id="v27ab7-g25804-d1e122">
+               <lb ed="#L" n="33"/>Circa primum quaerebantur duo, unum pertinens ad rationem 
+sub<lb break="no" ed="#L" n="34"/>sistentiae, et unum pertinens ad rationem cuiusdam differentiae. Primum
+<pb ed="#L" n="300"/>
+               <lb ed="#L" n="1"/>horum erat utrum suppositum addat aliquam rem supra essentiam vel
+<lb ed="#L" n="2"/>naturam ; secundum erat utrum unum et idem possit sic differre a se
+<lb ed="#L" n="3"/>ipso quod possit reali relatione referri ad se ipsum.
+</p>
+            <p xml:id="v27ab7-g25804-d1e139">
+               <lb ed="#L" n="4"/>Ad primum horum arguitur et ostenditur quod suppositum addat
+<lb ed="#L" n="5"/>aliquam rem supra essentiam vel naturam, utpote aliquod accidens, quia
+<lb ed="#L" n="6"/>illud addit suppositum supra naturam per quod unum suppositum ab alio
+<lb ed="#L" n="7"/>distinguitur; sed unum suppositum non potest distingui ab alio supposito
+<lb ed="#L" n="8"/>praecipue solo numero per id quod ad essentiam pertinet; in hoc enim
+<lb ed="#L" n="9"/>supposita eiusdem speciei non differunt, sed potius conveniunt. Ergo
+<lb ed="#L" n="10"/>oportet! quod illud per quod unum suppositum substantiae distinguitur
+<lb ed="#L" n="11"/>ab alio sit aliqua res addita ad ipsam essentiam ; sed quicquid est res
+<lb ed="#L" n="12"/>aliqua et non est substantia est accidens; quare et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e161">
+               <lb ed="#L" n="13"/>Contra. Arguitur quod suppositum nullam rem addit supra naturam,
+<lb ed="#L" n="14"/>quia ad substantiam perfectam ad hoc quod habeat esse subsistentiae
+<lb ed="#L" n="15"/>non potest addi aliquid pertinens ad genus substantiae, quia totum hoc
+<lb ed="#L" n="16"/>comprehendit ipsa essentia vel natura substantiae. Item, nec potest 
+sup<lb break="no" ed="#L" n="17"/>positum supra essentiam vel naturam addere rem accidentalem, quia tunc
+<lb ed="#L" n="18"/>suppositum sive substantia subsistens non esset ens per se scilicet, sed
+<lb ed="#L" n="19"/>ens per accidens constitutum ex substantia et accidente, nec natura speciei
+<lb ed="#L" n="20"/>vel generis praedicaretur per se de individuo; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e181">
+               <lb ed="#L" n="21"/>Respondeo dicendum quod circa hoc est primo considerandum quid
+<lb ed="#L" n="22"/>nomine suppositi et naturae vel essentiae sive quidditatis intelligitur ;
+<lb ed="#L" n="23"/>deinde quomodo haec se habent ad invicem.
+</p>
+            <p xml:id="v27ab7-g25804-d1e190">
+               <lb ed="#L" n="24"/>Sciendum est igitur quod uno modo per naturam potest intelligi illud
+<lb ed="#L" n="25"/>quod nomine abstracto significatum importatur, quasi per modum simplicis
+<lb ed="#L" n="26"/>formae, quae quasi nata est ab aliquo participari; sub natura autem ut sic
+<lb ed="#L" n="27"/>significata comprehenduntur tantum ea quae ad essentiam rei? pertinent
+<lb ed="#L" n="28"/>vel naturam, puta sub significato humanitatis vel albedinis. Nec etiam ex
+<lb ed="#L" n="29"/>modo significandi dantur intelligi aliqua quae ad naturam non pertinent,
+<lb ed="#L" n="30"/>immo potius ratione modi significandi talia excluduntur sic quod de illa
+<lb ed="#L" n="31"/>etiam non praedicantur. Suppositum autem, largo modo loquendo de 
+sup<lb break="no" ed="#L" n="32"/>posito, potest dici id quod nomine concreto significatum quasi per modum
+<lb ed="#L" n="33"/>compositi importat; de principali et per se significato tantum ea quae ad
+<lb ed="#L" n="34"/>essentiam pertinent vel naturam, sed ex modo significandi dat intelligere
+<lb ed="#L" n="35"/>vel saltem non excludit aliqua quae ad naturam non pertinent, puta homo
+<lb ed="#L" n="36"/>vel album. Quaerere ergo quid sit quod addit suppositum sic acceptum
+<lb ed="#L" n="37"/>supra naturam est quaerere quomodo se habeant quidditas et habens quid-
+<pb ed="#L" n="301"/>
+               <lb ed="#L" n="1"/>ditatem ad invicem, ut per quidditatem intelligatur essentia, per habens
+<lb ed="#L" n="2"/>quidditatem suppositum.
+</p>
+            <p xml:id="v27ab7-g25804-d1e229">
+               <lb ed="#L" n="3"/>Alio modo possunt accipi essentia vel natura et suppositum sic quod
+<lb ed="#L" n="4"/>natura intelligatur id quod nomine communi secundum se et indistincte,
+<lb ed="#L" n="5"/>sive ut unum secundum rationem et conceptum intellectus, a pluribus autem
+<lb ed="#L" n="6"/>participabile significatur, ut homo vel humanitas, album vel albedo ; 
+sup<lb break="no" ed="#L" n="7"/>positum autem, large loquendo de supposito, dicatur id quod importatur
+<lb ed="#L" n="8"/>nomine singulari vel discreto ut quid in se indivisum et ab aliis singulariter
+<lb ed="#L" n="9"/>existentibus divisum, ut haec humanitas, hic homo, haec albedo, hoc album.
+<lb ed="#L" n="10"/>Quaerere autem quid addit suppositum sic accep tum ad naturam sic
+<lb ed="#L" n="11"/>acceptam ! est quaerere de causa individuationis sive quid addit singulare
+<lb ed="#L" n="12"/>super commune, scilicet haec humanitas super humanitatem, hic homo
+<lb ed="#L" n="13"/>super hominem, haec albedo super albedinem, hoc album super album.
+<lb ed="#L" n="14"/>Et quia proprie accipitur suppositum in substantia, ideo prosequendo
+<lb ed="#L" n="15"/>quáestionem propositam  secundum utrumque membrum praedictum 
+acci<lb break="no" ed="#L" n="16"/>piemus comparationes in terminis substantialibus.
+</p>
+            <p xml:id="v27ab7-g25804-d1e262">
+               <lb ed="#L" n="17"/>Quantum ad primum ergo est? inquirendum utrum homo addat aliquid
+<lb ed="#L" n="18"/>supra humanitatem et hic homo super hanc humanitatem et quid sit illud.
+<lb ed="#L" n="19"/>Videtur autem quod suppositum aliquid addat supra naturam cum in
+<lb ed="#L" n="20"/>talibus unum de alio non praedicetur, scilicet humanitas de homine et
+<lb ed="#L" n="21"/>albedo de albo, cum tamen homo per se et essentialiter non significet
+<lb ed="#L" n="22"/>aliquid suorum accidentium nec etiam  album significat substantiam. Hoc
+<lb ed="#L" n="23"/>autem non videretur contingere nisi homo etiam praeter sua accidentia,
+<lb ed="#L" n="24"/>et album praeter substantiam aliquid importet ratione cuius aliquo modo
+<lb ed="#L" n="25"/>realiter differant ab humanitate et albedine, quoniam non solus modus
+<lb ed="#L" n="26"/>significandi vel intelligendi absque aliqua diversitate reali videtur impedire
+<lb ed="#L" n="27"/>praedicationem per identitatem, licet formalem impediat, sicut patet in
+<lb ed="#L" n="28"/>divinis; nam ibi dicitur Deus est deitas. Hoc etiam videtur ex eo quod
+<lb ed="#L" n="29"/>supposito aliquid convenit quod non naturae ; nam suppositi est agere,
+<lb ed="#L" n="30"/>non naturae et cetera. Item, hoc videtur ex eo quod conceditur quod Filius
+<lb ed="#L" n="31"/>Dei assumpsit in unitate suppositi aeterni naturam humanam, non autem
+<lb ed="#L" n="32"/>hominem; unde etiam illi naturae non convenit ratio suppositi creati. Si
+<lb ed="#L" n="33"/>tamen illa natura separata esset a supposito divino, cum ipsa esset quid
+<lb ed="#L" n="34"/>in se subsistens, ei conveniret ratio suppositi creati et sic videretur aliquid
+<lb ed="#L" n="35"/>sibi addi quod modo non habet sive videretur realem differentiam habere
+<lb ed="#L" n="36"/>ad ipsam ut nunc est. Et hoc quidem aliqui concedunt dicentes quod,
+<pb ed="#L" n="302"/>
+               <lb ed="#L" n="1"/>cum natura sit ut aliquid habitum, suppositum vero sit ut quid habens,
+<lb ed="#L" n="2"/>ubi idem ponitur suppositum et natura, oportet quod idem sit habens et
+<lb ed="#L" n="3"/>id quod habet, quod dici non potest nisi in re ' omnimode  simplici qualis
+<lb ed="#L" n="4"/>non est aliqua creatura, cum in omni creatura sit aliqua compositio ex
+<lb ed="#L" n="5"/>actu et potentia. Et sic videtur quod non erit idem suppositum et natura.
+</p>
+            <p xml:id="v27ab7-g25804-d1e322">
+               <lb ed="#L" n="6"/>Et ex hoc videtur sequi quod addit aliquid supra naturam. Non videtur
+<lb ed="#L" n="7"/>autem quod addat accidentia aliqua quoniam sic suppositum non esset
+<lb ed="#L" n="8"/>ens per se, sed per accidens; nec esset per se in aliquo praedicamento
+<lb ed="#L" n="9"/>cum non esset per se unum. Et ideo oportet dicere quod suppositum
+<lb ed="#L" n="10"/>in sui significato hoc non includit, scilicet naturam et quaedam adventitia
+<lb ed="#L" n="11"/>naturae. Verumtamen, quia suppositi est agere, non autem naturae, possunt
+<lb ed="#L" n="12"/>in ratione et diffinitione suppositi accipi esse et alia sine quibus suppositum
+<lb ed="#L" n="13"/>non existit nec agit, nec natura potest subsistere sine illis, et haec sunt
+<lb ed="#L" n="14"/>alia a natura. Propter quod, etiamsi suppositum diffiniretur secundum hoc,
+<lb ed="#L" n="15"/>aliquid intraret diffinitionem eius quod non intraret diffinitionem naturae ,
+<lb ed="#L" n="16"/>quia in diffinitione naturae non ponitur aliquid quod ad naturam non
+<lb ed="#L" n="17"/>pertineat; sed in ratione suppositi sunt quaedam adventitia naturae sine
+<lb ed="#L" n="18"/>quibus suppositum non potest intelligi, sicut sunt esse et proprietates sine
+<lb ed="#L" n="19"/>quibus natura actu existere non potest. Unde, si diffiniretur suppositum,
+<lb ed="#L" n="20"/>haberet diffinitionem per additamentum, sicut accidentia, quia in eius 
+diffi<lb break="no" ed="#L" n="21"/>nitione poneretur natura tanquam id quod dicit eandem essentiam cum
+<lb ed="#L" n="22"/>ipso et cum hoc alia supervenientia naturae. Sed, — cum nomen suppositi
+<lb ed="#L" n="23"/>non ! significet naturam cum illis advenientibus naturae, suppositum autem
+<lb ed="#L" n="24"/>sine natura in supposito non potest per se esse nec per se agere sine esse
+<lb ed="#L" n="25"/>et sine proprietatibus et accidentibus convenientibus et tamen suppositum
+<lb ed="#L" n="26"/>dicit id quod habet per se esse et per se agere, natura autem hoc non
+<lb ed="#L" n="27"/>habet, ut per se patet in natura humana assumpta in Christo, — oportet
+<lb ed="#L" n="28"/>quod suppositum importet et significet quendam modum se habendi quem
+<lb ed="#L" n="29"/>consequitur ex hoc quod subest ipsi esse et proprietatibus sine quibus
+<lb ed="#L" n="30"/>natura actu non existeret nec suppositum ageret.
+</p>
+            <p xml:id="v27ab7-g25804-d1e379">
+               <lb ed="#L" n="31"/>Ratione tamen huiusmodi suppositum non dicit aliam rem a natura,
+<lb ed="#L" n="32"/>immo natura et suppositum dicunt eandem rem et tamen ipsum suppositum
+<lb ed="#L" n="33"/>differt realiter a natura; nec est hoc inconveniens, sicut videmus quod
+<lb ed="#L" n="34"/>materia extensa realiter differt a seipsa non extensa et tamen non dicit
+<lb ed="#L" n="35"/>aliam rem ipsa extensa a se ipsa non exten sa. Ex eo enim quod res
+<lb ed="#L" n="36"/>praedicamentorum ad invicem coniunguntur, aliquid in sua essentia 
+contra<lb break="no" ed="#L" n="37"/>hunt per quod realiter differunt a se ipsis ut non sunt coniunctae. Materia
+<pb ed="#L" n="303"/>
+               <lb ed="#L" n="1"/>ergo, ex hoc quod coniungitur quantitati, aliquid in sua essentia contrahit
+<lb ed="#L" n="2"/>et acquirit per quod realiter differt a se ipsa ut non est coniuncta, ut sic
+<lb ed="#L" n="3"/>materia extensa, etiam ! praeter hoc quod includat quantitatem, dicat
+<lb ed="#L" n="4"/>quoddam compositum, non ex his quia  tale compositum non ? includit in
+<lb ed="#L" n="5"/>se plura realiter differentia, sed huic, quia dicit quid compositum 
+quan<lb break="no" ed="#L" n="6"/>tita ti. Ex unione enim ad illam aliquid resultat in ea ut esse extensum
+<lb ed="#L" n="7"/>quid, et sic compositior est materia quantitati coniuncta quam in se 
+con<lb break="no" ed="#L" n="8"/>siderata. Et similiter dicendum est de omnibus accidentibus quibus
+<lb ed="#L" n="9"/>substantia subicitur. Illud autem quod materia contrahit est quidam ? modus,
+<lb ed="#L" n="10"/>et realis modus, non secundum rationem tantum; nam, cum materia alicui
+<lb ed="#L" n="11"/>formae coniungitur cui primum coniuncta non erat, vere et realiter 
+trans<lb break="no" ed="#L" n="12"/>mutatur ad illam formam et vere et realiter illi formae subicitur; et sic,
+<lb ed="#L" n="13"/>cum sit in sua essentia realiter variata, differt realiter a seipsa ut non est
+<lb ed="#L" n="14"/>sic variata, et realem quendam modum habet quem prius non habebat ;
+<lb ed="#L" n="15"/>ut coniuncta quantitati dicatur extensa, separata vero a quantitate non
+<lb ed="#L" n="16"/>sic dicatur. Et quia materia seipsa extenditur per quantitatem, non mediante
+<lb ed="#L" n="17"/>aliqua alia extensione, sicut quantitas se ipsa ' materiam ? extendit, ideo
+<lb ed="#L" n="18"/>extensio materiae non dicit aliam rem vel essentiam quam ? materiam ;
+<lb ed="#L" n="19"/>et tamen est quidam modus realis quem accipit materia ut est quantitati
+<lb ed="#L" n="20"/>coniuncta, quia sequitur realem variationem factam in materia; et ideo
+<lb ed="#L" n="21"/>facit materiam realiter differre a se ipsa ut non est coniuncta quantitati,
+<lb ed="#L" n="22"/>et hoc quia est alia extensio materiae et alia extensio quantitatis, nec tamen
+<lb ed="#L" n="23"/>materia extensa sive participans extensionem est aliud quam materia, sed
+<lb ed="#L" n="24"/>est ipsa materia in se diversificata, ut est sub quantitate et ut est quantitate
+<lb ed="#L" n="25"/>privata.
+</p>
+            <p xml:id="v27ab7-g25804-d1e453">
+               <lb ed="#L" n="26"/>Et confirmatur hoc per hoc quod Philosophus dicit, primo de 
+Gene<lb break="no" ed="#L" n="27"/>ratione, ubi quaerit quomodo differt materia ut est sub formis contrariis,
+<lb ed="#L" n="28"/>et solvens dicit quod est eadem secundum essentiam, non autem secundum
+<lb ed="#L" n="29"/>esse. Sed huiusmodi esse secundum quod attenditur talis differentia non
+<lb ed="#L" n="30"/>dicit essentias '" formarum quasi diceret quod materia existens sub formis
+<lb ed="#L" n="31"/>contrariis differat secundum esse, quia differt secundum essentiam formae :
+<lb ed="#L" n="32"/>eadem enim esset responsio ad quaestionem cum ipsa quaestione. Cum
+<lb ed="#L" n="33"/>enim quaeritur quid consequitur materia ex eo quod est sub alia et alia
+<lb ed="#L" n="34"/>forma, si responderetur quod consequitur aliam et aliam formam, non
+<lb ed="#L" n="35"/>satisfit quaestioni, quia non dicitur quomodo differt materia a se ipsa per
+<lb ed="#L" n="36"/>hoc quod est sub alia et alia forma; nec etiam accipitur ibi esse pro
+<pb ed="#L" n="304"/>
+               <lb ed="#L" n="1"/>essentia materiae, quia essentia materiae non habet rationem esse, nec
+<lb ed="#L" n="2"/>potest dici quod dicat quandam rem tertiam quam forma imprimat 
+mate<lb break="no" ed="#L" n="3"/>riae ; forma enim per se perficit et materia per se perficitur, nec est aliquid
+<lb ed="#L" n="4"/>aliud uniens ista nec aliquod medium constitutum ex istis. Huiusmodi ergo
+<lb ed="#L" n="5"/>esse in materia dicit quendam modum existendi quem habet materia ut
+<lb ed="#L" n="6"/>est sub forma ; quare sic et sic accepta realiter differt a se ipsa. Unde, cum
+<lb ed="#L" n="7"/>quantitas sit quaedam forma, necesse est dicere quod materia quendam
+<lb ed="#L" n="8"/>modum recipit ex hoc quod est sub quantitate, et per istum modum realem !
+<lb ed="#L" n="9"/>realiter differt a se non extensa. Quis enim dubitat quin materia prius non
+<lb ed="#L" n="10"/>perfecta per quantitatem et non extensa, postea autem perfecta per 
+quanti<lb break="no" ed="#L" n="11"/>tatem et extensa per eam sic et sic accepta realiter sive secundum esse
+<lb ed="#L" n="12"/>differt a seipsa, cum extensum secundum  rem et veritatem realiter differat
+<lb ed="#L" n="13"/>a non extenso ?? Potest enim distingui duplex extensio vel extensum : unum
+<lb ed="#L" n="14"/>quod est essentialiter tale ut ipsa quantitas, aliud quod est participative
+<lb ed="#L" n="15"/>tale ut ipsa materia; et haec potest dici non illa, quia extensio materiae
+<lb ed="#L" n="16"/>non est extensio quantitatis, sicut partes materiae sunt aliae a partibus
+<lb ed="#L" n="17"/>quantitatis, Nullus ergo dubitat quin vere extensum differt vere et realiter
+<lb ed="#L" n="18"/>a non extenso; materia autem sic et sic diversificata, ut scilicet sit extensa
+<lb ed="#L" n="19"/>et non extensa, licet hoc habeat per aliam rem, quia per formam sive 
+quan<lb break="no" ed="#L" n="20"/>titatem, ipsa tamen non ens res alia, sed illa eadem ut est perfecta per
+<lb ed="#L" n="21"/>formam differt realiter a se ipsa ut est privata et abiciens formam.
+</p>
+            <p xml:id="v27ab7-g25804-d1e527">
+               <lb ed="#L" n="22"/>Sicut ergo videmus hoc in materia quod eadem existens differt realiter
+<lb ed="#L" n="23"/>a se propter coniunc tionem ad quantitatem et separationem ipsius ab
+<lb ed="#L" n="24"/>ea ut in se consideratur, similiter in proposito: illa eadem essentia in se
+<lb ed="#L" n="25"/>considerata ut non participat perfectiones additas dicitur natura; ut est
+<lb ed="#L" n="26"/>subiecta perfectionibus et ut participat perfectiones alias, si sit per se
+<lb ed="#L" n="27"/>existens, dicitur suppositum. Suppositum ergo quod dicit naturam cum tali
+<lb ed="#L" n="28"/>modo quem  natura consequitur, ex hoc quod subicitur esse et 
+proprie<lb break="no" ed="#L" n="29"/>tatibus, realiter differt a natura ipsa secundum se accepta, et tamen non
+<lb ed="#L" n="30"/>dicit aliam essentiam ab ipsa natura.
+</p>
+            <p xml:id="v27ab7-g25804-d1e549">
+               <lb ed="#L" n="31"/>Sed istud non videtur bene dictum ; sed melius videtur dicendum quod
+<lb ed="#L" n="32"/>suppositum, secundum dictum modum accipiendi, nullam rem addit per se
+<lb ed="#L" n="33"/>de suo principali significato supra naturam et ex consequenti patet quod
+<lb ed="#L" n="34"/>nec realiter differt a natura.
+</p>
+            <p xml:id="v27ab7-g25804-d1e560">
+               <lb ed="#L" n="35"/>Quod enim aliquid differat realiter ab aliquo et non sit res alia nec
+<lb ed="#L" n="36"/>rem aliam includat ? implicat contradictoria. Sicut enim quae differunt
+<pb ed="#L" n="305"/>
+               <lb ed="#L" n="1"/>ratione diversas rationes oportet importare et qui ponit quod aliquid ditferat
+<lb ed="#L" n="2"/>ratione ab aliquo et non sit alia ratio vel non includat aliam rationem !
+<lb ed="#L" n="3"/>quam illud, implicat contradictoria ; ita quae differunt realiter, diversas res
+<lb ed="#L" n="4"/>importare oportet, et qui ponit quod aliquid differat? realiter ab aliquo
+<lb ed="#L" n="5"/>et non sit res alia nec aliam rem includat ? manifeste contradictionem
+<lb ed="#L" n="6"/>includit.
+</p>
+            <p xml:id="v27ab7-g25804-d1e583">
+               <lb ed="#L" n="7"/>Item, de illo modo quaero: aut est nihil et omnino non ens et sic per
+<lb ed="#L" n="8"/>ipsum non potest aliquid differre ab aliquo non solum realiter, sed nec
+<lb ed="#L" n="9"/>secundum rationem ; aut est aliquid et aliquod  ens. Si sic, aut est ens
+<lb ed="#L" n="10"/>secundum animam et in anima solum et sic nullam differentiam realem ?
+<lb ed="#L" n="11"/>facit circa rem extra, aut est ens verum per se et extra animam. Aut ergo
+<lb ed="#L" n="12"/>est idem omnino cum natura ita quod verum sit quod natura est ille suus
+<lb ed="#L" n="13"/>modus et sic nullam facit differentiam eius ad aliquid; aut est ens aliquo
+<lb ed="#L" n="14"/>modo differens ab ea; si sic aut absolutum et sic faceret compositionem
+<lb ed="#L" n="15"/>realem cum ea, aut respectivum " et tunc esset vera relatio inter substantiam
+<lb ed="#L" n="16"/>et sua accidentia, quod est falsum, quia reales relationes, ut videbitur,
+<lb ed="#L" n="17"/>requirunt in creaturis etiam fundamenta realiter differentia et relativa etiam
+<lb ed="#L" n="18"/>subiecto sive supposito esse distincta, propter quod inter materiam " et
+<lb ed="#L" n="19"/>formam et universaliter inter subiectum et accidens non potest esse relatio
+<lb ed="#L" n="20"/>realis.
+</p>
+            <p xml:id="v27ab7-g25804-d1e616">
+               <lb ed="#L" n="21"/>Item, sicut natura sortitur realem modum ex hoc quod perficitur ipso
+<lb ed="#L" n="22"/>esse et proprietatibus, ita etiam ipsum esse et proprietates debent sortiri
+<lb ed="#L" n="23"/>quendam modum ex sic perficere subiectum vel naturam. Et procedetur
+<lb ed="#L" n="24"/>circa hoc sicut prius ; etenim secundum hoc, etiam ex parte accidentium,
+<lb ed="#L" n="25"/>erit dicere quod inhaerens realiter differt a natura ? cui inhaeret et cetera.
+<lb ed="#L" n="26"/>Cum enim ex coniunctione praedicamentorum ad invicem, ut dictum est,
+<lb ed="#L" n="27"/>aliquid contrahant naturae eorum quae sub praedicamentis continentur,
+<lb ed="#L" n="28"/>sicut materia vel natura vel subiectum contrahit modum realem, ratione
+<lb ed="#L" n="29"/>cuius differt realiter a se ipso, ex sic perfici, ita etiam et quaelibet forma
+€x sic perficere; et sic erit realis modus annexus materiae vel subiecto
+<lb ed="#L" n="30"/>vel naturae respectu formae vel accidentium et formae et "" accidentium
+<lb ed="#L" n="31"/>respectu naturae vel subiecti. Ille modus ergo, ut prius, est ens respectivum,
+<lb ed="#L" n="32"/>quia non potest esse nihil nec ens absolutum, sicut ex iam dictis patet,
+<lb ed="#L" n="33"/>nec ens solum in anima. Si autem sit ens respectivum, cum hoc sit
+<lb ed="#L" n="34"/>de ratione cuiuslibet tam informati quam informantis, omnia erunt entia
+<pb ed="#L" n="306"/>
+               <lb ed="#L" n="1"/>respectiva. Unde suppositum in genere substantiae de cuius ratione est
+<lb ed="#L" n="2"/>talis modus respectivus est suppositum non absolutum sed respectivum,
+<lb ed="#L" n="3"/>sicut contingit in divinis. Nam, licet talis modus ratione fundamenti 
+redu<lb break="no" ed="#L" n="4"/>catur ad genus substantiae sicut et in divinis contingit de relatione, tamen,
+<lb ed="#L" n="5"/>si ratione respectus quem importat est vere relatio et est de ratione 
+sup<lb break="no" ed="#L" n="6"/>positi creati, omnia supposita creata erunt relativa, non absoluta ; et similiter
+<lb ed="#L" n="7"/>potest deduci suo modo circa accidentia et formas ratione dictorum 
+modo<lb break="no" ed="#L" n="8"/>rum. Si autem dicatur quod talis modus non est ens absolutum et aliud
+<lb ed="#L" n="9"/>a natura, quia faceret compositionem et diversitatem realem cum ipsa
+<lb ed="#L" n="10"/>natura, nec est ens respectivum propter alia inconvenientia, sed est tantum
+<lb ed="#L" n="11"/>quidam modus realis entis dicto modo derelictus, saltem cum sit de 
+signi<lb break="no" ed="#L" n="12"/>ficato et ratione suppositi creati, tunc suppositum omne est suppositum
+<lb ed="#L" n="13"/>modale. Sicut enim, si de ratione suppositi creati essent vera accidentia
+<lb ed="#L" n="14"/>quae essent quasi formale et completivum in ratione suppositi, deberent
+<lb ed="#L" n="15"/>dici supposita accidentia; sicut propter hoc supposita divina dicuntur
+<lb ed="#L" n="16"/>supposita relativa, quia relatio est completivum et formale in ratione 
+sup<lb break="no" ed="#L" n="17"/>positi divini, — ita etiam, si de ratione suppositi esset talis modus, deberet
+<lb ed="#L" n="18"/>dici suppositum modale, quod est inconveniens.
+</p>
+            <p xml:id="v27ab7-g25804-d1e690">
+               <lb ed="#L" n="19"/>Item, videtur quod, etsi ex unione naturae ad accidentia sequeretur
+<lb ed="#L" n="20"/>in ea aliquis modus realis ratione cuius ipsa ut sub illo differret realiter
+<lb ed="#L" n="21"/>a se ipsa, ut secundum se tamen ille modus non deberet dici pertinere
+<lb ed="#L" n="22"/>ad rationem suppositi, sed deberet dici esse quid consequens ad ipsum.
+<lb ed="#L" n="23"/>Si enim prius natura est unio naturae ad accidentia quam ! talis modus
+<lb ed="#L" n="24"/>ex hoc derelictus, prius est ipsa natura sub accidentibus quam sub illo
+<lb ed="#L" n="25"/>modo. Sed non potest intelligi esse sub accidentibus nisi habens rationem
+<lb ed="#L" n="26"/>suppositi in se subsistentis et accidentia sustentantis. Ergo, si per 
+acci<lb break="no" ed="#L" n="27"/>dentia non habet natura rationem suppositi nec sunt de ratione suppositi
+<lb ed="#L" n="28"/>respectu naturae, multo fortius ergo hoc verum est de tali modo.
+</p>
+            <p xml:id="v27ab7-g25804-d1e714">
+               <lb ed="#L" n="29"/>Item, cum ille modus esset natura posterior unione accidentium cum
+<lb ed="#L" n="30"/>natura et sic prius natura esset totum compositum ex accidentibus et
+<lb ed="#L" n="31"/>natura quam ille modus, videtur quod illud cuius per se esset talis modus
+<lb ed="#L" n="32"/>esset compositum ex natura et accidentibus; et sic, si talis modus esset
+<lb ed="#L" n="33"/>formalis ratio suppositi, suppositum in sua ratione includeret naturam et
+<lb ed="#L" n="34"/>accidentia cum illo modo et sic? veram essentiam adderet ad naturam.
+</p>
+            <p xml:id="v27ab7-g25804-d1e730">
+               <lb ed="#L" n="35"/>Item, si est aliquis modus realis derelictus ex unione tali, quaero
+<lb ed="#L" n="36"/>utrum ex unione ad esse derelinquatur aliquis modus realis et etiam ex
+<lb ed="#L" n="37"/>unione ad quodlibet accidens derelinquatur quidam determinatus modus.
+<pb ed="#L" n="307"/>
+               <lb ed="#L" n="1"/>Et videtur quod sic, quia qua ratione ex unione ad unum, eadem ratione
+<lb ed="#L" n="2"/>ex unione ad aliud et quaeretur quis istorum sit de ratione suppositi ; aut
+<lb ed="#L" n="3"/>si plures, tunc suppositum non erit unum simpliciter '. Item, dicere quod
+<lb ed="#L" n="4"/>aliquid, quod scilicet non est purum non ens nec est etiam ens secundum
+<lb ed="#L" n="5"/>rationem et in anima, sed? extra animam, sit tantum modus quidam realis
+<lb ed="#L" n="6"/>et non sit ens quod sit substantia vel accidens, nec sit ens absolutum nec
+<lb ed="#L" n="7"/>respectivum, cum haec important divisionem entis per immediata, fictio
+<lb ed="#L" n="8"/>videtur; nisi forte dicatur quod sit aliquod horum per reductionem. Si igitur
+<lb ed="#L" n="9"/>dicatur quod est ens quod nec est substantia nec accidens per se, sed
+<lb ed="#L" n="10"/>per reductionem vel attributionem, hoc non videtur bene posse dici, quia
+<lb ed="#L" n="11"/>non videtur quod aliquid sit ens per reductionem vel attributionem ?, nisi
+<lb ed="#L" n="12"/>in quantum est aliquid entis per se, vel ut ipsum disponens ut accidentia
+<lb ed="#L" n="13"/>absoluta, vel referens ut relationes, vel ut principians ut forma et materia
+<lb ed="#L" n="14"/>et cetera. Si etiam sit ens per reductionem, cum sit quid derelictum ex
+<lb ed="#L" n="15"/>informatione accidentium, erit accidens per reductionem, et sic completivum
+<lb ed="#L" n="16"/>et formale suppositi quod est substantia est quid accidentale. Et quia hoc
+<lb ed="#L" n="17"/>et multa alia inconvenientia ex dicta positione manifeste sequuntur, ideo
+<lb ed="#L" n="18"/>est omnino irrationalis etpenitus estrepellenda.
+</p>
+            <p xml:id="v27ab7-g25804-d1e780">
+               <lb ed="#L" n="19"/>Si autem dicatur quod talis modus quem addit suppositum supra
+<lb ed="#L" n="20"/>naturam non sit aliquid derelictum ex tali unione naturae per accidentia,
+<lb ed="#L" n="21"/>quia sic natura humana in Christo haberet rationem suppositi, ut per se
+<lb ed="#L" n="22"/>patet, sed est quidam modus in se subsistendi qui competit naturae 
+com<lb break="no" ed="#L" n="23"/>pletae in genere substantiae in virtute, sed actu est suppositi ab agente
+<lb ed="#L" n="24"/>dante illi naturae esse non in alio vel cum alio, sed in se ipsa, ita quod
+<lb ed="#L" n="25"/>natura, ut humanitas, hunc modum non includit, sed homo in sua ratione
+<lb ed="#L" n="26"/>et suo significato ilum modum importat; — contra hunc modum dicendi
+<lb ed="#L" n="27"/>possunt primo induci quae inducta sunt contra primum ; et secundo 
+specia<lb break="no" ed="#L" n="28"/>liter potest argui contra illum modum dicendi, quia ille modus, cum sit
+<lb ed="#L" n="29"/>aliquo modo entitatem aliquam importans, aut est prius natura quam ipsa
+<lb ed="#L" n="30"/>natura cuius modum dicit aut posterius : non prius natura, quia non dicitur
+<lb ed="#L" n="31"/>habere entitatem nisi quodammodo per reductionem ad ipsam naturam
+<lb ed="#L" n="32"/>cuius est; si posterius natura et ut quid diminutum vel debile vel modicam
+<lb ed="#L" n="33"/>entitatem habens, ex eo non poterit convenire naturae quae est quoddam
+<lb ed="#L" n="34"/>ens perfectum et.reale de genere primo, scilicet substantiae, ratio 
+subsi<lb break="no" ed="#L" n="35"/>stendi in se quae dicitur ratio suppositi ; immo oportet quod illud entitatis
+<lb ed="#L" n="36"/>quod importat talis modus in entitate vera et completa naturae cuius est
+<pb ed="#L" n="308"/>
+               <lb ed="#L" n="1"/>subsistat, sicut ponitur de veris accidentibus et omnibus ipsam naturam
+<lb ed="#L" n="2"/>substantiae concomitantibus. Ergo videtur quod talis modus non possit
+<lb ed="#L" n="3"/>poni. Si etiam ponatur, non videtur quod sit de ratione suppositi, sed magis
+<lb ed="#L" n="4"/>aliquid ipsum consequens et concomitans.
+</p>
+            <p xml:id="v27ab7-g25804-d1e833">
+               <lb ed="#L" n="5"/>Et ideo videtur dicendum quod suppositum sic acceptum non differt
+<lb ed="#L" n="6"/>a natura nisi sicut concretum vel sumptum et principale sive abstractum.
+<lb ed="#L" n="7"/>Unde idem est quod intelligitur et significatur principaliter per utrumque ;
+<lb ed="#L" n="8"/>sed alius est modus significandi et intelligendi prout intelligitur et 
+signi<lb break="no" ed="#L" n="9"/>ficatur per nomen abstractum essentiae et per nomen concretum suppositi.
+<lb ed="#L" n="10"/>Quod autem sit omnino idem significatum principale utrobique hoc patet ;
+<lb ed="#L" n="11"/>nam id quod terminus significat implicite et confuse non distincte, significat
+<lb ed="#L" n="12"/>diffinitio indicans quod quid est explicite et distincte. Sed quicquid pertinet
+<lb ed="#L" n="13"/>ad diffinitionem naturae pertinet ad diffinitionem suppositi et e converso.
+<lb ed="#L" n="14"/>Nam, etsi ! diffiniatur humanitas, quaecumque ponentur in eius diffinitione
+<lb ed="#L" n="15"/>sub nominibus abstractis ponentur in  diffinitione hominis sub nominibus
+<lb ed="#L" n="16"/>concretis et e converso, ut patet, si pertractetur diffinitio tam logica quam
+<lb ed="#L" n="17"/>naturalis; quare et cetera. Et hoc modo est verum quod dicit Philosophus,
+<lb ed="#L" n="18"/>septimo Metaphysicae, quod in his quae sunt per se idem est res et quod
+<lb ed="#L" n="19"/>quid  est rei; per rem autem videtur intelligere suppositum, per quod quid
+<lb ed="#L" n="20"/>est essentiam ; entia autem per se, ut patet, ibi intelligit quae important
+<lb ed="#L" n="21"/>unam naturam unius generis vel praedicamenti et praecipue substantiae, ut
+<lb ed="#L" n="22"/>homo, quia entia per accidens in quibus dicit hoc non esse idem, intelligit
+<lb ed="#L" n="23"/>composita ex substantiis et accidentibus, ut est homo albus, secundum
+<lb ed="#L" n="24"/>quod ibi pertractat. Homo enim nihil aliud est quam quod quid est hominis;
+<lb ed="#L" n="25"/>nec enim aliud significat homo quam animal rationale et cetera. Sed res
+<lb ed="#L" n="26"/>alba non est idem ?omnino cum eo quod est quid album, quod scilicet
+<lb ed="#L" n="27"/>significatur nomine albi; nam album non significat nisi qualitatem, res
+<lb ed="#L" n="28"/>autem alba est habens qualitatem et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e888">
+               <lb ed="#L" n="29"/>Quod autem differunt solum dicto modo patet; nam nomen naturae
+<lb ed="#L" n="30"/>significat essentiam rei et ea quae ad ipsam per se pertinent simpliciter
+<lb ed="#L" n="31"/>et absolute quasi per modum simplicis formae sive secundum rationem
+<lb ed="#L" n="32"/>formalis perfectionis ab aliquo per modum compositi et totius participabilis;
+<lb ed="#L" n="33"/>et, licet talis natura non existat in rerum natura in rebus materialibus 
+prae<lb break="no" ed="#L" n="34"/>cipue sine accidentibus, tamen, cum illa sint extra eius essentiam, nomen
+<lb ed="#L" n="35"/>quo significatur essentia  vel natura ut quid  abstractum ab omni extraneo
+<lb ed="#L" n="36"/>significat solam essentiam et principia essentialia etiam cum praecisione
+<pb ed="#L" n="309"/>
+               <lb ed="#L" n="1"/>omnium accidentium et exclusione ; sic quidem quod, quamvis cum natura
+<lb ed="#L" n="2"/>sint realiter idem subiecto, tamen de ea praedicari non possunt. Nomen
+<lb ed="#L" n="3"/>autem suppositi, ut homo, eandem et solum naturam de suo principali 
+signi<lb break="no" ed="#L" n="4"/>ficato significat. Sed, — quia illam significat quasi ut participatam ab eo
+<lb ed="#L" n="5"/>quod etiam participat accidentia et modo quo etiam ei nata sunt accidentia
+<lb ed="#L" n="6"/>convenire et de ea dici, quia non significat naturam absolute aut abstractam
+<lb ed="#L" n="7"/>ab accidentibus et per modum informantis, sed in concreto et per modum
+<lb ed="#L" n="8"/>subsistentis et ' informati, — propter hoc, licet in eius significato non 
+inclu<lb break="no" ed="#L" n="9"/>dantur per se accidentia, tamen ratione modi intelligendi naturam ut sic
+<lb ed="#L" n="10"/>significatur illa etiam non excluduntur, sed pro tanto includuntur quod
+<lb ed="#L" n="11"/>etiam de ipsa ut sic significatur praedicantur; et ideo etiam dicitur quod
+<lb ed="#L" n="12"/>suppositum significatur ut totum, natura autem ut pars formalis. Si ergo
+<lb ed="#L" n="13"/>aspiciatur ad id quod per nomen naturae et suppositi per se et principaliter
+<lb ed="#L" n="14"/>significatur, non est differentia realis inter naturam et suppositum, sed
+<lb ed="#L" n="15"/>solum secundum rationem et modum intelligendi et significandi, ut dictum
+<lb ed="#L" n="16"/>est. Sed, si aspiciatur ad id quod ratione modi significandi et intelligendi
+<lb ed="#L" n="17"/>datur intelligi modo supradicto per nomen suppositi et naturae, sic 
+sup<lb break="no" ed="#L" n="18"/>positum non est idem realiter cum natura, quia non solum addit modum
+<lb ed="#L" n="19"/>quendam, sed veram rem accidentalem ; propter quod, licet omnimoda
+<lb ed="#L" n="20"/>identitas sit rei significatae principaliter et per se utroque nomine, et ideo
+<lb ed="#L" n="21"/>etiam, quia suppositum nulla accidentia per se et proprie in suo significato
+<lb ed="#L" n="22"/>includit, est ens non per accidens, sed per se, unum tamen de alio non
+<lb ed="#L" n="23"/>praedicatur non solum praedicatione formali sed nec per identitatem. Per
+<lb ed="#L" n="24"/>modos enim significandi praedicationes bene impediuntur.
+</p>
+            <p xml:id="v27ab7-g25804-d1e962">
+               <lb ed="#L" n="25"/>Nec est simile de nomine Dei et deitatis quorum unum de altero 
+prae<lb break="no" ed="#L" n="26"/>dicatur, quia modus alius et alius significandi et intelligendi impedit in
+<lb ed="#L" n="27"/>divinis praedicationem formalem, sicut etiam in aliis; sed praedicationem
+<lb ed="#L" n="28"/>per identitatem non impedit ibi sicut alibi, eo quod illa quae nomine Dei
+<lb ed="#L" n="29"/>dantur intelligi ratione sui modi significandi et intelligendi, quae non sic
+<lb ed="#L" n="30"/>dantur intelligi ex modo significandi et intelligendi? deitatis, non dicunt
+<lb ed="#L" n="31"/>vel important rem aliam a natura divina per utrumque nomen significata,
+<lb ed="#L" n="32"/>licet? sub alio et alio modo, ut patet in singulis. Non sic autem contingit
+<lb ed="#L" n="33"/>in nominibus significantibus naturam creatam in abstracto et concreto, ut
+<lb ed="#L" n="34"/>patet. Unde, si omnia quae aliquo modo ratione modi intelligendi et 
+signi<lb break="no" ed="#L" n="35"/>ficandi nomine Dei importantur sub eius significato per se caderent, tamen
+<lb ed="#L" n="36"/>praedicationem per identitatem deitatis de Deo non impediunt, quia omnia
+<lb ed="#L" n="37"/>talia etiam non sunt realiter aliud quam ipsa natura deitatis. Planum autem
+<pb ed="#L" n="310"/>
+               <lb ed="#L" n="1"/>est quod secus est ! de terminis concretis et de eis quae per ipsos aliquo
+<lb ed="#L" n="2"/>modo importantur respectu terminorum  abstractorum in creaturis.
+</p>
+            <p xml:id="v27ab7-g25804-d1e999">
+               <lb ed="#L" n="3"/>Ex eodem etiam, scilicet ex alio modo significandi et intelligendi rem
+<lb ed="#L" n="4"/>eandem sub ratione naturae in abstracto et sub ratione ? suppositi in 
+con<lb break="no" ed="#L" n="5"/>creto, contingit quod actus qui attribuuntur supposito non attribuuntur
+<lb ed="#L" n="6"/>naturae, etiam in divinis ; nam dicitur quod Deus creat, Deus generat ;
+<lb ed="#L" n="7"/>haec tamen non dicuntur de deitate vel natura. Cuius ratio est, quia res
+<lb ed="#L" n="8"/>significata in abstracto ut nomine naturae significatur, ut dictum est,
+<lb ed="#L" n="9"/>significatur sub ratione quasi partis formalis sive formae, et ideo ut ratio
+<lb ed="#L" n="10"/>agendi; ipsa autem eadem significata in concreto, ut nomine suppositi
+<lb ed="#L" n="11"/>significatur , significatur quasi sub ratione totius sive informati et habentis
+<lb ed="#L" n="12"/>quasi esse per naturam ut per formam, et ideo significatur ut id quod est
+<lb ed="#L" n="13"/>in se habens rationem agendi et sic ut agens. Unde verba per se actiones
+<lb ed="#L" n="14"/>significantia non dicuntur de natura divina in abstracto significata  eo quod
+<lb ed="#L" n="15"/>diversitas secundum modum significandi et intelligendi, licet aliquando non
+<lb ed="#L" n="16"/>impediat praedicationem per identitatem, impedit tamen semper 
+praedica<lb break="no" ed="#L" n="17"/>tionem formalem ; et, quia verbum activum actionem significat formaliter,
+<lb ed="#L" n="18"/>ideo, si illud de quo praedicatur non significet rem sub illa ratione et modo
+<lb ed="#L" n="19"/>sub quo ei competit agere, non recipitur talis praedicatio.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1038">
+               <lb ed="#L" n="20"/>Quod etiam inducitur quod suppositum importat modum subsistendi
+<lb ed="#L" n="21"/>in se sive per se existendi et illud cui competit agere, non autem natura,
+<lb ed="#L" n="22"/>hoc est contra illos qui dicunt modum realem quem addit suppositum supra
+<lb ed="#L" n="23"/>naturam contingere ex unione naturae ad esse et " ad suas proprietates et
+<lb ed="#L" n="24"/>accidentia. Nam, cum hoc totum inveniatur ' in natura humana assumpta
+<lb ed="#L" n="25"/>in supposito divino, illa etiam esset quoddam suppositum et vere diceretur
+<lb ed="#L" n="26"/>quod Filius Dei assumpsit hominem. Ergo secundum hoc oporteret, —
+<lb ed="#L" n="27"/>praeter dictum modum qui non videtur esse formalis ratio suppositi, quia
+<lb ed="#L" n="28"/>est in aliqua natura quae non habet rationem suppositi, — ponere alium
+<lb ed="#L" n="29"/>modum realem et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1062">
+               <lb ed="#L" n="30"/>Et ideo, ad evidentiam horum quare est hoc, scilicet quod supposito
+<lb ed="#L" n="31"/>convenit agere non naturae, et Christus dicitur assumpsisse non hominem
+<lb ed="#L" n="32"/>qui significat per modum suppositi, sed humanitatem quae significat per
+<lb ed="#L" n="33"/>modum naturae, sed tamen suppositum et natura sunt idem et unum
+<lb ed="#L" n="34"/>secundum rem, — est intelligendum quod, ut dictum est, licet nomine
+<lb ed="#L" n="35"/>suppositi non significetur primo et principaliter nisi id ipsum quod 
+signi<lb break="no" ed="#L" n="36"/>ficatur nomine naturae et e converso, tamen aliud connotatur nomine
+<pb ed="#L" n="311"/>
+               <lb ed="#L" n="1"/>suppositi quam nomine naturae; sicut etiam esse substantiae singularis
+<lb ed="#L" n="2"/>et subsistentiae eius sunt idem realiter, et tamen ratione diversorum
+<lb ed="#L" n="3"/>connotatorum esse naturae humanae in Christo non est esse subsistentiae
+<lb ed="#L" n="4"/>et tamen, si esset a persona divina separata, illud idem esset esse 
+subsi<lb break="no" ed="#L" n="5"/>stentiae. Ouia enim nomine quo significatur natura sub ratione suppositi
+<lb ed="#L" n="6"/>significatur quasi sub ratione cuiusdam totius et perfecti connotando
+<lb ed="#L" n="7"/>exclusive aliud vel cui innitatur vel cum quo sit pars vel nata ! sit esse
+<lb ed="#L" n="8"/>pars ?, tali autem convenit agere. Sed nomine quo significatur natura sub
+<lb ed="#L" n="9"/>ratione naturae in abstracto significatur ut sub ratione quasi formae et
+<lb ed="#L" n="10"/>ut natum participari ab alio et quasi pars aliquo modo habentis ipsam
+<lb ed="#L" n="11"/>naturam, tali autem non convenit? agere. Sed quod sit ratio agendi, ideo
+<lb ed="#L" n="12"/>quod natura non dicitur agere sed suppositum, hoc non est propter 
+diver<lb break="no" ed="#L" n="13"/>sitatem realem quae importetur per illa, sed quia , licet unum et idem per
+<lb ed="#L" n="14"/>se importetur per utrumque, tamen sub alio modo intelligendi et 
+signi<lb break="no" ed="#L" n="15"/>ficandi, ut dictum est. Hoc autem  sufficit ad hoc quod impediantur 
+prae<lb break="no" ed="#L" n="16"/>dicationes formales, sicut patet in divinis ubi constat quod suppositum
+<lb ed="#L" n="17"/>nihil addit supra naturam, et tamen ista conceditur: Deus generat, et non
+<lb ed="#L" n="18"/>Ista : deitas generat.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1122">
+               <lb ed="#L" n="19"/>Et ex hoc patet quod, quia illud quod unitur alicui in unitate suppositi
+<lb ed="#L" n="20"/>habet naturam aliquo modo partis et alteri innitentis, et hoc modo bene
+<lb ed="#L" n="21"/>significatur natura nomine abstracto, non concreto, ideo dicitur quod Filius
+<lb ed="#L" n="22"/>Dei assumpsit humanitatem vel humanam naturam, non hominem ; et non
+<lb ed="#L" n="23"/>dicitur hoc propter diversitatem realem quam suppositum importet respectu
+<lb ed="#L" n="24"/>naturae, sed quia, ad hoc quod aliquid habeat  rationem suppositi et
+<lb ed="#L" n="25"/>significetur sub ratione suppositi et in concreto, oportet quod res illa 
+intel<lb break="no" ed="#L" n="26"/>ligatur ut in se et per se existat. Hoc autem requirit quod non 
+appre<lb break="no" ed="#L" n="27"/>hendatur sub ratione partis, sive materialis sive formalis, sive ut aliquid
+<lb ed="#L" n="28"/>alterius vel alteri innitens, vel quo alteri aliquid convenit. Et ideo, licet
+<lb ed="#L" n="29"/>natura humana in Christo sit quaedam substantia singularis, de se nata
+<lb ed="#L" n="30"/>subsistere et per se existere, quia tamen habet esse ut quid alterius, sive
+<lb ed="#L" n="31"/>ut alteri innitens, in quantum Christus est unum quoddam in duabus
+<lb ed="#L" n="32"/>naturis subsistens quarum altera est natura humana, ideo natura humana ?
+<lb ed="#L" n="33"/>in Christo non potest per se significari nomine suppositi humani, sed illud
+<lb ed="#L" n="34"/>in quo est haec natura ratione talis naturae bene" sic significatur sub
+<lb ed="#L" n="35"/>ratione suppositi; unde Christus, vel Filius Dei et Filius hominis dicitur
+<lb ed="#L" n="36"/>homo, non humanitas; quia natura humana in Christo non est res per se,
+<pb ed="#L" n="312"/>
+               <lb ed="#L" n="1"/>et in se existens et subsistens; quod tamen ei conveniret si non esset
+<lb ed="#L" n="2"/>assumpta, sed sibi derelicta. Sed hoc non est quia aliquem modum realem
+<lb ed="#L" n="3"/>haberet non assumpta quem non habet assumpta, sed quia illa! suam
+<lb ed="#L" n="4"/>entitatem habet ut alii unitam, sive cum alio existentem, et non secundum
+<lb ed="#L" n="5"/>seipsam. Quod  enim ipsa secundum se et per se existat vel quod cum
+<lb ed="#L" n="6"/>alio, utrumque convenit ei formaliter ex seipsa absque aliquo sibi addito ;
+<lb ed="#L" n="7"/>effective autem convenit ei ab agente ipsam secundum se et in se absolute
+<lb ed="#L" n="8"/>vel cum alio sive ? alii coniunctam  producente.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1183">
+               <lb ed="#L" n="9"/>Cum etiam dicitur quod oportet quod in creaturis suppositum non
+<lb ed="#L" n="10"/>sit realiter idem quod natura, quia habens oportet aliquam compositionem
+<lb ed="#L" n="11"/>importare in creaturis, nec potest esse idem  habens et id " quod habet,
+<lb ed="#L" n="12"/>suppositum autem significat aliquid ut habens ', natura ut illud quod
+<lb ed="#L" n="13"/>habetur et cetera, — dicendum quod, supposito quod in omni creatura 
+sub<lb break="no" ed="#L" n="14"/>sistente oportet esse aliqua accidentia, verum est quod suppositum aliquid
+<lb ed="#L" n="15"/>significat per modum concreti et habentis, non sic autem quod ipsa natura
+<lb ed="#L" n="16"/>vere habeatur, quia habens et habitum realiter oportet esse distincta, sed
+<lb ed="#L" n="17"/>solum secundum modum intelligendi et significandi, ut dictum est. Sed
+<lb ed="#L" n="18"/>bene accidentia habentur a natura ut sic significata sub ratione suppositi
+<lb ed="#L" n="19"/>in concreto, non autem ut significatur in abstracto. Et ideo, ratione talis
+<lb ed="#L" n="20"/>modi significandi et intelligendi, suppositum, quod est habens naturam,
+<lb ed="#L" n="21"/>dicitur quoddam totum et habens aliquid naturae additum, non quidem
+<lb ed="#L" n="22"/>de suo principali significato, sed ut quid cointellectum  et concomitans
+<lb ed="#L" n="23"/>ipsam ut id sine quo non habet esse, sive ut quid a natura ut sic significata
+<lb ed="#L" n="24"/>non exclusum. Et sic suppositum non est totum quoddam vel compositum
+<lb ed="#L" n="25"/>plus quam natura quantum ad id quod per se in suo significato includit,
+<lb ed="#L" n="26"/>quia hoc idem includit nomen naturae, sed solum quantum ad id quod
+<lb ed="#L" n="27"/>dicto modo tantum cointelligitur sive ut communicans includitur vel potius
+<lb ed="#L" n="28"/>non excluditur.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1229">
+               <lb ed="#L" n="29"/>Exempla etiam per quae videtur suaderi quod aliquid possit realiter
+<lb ed="#L" n="30"/>differre ab aliquo absque hoc quod includat aliquam aliam essentiam ex
+<lb ed="#L" n="31"/>falsa imaginatione videntur procedere. Ex eo enim quod res 
+praedica<lb break="no" ed="#L" n="32"/>mentorum ad invicem coniunguntur vel etiam in uno genere plura illius,
+<lb ed="#L" n="33"/>sicut materia et forma in substantia, non contrahunt sic unita aliquid aliud
+<lb ed="#L" n="34"/>in sua essentia quam sunt secundum id quod sunt realiter aliquid ?? talis
+<lb ed="#L" n="35"/>vel talis generis, sed totum compositum cuius sunt ex unione plurium
+<lb ed="#L" n="36"/>est aliquid quod non esset secundum alterum tantum, non est tamen in
+<pb ed="#L" n="313"/>
+               <lb ed="#L" n="1"/>ipso composito ex tali unione aliquid reale praeter partium realitatem ut
+<lb ed="#L" n="2"/>sunt ipsius totius constitutivae ; nam substantia ex unione eius ad accidens
+<lb ed="#L" n="3"/>non contrahit aliquid reale consequens essentiam suam et essentiam 
+acci<lb break="no" ed="#L" n="4"/>dentis, sed, in quantum de se est quid in potentia ad talem perfectionem
+<lb ed="#L" n="5"/>quam essentialiter importat accidens, ex huiusmodi unione consequitur
+<lb ed="#L" n="6"/>actualitatem et formam sive perfectionem ab ipsa realiter differentem ; quia
+<lb ed="#L" n="7"/>etiam accidens dicit naturam sive formam non in se natam subsistere, sed
+<lb ed="#L" n="8"/>in eo et ex eo cuius est perfectio et quod natum est illud participare ex
+<lb ed="#L" n="9"/>ila unione consequitur subsisten tiam substantiae et suam etiam 
+existen<lb break="no" ed="#L" n="10"/>tiam sive entitatem quam in se sine substantia non haberet nisi miraculose,
+<lb ed="#L" n="11"/>ut in quantitate specierum sacramenti fit, quia accidentia non sunt entia
+<lb ed="#L" n="12"/>nisi quia sunt entis quod est substantia. Unde, licet ex hac unione ipsum
+<lb ed="#L" n="13"/>compositum plura contineat in se et ' ut includit unam partem ex unione
+<lb ed="#L" n="14"/>alterius consequitur aliquid quod secundum aliam non habebat, licet etiam
+<lb ed="#L" n="15"/>compositum realiter sit differens a se ipso ratione talium partium, in
+<lb ed="#L" n="16"/>quantum scilicet existens compositum ex his ratione unius partis quae per
+<lb ed="#L" n="17"/>se differt ab alia, ipsum compositum etiam differt ab illa ^; et ex consequenti
+<lb ed="#L" n="18"/>et per accidens ipsum totum differt etiam a se ipso realiter. Cum a se ipsa
+<lb ed="#L" n="19"/>una pars realiter differre non potest ex huiusmodi unione vel ex aliquo
+<lb ed="#L" n="20"/>quod ex huiusmodi unione consequatur, nec potest dici aliquo modo in
+<lb ed="#L" n="21"/>se ipsa composita realiter vel realem differentiam in se includere ex hoc,
+<lb ed="#L" n="22"/>quod, licet non sit composita ? ex bis sicut vere compositum, est tamen
+<lb ed="#L" n="23"/>composita ex eo quod composita est huic. Ex compositione enim huic, qua
+<lb ed="#L" n="24"/>scilicet una res dicitur componi vel coniungi cum altera, ipsum compositum
+<lb ed="#L" n="25"/>ex his, id est ex illis partibus quarum una cum altera componitur, solum
+<lb ed="#L" n="26"/>contrahit realem diversitatem et non componentia nisi dicto modo. Materia
+<lb ed="#L" n="27"/>autem et subiectum vere et realiter transmutatur ex coniunctione eius cum
+<lb ed="#L" n="28"/>forma, non tamen in sua essentia habet aliam variationem aliquam 
+reali<lb break="no" ed="#L" n="29"/>tatem importantem praeter illam quam facit forma ipsam perficiens. Unde
+<lb ed="#L" n="30"/>materia extensa per quantitatem non consequitur aliquam alietatem  vel
+<lb ed="#L" n="31"/>variationem qua realiter differat a se non extensa, nisi ipsam quantitatem
+<lb ed="#L" n="32"/>quae non est nisi extensio ipsius compositi per se et materiae in composito.
+<lb ed="#L" n="33"/>Unde, cum dicitur quod materia extensa differt a se ipsa non extensa realiter
+<lb ed="#L" n="34"/>et tamen essentiam aliam non addit, falsa est imaginatio. Nam materia
+<lb ed="#L" n="35"/>extensa duo dicit : et essentiam materiae et essentiam quantitatis qua 
+exten<lb break="no" ed="#L" n="36"/>ditur; et ideo differt sic a se ipsa accepta sine extensione, sicut simplex
+<lb ed="#L" n="37"/>a composito, pars a toto. Sicut etiam substantia alba differt a se ipsa non
+<pb ed="#L" n="314"/>
+               <lb ed="#L" n="1"/>alba, non quia ex unione cum albedine consequatur aliam realitatem quam
+<lb ed="#L" n="2"/>ipsam albedinem albantem ratione cuius sic realiter differre dicatur etiam
+<lb ed="#L" n="3"/>praeter ipsam albedinem, immo quia res alba duo includit, res autem sine
+<lb ed="#L" n="4"/>albedine unum, ideo res alba per aliquid reale additum differt a se ipsa
+<lb ed="#L" n="5"/>non alba sive albedine.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1344">
+               <lb ed="#L" n="6"/>Cum etiam dicitur quod materia se ipsa extenditur immediate per
+<lb ed="#L" n="7"/>quantitatem, sicut quantitas se ipsa extendit materiam et sic extensio
+<lb ed="#L" n="8"/>materiae est alia ab extensione quantitatis, propter quod dicitur quod etiam
+<lb ed="#L" n="9"/>praeter realitatem quantitatis extendentis materia extensa ' ratione suae
+<lb ed="#L" n="10"/>extensionis quae est quidam modus realis materiae differt a se ipsa non
+<lb ed="#L" n="11"/>extensa realiter, implicat repugnantia. Nam dicere quod materia se ipsa
+<lb ed="#L" n="12"/>extenditur et tamen hoc convenit ei per quantitatem repugnant, sicut dicere
+<lb ed="#L" n="13"/>quod materia vel archa se ipsa est alba vel albatur et tamen per albedinem ;
+<lb ed="#L" n="14"/>pro tanto tamen verum est quod ipsa materia se ipsa extenditur ' tanquam
+<lb ed="#L" n="15"/>subiectum extensionis, quia ipsam immediate perficit quantitas et extendit
+<lb ed="#L" n="16"/>formaliter, sicut etiam ipsum lignum superficiatum immediate perficit et
+<lb ed="#L" n="17"/>qualificat formaliter albedo. Unde etiam verum est quod id quod est materia
+<lb ed="#L" n="18"/>sive ipsa essentia materiae extenditur sicut et id quod est lignum 
+quali<lb break="no" ed="#L" n="19"/>ficatur vel albatur, et sicut lignum album  differt a se ipso non albo, sicut
+<lb ed="#L" n="20"/>compositum ex substantia et qualitate a simplici subiecto et sicut totum
+<lb ed="#L" n="21"/>a parte et hoc per aliquid additum, scilicet per albedinem, ita in proposito
+<lb ed="#L" n="22"/>debet dici ; proprie tamen non debet dici quod materia extendatur, et quod
+<lb ed="#L" n="23"/>quantitas extendat ^, sed compositum per se est extensum et ipsa quantitas
+<lb ed="#L" n="24"/>est formalis ratio extensionis sive est ipsa extensio compositi ; propter
+<lb ed="#L" n="25"/>quod etiam extensio materiae dicit aliam rem quam sit ipsa materia, sicut
+<lb ed="#L" n="26"/>quantitas est res aliaa materia. Nec est extensio materiae quidam modus
+<lb ed="#L" n="27"/>nisi sicut quantitas est quidam modus substantiae; etenim universaliter
+<lb ed="#L" n="28"/>accidentia sunt quidam modi vel quaedam dispositiones substantiae. Unde
+<lb ed="#L" n="29"/>sicut ex unione quantitatis cum materia et ex eo quod extendit materiam
+<lb ed="#L" n="30"/>non consequitur quantitas aliquid reale aliud quam suum esse et suam
+<lb ed="#L" n="31"/>entitatem per esse in materia, ita etiam et in materia ex unione eius ad
+<lb ed="#L" n="32"/>quantitatem ex hoc quod extensa non habet ultra suam essentiam aliquem
+<lb ed="#L" n="33"/>modum realem nisi formalem extensionem quantitatis; et sicut quantitas
+<lb ed="#L" n="34"/>qua fit extensio non consequitur aliquid aliud quam suum esse quidditativum
+<lb ed="#L" n="35"/>sive id quod est quantitas, ita materia quae extenditur non est aliud quam
+<pb ed="#L" n="315"/>
+               <lb ed="#L" n="1"/>materia. Non debet ergo dici quod alia sit extensio materiae et alia extensio
+<lb ed="#L" n="2"/>quantitatis ; immo in quanto in quo sunt plures formae, scilicet una 
+substan<lb break="no" ed="#L" n="3"/>tialis et accidentales diversae, una extensione et materia et forma substantialis
+<lb ed="#L" n="4"/>et omnes aliae extenduntur. Unde non solum est eadem extensio materiae
+<lb ed="#L" n="5"/>et quantitatis, sed etiam formae substantialis albedinis et omnium aliarum
+<lb ed="#L" n="6"/>formarum extensionem suscipientium, quia ipsa quantitas est una extensio per
+<lb ed="#L" n="7"/>essentiam qua participative et formaliter materia et omnia quae in ipsa sunt
+<lb ed="#L" n="8"/>extenduntur. Unde materia extensa realiter differt a sua extensione ; sed non
+<lb ed="#L" n="9"/>differt realiter a se ipsa, circumscripta ipsa extensione quae non est nisi 
+quanti<lb break="no" ed="#L" n="10"/>tas extendens.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1435">
+               <lb ed="#L" n="11"/>Item, cum ab eis  distinguitur extensum in id quod est essentialiter
+<lb ed="#L" n="12"/>tale, ut quantitas, et participative tale, ut materia, addendo quod hoc non est
+<lb ed="#L" n="13"/>illud ut extensio materiae non sit extensio quantitatis sicut nec partes materiae
+<lb ed="#L" n="14"/>sunt partes quantitatis, non bene distinguitur. Nec enim est quantitas 
+exten<lb break="no" ed="#L" n="15"/>sum per se et essentialiter nec materia participative; sed compositum ex
+<lb ed="#L" n="16"/>materia et quantitate est quid extensum per se in quantum continet materiam
+<lb ed="#L" n="17"/>per quam ipsum compositum est in potentia ad extendi et quantitatem ? per
+<lb ed="#L" n="18"/>quam est actu extensum. Sicut enim nec forma quae est actus sive esse 
+com<lb break="no" ed="#L" n="19"/>positi nec ipsa materia cuius est forma perfectio per se est, sed totum 
+composi<lb break="no" ed="#L" n="20"/>tum quod complectitur duo secundum quorum unum convenit ei esse in 
+poten<lb break="no" ed="#L" n="21"/>tia, secundum aliud esse in actu, ita nec etiam quantitas nec materia proprie
+<lb ed="#L" n="22"/>extenditur, sed compositum continens duo : scilicet materiam secundum quam
+<lb ed="#L" n="23"/>convenit ipsi composito esse extensum in potentia, et quantitatem  secundum
+<lb ed="#L" n="24"/>quam convenit esse extensum in actu; totum enim est in potentia per 
+mate<lb break="no" ed="#L" n="25"/>riam vel?subiectum et totum est in actu per formam. Unde, sicut non est
+<lb ed="#L" n="26"/>aliud esse simpliciter materiae et formae et compositi, ita non est alia et alia
+<lb ed="#L" n="27"/>extensio sive aliud et aliud esse extensum materiae et quantitatis et 5 
+compo<lb break="no" ed="#L" n="28"/>siti, sed una et eadem. Unde, licet alia sit essentia materiae vel substantiae et
+<lb ed="#L" n="29"/>albedinis quae per quantitatem in composito extenduntur et quantitatis qua tam
+<lb ed="#L" n="30"/>materia quam albedo in composito extenduntur ", tamen non sunt aliae partes
+<lb ed="#L" n="31"/>materiae sive substantiae et aliae partes albedinis et aliae partes quantitatis tam
+<lb ed="#L" n="32"/>materiam quam albedinem in composito se ipsa quae est quaedam compositi
+<lb ed="#L" n="33"/>extensio extendentis.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1487">
+               <lb ed="#L" n="34"/>Oporteret tamen dicere quod aliae essent partes ? substantiae et aliae
+<lb ed="#L" n="35"/>partes quantitatis si alia esset extensio substantiae et alia extensio quantitatis.
+<lb ed="#L" n="36"/>Oportet tamen dicere quod et materia extensa aliquo modo habet partes et
+<pb ed="#L" n="316"/>
+               <lb ed="#L" n="1"/>etiam quantitas extendens ; sed ex hoc non debet argui quod alia sit extensio
+<lb ed="#L" n="2"/>haec et illa, sed quod illud quod in composito per quantitatem extenditur est
+<lb ed="#L" n="3"/>aliud realiter ab eo quod in composito ' illud extendit. Quia enim quantitas
+<lb ed="#L" n="4"/>realiter extendit ipsam essentiam materiae, ideo sub qualibet parte quantitatis
+<lb ed="#L" n="5"/>est essentia materiae extensa ; et secundum divisionem quantitatis, immo 
+com<lb break="no" ed="#L" n="6"/>positi per quantitatem, oportet ipsam essentiam materiae dividi ; ita etiam de
+<lb ed="#L" n="7"/>qualibet forma pure materiali. Et sicut materia si non extenderetur non haberet
+<lb ed="#L" n="8"/>partes, sed esset simplex et indivisibilis, ita cum extenditur, quia ex ipsa et
+<lb ed="#L" n="9"/>quantitate fit unum in esse et subiecto, et vere extenditur per quantitatem id
+<lb ed="#L" n="10"/>quod ipsa est essentialiter manens distincta in essentia a  quantitate ; ideo ?
+<lb ed="#L" n="11"/>sub illa et per illam habet partes quarum quaelibet secundum id quod est est
+<lb ed="#L" n="12"/>essentialiter materia et non quantitas. Quod tamen habeat rationem partis, et
+<lb ed="#L" n="13"/>quod sit divisa in actu vel divisibilis et partibilis in plures partes, hoc  habet
+<lb ed="#L" n="14"/>formaliter per quantitatem, sicut habet 5 per quantitatem rationem extensi vel
+<lb ed="#L" n="15"/>quod sit quid extensum. Et  sicut materia extensa duo includit, scilicet ipsam
+<lb ed="#L" n="16"/>essentiam materiae quae extenditur et ipsam quantitatem quae illam extendit
+<lb ed="#L" n="17"/>et est ipsa extensio formaliter, ita etiam materia partita vel id quod est pars
+<lb ed="#L" n="18"/>quaedam materiae duo includit : scilicet ipsam essentiam materiae quae 
+par<lb break="no" ed="#L" n="19"/>ti tione et divisione materiae extensae per quantitatem in plura est aliquid
+<lb ed="#L" n="20"/>distinctum ab alia parte eiusdem rationis, et ipsam quantitatem qua  sic 
+parti<lb break="no" ed="#L" n="21"/>bilitatem et divisibilitatem habet ipsa materia et est ipsa divisibilitas et 
+par<lb break="no" ed="#L" n="22"/>tibilitas materiae. Et sicut, circumscripta extensione quantitatis sive quae est
+<lb ed="#L" n="23"/>quantitas, non potest intelligi materia sub aliqua ratione extensionis sive aliquo
+<lb ed="#L" n="24"/>modo extensa, ita etiam, circumscripta partitione quantitatis sive quae est 
+quae<lb break="no" ed="#L" n="25"/>dam quantitas, non potest intelligi materia habere aliquo modo etiam rationem
+<lb ed="#L" n="26"/>partis. Et ideo, cum est materia actu extensa vel actu habens partem, non
+<lb ed="#L" n="27"/>potest intelligi quod ex hoc in materia extensa sit aliud extensio et partitio
+<lb ed="#L" n="28"/>materiae et quantitatis, sicut etiam patet in aliis a quibus materia vel substantia
+<lb ed="#L" n="29"/>habet esse aliquo modo in actu sive substantiali sive accidentali quod ex
+<lb ed="#L" n="30"/>unione talium ad materiam vel substantiam non contingit quod aliquid aliud
+<lb ed="#L" n="31"/>sit actualitas ? materiae vel substantiae quem consequitur ex unione eius ad
+<lb ed="#L" n="32"/>talem formam et actualitas ipsius formae ; et sic ^, cum materia non habeat
+<lb ed="#L" n="33"/>extensionem nisi quae est quantitas qua tamen " ipsa vere extenditur et in hoc
+<lb ed="#L" n="34"/>vere habet partes, — ipsa enim tota extenditur per totam quantitatem et partes
+<lb ed="#L" n="35"/>per partes quantitatis, — tamen, ut dictum est, partes materiae non sunt aliae
+<lb ed="#L" n="36"/>a partibus quantitatis. Cireumscripta enim quantitate, non potest intelligi quod
+<lb ed="#L" n="37"/>in materia sint aliquae partes ; sed, circumscripta materia, in ipsa quantitate est
+<lb ed="#L" n="38"/>intelligere partes.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1582">
+               <pb ed="#L" n="317"/>
+               <lb ed="#L" n="1"/>Quando ergo haec ad invicem coniunguntur, totum id quod ad rationem 
+par<lb break="no" ed="#L" n="2"/>tis extensionis et divisionis pertinet ad quantitatem per se est referendum. Et
+<lb ed="#L" n="3"/>ideo in materia extensa et partita sicut non est ibi extensio formaliter nisi quae
+<lb ed="#L" n="4"/>est quantitas, ita etiam non est ibi ponere partes formaliter nisi secundum 
+quan<lb break="no" ed="#L" n="5"/>titatem. Sicut tamen ' est ibi aliquid extensum quod non est quantitas, ita est
+<lb ed="#L" n="6"/>ibi aliquid divisum et partitum quod etiam non est quantitas, sed est ipsa 
+sub<lb break="no" ed="#L" n="7"/>stantia materiae quae divisione et partitione quantitatis dividitur ; quae, licet
+<lb ed="#L" n="8"/>secundum hoc partes habeat formaliter, tamen non sunt aliae a partibus 
+quan<lb break="no" ed="#L" n="9"/>titatis.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1606">
+               <lb ed="#L" n="10"/>Praeterea, si ponatur quod praeter extensionem quantitatis sit quaedam
+<lb ed="#L" n="11"/>ex tensio materiae quam dicunt isti  non esse quantitatem nec extensionem
+<lb ed="#L" n="12"/>quae est quantitas, sed quendam modum materiae ex unione eius ad 
+quanti<lb break="no" ed="#L" n="13"/>tatem derelictam ^, cum ille modus non ponatur esse res et essentia alia ab ipsa
+<lb ed="#L" n="14"/>materia, non potest dici quod materia per illam habeat alietatem realem in 
+par<lb break="no" ed="#L" n="15"/>tibus nec quod per eam sit una pars materiae essentialiter alia ab altera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1622">
+               <lb ed="#L" n="16"/>Ponendum est ergo quod differt una pars materiae ab alia essentialiter,
+<lb ed="#L" n="17"/>sed non nisi sit extensa. Unde, licet materia extendatur per accidens quod est
+<lb ed="#L" n="18"/>quantitas, tamen partes eius non differunt ab invicem accidentaliter solum, sed
+<lb ed="#L" n="19"/>essentialiter, licet hoc ei conveniat ex quantitate in ? quantum per eam sua
+<lb ed="#L" n="20"/>essentia vere et realiter extenditur. Sicut enim illud quantitatis quod est in una
+<lb ed="#L" n="21"/>parte est aliud ab eo quantitatis quod est in alia parte eius, ita id substantiae 
+<lb ed="#L" n="22"/>materiae extensae quod est in una parte ipsius materiae ? extensae per 
+quanti<lb break="no" ed="#L" n="23"/>tatem est aliud non accidentaliter, sed essentialiter ab eo materiae quod est in
+<lb ed="#L" n="24"/>alia parte materiae eiusdem materiae extensae ^.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1644">
+               <lb ed="#L" n="25"/>Illud etiam quod dicitur ab istis  quod, secundum Philosophum, materia
+<lb ed="#L" n="26"/>existens sub formis contrariis est una secundum essentiam, alia et alia 
+secun<lb break="no" ed="#L" n="27"/>dum esse et cetera, non valet ad ostendendum quod ex unione formae cum
+<lb ed="#L" n="28"/>materia consequatur materia aliquid vel aliquem modum realem praeter ipsam
+<lb ed="#L" n="29"/>essentiam formae. Nam, cum forma sit id quod naturaliter prius perficit 
+mate<lb break="no" ed="#L" n="30"/>riam, constat quod quicquid materia ex huiusmodi unione consequeretur non
+<lb ed="#L" n="31"/>esset immediate modus vel dispositio materiae, sed compositi ex materia et
+<lb ed="#L" n="32"/>forma. Hoc autem non est aliud nisi accidens sive aliqua proprietas 
+acciden<lb break="no" ed="#L" n="33"/>talis. Ergo, si per esse intelligit Philosophus aliud quam essentiam formae,
+<lb ed="#L" n="34"/>intelligeret quod esset aliquod accidens ; non intelligit ergo Philosophus per
+<lb ed="#L" n="35"/>hoc nisi quod, cum materia de se in genere substantiae non sit nisi quaedam
+<pb ed="#L" n="318"/>
+               <lb ed="#L" n="1"/>potentialitas ad esse sive qua aliquid est in potentia ad esse, nunc autem 
+com<lb break="no" ed="#L" n="2"/>posito per se competit esse sed per formam, ideo forma est actus materiae et
+<lb ed="#L" n="3"/>compositi et est id per quod composito convenit esse simpliciter. Unde, dicere
+<lb ed="#L" n="4"/>materiam differre secundum esse est dicere ipsam esse partem vel aliquid 
+plu<lb break="no" ed="#L" n="5"/>rium compositorum quibus per se, licet ratione diversarum formarum, 
+compe<lb break="no" ed="#L" n="6"/>tunt diversa esse et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1686">
+               <lb ed="#L" n="7"/>Ex praedictis patet quod natura, ut nomine abstracto significatur, dicit
+<lb ed="#L" n="8"/>aliquid cui ut sic non convenit subsistere, sed potius est ratio in qua vel
+<lb ed="#L" n="9"/>secundum quam habens eam subsistit ; suppositum autem quod dicit eandem
+<lb ed="#L" n="10"/>naturam nomine concreto per se habet subsistere et omnibus aliis substare.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1697">
+               <lb ed="#L" n="11"/>Ex hoc posset quaeri utrum in supposito sic significato includitur aliquid
+<lb ed="#L" n="12"/>additum naturae quod faciat ad hoc quod natura quae secundum se non videtur
+<lb ed="#L" n="13"/>subsistere vel substare cum illo vel per illud rationem subsistendi sortiatur ; et
+<lb ed="#L" n="14"/>est dicendum quod, quia quod quicquid est adventitium naturae in genere 
+sub<lb break="no" ed="#L" n="15"/>stantiae est accidens ipsam naturam concomitans, sed ex eo quod naturam 
+con<lb break="no" ed="#L" n="16"/>comitatur et est ei accidentale non potest ei competere ratio subsistendi, cum
+<lb ed="#L" n="17"/>potius omnia naturam consequentia in ipsa natura et virtute eius subsistant et
+<lb ed="#L" n="18"/>rationem subsistendi in alio, licet non in se, quodammodo participent ; ideo
+<lb ed="#L" n="19"/>dicendum quod naturae non convenit subsistere per aliquid sibi additum.
+<lb ed="#L" n="20"/>Propter quod in supposito ' ultra naturam non est aliquid tale ponendum.
+<lb ed="#L" n="21"/>Tamen ad hoc quod natura substantiae creatae sic coexigit accidentia et 
+pro<lb break="no" ed="#L" n="22"/>prietates sine quibus esse non habet quae in natura ipsa secundum se et ut in
+<lb ed="#L" n="23"/>abstracto significatur non includuntur et, si secundum hoc quaeratur utrum 
+sup<lb break="no" ed="#L" n="24"/>positum aliquid ultra naturam importet quod saltem naturam concomitetur,
+<lb ed="#L" n="25"/>videtur dicendum quod sic, ut ex praedictis colligi potest.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1733">
+               <lb ed="#L" n="26"/>Ad quaestionem ergo, cum quaeritur utrum suppositum aliquid addit supra
+<lb ed="#L" n="27"/>naturam secundum primum modum accipiendi suppositum et naturam, 
+dicen<lb break="no" ed="#L" n="28"/>dum est quod sic quantum ad connotatum ; sed quantum ad principale 
+signifi<lb break="no" ed="#L" n="29"/>catum dicendum quod non. Unde dicendum quod secundum hunc modum
+<lb ed="#L" n="30"/>patet quod homo qui est suppositum commune non addit realiter aliquid supra
+<lb ed="#L" n="31"/>naturam humanam communem quae nomine humanitatis significatur, nec differt
+<lb ed="#L" n="32"/>realiter ab ea. Patet similiter quod hic homo nihil addit super hanc 
+humani<lb break="no" ed="#L" n="33"/>tatem nec realiter differt ab ea et sic expediti sumus de primo articulo.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1753">
+               <lb ed="#L" n="34"/>Circa secundum articulum autem huius quaestionis est considerandum
+<lb ed="#L" n="35"/>quomodo se habet hic homo ad hominem sive haec humanitas ad 
+humanita<lb break="no" ed="#L" n="36"/>tem . Haec autem inquisitio investigare debet causam  individuationis 
+prae<lb break="no" ed="#L" n="37"/>cipue in materialibus.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1764">
+               <lb ed="#L" n="38"/>Individuum enim, prout nunc de individuo loquimur, dicitur proprie 
+singu<lb break="no" ed="#L" n="39"/>lare suppositum unius naturae communis, quae in pluribus eiusdem rationis et
+<pb ed="#L" n="319"/>
+               <lb ed="#L" n="1"/>naturae vel speciei invenitur in actu velin potentia. Cum ergo individua plura
+<lb ed="#L" n="2"/>sub eadem specie in aliquo conveniant, quia in natura communi speciei sive in
+<lb ed="#L" n="3"/>natura communiter intellecta sub ratione speciei, per illud autem per quod
+<lb ed="#L" n="4"/>conveniunt ' differre non possunt, videtur quod supra naturam quam importat
+<lb ed="#L" n="5"/>species addat individuum aliquid per quod natura communis in illo 
+individue<lb break="no" ed="#L" n="6"/>tur et ab aliis eiusdem speciei individualiter vel materialiter distinguatur. Sicut
+<lb ed="#L" n="7"/>enim commune quod est genus non potest dividi in plura specie differentia nisi
+<lb ed="#L" n="8"/>per additionem alicuius ad rationem speciei pertinentis, quod differens est in
+<lb ed="#L" n="9"/>diversis, ita etiam videtur quod commune, quod est species, non possit dividi
+<lb ed="#L" n="10"/>in plura secundum individuum, nisi quodlibet individuum addat aliquid  supra
+<lb ed="#L" n="11"/>naturam speciei, quae, quantum est de se; una est in omnibus individuis, 
+alio<lb break="no" ed="#L" n="12"/>quin plura essent plura et non plura, quia nec in illa natura haberent aliquam
+<lb ed="#L" n="13"/>differentiam nec etiam in uno esset aliquid per quod differret unum ab alio ex
+<lb ed="#L" n="14"/>quo in eis non esset nisi illa natura. Item, essent plura per hoc quod hoc non
+<lb ed="#L" n="15"/>esset illud.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1806">
+               <lb ed="#L" n="16"/>Sed non videtur posse intelligi addi aliquid pertinens ad essentiam et 
+natu<lb break="no" ed="#L" n="17"/>ram individui, quia illam totam dicit species, quae est totum esse individuorum ;
+<lb ed="#L" n="18"/>ergo, si aliquid additur, videtur esse aliquod pertinens ad naturam 
+accidenta<lb break="no" ed="#L" n="19"/>lem. Per illud autem quod addere dicitur individuum supra speciem videtur
+<lb ed="#L" n="20"/>habere individuum quod sit individuum et hoc videtur esse causa 
+individuatio<lb break="no" ed="#L" n="21"/>nis; ergo secundum hoc accidentia essent causa individuationis. Etenim in
+<lb ed="#L" n="22"/>linea praedicamentali stat divisio in specie specialissima, eo quod includit
+<lb ed="#L" n="23"/>ultimam differentiam sub qua non est accipere aliquam magis determinatam
+<lb ed="#L" n="24"/>per quam magis posset determinari in individuo, sicut contingit in specie
+<lb ed="#L" n="25"/>respectu generis, nisi esset processus in infinitum ; et ideo, sicut dicit Plato, in
+<lb ed="#L" n="26"/>singularibus est quiescendum, sic scilicet quod non est ponere in eis formale
+<lb ed="#L" n="27"/>aliquid ad essentiam et quidditatem pertinens ultra id quod in ratione et 
+quid<lb break="no" ed="#L" n="28"/>ditate speciei includitur. Ergo, si aliquid additur quo sic natura secundum se
+<lb ed="#L" n="29"/>communis determinetur et contrahatur, oportet quod sit aliquid pertinens ad
+<lb ed="#L" n="30"/>accidentalem naturam, ut dictum est.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1841">
+               <lb ed="#L" n="31"/>Videtur ergo quod individuatio fiat per accidentia, et hoc videntur dicere
+<lb ed="#L" n="32"/>philosophi et sancti doctores. Nam Porphyrius dicit quod individua differunt
+<lb ed="#L" n="33"/>peraccidentales proprietates quas nunquam contingit  simul in pluribus 
+repe<lb break="no" ed="#L" n="34"/>riri. Et Boetius in commento dicit quod individua sunt eadem specie ; quantum
+<lb ed="#L" n="35"/>ad substantiam unum sunt non habentia substantialem differentiam, sed 
+acci<lb break="no" ed="#L" n="36"/>dentibus videtur effici ut in accidentibus saltim differre videantur plures 
+sub<lb break="no" ed="#L" n="37"/>stantiae de quibus species praedicatur et non substantiae diversitate ^, sed
+<lb ed="#L" n="38"/>accidentium multitudine ; et in principio libri de Trinitate : in numero 
+differen<lb break="no" ed="#L" n="39"/>tiam accidentium varietas facit. Et Damascenus de Duabus naturis et una
+<pb ed="#L" n="320"/>
+               <lb ed="#L" n="1"/>persona Christi, circa principium : omnis res qua differt species ab altera specie
+<lb ed="#L" n="2"/>substantialis et naturalis et constitutiva differentia dicitur ; omnis autem res in
+<lb ed="#L" n="3"/>qua differt hypostasis ab eiusdem speciei cum substantiali hypostasi dicitur
+<lb ed="#L" n="4"/>adventitia differentia ' et qualitas et hypostatica et caracteristica proprietas ;
+<lb ed="#L" n="5"/>hoc autem est accidens ; vel ut  differt homo ab homine altero, quoniam hic
+<lb ed="#L" n="6"/>quidem est longus, hic est autem brevis, hic autem albus, hic vero niger. Et
+<lb ed="#L" n="7"/>Avicenna, quinto Metaphysicae : postquam determinata fuerit natura facta
+<lb ed="#L" n="8"/>species specialissima, erit natura determinata sic quod accidunt ei 
+concomitan<lb break="no" ed="#L" n="9"/>tia ex accidentibus et proprietatibus per quae natura individuatur et sic designata
+<lb ed="#L" n="10"/>videtur.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1887">
+               <lb ed="#L" n="11"/>Et secundum hoc esset dicendum quod quid est, sive quidditas, et habens
+<lb ed="#L" n="12"/>quidditatem differrent realiter, ut per « quid est » vel quidditatem intelligatur
+<lb ed="#L" n="13"/>natura secundum speciem quae proprie ? definitur et cuius definitio explicat
+<lb ed="#L" n="14"/>quod quid est eius; per « habens quidditatem » intelligatur substantia prima
+<lb ed="#L" n="15"/>vel individuum de quo species praedicatur et per hoc etiam definitio vel 
+quiddi<lb break="no" ed="#L" n="16"/>tas speciel ei attribuetur ; et sic etiam natura et suppositum non sunt idem sicut
+<lb ed="#L" n="17"/>substantia cum accidentibus et substantia secundum se. Sed illud non videtur
+<lb ed="#L" n="18"/>posse stare, quia individuum non addit supra speciem id quod non plus 
+inclu<lb break="no" ed="#L" n="19"/>ditur in significato individui quam speciei . Sed non magis sunt de significato,
+<lb ed="#L" n="20"/>vel intellectu, vel ratione individui in genere substantiae accidentia, quam de
+<lb ed="#L" n="21"/>ratione speciei. Per individuum enim intelligimus substantiam primam, quae
+<lb ed="#L" n="22"/>principaliter et maxime substantia dicitur et secundum se habet esse reale in
+<lb ed="#L" n="23"/>rerum natura extra intellectum, et de qua substantia per se et essentialiter
+<lb ed="#L" n="24"/>praedicatur tanquam de eo quod est in genere substantiae per se et directe.
+<lb ed="#L" n="25"/>Per speciem autem intelligimus substantiam secundam quae de prima dicitur
+<lb ed="#L" n="26"/>et in illa est non sicut in subiecto, sed sicut in supposito, cuius essentiam
+<lb ed="#L" n="27"/>totam dicit, sicut se habet hic homo sive Sortes ad hominem ; sed quicquid
+<lb ed="#L" n="28"/>est de significato et intellectu vel ratione huius ? hominis vel Sortis 
+deter<lb break="no" ed="#L" n="29"/>minate est de significato et intellectu vel ratione hominis simpliciter et 
+inde<lb break="no" ed="#L" n="30"/>terminate et nihil amplius. Nam, sicut de ratione huiusmodi hominis sunt
+<lb ed="#L" n="31"/>haec anima et hoc corpus subiec ta his et his accidentibus determinatis, ita de
+<lb ed="#L" n="32"/>ratione hominis simpliciter sunt anima et corpus subiecta accidentibus 
+inde<lb break="no" ed="#L" n="33"/>terminate.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1940">
+               <lb ed="#L" n="34"/>Item, individuum vel prima substantia non plus est ens per accidens 
+con<lb break="no" ed="#L" n="35"/>tinens in sua ratione plura, scilicet substantiam et accidens quam species sive
+<lb ed="#L" n="36"/>substantia secunda, alioquin non esset in genere per se, nec substantia secunda
+<lb ed="#L" n="37"/>per se et essentialiter praedicaretur de ipsa.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1951">
+               <lb ed="#L" n="38"/>Item, quod est posterius altero non potest esse causa illius secundum quod
+<lb ed="#L" n="39"/>posterius. Sed omnia accidentia individua videntur esse posteriora et adventitia
+<pb ed="#L" n="321"/>
+               <lb ed="#L" n="1"/>substantiae ; ergo in suo esse et sic etiam in sua individuatione, vel in suo esse
+<lb ed="#L" n="2"/>individuo, praesupponunt substantiam in suo esse et in suo esse individuo, sive
+<lb ed="#L" n="3"/>ipsam esse individuam, ut suum subiectum in quo habent accidentia omnia esse
+<lb ed="#L" n="4"/>et individuari.
+</p>
+            <p xml:id="v27ab7-g25804-d1e1969">
+               <lb ed="#L" n="5"/>Item, cum in omni genere sub specie inveniantur singularia quae, licet
+<lb ed="#L" n="6"/>non sint  supposita, sunt tamen individua, quaerendum est unde eorum 
+indivi<lb break="no" ed="#L" n="7"/>duatio causatur, puta huius albedinis et illius huius quantitatis et illius. Si
+<lb ed="#L" n="8"/>enim propter hoc individua substantiae oportet differre per aliquid speciei
+<lb ed="#L" n="9"/>additum, quia in ipsa natura speciei conveniunt et ideo per illam differe non
+<lb ed="#L" n="10"/>possunt, idem iudicium etiam erit de individuis accidentis respectu suae speciei ;
+<lb ed="#L" n="11"/>ergo etiam oportet quod per aliquid additum individuentur. Sicut enim haec
+<lb ed="#L" n="12"/>humanitas et haec conveniunt in humanitate communi, ita haec albedo et illa et
+<lb ed="#L" n="13"/>haec linea vel superficies et illa; ergo vel est abire in infinitum vel oportet
+<lb ed="#L" n="14"/>ponere quod alicubi individuum nihil addit supra speciem ; ergo non est causa
+<lb ed="#L" n="15"/>per se quod individuum oporteat aliquid addere supra speciem ad hoc quod ab
+<lb ed="#L" n="16"/>alio individuo distinguatur communitas eorum in specie et eorum differentia in
+<lb ed="#L" n="17"/>se ipsis singulariter existentibus cum hoc ubique non inveniatur.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2000">
+               <lb ed="#L" n="18"/>Item, non videtur posse dici quod accidentia faciant individua vel numero
+<lb ed="#L" n="19"/>diversa, quia nec secundum se habent esse simpliciter, sed in substantia ; ergo
+<lb ed="#L" n="20"/>magis habent suam ? individuationem, ut videtur, a substantia singulari quam
+<lb ed="#L" n="21"/>e converso.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2011">
+               <lb ed="#L" n="22"/>Item, si per accidentia solum fieret individuatio et formalis divisio, vel
+<lb ed="#L" n="23"/>distinctio singularium sub una specie, non differrent re substantiali 
+essentia<lb break="no" ed="#L" n="24"/>liter et substantialiter ab invicem, sed solo accidente ; nec esset unus homo
+<lb ed="#L" n="25"/>alius ab altero in substantia, quia quicquid ad substantiam pertinens esset in uno
+<lb ed="#L" n="26"/>esset in alio, et ideo solum alius in accidentibus esset : sicut si  uno homine
+<lb ed="#L" n="27"/>existente sub aliquibus accidentibus, postea omnibus illis quacumque ? virtute
+<lb ed="#L" n="28"/>creata vel increata mutatis, ipse non differret a se ipso substantialiter, sed 
+acci<lb break="no" ed="#L" n="29"/>dentaliter tantum, et tamen esset alius numero a se ipso propter alietatem 
+acci<lb break="no" ed="#L" n="30"/>dentium ; quod tamen est falsum. Ergo cum, hoc posito, non variaretur homo
+<lb ed="#L" n="31"/>secundum numerum vel individuum, quod non est nisi quia etiam non variaretur
+<lb ed="#L" n="32"/>secundum substantiam, quamvis variaretur secundum accidentia, individuatio
+<lb ed="#L" n="33"/>in genere substantiae non videtur causari ex accidentibus. Verum est tamen
+<lb ed="#L" n="34"/>quod ille homo esset aliquo modo alius numero a se ipso eo quod quantitas et
+<lb ed="#L" n="35"/>alia accidentia circa ipsum numerationem et divisionem vel distinctionem 
+habe<lb break="no" ed="#L" n="36"/>rent non ex diversitate subiecti, sed ex eorum interruptione et variatione
+<lb ed="#L" n="37"/>illorum secundum esse et non esse circa idem subiectum. Sicut etiam si homo
+<lb ed="#L" n="38"/>habens accidentia 7 posset postea conservari sine illis, tamen non haberet unde
+<pb ed="#L" n="322"/>
+               <lb ed="#L" n="1"/>cum aliis connumeraretur numero acciden tali,secundum hoc etiam aliquo modo
+<lb ed="#L" n="2"/>non esset idem homo numero qui prius.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2057">
+               <lb ed="#L" n="3"/>Sed, quia inter omnia entia quantitati soli per se videtur convenire 
+divisibi<lb break="no" ed="#L" n="4"/>litas in plura eiusdem rationis et sic in plura non essentialiter sive specifice et
+<lb ed="#L" n="5"/>per se, sed numeraliter differentia, puta haec et haec albedo, non videtur esse
+<lb ed="#L" n="6"/>alia et alia sub eadem specie differens numero secundum se, sed in quantum
+<lb ed="#L" n="7"/>intelligitur esse in superficie ut in subiecto et extendi extentione superficiei, et
+<lb ed="#L" n="8"/>sic intelligitur posse habere diversas partes eiusdem rationis in diversis 
+parti<lb break="no" ed="#L" n="9"/>bus superficiei. Similiter etiam ' in substantia, materia secundum se non 
+inclu<lb break="no" ed="#L" n="10"/>dit aliquid unde possit habere plures partes eiusdem rationis, immo ut sic est
+<lb ed="#L" n="11"/>una et indivisibilis ; similiter etiam de quacumque forma substantiali se habet.
+<lb ed="#L" n="12"/>Unde haec substantia ut haec et haec equinitas non videtur esse alia et alia sub
+<lb ed="#L" n="13"/>eadem specie differens numero secundum se, nec secundum se intellecta 
+equi<lb break="no" ed="#L" n="14"/>nitas videtur comprehendere unde per se possit esse haec et haec. Sed in
+<lb ed="#L" n="15"/>quantum intelligitur importare formam in materia quanta et extensa et quae per
+<lb ed="#L" n="16"/>quantitatem extensa sub diversis partibus quantitatis habet etiam diversas
+<lb ed="#L" n="17"/>partes substantiae eiusdem rationis, propter quod etiam forma habens partes
+<lb ed="#L" n="18"/>eiusdem rationis in illa materia recipitur . Videtur ergo quod haec individuatio
+<lb ed="#L" n="19"/>et divisio vel distinctio secundum numerum et individuum habet esse in 
+omni<lb break="no" ed="#L" n="20"/>bus aliis ? tam accidentibus quam substantiis per ipsam solam quantitatem ; et
+<lb ed="#L" n="21"/>ideo tota difficultas praesentis inquisitionis quantum ad entia materialia videtur
+<lb ed="#L" n="22"/>versari circa quantitatem.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2104">
+               <lb ed="#L" n="23"/>Nam, si aliquod accidens sit causa individuationis, hoc videtur quantitati
+<lb ed="#L" n="24"/>tribuendum. Sed hoc non est verisimile, quia constat quod quantitas non potest
+<lb ed="#L" n="25"/>esse causa individuationis secundum rationem causae efficientis vel finalis ; et
+<lb ed="#L" n="26"/>ideo inquirendum utrum secundum rationem causae materialis vel formalis.
+<lb ed="#L" n="27"/>Quod autem non secundum rationem causae materialis hoc videtur, quia 
+subiec<lb break="no" ed="#L" n="28"/>tum sive substantia composita ex materia et forma substantiali  est materia
+<lb ed="#L" n="29"/>accidentis, non autem e converso ; ergo et cetera. Item, illud quod educitur de
+<lb ed="#L" n="30"/>potentia subiecti vel materiae per transmutationem ipsius materiae vel subiecti 
+<lb ed="#L" n="31"/>non habet rationem materiae et subiecti, sed rationem formae et actus. Ita est
+<lb ed="#L" n="32"/>de omnibus accidentibus respectu substantiae compositae ex materia et forma.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2128">
+               <lb ed="#L" n="33"/>Quod autem non in ratione causae formalis sit causa individuationis 
+argui<lb break="no" ed="#L" n="34"/>tur ; quoniam, si esset ratio formalis qua unum individuum speciei ab alio 
+differ<lb break="no" ed="#L" n="35"/>ret et distingueretur numero, unum non differret ab alio substantialiter, sed
+<lb ed="#L" n="36"/>accidentaliter, quia differentia est per formam ; ubi ergo non est alia forma non
+<lb ed="#L" n="37"/>est realis differentia. Ergo, si in duobus individuis non sit alia et alia forma
+<lb ed="#L" n="38"/>substantialis, sed solum accidentalis, quae est quantitas — quod oportet dicere
+<pb ed="#L" n="323"/>
+               <lb ed="#L" n="1"/>si quantitas divisa sit praecisa ratio formalis huiusmodi diversitatis et non ipsa
+<lb ed="#L" n="2"/>forma substantialis — unum individuum differret ab alio solum accidentaliter
+<lb ed="#L" n="3"/>sive secundum formam accidentalem, et essent plura secundum quantitatem,
+<lb ed="#L" n="4"/>sive plura quanta, et non secundum substantiam, sive non essent plures 
+substan<lb break="no" ed="#L" n="5"/>tiae ; quod est manifestum inconveniens. Et tunc etiam differret suppositum et
+<lb ed="#L" n="6"/>natura ' realiter, quia natura diceret solam essentiam specificam quae una 
+secun<lb break="no" ed="#L" n="7"/>dum rem esset in omnibus, suppositum autem diceret illam naturam cum
+<lb ed="#L" n="8"/>determinata parte quantitatis in uno et cum alia in alio. Sed hoc etiam est
+<lb ed="#L" n="9"/>manifestum inconveniens, quia secundum hoc, sicüt ponimus unam essentiam
+<lb ed="#L" n="10"/>essentialiter omnino indivisam in tribus personis sed sub tribus proprietatibus
+<lb ed="#L" n="11"/>relativis, ita etiam omnia individua unius speciei essent unum in natura 
+substan<lb break="no" ed="#L" n="12"/>tiali omnino indivisa, sed sub diversis partibus quantitatis haberezt esse, et sic
+<lb ed="#L" n="13"/>essent plura solum secundum quantitatem, et per consequens essent solum
+<lb ed="#L" n="14"/>supposita quantitativa ; quod est falsum, quia non possum dicere de Patre 
+res<lb break="no" ed="#L" n="15"/>pectu Filii in divinis quod haec substantia non est illa, sicut dicitur de Sorte
+<lb ed="#L" n="16"/>respectu Platonis, nec sunt ? Pater et Filius duae substantiae, sicut Sortes et
+<lb ed="#L" n="17"/>Plato. Ergo, cum in Sorte et Platone sit substantia et quantitas, oportet quod
+<lb ed="#L" n="18"/>differant et secundum quantitatem ut plura quanta et secundum substantiam ut
+<lb ed="#L" n="19"/>plures substantiae. Sicut enim oportet quod ad hoc quod accidentaliter 
+distin<lb break="no" ed="#L" n="20"/>guantur quod formaliter secundum formas accidentales distinguantur ita quod
+<lb ed="#L" n="21"/>haec non est illa, ita ad hoc quod substantialiter sive ut plures substantiae ab
+<lb ed="#L" n="22"/>invicem distinguantur, oportet quod formaliter per formas substantiales sint
+<lb ed="#L" n="23"/>distincta ita quod haec forma substantialis huius individui formaliter non est
+<lb ed="#L" n="24"/>illa, sed est alia  ab ipsa. Item, omne accidens in actu ? supponit suum 
+sub<lb break="no" ed="#L" n="25"/>lectum in actu, sicut forma propriam materiam. Ergo, sicut ostensum est 
+gene<lb break="no" ed="#L" n="26"/>raliter quod accidens individuari habet potius per substantiam quam e 
+con<lb break="no" ed="#L" n="27"/>verso, ita etiam oportet poni de quantitate ; sicut enim substantia simpliciter
+<lb ed="#L" n="28"/>prior est quantitate simpliciter, ita haec substantia prior est hac quantitate ;
+<lb ed="#L" n="29"/>ergo videtur esse dicendum quod causa formalis individuationis sive diversitatis
+<lb ed="#L" n="30"/>individuorum sub una specie non possit esse quantitas.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2211">
+               <lb ed="#L" n="31"/>His igitur consideratis, est intelligendum quod, cum individuum inveniatur
+<lb ed="#L" n="32"/>non solum in substantiis materialibus sed etiam in immaterialibus, in illis
+<lb ed="#L" n="33"/>autem quantitas non potest esse causa individuationis, sed causa individuationis
+<lb ed="#L" n="34"/>in illis est indivisio formae in plura eiusdem rationis, ergo etiam in 
+materiali<lb break="no" ed="#L" n="35"/>bus forma per quam individuum est id quod est et subsistit in natura est etiam
+<lb ed="#L" n="36"/>principium individuationis ; quia per illud per quod aliquid est id quod est est
+<lb ed="#L" n="37"/>indivisum et unum ; sed substantia materialis per formam subsistit in esse. Item,
+<lb ed="#L" n="38"/>substantia naturaliter prius subsistit in natura per formam quam quodcumque
+<pb ed="#L" n="324"/>
+               <lb ed="#L" n="1"/>accidens eius ; sed per illud per quod existit in actu est indivisum in actu ; ergo
+<lb ed="#L" n="2"/>indivisio substantiae compositae naturaliter praecedit esse cuiusque accidentis,
+<lb ed="#L" n="3"/>quare et divisionem quae competit sibi per quodcumque accidens. Et quia
+<lb ed="#L" n="4"/>materia est in potentia ad formam per quam existit in actu, de se est in potentia
+<lb ed="#L" n="5"/>ad indivisionem quae est per ipsam formam et pro tanto est principium 
+indivi<lb break="no" ed="#L" n="6"/>duationis pro quanto est principium quoddam formae, scilicet sicut subiectum.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2246">
+               <lb ed="#L" n="7"/>Sed, cum substantia materialis secundum se sit indivisa in plura eiusdem
+<lb ed="#L" n="8"/>rationis vel speciei, in potentia tamen ad divisionem ', et hoc in quantum est in
+<lb ed="#L" n="9"/>potentia ad quantitatem qua aliquid formaliter dividitur primo, ideo, sicut est
+<lb ed="#L" n="10"/>quanta per accidens adveniens, ita per accidens dividitur in plura eiusdem
+<lb ed="#L" n="11"/>rationis, scilicet per quantitatem. Unum autem secundum numerum proprie
+<lb ed="#L" n="12"/>videtur dici quod est unum in numero vel unum de numero. Numerus autem
+<lb ed="#L" n="13"/>proprie causatur ex divisione secundum quantitatem, ideo unum numero 
+pro<lb break="no" ed="#L" n="14"/>prie videtur dici quod est indivisum primo in illa  natura per quam distinguitur
+<lb ed="#L" n="15"/>primo ab alio eiusdem speciei ; hoc autem est quantitas ; et ideo unum numero
+<lb ed="#L" n="16"/>proprie ? videtur esse indivisum in natura quantitatis. Quare quantitas est per 
+<lb ed="#L" n="17"/>se principium unius  secundum numerum, sicut forma per quam aliquid existit
+<lb ed="#L" n="18"/>in natura est proprium individuationis et sic proprie loquendo non est idem
+<lb ed="#L" n="19"/>principium per se individuationis in genere substantiae materialis et unius
+<lb ed="#L" n="20"/>secundum numerum, quia principium unius secundum numerum est quantitas
+<lb ed="#L" n="21"/>in quantum secundum quantitatem est indivisum in se et divisum ab alio 
+eius<lb break="no" ed="#L" n="22"/>dem rationis cum quo facit numerum. Principium autem per se individuationis
+<lb ed="#L" n="23"/>est forma secundum quam divisa est substantia in plura eiusdem rationis ; et
+<lb ed="#L" n="24"/>secundum hoc in immaterialibus substantiis est individuum et suppositum 
+sin<lb break="no" ed="#L" n="25"/>gulare et est ibi id quod est principium individuationis. Sed non est ibi unum
+<lb ed="#L" n="26"/>secundum numerum proprie loquendo nec aliquid quod sit proprium unius
+<lb ed="#L" n="27"/>secundum numerum proprie dictum. Sed in substantiis materialibus et  est
+<lb ed="#L" n="28"/>individuum et unum secundum numerum et principium individuationis et unum
+<lb ed="#L" n="29"/>secundum numerum ; nec potest in genere substantiae materialis esse aliquid
+<lb ed="#L" n="30"/>individuum quin sit etiam unum secundum numerum et sic oportet quod 
+indi<lb break="no" ed="#L" n="31"/>viduo materiali quod dicitur suppositum sit aliquod accidens adveniens, puta
+<lb ed="#L" n="32"/>quantitas qua dividitur modo supradicto.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2305">
+               <lb ed="#L" n="33"/>Et secundum ista videtur dicendum quod principium formale sive formalis
+<lb ed="#L" n="34"/>ratio ? huiusmodi distinctionis — qua scilicet unum individuum in materialibus
+<lb ed="#L" n="35"/>ab alio formaliter distinguitur, cum non distinguatur solum secundum accidens
+<lb ed="#L" n="36"/>vel quantitatem, sed etiam secundum substantiam et vere sunt plura 
+substan<lb break="no" ed="#L" n="37"/>tialiter sive in eis vera est multitudo secundum substantiam — est forma 
+sub<lb break="no" ed="#L" n="38"/>stantialis uniuscuiusque individui indivisa in se et divisa ab alia, et sic differunt
+<pb ed="#L" n="325"/>
+               <lb ed="#L" n="1"/>numero substantiali, id est sunt non unum, sed plura numero substantiali qui
+<lb ed="#L" n="2"/>consurgit ex pluralitate unitatum substantialium quae sunt plures formae 
+sub<lb break="no" ed="#L" n="3"/>stantiales sub eadem specie.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2329">
+               <lb ed="#L" n="4"/>Principium autem quasi dispositivum ex parte materiae huiusmodi 
+distinc<lb break="no" ed="#L" n="5"/>tionis secundum substantiam plurium individuorum est quantitas, cum sit
+<lb ed="#L" n="6"/>principium divisionis et ipsius materiae et etiam formae in materia divisa ; si
+<lb ed="#L" n="7"/>enim non praeintelligeretur quantitas in materia quae faceret ipsam divisibilem
+<lb ed="#L" n="8"/>non posset recipere plures formas. Et secundum hoc etiam differunt numero
+<lb ed="#L" n="9"/>accidentali, id est sunt non unum, sed plura numero accidentali qui con surgit ex
+<lb ed="#L" n="10"/>pluralitate unitatum accidentalium quae consurgit per se ex divisione continua
+<lb ed="#L" n="11"/>quantitatis. Unde secundum hoc suntplura entia secundum quod quanta
+<lb ed="#L" n="12"/>sive secundum divisionem quantitatis.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2352">
+               <lb ed="#L" n="13"/>Patet igitur considerando iam dicta ' quod a quantitate est quod habet
+<lb ed="#L" n="14"/>substantia formaliter et extentionem in sua substantia et divisibilitatem in
+<lb ed="#L" n="15"/>diversas partes substantiales. Nam in hoc quod quantitas ipsam substantiam
+<lb ed="#L" n="16"/>extendit realiter, contingit quod ipsa subtantia ubique realiter sub ? partibus
+<lb ed="#L" n="17"/>quantitatis existens et extensa habeat etiam partes realiter et essentialiter  ab
+<lb ed="#L" n="18"/>invicem differentes.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2368">
+               <lb ed="#L" n="19"/>Sed, si quaeratur quo differunt realiter, dicendum est quod se ipsis ; hanc
+<lb ed="#L" n="20"/>tamen differentiam secundum suas substantias non haberent nisi simul haberent
+<lb ed="#L" n="21"/>differentiam accidentalem inter se per formalem extensionem quantitatis et sic
+<lb ed="#L" n="22"/>differunt simul essentialiter et accidentaliter et numero essentiali qui consurgit
+<lb ed="#L" n="23"/>ex multiplicatione unitatum convertibilium cum ente, et numero accidentali
+<lb ed="#L" n="24"/>qui consurgit ex multiplicatione unitatum non convertibilium quae sunt de
+<lb ed="#L" n="25"/>genere quantitatis et principium numeri accidentalis qui  est quantitas discreta ^
+<lb ed="#L" n="26"/>et non est haec differentia sine illa. Non est tamen haec eadem cum illa ; sed,
+<lb ed="#L" n="27"/>cum materia et forma secundum se, circumscripta scilicet quantitate, non sint
+<lb ed="#L" n="28"/>causa huiusmodi diversitatis individuorum in genere substantiae nec etiam ex
+<lb ed="#L" n="29"/>consequenti omnium accidentium aliorum in substantia materiali composita
+<lb ed="#L" n="30"/>existentium /, sed oportet adesse quantitatem qua materia et forma 
+substantia<lb break="no" ed="#L" n="31"/>lis et omnes aliae formae accidentales extensionem et divisibilitatem habent in
+<lb ed="#L" n="32"/>partes eiusdem rationis, ut plura individua sub eadem specie, — oportet ponere
+<lb ed="#L" n="33"/>quod quantitas ad individuationem et huiusmodi divisionem per se aliquid
+<lb ed="#L" n="34"/>faciat. Non autem in genere causae formalis, ut declaratum est ; nec in genere
+<lb ed="#L" n="35"/>causae materialis sic quod ipsa sit subiectum individui substantialis, quia nec
+<lb ed="#L" n="36"/>est subiectum compositi ex materia et forma, nec etiam una cum materia est sic
+<lb ed="#L" n="37"/>subiectum formae substantialis, quia forma substantialis immediate perficit
+<lb ed="#L" n="38"/>materiam, non illa mediante. Oportet tamen quod causalitas quam habet quan-
+<pb ed="#L" n="326"/>
+               <lb ed="#L" n="1"/>titas in hoc ad causalitatem materiae re ducatur aliquo modo, quia Philosophus
+<lb ed="#L" n="2"/>et Commentator causam ? huiusmodi distinctionis et  individuationis videntur
+<lb ed="#L" n="3"/>ponere materiam, quia etiam solum in materialibus hanc distinctionem ponunt.
+<lb ed="#L" n="4"/>Unde dicitur duodecimo Metaphysicae : multa numero materiam habent cum 
+<lb ed="#L" n="5"/>eorum sit una ratio ; et quinto Metaphysicae : diversa species, id est forma est
+<lb ed="#L" n="6"/>in generante et generato propter materiam . Commentator : causa 5 in 
+multitu<lb break="no" ed="#L" n="7"/>dine generabilium ab uno generante est multiplicatio materierum in quas agit
+<lb ed="#L" n="8"/>agens. Sed, cum materia secundum se est una et indivisibilis, videtur quod
+<lb ed="#L" n="9"/>causalitas talis divisionis et distinctionis sive individuationis non debeat tribui
+<lb ed="#L" n="10"/>materiae secundum se ; sed oportet quod hoc ei tribuatur in quantum 
+intelligi<lb break="no" ed="#L" n="11"/>tur sub quantitate a qua habet ? extensionem et divisibilitatem in partes
+<lb ed="#L" n="12"/>eiusdem rationis ; et quia forma, quae educitur de potentia materiae et ab ipsa
+<lb ed="#L" n="13"/>omnino in esse suo dependet, recipitur in materia secundum condicionem 
+mate<lb break="no" ed="#L" n="14"/>riae, ideo etiam per divisionem et extensionem materiae quam habet a 
+quanti<lb break="no" ed="#L" n="15"/>tate ipsa forma extenditur et divisibilitatem habet et ex consequenti totum
+<lb ed="#L" n="16"/>compositum ex hoc habet huiusmodi individuationem. Et sic videtur quod
+<lb ed="#L" n="17"/>causalitas quantitatis quam habet quantitas in individuatione reducitur ad
+<lb ed="#L" n="18"/>causam materialem, non ut sit ipsa essentia materiae, sed quia est quaedam
+<lb ed="#L" n="19"/>dispositio materialis ratione cuius materia habet quod sit extensa et divisibilis
+<lb ed="#L" n="20"/>et per consequens quicquid in ea recipitur sic etiam extendatur et divisibilitatem
+<lb ed="#L" n="21"/>sortiatur. Materia enim est principium et causa substantiae compositae ; et sicut
+<lb ed="#L" n="22"/>ex potentialitate materiae in genere causae materialis vel potentialis et subiecti
+<lb ed="#L" n="23"/>simpliciter et absolute quae convenit ei ex se et natura sua est quod ex ea 
+gene<lb break="no" ed="#L" n="24"/>ratur aliquid, ita ex diversa et distincta potentia materiae est quod ex ea 
+gene<lb break="no" ed="#L" n="25"/>rantur diversa.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2470">
+               <lb ed="#L" n="26"/>Haec autem diversitas potentiarum non est in materia secundum se, quia
+<lb ed="#L" n="27"/>ut sic omnem distinctionem excludit. Sed ad hoc quod ex ipsa plura possunt
+<lb ed="#L" n="28"/>produci et quod ipsa possit esse subiectum plurium formarum et 
+transmutatio<lb break="no" ed="#L" n="29"/>num  ad plures formas in ea, ? requiritur quasi dispositio generalis quae dicitur
+<lb ed="#L" n="30"/>quantitas sive divisio indeterminata quae dat materiae primam rationem 
+poten<lb break="no" ed="#L" n="31"/>tiae qua transmutabilis est ad quamcumque formam, et sic patet quod 
+quan<lb break="no" ed="#L" n="32"/>titas, ut ens dispositio materiae, facit secundum rationem causae materialis ad
+<lb ed="#L" n="33"/>dictam divisionem in individuatione. Prout enim probat Commentator, de
+<lb ed="#L" n="34"/>Substantia Orbis, quia materia de se est indivisibilis, non potest plures formas
+<lb ed="#L" n="35"/>simul recipere nisi habeat esse divisibile per aliquid divisibile per se sive quod
+<lb ed="#L" n="36"/>est ratio qua aliquid dividitur, quod est quantitas de cuius ratione est habere
+<lb ed="#L" n="37"/>partes eiusdem rationis propter quod materia participans eam per ipsam habet
+<lb ed="#L" n="38"/>partes eiusdem rationis . Nec tamen oportet sic huiusmodi dimensiones prae-
+<pb ed="#L" n="327"/>
+               <lb ed="#L" n="1"/>supponi in materia, ut possint ' dici priores secundum naturam quam sit ipsa
+<lb ed="#L" n="2"/>natura materiae in entitate secundum suam maturam sibi debita neque ut
+<lb ed="#L" n="3"/>sint priores secundum naturam forma receptibili ^in materia in entitate quae
+<lb ed="#L" n="4"/>ei debetur secundum esse substantiae ? simpliciter, sed sic ut sint priores
+<lb ed="#L" n="5"/>naturaliter quam materia in esse divisibili materiae vel in esse huiusmodi 
+<lb ed="#L" n="6"/>quod est materiam habere simul plures partes eiusdem rationis vel actu, ut in
+<lb ed="#L" n="7"/>duabus partibus aquae, vel in potentia, ut in una aqua quae potentia est plures.
+<lb ed="#L" n="8"/>Et sicut materia in esse quo subiectum est formae est primum secundum 
+natu<lb break="no" ed="#L" n="9"/>ram subiecti et materiae quam sit ipsa forma, in quantum materia supponitur
+<lb ed="#L" n="10"/>formae,licet forma sit ? prius secundum naturam quam materia in genere
+<lb ed="#L" n="11"/>causae formalis quae nobilior et perfectior est in quantum dat esse materiae
+<lb ed="#L" n="12"/>simpliciter, ita etiam dimensiones indeterminatae possunt dici priores 
+natura<lb break="no" ed="#L" n="13"/>liter ipsa forma in quantum materia supponitur formae ut per quantitatem
+<lb ed="#L" n="14"/>habet quod sit subiectum plurium formarum. Et similiter intelligendum de
+<lb ed="#L" n="15"/>dimensionibus determinatis respectu substantiae compositae determinatae in
+<lb ed="#L" n="16"/>actu per formam. Nam, cum dimensiones determinatae et quantitas simpliciter
+<lb ed="#L" n="17"/>sint causa in hoc quod est substantiam esse divisibilem et actu diversam in
+<lb ed="#L" n="18"/>plures partes maxime eiusdem rationis, necessarium est eas praesupponi et esse
+<lb ed="#L" n="19"/>priores naturaliter quantum ad hoc esse divisibile substantiae et esse actu 
+divi<lb break="no" ed="#L" n="20"/>sum. Substantia tamen composita naturaliter prior est in ratione subiecti et
+<lb ed="#L" n="21"/>causae materialis omni quantitate quae est in ea. Nec est hoc inconveniens
+<lb ed="#L" n="22"/>quod secundum illud esse cuius accidens est causa formaliter loquendo sit prius
+<lb ed="#L" n="23"/>naturaliter secundum rationem causae formalis. Ubique enim causa prius est ?
+<lb ed="#L" n="24"/>naturaliter quam effectus.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2555">
+               <lb ed="#L" n="25"/>Sic ergo materia ? ut sub quantitate, ut per quantitatem est extensa habens
+<lb ed="#L" n="26"/>plures partes substantiales eiusdem rationis, contrahit potentialitatem ut ex
+<lb ed="#L" n="27"/>ea vel in ea habeant esse vel fieri plures formae vel plures substantiae 
+compo<lb break="no" ed="#L" n="28"/>sitae eiusdem rationis, id est numero differentes, quia formae etiam secundum
+<lb ed="#L" n="29"/>divisionem et extensionem materiae per quantitatem dividuntur et extenduntur.
+<lb ed="#L" n="30"/>Unde, dicit Commentator in libro de Substantia Orbis : convenit formas 
+sub<lb break="no" ed="#L" n="31"/>stantiales dividi secundum divisionem materiae superextensae et divisae per
+<lb ed="#L" n="32"/>quantitatem ; unde subdit : et divisio non est vera nisi in quantum habet 
+quan<lb break="no" ed="#L" n="33"/>titatem. Et hoc patet per exemplum : in aere enim "quanto ratione quantitatis
+<lb ed="#L" n="34"/>est potentia ut dividatur in duas substantias numero differentes, ita quod partes
+<lb ed="#L" n="35"/>aeris divisi formaliter, forma substantiali realiter divisa et plurificata, numero
+<lb ed="#L" n="36"/>differunt et non solum formaliter per formam quantitatis. Licet enim extensio
+<lb ed="#L" n="37"/>et divisibilitas in potentia et divisio in actu non conveniant aeri nisi per quan-
+<pb ed="#L" n="328"/>
+               <lb ed="#L" n="1"/>titatem, cum tamen per quantitatem realiter ipsa substantia aeris quantum ad
+<lb ed="#L" n="2"/>materiam et formam extensione et divisione quantitatis extendatur et dividatur,
+<lb ed="#L" n="3"/>partes divisae substantiae sunt substantiae plures formaliter et differentes 
+sub<lb break="no" ed="#L" n="4"/>stantialiter, sicut partes divisae quantitatis sunt plures quantitates formaliter.
+<lb ed="#L" n="5"/>Licet enim substantia extendatur ' per accidens quod est quantitas, tamen
+<lb ed="#L" n="6"/>partes eius non differunt ab invicem accidentaliter solum, sed substantialiter,
+<lb ed="#L" n="7"/>licet hoc conveniat ei per accidens quod est quantitas, in quantum scilicet sua
+<lb ed="#L" n="8"/>substantia vere et realiter extenditur et divisibilis efficitur. Sicut enim illud
+<lb ed="#L" n="9"/>quantitatis quod est in una parte quantitatis extendendis per se est aliud 
+essen<lb break="no" ed="#L" n="10"/>tialiter essentialitate quantitatis ab eo quantitatis quod est in alia parte, ita id
+<lb ed="#L" n="11"/>substantiae extensae quod est in una parte substantiae extensae per ipsam
+<lb ed="#L" n="12"/>eandem quantitatem est alia essentialiter et formaliter formalitate substantiae
+<lb ed="#L" n="13"/>ab eo quod est in alia parte eiusdem substantiae per eandem quantitatem
+<lb ed="#L" n="14"/>secundum aliam partem eius extensae. Quamvis ergo substantia extensionem
+<lb ed="#L" n="15"/>et divisibilitatem praedictam habeat formaliter a quantitate quae est accidens,
+<lb ed="#L" n="16"/>tamen, quia ipsa substantia quantum ad materiam et formam realiter extenditur
+<lb ed="#L" n="17"/>et etiam dividitur, ideo etiam  supposita huius divisione formali per 
+quanti<lb break="no" ed="#L" n="18"/>tatem vere et etiam realiter habent partes substantiae differentiam 
+substan<lb break="no" ed="#L" n="19"/>tialem formaliter formalitate substantiae.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2629">
+               <lb ed="#L" n="20"/>Praedicta patent per descriptionem quantitatis in quinto Metaphysicae ,
+<lb ed="#L" n="21"/>ubi dicitur quod quantum est ? quod est divisibile in ea quae insunt quorum
+<lb ed="#L" n="22"/>unumquodque, aut singulum  unum aliquid et hoc aliquid natum est esse. Ex
+<lb ed="#L" n="23"/>quo patet quod nec quantitas per se nec substantia per se dividitur, sed 
+com<lb break="no" ed="#L" n="24"/>positum quod est quantum. Sed tamen haec divisibilitas convenit composito
+<lb ed="#L" n="25"/>ratione quantitatis, cum formale in quanto secundum quod quantum est quod
+<lb ed="#L" n="26"/>hic diffinitur sit quantitas et est illa divisibilitas in partes eiusdem rationis,
+<lb ed="#L" n="27"/>quia partes quae insunt in aliquo quanto uno secundum quod quantum, sunt
+<lb ed="#L" n="28"/>eiusdem rationis, quia eiusdem speciei et formae. Ouae quidem partes, cum
+<lb ed="#L" n="29"/>actu sunt divisae, sunt individua diversa sub eadem specie, quia, ut dicit,
+<lb ed="#L" n="30"/>unumquodque talium natum est esse unum aliquid et hoc aliquid, substantia
+<lb ed="#L" n="31"/>autem prima quae est individuum in genere substantiae est unum aliquid et
+<lb ed="#L" n="32"/>hoc aliquid.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2660">
+               <lb ed="#L" n="33"/>Patet ergo quod in materialibus eius quod est esse individuum sive 
+indi<lb break="no" ed="#L" n="34"/>viduationes, id est indivisionis in se et divisionis ab aliis eiusdem speciei,
+<lb ed="#L" n="35"/>quae solo numero differre dicuntur, causa per se secundum genus causae 
+for<lb break="no" ed="#L" n="36"/>malis est forma substantialis in uno existens formaliter in se indivisa et a forma .
+<lb ed="#L" n="37"/>quae est in quocumque alio eiusdem speciei divisa et distincta, ita quod illae
+<lb ed="#L" n="38"/>formae substantiales sunt plures se ipsis ad invicem formaliter differentes, licet
+<pb ed="#L" n="329"/>
+               <lb ed="#L" n="1"/>dividi sicut et extendi formaliter competit eis ex quantitate qua materia quam
+<lb ed="#L" n="2"/>perficit forma materialis et simul etiam ' in hoc ipsa forma substantialis 
+exten<lb break="no" ed="#L" n="3"/>ditur et dividitur formaliter. Causa vero secundum genus causae materialis est
+<lb ed="#L" n="4"/>ipsa materia non secundum se, sed ut sub dispositione quantitatis 
+indetermi<lb break="no" ed="#L" n="5"/>natae ipsam extendentis existens consequitur potentialitatem divisibilitatis in
+<lb ed="#L" n="6"/>plures partes  eiusdem rationis; et ex hoc etiam possibilitatem ad sic dividi
+<lb ed="#L" n="7"/>consequuntur omnia quae in materia habent esse. Causa efficiens patet ; quia
+<lb ed="#L" n="8"/>est agens producens ex materia sic disposita et in tali potentia existente aliquid
+<lb ed="#L" n="9"/>in se indivisum et ab aliis divisum dicto modo.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2698">
+               <lb ed="#L" n="10"/>Nec videtur aliqua alia ratio individuationis quaerenda in talibus, scilicet
+<lb ed="#L" n="11"/>neque aliquid respectivum, cum sint ? supposita absoluta quorum formalis
+<lb ed="#L" n="12"/>ratio debet esse quid absolutum ; nec aliquid negativum, cum sint vera entia
+<lb ed="#L" n="13"/>positiva quorum ratio formalis ut habent existere in sua singularitate debet 
+<lb ed="#L" n="14"/>esse quid positivum, non negativum.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2711">
+               <lb ed="#L" n="15"/>Ex his etiam patet quod in separatis a materia quantitati subiecta non ?
+<lb ed="#L" n="16"/>potest esse individuatio sive divisio speciel vel formae specificae in plura 
+indi<lb break="no" ed="#L" n="17"/>vidua solo numero differentia dicto modo. Si autem possit fieri alio modo non
+<lb ed="#L" n="18"/>intelligo ; sed tamen non nego.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2722">
+               <lb ed="#L" n="19"/>Per praedicta patet quid dicendum sit ad quaestionem quantum ad 
+secun<lb break="no" ed="#L" n="20"/>dum articulum, quia cum suppositum dicat individuum in genere substantiae,
+<lb ed="#L" n="21"/>ut est ens per se existens et in se subsistens; tale quid autem est 
+substan<lb break="no" ed="#L" n="22"/>tia prima quae, secundum Philosophum, libro Praedicamentorum, proprie et
+<lb ed="#L" n="23"/>principaliter et maxime dicitur substantia, — ergo in sua ratione non includit nisi
+<lb ed="#L" n="24"/>quae ad rationem substantiae pertinent. Etenim proprie substantia dicitur, ut
+<lb ed="#L" n="25"/>dictum est; et sic, quamvis non habeat esse sine quantitate in quantum est
+<lb ed="#L" n="26"/>substantia materialis, tamen illam per se in sua ratione non includit. Ex quo
+<lb ed="#L" n="27"/>videtur quod quicquid importat natura significata nomine communi, sive
+<lb ed="#L" n="28"/>abstracto sive concreto, sub ratione communi et indeterminata de principali
+<lb ed="#L" n="29"/>et per se significato ", cum, ut visum est, hoc non sit nisi id quod ad 
+substan<lb break="no" ed="#L" n="30"/>tiam pertinet, hoc totum et non aliud importat snb ratione propria et 
+determi<lb break="no" ed="#L" n="31"/>nata suppositum significatum nomine individidui in genere substantiae, sive in
+<lb ed="#L" n="32"/>abstracto, sive in concreto. Unde, sicut humanitas significat talem entitatem
+<lb ed="#L" n="33"/>ex carnibus et ossibus et cetera constitutam ?, quae non est sine accidentibus
+<lb ed="#L" n="34"/>indeterminatis, sive sine ? quantitate indeterminata et qualitate, et cetera, licet
+<lb ed="#L" n="35"/>non significet illam naturam modo quo intelliguntur ista, ita haec humanitas,
+<lb ed="#L" n="36"/>puta Sorteitas, significat entitatem ex determinata anima et corpore 
+constitu<lb break="no" ed="#L" n="37"/>tam ^, quae non est sine accidentibus determinatis, licet non significet talem
+<lb ed="#L" n="38"/>naturam sub modo quo talia accidentia cointelliguntur " ; et omnino proportio-
+<pb ed="#L" n="330"/>
+               <lb ed="#L" n="1"/>naliter dicendum est de hoc homine, puta Sorte, comparato ad hominem, quod
+<lb ed="#L" n="2"/>huiusmodi accidentia determinata non magis sunt de significato vel ' ratione
+<lb ed="#L" n="3"/>individui, puta Sortis, quam accidentia indeterminata de ratione speciei, puta
+<lb ed="#L" n="4"/>hominis, cum species, tanquam substantia secunda, de individuo tanquam de
+<lb ed="#L" n="5"/>substantia prima per se et essentialiter praedicetur.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2781">
+               <lb ed="#L" n="6"/>Hoc modo etiam verificatur intentio Philosophi in septimo Metaphysicae,
+<lb ed="#L" n="7"/>quod in his quae sunt per|se per quae, ut ibi patet, intelligit substantias
+<lb ed="#L" n="8"/>materiales, non differt quidditas et habens quidditatem ; per illa, ut patet, 
+intel<lb break="no" ed="#L" n="9"/>ligens substantias primas sive supposita et species sive diffinitiones quae sunt
+<lb ed="#L" n="10"/>explicationes  essentiae specierum. Dicit enim quod substantia quae est 
+quid<lb break="no" ed="#L" n="11"/>ditas et substantia singulariter, scilicet individuum substantiae, sunt idem.
+<lb ed="#L" n="12"/>Substantia enim quae est quidditas est substantia singularis, et substantia 
+singu<lb break="no" ed="#L" n="13"/>lariter nihil aliud est quam substantia quae est quidditas eius, verbi gratia :
+<lb ed="#L" n="14"/>Sortes est animal rationale ; Sortes nihil aliud est quam animalitas rationalitas
+<lb ed="#L" n="15"/>quae sunt quidditas eius ; nec animalitas et rationalitas sunt quidditas nisi
+<lb ed="#L" n="16"/>Sortis et Platonis. Deinde subdit quod composita ex substantiis et 
+acciden<lb break="no" ed="#L" n="17"/>tibus quae sunt unum non per se, sed per accidens, praedicabilia eorum non
+<lb ed="#L" n="18"/>sunt eadem cum quidditatibus illorum de quibus dicuntur ; verbi gratia, quoniam
+<lb ed="#L" n="19"/>homo albus aliud est ab homine simpliciter.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2814">
+               <lb ed="#L" n="20"/>Ex his patet quod Sortes est ens per se, quia contra ens per accidens 
+dis<lb break="no" ed="#L" n="21"/>tinguitur. Ergo non includit per se aliquid ad naturam accidentalem pertinens
+<lb ed="#L" n="22"/>per se, scilicet ex significato principali. Patet etiam quod non importat aliud
+<lb ed="#L" n="23"/>quam natura significata nomine abstracto, ut animalitas, rationalitas vel 
+con<lb break="no" ed="#L" n="24"/>creto, ut  animal rationale et cetera.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2827">
+               <lb ed="#L" n="25"/>Sed adhuc videtur aliquid remanere immanifestum circa hoc. Cum enim
+<lb ed="#L" n="26"/>comparando speciem ad genus unam et eandem rem dicamus per utrumque
+<lb ed="#L" n="27"/>importari sub alia tamen et alia ratione, scilicet determinati et indeterminati,
+<lb ed="#L" n="28"/>et sic etiam ponitur quod species includit in se aliquid sub ratione 
+determinan<lb break="no" ed="#L" n="29"/>tis quod non includit genus, et hoc modo dicimus speciem a!iquid addere supra
+<lb ed="#L" n="30"/>genus, ita autem comparando individuum ad speciem, cum unam et eandem
+<lb ed="#L" n="31"/>rem dicamus per utrumque importari sub alia et alia ratione, scilicet 
+determi<lb break="no" ed="#L" n="32"/>nati et indeterminati, videtur quod individuum includat in sua ratione vel in 
+<lb ed="#L" n="33"/>se aliquid sub ratione determinantis quod non includit species et sic videtur 
+ali<lb break="no" ed="#L" n="34"/>quid addere supra speciem vel naturam. Cum enim non dicatur quin species
+<lb ed="#L" n="35"/>addat aliquid supra genus, non obstante dicta unitate reali eius quae per genus
+<lb ed="#L" n="36"/>et speciem importatur, non videtur etiam dicendum quin individuum addat 
+ali<lb break="no" ed="#L" n="37"/>quid supra speciem, non obstante unitate rei quae per utrumque importatur. Et
+<lb ed="#L" n="38"/>non est declaratum quid sit illud.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2861">
+               <lb ed="#L" n="39"/>Et ad huiusmodi declarationem est intelligendum quod ex hoc quod res
+<pb ed="#L" n="331"/>
+               <lb ed="#L" n="1"/>non existunt nisi singulariter, prout nomine proprio significantur, communiter
+<lb ed="#L" n="2"/>autem sive secundum suam communitatem non existunt, sed sic solum 
+intelli<lb break="no" ed="#L" n="3"/>guntur, et sic etiam nomine communi generis vel speciei significantur, patet
+<lb ed="#L" n="4"/>quomodo suppositum est idem vel non idem cum natura, quia non differt, sicut
+<lb ed="#L" n="5"/>conceptus communis et indeterminatus quantum ad aliquid ad essentiam 
+perti<lb break="no" ed="#L" n="6"/>nens, qualis est conceptus generis et conceptus specialis et determinatus qualis
+<lb ed="#L" n="7"/>est conceptus speciei ; nec differt natura speciei et individui sicut nomen generis
+<lb ed="#L" n="8"/>et speciei, quae significant unam et eandem rem aliter et aliter conceptam et
+<lb ed="#L" n="9"/>intellectam quantum ad id quod ad ipsam essentiam rei pertinet.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2887">
+               <lb ed="#L" n="10"/>Quia eiusdem rei significatae nomine singularis individui et communis vel
+<lb ed="#L" n="11"/>speciei non sunt sic diversi conceptus intellectus, quia solum est eius unus
+<lb ed="#L" n="12"/>conceptus et omnino determinatus quantum ad id quod ad essentiam pertinet
+<lb ed="#L" n="13"/>qui significatur nomine individui et speciei — singulare enim materiale primo et
+<lb ed="#L" n="14"/>per se et sub propria ratione conceptu intellectus non apprehenditur ; — cum
+<lb ed="#L" n="15"/>autem intellectu apprehenditur eo modo quo intellectus potest intelligere, 
+in<lb break="no" ed="#L" n="16"/>dividuum materiale non apprehenditur cum aliqua determinatione ad formam
+<lb ed="#L" n="17"/>vel essentiam rei pertinente, sicut dicitur de specie respectu generis. Sed, cum
+<lb ed="#L" n="18"/>apprehenditur res modo quo per nomen speciei et commune ' significatur, 
+appre<lb break="no" ed="#L" n="19"/>henditur quidem sub ratione omnimodae determinationis quantum ad ea quae
+<lb ed="#L" n="20"/>ad essentiam pertinent, sed sub ratione indeterminati in quantum natura 
+appre<lb break="no" ed="#L" n="21"/>henditur sub condicionibus quibus non determinatur ad esse vel existere 
+sim<lb break="no" ed="#L" n="22"/>pliciter in rerum natura sic determinate quod non possit in pluribus salvari. Cum
+<lb ed="#L" n="23"/>autem apprehenditur res eadem ut nomine individui significatur, 
+apprehen<lb break="no" ed="#L" n="24"/>ditur sub ratione determinati sic quod apprehenditur sub condicionibus 
+deter<lb break="no" ed="#L" n="25"/>minantibus ipsam rem apprehensam ad esse et existere simpliciter in rerum
+<lb ed="#L" n="26"/>natura sic determinate quod non potest salvari nisi in uno ; sed istae 
+condi<lb break="no" ed="#L" n="27"/>ciones quae dicuntur naturae sic determinatae non pertinent ad essentiam
+<lb ed="#L" n="28"/>naturae sic individuo determinatae ; propter quod etiam individuum nihil 
+dici<lb break="no" ed="#L" n="29"/>tur addere supra speciem:
+</p>
+            <p xml:id="v27ab7-g25804-d1e2933">
+               <lb ed="#L" n="30"/>Ipsa enim quantitas designata et huiusmodi non pertinent ad rationem 
+sup<lb break="no" ed="#L" n="31"/>positi, sed solum materia et forma substantialis quae secundum id quod sunt
+<lb ed="#L" n="32"/>essentialiter et substantialiter realiter sunt distincta, licet sint per quantitatem
+<lb ed="#L" n="33"/>formaliter extensa et etiam accidentaliter  divisa. Nam, licet sine hac 
+disposi<lb break="no" ed="#L" n="34"/>tione materiali quae dicitur quantitas ipsa materia et per consequens ipsa forma
+<lb ed="#L" n="35"/>specifica substantialis nec extendi nec dividi possent, tamen extensione et 
+divi<lb break="no" ed="#L" n="36"/>sione formali ? quantitatis simul etiam extenditur et dividitur realiter et 
+essen<lb break="no" ed="#L" n="37"/>tialiter tam  ipsa forma quam materia substantialis ; et ipsa sola materia et
+<lb ed="#L" n="38"/>forma sic divisa et distincta, non autem ipsa quantitas sic dividens vel qua sic
+<lb ed="#L" n="39"/>fit divisio et extensio, ad rationem individui pertinent. Sicut enim de ratione
+<pb ed="#L" n="332"/>
+               <lb ed="#L" n="1"/>hominis in communi sunt omnia et carnes et ossa quae non possunt existere
+<lb ed="#L" n="2"/>sine quantitate et qualitatibus naturalibus, propter quod etiam naturalis non
+<lb ed="#L" n="3"/>abstrahit a quantitate et qualitate secundum considerationem qua hominem 
+con<lb break="no" ed="#L" n="4"/>siderat et tamen quantitas et qualitas non sunt de essentia hominis simpliciter,
+<lb ed="#L" n="5"/>ita etiam est dicendum de his secundum quod applicantur ad singularem
+<lb ed="#L" n="6"/>hominem '.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2972">
+               <lb ed="#L" n="7"/>Adhuc tamen posset aliquis rationabiliter dubitare quoniam ea quae 
+diffe<lb break="no" ed="#L" n="8"/>runt formaliter videntur differre specie. Ouae enim forma differunt per se et
+<lb ed="#L" n="9"/>essentialiter differunt. Talis autem differentia videtur esse inter illa quae 
+diver<lb break="no" ed="#L" n="10"/>sos gradus in actualitate et forma important et talia differunt specie , sicut
+<lb ed="#L" n="11"/>patet in numeris. Si igitur individua differunt per modum iam dictum, specie
+<lb ed="#L" n="12"/>videntur differre.
+</p>
+            <p xml:id="v27ab7-g25804-d1e2988">
+               <lb ed="#L" n="13"/>Sed ad hoc dicendum quod ea quae differunt forma secundum se 
+conside<lb break="no" ed="#L" n="14"/>rata differunt secundum speciem ; sed quae differunt forma secundum esse quod
+<lb ed="#L" n="15"/>habet in re extra et in materia non secundum se, sed ut extensa et sic vel sic
+<lb ed="#L" n="16"/>diversa, non differunt specie sed numero propter materiam dicto modo se
+<lb ed="#L" n="17"/>habentem. Sic enim plures formae non sunt plura per se obiecta intellectus,
+<lb ed="#L" n="18"/>sed omnes ut sub ratione una abstracta apprehenduntur et sub ratione unius
+<lb ed="#L" n="19"/>quod habet rationem speciei et sic sunt unum solum obiectum intellectus et
+<lb ed="#L" n="20"/>nulla est differentia inter ipsas, sed ut sic intellectu sub ratione unius 
+conci<lb break="no" ed="#L" n="21"/>piuntur differunt ab aliis formis quae etiam sic sub ratione unius actualitatis
+<lb ed="#L" n="22"/>abstracte considerantur. Non oportet ergo quod quae differunt forma in 
+exis<lb break="no" ed="#L" n="23"/>tendo differant secundum speciem nisi etiam sic existant sicut per se sunt 
+intel<lb break="no" ed="#L" n="24"/>ligibilia, sicut dicitur de substantiis separatis. Tunc etiam in existendo non
+<lb ed="#L" n="25"/>possunt differre nisi secundum speciem. Et ideo qui ponunt plures angelos sub
+<lb ed="#L" n="26"/>una specie ponunt quod nullus eorum est per se intelligibilis, sed sub ratione
+<lb ed="#L" n="27"/>formae communis et specificae et cetera. Sicut ergo materia unius individui
+<lb ed="#L" n="28"/>essentialiter differt a materia alterius ita quod id substantiae materiae quod est
+<lb ed="#L" n="29"/>in uno non est in alio et tamen patet quod individua non differunt genere, licet
+<lb ed="#L" n="30"/>quae differunt in materia dicantur differre genere, sicut quae differunt forma
+<lb ed="#L" n="31"/>dicuntur differre specie eo quod illa differentia materiae est secundum partes
+<lb ed="#L" n="32"/>eiusdem rationis in quas ipsa materia est divisa ratione quantitatis extendentis et
+<lb ed="#L" n="33"/>divisibilem reddentis et dicitur quod essentialiter haec materia non est illa, ex
+<lb ed="#L" n="34"/>quo sequitur quod haec materia secundum id quod est se ipsa essentialiter est
+<lb ed="#L" n="35"/>alia ab illa; ita etiam dicendum de forma quae est in tali materia respectu
+<lb ed="#L" n="36"/>formae quae est in consimili, scilicet quod differunt se ipsis essentialiter ita
+<lb ed="#L" n="37"/>quod haec non est illa, sed substantialiter est alia ab illa ? et se ipsa sive 
+secun<lb break="no" ed="#L" n="38"/>dum id quod est distincta est et tamen non differunt specie eo quod illa diffe-
+<pb ed="#L" n="333"/>
+               <lb ed="#L" n="1"/>rentia formarum est secundum partes eiusdem rationis quas habet in quantum
+<lb ed="#L" n="2"/>est in materia habente partes etiam eiusdem rationis ^, sive in quantum simul
+<lb ed="#L" n="3"/>cum materia et extensione et divisione materiae contingit etiam divisio 
+con<lb break="no" ed="#L" n="4"/>similis ipsius formae. Constat enim quod forma Sortis differt a forma Drunelli ?
+<lb ed="#L" n="5"/>et similiter forma Platonis ; et constat quod quaelibet secundum se sive 
+secun<lb break="no" ed="#L" n="6"/>dum esse quod habet in re differt ab illa et non ut una forma simpliciter et
+<lb ed="#L" n="7"/>secundum rem, quia realiter sunt plures; ergo etiam inter se differunt ut plures
+<lb ed="#L" n="8"/>formae realiter.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3066">
+               <lb ed="#L" n="9"/>Patet etiam quod dicta ratio non valet ex hoc quia, si ubique verum est
+<lb ed="#L" n="10"/>uniformiter quod quae differunt forma differunt specie, ergo quae in genere
+<lb ed="#L" n="11"/>quantitatis differunt formaliter differunt et  specie. Ergo linea una differens
+<lb ed="#L" n="12"/>numero ab alia linea aut differt formaliter aut non. Si sic, ergo specie, quod
+<lb ed="#L" n="13"/>falsum est ; si non, ergo patet quod illae duae lineae se ipsis differunt formaliter
+<lb ed="#L" n="14"/>ut duae lineae in quantum sunt partes eiusdem lineae quae per se est divisibilis
+<lb ed="#L" n="15"/>in plures lineas eiusdem rationis. Etenim quantitati per se convenit sic dividi
+<lb ed="#L" n="16"/>et esse rationem dividendi omni substantiae in qua est ; unde, sicut quantitati
+<lb ed="#L" n="17"/>per se convenit hoc, ita materiae in quantum est extensa; et ex consequenti
+<lb ed="#L" n="18"/>omni ei quod sic in materia habet esse per quantitatem convenit habere etiam
+<lb ed="#L" n="19"/>partes substantiales eiusdem rationis in quantum per quantitatem vere 
+extendi<lb break="no" ed="#L" n="20"/>tur substantia materiae et vere divisibilis et divisa efficitur. Constat enim quod
+<lb ed="#L" n="21"/>in duobus individuis sunt duae quantitates essentialiter et formaliter se ipsis in
+<lb ed="#L" n="22"/>genere quantitatis differentes, ita tamen quod ad hoc quod illae duae 
+quantita<lb break="no" ed="#L" n="23"/>tes se ipsis sic differunt non praesupponitur aliud ex quo sic habeant dividi vel
+<lb ed="#L" n="24"/>extendi, sed solum subiectum in quo; sed ad hoc quod duae formae substantiales
+<lb ed="#L" n="25"/>sic se ipsis formaliter differunt praesupponitur aliquid aliud quo materia in qua 
+<lb ed="#L" n="26"/>sunt tales formae extensae et divisibiles habeat esse extensum et divisibile.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3109">
+               <lb ed="#L" n="27"/>His visis, patet veritas secundi articuli et per consequens totius quaestionis.
+<lb ed="#L" n="28"/>Unde ad argumenta in oppositum facta respondendum est et primo quidem ad
+<lb ed="#L" n="29"/>argumentum positum superius in corpore solutionis. Cum enim arguitur in
+<lb ed="#L" n="30"/>oppositum sic 5: quando aliqua conveniunt in aliquo communi et differunt inter
+<lb ed="#L" n="31"/>se sive quando aliquod commune reperitur in pluribus et diversis oportet in
+<lb ed="#L" n="32"/>illis pluribus reperiri aliquid aliud realiter additum tali communi per quod ab
+<lb ed="#L" n="33"/>invicem differunt, alioquin secundum idem convenirent et differrent,— dicendum
+<lb ed="#L" n="34"/>est quod quando aliquid unum secundum rem reperitur in pluribus ab invicem
+<lb ed="#L" n="35"/>distinctis oportet esse aliquid additum in singulis ; sed hoc non est possibile in
+<lb ed="#L" n="36"/>creaturis ubi est aliquid commune solum secundum rationem et intellectum, id
+<lb ed="#L" n="37"/>est ubi pluribus non est aliqua una res communis sic quod indivisa in pluribus
+<lb ed="#L" n="38"/>reperiatur, sed solum est unus conceptus, quo scilicet res quae plurificatur
+<lb ed="#L" n="39"/>secundum esse reale in diversis apprehenditur per abstractionem a contrahenti-
+<pb ed="#L" n="334"/>
+               <lb ed="#L" n="1"/>bus ipsum sub ratione communi et indistincta. In talibus enim non oportet quod
+<lb ed="#L" n="2"/>ad hoc quod quae sic conveniunt in communi inter se differant, quod aliqua res
+<lb ed="#L" n="3"/>addita intelligatur quae compositionem realem faciat ; nam res rei addita 
+compo<lb break="no" ed="#L" n="4"/>sitionem facit. Sed res secundum esse determinatum et contractum quod habet '
+<lb ed="#L" n="5"/>in se extra intellectum et secundum quod habet conceptum absolutum et
+<lb ed="#L" n="6"/>abstractum dicto modo, non sibi invicem adduntur ut res facientes aliquam
+<lb ed="#L" n="7"/>compositionem, ut declaratum est prius. Si ergo quaeratur in quo conveniunt
+<lb ed="#L" n="8"/>individua, responderi potest secundum praedeterminata quod in uno conceptu
+<lb ed="#L" n="9"/>quo natura quae singulariter et determinate  existit in ? individuo simpliciter
+<lb ed="#L" n="10"/>et indeterminate ut per indifferentiam se habens respectu omnium individuorum
+<lb ed="#L" n="11"/>intelligitur ; et si quaeratur in quo vel quo differunt, dicendum est quod se ipsis
+<lb ed="#L" n="12"/>sive in formis et materiis suis substantialibus realiter ab invicem divisis et 
+dis<lb break="no" ed="#L" n="13"/>tinctis, licet ad hoc exigatur quantitas dicto modo. Unde, cum dicunt doctores
+<lb ed="#L" n="14"/>sancti et philosophi, ut postea inducitur, quod differunt accidentibus, potest
+<lb ed="#L" n="15"/>dici quod hoc dicitur non quia essentialiter et formaliter non differant suis
+<lb ed="#L" n="16"/>naturis substantialibus, ut dictum est, sed quia illa distinctio magis per ista 
+<lb ed="#L" n="17"/>manifestatur et quia etiam quantitas in ratione causae materialis in materialibus
+<lb ed="#L" n="18"/>necessario exigitur dicto modo.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3181">
+               <lb ed="#L" n="19"/>Ad illud autem quod arguitur quod quantitas non potest esse causa 
+indivi<lb break="no" ed="#L" n="20"/>duationis, cum quantitas sit quid natura posterius ipsa substantia individua ;
+<lb ed="#L" n="21"/>quia, sicut arguitur communiter quod accidentia non videntur habere rationem
+<lb ed="#L" n="22"/>alicuius causalitatis in individuatione, eo quod magis per substantiam tanquam
+<lb ed="#L" n="23"/>per id quod est natura prius et in quo existere et  subsistere habent 
+individuan<lb break="no" ed="#L" n="24"/>tur ; et etiam sicut arguitur quod modus realis eo quod, si est aliquid in rerum
+<lb ed="#L" n="25"/>natura, est quid posterius natura quam sit ipsa natura substantiae individuatae,
+<lb ed="#L" n="26"/>non potest ex illo habere rationem suppositi vel individui, ita etiam videtur posse
+<lb ed="#L" n="27"/>argui de quantitate ; — ad hoc patet solutio ex iam dictis. Verum est enim quod
+<lb ed="#L" n="28"/>oportet quod quantitas sit quid prius materia et forma in quantum intelligitur 
+ha<lb break="no" ed="#L" n="29"/>bere aliquam rationem causalitatis in individuatione.Sed in substantia individua
+<lb ed="#L" n="30"/>potest considerari et  ipsa subsistentia eius quod respicit rationem suppositi, id
+<lb ed="#L" n="31"/>est rei in se existentis et alteri in existendo non innitentis, et quantum ad hoc
+<lb ed="#L" n="32"/>omne accidens et omnis modus realis qui potest poni est quid posterius substantia
+<lb ed="#L" n="33"/>individua. Ideo ad rationem suppositi nihil tale potest habere aliquam rationem
+<lb ed="#L" n="34"/>causalitatis ; immo hoc convenit omni substantiae ex se sive ex ipsa natura sua.
+<lb ed="#L" n="35"/>Sed praeter subsistentiam in substantia individua adhuc considerari potest 
+divi<lb break="no" ed="#L" n="36"/>sio eius ab alio eiusdem rationis et si sic quidem consideretur suppositum,
+<lb ed="#L" n="37"/>scilicet ut existit divisum ab alio eiusdem rationis, cum forma substantialis de
+<lb ed="#L" n="38"/>se non habet existere divisa in plures formas eiusdem rationis nec etiam hoc
+<lb ed="#L" n="39"/>habet materia de se, sed hoc convenit quantitati per se vel secundum se, scilicet
+<pb ed="#L" n="335"/>
+               <lb ed="#L" n="1"/>esse divisibile vel esse id unde aliquid natum est esse divisibile in partes tam
+<lb ed="#L" n="2"/>materiales quam formales secundum substantiam eiusdem rationis, prout patet
+<lb ed="#L" n="3"/>ex diffinitione quantitatis praeallegata in quinto Metaphysicae, tunc dicendum
+<lb ed="#L" n="4"/>est quod ad hoc quod aliqua substantia singulariter sit sic indivisa in se et divisa
+<lb ed="#L" n="5"/>ab alio non sufficit esse materiae et formae substantialis secundum se ; sed
+<lb ed="#L" n="6"/>oportet adesse quantitatem causantem divisionem qua quidem ipsa materia
+<lb ed="#L" n="7"/>extenditur et divisibilis est et ex hoc quicquid in ipsa recipitur quod ex eius
+<lb ed="#L" n="8"/>potentia educitur ; et reducitur ista causalitas ad genus causae materialis, quia
+<lb ed="#L" n="9"/>est dispositio in materia qua materia habet potentialitatem ad diversitatem
+<lb ed="#L" n="10"/>partium secundum substantiam et ad receptionem diversarum formarum 
+secun<lb break="no" ed="#L" n="11"/>dum substantiam quas oportet etiam dividi, cum in materia divisa recipiuntur
+<lb ed="#L" n="12"/>quae ex se non habent huiusmodi divisibilitatem.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3257">
+               <lb ed="#L" n="13"/>Cum ergo dicitur quod quantitas est accidens et sic posterius, dicendum
+<lb ed="#L" n="14"/>quod dimensiones non dicuntur praesupponi in materia ut quid prius natura et
+<lb ed="#L" n="15"/>simpliciter quam ipsa materia vel etiam ' forma receptibilis in ea in entitate eis
+<lb ed="#L" n="16"/>secundum substantiam et simpliciter debita, sed sic ut sint priores naturaliter
+<lb ed="#L" n="17"/>quam materia in esse divisibili ipsius materiae sive in esse huius quod est 
+mate<lb break="no" ed="#L" n="18"/>riam habere simul plures partes eiusdem rationis. Prius enim natura est 
+mate<lb break="no" ed="#L" n="19"/>riam esse quantam quam habere plures partes eiusdem rationis ; prius tamen
+<lb ed="#L" n="20"/>natura est simpliciter materiam esse materiam quam ipsam esse quantam et
+<lb ed="#L" n="21"/>sunt etiam priores naturaliter ipsa forma introducenda in quantum materia
+<lb ed="#L" n="22"/>supponitur formae non ut subiectum eius simpliciter, sed ut subiectum ? plurium
+<lb ed="#L" n="23"/>formarum quod est ei per quantitatem. Ita etiam intelligendum est de 
+dimen<lb break="no" ed="#L" n="24"/>sionibus existentibus in individuo iam existenti in sua  individuatione respectu
+<lb ed="#L" n="25"/>totius substantiae compositae ex materia et forma substantiah. Nam, cum
+<lb ed="#L" n="26"/>dimensiones determinatae et quantitas simpliciter sint causa in hoc quod est
+<lb ed="#L" n="27"/>substantiam esse divisibilem et actu divisam in plures partes eiusdem rationis,
+<lb ed="#L" n="28"/>necesse est eas praesupponi et esse priores naturaliter quantum ad hoc esse
+<lb ed="#L" n="29"/>divisibile substantiae et esse actu divisum ; substantia autem composita 
+natura<lb break="no" ed="#L" n="30"/>liter prior est in ratione subiecti et causae materialis etiam determinata 
+quanti<lb break="no" ed="#L" n="31"/>tate quae estin ea. Nec est inconveniens quod secundum illud esse cuius
+<lb ed="#L" n="32"/>accidens est causa sit prius naturaliter . Ubique enim naturaliter causa prius
+<lb ed="#L" n="33"/>est quam effectus ; et sic individuum in genere substantiae naturaliter prius est
+<lb ed="#L" n="34"/>id quod est secundum substantiam quam id quod est secundum esse divisum,
+<lb ed="#L" n="35"/>et prius est illud esse substantiam simpliciter quam esse substantiam sic 
+divi<lb break="no" ed="#L" n="36"/>sam ; sed naturaliter prius est substantiam individuam esse quantam et extensam
+<lb ed="#L" n="37"/>per quantitatem quam esse divisibilem secunduni partes eiusdem rationis etiam
+<lb ed="#L" n="38"/>secundum substantiam.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3316">
+               <lb ed="#L" n="39"/>Haec autem non possunt adaptari ad modum a quo secundum aliquos
+<pb ed="#L" n="336"/>
+               <lb ed="#L" n="1"/>dicitur aliquid habere rationem suppositi, ut per se patet ; et ideo per hanc 
+dis<lb break="no" ed="#L" n="2"/>tinctionem non potest defendi dicta positio. Per hoc autem quod dicitur quod
+<lb ed="#L" n="3"/>accidens est prius natura secundum rationem causae formalis, in quantum 
+for<lb break="no" ed="#L" n="4"/>maliter extendi et dividi habet substantia per ipsum, non ponitur quod ipsa
+<lb ed="#L" n="5"/>substantia et secundum materiam et secundum formam realiter non dividatur ;
+<lb ed="#L" n="6"/>sed quod sic dividi non habet nisi in quantum quantitate informata est.
+</p>
+            <p xml:id="v27ab7-g25804-d1e3336">
+               <lb ed="#L" n="7"/>Ex hoc etiam non sequitur quod quantitas cedat in rationem causae 
+forma<lb break="no" ed="#L" n="8"/>lis in ratione individuationis, immo ipsa forma substantialis, licet habeat
+<lb ed="#L" n="9"/>quantitas rationem causae formalis in substantiam ' esse divisibilem et extensam ;
+<lb ed="#L" n="10"/>quia, licet id entitatis quod habet quantitas sit posterius natura quam id entitatis
+<lb ed="#L" n="11"/>quod habet substantia singularis, tamen, ut dictum est, id divisibilitatis quod
+<lb ed="#L" n="12"/>habet quantitas in partes eiusdem rationis est prius naturaliter quam dividi et
+<lb ed="#L" n="13"/>extendi substantiae, ut dictum est ; et sic quantitas dicto modo est prius natura
+<lb ed="#L" n="14"/>quam  substantia, licet etiam ? id entitatis quod habet quantitas sit posterius
+<lb ed="#L" n="15"/>natura tota substantia composita. Tamen sub ratione esse divisibilis et extensi
+<lb ed="#L" n="16"/>prius natura est materiam extendi  et dividi quam formam et ideo cedit in
+<lb ed="#L" n="17"/>rationem causae materialis, non formalis dicto modo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

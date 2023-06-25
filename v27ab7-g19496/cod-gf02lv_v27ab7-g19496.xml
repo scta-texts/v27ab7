@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="228"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g19496"><!-- v27ab7-q6-q12 -->
+            <head xml:id="v27ab7-g19496-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-g19496-Hd1e101" type="question-title">Utrum bonitas et malitia actuum moralium rationalis creaturae sit magis attribuenda intellectui quam voluntati</head>
+            <p xml:id="v27ab7-g19496-d1e104">
+               <lb ed="#L" n="4"/>QUAESTIO XII.
+<lb ed="#L" n="5"/>Utrum bonitas et malitia actuum moralium rationalis creaturae
+<lb ed="#L" n="6"/>sit magis attribuenda intellectui quam voluntati.
+</p>
+            <p xml:id="v27ab7-g19496-d1e113">
+               <lb ed="#L" n="7"/>Deinde circa dictas potentias, scilicet intellectum et voluntatem prout
+<lb ed="#L" n="8"/>ambae ad eosdem actus comparantur, quaerebatur unum: scilicet utrum
+<lb ed="#L" n="9"/>bonitas et malitia actuum moralium rationalis creaturae sit magis 
+attri<lb break="no" ed="#L" n="10"/>buenda intellectui quam voluntati. Et arguitur quod voluntati ; quia illi
+<lb ed="#L" n="11"/>potentiae magis attribuenda est bonitas et malitia actuum quibus quis
+<lb ed="#L" n="12"/>meretur laudari vel vituperari, per quam homo habet dominium super
+<lb ed="#L" n="13"/>illos; quia ex hoc est aliquis actus laudabilis vel vituperabilis quod 
+impu<lb break="no" ed="#L" n="14"/>tatur agenti. Sed per voluntatem dicitur homo habere dominium super
+<lb ed="#L" n="15"/>actus suos,
+</p>
+            <p xml:id="v27ab7-g19496-d1e135">
+               <lb ed="#L" n="16"/>Contra: quando una potentia sic se habet ad aliam quod bonitas
+<lb ed="#L" n="17"/>sua dependet ex potentia alia cui subicitur, bonitas et malitia ex illis 
+pro<lb break="no" ed="#L" n="18"/>cedens magis est attribuenda potentiae principali ad quam alia ordinatur
+<lb ed="#L" n="19"/>et cui alia subicitur quam alteri. Sed ita se habet voluntas ad rationem.
+<lb ed="#L" n="20"/>Dicit enim Hilarius, decimo de Trinitate: immoderata est omnis 
+suscep<lb break="no" ed="#L" n="21"/>tarum voluptatum pertinacia ubi voluntas non subicitur rationi, quare
+<lb ed="#L" n="22"/>et cetera,
+</p>
+            <p xml:id="v27ab7-g19496-d1e154">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod voluntas est principium elicitivum vel
+<lb ed="#L" n="24"/>etiam imperativum moralium actuum humanorum. Sed actus moralis bonus
+<lb ed="#L" n="25"/>vel malus formaliter et essentialiter, per se et primo, solum est actus 
+volun<lb break="no" ed="#L" n="26"/>tatis, a voluntate scilicet elicitus et in voluntate existens subiective. Actus
+<lb ed="#L" n="27"/>enim exterior a tali actu imperatus moralis etiam est ; et ! bonus et malus
+<lb ed="#L" n="28"/>non  tamen nisi quia est effectus causatus ab ipso actu interiori praedicto.
+<lb ed="#L" n="29"/>Actus etiam rationis vel intellectus moventis voluntatem ad talem actum
+<lb ed="#L" n="30"/>non est moralis, nec bonus vel malus moraliter, nisi quia est causa 
+effec<lb break="no" ed="#L" n="31"/>tiva et motiva qua voluntas fit in praedicto actu qui formaliter et essen-
+<pb ed="#L" n="229"/>
+               <lb ed="#L" n="1"/>tialiter est moralis et bonus vel malus. Unde dicit Anselmus, in libro de
+<lb ed="#L" n="2"/>Veritate, capitulo duodecimo : iustitia est rectitudo quae servantem se 
+lau<lb break="no" ed="#L" n="3"/>dabilem facit; hoc autem non est nisi aut in scientia aut in voluntate. Sed
+<lb ed="#L" n="4"/>si recte quis intelligit aut operatur recte, non autem recte velit, de iustitia
+<lb ed="#L" n="5"/>non laudatur. Ergo non est ista iustitia rectitudo scientiae aut rectitudo
+<lb ed="#L" n="6"/>actionis, sed rectitudo voluntatis. Sed quia, ut ibidem dicit !, iustitia sive
+<lb ed="#L" n="7"/>huiusmodi rectitudo non potest esse in ea natura quae rectitudinem ipsam
+<lb ed="#L" n="8"/>non agnoscit, quia nec eam velle potest qui nescit eam, ideo rectitudo
+<lb ed="#L" n="9"/>scientiae ad rectitudinem voluntatis ut causa requiritur. Ouia etiam voluntas
+<lb ed="#L" n="10"/>non impedita efficit operationem exteriorem, ideo etiam ad rectitudinem
+<lb ed="#L" n="11"/>voluntatis consequitur rectitudo operationis  ut effectus. Sed ipse actus
+<lb ed="#L" n="12"/>voluntatis est per se et essentialiter rectitudo quae iustitia dicitur. Unde
+<lb ed="#L" n="13"/>dicitur ibidem : nulla alia rectitudo quam rectitudo voluntatis iustitia per se
+<lb ed="#L" n="14"/>dicitur. Dicitur enim rectitudo ac tionis iustitia; sed non nisi cum ? iusta
+<lb ed="#L" n="15"/>voluntate fit actu; rectitudo autem voluntatis, etiam si impossibile sit fieri
+<lb ed="#L" n="16"/>quod volumus, tamen nequaquam amittit nomen iustitiae.
+</p>
+            <p xml:id="v27ab7-g19496-d1e213">
+               <lb ed="#L" n="17"/>Cum ergo quaeritur cui sit magis attribuenda bonitas vel malitia actus
+<lb ed="#L" n="18"/>humani sive moralis, debet intelligi quaestio de actu interiori voluntatis vel
+<lb ed="#L" n="19"/>de actu exteriori. Et quidem quantum ad actum interiorem qui est actus
+<lb ed="#L" n="20"/>voluntatis ab ipsa ? elicitus sive in ipsa  existens subiective, est dicendum
+<lb ed="#L" n="21"/>quod hoc nihil aliud est quáerere quam quaerere unde sit bonitas actus
+<lb ed="#L" n="22"/>voluntatis, vel ex ratione a qua movetur secundum rationem obiecti — nam
+<lb ed="#L" n="23"/>bonum apprehensum ab intellectu est obiectum voluntatis, — vel ex ipsa
+<lb ed="#L" n="24"/>voluntate a qua elicitur.
+</p>
+            <p xml:id="v27ab7-g19496-d1e233">
+               <lb ed="#L" n="25"/>Et circa hoc est intellirendum quod in actu morali, de quo est
+<lb ed="#L" n="26"/>quaestio, duo sunt consideranda, scilicet et quod bonus est et quod 
+lauda<lb break="no" ed="#L" n="27"/>bilis est " sive quod eo laudatur homo. Si ergo loquamur de bonitate talis
+<lb ed="#L" n="28"/>actus secundum se, sic magis, immo totaliter est ex ratione. 5i autem
+<lb ed="#L" n="29"/>loquamur  de bonitate eius ut eo laudamur , sic est non solum ex ratione,
+<lb ed="#L" n="30"/>sed etiam ex voluntate est. Primum sic patet: quia bonitas et perfectio rei
+<lb ed="#L" n="31"/>est ex eo quod dat ei formam et speciem ; nunc autem sicut motus habet
+<lb ed="#L" n="32"/>speciem ex obiecto ita etiam actio habet speciem ex obiecto. Et ideo
+<lb ed="#L" n="33"/>bonitas et perfectio actus moralis interioris dependet ex obiecto 
+conve<lb break="no" ed="#L" n="34"/>nienti, et similiter etiam malitia ex obiecto disconvenienti. Sicut enim
+<lb ed="#L" n="35"/>potentiae distinguuntur per actus tanquam per formales perfectiones
+<lb ed="#L" n="36"/>inhaerentes, ita actus per obiecta tanquam per formales perfectiones
+<pb ed="#L" n="230"/>
+               <lb ed="#L" n="1"/>non inhaerentes, sed moventes et efficientes, prout in causa efficiente
+<lb ed="#L" n="2"/>et movente est virtualiter forma qua perficitur motum et a qua habet
+<lb ed="#L" n="3"/>ipsa perfectio moti formam et speciem. Unde, ex hoc quod actus 
+volun<lb break="no" ed="#L" n="4"/>tatis habet rationem formae ! et specie?  ab obiecto, patet quod obiectum
+<lb ed="#L" n="5"/>est per se causa movens, et non solum sine qua non respectu actus
+<lb ed="#L" n="6"/>voluntatis. Et sicut obiectum perfectionem et actualitatem non habet ab
+<lb ed="#L" n="7"/>actu, sed potius e converso, sed modo praedicto, ita etiam actus 
+perfec<lb break="no" ed="#L" n="8"/>tionem et actualitatem non habet a subiecto, sed potius e converso 
+<lb ed="#L" n="9"/>subiectum ab actu, quia ipse actus est qualitas et forma perficiens 
+volun<lb break="no" ed="#L" n="10"/>tatem ipsi inhaerendo. Ab obiecto autem habet suam perfectionem actus.
+<lb ed="#L" n="11"/>Unde actus voluntatis habet perfectionem et bonitatem  suam non ab ipsa
+<lb ed="#L" n="12"/>voluntate sed ab obiecto, — ut includit tamen ^? circumstantias debitas
+<lb ed="#L" n="13"/>secundum quas ad genus morale pertinet, scilicet quod in obiecto boni
+<lb ed="#L" n="14"/>actus voluntatis includitur quod illud fiat quando debet et propter quid
+<lb ed="#L" n="15"/>debet et cetera. Aliter enim voluntas vel voluntatis actus non est bonus,
+<lb ed="#L" n="16"/>quia scilicet non est boni ut obiecti: velle enim aliquid fieri quando non
+<lb ed="#L" n="17"/>debet vel propter quod non debet fieri non est velle bonum. Unde dicitur
+<lb ed="#L" n="18"/>Oseae, nono: facti sunt abominabiles sicut ea quae dilexerunt. 
+Univer<lb break="no" ed="#L" n="19"/>saliter enim perfectio et bonitas actus alicuius potentiae est ex bonitate
+<lb ed="#L" n="20"/>et perfectione obiecti. Unde sicut bonitas et perfectio actus intelligendi est
+<lb ed="#L" n="21"/>ex perfectione obiecti et non subiecti, ita bonitas et perfectio actus 
+volun<lb break="no" ed="#L" n="22"/>tatis est ex suo obiecto et non ex voluntate. Etenim speciem habet actus
+<lb ed="#L" n="23"/>ex suo obiecto, quia secundum distinctionem obiectorum etiam actus
+<lb ed="#L" n="24"/>distinguuntur. Nunc autem obiectum voluntatis est bonum secundum quod
+<lb ed="#L" n="25"/>a ratione apprehensum. Ergo videtur quod bonitas formalis et specifica
+<lb ed="#L" n="26"/>actus voluntatis sit a ratione in quantum est ab obiecto secundum formam
+<lb ed="#L" n="27"/>apprehensionis rationis. Prout enim alias  dictum est, ratio ponit modum,
+<lb ed="#L" n="28"/>formam et mensuram in actionibus moralibus et appetitivis; nam appetitus
+<lb ed="#L" n="29"/>finis debiti praesupponit rectam apprehensionem de fine quae est per
+<lb ed="#L" n="30"/>rationem. In his autem quae sunt ad finem, rectitudo rationis consistit in
+<lb ed="#L" n="31"/>conformitate ad appetitum finis debiti; et respectu illorum perficitur 
+intel<lb break="no" ed="#L" n="32"/>lectus per prudentiam.
+</p>
+            <p xml:id="v27ab7-g19496-d1e333">
+               <lb ed="#L" n="33"/>Sed cum actus voluntatis interior huiusmodi bonitatem: non possit
+<lb ed="#L" n="34"/>habere, ut dictum est, nisi ex obiecto, non autem ex obiecto nisi secundum
+<pb ed="#L" n="231"/>
+               <lb ed="#L" n="1"/>quod ab intellectu apprehenditur, et sic tam ' actus voluntatis quam actus
+<lb ed="#L" n="2"/>intellectus ex illo eodem obiecto bonitatem et perfectionem habent, oportet
+<lb ed="#L" n="3"/>quod illud obiectum bonitatem et perfectionem hanc in se et ex se habeat
+<lb ed="#L" n="4"/>et ? includat. Ouamvis ergo huiusmodi obiectum, quod est aliquis actus
+<lb ed="#L" n="5"/>exterior natus causari et effici a voluntate per suum actum interiorem,
+<lb ed="#L" n="6"/>habeat suam entitatem et bonitatem realem in existentia, ab ipsa 
+volun<lb break="no" ed="#L" n="7"/>tate tamen per hanc suam bonitatem quam natus est habere in existentia ?
+<lb ed="#L" n="8"/>in se ipso  secundum quod cadit in apprehensione intellectus causatur
+<lb ed="#L" n="9"/>bonitas in actu voluntatis et etiam intellectus. Nec tamen suam bonitatem
+<lb ed="#L" n="10"/>formalem in existentia reali sic habet talis actus ab ipsa voluntate quae
+<lb ed="#L" n="11"/>est illius effectiva, sicut ipse actus voluntatis habet suam bonitatem 
+for<lb break="no" ed="#L" n="12"/>malem ab illo eodem actu secundum quod cadit in apprehensione 
+intel<lb break="no" ed="#L" n="13"/>lectus ; quia ipse actus exterior movet potentias animae quantum ad 
+deter<lb break="no" ed="#L" n="14"/>minationem actus ; et ideo actualitatem et perfectionem habent actus 
+poten<lb break="no" ed="#L" n="15"/>tiarum ex bonitate exterioris actus. Sed ipsae potentiae animae per suos
+<lb ed="#L" n="16"/>actus sunt causa motiva respectu actus exterioris, non quantum ad 
+deter<lb break="no" ed="#L" n="17"/>minationem ", sed quantum ad exercitium actus, movendo scilicet membra
+<lb ed="#L" n="18"/>et organa et materiam exteriorem et coniungendo activa passivis et
+<lb ed="#L" n="19"/>cetera. Hanc enim bonitatem et perfectionem suam formalem habet actus
+<lb ed="#L" n="20"/>exterior ex debita materia circa quam est, et ex circumstantiis 
+convenien<lb break="no" ed="#L" n="21"/>tibus.
+</p>
+            <p xml:id="v27ab7-g19496-d1e388">
+               <lb ed="#L" n="22"/>Et secundum hoc est intelligendum quod dictum est, scilicet quod
+<lb ed="#L" n="23"/>obiectum actus voluntatis est causa bonitatis actus ipsius voluntatis ; et
+<lb ed="#L" n="24"/>quia non nisi secundum quod ab intellectu apprehenditur, dicitur etiam
+<lb ed="#L" n="25"/>quod bonitas actus voluntatis a ratione causatur. Quod autem ita sit
+<lb ed="#L" n="26"/>videtur quod voluntatis  bonitas videtur dependere ex lege aeterna 
+tan<lb break="no" ed="#L" n="27"/>quam ex regula et mensura quae derivatur et applicatur ad hominem per
+<lb ed="#L" n="28"/>rationem, cui impressit Deus lumen intellectus agentis, mediante quo, in
+<lb ed="#L" n="29"/>virtute lucis increatae  potest apprehendere regulas recte vivendi 
+secun<lb break="no" ed="#L" n="30"/>dum quas actus humani regulantur et in tantum boni sunt in quantum
+<lb ed="#L" n="31"/>dictae regulae conformantur. Dicit enim Augustinus, vigesimo secundo,
+<lb ed="#L" n="32"/>Contra Faustum, quod peccatum est factum vel concupitum contra legem
+<lb ed="#L" n="33"/>aeternam. Ergo, cum malitia bonitati opponatur, voluntatis bonitas dependet
+<lb ed="#L" n="34"/>dicto modo a lege aeterna, et per consequens a recta ratione, secundum
+<lb ed="#L" n="35"/>illud Psaltis: multi dicunt: quis ostendit nobis bona; signatum est super
+<lb ed="#L" n="36"/>nos lumen vultus tui Domine ; — quasi diceret : lumen rationis, quod in
+<pb ed="#L" n="232"/>
+               <lb ed="#L" n="1"/>nobis est, in tantum potest nobis bona ostendere et nostram voluntatem
+<lb ed="#L" n="2"/>regulare in quantum est lumen vultus tui, id est, a vultu tuo derivatum.
+<lb ed="#L" n="3"/>Et quarto decimo, De Trinitate, capitulo trigesimo  quarto: regulae 
+qui<lb break="no" ed="#L" n="4"/>bus iniustus agnoscit quid sit iustum et cernit habendum quod non habet
+<lb ed="#L" n="5"/>scriptae sunt in libro lucis iliius qui veritas dicitur, unde omnis lex iusta
+<lb ed="#L" n="6"/>de scribitur et in cor hominis qui operatur iustitiam transfertur. Regula
+<lb ed="#L" n="7"/>autem nihil aliud est quam mensura. Ergo oportet quod bonitas voluntatis
+<lb ed="#L" n="8"/>dependeat ? a ratione, mediante qua regulae aeternae nobis imprimuntur
+<lb ed="#L" n="9"/>tanquam a mensura sua.
+</p>
+            <p xml:id="v27ab7-g19496-d1e445">
+               <lb ed="#L" n="10"/>Item, sicut scientia realiter refertur ad scibile ut mensuratum ad 
+men<lb break="no" ed="#L" n="11"/>suram, ita etiam videtur quod actus et habitus voluntatis referuntur realiter
+<lb ed="#L" n="12"/>ad appetibile sicut mensuratum ad mensuram. Sicut ergo bonitas et 
+per<lb break="no" ed="#L" n="13"/>fectio actus intellectus est ex bonitate et perfectione obiecti, sive scibilis,
+<lb ed="#L" n="14"/>ita etiam in proposito, bonitas voluntatis est ab appetibili, quod est bonum
+<lb ed="#L" n="15"/>apprehensum tanquam a regula et mensura sua.
+</p>
+            <p xml:id="v27ab7-g19496-d1e462">
+               <lb ed="#L" n="16"/>Item, cum omnis voluntas discordans a ratione sive  recta sive 
+<lb ed="#L" n="17"/>erronea semper sit mala, videtur quod forma et regula actus voluntatis
+<lb ed="#L" n="18"/>sit ex obiecto, non secundum se et secundum naturam suam in se, sed
+<lb ed="#L" n="19"/>secundum modum et formam qua a ratione apprehenditur; quia obiectum
+<lb ed="#L" n="20"/>voluntatis est illud quod a ratione apprehenditur sub ratione convenientis
+<lb ed="#L" n="21"/>vel disconvenientis. Unde si aliquid quod secundum se est bonum, puta
+<lb ed="#L" n="22"/>dare eleemosynam, apprehendatur ut malum, si feratur voluntas in illud,
+<lb ed="#L" n="23"/>accipit rationem mali, non autem nisi quia fertur in illud quod, licet sit
+<lb ed="#L" n="24"/>secundum se bonum, habet tamen rationem mali? per accidens, scilicet ^
+<lb ed="#L" n="25"/>ex apprehersione rationis.
+</p>
+            <p xml:id="v27ab7-g19496-d1e486">
+               <lb ed="#L" n="26"/>Quia ergo regula humanorum actuum est  ratio humana dirigens in
+<lb ed="#L" n="27"/>virtute regulae supremae, quae est lex aeterna, tunc autem est aliquid
+<lb ed="#L" n="28"/>bonum cum actio regulatur secundum regulam secundum quam debet esse,
+<lb ed="#L" n="29"/>malum autem cum ab ea recedit, ideo quando actus humanus fit secundum
+<lb ed="#L" n="30"/>ordinem rationis et legis aeternae, tunc est actus rectus et bonus ; quando
+<lb ed="#L" n="31"/>autem ab hac rectitudine obliquatur, tunc dicitur esse peccatum et malus.
+<lb ed="#L" n="32"/>Patet igitur quod a ratione est bonitas vel malitia actus moralis, non autem
+<lb ed="#L" n="33"/>a voluntate. Bonitas enim et perfectio formae vel actus effective nullo modo
+<lb ed="#L" n="34"/>potest esse a subiecto quod est quasi materia actus.
+</p>
+            <p xml:id="v27ab7-g19496-d1e508">
+               <lb ed="#L" n="35"/>Sed tamen secundum diversitatem subiecti et secundum diversitatem
+<lb ed="#L" n="36"/>dispositionum subiecti bene diversificantur " actus. Secundum diversitatem
+<pb ed="#L" n="233"/>
+               <lb ed="#L" n="1"/>enim essentialem et specificam subiectorum sive potentiarum subiecti !
+<lb ed="#L" n="2"/>diversificantur actus etiam ? essentialiter et. secundum speciem ; quia
+<lb ed="#L" n="3"/>etiam oportet obiecta formalia diversificari et etiam modos operandi
+<lb ed="#L" n="4"/>talium potentiarum ; aliud est enim obiectum visus et aliud intellectus,
+<lb ed="#L" n="5"/>et alio modo operatur iste et ille. Sed secundum diversitatem 
+dispo<lb break="no" ed="#L" n="6"/>sitionum subiecti eiusdem speciei actus diversificantur , non per se et
+<lb ed="#L" n="7"/>formaliter et essentialiter, sed quasi accidentaliter, secundum quod 
+secun<lb break="no" ed="#L" n="8"/>dum diversitatem huius subiecti perfectior est actus idem secundum
+<lb ed="#L" n="9"/>speciem in uno quam in alio. Actus enim virtuosus qui elicitur a
+<lb ed="#L" n="10"/>potentia perfecta per habitum  est perfectior quam  elicitus  a
+<lb ed="#L" n="11"/>potentia sine habitu; et qui elicitur a potentia perfecta per habitum
+<lb ed="#L" n="12"/>perfectiorem est perfectior actu qui elicitur a potentia perfecta per 
+habi<lb break="no" ed="#L" n="13"/>tum minus perfectum. Sic igitur apparet quid sit dicendum ad primum
+<lb ed="#L" n="14"/>articulum.
+</p>
+            <p xml:id="v27ab7-g19496-d1e547">
+               <lb ed="#L" n="15"/>Circa secundum autem est intelligendum quod, cum ex hoc dicatur
+<lb ed="#L" n="16"/>aliquis actus laudabilis et culpabilis quod imputatur agenti — nihil enim
+<lb ed="#L" n="17"/>est aliud laudari vel culpari aliquem quam imputari sibi malitiam vel 
+boni<lb break="no" ed="#L" n="18"/>tatem sul actus — tunc autem imputatur agenti suus actus quando est in
+<lb ed="#L" n="19"/>potestate ipsius ita quod habet dominium super illum ut ex se illum agat,
+<lb ed="#L" n="20"/>hoc autem dicitur de actibus voluntaris secundum quod voluntarii sunt ;
+<lb ed="#L" n="21"/>quare videtur quod ex voluntate habeat actus moralis quod sit laudabilis
+<lb ed="#L" n="22"/>vel vituperabilis, sive quod imputetur agenti. Hoc autem nihil importat aliud
+<lb ed="#L" n="23"/>nisi quod agens agat illud sponte et libere, non ? coacte nec necessitate
+<lb ed="#L" n="24"/>absoluta quae mo dicum a coactione distat, prout bruta agunt de 
+neces<lb break="no" ed="#L" n="25"/>sitate, licet per cognitionem et appetitum animalem, quia, prout dicit
+<lb ed="#L" n="26"/>Damascenus, magis aguntur quam agant. Sed quomodo homo libere agat
+<lb ed="#L" n="27"/>per voluntatem actum exteriorem ut sic laudetur, satis patet, quia ibi non
+<lb ed="#L" n="28"/>agit aliquid unum et idem secundum idem in se ipso.
+</p>
+            <p xml:id="v27ab7-g19496-d1e580">
+               <lb ed="#L" n="29"/>Sed quomodo hoc poterit dici de actu interiori non sic est manifestum.
+<lb ed="#L" n="30"/>Et ideo circa hoc est intelligendum quod liberum arbitrium includit et
+<lb ed="#L" n="31"/>rationem libere iudicantem et voluntatem libere eligentem. Et ideo in
+<lb ed="#L" n="32"/>generali est dicendum quod aliquis actus imputetur alicui, hoc non habet
+<lb ed="#L" n="33"/>solum quia est a voluntate, excluso intellectu vel e converso; quia ista
+<lb ed="#L" n="34"/>duo sunt quasi unum principium omnium actuum humanorum quibus
+<lb ed="#L" n="35"/>meretur quis laudari.
+</p>
+            <p xml:id="v27ab7-g19496-d1e598">
+               <lb ed="#L" n="36"/>Quia tamen ut haec simul sunt principium alicuius actus, ipsa voluntas
+<pb ed="#L" n="234"/>
+               <lb ed="#L" n="1"/>immediatius ad haec videtur se habere, ideo voluntati ratio principiandi
+<lb ed="#L" n="2"/>magis appropriatur. Est ergo actus exterior laudabilis et agenti imputatur
+<lb ed="#L" n="3"/>quia super illum habet agens dominium et potestatem. Sed, cum ille 
+pro<lb break="no" ed="#L" n="4"/>cedat a libero arbitrio et sic ab actu intellectus et voluntatis, non haberet
+<lb ed="#L" n="5"/>homo potestatem super illum actum exteriorem nisi etiam haberet 
+potes<lb break="no" ed="#L" n="6"/>tatem super istos actus interiores, sicut patet in bruto quod non dicitur
+<lb ed="#L" n="7"/>habere dominium super actum exteriorem, quia non habet dominium ! super
+<lb ed="#L" n="8"/>actus interiores apprehensionis et appetitus. Ergo oportet ponere quod
+<lb ed="#L" n="9"/>etiam super huiusmodi actus interiores habeat homo dominium, non autem
+<lb ed="#L" n="10"/>nisi per voluntatem et intellectum qui sunt subiecta istorum actuum. Ergo
+<lb ed="#L" n="11"/>videtur quod intellectus et voluntas aliquo modo sunt causa suorum
+<lb ed="#L" n="12"/>actuum, potestatem et dominium habentes super illos, sive ipse homo per
+<lb ed="#L" n="13"/>huiusmodi potentias; et hoc quidem convenit homini per rationem quae,
+<lb ed="#L" n="14"/>quia est natura abstracta et ratione suae abstractionis illimitata, potest
+<lb ed="#L" n="15"/>super actus suarum potentiarum reflecti et cognoscere non solum 
+obiec<lb break="no" ed="#L" n="16"/>tum intellectus et velle obiectum voluntatis, sed intellectus habet
+<lb ed="#L" n="17"/>cognoscere suum actum et voluntas velle suum actum.
+</p>
+            <p xml:id="v27ab7-g19496-d1e643">
+               <lb ed="#L" n="18"/>Item, intellectus apprehendens aliquid sub ratione alicuius 
+convenien<lb break="no" ed="#L" n="19"/>tiae propter quod etiam voluntas fertur in illud, habet cognoscere non
+<lb ed="#L" n="20"/>solum ilud quod est sic conveniens et inclinari in illud per voluntatem,
+<lb ed="#L" n="21"/>sicut contingit in brutis, sed etiam rationem huiusmodi convenientiae, sive
+<lb ed="#L" n="22"/>quod talis est convenientia et habitudo eius ad illud quod merito est
+<lb ed="#L" n="23"/>volendum et agendum ut sic, secundum quod dicit Augustinus, tertio De
+<lb ed="#L" n="24"/>Libero Arbitrio, licet non sit in potestate hominis quibus visis mens sua
+<lb ed="#L" n="25"/>tangatur, postquam tamen tacta est aliqualiter per apprehensionem aliquam
+<lb ed="#L" n="26"/>rationis et per aliqualem allectionem voluntatis, remanet in potestate eius
+<lb ed="#L" n="27"/>illa perfecte eligere vel respuere, in quantum scilicet post huiusmodi 
+sim<lb break="no" ed="#L" n="28"/>plicem apprehensionem deliberare convenienter potest homo per 
+quam<lb break="no" ed="#L" n="29"/>dam generalem conceptionem quae unicuique statim nata est occurrere,
+<lb ed="#L" n="30"/>quod homo diligenter  debet considerare quae sunt eligenda vel 
+appe<lb break="no" ed="#L" n="31"/>tenda, et cetera; et per hoc etiam fieri in actu voluntatis ut velit circa sic
+<lb ed="#L" n="32"/>apprehensum considerare consideranda ; et sic applicando organa 
+deser<lb break="no" ed="#L" n="33"/>vientia considerationi, intellectus movet illa ad exercitium actus 
+conside<lb break="no" ed="#L" n="34"/>randi condiciones apprehensi et habitudinem suam ad illud; et quare
+<lb ed="#L" n="35"/>volendum vel eligendum ; et deinde illud vult simpliciter vel eligit et sic est
+<lb ed="#L" n="36"/>sibi causa talis vel talis ? iudicii intellectus et electionis voluntatis. Et ideo
+<lb ed="#L" n="37"/>merito laudatur sic eligendo, quia a se habet quod sic eligat sic movendo
+<pb ed="#L" n="235"/>
+               <lb ed="#L" n="1"/>et agendo se ipsum quantum ad exercitium actus, ut alibi est declaratum .
+<lb ed="#L" n="2"/>Et haec est intentio Anselmi in libro De Veritate, capitulo duodecimo, ubi
+<lb ed="#L" n="3"/>dicit: rectitudo quae tenenti se laudem acquirit non est nisi in sola
+<lb ed="#L" n="4"/>rationali natura quae sola ' rectitudinem percipit. Si quis enim nesciens
+<lb ed="#L" n="5"/>vult quod debet, non habet rectitudinem illam quam quaerimus. Non omnis
+<lb ed="#L" n="6"/>etiam qui vult quod debet et scit se debere velle quod vult est laudandus,
+<lb ed="#L" n="7"/>quia potest contingere quod nolit se debere; nam latro cogitur ablatam
+<lb ed="#L" n="8"/>reddere pecuniam, palam autem est quia non vult se debere, quoniam
+<lb ed="#L" n="9"/>ideo  cogitur velle reddere, quia debuit, sed hic ? nullatenus laudandus
+<lb ed="#L" n="10"/>est hac rectitudine, quia ex quo quasi coactus hoc facit, non reddit sponte,
+<lb ed="#L" n="11"/>scilicet hoc faciens quia debuit, sed timore maioris mali. Nec omnis qui
+<lb ed="#L" n="12"/>vult quod debet velle et vult se hoc debere velle et sic etiam  sponte
+<lb ed="#L" n="13"/>agit, quia tamen propter finem non convenientem agere potest, puta qui
+<lb ed="#L" n="14"/>pavit esurientem propter inanem glo riam, ex tali rectitudine ? est 
+lau<lb break="no" ed="#L" n="15"/>dandus.
+</p>
+            <p xml:id="v27ab7-g19496-d1e724">
+               <lb ed="#L" n="16"/>Et ideo subditur ibi : omnis quippe voluntas sicut vult aliquid, ita vult
+<lb ed="#L" n="17"/>propter aliquid ; et sicut considerandum est quid velit, ita considerandum
+<lb ed="#L" n="18"/>est cur velit, quippe non magis recta debet esse volendo quod debet, quam
+<lb ed="#L" n="19"/>volendo propter quod debet. Ouapropter omnis voluntas habet quid et cur
+<lb ed="#L" n="20"/>omnino ; namque nihil volumus nisi sit cur velimus. Hoc in nobis 
+cognos<lb break="no" ed="#L" n="21"/>cimus. Et per hoc innuit Anselmus quod hoc non contingit in brutis,
+<lb ed="#L" n="22"/>scilicet appetere aliquid et cur id appetunt; quia rationem finis non 
+appre<lb break="no" ed="#L" n="23"/>hendunt nec ordinem ipsum in illum ; propter quod etiam non sunt sibi
+<lb ed="#L" n="24"/>causa volendi vel appetendi suum finem, sicut contingit in rationalibus.
+<lb ed="#L" n="25"/>Deinde subdit : duo sunt ergo necessaria voluntati ad iustitiam, velle
+<lb ed="#L" n="26"/>scilicet quod debet, ac  ideo quia debet.
+</p>
+            <p xml:id="v27ab7-g19496-d1e750">
+               <lb ed="#L" n="27"/>Quia ergo actus virtuosus volendus est propter se, non propter aliud,
+<lb ed="#L" n="28"/>scilicet propter aliquod  speciale commodum consequendum vel 
+incommo<lb break="no" ed="#L" n="29"/>dum fugiendum, ideo, ut ibi concludit Anselmus, volun tas illa iusta est
+<lb ed="#L" n="30"/>quae  sui rectitudinem servat propter ipsam rectitudinem. Haec etiam est
+<lb ed="#L" n="31"/>intentio Philosophi, secundo Ethicorum, ubi dicit quod res temperatae
+<lb ed="#L" n="32"/>et iustae dicuntur quando tales sunt quales utique iustus et temperatus
+<lb ed="#L" n="33"/>operabitur; quasi diceret: actus morales habent suam entitatem et 
+perfec<lb break="no" ed="#L" n="34"/>tionem secundum se ex materia circa quam et circumstantias et huius-
+<pb ed="#L" n="236"/>
+               <lb ed="#L" n="1"/>modi. Iustus autem et temperatus est, non qui hoc operatur, sed et qui sic
+<lb ed="#L" n="2"/>operatur ut iusti et temperati; quasi diceret ab hoc quod operans talia
+<lb ed="#L" n="3"/>in operando laudabilis sit sicut virtuosus ex parte eius aliud requiritur .
+<lb ed="#L" n="4"/>Unde parum ante dicit: quae secundum virtutes fiunt neque si hoc qualiter
+<lb ed="#L" n="5"/>habeant iuste vel temperate operata sunt, sed si operans qualiter habens
+<lb ed="#L" n="6"/>operetur primum quidem si sciens, deinde si eligens; et eligens propter
+<lb ed="#L" n="7"/>hoc tertium, addit ultra Anselmus, scilicet ? si firme et immobiliter habeat
+<lb ed="#L" n="8"/>et operetur. Sic ergo est dicendum ad praedictam quaestionem.
+</p>
+            <p xml:id="v27ab7-g19496-d1e789">
+               <lb ed="#L" n="9"/>Nec videtur bene dictum quod circa hoc dicunt aliqui , scilicet quod
+<lb ed="#L" n="10"/>actio voluntatis habet quasi triplicem bonitatem, scilicet bonitatem ex
+<lb ed="#L" n="11"/>genere, quam habet scilicet  ex materia debita, circa quam item habet
+<lb ed="#L" n="12"/>bonitatem virtuosam quam habet ex circumstantia finis convenientis sine
+<lb ed="#L" n="13"/>quo posset esse actus vitiosus; item bonitatem moris quam habet a  
+circeum<lb break="no" ed="#L" n="14"/>stantia agentis, hoc est a voluntate a qua actio volitionis moralis speciem
+<lb ed="#L" n="15"/>moris et bonitatis moralis sortitur, non ab obiecto nec a fine, sed potius
+<lb ed="#L" n="16"/>ab agente.
+</p>
+            <p xml:id="v27ab7-g19496-d1e809">
+               <lb ed="#L" n="17"/>Omnino enim irrationabile est dicere quod circumstantia actus moralis
+<lb ed="#L" n="18"/>sit aliquid ex parte agentis, licet hoc de fine dicatur ; quia, ut supra dictum
+<lb ed="#L" n="19"/>est, obiectum actus voluntatis potest accipi secundum se absque inclusione
+<lb ed="#L" n="20"/>finis et sic dicitur habere bonitatem non completam et simpliciter; sed in
+<lb ed="#L" n="21"/>genere potest etiam accipi cum inclusione circumstantiae finis illius,
+<lb ed="#L" n="22"/>scilicet sine quo non habet quod sit bonus simpliciter et virtuosus; et sic
+<lb ed="#L" n="23"/>hoc totum cadit in ratione obiecti. Unde actus volitionis non dicitur bonus
+<lb ed="#L" n="24"/>et virtuosus ex circumstantia finis qui sit circumstantia ipsius actus 
+voli<lb break="no" ed="#L" n="25"/>tionis, sed magis ipsius obiecti; immo etiam, ut dictum est, in obiecto
+<lb ed="#L" n="26"/>includitur. Sed voluntas nullo modo potest esse circumstantia actus nec
+<lb ed="#L" n="27"/>interioris nec exteri oris, sed solum habet rationem causae subiectivae
+<lb ed="#L" n="28"/>respectu actus interioris, vel effectivae respectu actus exterioris respectu
+<lb ed="#L" n="29"/>cuius se habet voluntas in ratione causae moventis et efficientis. Sed a tali
+<lb ed="#L" n="30"/>causa non habet actus speciem et bonitatem.
+</p>
+            <p xml:id="v27ab7-g19496-d1e842">
+               <lb ed="#L" n="31"/>Item, respectu ultimi actus interioris consequentis ex quadam quasi
+<lb ed="#L" n="32"/>deliberatione, habet ipsa voluntas dominium et rationem causae moventis.
+<lb ed="#L" n="33"/>Sed etiam respectu illius non causat formam et bonitatem ; quia hoc conse-
+<pb ed="#L" n="237"/>
+               <lb ed="#L" n="1"/>quitur actus ex illo quod habet rationem agentis et moventis quantum ad
+<lb ed="#L" n="2"/>determinationem actus, et ideo ex voluntate nullam speciem vel bonitatem
+<lb ed="#L" n="3"/>formalem moralem potest habere actus a voluntate procedens, alioquin
+<lb ed="#L" n="4"/>omnis actus a voluntate procedens ! esset bonus vel malus moraliter.
+</p>
+            <p xml:id="v27ab7-g19496-d1e863">
+               <lb ed="#L" n="5"/>Propter quod, sicut tactum est, illud dicitur esse de genere moris quod
+<lb ed="#L" n="6"/>est tale secundum naturam  suam quod ad illud natus est homo bene vel
+<lb ed="#L" n="7"/>male affici et bene vel male se habere, secundum quod sic vel aliter afficitur
+<lb ed="#L" n="8"/>ad illud. Est autem bonum in genere moris quod est secundum se tale quod
+<lb ed="#L" n="9"/>includit illud quod est conveniens homini et ad quod natus est homo affici
+<lb ed="#L" n="10"/>et se habere convenienter, secundum quod homo est agens secundum
+<lb ed="#L" n="11"/>rationem et liberam voluntatem; malum autem quod est disconveniens ;
+<lb ed="#L" n="12"/>nec hoc est sibi ex voluntate tribuendum. Ex hoc ergo quod velle furari est
+<lb ed="#L" n="13"/>actus voluntarius, aut ex eo quod elicitur libere a voluntate non est actus
+<lb ed="#L" n="14"/>malus moraliter, sed ex eo quod furari secundum se est malum. Cum in
+<lb ed="#L" n="15"/>illud a ratione apprehensum fertur voluntas ex hoc actus voluntatis quo
+<lb ed="#L" n="16"/>vult furari malus est formaliter, quia scilicet ipse actus furandi qui est eius
+<lb ed="#L" n="17"/>obiectum malus est. Unde dicitur Oseae, nono : facti sunt abominabiles
+<lb ed="#L" n="18"/>sicut ea quae dilexerunt. Non dicitur ibi quod facta sint abominabilia quia
+<lb ed="#L" n="19"/>ea dilexerunt. Similiter quia hoc quod est dare eleemosynam indigenti est
+<lb ed="#L" n="20"/>bonum secundum se, ideo, cum voluntas fertur in hoc bonum a ratione
+<lb ed="#L" n="21"/>apprehensum, derivatur haec bonitas in ipsam voluntatem ; et dicitur actus
+<lb ed="#L" n="22"/>voluntatis bonus, quia tendit in tale bonum. Sed ex hoc quod voluntas
+<lb ed="#L" n="23"/>libere, non coacte fertur in illud quod sic secundum se malum est vel
+<lb ed="#L" n="24"/>bonum, culpabilis vel vituperabilis vel laudabilis est. Unde, Augustinus,
+<lb ed="#L" n="25"/>tertio De Libero Arbitrio, capitulo primo: motus quo voluntas huc atque
+<lb ed="#L" n="26"/>illuc convertitur, nisi esset voluntarius atque in nostra positus potestate,
+<lb ed="#L" n="27"/>neque esset laudandus homo cum ad superna ? neque culpandus cum ad
+<lb ed="#L" n="28"/>inferiora detorquet, quasi quendam  cardinem voluntatis.
+</p>
+            <p xml:id="v27ab7-g19496-d1e918">
+               <lb ed="#L" n="29"/>Per praedicta patet responsio ad obiecta. Procedunt secundum vias
+<lb ed="#L" n="30"/>suprapositas ; nam concedendum est primum, quantum ad hoc quod actus
+<lb ed="#L" n="31"/>moralis bonitatem non habet ex voluntate sola, nec etiam imputabilitatem,
+<lb ed="#L" n="32"/>sed ex voluntate simul cum ratione habet imputabilitatem ; sed ex sola
+<lb ed="#L" n="33"/>ratione sive ex obiecto a ratione apprehenso habet speciem et bonitatem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

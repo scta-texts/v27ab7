@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="89"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g07731"><!-- v27ab7-q5-q19 -->
+            <head xml:id="v27ab7-g07731-Hd1e99">Quaestio 19</head>
+            <head xml:id="v27ab7-g07731-Hd1e101" type="question-title">
+      Utrum bona spiritualia facta per religiosos quorum bonorum faciunt participes non
+      religiosos sibi familiares tantum valeant multis quantum valerent paucis
+    </head>
+            <p xml:id="v27ab7-g07731-d1e104">
+               <lb ed="#L" n="32"/>QUAESTIO XIX.
+<lb ed="#L" n="33"/>Utrum bona spiritualia facta per religiosos quorum bonorum faciunt participes non
+<lb ed="#L" n="34"/>religiosos sibi familiares tantum valeant multis quantum valerent paucis.
+</p>
+            <p xml:id="v27ab7-g07731-d1e113">
+               <lb ed="#L" n="35"/>Consequenter arguebatur ad secundum  quod talia bona minus valeant multis quam
+<lb ed="#L" n="36"/>paucis, quia finitum quanto plus communicatur et dividitur tanto pars quaelibet eius minor
+<lb ed="#L" n="37"/>efficitur et minus valet. Sed talia bona sunt finita. Ergo cum pluribus communicantur
+<lb ed="#L" n="38"/>et in plures dividuntur minus est quod unusquisque habet de illis quam si paucioribus
+<lb ed="#L" n="39"/>communicarentur.
+</p>
+            <p xml:id="v27ab7-g07731-d1e126">
+               <pb ed="#L" n="90"/>
+               <lb ed="#L" n="1"/>Contra. Efficaciora et perfectiora sunt spiritualia quam corporalia. Sed aliqua 
+corpo<lb break="no" ed="#L" n="2"/>ralia beneficia sic communicantur quod non minus habent multi de illis quam pauci,
+<lb ed="#L" n="3"/>ut patet de communicatione lucis solis et! vocis. Ergo similiter debet esse de bonis
+<lb ed="#L" n="4"/>spiritualibus.
+</p>
+            <p xml:id="v27ab7-g07731-d1e140">
+               <lb ed="#L" n="5"/>Respondeo dicendum quod bona spiritualia sacramentalia valent ex duobus: et ex
+<lb ed="#L" n="6"/>ipso opere operato? et ex? ipso opere operante, id est devotione et dispositione operantis.
+<lb ed="#L" n="7"/>Alia autem bona, scilicet ieiunia, orationes privatae et cetera talia principaliter valent
+<lb ed="#L" n="8"/>ex devotione operantis et talia spiritualia quae non communicantur secundum partes,
+<lb ed="#L" n="9"/>sed indivisibiliter omnibus, ex hoc non minus valent multis quam paucis, quia unus non
+<lb ed="#L" n="10"/>recipit partem unam et alius aliam. Sed quia devotio secundum cursum communem
+<lb ed="#L" n="11"/>videtur diminui si ad plures minus notos et familiares extendatur, videtur quod talia
+<lb ed="#L" n="12"/>minus valeant ex hac parte multis quam paucis. Sed tamen, quia etiam secundum 
+devo<lb break="no" ed="#L" n="13"/>tionem petentium magis vel minus eis valent si multis instent efficaciter et recipientes
+<lb ed="#L" n="14"/>ipsos recta intentione recipiant, videtur quod eorum efficacia non diminuatur quia 
+suppo<lb break="no" ed="#L" n="15"/>nendum est quod Deus suppleat defectum devotionis si diminuatur secundum actum, cum
+<lb ed="#L" n="16"/>maneat sufficiens secundum habitum et radicem; sed si nimis faciliter et generaliter
+<lb ed="#L" n="17"/>recipiant quoscumque, licet melius sit his qui sic ad familiaritatem recipiuntur quod eis
+<lb ed="#L" n="18"/>talia bona communicentur, quia saltem devotio directa ad ipsos magis quam ad alios
+<lb ed="#L" n="19"/>aliquid operatur, cum tamen ipsa ratio familiaritatis quamdam specialitatem importet aut
+<lb ed="#L" n="20"/>non esset utilis talis assumptio ad talem familiaritatem, non videtur quod sit hoc passim
+<lb ed="#L" n="21"/>et indifferenter faciendum, sed paucis et notabilibus personis.
+</p>
+            <p xml:id="v27ab7-g07731-d1e179">
+               <lb ed="#L" n="22"/>Per praedicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

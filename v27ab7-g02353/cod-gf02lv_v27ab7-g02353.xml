@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="29"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g02353"><!-- v27ab7-q5-q8 -->
+            <head xml:id="v27ab7-g02353-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-g02353-Hd1e101" type="question-title">
+      Utrum intellectus agens sit imaginis cería pars quae dicitur memoria
+    </head>
+            <p xml:id="v27ab7-g02353-d1e104">
+               <pb ed="#L" n="29"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIII.
+<lb ed="#L" n="2"/>Utrum intellectus agens sit imaginis cería pars
+<lb ed="#L" n="3"/>quae dicitur memoria.
+</p>
+            <p xml:id="v27ab7-g02353-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa naturam humanam quaerebantur quaedam pertinentia
+<lb ed="#L" n="5"/>ad omnes homines cuiuscumque status generaliter, quaedam pertinentia
+<lb ed="#L" n="6"/>ad homines quorumdam statuum specialiter.
+</p>
+            <p xml:id="v27ab7-g02353-d1e124">
+               <lb ed="#L" n="7"/>Circa pertinentia ad omnes homines generaliter, quaerebantur quaedam
+<lb ed="#L" n="8"/>pertinentia ad intellectum agentem, quaedam pertinentia ad intellectum
+<lb ed="#L" n="9"/>possibilem, quaedam pertinentia ad ipsam voluntatem.
+</p>
+            <p xml:id="v27ab7-g02353-d1e134">
+               <lb ed="#L" n="10"/>Circa pertinentia ad intellectum agentem quaerebantur tria. Primum
+<lb ed="#L" n="11"/>erat utrum intellectus agens pertineat ad imaginem sic quod sit imaginis
+<lb ed="#L" n="12"/>certa pars quae dicitur memoria. Secundum erat utrum intellectus agens
+<lb ed="#L" n="13"/>habeat aliquam operationem in aperta visione essentiae divinae. Tertium
+<lb ed="#L" n="14"/>erat utrum intellectus agens efficiat aliquam dispositionem vel virtutem
+<lb ed="#L" n="15"/>circa phantasma, vel circa obiectum per phantasma repraesentatum, per
+<lb ed="#L" n="16"/>quam ipsum obiectum vel quod quid est rei possit movere intellectum
+<lb ed="#L" n="17"/>possibilem ad actum intelligendi.
+</p>
+            <p xml:id="v27ab7-g02353-d1e154">
+               <lb ed="#L" n="18"/>Ad primum arguebatur, et ostendebatur quod intellectus agens 
+per<lb break="no" ed="#L" n="19"/>tineat ad imaginem et sit pars imaginis quae memoria dicitur. Nam 
+intel<lb break="no" ed="#L" n="20"/>lectui agenti convenire videntur quae memoriae attribuuntur, quia memoriae
+<lb ed="#L" n="21"/>attribuuntur ! species intelligibiles continere, et notitiam perfectam in actum
+<lb ed="#L" n="22"/>producere. Sed sicut corpus caeleste virtute continet omnes formas 
+mate<lb break="no" ed="#L" n="23"/>riales secundum esse materiale, ita intellectus agens virtute continet omnes
+<lb ed="#L" n="24"/>species intelligibiles sive omnes formas materiales secundum esse 
+intel<lb break="no" ed="#L" n="25"/>ligibile, et sua virtute abstractiva educit intellectum possibilem de potentia
+<lb ed="#L" n="26"/>intelligendi ad actum perfectum intelligendi. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-g02353-d1e176">
+               <lb ed="#L" n="27"/>Contra. Idem non potest esse continens species intelligibiles ut 
+subiec<lb break="no" ed="#L" n="28"/>tum, et illas causans vel producens ut principium activum. Sed memoria
+<lb ed="#L" n="29"/>continet species intelligibiles ut subiectum, intellectus autem agens illas
+<lb ed="#L" n="30"/>efficit ut principium activum. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g02353-d1e187">
+               <lb ed="#L" n="31"/>Respondeo dicendum quod, secundum Augustinum, imago attenditur
+<pb ed="#L" n="30"/>
+               <lb ed="#L" n="1"/>in nobis secundum mentem, quae importat portionem vel partem supe:
+<lb ed="#L" n="2"/>riorem in anima, secundum quam a brutis differimus. Et sic, si secundum
+<lb ed="#L" n="3"/>mentem sumus ad imaginem Dei, omnia quae mens includit ad imaginem
+<lb ed="#L" n="4"/>pertinent. Prout ergo ponitur intellectus agens ad naturam mentis vel
+<lb ed="#L" n="5"/>animae rationalis pertinere, videtur etiam quod ad imaginem pertineat.
+</p>
+            <p xml:id="v27ab7-g02353-d1e205">
+               <lb ed="#L" n="6"/>Si ergo per intellectum agentem intelligatur aliqua substantia 
+sepa<lb break="no" ed="#L" n="7"/>rata vel etiam ipse Deus, illustrans intellectum possibilem et ipsum, 
+prae<lb break="no" ed="#L" n="8"/>sentibus phantasmatibus, reducens de potentia in actum, tunc secundum
+<lb ed="#L" n="9"/>id quod est non dicitur ad imaginem pertinere, sed solum intellectus 
+possi<lb break="no" ed="#L" n="10"/>bilis qui fungetur vice duarum potentiarum, scilicet memoriae et 
+intelli<lb break="no" ed="#L" n="11"/>gentiae; et voluntas erit tertia pars. Secundum Augustinum autem, ubi
+<lb ed="#L" n="12"/>loquitur de lumine intellectuali in virtute cuius illustratur intellectus noster
+<lb ed="#L" n="13"/>possibilis, et fit actu intelligens ' et producens verbum, videtur huiusmodi
+<lb ed="#L" n="14"/>lumen referri ad aliquid aeternum et increatum, scilicet ad ipsam veritatem
+<lb ed="#L" n="15"/>primam. Unde dicit, primo Soliloquiorum : sicut visibilis est terra non nisi
+<lb ed="#L" n="16"/>luce solis illustrata, ita etiam quae in disciplinis vera esse creduntur non
+<lb ed="#L" n="17"/>possent intelligi nisi quadam luce sui generis illustrarentur. Et videtur per
+<lb ed="#L" n="18"/>hanc lucem intelligere veritatem increatam, ut patet per ipsum, decimo
+<lb ed="#L" n="19"/>quarto de Trinitate, capitulo decimo tertio : regulae illae quibus quid sit
+<lb ed="#L" n="20"/>iustum etiam iniustus agnoscit, scriptae sunt in libro lucis illius quae veritas
+<lb ed="#L" n="21"/>dicitur. Unde omnis lex iusta describitur, et in cor hominis non migrando
+<lb ed="#L" n="22"/>sed tanquam imprimendo transfertur, sicut imago annuli in ceram transit
+<lb ed="#L" n="23"/>et annulum non derelinquit. Item dicit nono de Trinitate, capitulo decimo
+<lb ed="#L" n="24"/>octavo : in illa aeterna veritate, ex qua facta sunt omnia, formam secundum
+<lb ed="#L" n="25"/>quam sumus et secundum quam vel? in nobis vel in corporalibus vera
+<lb ed="#L" n="26"/>et recta ratione aliquid operamur, visu mentis aspicimus, atque inde 
+accep<lb break="no" ed="#L" n="27"/>tam  veracem notitiam tanquam verbum apud nos habemus, et dicendo
+<lb ed="#L" n="28"/>intus gignimus, nec a nobis nascendo discedit. Et secundum hoc intellectus
+<lb ed="#L" n="29"/>agens ad imaginem non pertineret, nec diceretur memoria quae est prima
+<lb ed="#L" n="30"/>pars imaginis; sed ipse intellectus noster possibilis, in quantum virtute
+<lb ed="#L" n="31"/>illustrationis divinae fit in actuali intellectione sui ipsius vel alicuius cuius
+<lb ed="#L" n="32"/>habet notitiam ? habitualem, haberet rationem memoriae ; et ipsemet factus
+<lb ed="#L" n="33"/>in actu secundum huiusmodi actualem intellectionem diceretur intelligentia.
+</p>
+            <p xml:id="v27ab7-g02353-d1e268">
+               <lb ed="#L" n="34"/>Sed quia communiter et rationabiliter tenetur quod intellectus agens:
+<lb ed="#L" n="35"/>sit aliquid animae et ad ipsam mentem pertineat, videtur quod ad imaginem
+<lb ed="#L" n="36"/>debeat pertinere et ad memoriam reduci; non tamen sic quod per se sit
+<lb ed="#L" n="37"/>prima pars imaginis, intellectus possibilis secunda, et voluntas tertia ; sed
+<pb ed="#L" n="31"/>
+               <lb ed="#L" n="1"/>in constituendo imaginem aliquo modo concluditur cum intellectu possibili.
+<lb ed="#L" n="2"/>Cum enim imago in nobis attendatur secundum emanationem actuum
+<lb ed="#L" n="3"/>intellectualium prout producitur notitia de notitia, illud idem in nobis in
+<lb ed="#L" n="4"/>quo producitur notitia declarativa quae verbum dicitur debet esse in quo
+<lb ed="#L" n="5"/>est notitia quae declaratur, et illud debet esse ut parens notitiae declarativae
+<lb ed="#L" n="6"/>in seipso. Unde imago prout proprie potest accipi, secundum actus quibus
+<lb ed="#L" n="7"/>exteriora quae non sunt in anima secundum essentiam semper praesentia
+<lb ed="#L" n="8"/>cognoscuntur, non est nisi secundum quod de notitia habituali acquisita
+<lb ed="#L" n="9"/>quae est subiective ! in intellectu possibili. Virtute intellectus agentis .
+prae<lb break="no" ed="#L" n="10"/>sente phantasmate producitur actualis notitia eius cuius notitia habitualis
+<lb ed="#L" n="11"/>habebatur in eodem intellectu possibili in quo erat notitia habitualis 
+huius<lb break="no" ed="#L" n="12"/>modi. Unde dicit Augustinus, decimo quarto de Trinitate, capitulo 
+unde<lb break="no" ed="#L" n="13"/>cimo : multarum disciplinarum peritus ea quae novit eius memoria 
+conti<lb break="no" ed="#L" n="14"/>netur ; nec est inde aliquid in conspectu mentis eius nisi unde cogitat ;
+<lb ed="#L" n="15"/>caetera in arcana quaedam ? notitia sunt recondita quae memoria 
+nuncu<lb break="no" ed="#L" n="16"/>patur. Secundum hoc ergo videtur quod intellectus possibilis, ut continet
+<lb ed="#L" n="17"/>species sive habitus intelligibiles in quibus continentur virtute intelligibilia,
+<lb ed="#L" n="18"/>quibus ipse intellectus fit in actu intelligendi per lumen intellectus agentis,
+<lb ed="#L" n="19"/>habet rationem memoriae; et ipse idem ut informatus actualiter notitia
+<lb ed="#L" n="20"/>eorum quae habitualiter sic sciebat, habet rationem intelligentiae. Sed quia
+<lb ed="#L" n="21"/>memoria debet habere rationem parentis et agentis, et intellectus 
+possi<lb break="no" ed="#L" n="22"/>bilis existens in potentia ad actum intelligendi ea quae habitualiter scit non
+<lb ed="#L" n="23"/>reducit se ipsum de potentia in actum (hoc enim repugnat omni enti); ideo
+<lb ed="#L" n="24"/>ad hoc requiritur illustratio activa intellectus agentis, supposita praesentia
+<lb ed="#L" n="25"/>phantasmatis ipsum intellectum possibilem et  in virtute luminis intellectus
+<lb ed="#L" n="26"/>dgentis moventis. Ideo oportet intellectum agentem concludi cum ipso
+<lb ed="#L" n="27"/>intellectu possibili sic species continente in illa parte imaginis quae memoria
+<lb ed="#L" n="28"/>dicitur; non quia intellectus possibilis, sibi sic assistente lumine? intellectus
+<lb ed="#L" n="29"/>agentis, vel virtute eius reducat se de potentia in actum et sic habeat
+<lb ed="#L" n="30"/>rationem parentis; sed ratio agendi magis est ipsi intellectui agenti cum
+<lb ed="#L" n="31"/>phantasmate illustrato attribuenda. Et sic intellectus agens, ut coniunctus
+<lb ed="#L" n="32"/>intellectui possibili continente habitus intellectuales, habet rationem 
+memo<lb break="no" ed="#L" n="33"/>riáe quae parens dicitur; et hoc generat vel producit verbum in actu.
+<lb ed="#L" n="34"/>Quoniam  praesente et disposito phantasmate sic per coniunctionem 
+intel<lb break="no" ed="#L" n="35"/>lectus agentis. cum possibili, producitur actualis notitia in ipso  intellectu
+<lb ed="#L" n="36"/>possibili quae est proles, respectu dictae notitiae habitualis. Sicut enim
+<pb ed="#L" n="32"/>
+               <lb ed="#L" n="1"/>cum ex notitia principiorum elicitur notitia conclusionum, et producitur
+<lb ed="#L" n="2"/>sic! notitia actualis et formalis et declarativa ex notitia quasi habituali
+<lb ed="#L" n="3"/>et virtuali, quia principia virtute et quasi habitualiter non formaliter 
+conti<lb break="no" ed="#L" n="4"/>nent conclusiones ; — vel sicut ex notitia simplicis et confusae intelligentiae
+<lb ed="#L" n="5"/>producitur notitia diffinitiva completa et distincta, et se habet notitia
+<lb ed="#L" n="6"/>praecedens quasi parens respectu sequentis (non sic proprie quod 
+intel<lb break="no" ed="#L" n="7"/>lectus possibilis existens in actu cognoscendi principia, in potentia tamen
+<lb ed="#L" n="8"/>quantum ad actum cognoscendi conclusionem, se ipso producat se ipsum
+<lb ed="#L" n="9"/>de huiusmodi potentia ad actum; sed sic quod virtute intellectus agentis
+<lb ed="#L" n="10"/>praesupposita intelligentia principiorum fit in actu intelligentiae 
+conclu<lb break="no" ed="#L" n="11"/>sionum ; non enim alio reducitur in actum secundum quam primum, sed ab
+<lb ed="#L" n="12"/>eodem tamen ordine quodam et quodam alio  actu praesupposito): sic ex
+<lb ed="#L" n="13"/>habituali notitia existente in intellectu possibili, per intellectum agentem
+<lb ed="#L" n="14"/>praesente  phantasmate illustrato, producitur notitia declarativa quae
+<lb ed="#L" n="15"/>verbum dicitur. Per dicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

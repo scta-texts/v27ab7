@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="387"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g33686"><!-- v27ab7-q7-q12 -->
+            <head xml:id="v27ab7-g33686-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-g33686-Hd1e101" type="question-title">
+      Utrum caritas possit augeri in infinitum
+    </head>
+            <p xml:id="v27ab7-g33686-d1e104">
+               <lb ed="#L" n="18"/>QUAESTIO XII
+<lb ed="#L" n="19"/>Utrum caritas possit augeri in infinitum.
+</p>
+            <p xml:id="v27ab7-g33686-d1e111">
+               <lb ed="#L" n="20"/>Deinde circa pertinentia ad actus et habitus quibus homo ordinatur ad
+<lb ed="#L" n="21"/>finem suum quantum ad ea quae pertinent ad potentiam appetitivam 
+quaere<lb break="no" ed="#L" n="22"/>bantur quaedam pertinentia ad ipsam appetitivam in ordine ad finem ipsum qui
+<lb ed="#L" n="23"/>est Deus et quaedam pertinentia ad ipsam potentiam appetitivam in ordine ad
+<lb ed="#L" n="24"/>id quod est ad finem, scilicet ad proximum. Circa primum quaerebatur unum
+<lb ed="#L" n="25"/>pertinens ad habitum caritatis qua Deus principaliter diligitur. Et erat illud :
+<lb ed="#L" n="26"/>utrum caritas possit augeri in infinitum. Et arguitur quod sic, quia per 
+carita<lb break="no" ed="#L" n="27"/>tem fit  assimilatio ad Deum ; sed creatura rationalis nunquam tantum ? 
+assimi<lb break="no" ed="#L" n="28"/>jatur Deo quin possit ei magis assimilari propter eius infinitam perfectionem.
+<lb ed="#L" n="29"/>Ergo creatura non potest habere tantam caritatem quin possit habere maiorem.
+<lb ed="#L" n="30"/>Hoc autem ponit caritatem augeri in infinitum ; quare et cetera. 
+</p>
+            <p xml:id="v27ab7-g33686-d1e137">
+               <lb ed="#L" n="31"/>Contra. Secundum Philosophum, processus quo itur ad perfectionem et
+<pb ed="#L" n="388"/>
+               <lb ed="#L" n="1"/>formam non potest ire in infinitum ; sed in augmento caritatis fit processus ad
+<lb ed="#L" n="2"/>formam ; ergo augmentum caritatis non potest procedere in infinitum.
+</p>
+            <p xml:id="v27ab7-g33686-d1e149">
+               <lb ed="#L" n="3"/>Respondeo dicendum quod, cum caritatis augmentum procedere in 
+infini<lb break="no" ed="#L" n="4"/>tum sive caritatem ' posse esse maiorem in infinitum sit ipsam in natura sua
+<lb ed="#L" n="5"/>esse vel posse esse in infinitum perfectiorem, quia, secundum Augustinum, in his
+<lb ed="#L" n="6"/>quae non mole sunt magna, hoc est melius esse quod est maius esse sive 
+per<lb break="no" ed="#L" n="7"/>fectius esse, ponere caritatem augeri posse in infinitum est ponere quod possit
+<lb ed="#L" n="8"/>esse natura creata non continens certum gradum perfectionis ultra quem non
+<lb ed="#L" n="9"/>possit ad maiorem perfectionem deduci. Potest tamen intelligi processus in
+<lb ed="#L" n="10"/>infinitum secundum perfectionem creaturae dupliciter : uno modo secundum
+<lb ed="#L" n="11"/>diversas perfectiones creaturarum et in diversis speciebus ; alio modo in una et
+<lb ed="#L" n="12"/>eadem natura speciali. Primo modo non videtur ita irrationale ponere proces.
+<lb ed="#L" n="13"/>sum in infinitum sicut secundo modo, quia quod quacumque creatura data
+<lb ed="#L" n="14"/>possit esse alia perfectior non ponit infinitatem et illimitationem in perfectione 
+<lb ed="#L" n="15"/>in aliqua creatura determinata; nam quaecumque nata est esse ponitur finita et
+<lb ed="#L" n="16"/>finitae perfectionis et virtutis. Sed secundum modum alium ponitur aliqua
+<lb ed="#L" n="17"/>determinata creatura infinitatem virtutis et perfectionis in sua essentia 
+virtuali<lb break="no" ed="#L" n="18"/>ter importare, licet etiam non ponatur quod in aliquo uno individuo actu illud
+<lb ed="#L" n="19"/>totum habeat explicatum, sed quod quantaecumque perfectionis ponatur in actu
+<lb ed="#L" n="20"/>esse in aliquo possit in eodem vel in alio perfectior esse. Nunc autem non
+<lb ed="#L" n="21"/>videtur tantum inconveniens quod in tota universitate entium possibilium esse
+<lb ed="#L" n="22"/>secundum successionem quandam, non autem simul, possit esse quaedam
+<lb ed="#L" n="23"/>infinitas perfectionum et processus secundum gradus perfectionum in infinitum
+<lb ed="#L" n="24"/>dicto modo, sicut ponere in una natura determinata infinitatem praedictam.
+</p>
+            <p xml:id="v27ab7-g33686-d1e199">
+               <lb ed="#L" n="25"/>Sed de hoc primo articulo ad praesens nihil determinando, hoc solum dico
+<lb ed="#L" n="26"/>quod ex uno dictorum modorum alius sequitur. Nam, si sit  ponere processus
+<lb ed="#L" n="27"/>in infinitum secundum gradus perfectionum in creaturis rationalibus ? de quibus
+<lb ed="#L" n="28"/>inter alias magis videtur, et quaelibet esset capax perfectionis quam caritas
+<lb ed="#L" n="29"/>significat et secundum diversos gradus perfectionum naturalium esset diversitas
+<lb ed="#L" n="30"/>graduum secundum habilitatem et proportionem naturalium, videtur quod etiam
+<lb ed="#L" n="31"/>caritas posset in infinitum procedere secundum perfectionum gradus in diversis.
+</p>
+            <p xml:id="v27ab7-g33686-d1e217">
+               <lb ed="#L" n="32"/>Et ex hoc etiam sequitur quod in uno ; nam, cum omnis creatura rationalis
+<lb ed="#L" n="33"/>eo quod ad imaginem Dei est creata sit capax particepsque Dei per cognitionem
+<lb ed="#L" n="34"/>et amorem, considerando capacitatem remotam quae fundatur in natura 
+ratio<lb break="no" ed="#L" n="35"/>nali, absolute secundum hanc condicionem, in quantum scilicet est ad imaginem
+<lb ed="#L" n="36"/>Dei, quaelibet videtur esse aequalis capacitatis respectu caritatis, licet 
+conside<lb break="no" ed="#L" n="37"/>rando capacitatem propinquam quae consistit in huiusmodi natura secundum
+<lb ed="#L" n="38"/>determinatum gradum perfectionis secundum quod etiam una quodammodo
+<pb ed="#L" n="389"/>
+               <lb ed="#L" n="1"/>dicitur perfectius ad imaginem Dei quam alia, una sit maioris capacitatis quam
+<lb ed="#L" n="2"/>alia. Supponitur enim quod tantae capacitatis est anima beatae Mariae respectu
+<lb ed="#L" n="3"/>caritatis sicut mens cuiuslibet angeli. Constat tamen quod minimus angelus
+<lb ed="#L" n="4"/>secundum genus naturae est perfectior anima beatae Mariae. Et ponitur 
+exem<lb break="no" ed="#L" n="5"/>plum de materia respectu omnium rerum materialium ; quia considerando
+<lb ed="#L" n="6"/>potentiam primam et remotam, sic materia quae est sub aliqua determinata
+<lb ed="#L" n="7"/>forma capax est cuiuscumque formae materialis vel in potentia est ad 
+quam<lb break="no" ed="#L" n="8"/>cumque formam aliam, sicut existens sub quacumque alia ; loquendo autem de
+<lb ed="#L" n="9"/>potentia propria et propinqua, non. Si ergo supponatur primum, scilicet quod
+<lb ed="#L" n="10"/>in perfectionibus naturalibus vel essentialibus creaturae rationalis sit procedere
+<lb ed="#L" n="11"/>in infinitum, videtur etiam secundum  esse  concedendum, scilicet quod in
+<lb ed="#L" n="12"/>augmento caritatis sit processus in infinitum.
+</p>
+            <p xml:id="v27ab7-g33686-d1e263">
+               <lb ed="#L" n="13"/>Sed, sicut alias  dixi, ita adhuc etiam dico, non asserendo tamen ita esse,
+<lb ed="#L" n="14"/>sed recitando, me non videre quod possibilis sit processus in infinitum 
+secun<lb break="no" ed="#L" n="15"/>dum gradus perfectionum naturalium in diversis speciebus. Ex quo sequitur quod
+<lb ed="#L" n="16"/>adhuc minus videtur quod hoc sit possibile in una ! et eadem creatura. Sine
+<lb ed="#L" n="17"/>praeiudicio ergo dico quod, cum augeri caritatem, ut dictum est, sit ipsam
+<lb ed="#L" n="18"/>procedere de imperfecto ad magis perfectum gradum, potest autem distingui
+<lb ed="#L" n="19"/>duplex perfectio in re aliqua : scilicet una quae consistit in natura et essentia
+<lb ed="#L" n="20"/>rei quam dicitur res habere quando attingit extremum quantitatis virtutis 
+con<lb break="no" ed="#L" n="21"/>venientis suae formae et speciei; alia vero est quae in sua propria operatione
+<lb ed="#L" n="22"/>consistit quam habet res quando habet naturam suam quae est principium et
+<lb ed="#L" n="23"/>ratio suae operationis ita perfecte et tali modo quod per illam opus habet fieri
+<lb ed="#L" n="24"/>modo perfectiori quo natum est fieri. Quantum ad prinum modum sive primam
+<lb ed="#L" n="25"/>perfectionem non videtur possibilis processus in infinitum in augmento 
+carita<lb break="no" ed="#L" n="26"/>tis. Nam, secundum quod dicit Philosophus secundo de Anima, omnium natura
+<lb ed="#L" n="27"/>constantium statuta est ratio et  terminus magnitudinis, scilicet in minimo et
+<lb ed="#L" n="28"/>augmenti, scilicet in maximo ; per naturam autem intelligitur hic? omne ens
+<lb ed="#L" n="29"/>creatum ; ponere autem caritatem sic secundum augmentum procedere in 
+infi<lb break="no" ed="#L" n="30"/>nitum est ponere ipsam secundum suam speciem et naturam esse quoddam ^
+<lb ed="#L" n="31"/>infinitum, quamvis non ponatur sic actu participari a subiecto. Cuius tamen
+<lb ed="#L" n="32"/>ratio nulla potest poni ; nam, cum natura rationalis in se habeat capacitatem,
+<lb ed="#L" n="33"/>quia hoc est habere potentiam receptivam respectu cuiuscumque perfectionis
+<lb ed="#L" n="34"/>quantaecumque quam Deus potest in ea ! efficere, — nam augmentum capacitatis
+<lb ed="#L" n="35"/>quod ponitur ex dispositione caritatis supervenientis debet ad ipsam caritatem
+<lb ed="#L" n="36"/>referri ita quod ipsa caritatis augmentatione superveniente capacitas propinqua
+<pb ed="#L" n="390"/>
+               <lb ed="#L" n="1"/>augmentata est, — nam sola et pura capacitate naturali supposita potest Deus
+<lb ed="#L" n="2"/>statim et simul efficere caritatem ita perfectam sicut nata esset fieri per magnum
+<lb ed="#L" n="3"/>processum secundum augmentum et caritatis et alterius capacitatis in voluntate,
+<lb ed="#L" n="4"/>— non debet ergo dici quod per caritatem supervenientem sic augeatur capacitas
+<lb ed="#L" n="5"/>ad suscipiendum caritatem quod per hoc anima sit capax caritatis secundum
+<lb ed="#L" n="6"/>aliquem gradum secundum quem Deus non posset eam infundere animae
+<lb ed="#L" n="7"/>absque hoc quod augmentum talis capacitatis duratione praecedere oporteret.
+<lb ed="#L" n="8"/>Patet igitur quod ex parte animae non est ratio quare non possit participari
+<lb ed="#L" n="9"/>caritas actu secundum suam quantamcumque quantitatem, etiam si infinita sit
+<lb ed="#L" n="10"/>secundum suam infinitatem, et hoc etiam si anima in se nude consideretur
+<lb ed="#L" n="11"/>absque cuiuscumque caritatis informatione. Nec per hoc quod advenit caritas
+<lb ed="#L" n="12"/>secundum aliquem gradum efficitur capax anima caritatis secundum aliquem '
+<lb ed="#L" n="13"/>alium perfectiorem gradum quin illius statim ab initio capax esset.
+</p>
+            <p xml:id="v27ab7-g33686-d1e348">
+               <lb ed="#L" n="14"/>Item, nec ex parte Dei potest assignari ratio, quia Deus secundum se
+<lb ed="#L" n="15"/>habet potentiam infinitam qua potest producere producibile. Si ergo capacitas
+<lb ed="#L" n="16"/>creaturae est capax caritatis quantaecumque et ipsa caritas secundum se sive
+<lb ed="#L" n="17"/>in sua natura et essentia infinitatem includit, Deus infinitus in creatura rationali
+<lb ed="#L" n="18"/>infinitam caritatem posset efficere. Si autem dicatur quod hoc repugnat rei,
+<lb ed="#L" n="19"/>scilicet quod secundum modum essendi in gradu infinito existat et ideo Deus
+<lb ed="#L" n="20"/>non potest facere, non videtur ad hoc esse ratio, supposito quod in sua natura
+<lb ed="#L" n="21"/>infinitatem graduum perfectionis importet ; hoc enim non minus videtur 
+repu<lb break="no" ed="#L" n="22"/>gnare creaturae quam in sua infinitate existere ; immo unum, scilicet infinitas
+<lb ed="#L" n="23"/>in natura dicto modo includit aliud secundum possibilitatem, scilicet 
+existen<lb break="no" ed="#L" n="24"/>tiam actualem et potest poni in esse absque inconvenienti ; quod tamen non
+<lb ed="#L" n="25"/>videtur conveniens propter Christum qui, ut videtur, habet caritatem tantam
+<lb ed="#L" n="26"/>quantacumque  nata est haberi a creatura cum datus sit ei spiritus id est gratia
+<lb ed="#L" n="27"/>sive caritas non ad mensuram ; et tamen gratia vel caritas Christi creata 
+<lb ed="#L" n="28"/>quantum ad eius essentiam et naturam finita est et terminata, licet ei competat
+<lb ed="#L" n="29"/>quidam modus infinitatis ratione unionis ineffabilis naturae humanae cum
+<lb ed="#L" n="30"/>divina in unitate suppositi.
+</p>
+            <p xml:id="v27ab7-g33686-d1e387">
+               <lb ed="#L" n="31"/>Nec est simile, sicut alias dictum est , de divisione continui quae 
+impor<lb break="no" ed="#L" n="32"/>tat potentiam quandam infinitam sive ad infinitum, quae tamen non est
+<lb ed="#L" n="33"/>reducibilis perfecte ad actum, quia illa potentia est talis naturae quod nunquam
+<lb ed="#L" n="34"/>potest esse cum actu nisi simul existente illo actu permixto cum potentia, eo
+<lb ed="#L" n="35"/>quod secundum Philosophum sic dividi est ire vel procedere ad materiam,
+<lb ed="#L" n="36"/>sed augmentari in infinitum est procedere ad formam et ideo non est simile.
+</p>
+            <p xml:id="v27ab7-g33686-d1e404">
+               <lb ed="#L" n="37"/>Item, arguitur ad principale propositum, scilicet quod praemisso modo non
+<pb ed="#L" n="391"/>
+               <lb ed="#L" n="1"/>possit esse augmentum caritatis sic. Quia, cum Deus in se habeat ideas rerum
+<lb ed="#L" n="2"/>quibus natae sunt causari in existentia modo illo quo habent esse per ideas in
+<lb ed="#L" n="3"/>divina intelligentia, si natura caritatis importat infinitatem secundum gradus
+<lb ed="#L" n="4"/>perfectionum dicto modo, Deus autem illius ideam habet non secundum 
+diver<lb break="no" ed="#L" n="5"/>sos gradus secundum quos diversimode nata est perficere diversos vel unum et
+<lb ed="#L" n="6"/>eundem diversificatam, sed secundum totam naturam et virtutem et infinitatem
+<lb ed="#L" n="7"/>caritatis quam in se continet, et secundum quam participabilis est a creatura
+<lb ed="#L" n="8"/>simpliciter et absolute. Ergo oportet quod Deus actu cognoscat naturam 
+crea<lb break="no" ed="#L" n="9"/>tam infinitam in perfectione et virtute ; quod videtur inconveniens, quia 
+secun<lb break="no" ed="#L" n="10"/>dum hoc poneretur quod aliqua creatura secundum suam naturam esset 
+perfec<lb break="no" ed="#L" n="11"/>tionis et actualitatis infinitae. Nec ex eo quod caritas est quaedam participatio
+<lb ed="#L" n="12"/>caritatis infinitae ' increatae debet poni quod huiusmodi infinitatem contineat,
+<lb ed="#L" n="13"/>immo potius contrarium ; nam infinitas secundum formam et perfectionem soli
+<lb ed="#L" n="14"/>enti perfecto per essentiam et non enti perfecto per participationem potest
+<lb ed="#L" n="15"/>convenire, immo quaelibet creata perfectio certis gradibus limitata continetur.
+</p>
+            <p xml:id="v27ab7-g33686-d1e443">
+               <lb ed="#L" n="16"/>Nec potest dici quod verum est quantum ad gradum qui sumitur secundum
+<lb ed="#L" n="17"/>habitudinem generis ad differentiam speciem constituentem, non autem 
+quan<lb break="no" ed="#L" n="18"/>tum ad alium qui sumitur secundum habitudinem naturae ad perfectionem et
+<lb ed="#L" n="19"/>virtutem respectu operationis suae sibi competentem ; quia eo dicitur aliquid
+<lb ed="#L" n="20"/>determinatum ad certum gradum entis secundum determinatam differentiam
+<lb ed="#L" n="21"/>in natura quod est etiam determinatum secundum quamcumque perfectionem
+<lb ed="#L" n="22"/>sibi possibilem convenire et unum in alio necessario includitur; rei enim
+<lb ed="#L" n="23"/>determinatae in natura et essentia determinata est virtus et perfectio. Et ideo
+<lb ed="#L" n="24"/>videtur dicendum quod considerando perfectionem caritatis simpliciter et 
+abso<lb break="no" ed="#L" n="25"/>lute et ut consistit in sua natura et essentia et etiam secundum habitudinem
+<lb ed="#L" n="26"/>ad operationem sibi convenientem et propriam, quia ista sese invicem 
+conse<lb break="no" ed="#L" n="27"/>quuntur, non videtur possibilis processus in infinitum secundum eius 
+augmen<lb break="no" ed="#L" n="28"/>tum. Et sic videtur quod tanta possit esse caritas viae in aliquo de potentia Dei
+<lb ed="#L" n="29"/>absoluta quod ea non posset esse maior et similiter in patria.
+</p>
+            <p xml:id="v27ab7-g33686-d1e476">
+               <lb ed="#L" n="30"/>Sed propter convenientem ordinem et gradus perfectionum convenientium
+<lb ed="#L" n="31"/>homini in diversis statibus, supposita finitate caritatis in natura sua, tum 
+<lb ed="#L" n="32"/>propter obiecti excellentiam tum etiam propter subiecti, ut dictum est, 
+capa<lb break="no" ed="#L" n="33"/>citatem, amplam tantam potest intelligi continere in perfectione eminentiam 
+<lb ed="#L" n="34"/>quod secundum cursum communem vitae humanae a Deo statutum et 
+ordina<lb break="no" ed="#L" n="35"/>tum non posset purus homo viator ad summum eius attingere in via ; et, quia
+<lb ed="#L" n="36"/>datur in patria secundum rationem praemii et hoc secundum proportionalitatem
+<lb ed="#L" n="37"/>ad perfectionem quam habuerit in via, potest etiam dici quod nunquam 
+perve<lb break="no" ed="#L" n="38"/>nitur ad summum eius gradum in patria. Et hoc modo possunt exponi auctori-
+<pb ed="#L" n="392"/>
+               <lb ed="#L" n="1"/>tates quae videntur dicere caritatem et praecipue viae terminum non habere,
+<lb ed="#L" n="2"/>eo quod contra rationem viatoris videtur esse quod non possit plus perficere.
+</p>
+            <p xml:id="v27ab7-g33686-d1e505">
+               <lb ed="#L" n="3"/>Sed, si consideretur caritas secundum dictos diversos status ad invicem
+<lb ed="#L" n="4"/>comparatos, aliquo modo aliter est dicendum de augmento eius secundum
+<lb ed="#L" n="5"/>perfectionem in essentia et aliter de augmento eius in operatione in qua 
+con<lb break="no" ed="#L" n="6"/>sistit alia perfectio rei, ut supra distinximus ; quia si caritas secundum suam
+<lb ed="#L" n="7"/>essentiam sit eiusdem rationis in via et in patria, — prout videtur secundum
+<lb ed="#L" n="8"/>Apostolum qui dicit quod caritas non excidit sed manet, — cum cognitio fidei
+<lb ed="#L" n="9"/>et apertae visionis sunt essentialiter differentes et ' aequivoce sive multum
+<lb ed="#L" n="10"/>anologice rationem cognitionis participant, caritas autem in suo actu dependet
+<lb ed="#L" n="11"/>ab intellectus actu, — ideo, propter connexionem eius cum cognitione tam
+<lb ed="#L" n="12"/>diversarum rationum, oportet etiam esse variationem circa modos actuum 
+suo<lb break="no" ed="#L" n="13"/>rum et eos habere modos diversarum rationum sic per accidens . Unde 
+secun<lb break="no" ed="#L" n="14"/>dum hoc videtur posse dici quod in caritate viae potest intelligi quidam 
+proces<lb break="no" ed="#L" n="15"/>sus in infinitum secundum eius augmentum quantum ad modum perfectionis
+<lb ed="#L" n="16"/>in actu, licet non in essentia. Nam, sicut si cognitio viae cresceret in infinitum,
+<lb ed="#L" n="17"/>nunquam tamen attingeret ad perfectionem minimae cognitionis patriae, quia
+<lb ed="#L" n="18"/>etiam nec inter eas ? proprie esset proportio vel comparatio quia sunt 
+diver<lb break="no" ed="#L" n="19"/>sarum rationum ; ita etiam, si cresceret caritas in infinitum in sua essentia ita
+<lb ed="#L" n="20"/>quod etiam in actu posset esse quantum ad essentiam maior caritas alicuius
+<lb ed="#L" n="21"/>viatoris quam cuiusdam comprehensoris, tamen nunquam attingeret minimam
+<lb ed="#L" n="22"/>caritatem patriae quantum ad modum perfectionis actus quae convenit illi
+<lb ed="#L" n="23"/>minori caritati secundum essentiam in comprehensore existentis, et hoc etiam
+<lb ed="#L" n="24"/>propter diversas earum et non proportionales vel comparabiles rationes. Et
+<lb ed="#L" n="25"/>ponitur exemplum de angulo recto et contingentiae ; nam angulus 
+contingen<lb break="no" ed="#L" n="26"/>tiae, quanto circulus est maior tanto angulus est maior, sed nunquam tamen
+<lb ed="#L" n="27"/>attingere potest ad hoc quod aequetur angulo recto, cum tamen  quocumque
+<lb ed="#L" n="28"/>circulo dato maior posset imaginari circulus et per consequens angulus 
+con<lb break="no" ed="#L" n="29"/>tingentiae. Et hoc modo potest dici quod comparando caritatem viae ad 
+cari<lb break="no" ed="#L" n="30"/>tatem patriae secundum hos modos perfectionum secundum suos actus, caritas
+<lb ed="#L" n="31"/>viae posset augeri in infinitum, non quidem simpliciter et absolute, sed sub
+<lb ed="#L" n="32"/>condicione scilicet quod potius augmentaretur caritas viae in infinitum quam
+<lb ed="#L" n="33"/>posset illi adaequari ; quia etiam nunquam ei posset adaequari, quia secundum
+<lb ed="#L" n="34"/>hunc modum caritatis viae, quantumcumque perfecta ? vel magna secundum
+<lb ed="#L" n="35"/>essentiam et operationem sit 5, est tamen modica et imperfecta respectu 
+cari<lb break="no" ed="#L" n="36"/>tatis patriae ad quam in via non possumus ' pervenire ; et ideo semper etiam s
+<lb ed="#L" n="37"/>si in infinitum prolongaretur via nostra, debemus niti pervenire ad illam et nos
+<lb ed="#L" n="38"/>ipsos imperfectos et imperfectam caritatem habentes reputare quousque ad
+<pb ed="#L" n="393"/>
+               <lb ed="#L" n="1"/>illam attingamus. Sic etiam videntur loqui sancti de continuo processu caritatis
+<lb ed="#L" n="2"/>secundum augmentum eius, referendo scilicet ad desiderium quod debet in
+<lb ed="#L" n="3"/>nobis semper esse et crescere. Et hoc videtur dicere quaedam glossa 
+Philippen<lb break="no" ed="#L" n="4"/>ses tertia ' : curramus et intendamus . In via enim sumus; non retrospiciamus,
+<lb ed="#L" n="5"/>sed in anteriora extendamur intentione et desiderio. Vita enim christiani boni
+<lb ed="#L" n="6"/>desiderium est. Quod autem desideras, nondum tenes, sed desiderio capax 
+effi<lb break="no" ed="#L" n="7"/>ceris ; ut cum venerit quod non vides, implearis. Deus differendo rem 
+exten<lb break="no" ed="#L" n="8"/>dit desiderium, desiderium extendendo extendit animam, animam extendendo
+<lb ed="#L" n="9"/>facit capacem. Desideremus ergo et implendi sumus. Haec est vita nostra, ut
+<lb ed="#L" n="10"/>desiderando exerceamur. Tantum autem nos exercet sanctum desiderium, 
+quan<lb break="no" ed="#L" n="11"/>tum desideria nostra amputaverimus ab amore saeculi. Item ibidem super illo
+<lb ed="#L" n="12"/>verbo : quicumque perfecti sumus, hoc sentiamus. Glossa : scilicet ? 
+quantum<lb break="no" ed="#L" n="13"/>cumque perfecti cursores et viatores simus respectu aliorum, imperfecti tamen
+<lb ed="#L" n="14"/>sumus comparatione futuri status. Per praedicta patet quomodo possunt exponi
+<lb ed="#L" n="15"/>auctoritates sanctorum quae contrarium quodammodo videntur dicere circa
+<lb ed="#L" n="16"/>propositam materiam.
+</p>
+            <p xml:id="v27ab7-g33686-d1e622">
+               <lb ed="#L" n="17"/>Ad argumentum in contrarium dicendum quod creatura rationalis 
+assi<lb break="no" ed="#L" n="18"/>milabilis est Deo in infinitum quantum est ex parte termini, scilicet Dei qui
+<lb ed="#L" n="19"/>in se infinitatem in perfectione omnino a creaturis inexhaus/ibilem 
+compre<lb break="no" ed="#L" n="20"/>hendit, sed non ex parte subiecti sive assimilabilis, quia e contra propter 
+limita<lb break="no" ed="#L" n="21"/>tionem in gradu perfectionis quem includit oportet eam esse limitatam et certo
+<lb ed="#L" n="22"/>termino conclusam. Et sic, sicut creatura quaelibet in sua essentia est finita et
+<lb ed="#L" n="23"/>limitata et Deo secundum determinatum gradum perfectionis primae et 
+conna<lb break="no" ed="#L" n="24"/>turalis assimilatur in esse simpliciter, ita etiam  in sua quacumque perfectione
+<lb ed="#L" n="25"/>accidentali superaddita naturae finitatem oportet ponere et secundum gradum
+<lb ed="#L" n="26"/>perfectionis secundae et supernaturalis quantum ad bene esse secundum talem
+<lb ed="#L" n="27"/>perfectionem secundum quam divinae infinitae perfectioni assimilatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

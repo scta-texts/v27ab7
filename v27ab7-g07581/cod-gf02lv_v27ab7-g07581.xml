@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g07581"><!-- v27ab7-q5-q18 -->
+            <head xml:id="v27ab7-g07581-Hd1e99">Quaestio 18</head>
+            <head xml:id="v27ab7-g07581-Hd1e101" type="question-title">
+      Utrum religiosi habentes privilegium tempore interdicti familiares suos recipiendi ad
+      divina, post latum interdictum possunt novos familiares recipere
+    </head>
+            <p xml:id="v27ab7-g07581-d1e104">
+               <lb ed="#L" n="15"/>QUAESTIO XVIII.
+<lb ed="#L" n="16"/>Utrum religiosi habentes privilegium tempore interdicti familiares suos recipiendi ad
+<lb ed="#L" n="17"/>divina, post latum interdictum possunt novos familiares recipere.
+</p>
+            <p xml:id="v27ab7-g07581-d1e113">
+               <lb ed="#L" n="18"/>Deinde circa pertinentia ad religiosos specialiter quaerebantur duo pertinentia ad
+<lb ed="#L" n="19"/>bona spiritualia quae suis familiaribus communicant. Primum erat utrum religiosi habentes
+<lb ed="#L" n="20"/>privilegium virtute cuius tempore interdicti possunt familiares suos recipere ad divina,
+<lb ed="#L" n="21"/>post latum interdictum possunt de novo facere sibi aliquos familiares quos virtute dicti
+<lb ed="#L" n="22"/>privilegii cum aliis familiaribus praeexistentibus possunt recipere ad divina. Secundum
+<lb ed="#L" n="23"/>erat utrum bona spiritualia facta per religiosos quorum bonorum faciunt participes non
+<lb ed="#L" n="24"/>religiosos sibi familiares, tantum valeant multis familiaribus quibus communicantur 
+quan<lb break="no" ed="#L" n="25"/>tum valerent paucis si non nisi pauci ad illorum bonorum participationem specialiter
+<lb ed="#L" n="26"/>associarentur.
+</p>
+            <p xml:id="v27ab7-g07581-d1e135">
+               <lb ed="#L" n="27"/>Et arguebatur? ad primum quod tales religiosi possunt tales familiares de novo facere
+<lb ed="#L" n="28"/>et recipere ad divina, quia privilegia principum sunt large et favorabiliter pro his quibus
+<lb ed="#L" n="29"/>dantur exponenda et intelligenda. Sed hoc contingit si sic fiat. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g07581-d1e145">
+               <lb ed="#L" n="30"/>Contra. Ex hoc sequeretur quod sententia interdicti nullo modo servaretur, quia
+<lb ed="#L" n="31"/>possent omnes interdictos diversis viis et modis suos familiares facere; hoc autem est
+<lb ed="#L" n="32"/>inconveniens. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g07581-d1e154">
+               <lb ed="#L" n="33"/>Respondeo dicendum quod privilegia dicuntur quia in aliquo privant legem 
+com<lb break="no" ed="#L" n="34"/>munem, et quia privatis ad privatos, id est speciales aliquos casus, et ex causa privata
+<lb ed="#L" n="35"/>vel speciali dantur. Privilegia quantum ad hoc sunt strictissime interpretanda et tenenda,
+<lb ed="#L" n="36"/>sic quod per ea illi quibus conceduntur aliquid assequantur et cum hoc etiam ius 
+com<lb break="no" ed="#L" n="37"/>mune, quantum est possibile, observetur, quia semper utilitas communis est praeferenda
+<lb ed="#L" n="38"/>privatae. Cum ergo talia privilegia dantur, supponendum est quod non in laesionem
+<lb ed="#L" n="39"/>nimiam iuris communis dantur. Hoc autem fieret si tempore interdicti novos familiares
+<lb ed="#L" n="40"/>possent tales assumere prout vellent; quia qua ratione unum, eadem ratione alium assu-
+<pb ed="#L" n="89"/>
+               <lb ed="#L" n="1"/>mere possent, et sic vel omnes vel plures interdicti possent a poena interdicti eximi. Quid
+<lb ed="#L" n="2"/>tamen per familiares debet intelligi et qualis sit forma privilegii hoc ignoro. Si enim
+<lb ed="#L" n="3"/>familiares inteligantur qui eis obsequuntur secundum aliqua ministeria familiaria et
+<lb ed="#L" n="4"/>necessaria, utpote panifices vel braxatores vel huiusmodi; qui tamen sic eorum familiares
+<lb ed="#L" n="5"/>sunt quod ut plurimum circa eorum obsequia occupentur. Non enim propter hoc quod
+<lb ed="#L" n="6"/>forte semel vel bis apud aliquem panis recipiatur, vel forte pluries, sed valde modicum,
+<lb ed="#L" n="7"/>sed aliis plus ministrat, talis videtur facere actum propter quem eorum familiaris possit
+<lb ed="#L" n="8"/>dici. De talibus autem, sicut dictum est, scilicet, in eorum necessariis et determinatis
+<lb ed="#L" n="9"/>obsequiis plurimum occupatis, videtur rationabile quod possint recipi ad divina tempore
+<lb ed="#L" n="10"/>interdicti. Et si forte oporteat tales mutari! post latum interdictum, vel quia decedunt
+<lb ed="#L" n="11"/>vel recedunt vel non bene ministrant, videtur quod novos possint recipere et illos sicut
+<lb ed="#L" n="12"/>praecedentes recipere ad divina, quia loco eorumdem censentur et eadem est causa de
+<lb ed="#L" n="13"/>istis quae fuit de aliis, nec talia in fraudem aliquo modo fieri videntur ?. Sed si, prioribus
+<lb ed="#L" n="14"/>manentibus et sufficientibus, vellent alios assumere cum illis, iam non manet ratio eadem,
+<lb ed="#L" n="15"/>et ideo non licet. Si autem per familiares intelligantur illi qui eis specialius eleemosynas
+<lb ed="#L" n="16"/>et beneficia solent dare et eorum loca frequentare, non videtur quod de talibus sit 
+intel<lb break="no" ed="#L" n="17"/>ligendum ; quia ex hoc vilesceret ecclesiastica censura quia quam plurimi sic facerent
+<lb ed="#L" n="18"/>se familiares talibus, ut a sententiis ecclesiasticis eximerentur. Si autem per familiares
+<lb ed="#L" n="19"/>intelligantur hi qui se conformant talibus religiosis secundum aliquem specialem modum
+<lb ed="#L" n="20"/>vel ritum vivendo in saeculo ordinatum a dictis fratribus, sicut dicitur esse alicubi
+<lb ed="#L" n="21"/>factum, praecipue si hoc sit per ecclesiam confirmatum, tunc videtur etiam de talibus
+<lb ed="#L" n="22"/>intelligi. Unde propter nimiam extensionem privilegii dati quibusdam super receptione ?
+<lb ed="#L" n="23"/>sibi familiarium ad divina arctatur et exponitur illa familiaritas: Extra, de privilegiis: ut
+<lb ed="#L" n="24"/>privilegia , ubi dicitur quod per confratres? intelligere volumus ? illos qui adhuc manentes
+<lb ed="#L" n="25"/>in saeculo eorum ordini sunt oblati, mutato? habitu saeculari, vel eos qui bona sua
+<lb ed="#L" n="26"/>dederunt, retento sibi usu fructu quamdiu vixerint; alioquin, ut ibi dicitur, si de 
+quibus<lb break="no" ed="#L" n="27"/>libet ipsorum fraternitatem assumentibus fuerit intellectum pro duobus aut tribus denariis
+<lb ed="#L" n="28"/>annuatim sibi collatis, dissolveretur pariter et vilesceret ecclesiastica disciplina. Per hoc
+<lb ed="#L" n="29"/>etiam potest adaptatio fieri ad familiares religiosorum qui talia bona non recipiunt sed
+<lb ed="#L" n="30"/>ministeria vel huiusmodi.
+</p>
+            <p xml:id="v27ab7-g07581-d1e241">
+               <lb ed="#L" n="31"/>Et patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

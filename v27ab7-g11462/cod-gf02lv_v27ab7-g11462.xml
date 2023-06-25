@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="133"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g11462"><!-- v27ab7-q6-q6 -->
+            <head xml:id="v27ab7-g11462-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-g11462-Hd1e101" type="question-title">
+      Utrum veritas de re quae est apud intellectum se habeat in ratione informantis vel moventis
+    </head>
+            <p xml:id="v27ab7-g11462-d1e104">
+               <pb ed="#L" n="133"/>
+               <lb ed="#L" n="1"/>QUAESTIO VI.
+<lb ed="#L" n="2"/>Utrum veritas de re quae est apud intellectum se habeat
+<lb ed="#L" n="3"/>in ratione informantis vel moventis.
+</p>
+            <p xml:id="v27ab7-g11462-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa naturam substantialem rationalem ? quaerebantur 
+quae<lb break="no" ed="#L" n="5"/>dam pertinentia ad naturam rationalem in generali, scilicet prout 
+compre<lb break="no" ed="#L" n="6"/>hendit angelicam et humanam, quaedam pertinentia ad naturam angelicam
+<lb ed="#L" n="7"/>in speciali, et quaedam pertinentia ad naturam humanam in speciali. Circa
+<lb ed="#L" n="8"/>naturam rationalem in generali quaerebantur quaedam pertinentia ad 
+poten<lb break="no" ed="#L" n="9"/>tiam intellectivam secundum se, et quaedam pertinentia ad potentiam 
+appe<lb break="no" ed="#L" n="10"/>titivam, scilicet voluntatem etiam secundum se, et quaedam pertinentia ad
+<lb ed="#L" n="11"/>istas potentias prout ad invicem secundum suos actus comparantur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e135">
+               <lb ed="#L" n="12"/>Circa primum, scilicet circa naturam rationalem quantum ad potentiam
+<lb ed="#L" n="13"/>intellectivam, quaerebatur unum, scilicet utrum veritas quae est de re apud
+<lb ed="#L" n="14"/>intellectum se habeat in ratione informantis vel in ratione moventis. Et
+<lb ed="#L" n="15"/>arguebatur quod se habeat in ratione informantis, quia veritas non videtur
+<lb ed="#L" n="16"/>esse nisi quaedam manifestatio et notificatio rei apud intellectum ; sed hoc
+<lb ed="#L" n="17"/>non videtur esse aliud quam quaedam notitia vel scientia quae est quaedam
+<lb ed="#L" n="18"/>qualitas animam informans. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g11462-d1e154">
+               <lb ed="#L" n="19"/>Contra. Verum et ens convertuntur; unde veritas rei videtur esse rei
+<lb ed="#L" n="20"/>entitas essentialis et quidditativa; sed quidditas rei? se habet in ratione
+<lb ed="#L" n="21"/>obiecti moventis intellectum, non in ratione qualitatis informantis ipsum.
+<lb ed="#L" n="22"/>Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g11462-d1e165">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod quidam dicunt quod res non cognoscitur
+<lb ed="#L" n="24"/>per cognitionem quae sit in ipsa nec per illud quod est in seipsa, sed per id
+<lb ed="#L" n="25"/>quod est in intellectu. Sunt enim res cognitae non prout sunt in seipsis,
+<lb ed="#L" n="26"/>sed prout sunt in cognoscente; et ideo sunt verae non per veritatem quae
+<lb ed="#L" n="27"/>sit in ipsis formaliter, sed per id quod est in cognoscente. Sed res sunt
+<lb ed="#L" n="28"/>volitae ut sunt in seipsis. Existente enim forma balnei in intellectu, etiam
+<lb ed="#L" n="29"/>non existente balneo in re extra, possumus intelligere balneum et 
+proprie<lb break="no" ed="#L" n="30"/>tates eius. Ad intellectum ergo balnei sufficit balneum ut est in intellectu,
+<lb ed="#L" n="31"/>etsi nihil esset de balneo in re extra. Sed ad velle balnei non sufficit bal-
+<pb ed="#L" n="134"/>
+               <lb ed="#L" n="1"/>neum ut est in intellectu, sed requiritur balneum in re extra. Postquam
+<lb ed="#L" n="2"/>enim habemus in intellectu formam balnei, adhuc volumus balneum in
+<lb ed="#L" n="3"/>seipso; et quia res per comparationem ad intellectum et ut est cognita
+<lb ed="#L" n="4"/>dicitur vera, ut autem est volita dicitur bona, et quia est cognita ut est in
+<lb ed="#L" n="5"/>intellectu, est autem volita ut est in seipsa, ideo dicitur quod verum et
+<lb ed="#L" n="6"/>falsum sunt in mente, bonum autem et malum sunt in rebus. Et quia veritas
+<lb ed="#L" n="7"/>consistit in assimilatione intellectus ad rem, numquam intellectus intelligit
+<lb ed="#L" n="8"/>nisi habeat in se similitudinem rei. Intelligitur tamen res etsi in se non
+<lb ed="#L" n="9"/>habeat propriam naturam ! et existentiam. Unde ista assimilatio intellectus
+<lb ed="#L" n="10"/>ad rem non intelligitur sic ut ipsa res secundum se sit id secundum quod est
+<lb ed="#L" n="11"/>ista assimilatio, quia res ipsa secundum se non est apud intellectum. Ipsa
+<lb ed="#L" n="12"/>re etiam non existente manet intellectus eius apud animam  per eius 
+assi<lb break="no" ed="#L" n="13"/>milationem. Intelligitur ergo ista assimilatio per quamdam formam et speciem
+<lb ed="#L" n="14"/>existentem apud intellectum per quam ipse intellectus assimilatur rei, quia
+<lb ed="#L" n="15"/>huiusmodi forma vel species est quaedam similitudo ipsius rei. Si ergo
+<lb ed="#L" n="16"/>verum dicitur aliquid prout ab intellectu est cognitum et secundum quod
+<lb ed="#L" n="17"/>huiusmodi, non oportet quod sit in se, sed quod sit in intellectu. Verum et
+<lb ed="#L" n="18"/>falsum sunt in mente formaliter, non in rebus, sed solum causaliter prout
+<lb ed="#L" n="19"/>assimilatio in mente causata est a rebus. Licet ergo res sit volita per id
+<lb ed="#L" n="20"/>quod ipsa est in seipsa, tamen est cognita per assimilationem quae est in
+<lb ed="#L" n="21"/>intellectu et non per assimilationem quae est res ipsa, et sic res est vera
+<lb ed="#L" n="22"/>non per id quod est in seipsa, sed per id quod est in intellectu. Sufficit enim
+<lb ed="#L" n="23"/>quod res sit apud intellectum et quod habeat assimilationem ad intellectum
+<lb ed="#L" n="24"/>ad hoc quod sit vera et quod sit obiectum intellectus. Res enim non est
+<lb ed="#L" n="25"/>obiectum intellectus ut est in seipsa, sed ut est in intellectu, quod non esset
+<lb ed="#L" n="26"/>nisi veritas esset formaliter in ipso intellectu.
+</p>
+            <p xml:id="v27ab7-g11462-d1e246">
+               <lb ed="#L" n="27"/>Sed ista non videntur bene nec proprie dicta. Cum enim secundum
+<lb ed="#L" n="28"/>Avicennam, ut infra videbitur, res proprie non habeat nisi duplex esse,
+<lb ed="#L" n="29"/>scilicet in intellectu vel in seipsa et in natura sua extra, rem autem habere
+<lb ed="#L" n="30"/>esse in intellectu proprie non intelligitur nisi ipsum esse cognitum vel
+<lb ed="#L" n="31"/>intellectum sive ipsa cognitio intellectus de re, dicere quod aliquid 
+intel<lb break="no" ed="#L" n="32"/>ligitur non secundum esse quod habet in se etiam  secundum se, sed 
+secun<lb break="no" ed="#L" n="33"/>dum esse quod habet in intellectu est dictum nugatorium, scilicet quod
+<lb ed="#L" n="34"/>aliquid intelligitur secundum quod intelligitur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e266">
+               <lb ed="#L" n="35"/>Sed quia isti videntur dicere quod res habet esse apud intellectum
+<lb ed="#L" n="36"/>dupliciter, scilicet quantum ad ipsum actum intelligendi, et quantum ad
+<lb ed="#L" n="37"/>ipsam speciem intelligibilem per quam, ut dictum est, fit assimilatio intel-
+<pb ed="#L" n="135"/>
+               <lb ed="#L" n="1"/>lectus ad rem, etiamsi hoc ! haberet veritatem, non tamen bene dicitur quod
+<lb ed="#L" n="2"/>licet res non intelligatur nisi per aliquam sui similitudinem quae est apud
+<lb ed="#L" n="3"/>intellectum, quod propter hoc veritas est in intellectu; quia cum sit 
+distin<lb break="no" ed="#L" n="4"/>guere inter illam speciem et ipsum actum intelligendi, quaerendum est
+<lb ed="#L" n="5"/>utrum veritas sit in intellectu formaliter ratione illius speciei aut ratione
+<lb ed="#L" n="6"/>actus. Non ratione speciei, quia non potest poni nisi propter ipsum actum
+<lb ed="#L" n="7"/>intelligendi, quia aut ponitur ut in illa et per illam res ipsa quae est obiectum
+<lb ed="#L" n="8"/>intellectus possit se facere intelligi et intelligatur, aut ut intellectus possibilis
+<lb ed="#L" n="9"/>factus in actu secundum illam possit in seipso elicere ipsum actum 
+intel<lb break="no" ed="#L" n="10"/>ligendi, praesente tamen obiecto, aut ut sit per huiusmodi speciem sufficienter
+<lb ed="#L" n="11"/>dispositus ad suscipiendum immutationem secundum actum intelligendi ab
+<lb ed="#L" n="12"/>obiecto ?. Ergo debet poni veritas in intellectu, si ibi ponatur, ratione ipsius
+<lb ed="#L" n="13"/>actus intelligendi. Sed per praedicta quae dicuntur de ipsa specie non
+<lb ed="#L" n="14"/>redditar causa huius ?; ergo non valent. 
+</p>
+            <p xml:id="v27ab7-g11462-d1e308">
+               <lb ed="#L" n="15"/>Praeterea si negetur, sicut a multis  negatur, talis species et dicatur
+<lb ed="#L" n="16"/>quod saltem in intellectu nostro ad hoc quod actu intelligat est tantum
+<lb ed="#L" n="17"/>ponere ista 5 scilicet ipsum intellectum, actum intelligendi et rem ipsam
+<lb ed="#L" n="18"/>quae intelligitur, quae licet secundum suum esse particulare ut existit in
+<lb ed="#L" n="19"/>seipsa non se repraesentet intellectu! ut ipsum possit movere ut actu
+<lb ed="#L" n="20"/>intelligat, tamen ut existens secundum suam similitudinem in phantasia
+<lb ed="#L" n="21"/>virtute intellectus agentis circa phantasma operantis et abstractionem
+<lb ed="#L" n="22"/>facientis ; et etiam re non existente, manentibus tamen eius 
+phantasma<lb break="no" ed="#L" n="23"/>tibus, sic disponuntur phantasmata virtute huiusmodi intellectus agentis,
+<lb ed="#L" n="24"/>quod ex hoc resultat repraesentatio rei cuius sunt, secundum modum
+<lb ed="#L" n="25"/>cuiusdam abstractionis, ut sic possit esse obiectum intellectus, quod tamen
+<lb ed="#L" n="26"/>ut sic non habet esse in intellectu formaliter et subiective, sed virtualiter
+<lb ed="#L" n="27"/>et effective, quia ab ipso ut sic causatur actus intelligendi in ipso intellectu,
+<lb ed="#L" n="28"/> — sic enim  ponendo non poterit dici quod veritas sit in intellectu propter
+<lb ed="#L" n="29"/>aliquod esse quod habeat res in intellectu formaliter nisi propter ipsum
+<lb ed="#L" n="30"/>actum intelligendi.
+</p>
+            <p xml:id="v27ab7-g11462-d1e345">
+               <lb ed="#L" n="31"/>Si autem dicatur quod quia etiam isto modo circa intellectum, 
+sup<lb break="no" ed="#L" n="32"/>posito quod res non habet esse intellectum secundum quod in se et in sua
+<lb ed="#L" n="33"/>particularitate extra existit, sed secundum quod virtute luminis intellectus
+<lb ed="#L" n="34"/>relucet in repraesentatione facta per phantasmata et ut sic habet saltem,
+<pb ed="#L" n="136"/>
+               <lb ed="#L" n="1"/>ut dictum est, esse in intellectu immediate ut movens in moto, non autem !
+<lb ed="#L" n="2"/>ut est secundum se res quaedam in seipsa; et propter hoc dicatur quod res
+<lb ed="#L" n="3"/>intelligitur non secundum quod est in seipsa, sed secundum quod est in
+<lb ed="#L" n="4"/>intellectu, quod potest bene intelligi sub hac forma quod quamvis res ipsa
+<lb ed="#L" n="5"/>secundum esse suum verum et reale quod sibi convenit secundum se ipsam
+<lb ed="#L" n="6"/>et in seipsa, scilicet in existentia actuali vel potentiali ab intellectu 
+intelli<lb break="no" ed="#L" n="7"/>gatur, tamen sui intellectum non facit secundum tale esse particulare, sed
+<lb ed="#L" n="8"/>prout modo praedicto in sua similitudine facta per phantasmata fit  ipsius
+<lb ed="#L" n="9"/>rei repraesentatio secundum quamdam abstractionem virtute intellectus
+<lb ed="#L" n="10"/>agentis; — si, inquam, istis suppositis, dicatur quod veritas non est in
+<lb ed="#L" n="11"/>ipsa re sed in intellectu, quia scilicet ipsa res sic secundum suum esse extra
+<lb ed="#L" n="12"/>quod est particulare non intelligitur, sed secundum esse quod habet tali
+<lb ed="#L" n="13"/>modo iam dicto in intellectu, res autem per comparationem ad intellectum
+<lb ed="#L" n="14"/>et ut est cognita dicitur vera, adhuc hoc non valet, quia petitur quod 
+quae<lb break="no" ed="#L" n="15"/>ritur. Nam istis omnibus suppositis, scilicet quod res non dicatur vera nisi
+<lb ed="#L" n="16"/>per comparationem ad intellectum et cetera, adhuc quaeritur in quo habet
+<lb ed="#L" n="17"/>esse veritas formaliter et quare habet esse ibi ubi ponitur, et specialiter
+<lb ed="#L" n="18"/>cum res secundum istum modum essendi in intellectu, scilicet in ratione
+<lb ed="#L" n="19"/>moventis non habeat esse in intellectu formaliter. Si ratione talis modi
+<lb ed="#L" n="20"/>essendi apud intellectum res dicatur vera, non poterit propter hoc poni
+<lb ed="#L" n="21"/>veritas formaliter in intellectu ; et ideo supposito quod veritas ? non sit in
+<lb ed="#L" n="22"/>re secundum quod est secundum se, sed per comparationem ad intellectum
+<lb ed="#L" n="23"/>et secundum esse quod habet in intellectu, et ideo debet formaliter poni  ex
+<lb ed="#L" n="24"/>parte eius quod ad intellectum pertinet, licet causaliter possit poni in ipsa
+<lb ed="#L" n="25"/>re etiam secundum se licet forte non omnino immediate quantum ad entia
+<lb ed="#L" n="26"/>materialia quae per abstractionem intelliguntur, adhuc esset quaestio
+<lb ed="#L" n="27"/>indeterminata, et remanet inquirendum utrum veritas habeat esse formaliter
+<lb ed="#L" n="28"/>in eo quod est apud intellectum, sic scilicet ut immediate movens et ad
+<lb ed="#L" n="29"/>actum inducens vel sic ut intellectum informans et perficiens et hoc est quod
+<lb ed="#L" n="30"/>quaerit quaestio proposita.
+</p>
+            <p xml:id="v27ab7-g11462-d1e424">
+               <lb ed="#L" n="31"/>Quod etiam dicitur quod res non sunt cognitae secundum quod sunt
+<lb ed="#L" n="32"/>in se ipsis, sed sic sunt volitae, ut hoc declaratur per exemplum de balneo,
+<lb ed="#L" n="33"/>non videtur bene dictum ; quia cum obiectum voluntatis sit bonum 
+appre<lb break="no" ed="#L" n="34"/>hensum, sicut balneum non existens possumus intelligere per suam 
+simili<lb break="no" ed="#L" n="35"/>tudinem dicto modo, ita etiam balneum non existens intellectum possumus
+<lb ed="#L" n="36"/>velle, et sicut per actum intelligendi balneum in se non existens habet esse
+<pb ed="#L" n="137"/>
+               <lb ed="#L" n="1"/>intellectum in intellectu, ita etiam per actum volendi habet esse volitum
+<lb ed="#L" n="2"/>in voluntate. Sed quia quantum ad illa quae sunt intellecta secundum quod,
+<lb ed="#L" n="3"/>ut ! abstracta, (abstracta  secundum esse quod habent secundum se ipsa) ?,
+<lb ed="#L" n="4"/>intellilgpens et volens non sistit in eorum esse cognito et volito, sed ad
+<lb ed="#L" n="5"/>eorum esse reale quod in se ipsis habent et habere possunt et quod bene 
+<lb ed="#L" n="6"/>est apprehensum et volitum etiam si actu non sit, licet per suam 
+similitudi<lb break="no" ed="#L" n="7"/>nem, ut expositum est, tendit intellectus et ?volens, per ipsum actum
+<lb ed="#L" n="8"/>volendi qui ? est quaedam inclinatio appetentis quo moventur membra
+<lb ed="#L" n="9"/>et instrumenta et quaeruntur media quibus fiant praesentia secundum esse
+<lb ed="#L" n="10"/>reale quae iam sunt praesentia secundum esse cognitum et volitum. Per hoc
+<lb ed="#L" n="11"/>ergo quod dicitur quod quia res dicitur vera per comparationem ad 
+intel<lb break="no" ed="#L" n="12"/>lectum et bona per comparationem ad voluntatem, res autem non 
+intelli<lb break="no" ed="#L" n="13"/>gitur nisi secundum quod est in intellectu non prout est in se ipsa, sed est
+<lb ed="#L" n="14"/>volita ut est in se ipsa, non debet dici quod hoc sit causa quare verum
+<lb ed="#L" n="15"/>est in intellectu et bonum in re, nisi ista melius intelligantur et quaedam
+<lb ed="#L" n="16"/>alia, ut videbitur infra, addantur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e476">
+               <lb ed="#L" n="17"/>Unum enim et idem est obiectum intellectus et voluntatis ? sic quod
+<lb ed="#L" n="18"/>res ipsa quae appetitur in seipsa oportet quod etiam cognoscatur in seipsa
+<lb ed="#L" n="19"/>cum nihil possimus ? velle nisi cognitum. Unde '? cum re non existente,
+<lb ed="#L" n="20"/>de ipsa cognoscitur entitas quam nata est habere in se ipsa, et illa 
+appe<lb break="no" ed="#L" n="21"/>titur; et ut dictum est, in hoc dicitur habere res esse cognitum et esse
+<lb ed="#L" n="22"/>volitum. Sed quia in hoc non sistitur, ideo est supplendum infra qualiter
+<lb ed="#L" n="23"/>bonum dicitur esse in re, verum autem in intellectu.
+</p>
+            <p xml:id="v27ab7-g11462-d1e494">
+               <lb ed="#L" n="24"/>Et ideo in quaestione proposita procedendo aliter, est intelligendum
+<lb ed="#L" n="25"/>quod oportet primo videre quid nomine veritatis importatur. Cum autem
+<lb ed="#L" n="26"/>conceptus entis et uniuscuiusque secundum quod ens sit primus et 
+sim<lb break="no" ed="#L" n="27"/>plicissimus, ei quod nomine entis intelligitur et significatur, non potest fieri
+<lb ed="#L" n="28"/>aliqua realis additio. Sicut enim in intellectu complexo oportet esse aliquod
+<lb ed="#L" n="29"/>principium omnino primum et etiam intellectui per se notum in quod vel
+<lb ed="#L" n="30"/>ad quod omnes conceptus complexi sive omnia principia posteriora 
+redu<lb break="no" ed="#L" n="31"/>cuntur — aliter esset processus in infinitum — sic in !! intellectu 
+incom<lb break="no" ed="#L" n="32"/>plexo in quo cognoscitur quid est rei oportet esse aliquod unum omnino
+<lb ed="#L" n="33"/>primum et intellectui ? notissimum in quo vel ad quod omnes alii 
+reducun<lb break="no" ed="#L" n="34"/>tur et qui in omnibus aliis includitur. Et est ille conceptus entis in quantum
+<lb ed="#L" n="35"/>ens, prout patet per Avicennam, primo Metaphysicae ; et hoc est id quo
+<pb ed="#L" n="138"/>
+               <lb ed="#L" n="1"/>unumquodque est id quod est in natura et essentia ' sua absolute absque
+<lb ed="#L" n="2"/>omni condicione et additione, ita quod nihil potest addi huic conceptui
+<lb ed="#L" n="3"/>primo quod sit res alia, sed omnis alius conceptus rationem aliquam addit
+<lb ed="#L" n="4"/>super huiusmodi rationem entis quae tamen non potest esse alia  ab ente,
+<lb ed="#L" n="5"/>quia ratio entis omnes rationes subintrat. Ouicquid enim additur 
+quo<lb break="no" ed="#L" n="6"/>cumque ? modo super rationem entis est aliqua ratio quae tamen nomine
+<lb ed="#L" n="7"/>entis secundum se non explicatur nec intelligitur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e540">
+               <lb ed="#L" n="8"/>Unde patet quod verum vel veritas non dicit aliquam rem additam enti
+<lb ed="#L" n="9"/>sive rei quae primo et per se intelligitur et est obiectum intellectus, sed 
+<lb ed="#L" n="10"/>unumquodque secundum suam entitatem et essentiam est verum  sive habet
+<lb ed="#L" n="11"/>veritatem eo modo quo  veritas habet esse in re. Oportet ergo quod addat
+<lb ed="#L" n="12"/>super rationem entis realem solum modum aliquem vel respectum. Ille
+<lb ed="#L" n="13"/>autem modus sive illa ratio est quidam respectus ad intellectum. Res enim
+<lb ed="#L" n="14"/>non dicitur vera ut est aliquid secundum se, sed secundum quod per id per
+<lb ed="#L" n="15"/>quod est aliquid secundum se habet talem ordinem et respectum ad 
+intellec<lb break="no" ed="#L" n="16"/>tum quod est sui manifestativa apud ipsum et quod est adaequativa et
+<lb ed="#L" n="17"/>assimilativa sibi intellectum per similitudinem suam qua potest informare
+<lb ed="#L" n="18"/>ipsum "intellectum. Unde ens ut verum est ens ut sui declarativum et
+<lb ed="#L" n="19"/>manifestativum apud intellectum.
+</p>
+            <p xml:id="v27ab7-g11462-d1e569">
+               <lb ed="#L" n="20"/>Ut sic ens, secundum quod est intellectus obiectum ipsum sibi 
+adae<lb break="no" ed="#L" n="21"/>quans et conformans, non dicitur esse obiectum sub ratione veri sive
+<lb ed="#L" n="22"/>in quantum verum ut veritas sit aliqua ratio vel dispositio circa ipsam rem
+<lb ed="#L" n="23"/>secundum quam sit obiectum, — nam secundum suam nudam entitatem
+<lb ed="#L" n="24"/>hoc habet, — sed pro tanto dicitur hoc, quod licet ens secundum quod ens
+<lb ed="#L" n="25"/>simpliciter sit obiectum intellectus et sic aliquid efficit in intellectu absque
+<lb ed="#L" n="26"/>sui mutatione secundum aliquam dispositionem vel etiam absque aliqua
+<lb ed="#L" n="27"/>dispositione suae entitati absolutae addita 5, quia tamen id quod efficit
+<lb ed="#L" n="28"/>habet realem habitudinem et dependentiam ad ipsum obiectum et ipsum
+<lb ed="#L" n="29"/>obiectum est res quaedam quae est assimilativa vel adaequativa intellectus
+<lb ed="#L" n="30"/>ad ipsam, et ob hoc etiam res ipsa secundum rationem intelligitur habere
+<lb ed="#L" n="31"/>habitudinem et respectum ad intellectum ; ideo ab hoc effectu suo in alio
+<lb ed="#L" n="32"/>existente subiective sic denominatur, quia scilicet dicitur vera et quodam
+<lb ed="#L" n="33"/>modo relative dicitur; et propter hoc etiam ens dicitur esse obiectum non
+<lb ed="#L" n="34"/>sub ratione entis simpliciter, sed sub ? ratione entis ?? veri, scilicet in quantum
+<lb ed="#L" n="35"/>sua entitate ut est aliquid secundum se habet sic movere intellectum quod
+<lb ed="#L" n="36"/>habet ipsum sibi assimilare vel adaequare, quae assimilatio et adaequatio
+<lb ed="#L" n="37"/>veritas quaedam est.
+</p>
+            <p xml:id="v27ab7-g11462-d1e611">
+               <pb ed="#L" n="139"/>
+               <lb ed="#L" n="1"/>Ita tamen quod, quia materialia et sensibilia sive quidditates rerum
+<lb ed="#L" n="2"/>sensibilium non habent ex se, ut sic esse habent in rerum natura, quod actu
+<lb ed="#L" n="3"/>moveant intellectum et sibi conforment, sed secundum quod virtute 
+intellec<lb break="no" ed="#L" n="4"/>tus agentis consequuntur quod absque condicionibus particularibus, ut sunt
+<lb ed="#L" n="5"/>aliquid secundum se in esse quidditativo, apprehendi possunt et actu
+<lb ed="#L" n="6"/>movere et sibi conformare intellectum sive se intellectui declarare et 
+mani<lb break="no" ed="#L" n="7"/>festationem sui facere; — et sic, cum verum non dicat condicionem absolutam
+<lb ed="#L" n="8"/>aliquam et realem circa obiectum intellectus, sed solum denotat ' entitatem
+<lb ed="#L" n="9"/>rei secundum quod actu habet movere intellectum et se ei manifestare,
+<lb ed="#L" n="10"/>quaedam autem entia hoc habent de se, ut abstracta, alia non, ut materialia,
+<lb ed="#L" n="11"/>secundum quod iam dictum est; — ideo circa materialia ratio veri dicit 
+quam<lb break="no" ed="#L" n="12"/>dam abstractionem quidditatis secundum considerationem vel operationem
+<lb ed="#L" n="13"/>intellectus agentis quam non habet secundum se ; sed circa abstracta dicit
+<lb ed="#L" n="14"/>abstractionem quam habet de se. Unde sicut res non est obiectum 
+intel<lb break="no" ed="#L" n="15"/>lectus sub ratione intelligibilis, quia haecratio, scilicet intelligibilitas, sit
+<lb ed="#L" n="16"/>aliqua dispositio vel condicio formalis circa rem secundum quam res
+<lb ed="#L" n="17"/>moveat intellectum vel secundum quam concipiatur res quae intelligitur,
+<lb ed="#L" n="18"/>sed ex hoc dicitur intelligibilis et esse obiectum sub ratione intelligibilis,
+<lb ed="#L" n="19"/>quia sua entitas est talis quod efficit sui intellectum sive intellectionem in
+<lb ed="#L" n="20"/>intellectu; ita in proposito est intelligendum de ratione veritatis . Unde
+<lb ed="#L" n="21"/>prius intelligitur obiectum aliquod sub ratione entis quam intellectus 
+appre<lb break="no" ed="#L" n="22"/>hendat circa ipsum ? rationem intelligibilitatis vel veritatis. Ex hoc enim
+<lb ed="#L" n="23"/>quod cognoscitur quod est motiva intellectus apprehenditur ratio  
+intelli<lb break="no" ed="#L" n="24"/>gibilitatis suae. Et ita etiam de bono respectu voluntatis est intelligendum.
+<lb ed="#L" n="25"/>Non enim ratio boni est aliqua dispositio circa appetibile addita rei ratione
+<lb ed="#L" n="26"/>cuius appetitur, sed ex hoc quod habet movere et ? trahere appetitum ad se
+<lb ed="#L" n="27"/>per id quod secundum se est in sua natura denominatur sic ab hac
+<lb ed="#L" n="28"/>ratione.
+</p>
+            <p xml:id="v27ab7-g11462-d1e677">
+               <lb ed="#L" n="29"/>Cum ergo secundum praedicta verum non addat supra rem quam
+<lb ed="#L" n="30"/>denominat rem aliquam, sed solum rationem quamdam et denominationem
+<lb ed="#L" n="31"/>dicto modo, scilicet rationem manifestativi vel declarativi eius quod ipsa 
+<lb ed="#L" n="32"/>res est apud intellectum, et hoc non dicit nisi quemdam respectum 
+secun<lb break="no" ed="#L" n="33"/>dum rationem ipsius rei ad intellectum, patet quod veritas non est in re
+<lb ed="#L" n="34"/>secundum se et absolute, sed ex aliquo respectu ad intellectum in quo
+<lb ed="#L" n="35"/>aliquid efficit dicto modo, scilicet sui manifestationem vel declarationem
+<lb ed="#L" n="36"/>quae est notitia intellectus, et etiam veritas dicitur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e697">
+               <pb ed="#L" n="140"/>
+               <lb ed="#L" n="1"/>Ipsum autem obiectum intellectus non habet hunc respectum ! in actu
+<lb ed="#L" n="2"/>nisi cum est in tali dispositione quod actu potest movere intellectum et
+<lb ed="#L" n="3"/>seipsum manifestare sive sui declarationem facere in intellectu. Loquendo
+<lb ed="#L" n="4"/>autem de materialibus respectu intellectus nostri, illa hoc  non habent
+<lb ed="#L" n="5"/>secundum se et absolute ut ? existunt in rerum natura in singularibus, sed
+<lb ed="#L" n="6"/>ut virtute intellectus agentis absque condicionibus particularibus 
+consi<lb break="no" ed="#L" n="7"/>derantur ut quidditates secundum se. Hoc modo res materiales secundum
+<lb ed="#L" n="8"/>esse quod habent in particularibus non sunt verae dicto modo nisi quasi in
+<lb ed="#L" n="9"/>potentia; sed ipsae secundum suum esse quidditativum absolute 
+consi<lb break="no" ed="#L" n="10"/>deratae, quia ut sic habent rationem formalis obiecti intellectum actu
+<lb ed="#L" n="11"/>moventis et sibi adaequantis, hoc modo sunt verae actualiter, et ut sic fit
+<lb ed="#L" n="12"/>quodam modo unum ex ipsa re in ratione obiecti formalis et moventis 
+<lb ed="#L" n="13"/>et ex intellectu in ratione materialis et moti et ut sic actu habet esse 
+adae<lb break="no" ed="#L" n="14"/>quatio in intellectu subiective.
+</p>
+            <p xml:id="v27ab7-g11462-d1e732">
+               <lb ed="#L" n="15"/>Ut secundum hoc, prout dicit Avicenna, cum res duplex habeat esse 5,
+<lb ed="#L" n="16"/>scilicet in re et " intellectu, et triplicem considerationem : scilicet secundum
+<lb ed="#L" n="17"/>esse quod  habet in intellectu quod est ipsum intelligere intellectus, et
+<lb ed="#L" n="18"/>secundum esse quod habet in re quod est ipsam quidditatem esse 
+contrac<lb break="no" ed="#L" n="19"/>tam et particulatam in supposito, et secundum ? id quod est absolute
+<lb ed="#L" n="20"/>quidditas quaedam secundum se quae, licet sic non sit aliquid in rerum
+<lb ed="#L" n="21"/>natura secundum se existens praeter esse in singulari re extra vel praeter
+<lb ed="#L" n="22"/>esse intellectum in anima, quia nihil habet aliquod ? esse nisi in re vel in
+<lb ed="#L" n="23"/>intellectu, tamen nec hoc esse ? nec illud includit nec determinat secundum
+<lb ed="#L" n="24"/>se. Unde ut sic non est proprie in aliquo ut in subiecto sed solum est
+<lb ed="#L" n="25"/>aliquid ut secundum se et absolute consideratum. Ut cuius est esse 
+intellec<lb break="no" ed="#L" n="26"/>tum in anima et cuius est esse reale in " singularibus in re extra nihil
+<lb ed="#L" n="27"/>tamen istorum concernit ut sic secundum se consideratur. Ut sic res 
+secun<lb break="no" ed="#L" n="28"/>dum esse quod habet extra in singulari non dicatur vera nisi in potentia
+<lb ed="#L" n="29"/>et hoc ex eo quod in ea est vera res et quidditas cui competit secundum
+<lb ed="#L" n="30"/>dictam mediam considerationem posse actu movere intellectum. Illud autem
+<lb ed="#L" n="31"/>idem !' ens secundum quod est quaedam quidditas secundum se et ut sic
+<lb ed="#L" n="32"/>consideratur et virtute intellectus agentis sic disponitur quod sic moveat
+<lb ed="#L" n="33"/>intellectum, dicitur verum actu sive veritas quaedam. Ipse autem actus
+<lb ed="#L" n="34"/>intellectus in quantum est quaedam impressio talis entis per quam 
+intel<lb break="no" ed="#L" n="35"/>lectus ei adaequatur et conformatur etiam dicitur veritas quaedam.
+</p>
+            <p xml:id="v27ab7-g11462-d1e780">
+               <pb ed="#L" n="141"/>
+               <lb ed="#L" n="1"/>Sed restat videre cui istorum formaliter et essentialiter conveniat ratio
+<lb ed="#L" n="2"/>veritatis et cui participative et denominative solum.
+</p>
+            <p xml:id="v27ab7-g11462-d1e789">
+               <lb ed="#L" n="3"/>Et videtur aliquibus quod ! rei, ut sic consideratae quod actu sua 
+actua<lb break="no" ed="#L" n="4"/>litate  movet intellectum et sibi ipsum conformat, eo quod ab hac veritate
+<lb ed="#L" n="5"/>ut formali et actuali secundum se est veritas intellectus quae est quaedam
+<lb ed="#L" n="6"/>notitia qua rei sic consideratae conformatur. Sicut enim res ut sic 
+conside<lb break="no" ed="#L" n="7"/>ratur est entitas simpliciter, sic etiam est veritas simpliciter. Ergo similiter
+<lb ed="#L" n="8"/>sicut notitia non est entitas simpliciter? respectu talis entitatis quae est
+<lb ed="#L" n="9"/>entitas simpliciter, sed est entitas diminuta, similiter etiam videtur quod sit
+<lb ed="#L" n="10"/>diminuta veritas, quia sicut unumquodque se habet ad entitatem sic et
+<lb ed="#L" n="11"/>ad veritatem et talis veritas est quodam modo veritas signi respectu dictae
+<lb ed="#L" n="12"/>veritatis rei quia hac veritate dicitur intellectus verus in quantum est quodam
+<lb ed="#L" n="13"/>modo conformis ipsi rei tanquam suo exemplari, sicut tabula per imaginem
+<lb ed="#L" n="14"/>in ea depictam conformis et similis dicitur rei exemplari ad quam depicta
+<lb ed="#L" n="15"/>est tanquam exemplatum quoddam.
+</p>
+            <p xml:id="v27ab7-g11462-d1e820">
+               <lb ed="#L" n="16"/>Et sic quia veritas rei non dependet a veritate notitiae cuiuscumque
+<lb ed="#L" n="17"/>creaturae, sed e converso, verius autem et dignius est unumquodque in ente
+<lb ed="#L" n="18"/>absoluto quam dependenti, videtur quod veritas perfectius habet esse in re
+<lb ed="#L" n="19"/>dicto modo, in quantum scilicet est actu movens et conformans sibi 
+intel<lb break="no" ed="#L" n="20"/>lectum quam in intellectu. Et haec veritas quae sic est in re et quae est
+<lb ed="#L" n="21"/>ratio manifestativi et declarativi  sui apud intellectum, prout dicit Avicenna
+<lb ed="#L" n="22"/>quod veritas est proprietas uniusculusque rei, in quantum nata est de se
+<lb ed="#L" n="23"/>veram aestimationem facere, ut dictum est, denominat ipsam rem in qua est
+<lb ed="#L" n="24"/>ut forma in materia vel subiecto et ipsum intellectum ratione notitiae in quo
+<lb ed="#L" n="25"/>intellectu est ipsa notitia ut forma et perfectio in subiecto et huiusmodi
+<lb ed="#L" n="26"/>res ut obiectum cognitum in cognoscente. Secundum praedicta videtur ad
+<lb ed="#L" n="27"/>quaestionem dicendum quod veritas proprie et formaliter et principaliter
+<lb ed="#L" n="28"/>dicta quae est de re apud animam se habet in ratione obiecti moventis actu
+<lb ed="#L" n="29"/>intellectum et non in ratione informantis subiective.
+</p>
+            <p xml:id="v27ab7-g11462-d1e854">
+               <lb ed="#L" n="30"/>Sed sicut communius dicitur, magis videtur mihi quod res intellecta
+<lb ed="#L" n="31"/>proprie et formaliter non habet rationem veritatis, sed virtute tantum et
+<lb ed="#L" n="32"/>causaliter; et ad hoc intelligendum est quod veritas generaliter sumpta est
+<lb ed="#L" n="33"/>quaedam adaequatio recta et conveniens aliquorum ad invicem quorum
+<lb ed="#L" n="34"/>unum adaequatur alteri quasi passive, et sic habet ab illo aliquo modo
+<lb ed="#L" n="35"/>rationem mensurati et dependentis, prout Anselmus, in libro de Veritate, in
+<lb ed="#L" n="36"/>omnibus rebus veritatem ponit, dicens veritatem esse quamdam rectitudinem
+<lb ed="#L" n="37"/>prout rectum dicitur quod est ut debet esse, et esse veritatem in re in quan-
+<pb ed="#L" n="142"/>
+               <lb ed="#L" n="1"/>tum unaquaeque res habet vel facit quod debet facere vel habere. Unde
+<lb ed="#L" n="2"/>cum quis facit quod debet, dicitur facere veritatem, et sic in actione etiam
+<lb ed="#L" n="3"/>veritas est, prout Anselmus in dicto libro dicit, allegans illud Iohannis: qui
+<lb ed="#L" n="4"/>male agit odit lucem et qui facit veritatem venit ad lucem ; illud autem
+<lb ed="#L" n="5"/>habet vel facit quod debet facere vel habere qui habet  in se formaliter
+<lb ed="#L" n="6"/>ea quae ei correspondent virtute in sua causa sive quod conformatur  suae
+<lb ed="#L" n="7"/>causae a qua est vel ad quam est . Unde  conformitas et rectitudo pro
+<lb ed="#L" n="8"/>eodem accipiuntur et secundum hoc est  veritas in omnibus rebus et 
+actio<lb break="no" ed="#L" n="9"/>nibus in comparatione ad veritatem  vel entitatem increatam  in quantum
+<lb ed="#L" n="10"/>suis causis idealibus conformantur. Et etiam in rebus a nobis causatis est
+<lb ed="#L" n="11"/>veritas in quantum ei quod in nobis est causa ipsorum conformantur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e900">
+               <lb ed="#L" n="12"/>Sed loquendo proprie de veritate sive de adaequatione, prout scilicet
+<lb ed="#L" n="13"/>veritas dicit rationem cuiusdam adaequationis specialiter importantis 
+notifi<lb break="no" ed="#L" n="14"/>cationem sive manifestationem apud intellectum, sic solum  invenitur in
+<lb ed="#L" n="15"/>re comparata ad intellectum et e converso, et sic dicitur veritas adaequatio
+<lb ed="#L" n="16"/>rei et intellectus et hoc secundum rationem manifestativam et declarativam
+<lb ed="#L" n="17"/>quasi active ex parte rei et secundum rationem manifestationis et 
+decla<lb break="no" ed="#L" n="18"/>rationis quasi passive ex parte intellectus. Unde cum notitia habetur ab
+<lb ed="#L" n="19"/>intellectu de re qua ipsa res declaratur et manifestatur ipsi intellectui
+<lb ed="#L" n="20"/>secundum quod res ipsa " est intelligibilis et sui quantum est de se 
+mani<lb break="no" ed="#L" n="21"/>festativa et declarativa, tunc est veritas proprie dicta vel in re ipsa vel in
+<lb ed="#L" n="22"/>intellectu vel in utroque. Unde illa adaequatio est inter illa solum 
+secun<lb break="no" ed="#L" n="23"/>dum esse cognitivum et declarativum ; sed, hoc supposito, videtur quod
+<lb ed="#L" n="24"/>simpliciter et formaliter sit veritas solum in intellectu et solum virtute et
+<lb ed="#L" n="25"/>causaliter in re.
+</p>
+            <p xml:id="v27ab7-g11462-d1e933">
+               <lb ed="#L" n="26"/>Nam quandocumque ! aliquid dicitur tale ex ordine ad aliquid aliud
+<lb ed="#L" n="27"/>quod est in alio, ita quod ibi sistitur ubi completur iste ordo vel respectus
+<lb ed="#L" n="28"/>sive habitudo; illud quo dicitur aliquid tale formaliter et simpliciter est in
+<lb ed="#L" n="29"/>illo alio et virtualiter sive causaliter in isto. Verbi gratia, cibus dicitur sanus
+<lb ed="#L" n="30"/>ex ordine ad sanitatem quae est "? in animali, et ibi sistitur et completur illa
+<lb ed="#L" n="31"/>habitudo, et ideo dicitur animal sanum simpliciter et formaliter, cibus autem
+<lb ed="#L" n="32"/>virtualiter sive effective. Ita in proposito. Cum veritas consistat in 
+adae<lb break="no" ed="#L" n="33"/>quatione rei et intellectus, oportet quod res dicatur vera ex ordine et 
+habi<lb break="no" ed="#L" n="34"/>tudine ad intellectum ratione eius quod causat in ipso; vel e converso,
+<lb ed="#L" n="35"/>oportet quod res dicatur vera ex ordine et habitudine intellectus ad ipsam
+<lb ed="#L" n="36"/>rem ?? ratione  alicuius quod efficit intellectus in ipsa. Constat autem quod
+<pb ed="#L" n="143"/>
+               <lb ed="#L" n="1"/>res non dicitur vera sive adaequata intellectui ex hoc quod intellectus faciat
+<lb ed="#L" n="2"/>aliquid in ipsa, sed e converso, ex hoc quod res facit aliquid in intellectu
+<lb ed="#L" n="3"/>unde sibi intellectum adaequat et conformat. Ergo cum illud sit formaliter
+<lb ed="#L" n="4"/>et subiective in intellectu, virtualiter et effective in re, et ex hoc dicitur res
+<lb ed="#L" n="5"/>vera quod sic nata est se declarare et manifestare, videtur quod ipsa 
+decla<lb break="no" ed="#L" n="6"/>ratio sive manifestatio quae est quaedam notitia intellectus prout importat
+<lb ed="#L" n="7"/>respectum et adaequationem intellectus ad rem, sit ipsa veritas per se
+<lb ed="#L" n="8"/>formaliter et proprie.
+</p>
+            <p xml:id="v27ab7-g11462-d1e979">
+               <lb ed="#L" n="9"/>Hoc etiam patet ex ratione nominis adaequationis quae importat quod
+<lb ed="#L" n="10"/>unum quasi passive imitetur ! aliud et adaequetur vel conformetur ei.
+<lb ed="#L" n="11"/>Adaequatio enim supra simplicem aequalitatem addit imitationem. Quia
+<lb ed="#L" n="12"/>ergo intellectus imitatur res, non e converso, veritas quae est adaequatio
+<lb ed="#L" n="13"/>intellectus et rei est in intellectu secundum rem et veritatem, in rebus autem
+<lb ed="#L" n="14"/>secundum rationem et modum intelligendi ac denominationem.
+</p>
+            <p xml:id="v27ab7-g11462-d1e995">
+               <lb ed="#L" n="15"/>Et confirmatur hoc per exempla quae alii in contrarium indu cunt ?.
+<lb ed="#L" n="16"/>Nam veritas est quasi quaedam imago quasi ab ipsa re impressa intellectui ;
+<lb ed="#L" n="17"/>imago autem habet rationem adaequati et est ratio adaequationis quasi
+<lb ed="#L" n="18"/>passive dicta in imagine vel exemplato, non in exemplari vel imaginali.
+<lb ed="#L" n="19"/>Sicut ergo secundum alium modum veritatis communiter dictae prout
+<lb ed="#L" n="20"/>importat quamdam adaequationem et rectitudinem, illud dicitur verum quod
+<lb ed="#L" n="21"/>alteri adaequatur et quod ab alio mensuratur ? et ad aliud realiter refertur,
+<lb ed="#L" n="22"/>quia res dicitur vera quae adaequatur et conformatur suae causae, ex hoc
+<lb ed="#L" n="23"/>etiam est quaedam relatio realis mensurati in re ipsa ad suam causam et
+<lb ed="#L" n="24"/>quaedam relatio secundum rationem mensurae in causa, ita etiam in 
+pro<lb break="no" ed="#L" n="25"/>posito. Non dicitur autem mensura relative ad mensuratum per relationem
+<lb ed="#L" n="26"/>quae sit  in ipsa, sed e converso, et ideo adaequatio rei ut mensurae ad
+<lb ed="#L" n="27"/>intellectum ut mensuratum non est nisi per adaequationem realem sive
+<lb ed="#L" n="28"/>realem relationem ipsius intellectus. Cum ergo veritas hanc adaequationem
+<lb ed="#L" n="29"/>quae est inter intellectum et rem dicat, oportet veritatem realiter et 
+forma<lb break="no" ed="#L" n="30"/>liter esse in intellectu, causaliter autem et secundum denominationem in re.
+<lb ed="#L" n="31"/>Et denominatur res vera a veritate quae est in intellectu et accipitur sub
+<lb ed="#L" n="32"/>ordine et habitudine ad intellectum per ordinem et habitudinem realem
+<lb ed="#L" n="33"/>intellectus ad ipsam. Ordo enim et habitudo rei cognitae ad cognoscentem
+<lb ed="#L" n="34"/>qui est ordo et habitudo secundum rationem, non accipitur nisi ex ordine
+<lb ed="#L" n="35"/>et habitudine reali intellectus per suam operationem causatam a re ad ipsam
+<lb ed="#L" n="36"/>rem. Cum enim intelligitur ordo et habitudo mensurati ad mensuram 
+secun<lb break="no" ed="#L" n="37"/>dum realem dependentiam et respectum, intelligitur etiam aliquo modo
+<pb ed="#L" n="144"/>
+               <lb ed="#L" n="1"/>habitudo et respectus mensurae ad mensuratum secundum rationem 
+acci<lb break="no" ed="#L" n="2"/>pientem ipsam ut aliud extremum huiusmodi habitudinis et respectus.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1054">
+               <lb ed="#L" n="3"/>Sed licet hoc videatur habere veritatem circa intellectum speculativum,
+<lb ed="#L" n="4"/>scilicet quod veritas propter praedicta sit in ipso, non in re, non tamen
+<lb ed="#L" n="5"/>circa intellectum practicum. Nam cum intellectus practicus sit mensura
+<lb ed="#L" n="6"/>et causa rerum cognitarum ab ipso et sic res imitentur ipsum et ei 
+adae<lb break="no" ed="#L" n="7"/>quantur et conformentur ! et ab ipso dependeant, videtur quod veritas non
+<lb ed="#L" n="8"/>sit in intellectu practico formaliter et secundum rem, sed solum secundum
+<lb ed="#L" n="9"/>denominationem, in rebus autem secundum rem. Dicuntur enim 
+artifi<lb break="no" ed="#L" n="10"/>cialia vera per imitationem et adaequationem ad ideam et artem in mente
+<lb ed="#L" n="11"/>artificis a qua causantur. Ad hoc etiam est intelligendum quod cum haec
+<lb ed="#L" n="12"/>veritas proprie dicta de qua nunc loquimur sit adaequatio, ut dictum est,
+<lb ed="#L" n="13"/>notitiam sive manifestationem formaliter importans quae non convenit rebus
+<lb ed="#L" n="14"/>cognitis formaliter et subiective, sed solum intellectui cognoscenti, veritas
+<lb ed="#L" n="15"/>sic dicta, prout scilicet veritas dicit adaequationem non quamlibet, sed
+<lb ed="#L" n="16"/>importantem notitiam sive manifestationem apud intellectum, est simpliciter
+<lb ed="#L" n="17"/>et formaliter in intellectu practico et non in rebus practicis nisi secundum
+<lb ed="#L" n="18"/>rationem et modum intelligendi et denominationem. Sed loquendo de 
+veri<lb break="no" ed="#L" n="19"/>tate communiter dicta prout dicit adaequationem et imitationem 
+cuius<lb break="no" ed="#L" n="20"/>cumque dependentis et mensurati, prout Anselmus, in libro de Veritate, in
+<lb ed="#L" n="21"/>omnibus veritatem ponit dicens veritatem esse quamdam rectitudinem prout
+<lb ed="#L" n="22"/>rectum dicitur quod est ut debet esse, quod contingit cum habet in se
+<lb ed="#L" n="23"/>formaliter ea quae respondent ei? virtute in sua causa et in hoc 
+confor<lb break="no" ed="#L" n="24"/>matur suae causae, sic bene est veritas secundum rem in rebus practicis
+<lb ed="#L" n="25"/>ex habitudine ad artem in intellectu practico. Unde res practicae dupliciter
+<lb ed="#L" n="26"/>comparantur ad intellectum practicum : uno modo ut mensura ipsius 
+intel<lb break="no" ed="#L" n="27"/>lectus secundum esse cognitum vel secundum cognitionem, alio modo ut
+<lb ed="#L" n="28"/>mensuratum secundum esse reale vel secundum existentiam realem quam
+<lb ed="#L" n="29"/>habent causaliter et effective ab arte intellectus. Faciunt enim sui 
+cogni<lb break="no" ed="#L" n="30"/>tionem et manifestationem in intellectu et fiunt secundum existentiam ab
+<lb ed="#L" n="31"/>intellectu. Prius enim necessario est domus secundum esse cognitum in
+<lb ed="#L" n="32"/>intellectu quam sit secundum esse reale in se ipsa ; prius enim est domus 
+<lb ed="#L" n="33"/>in mente quam in re. Fit enim domus a domo, id est, domus existens in re
+<lb ed="#L" n="34"/>a domo existente in cognitione, quia intellectus factus in actu cognitionis
+<lb ed="#L" n="35"/>ex apprehensione domus facit domum apprehensam vel existentem in
+<lb ed="#L" n="36"/>apprehensione secundum esse existentiae realiter in re extra, sed non
+<lb ed="#L" n="37"/>oportet quod sit causata domus in mente a domo existente in re sub forma
+<pb ed="#L" n="145"/>
+               <lb ed="#L" n="1"/>propria, sed sufficit quod sit causata ab aliquibus entibus naturalibus 
+com<lb break="no" ed="#L" n="2"/>prehensis secundum actus intellectus in ordine quodam ad constitutionem
+<lb ed="#L" n="3"/>alicuius artificialis secundum talem vel talem dispositionem quae habeat
+<lb ed="#L" n="4"/>rationem talis vel talis domus; et a domo sic formata in apprehensione
+<lb ed="#L" n="5"/>intellectus, per voluntatem et instrumenta fit domus in re sive in materia.
+<lb ed="#L" n="6"/>Et talis domus ut sic cognita in ratione obiecti dicitur vera, quia de se facit
+<lb ed="#L" n="7"/>notitiam et manifestationem sui sub ratione entis factibilis apud intellectum
+<lb ed="#L" n="8"/>qui adaequatur tali enti artificiali per huiusmodi notitiam in ipso de illo
+<lb ed="#L" n="9"/>existentem. Domus autem in re ab illa veritate dicitur vera, quia perfecte
+<lb ed="#L" n="10"/>imitatur illam sic conceptam et ei adaequatur.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1157">
+               <lb ed="#L" n="11"/>Secundum ergo praedicta, loquendo de veritate formali et secundum
+<lb ed="#L" n="12"/>rem, est dicendum quod veritas quae est de re apud intellectum se habet
+<lb ed="#L" n="13"/>in ratione informantis et perficientis intellectum subiective, quia est ipsa
+<lb ed="#L" n="14"/>notitia vel manifestatio passiva rel cum respectu adaequationis ad ipsum
+<lb ed="#L" n="15"/>intellectum ; loquendo autem de veritate causali et secundum rationem vel
+<lb ed="#L" n="16"/>denominationem sic se habet in ratione moventis et ! obiecti abstracti
+<lb ed="#L" n="17"/>vel habentis in se naturam abstractibilem. Non enim est intelligendum 
+<lb ed="#L" n="18"/>quod veritas per se sit adaequatio intellectus ad rem prout secundum
+<lb ed="#L" n="19"/>se existit in re singulariter, quia ut sic non potest esse obiectum intellectus
+<lb ed="#L" n="20"/>nec actu movere ipsum, sed per hoc quod virtute intellectus agentis sua
+<lb ed="#L" n="21"/>applicatione ad phantasmata sive ad rem ut sub phantasmatibus 
+reprae<lb break="no" ed="#L" n="22"/>sentatur, abstrahentis quidditatem rei secundum se ab istis condicionibus
+<lb ed="#L" n="23"/>individuantibus fit in tali dispositione in qua actu potest intellectum
+<lb ed="#L" n="24"/>movere, et sic ipsa quidditas ut sic habet rationem veritatis causaliter
+<lb ed="#L" n="25"/>et virtualiter respectu intellectus quem movet actu et cui se actu 
+mani<lb break="no" ed="#L" n="26"/>festat. Et ex hoc etiam res ipsa singulariter dicitur vera hac veritate in
+<lb ed="#L" n="27"/>quantum a re ipsa singulariter existente non separatur huiusmodi quidditas
+<lb ed="#L" n="28"/>in esse, sed solum secundum considerationem abstractam et dicatur res
+<lb ed="#L" n="29"/>singulariter vera quia suum quod quid est ab ipsa non separatum sic
+<lb ed="#L" n="30"/>est apud intellectum sui ipsius declarativum et notificativum et cetera.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1203">
+               <lb ed="#L" n="31"/>Nec valet si in contrarium obiciatur quod eadem veritas est quae
+<lb ed="#L" n="32"/>est in intellectu et quae voce significatur ; nunc autem vox non significat
+<lb ed="#L" n="33"/>notitiam intellectus, sed rem cuius est notitia ; ergo et cetera. Vox enim
+<lb ed="#L" n="34"/>significat rem cognitam mediante tamen apprehensione et ? conceptu
+<lb ed="#L" n="35"/>rationis vel intellectus ; unde significat rem cuius est conceptus vel
+<lb ed="#L" n="36"/>notitia in intellectu et quae est intellecta. Cum ergo in corpore quaestionis
+<pb ed="#L" n="146"/>
+               <lb ed="#L" n="1"/>superius dicitur quod res intellecta est entitas simpliciter, quare et veritas
+<lb ed="#L" n="2"/>simpliciter !; notitia autem rei est entitas rei diminuta ; ergo est etiam
+<lb ed="#L" n="3"/>diminuta veritas, non valet; immo ex hoc sequitur contrarium quod est
+<lb ed="#L" n="4"/>nostrum propositum.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1229">
+               <lb ed="#L" n="5"/>Nam ex hoc quod res sua entitate perfecta potest se notificare 
+intel<lb break="no" ed="#L" n="6"/>lectui et per notitiam qua se notificat intellectus? sibi adaequat et 
+con<lb break="no" ed="#L" n="7"/>format, quod est quidam effectus eius diminutus in entitate simpliciter
+<lb ed="#L" n="8"/>respectu suae entitatis in se; veritas autem, ut visum est, dicit huiusmodi
+<lb ed="#L" n="9"/>adaequationem realem quae non est nisi in intellectu; ideo huiusmodi 
+<lb ed="#L" n="10"/>notitia ex hoc quod cum tali respectu adaequationis est conformativa, sic
+<lb ed="#L" n="11"/>intellectus est veritas simpliciter et formaliter; et quia non facit intellectum
+<lb ed="#L" n="12"/>id ipsum quod est res ^, sed aliquo modo assimilat et conformat in quantum
+<lb ed="#L" n="13"/>ipsa notitia rei non est id ipsum quod ipsa res intellecta, sed est quaedam
+<lb ed="#L" n="14"/>imago et similitudo eius ab ipsa intellectui impressa, dicitur entitas diminuta
+<lb ed="#L" n="15"/>respectu illius ; et ista veritas dicitur veritas per essentiam et non dicitur
+<lb ed="#L" n="16"/>quid verum in concretione ex participatione alterius veritatis, sed res
+<lb ed="#L" n="17"/>dicitur vera participatione istius dicto modo; est ergo veritas rei in anima
+<lb ed="#L" n="18"/>vel quae est de re in anima veritas simpliciter et est res quae est diminuta
+<lb ed="#L" n="19"/>entitas; ipsa vero entitas rei extra est simpliciter et perfecta entitas ", 
+dimi<lb break="no" ed="#L" n="20"/>nuta veritas.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1266">
+               <lb ed="#L" n="21"/>Praedicta patent per Philosophum dicentem, sexto Metaphysicae, quod
+<lb ed="#L" n="22"/>verum est in intellectu, bonum in rebus. Quamvis enim actus appetitus sit
+<lb ed="#L" n="23"/>causatus ab appetibili et ipsum appetibile in ratione obiecti sit mensura
+<lb ed="#L" n="24"/>a qua habet rationem et speciem ipse actus appetitus et sic etiam realiter
+<lb ed="#L" n="25"/>refertur volitio boni ad volibile sicut scientia veri ad scibile, tamen bonum
+<lb ed="#L" n="26"/>quod denominat appetibile in ordine ad appetitum dicitur esse in rebus
+<lb ed="#L" n="27"/>realiter et formaliter; verum autem quod denominat obiectum intellectus
+<lb ed="#L" n="28"/>sive intelligibile dicitur esse in intellectu realiter et formaliter. Et hoc est
+<lb ed="#L" n="29"/>quia id quod de re est apud intellectum sive res  secundum esse quod
+<lb ed="#L" n="30"/>habet apud intellectum perficit ipsum cognoscentem simpliciter et absolute
+<lb ed="#L" n="31"/>absque hoc quod per cognitionem quam obiectum facit inclinetur  
+cognos<lb break="no" ed="#L" n="32"/>cens secundum quod huiusmodi in rem ipsam in se ipsa sive in aliquam
+<lb ed="#L" n="33"/>perfectionem existentem realiter in ea; sed completur et terminatur 
+causa<lb break="no" ed="#L" n="34"/>litas quam habet intelligibile respectu intellectus in ipso actu intelligendi
+<lb ed="#L" n="35"/>et ipsa operatio intellectus completur secundum quod intellectum est in
+<lb ed="#L" n="36"/>intelligente, sive in hoc quod ratio rei intellectae est in intelligente. Propter
+<pb ed="#L" n="147"/>
+               <lb ed="#L" n="1"/>quod dicitur quod intellimere est motus rei ad animam et est quasi motus
+<lb ed="#L" n="2"/>rectus, quia actio intelligibilis terminatur in existentia eius apud intellectum
+<lb ed="#L" n="3"/>secundum actum cognitionis. Sed appetibile non perficit sic appetentem
+<lb ed="#L" n="4"/>per actum appetendi. Immo id quod per se facit appetibile in appetitum
+<lb ed="#L" n="5"/>non est nisi quaedam inclinatio ipsius appetitus vel appetentis in rem
+<lb ed="#L" n="6"/>ipsam secundum se sive in aliquam perfectionem ipsius ex adeptione rei,
+<lb ed="#L" n="7"/>et ideo terminus huiusmodi ! causalitatis  quam habet appetibile respectu
+<lb ed="#L" n="8"/>appetitus non completur in ipso actu appetendi sive secundum esse quod
+<lb ed="#L" n="9"/>habet appetibile in appetente, sed in adeptione ipsius rei per aliam 
+poten<lb break="no" ed="#L" n="10"/>tiam et alium actum ipsius appetentis. Operatio enim voluntatis et 
+cuius<lb break="no" ed="#L" n="11"/>libet virtutis appetitivae perficitur in inclinatione appetentis ad rem sicut ad
+<lb ed="#L" n="12"/>terminum prout res in se est; et ideo est quidam motus quasi ? reflexus
+<lb ed="#L" n="13"/>a re ad animam et rursus ab anima in rem et ibi completur in re ipsa;
+<lb ed="#L" n="14"/>et ideo dicitur quod velle est motus ab anima ad rem, praesupposito tamen
+<lb ed="#L" n="15"/>motu rei ad animam. Propter quod etiam a veritate quae est in intellectu
+<lb ed="#L" n="16"/>a re tamen causata denominatur res vera et non dicitur intellectus verus
+<lb ed="#L" n="17"/>denominative a veritate rei. Sed res non dicitur bona a bonitate existente
+<lb ed="#L" n="18"/>in appetitu a re ipsa, sed potius voluntas sive actus eius dicitur bonus
+<lb ed="#L" n="19"/>a bonitate quae est in re. Sicut enim ex hoc quod appetitus transformat se
+<lb ed="#L" n="20"/>in rem tendendo in ipsam. per actum suum causatum etiam a re ipsa qua
+<lb ed="#L" n="21"/>inclinatur in illam et movet alias potentias ad adipiscendum  eam, dicitur
+<lb ed="#L" n="22"/>bonus vel malus a bonitate quae est in re; ita ex hoc quod res transformat se
+<lb ed="#L" n="23"/>quodam modo in ipsum et intellectum movendo se quodam modo in  ipsum
+<lb ed="#L" n="24"/>et suam impressionem in ipsum quodam modo faciendo et in hoc sistendo
+<lb ed="#L" n="25"/>dicitur vera a veritate quae est in anima. Etenim dicitur res bona quia sua
+<lb ed="#L" n="26"/>perfectione nata est trahere appetitum sive appetentem per appetitum ad
+<lb ed="#L" n="27"/>seipsam. Dicitur autem res vera quia sua perfectione nata est per id quod
+<lb ed="#L" n="28"/>in intellectu  efficit intellectum sibi assimilare et conformare et 
+simili<lb break="no" ed="#L" n="29"/>tudinem suae perfectionis declarativam  in intellectu efficere et efficitur res
+<lb ed="#L" n="30"/>quodam modo intellectualis secundum actum intelligendi in quantum suam
+<lb ed="#L" n="31"/>similitudinem quae est id ipsum quod ipsa ? quodam modo, licet diminute "5,
+<lb ed="#L" n="32"/>imprimit in intellectu et per hoc intellectum ipsum sibi assimilat.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1375">
+               <lb ed="#L" n="33"/>Volens autem efficitur quodam modo realis secundum actum 
+volun<lb break="no" ed="#L" n="34"/>tatis in quantum per voluntatem a re causatam non sistit in ipsa volitione
+<lb ed="#L" n="35"/>sicut cognoscens in cognitione, sed tendit ad unionem realem et in 
+huius<lb break="no" ed="#L" n="36"/>modi unione reali terminatur motio ista sicut alia in unione intentionali. Et
+<pb ed="#L" n="148"/>
+               <lb ed="#L" n="1"/>ideo etiam sicut illud quod complet et terminat dictam habitudinem est
+<lb ed="#L" n="2"/>aliquid in intellectu et dicitur veritas, ita illud quod complet et terminat
+<lb ed="#L" n="3"/>hanc habitudinem est aliquid in re et dicitur bonitas. Et sicut verum nihil
+<lb ed="#L" n="4"/>addit super ens, sed dicit solum quamdam rationem intellectus sumptam
+<lb ed="#L" n="5"/>ex habitudine rei ad intellectum, ita etiam bonum nihil addit super rem, sed
+<lb ed="#L" n="6"/>dicit rationem sumptam ex habitudine eius ad voluntatem. Cum etiam
+<lb ed="#L" n="7"/>dicitur quod verius convenit aliquid ei cui convenit secundum se absque
+<lb ed="#L" n="8"/>dependentia et cetera, dicendum quod non tenet in respectivis et in his
+<lb ed="#L" n="9"/>quae respectum in sui ratione includunt. Nam in his quae magis dependent
+<lb ed="#L" n="10"/>magis ' respectum includunt.
+</p>
+            <p xml:id="v27ab7-g11462-d1e1410">
+               <lb ed="#L" n="11"/>His intellectis, patet responsio ad rationes positas in principio 
+quaes<lb break="no" ed="#L" n="12"/>tionis. Nam cum dicitur quod veritas non est nisi quaedam manifestatio ,
+<lb ed="#L" n="13"/>verum est loquendo de veritate formaliter. Cum vero arguitur quod verum
+<lb ed="#L" n="14"/>et ens convertuntur dicendum est quod verum est de veritate causaliter.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

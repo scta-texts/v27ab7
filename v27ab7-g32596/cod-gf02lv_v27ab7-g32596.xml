@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g32596"><!-- v27ab7-q7-q10 -->
+            <head xml:id="v27ab7-g32596-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-g32596-Hd1e101" type="question-title">
+      Utrum quilibet possit salvari
+    </head>
+            <p xml:id="v27ab7-g32596-d1e104">
+               <lb ed="#L" n="26"/>QUAESTIO X
+<lb ed="#L" n="27"/>Utrum quilibet possit salvari.
+</p>
+            <p xml:id="v27ab7-g32596-d1e111">
+               <lb ed="#L" n="28"/>Consequenter circa naturam humanam quantum ad ea quae nata sunt ei extrinsecus 
+con<lb break="no" ed="#L" n="29"/>venire quaerebantur quaedam pertinentia ad omnes homines generaliter, quaedam pertinentia
+<lb ed="#L" n="30"/>ad quosdam homines specialiter. Circa horum primum quaerebantur quaedam pertinentia ad
+<lb ed="#L" n="31"/>consecutionem finis ipsius hominis, quaedam pertinentia ad actus et habitus quibus ordinatur
+<lb ed="#L" n="32"/>ad finem suum qui est Deus sine quibus etiam illum non attingit.
+</p>
+            <p xml:id="v27ab7-g32596-d1e124">
+               <pb ed="#L" n="376"/>
+               <lb ed="#L" n="1"/>Circa primum horum quaerebatur unum, scilicet utrum quilibet possit salvari. Et arguitur
+<lb ed="#L" n="2"/>quod non quilibet possit salvari, quia nullus praescitus potest salvari, alioquin posset divina
+<lb ed="#L" n="3"/>praescientia falli ; sed multi sunt praesciti ; ergo multi homines non possunt salvari,
+</p>
+            <p xml:id="v27ab7-g32596-d1e136">
+               <lb ed="#L" n="4"/>Contra, Ei qui non potest aliquid consequi non est imputandum si illud non assequatur.
+<lb ed="#L" n="5"/>Ergo, si aliquis homo non posset salvari, iniuste imputaretur ei quod non salvaretur. Nunc
+<lb ed="#L" n="6"/>autem cuilibet imputatur si non salvatur. Ergo quilibet potest salvari.
+</p>
+            <p xml:id="v27ab7-g32596-d1e145">
+               <lb ed="#L" n="7"/>Respondeo dicendum quod ad hoc quod aliquis salvetur requiritur natura susceptibilis
+<lb ed="#L" n="8"/>salutis et ad suam salutem modo convenienti cooperans et Deus illam principaliter efficiens !
+<lb ed="#L" n="9"/>dando auxilium supernaturale sufficiens, eo quod ad hoc naturalia per se non sufficiunt, Si ergo
+<lb ed="#L" n="10"/>consideretur subiectum salutis, scilicet homo secundum se et absolute et etiam causa 
+princi<lb break="no" ed="#L" n="11"/>palis effectiva salutis, sic quilibet homo potest salvari, quia habet id quod est gratiae et 
+virtu<lb break="no" ed="#L" n="12"/>tum susceptivum. Deus etiam habet potestatem illa cuilibet infundendi. Si autem consideretur
+<lb ed="#L" n="13"/>homo salvandus et Deus salvans secundum ordinem determinatum ad salutem consequendam
+<lb ed="#L" n="14"/>secundum cursum communem, qui continet quod parvuli usum rationis non habentes et ad
+<lb ed="#L" n="15"/>salutem suam cooperari non valentes illam a Deo non consequuntur secundum cursum com -
+<lb ed="#L" n="16"/>inunem omnino immediate, sed mediantibus quibusdam adiutoriis exterioribus, scilicet
+<lb ed="#L" n="17"/>mediante fide parentum in lege naturae et mediantibus quibusdam sacramentis in lege scripta
+<lb ed="#L" n="18"/>veteri et nova, puta mediante circoncisione in populo israelitico tempore legis mosaicae
+<lb ed="#L" n="19"/>quantum ad masculos et mediante baptismo in omni populo a tempore divulgationis Evangelii,
+<lb ed="#L" n="20"/>— sic omnes illi et soli parvuli possunt salvari ad quos possunt huiusmodi adiutoria applicari ;
+<lb ed="#L" n="21"/>et omnes salutem consecuti sunt ad quos dicta adiutoria applicata exstiterunt si infra annos
+<lb ed="#L" n="22"/>discretionis decesserunt, quia habuerunt sufficienter id quod pertinet ad talium salutem.
+<lb ed="#L" n="23"/>Dictus ordo etiam quantum ad adultos continet quod etiam mediante sacramento gratiam et
+<lb ed="#L" n="24"/>virtutes quibus salvamur  a Deo non consequuntur nisi ad hoc aliqualiter se disponendo et
+<lb ed="#L" n="25"/>consentiendo, quod tamen etiam non contingit nisi supposita quadam generali motione divina
+<lb ed="#L" n="26"/>quam secundum cursum communem in omnibus efficit et paratus est efficere quantum in se
+<lb ed="#L" n="27"/>est, licet a pluribus rcpellatur qui illam non assequuntur nec illi consentiunt vel inhaerent
+<lb ed="#L" n="28"/>libertate arbitrii ad alia divertendo . Continet etiam quod vel post adeptam gratiam 
+perse<lb break="no" ed="#L" n="29"/>verent ? in illa sine peccato vel quod si peccando illam amittant per aliud sacramentum 
+poeni<lb break="no" ed="#L" n="30"/>tentiae illam recuperent ante mortem, ita quod in gratia mors illos inveniat, sive quod in gratia
+<lb ed="#L" n="31"/>finaliter perseverent, et quia hoc est possibile in omnibus habentibus usum liberi arbitrii
+<lb ed="#L" n="32"/>quod sic salutis adiutoria consequantur. Nam per rationem et voluntatem, supposita dicta
+<lb ed="#L" n="33"/>influentia divinae motionis quam Deus omnibus offert et quantum in se est facit in omnibus,
+<lb ed="#L" n="34"/>possunt ! facere quod in se est et se disponere ad hoc quod Deus eis det gratiam et virtutes
+<lb ed="#L" n="35"/>mediantibus dictis sacramentis corporaliter et actualiter susceptis cum adest facultas ; vel 
+men<lb break="no" ed="#L" n="36"/>taliter et in proposito quando non suppetit facultas. Vel forte si aliqui haberent ignorantiam de
+<lb ed="#L" n="37"/>tali modo consequendi salutem, — cuius ignorantiae ipsi non essent causa nec esset eisimputanda
+<lb ed="#L" n="38"/>et, quantum ductu naturalis rationis possent, se dirigerent ad id quod est conveniens saluti
+<lb ed="#L" n="39"/>nec divinae motioni in influentiae gratiae obicem ponerent, — Deus, qui est liberalissimus et
+<lb ed="#L" n="40"/>quantum in se est dat omnibus aflluenter secundum ordinem suae sapientiae se disponentibus 5,
+<lb ed="#L" n="41"/>illis influeret dona salutis prout suae congruit bonitati, Si autem sint aliqui adulti qui nec
+<pb ed="#L" n="377"/>
+               <lb ed="#L" n="1"/>usum rationis habent nec per homines sacramenta suscipiunt, de eis est iudicandum sicut et
+<lb ed="#L" n="2"/>de parvulis sine baptismo decedentibus ! quantum ad cursum communem, quia nec quantum
+<lb ed="#L" n="3"/>ad istos nec quantum ad parvulos Deus suam potestatem sic sacramentis alligavit quin possit
+<lb ed="#L" n="4"/>dona salutis prout sibi placuerit impertiri ?. Sic ergo patet quomodo est dicendum quod 
+qui<lb break="no" ed="#L" n="5"/>libet homo potest salvari.
+</p>
+            <p xml:id="v27ab7-g32596-d1e236">
+               <lb ed="#L" n="6"/>Ad argumentum in oppositum est dicendum quod verum est quod multi sunt praesciti ?,
+<lb ed="#L" n="7"/>et illi non salvabuntur ; tamen verum est simpliciter et absolute quod salvari possunt, quia
+<lb ed="#L" n="8"/>nec Dei praescientia vel praedestinatio necessitatem simpliciter imponit salvandis vel 
+dam<lb break="no" ed="#L" n="9"/>nandis. Unde non est vera ista: simpliciter praescitus non potest salvari; immo falsa, sed
+<lb ed="#L" n="10"/>vera est cum reduplicatione sic : praescitus, in quantum praescitus et cetera.
+</p>
+            <p xml:id="v27ab7-g32596-d1e249">
+               <lb ed="#L" n="11"/>Ad hoc ergo quod praescientia Dei non fallatur non oportet quod praescitus non possit
+<lb ed="#L" n="12"/>salvari, sed solum quod non salvetur. Hoc tamen, scilicet quod non salvetur, simpliciter et
+<lb ed="#L" n="13"/>absolute contingenter et ex libero arbitrio praesciti eveniet, et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

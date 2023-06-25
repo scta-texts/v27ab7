@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="122"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g10592"><!-- v27ab7-q6-q5 -->
+            <head xml:id="v27ab7-g10592-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-g10592-Hd1e101" type="question-title">
+      Utrum aliquod accidens unum numero possit esse in duobus naturis
+    </head>
+            <p xml:id="v27ab7-g10592-d1e104">
+               <lb ed="#L" n="26"/>QUAESTIO V.
+<lb ed="#L" n="27"/>Utrum aliquod accidens unum numero possit esse
+<lb ed="#L" n="28"/>in duobus naturis.
+</p>
+            <p xml:id="v27ab7-g10592-d1e113">
+               <lb ed="#L" n="29"/>Deinde circa naturam accidentalem in generali quaerebatur unum,
+<lb ed="#L" n="30"/>scilicet utrum aliquod accidens unum numero possit esse in duobus sub-
+<pb ed="#L" n="123"/>
+               <lb ed="#L" n="1"/>stantiis . Et arguebatur quod sic: quia una et eadem cicatrix fuit in 
+cor<lb break="no" ed="#L" n="2"/>pore Petri vivo et mortuo, ut manifestum fuit ad sensum, et tamen corpus
+<lb ed="#L" n="3"/>Petri vivum et mortuum fuit aliud et aliud secundum substantiam. Ergo
+<lb ed="#L" n="4"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g10592-d1e131">
+               <lb ed="#L" n="5"/>Contra: secundum Philosophum, septimo Metaphysicae, accidens non
+<lb ed="#L" n="6"/>est ens nisi quia est entis scilicet simpliciter quod est substantia. Ergo 
+secun<lb break="no" ed="#L" n="7"/>dum numerationem huius entis simpliciter, scilicet substantiae, oportet
+<lb ed="#L" n="8"/>accidens numerari; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g10592-d1e143">
+               <lb ed="#L" n="9"/>Respondeo dicendum quod sicut plura accidentia eiusdem speciei
+<lb ed="#L" n="10"/>non possunt esse simul in eodem subiecto, ita etiam unum accidens,
+<lb ed="#L" n="11"/>nullo agente, potest esse simul in duobus subiectis. Accidentia enim quae
+<lb ed="#L" n="12"/>secundum se nullam habent distinctionem, ex esse in eodem subiecto
+<lb ed="#L" n="13"/>distinctionem non consequuntur, sed unitatem; unde sicut duo puncta
+<lb ed="#L" n="14"/>non possunt esse simul in eodem subiecto sed fiunt? unus? punctus,
+<lb ed="#L" n="15"/>nec duae lineae, ita nec duae albedines. Sicut enim duas qualitates 
+dis<lb break="no" ed="#L" n="16"/>paratas, scilicet album et dulce, possibile est esse simul in eodem 
+sub<lb break="no" ed="#L" n="17"/>iecto, non autem duas contrarias distinctas manentes, immo necessario
+<lb ed="#L" n="18"/>miscerentur  et facerent unum medium, quamvis secundum se essentialiter
+<lb ed="#L" n="19"/>abinvicem distinguantur ; ita etiam duas qualitates eiusdem speciei sub
+<lb ed="#L" n="20"/>dualitate manentes impossibile est simul esse, sed oportet quod facerent
+<lb ed="#L" n="21"/>unam magis vel minus intensam, quia, cum non habeant unde secundum
+<lb ed="#L" n="22"/>se formaliter distinguantur abinvicem, oportet quod distinguantur per
+<lb ed="#L" n="23"/>diversitatem subiectorum ; vel sic quod sine subiectis, virtute divina, 
+secun<lb break="no" ed="#L" n="24"/>dum rationem indivisibilitatis, si hoc possibile sit, quaelibet secundum
+<lb ed="#L" n="25"/>se in esse conservetur et tunc etiam  si sic virtute divina coniungerentur
+<lb ed="#L" n="26"/>quod una esset in alia vel ambae simul in alio indivisibili, oporteret quod
+<lb ed="#L" n="27"/>in unum cederent et suas distinctiones amitterent, ut duo puncta vel duae
+<lb ed="#L" n="28"/>albedines si possibile est divina virtute conservari eas in esse sine 
+dimen<lb break="no" ed="#L" n="29"/>sione, et postea divina virtute coniungerentur, non manerent distinctae.
+<lb ed="#L" n="30"/>Et hoc patet per eos qui ponunt habitus augeri vel intendi per additionem
+<lb ed="#L" n="31"/>eiusdem secundum speciem. Si enim possibilis? est talis additio, manifestum
+<lb ed="#L" n="32"/>est quod non potest intelligi nisi sic quod additum cum eo cui additur
+<lb ed="#L" n="33"/>fiat unum numero, sed intensius. Impossibile est ergo quod duo accidentia
+<lb ed="#L" n="34"/>quae sunt eiusdem rationis et speciei fiant unum subiecto et quod duo
+<lb ed="#L" n="35"/>maneant et distincta. Cum enim talia plura secundum unam rationem
+<lb ed="#L" n="36"/>habeant esse in subiecto ratione unius potentiae et non habent perficere
+<pb ed="#L" n="124"/>
+               <lb ed="#L" n="1"/>unum ordine aliquo neque situs neque naturae, talia duo ambo simul non
+<lb ed="#L" n="2"/>possunt esse in eodem subiecto quin sint unum.
+</p>
+            <p xml:id="v27ab7-g10592-d1e213">
+               <lb ed="#L" n="3"/>Nec est instantia quod corpus glorificatum potest esse simul cum non
+<lb ed="#L" n="4"/>glorificato, quia duo corpora sic simul existentia non habent eumdem modum
+<lb ed="#L" n="5"/>essendi in loco in quo dicuntur simul esse, quia unum est ibi per se et
+<lb ed="#L" n="6"/>localiter ut commensuratur illi et ipsum occupat ; aliud autem non sic, sed
+<lb ed="#L" n="7"/>solum in eodem loco est cum alio corpore in quantum dimensiones suae
+<lb ed="#L" n="8"/>positae sunt vel signatae  iuxta dimensiones alterius, non inquantum sunt
+<lb ed="#L" n="9"/>occupantes locum et aliis resistentes; unde nec unum est in alio? ut in
+<lb ed="#L" n="10"/>subiecto nec ambo sunt in tertio ut in subiecto, sed sunt simul in uno loco,
+<lb ed="#L" n="11"/>sicut etiam angelus non habens dimensiones est simul in eodem loco cum
+<lb ed="#L" n="12"/>corpore assumpto. Unum enim corpus quantum existens in loco localiter
+<lb ed="#L" n="13"/>utitur suis dimensionibus, sed non aliud; et ideo simul possunt esse in
+<lb ed="#L" n="14"/>eodem loco. Sed duo accidentia, si ponantur simul in eodem subiecto,
+<lb ed="#L" n="15"/>eumdem modum essendi habent; quare non possunt plura esse simul in
+<lb ed="#L" n="16"/>eodem subiecto.
+</p>
+            <p xml:id="v27ab7-g10592-d1e246">
+               <lb ed="#L" n="17"/>Similiter est dicendum quod unum accidens numero non potest aliquo
+<lb ed="#L" n="18"/>agente esse simul in duobus subiectis; nam sicut unitas subiecti necessario
+<lb ed="#L" n="19"/>excludit distinctionem accidentium secundum numerum nisi etiam illa 
+dis<lb break="no" ed="#L" n="20"/>tincta sint secundum speciem, ita diversitas subiectorum necessario excludit
+<lb ed="#L" n="21"/>unitatem numeralem et facit necessario distinctionem secundum numerum
+<lb ed="#L" n="22"/>eorum quae insunt ipsis, etiam si specie non differunt.
+</p>
+            <p xml:id="v27ab7-g10592-d1e262">
+               <lb ed="#L" n="23"/>Nec obstat quod duo corpora sint ? simul in uno loco, locus autem non
+<lb ed="#L" n="24"/>sit in locato sicut in subiecto, cum ex adiacentia loci ad locatum derelinquitur
+<lb ed="#L" n="25"/>quoddam accidens quod dicitur ubi. Ex quo videtur quod unum accidens
+<lb ed="#L" n="26"/>potest esse in diversis subiectis, quia ubi est in locato. Sed hoc non valet.
+<lb ed="#L" n="27"/>Nam cum unum istorum corporum tantum sit in loco proprie localiter, ut
+<lb ed="#L" n="28"/>dictum est, ideo ubi derelictum ex tali adiacentia loci ad talia corpora est
+<lb ed="#L" n="29"/>unum numero et non est nisi in illo corpore quod per se et localiter est in
+<lb ed="#L" n="30"/>loco subiective. Non sic autem est in alio quod non est in loco localiter, quia
+<lb ed="#L" n="31"/>secundum illum modum quo ibi est, potest maius corpus esse in minori,
+<lb ed="#L" n="32"/>quod non esset si ibi esset localiter; et ideo illud ubi non est in eo; immo
+<lb ed="#L" n="33"/>nec in aliquibus duobus potest esse, sicut nec aliquod accidens et hoc simul.
+</p>
+            <p xml:id="v27ab7-g10592-d1e288">
+               <lb ed="#L" n="34"/>Ex quo patet, licet incidentaliter, quod non potest fieri quod unum
+<lb ed="#L" n="35"/>corpus numero simul sit in duobus locis per se et localiter, id est, non
+<lb ed="#L" n="36"/>sacramentaliter nec conversione eius in aliud nec conversione alterius in
+<lb ed="#L" n="37"/>ipsum; nam cum illud quod est in loco localiter habeat unum accidens
+<pb ed="#L" n="125"/>
+               <lb ed="#L" n="1"/>quod est ubi derelictum ex adiacentia. partium corporis in loco (nam licet
+<lb ed="#L" n="2"/>locus in locato non sit subiective, ubi tamen est in ipso) non possunt
+<lb ed="#L" n="3"/>autem duo accidentia eiusdem speciei esse simul in eodem subiecto ; unde
+<lb ed="#L" n="4"/>nec [simul] potest aliqua determinata quantitas alicuius corporis 
+commen<lb break="no" ed="#L" n="5"/>surari simul pluribus quantitatibus locorum diversorum. Ideo unum corpus
+<lb ed="#L" n="6"/>non potest esse localiter ! in pluribus locis simul .
+</p>
+            <p xml:id="v27ab7-g10592-d1e314">
+               <lb ed="#L" n="7"/>Sed dubium est utrum unum numero accidens ? successive possit esse
+<lb ed="#L" n="8"/>in duobus subiectis. Etenim de accidentibus quae nullo modo esse possunt
+<lb ed="#L" n="9"/>sine subiecto oportet ponere quod non. Quia, deficientibus subiectis et 1psis
+<lb ed="#L" n="10"/>in subiecto non existentibus, necesse est ipsa deficere. Unde talia perimi
+<lb ed="#L" n="11"/>possunt, sed transferri nullo modo. Unde si albedo non potest esse sine
+<lb ed="#L" n="12"/>superficie, tunc eadem albedo quae est in uno corpore non potest  habere
+<lb ed="#L" n="13"/>esse in alio corpore in quo eadem superficies non esset. Sed accidentia
+<lb ed="#L" n="14"/>quae, quocumque agente, possunt habere esse sine subiecto, possunt virtute
+<lb ed="#L" n="15"/>illius agentis habere esse in diversis subiectis successive; verbi gratia :
+<lb ed="#L" n="16"/>supponimus quod in sacramento altaris remaneat quantitas cum aliis 
+acci<lb break="no" ed="#L" n="17"/>dentibus per se sine subiecto, sed supponitur etiam quod postquam 
+desi<lb break="no" ed="#L" n="18"/>erint ? esse sine subiecto, scilicet  sine substantia panis in qua prius erant,
+<lb ed="#L" n="19"/>posset virtute divina creari ibl aliqua substantia, puta panis consimilis et
+<lb ed="#L" n="20"/>ilis accidentibus afficeretur substantia talis sicut substantia praeexistens
+<lb ed="#L" n="21"/>afficiebatur eisdem ; et sic unum accidens numero posset esse in pluribus
+<lb ed="#L" n="22"/>subiectis successive. Nam ex numeratione talium subiectorum tale accidens
+<lb ed="#L" n="23"/>non numeraretur, sed seipso est unum numero, ut patet praecipue de
+<lb ed="#L" n="24"/>quantitate. Sed utrum naturaliter sive virtute naturalium principiorum vel
+<lb ed="#L" n="25"/>agentium hoc fieri possit, de aliquibus accidentibus est dubium ; et [quia]
+<lb ed="#L" n="26"/>inter alia accidentia hoc magis  videtur de quantitate et de accidentibus
+<lb ed="#L" n="27"/>quae per se in ipsa fundantur , ut de figura et huiusmodi, et de quibusdam
+<lb ed="#L" n="28"/>qualitatibus symbolis et communibus generato et corrupto.
+</p>
+            <p xml:id="v27ab7-g10592-d1e365">
+               <lb ed="#L" n="29"/>Ideo ad huius intellectum est consi derandum quid est subiectum 
+acci<lb break="no" ed="#L" n="30"/>dentis; nam si nuda substantia materiae possit esse per se et primo subiectum
+<lb ed="#L" n="31"/>alicuius accidentis, utpote quantitatis, licet numquam sit ei subiecta nisi
+<lb ed="#L" n="32"/>simul cum est subiecta ali cui formae substantiali, sicut nec ipsa materia
+<lb ed="#L" n="33"/>aliquando habet esse sine forma substantiali, saltem virtute agentis naturalis,
+<lb ed="#L" n="34"/>et pro tanto diceretur quantitas immediate inesse materiae, quia totum
+<lb ed="#L" n="35"/>compositum ex materia et forma substantiali per se extenditur extensione 
+<lb ed="#L" n="36"/>quantitatis, ita tamen quod forma non advenit nisi materiae iam extensae,
+<pb ed="#L" n="126"/>
+               <lb ed="#L" n="1"/>extensione cuius extenditur; quia de potentia materiae extensae educitur
+<lb ed="#L" n="2"/>tunc.
+</p>
+            <p xml:id="v27ab7-g10592-d1e391">
+               <lb ed="#L" n="3"/>Sicut una et eadem essentia materiae est successive sub diversis
+<lb ed="#L" n="4"/>formis substantialibus, ita eadem quantitas numero haberet esse successive
+<lb ed="#L" n="5"/>in duobus subiectis non solum numero sed specie differentibus. Poneretur
+<lb ed="#L" n="6"/>tamen illa una quantitas habere diversas terminationes secundum 
+diversi<lb break="no" ed="#L" n="7"/>tatem formarum substantialium ; et ipsa sub ratione indeterminationis et
+<lb ed="#L" n="8"/>indeterminati haberet esse una numero: in diversis subiectis dicto modo.
+</p>
+            <p xml:id="v27ab7-g10592-d1e407">
+               <lb ed="#L" n="9"/>Sed hoc non potest stare, quia nullum accidens primo et immediate,
+<lb ed="#L" n="10"/>ut scilicet prima perfectio, ordine naturae potest perficere materiam sive
+<lb ed="#L" n="11"/>inesse materiae ; nam cum materia sit potentia in genere substantiae, id
+<lb ed="#L" n="12"/>quo primo perficitur est actus sive forma in genere substantiae, nec habet
+<lb ed="#L" n="13"/>ordinem ad aliquod accidens nisi mediante aliquo actu et forma substantiali.
+<lb ed="#L" n="14"/>Propter ' quod dicitur quod ens in pura potentia est subiectum formae
+<lb ed="#L" n="15"/>substantialis et transmutationis ad eam quae dicitur generatio simpliciter
+<lb ed="#L" n="16"/>et proprie. Dicitur autem substantia iam ens in actu per formam 
+substan<lb break="no" ed="#L" n="17"/>tialem, quod est esse in actu simpliciter et in potentia secundum quid, esse
+<lb ed="#L" n="18"/>subiectum cuiuslibet formae accidentalis et transmutationis ad eam quae
+<lb ed="#L" n="19"/>dicitur generatio secundum quid, quia est transmutatio ad esse secundum
+<lb ed="#L" n="20"/>quid sive ad formam quae non dat esse simpliciter sed esse secundum quid.
+<lb ed="#L" n="21"/>Dicitur enim talis transmutatio esse a subiecto in subiectum, quia ab ente
+<lb ed="#L" n="22"/>in actu secundum formam substantialem ad tale ens in actu variatum solum
+<lb ed="#L" n="23"/>secundum quid sive secundum formam accidentalem quam semper praecedit
+<lb ed="#L" n="24"/>in materia saltem ordine naturae forma substantialis qua subiectum est in
+<lb ed="#L" n="25"/>actu simpliciter. Unde nec sic potuit intelligere Commentator quantitatem
+<lb ed="#L" n="26"/>sive dimensionem  quamcumque sive terminatam sive indeterminatam 
+prae<lb break="no" ed="#L" n="27"/>cedentem formam substantialem in materia. Unde secundum hunc modum
+<lb ed="#L" n="28"/>non potest poni idem accidens numero esse in diversis substantiis vel
+<lb ed="#L" n="29"/>subiectis.
+</p>
+            <p xml:id="v27ab7-g10592-d1e455">
+               <lb ed="#L" n="30"/>Unde dicunt alii, ut videtur probabilius, quod quantitas quae non 
+deter<lb break="no" ed="#L" n="31"/>minat sibi aliquam formam substantialem materialem, quia nec aliqua forma
+<lb ed="#L" n="32"/>substantialis potest esse sine ea, et quaedam alia ? accidentia quae dicuntur
+<lb ed="#L" n="33"/>symbola quae etiam non determinant sibi  quasdam formas, immo quaedam
+<lb ed="#L" n="34"/>formae substantiales specie differentes sine talibus accidentibus esse non
+<lb ed="#L" n="35"/>habent, ut forma aeris et aquae sine humiditate, quaedam etiam si specie
+<lb ed="#L" n="36"/>differant et sine aliquibus talibus accidentibus esse possunt, tamen etiam
+<lb ed="#L" n="37"/>possunt esse sub eis, ut forma diversorum lignorum vel lapidum potest esse
+<pb ed="#L" n="127"/>
+               <lb ed="#L" n="1"/>et non esse sine albedine vel nigredine ; de omnibus talibus dicunt quod
+<lb ed="#L" n="2"/>unum accidens numero potest esse in diversis substantiis vel subiectis
+<lb ed="#L" n="3"/>specie differentibus. Et hoc sic ostendunt; nam cum talia accidentia non
+<lb ed="#L" n="4"/>determinant sibi aliquam talium formarum sive substantiarum compositarum,
+<lb ed="#L" n="5"/>quaecumque talium formarum  substantialium quantum est de se nata est
+<lb ed="#L" n="6"/>esse subiectum cuiuslibet talis accidentis secundum se, licet non secundum
+<lb ed="#L" n="7"/>eamdem determinationem quam necesse est variari secundum condicionem
+<lb ed="#L" n="8"/>formarum substantialium. Unde omnes tales substantiae secundum se 
+con<lb break="no" ed="#L" n="9"/>sideratae sunt talibus accidentibus indifferenter? quasi pro uno subiecto.
+</p>
+            <p xml:id="v27ab7-g10592-d1e497">
+               <lb ed="#L" n="10"/>Et si materia posset esse simul sub huiusmodi diversis formis 
+substan<lb break="no" ed="#L" n="11"/>tialibus, unum tale accidens numero quantum est de se et absolute posset
+<lb ed="#L" n="12"/>esse in talibus diversis subiectis simul, licet non posset propter diversitatem
+<lb ed="#L" n="13"/>terminationum quas non posset simul  habere secundum huiusmodi diversas
+<lb ed="#L" n="14"/>formas. Cum ergo materia quando transmutatur de una forma ad aliam
+<lb ed="#L" n="15"/>numquam sit sine altera formarum substantiallum quarum quaelibet cum
+<lb ed="#L" n="16"/>materia est subiectum huiusmodi? accidentis, videtur quod successive unum
+<lb ed="#L" n="17"/>accidens possit esse in huiusmodi duobus subiectis; et hoc modo dicitur
+<lb ed="#L" n="18"/>quod eadem quantitas dimensiva indeterminata est in generato et corrupto
+<lb ed="#L" n="19"/>et manet ingenerabilis et incorruptibilis et est ut  aliquid imperfectum
+<lb ed="#L" n="20"/>secundum se perfectibile secundum diversas terminatio nes. Ens in seipso?
+<lb ed="#L" n="21"/>in potentia ad diversas terminationes dimensivas, sicut materia prima ex
+<lb ed="#L" n="22"/>se est in potentia? ad diversas terminationes substantiales et huiusmodi
+<lb ed="#L" n="23"/>quantitatem in omni motu et transmutatione naturali ad quamcumque 
+for<lb break="no" ed="#L" n="24"/>mam oportet supponi in materia, ut videtur dicere et probare Commentator
+<lb ed="#L" n="25"/>in tractatu de Substantia orbis, et non solum contingit quantitatem eamdem
+<lb ed="#L" n="26"/>sic esse terminatam et indeterminatam et per diversas terminationes esse
+<lb ed="#L" n="27"/>in diversis subiectis, sed etiam qualitatem ; unde secundum hoc etiam
+<lb ed="#L" n="28"/>qualitates symbolae secundum esse et gradum interminatum inter magis
+<lb ed="#L" n="29"/>et minus manent eaedem in generato et corrupto, sed solum variantur
+<lb ed="#L" n="30"/>secundum gradus terminationis sub diversis formis substantialibus.
+</p>
+            <p xml:id="v27ab7-g10592-d1e545">
+               <lb ed="#L" n="31"/>Sed illud non videtur verum, quia licet ex praedictis bene sequitur
+<lb ed="#L" n="32"/>quod talia accidentia quantum est de se possint  esse in pluribus talibus '?
+<lb ed="#L" n="33"/>pro tanto quia nullum eorum sibi determinant, et ideo etiam in tali 
+trans<lb break="no" ed="#L" n="34"/>mutatione per se non corrumpuntur, ut patet de humiditate in aere et aqua,
+<lb ed="#L" n="35"/>sicut contraria accidentia, ut patet de caliditate et frigiditate in aqua et in
+<pb ed="#L" n="128"/>
+               <lb ed="#L" n="1"/>aere, tamen cum non sint in materia nisi mediante forma substantiali, sicut
+<lb ed="#L" n="2"/>universaliter corrupta forma substantiali oportet talia universaliter 
+cor<lb break="no" ed="#L" n="3"/>rumpi, ita corrupta hac forma substantiali oportet corrumpi hoc accidens
+<lb ed="#L" n="4"/>quod est in ipsa; quia non solum ex esse talis formae habet esse 
+termi<lb break="no" ed="#L" n="5"/>natum, sed esse simpliciter, quia non differunt realiter talis forma ' et sua
+<lb ed="#L" n="6"/>terminatio. Unde sicut quia tale accidens secundum se et secundum rationem
+<lb ed="#L" n="7"/>indeterminationis non determinat sibi aliquam formam substantialem, et ideo
+<lb ed="#L" n="8"/>praeter quamlibet sigillatim esse potest, quia cum non est in una potest
+<lb ed="#L" n="9"/>esse in alia, quia tamen ut sic determinat sibi formam substantialem in
+<lb ed="#L" n="10"/>communi per quam habet suum esse etiam tale et indeterminatum, ideo
+<lb ed="#L" n="11"/>non potest habere esse praeter omnem talem formam; ita etiam hoc accidens
+<lb ed="#L" n="12"/>determinatum non solum ratione suae determinationis determinat sibi hanc
+<lb ed="#L" n="13"/>formam secundum quam sic determinatur, sed in ratione suae entitatis 
+sin<lb break="no" ed="#L" n="14"/>gularis, scilicet ut hoc accidens in genere entis eam sic determinat quod
+<lb ed="#L" n="15"/>non habet hoc suum esse nisi ex esse huiusmodi formae substantialis. Ideo
+<lb ed="#L" n="16"/>illa forma substantiali corrupta secundum suum esse oportet etiam corrumpi
+<lb ed="#L" n="17"/>huiusmodi accidens secundum suum inesse. Sicut enim a forma substantiali
+<lb ed="#L" n="18"/>simpliciter non solum est indeterminatio quantitatis indeterminatae, sed
+<lb ed="#L" n="19"/>ipsum esse vel entitas talis quantitatis, et ideo, omni forma corrupta, omnino
+<lb ed="#L" n="20"/>corrumpitur; ita etiam ab hac forma singulari substantiali non solum est
+<lb ed="#L" n="21"/>haec determinatio huiusmodi quantitatis determinatae, sed ipsum esse 
+huius<lb break="no" ed="#L" n="22"/>modi quantitatis ? et sua entitas secundum id quod est, immo quicquid 
+enti<lb break="no" ed="#L" n="23"/>tatis est in ipso composito ; et ideo hac forma substantiali corrupta oportet
+<lb ed="#L" n="24"/>eam secundum id quod est corrumpi. Corrupto enim eo quod est prius
+<lb ed="#L" n="25"/>natura oportet corrumpi quod est posterius, licet non per se, sed corruptione
+<lb ed="#L" n="26"/>ipsius prioris; et ideo quia haec forma substantialis prius inest materiae
+<lb ed="#L" n="27"/>quam hoc accidens reale designatum, non potest corrumpi realitas formae
+<lb ed="#L" n="28"/>substantialis nisi corrumpatur realitas formae accidentalis.
+</p>
+            <p xml:id="v27ab7-g10592-d1e622">
+               <lb ed="#L" n="29"/>Qui ergo supponunt quod in generatione fiat resolutio usque ad 
+mate<lb break="no" ed="#L" n="30"/>riam primam, sic scilicet quod nihil pertinens ad formam substantialem quod
+<lb ed="#L" n="31"/>fuit in corrupto manet in generato, habent supponere quod etiam nihil
+<lb ed="#L" n="32"/>pertinens ad formam quamcumque accidentalem manet idem secundum
+<lb ed="#L" n="33"/>rem ; generationem enim simpliciter et secundum substantiam semper
+<lb ed="#L" n="34"/>concomifatur generatio secundum quid quae est secundum formam
+<lb ed="#L" n="35"/>accidentalem ; et generans per se substantiam generat vel causat ex 
+con<lb break="no" ed="#L" n="36"/>sequenti omnia accidentia illam concomitantia et corrumpens per se sub-
+<pb ed="#L" n="129"/>
+               <lb ed="#L" n="1"/>stantiam realiter corrumpit omnia accidentia illam consequentia, et hoc
+<lb ed="#L" n="2"/>propter corruptionem ipsius substantiae. Ouaedam enim per se 
+corrum<lb break="no" ed="#L" n="3"/>puntur, ut contraria, quae nec eadem specie nec eadem ! numero ? possunt
+<lb ed="#L" n="4"/>manere in generato propter diversitatem formarum secundum speciem
+<lb ed="#L" n="5"/>et naturam ; quaedam autem sic per accidens quod corruptione subiecti
+[quae] eadem secundum speciem possunt manere propter communicationem
+<lb ed="#L" n="6"/>naturarum et formarum substantialium respectu accidentium talium, sed
+<lb ed="#L" n="7"/>non possunt manere eadem numero propter variationem istarum formarum
+<lb ed="#L" n="8"/>secundum esse et non esse, ut dictum est.
+</p>
+            <p xml:id="v27ab7-g10592-d1e661">
+               <lb ed="#L" n="9"/>Cum ergo dicunt aliqui  quod quaedam accidentia sunt quae sunt in
+<lb ed="#L" n="10"/>composito ratione formae, quaedam autem ratione materiae; illa autem quae
+<lb ed="#L" n="11"/>insunt composito ?ratione formae eadem manere non possunt, quia non
+<lb ed="#L" n="12"/>manet eadem forma, sed ea quae ratione materiae insunt eadem manere
+<lb ed="#L" n="13"/>possunt 5, quia manet eadem materia; unde res corrupta et generata non
+<lb ed="#L" n="14"/>sunt aliud et aliud subiectum respectu eorum quae insunt ratione materiae ;
+<lb ed="#L" n="15"/>et ideo accidens quod sequitur materiam existens unum et idem in re 
+cor<lb break="no" ed="#L" n="16"/>rupta et generata non est in duobus subiectis ut duo sunt et ut differunt,
+<lb ed="#L" n="17"/>sed ut unum sunt et ut conveniunt ; — hoc non valet, quia hoc universaliter
+<lb ed="#L" n="18"/>convenit omni accidenti materiali per se quod eius subiectum per se et
+<lb ed="#L" n="19"/>immediatum est  compositum ex materia et forma substantiali. Unde omne
+<lb ed="#L" n="20"/>accidens per se convenit composito sic quod non potest aliquod accidens
+<lb ed="#L" n="21"/>respicere solam materiam ut per se subiectum eius.
+</p>
+            <p xml:id="v27ab7-g10592-d1e692">
+               <lb ed="#L" n="22"/>Sed accidentium quae sic sunt per se in toto composito quaedam
+<lb ed="#L" n="23"/>dicuntur inesse ratione formae, quaedam ratione materiae, non sic quod
+<lb ed="#L" n="24"/>quaedam sint in materia primo et per se et ex consequenti in composito
+<lb ed="#L" n="25"/>vel in forma in quantum etiam est in materia; alia vero sint" in forma
+<lb ed="#L" n="26"/>primo et per se et ex consequenti in materia in quantum in illa est forma;
+<lb ed="#L" n="27"/>sed sic quod quaedam accidentia dicuntur inesse composito ratione formae
+<lb ed="#L" n="28"/>vel consequi formam, quia ex ratione propria formae compositum est 
+deter<lb break="no" ed="#L" n="29"/>minatum ad talia accidentia, ut scilicet illud in quo est talis forma 
+substan<lb break="no" ed="#L" n="30"/>tialis sit? determinate sub talibus accidentibus et non sub aliis ; quaedam
+<lb ed="#L" n="31"/>autem dicuntur in esse composito ratione materiae vel consequi materiam
+<lb ed="#L" n="32"/>quia sicut materia secundum se non determinat sibi formam aliquam sub-
+<pb ed="#L" n="130"/>
+               <lb ed="#L" n="1"/>stantialem nec aliquam accidentalem immediate, sed mediante quadam forma
+<lb ed="#L" n="2"/>substantiali determinat sibi quaedam accidentia, et ideo illa non dicuntur
+<lb ed="#L" n="3"/>consequi materiam sed formam.
+</p>
+            <p xml:id="v27ab7-g10592-d1e727">
+               <lb ed="#L" n="4"/>Ita etiam sunt quaedam accidentia quae sicut materia secundum se non
+<lb ed="#L" n="5"/>determinat, ita etiam nec illa determinat mediantibus quibusdam formis
+<lb ed="#L" n="6"/>substantialibus, sed existens sub formis substantialibus diversis secundum
+<lb ed="#L" n="7"/>speciem potest esse mediantibus illis sub eisdem accidentibus secundum
+<lb ed="#L" n="8"/>speciem ' differentibus tantum numero, et ideo illa non dicuntur consequi
+<lb ed="#L" n="9"/>formam, scilicet hanc vel hanc determinate, sed  materiam, quia cum insunt
+<lb ed="#L" n="10"/>alicui composito ex materia et forma secundum aliquam speciem 
+deter<lb break="no" ed="#L" n="11"/>minatam in quantum tale compositum adhuc est in potentia ratione materiae
+<lb ed="#L" n="12"/>ut ex eo fiat aliud compositum secundum aliam formam specificam et illi
+<lb ed="#L" n="13"/>alteri composito nata sunt inesse eadem accidentia secundum speciem ;
+<lb ed="#L" n="14"/>ideo quia in materialibus omnis potentialitas ex materia oritur, sicut ex
+<lb ed="#L" n="15"/>potentialitate materiae est quod ipsa ens una secundum rem non determinat
+<lb ed="#L" n="16"/>sibi hanc formam substantialem vel illam, ita etiam, quia existens sub una
+<lb ed="#L" n="17"/>forma tali, ipsum totum compositum ex materia et forma tali non determinat
+<lb ed="#L" n="18"/>sibi tale accidens sic quin idem accidens secundum speciem possit esse in
+<lb ed="#L" n="19"/>composito ex eadem materia et alia forma. Hoc autem quod ex uno 
+com<lb break="no" ed="#L" n="20"/>posito potest fieri aliud compositum contingit ex potentialitate materiae.
+<lb ed="#L" n="21"/>Pro tanto dicuntur talia accidentia inesse ratione materiae, quia sicut
+<lb ed="#L" n="22"/>materia ratione suae indeterminationis secundum se potest transitum facere
+<lb ed="#L" n="23"/>de una forma substantiali ad aliam, ita etiam existens sub una forma 
+sub<lb break="no" ed="#L" n="24"/>stantiali cum aliquo tali accidente potest transitum facere ad aliam formam
+<lb ed="#L" n="25"/>substantialem manente eodem accidente secundum speciem, sicut et ipsa
+<lb ed="#L" n="26"/>manet eadem secundum rem, sicut etiam compositum unum et idem 
+secun<lb break="no" ed="#L" n="27"/>dum materiam potest variari secundum diversa accidentia specie, scilicet
+<lb ed="#L" n="28"/>secundum album et nigrum, quae dicuntur consequi materiam et non formam,
+<lb ed="#L" n="29"/>quia ipsum totum compositum ut est sub uno tali accidente manens unum
+<lb ed="#L" n="30"/>et idem non solum secundum speciem sed etiam secundum materiam, est
+<lb ed="#L" n="31"/>in potentia ad contrarium accidens.
+</p>
+            <p xml:id="v27ab7-g10592-d1e790">
+               <lb ed="#L" n="32"/>Nec est dicendum quod tale accidens dicatur consequi materiam? modo
+<lb ed="#L" n="33"/>praedicto, sed sic quia consequitur compositum ratione potentialitatis et
+<lb ed="#L" n="34"/>indifferentiae quae est in eo principaliter ratione potentialitatis et 
+indiffe<lb break="no" ed="#L" n="35"/>rentiae materiae. Unde quia talis forma non sic determinat materiam quod
+<lb ed="#L" n="36"/>materia existens sub tali forma substantiali non possit esse sub contrario
+<lb ed="#L" n="37"/>accidente, ideo tale accidens dicitur convenire tali composito non ratione
+<pb ed="#L" n="131"/>
+               <lb ed="#L" n="1"/>formae, sed ratione materiae. Similiter etiam est dicendum de accidentibus
+<lb ed="#L" n="2"/>symbolis ; quia etiam ! ibi forma substantialis non sic determinat materiam
+<lb ed="#L" n="3"/>ad tale accidens quod materia non possit esse sub eodem accidente 
+secun<lb break="no" ed="#L" n="4"/>dum speciem etiamsi  non sit sub eadem forma secundum speciem ; ideo
+<lb ed="#L" n="5"/>tale accidens dicitur convenire tali composito non ratione formae, sed ratione
+<lb ed="#L" n="6"/>materiae; sicut cum ? conceditur quod accidentia quae conveniunt ratione
+<lb ed="#L" n="7"/>formae non insunt tamquam per se in subiecto nisi composito ex materia
+<lb ed="#L" n="8"/>et tali forma secundum speciem sic determinata ; et ideo illo composito
+<lb ed="#L" n="9"/>corrupto et alio ex illo regenerato corrumpuntur etiam per se talia accidentia
+<lb ed="#L" n="10"/>propter contrarietatem ad aliud compositum, non solum propter 
+corrup<lb break="no" ed="#L" n="11"/>tionem subiecti. Ita etiam accidentia quae insunt ratione materiae non sunt
+<lb ed="#L" n="12"/>tanquam in subiecto per se nisi in composito ex materia et tali vel tali
+<lb ed="#L" n="13"/>forma, discurrendo per omnes formas mediantibus quibus possunt inesse ;
+<lb ed="#L" n="14"/>et secundum hoc etiam verum est quod, quia compositum ex pluribus talibus
+<lb ed="#L" n="15"/>formis est quasi pro uno subiecto alicui uni tali accidenti secundum speciem,
+<lb ed="#L" n="16"/>non oportet quod corrupto aliquo tali subiecto secundum formam 
+substan<lb break="no" ed="#L" n="17"/>tialem corrumpatur tale accidens secundum speciem, quia regeneratum ex
+<lb ed="#L" n="18"/>corrupto potest esse talis speciei cui convenit tale accidens et sic remanet
+<lb ed="#L" n="19"/>tali accidenti uni manenti secundum speciem conveniens subiectum ; unde
+<lb ed="#L" n="20"/>non cor rumpitur per se, scilicet propter contrarietatem ad aliud 
+compo<lb break="no" ed="#L" n="21"/>situm, sed manet unum accidens secundum speciem, quia etiam omnia talia
+<lb ed="#L" n="22"/>subiecta sunt ei quasi unum subiectum secundum speciem. Sed quia ad
+<lb ed="#L" n="23"/>hoc quod aliquod ? accidens diversificetur secundum materiam et dicatur
+<lb ed="#L" n="24"/>esse corruptum et regeneratum aliud et aliud secundum materiam sufficit
+<lb ed="#L" n="25"/>quod eius esse vel entitas actualis interrumpatur non obstante quod?
+<lb ed="#L" n="26"/>maneat eadem materia vel idem subiectum, — unde si aliquid sit calidum
+<lb ed="#L" n="27"/>in mane et frigidum in meridie et iterum calidum in vespere constat quod
+<lb ed="#L" n="28"/>est alia et alia caliditas  secundum essentiam, ita etiam cum faeta 
+inter<lb break="no" ed="#L" n="29"/>ruptione in esse et entitate subiecti oporteat fieri interruptionem in esse
+<lb ed="#L" n="30"/>et entitate omnium illorum quae subiecto insunt et non habent esse nisi
+<lb ed="#L" n="31"/>per esse subiecti, — cum ex composito uno secundum substantiam aliud
+<lb ed="#L" n="32"/>compositum generatur, oportet quod variatio fiat non solum secundum
+<lb ed="#L" n="33"/>formam substantialem, sed etiam in omnibus quae composito insunt. Sed
+<lb ed="#L" n="34"/>verum est quod, sicut dictum est, secundum quaedam fit variatio et 
+trans<lb break="no" ed="#L" n="35"/>mutatio per se, scilicet ratione contrarietatis quae est inter illa; secundum
+<lb ed="#L" n="36"/>quaedam autem ratione interruptionis quae necessario intervenit in esse
+<pb ed="#L" n="132"/>
+               <lb ed="#L" n="1"/>et entitate illorum. Verum est ergo quod unum et idem accidens secundum
+<lb ed="#L" n="2"/>speciem potest esse in duabus substantiis quarum una est ex alia generata ;
+<lb ed="#L" n="3"/>et in hoc proprie non dicitur esse in duobus subiectis, quia ambae tales
+<lb ed="#L" n="4"/>substantiae sunt ei quasi pro uno subiecto etiam secundum speciem. Et
+<lb ed="#L" n="5"/>similiter verum est quod illud accidens quod est unum secundum speciem
+<lb ed="#L" n="6"/>non est in talibus duobus ut duo sunt et ut differunt, sed ut sunt unum
+<lb ed="#L" n="7"/>et conveniunt. Sed quod unum accidens secundum numerum sit in pluribus
+<lb ed="#L" n="8"/>subiectis non solum differentibus secundum speciem, sed etiam eiusdem
+<lb ed="#L" n="9"/>speciei quorum unum prius habuit esse et aliud est regeneratum et sic
+<lb ed="#L" n="10"/>oportet totam entitatem et actualitatem corruptam fuisse, hoc est 
+impos<lb break="no" ed="#L" n="11"/>sibile. Licet enim talia non sint plura subiecta respectu talis accidentis !,
+<lb ed="#L" n="12"/>ut considerantur haec  secundum se et secundum rationem speciei, scilicet
+<lb ed="#L" n="13"/>subiecta  corrupta et regenerata, non considerantur secundum se nisi ut
+<lb ed="#L" n="14"/>unum subiectum respectu talis accidentis secundum se et secundum speciem
+<lb ed="#L" n="15"/>suam ', tamen ut considerantur haec ut secundum suum esse reale, facta est
+<lb ed="#L" n="16"/>in eis interruptio; et verum est de corrupto quod aliquando fuit et nunc non
+<lb ed="#L" n="17"/>est et de generato quod aliquando non fuit et nunc est; ideo illa oportet
+<lb ed="#L" n="18"/>esse plura subiecta ratione interruptionis secundum corruptionem et 
+rege<lb break="no" ed="#L" n="19"/>nerationem ; et ideo licet humiditas aquae generatae ex aere non dicatur
+<lb ed="#L" n="20"/>esse alia ab humiditate aeris propter repugnantiam aquae et aeris secundum
+<lb ed="#L" n="21"/>se et secundum suas formas, quia utrique convenit, dicitur tamen alia propter
+<lb ed="#L" n="22"/>eius interruptionem et corruptionem quam habet in corruptione aeris ; et
+<lb ed="#L" n="23"/>ideo humiditas existens in aqua et aere est alia et alia propter alietatem 
+<lb ed="#L" n="24"/>subiecti secundum interruptionem. Praemissis autem non videntur obviare
+<lb ed="#L" n="25"/>rationes Commentatoris si considerentur.
+</p>
+            <p xml:id="v27ab7-g10592-d1e942">
+               <lb ed="#L" n="26"/>Cum arguitur de cicatricibus manentibus quae fundantur per se in
+<lb ed="#L" n="27"/>quanto et similiter posset argui de aliis accidentibus, scilicet qualitatibus
+<lb ed="#L" n="28"/>symbolis, dicendum quod differunt numero, sed sunt adeo similia quod
+<lb ed="#L" n="29"/>sensus inter ea discernere non potest. Ouomodo aliqui autem pertractant
+<lb ed="#L" n="30"/>hoc argumentum nitentes ostendere quod necessario sunt eadem numero ;
+<lb ed="#L" n="31"/>ex quo ulterius nituntur ostendere quod necessarium est propter hoc ponere
+<lb ed="#L" n="32"/>in homine plures formas substantiales innitentes praedictae suppositioni,
+<lb ed="#L" n="33"/>scilicet quod idem accidens numero manere non potest nisi manente eadem
+<lb ed="#L" n="34"/>forma substantiali et quomodo haec pertractatio non concludit, alias 
+<lb ed="#L" n="35"/>dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

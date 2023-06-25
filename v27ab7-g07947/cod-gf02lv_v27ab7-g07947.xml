@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="92"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g07947"><!-- v27ab7-q6-q1 -->
+            <head xml:id="v27ab7-g07947-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-g07947-Hd1e101" type="question-title">
+      Utrum intellectu et voluntate existentibus perfectis habitibus
+      gloriosis, Deus posset se abstrahere
+    </head>
+            <p xml:id="v27ab7-g07947-d1e104">
+               <pb ed="#L" n="92"/>
+               <lb ed="#L" n="1"/>QUODLIBETUM SEXTUM
+<lb ed="#L" n="2"/>QUAESTIO I.
+<lb ed="#L" n="3"/>Utrum, intellectu et voluntate. existentibus perfectis habitibus
+<lb ed="#L" n="4"/>gloriosis, Deus posset se abstrahere.
+</p>
+            <p xml:id="v27ab7-g07947-d1e117">
+               <lb ed="#L" n="5"/>Quaerebantur quaedam circa Deum et quaedam circa creaturas. Circa
+<lb ed="#L" n="6"/>Deum quaerebantur duo pertinentia ad eius potentiam.
+</p>
+            <p xml:id="v27ab7-g07947-d1e124">
+               <lb ed="#L" n="7"/>Primum erat utrum, intellectu et voluntate existentibus ! perfectis 
+habi<lb break="no" ed="#L" n="8"/>tibus gloriosis, Deus posset se sic abstrahere ab intellectu et voluntate,
+<lb ed="#L" n="9"/>quod nec ? videretur ab intellectu, nec diligeretur a voluntate, aut sic quod
+<lb ed="#L" n="10"/>videretur ab intellectu sed non diligeretur a voluntate, aut e converso. 
+Secun<lb break="no" ed="#L" n="11"/>dum erat utrum Deus possit motum qui fuit eumdem numero reparare.
+</p>
+            <p xml:id="v27ab7-g07947-d1e138">
+               <lb ed="#L" n="12"/>Ad primum arguebatur quod non, quia cum Deus sit omnino 
+inva<lb break="no" ed="#L" n="13"/>riabilis, eo modo quo aliquando se habet ad creaturas semper se habet
+<lb ed="#L" n="14"/>ad illas; ergo similiter, eodem modo se habente creatura ad Deum, idem est
+<lb ed="#L" n="15"/>actus creaturae respectu Dei. Sed cum ponitur quod intellectus et voluntas
+<lb ed="#L" n="16"/>sunt perfecti habitibus gloriosis, ponitur perfecta dispositio illarum 
+poten<lb break="no" ed="#L" n="17"/>tiarum respectu actuum intelligendi et diligendi, et ponitur quod etiam in
+<lb ed="#L" n="18"/>ista dispositione invariabiliter permaneant. Similiter etiam Deus in eadem
+<lb ed="#L" n="19"/>dispositione invariabiliter se habet respectu istorum sub ratione obiecti,
+<lb ed="#L" n="20"/>cum ipse? etiam ubique sit praesentialiter; ergo sequitur actus uterque ,
+<lb ed="#L" n="21"/>scilicet intelligendi et diligendi.
+</p>
+            <p xml:id="v27ab7-g07947-d1e162">
+               <lb ed="#L" n="22"/>Deinde arguebatur quod posset se? substrahere quantum ad unum
+<lb ed="#L" n="23"/>actum, ita quod alius actus remaneret perfectus. Nam quaecumque 
+essen<lb break="no" ed="#L" n="24"/>tialiter differunt, Deus illa potest ab invicem separare. Sed actus videndi
+<pb ed="#L" n="93"/>
+               <lb ed="#L" n="1"/>Deum et actus diligendi ipsum sunt essentialiter differentes. Ergo poterit
+<lb ed="#L" n="2"/>Deus facere quod ab intellectu alicuius immediate videatur vel intelligatur,
+<lb ed="#L" n="3"/>et tamen ab eius voluntate non diligeretur, vel etiam e converso.
+</p>
+            <p xml:id="v27ab7-g07947-d1e180">
+               <lb ed="#L" n="4"/>Deinde arguebatur quod etiam naturaliter hoc potest esse, quia voluntas
+<lb ed="#L" n="5"/>non fertur in aliquid per actum dilectionis nisi sit apprehensum sub ratione
+<lb ed="#L" n="6"/>boni. Sed aliquis potest Deum intelligere vel videre sub ratione entis vel
+<lb ed="#L" n="7"/>essentiae suae simpliciter, absque hoc quod intelligat ipsum sub ratione
+<lb ed="#L" n="8"/>boni. Ergo poterit ipsum intelligere absque hoc quod ipsum diligat. Minor
+<lb ed="#L" n="9"/>probatur: quia eo quod sapientia et bonitas in Deo differunt ratione, 
+intel<lb break="no" ed="#L" n="10"/>lectus potest apprehendere Deum sub ratione sapientiae etsi ! non 
+appre<lb break="no" ed="#L" n="11"/>henderit? eum sub ratione bonitatis. Ergo similiter, quia verum et bonum
+<lb ed="#L" n="12"/>sive etiam Deus ut est obiectum intellectus sub ratione entitatis et suae
+<lb ed="#L" n="13"/>essentiae absolutae, et ut est obiectum voluntatis sub ratione bonitatis
+<lb ed="#L" n="14"/>differunt ratione, poterit apprehendi sub una ratione, absque hoc quod
+<lb ed="#L" n="15"/>sub alia apprehendatur.
+</p>
+            <p xml:id="v27ab7-g07947-d1e209">
+               <lb ed="#L" n="16"/>Sed contra. Cum beatitudo principaliter consistat in actu intellectus
+<lb ed="#L" n="17"/>secundum aliquos, secundum hoc posset aliquis esse beatus absque aliquo
+<lb ed="#L" n="18"/>actu ? voluntatis.
+</p>
+            <p xml:id="v27ab7-g07947-d1e218">
+               <lb ed="#L" n="19"/>Contra. Illud etiam quod primo concludebatur arguebatur sic. Eadem
+<lb ed="#L" n="20"/>videtur esse proportio Dei sub ratione obiecti ad istas potentias et Dei sive
+<lb ed="#L" n="21"/>suppositi divini sub ratione suppositi ad naturam assumptam. Sed Deus
+<lb ed="#L" n="22"/>potest se substrahere sub ratione suppositi a natura humana, sic quod
+<lb ed="#L" n="23"/>naturam assumptam sibi relinqueret nec in se ipsum per modum hypostasis
+<lb ed="#L" n="24"/>substantificaret. Ergo similiter in proposito : Deus poterit se substrahere
+<lb ed="#L" n="25"/>a dictis potentiis sub ratione obiecti, sic quod neutram illarum immutaret.
+</p>
+            <p xml:id="v27ab7-g07947-d1e236">
+               <lb ed="#L" n="26"/>Et iterum si non posset se substrahere dicto modo, tunc non posset
+<lb ed="#L" n="27"/>etiam se uni plus manifestare quam alteri, nec uni et eidem aliquando plus,
+<lb ed="#L" n="28"/>aliquando minus ; quod est inconveniens.
+</p>
+            <p xml:id="v27ab7-g07947-d1e246">
+               <lb ed="#L" n="29"/>Respondeo dicendum quod quaestio proposita supponit unum quod
+<lb ed="#L" n="30"/>communiter supponitur, licet forte non appareat quomodo hoc sit 
+neces<lb break="no" ed="#L" n="31"/>sarium, videlicet quod natura rationalis non  possit Deum aperte et 
+imme<lb break="no" ed="#L" n="32"/>diate videre secundum intellectum, nec proportionaliter diligere secundum
+<lb ed="#L" n="33"/>affectum, nisi utraque potentia sit perfecta et elevata habitu et dispositione
+<lb ed="#L" n="34"/>supernaturali, quia forte videretur alicui quod natura rationalis, eo quod
+<lb ed="#L" n="35"/>talis natura, in suis puris naturalibus est capax beatitudinis quae consistit
+<lb ed="#L" n="36"/>in praedictis actibus voluntatis et intellectus, licet ad huiusmodi beatitu-
+<pb ed="#L" n="94"/>
+               <lb ed="#L" n="1"/>dinem ex se et virtute suorum naturalium principiorum non possit 
+per<lb break="no" ed="#L" n="2"/>venire. Sed mere gratuite potest se Deus, si vult, in ratione obiecti unire,
+<lb ed="#L" n="3"/>sicut etiam natura rationalis absque aliquo habitu infuso potest assumi a
+<lb ed="#L" n="4"/>supposito divino, licet ponatur de congruo esse in natura nunc assumpta
+<lb ed="#L" n="5"/>aliqua gratia habitualis, sicut etiam ab aliquibus ponitur quod natura
+<lb ed="#L" n="6"/>assumpta perfecta beatitudine frui potest absque tali habitu. Prout enim dicit
+<lb ed="#L" n="7"/>Augustinus , rationalis natura eo est ad Dei imaginem, quo capax eius est
+<lb ed="#L" n="8"/>particepsque esse potest; est autem secundum sua naturalia ad imaginem
+<lb ed="#L" n="9"/>Dei et cetera. Unde sicut materia prima est in potentia ad omnem formam
+<lb ed="#L" n="10"/>naturalem recipiendam immediate, sic videtur quod intellectus creatus est
+<lb ed="#L" n="11"/>in potentia ad recipiendum cognitionem cuiuslibet intelligibilis quo capax
+<lb ed="#L" n="12"/>est immediate, si ipsum intelligibile sit  praesens in ratione obiecti; et quia
+<lb ed="#L" n="13"/>illud idem secundum rem quod est obiectum intellectus in ratione 
+cognos<lb break="no" ed="#L" n="14"/>cendi, est obiectum voluntatis in ratione diligendi, similiter etiam videtur
+<lb ed="#L" n="15"/>quod voluntas sit in potentia ad recipiendum immediate omnem dilectionem
+<lb ed="#L" n="16"/>cuius est capax, praesente diligibili in ratione obiecti. Sed quia hoc non
+<lb ed="#L" n="17"/>tenetur quod hoc sit possibile, quia etiam, esto quod ita esset, adhuc
+<lb ed="#L" n="18"/>haberet locum quaestio praesens quantum ad id difficultatis quod in ea
+<lb ed="#L" n="19"/>videtur esse; ideo supposito, sicut supponitur communiter, quod rationalis
+<lb ed="#L" n="20"/>natura non potest Deum videre vel diligere beatifice, nisi sint eius praedictae
+<lb ed="#L" n="21"/>potentiae per habitus gloriosos elevatae et perfectae, et quod illis habitibus
+<lb ed="#L" n="22"/>inexistentibus Deum sic potest diligere et videre, habet locum praedicta
+<lb ed="#L" n="23"/>quaestio quae secundum deductionem argumentorum videtur duo 
+princi<lb break="no" ed="#L" n="24"/>paliter quaerere. Primo, scilicet an Deus possit se substrahere quantum ad
+<lb ed="#L" n="25"/>utramque potentiam quod nec videretur nec diligeretur beatifice, etiam 
+<lb ed="#L" n="26"/>utraque potentia disposita habitu gloriae. Secundo, supposito quod sic,
+<lb ed="#L" n="27"/>an posset se sic substrahere quantum ad alteram potentiam quod posset
+<lb ed="#L" n="28"/>videri ab intellectu absque hoc quod diligeretur  et e converso.
+</p>
+            <p xml:id="v27ab7-g07947-d1e329">
+               <lb ed="#L" n="29"/>Et quantum ad primo quaesitum est dicendum, quod de potentia Dei
+<lb ed="#L" n="30"/>dupliciter loqui possumus, uno modo de potentia eius absoluta, alio modo
+<lb ed="#L" n="31"/>de potentia eius ordinata. Loquendo ergo de eius potentia absoluta, sic
+<lb ed="#L" n="32"/>Deus absque sui  mutatione potuisset numquam aliquam creaturam fecisse,
+<lb ed="#L" n="33"/>id est esse existentiae non influxisse, et etiam omnem creaturam nunc
+<lb ed="#L" n="34"/>existentem in nibilum redigere, et etiam creaturam quantumcumque perfecte
+<lb ed="#L" n="35"/>dispositam ad perfectionem quamcumque sive substantialem sive 
+acciden<lb break="no" ed="#L" n="36"/>talem conservare in esse absque huiusmodi perfectione, huiusmodi perfec-
+<pb ed="#L" n="95"/>
+               <lb ed="#L" n="1"/>tionem non influendo vel causando,et iam influxam vel causatam substrahere,
+<lb ed="#L" n="2"/>sive amplius non ! influere. Verbi gratia, corpore humano perfecte organisato ?
+<lb ed="#L" n="3"/>et disposito ad animae rationalis susceptionem, posset Deus de potentia
+<lb ed="#L" n="4"/>absoluta animam non creare nec infundere ; posset etiam rationalem naturam
+<lb ed="#L" n="5"/>perfectam habitibus praedictis conservare in esse absque huiusmodi actibus,
+<lb ed="#L" n="6"/>sive hos actus quorum ipse Deus est causa efficiens non effluere, de quo est
+<lb ed="#L" n="7"/>quaestio, et iam causatos substrahere sive ab influendo ? illos cessare, prout
+<lb ed="#L" n="8"/>dicitur quod de potentia absoluta posset Petrum damnare. Cuius ratio est
+<lb ed="#L" n="9"/>quod Deus propria et libera voluntate et non ex aliqua necessitate agit
+<lb ed="#L" n="10"/>absque mutatione sui secundum formam suae voluntatis aeternae. Tamen
+<lb ed="#L" n="11"/>quia de novo nihil potest velle ad rerum productionem et ad earum 
+conser<lb break="no" ed="#L" n="12"/>vationem, sicut ergo res iam divina voluntate et actione productas in esse
+<lb ed="#L" n="13"/>actione sua  et in esse conservatas posset huiusmodi res in nihilum redigere,
+<lb ed="#L" n="14"/>huiusmodi suam influentiam voluntate propria et libera substrahendo sive
+<lb ed="#L" n="15"/>ab influendo cessare, secundum quod dicit Augustinus .quarto super 
+Gene<lb break="no" ed="#L" n="16"/>sim ad litteram, dicens quod si aliquando virtus Dei ab eis quae creata sunt
+<lb ed="#L" n="17"/>regendis cessaret, simul et illorum cessaret species, omnisque natura ? 
+con<lb break="no" ed="#L" n="18"/>cideret; — ita etiam sua propria voluntate posset perfectiones ad quas 
+reci<lb break="no" ed="#L" n="19"/>piendas creatura rationalis est perfecte disposita non influere; et sic posset
+<lb ed="#L" n="20"/>se Deus substrahere quod, quantumcumque rationalis natura esset perfecte
+<lb ed="#L" n="21"/>disposita, nec videretur nec diligeretur ab ea. Unde dicit Augustinus de
+<lb ed="#L" n="22"/>videndo Deo: non sicut visibilia videntur; supple: videtur Deus in cuius
+<lb ed="#L" n="23"/>voluntate situm est videri et cuius naturae est non videri; nam  si non vult
+<lb ed="#L" n="24"/>non videtur, si vult videtur.
+</p>
+            <p xml:id="v27ab7-g07947-d1e403">
+               <lb ed="#L" n="25"/>Si vero loquamur de potentia Dei in ordine ad suam sapientiam et
+<lb ed="#L" n="26"/>praescientiam, sic non posset se substrahere dicto modo. Quia ad hoc Deus
+<lb ed="#L" n="27"/>dat dictos huiusmodi habitus et dispositiones, ut per hoc dictae potentiae
+<lb ed="#L" n="28"/>eleventur et dignae fiant ad percipiendum huiusmodi actus a Deo immediate
+<lb ed="#L" n="29"/>influendos et causandos sua praesentia in ratione obiecti ad hos actus
+<lb ed="#L" n="30"/>moventis et agentis.
+</p>
+            <p xml:id="v27ab7-g07947-d1e419">
+               <lb ed="#L" n="31"/>Quantum ad secundo quaesitum vero est dicendum quod non posset
+<lb ed="#L" n="32"/>se substrahere quantum ad actum videndi et intelligendi, quin. substraheret
+<lb ed="#L" n="33"/>se quantum ad actum diligendi. Nam cum obiectum voluntatis sine cuius
+<lb ed="#L" n="34"/>praesentia non potest voluntas esse in actu volendi vel diligendi Deum,
+<lb ed="#L" n="35"/>non sit res secundum quod est  aliquid secundum se, sed secundum quod
+<lb ed="#L" n="36"/>apprehensa ? (sicut enim  obiectum appetitus sensitivi est bonum appre-
+<pb ed="#L" n="96"/>
+               <lb ed="#L" n="1"/>hensum secundum sensum, ita obiectum voluntatis est bonum apprehensum
+<lb ed="#L" n="2"/>secundum intellectum, et ideo actus diligendi de necessitate includens suum
+<lb ed="#L" n="3"/>obiectum, includit etiam actum intelligendi quo habet praesens obiectum,
+<lb ed="#L" n="4"/>et quo subtracto subtrahitur) patet quod impossibile est aliquid diligi nisi
+<lb ed="#L" n="5"/>cognoscatur, prout dicit Augustinus  quod invisa diligere possimus, 
+inco<lb break="no" ed="#L" n="6"/>gnita autem nequaquam. Si ergo ponatur dilectio beatifica sine cognitione,
+<lb ed="#L" n="7"/>ponetur et negabitur idem; et sic contradictoria simul erunt; quia inquantum
+<lb ed="#L" n="8"/>aufertur cognitio, obiectum voluntatis aufertur; quare etiam actus. Item
+<lb ed="#L" n="9"/>ponendo quod sit dilectio ponitur obiectum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e456">
+               <lb ed="#L" n="10"/>Sed an possit substrahere se quantum ad actum diligendi et efficere
+<lb ed="#L" n="11"/>actum cognoscendi visione aperta, non est ita manifestum. Primo propter
+<lb ed="#L" n="12"/>hoc quod aliqui ponunt, quod secundum doctrinam Augustini, undecimo de
+<lb ed="#L" n="13"/>Trinitate, capitulo octavo et nono , nisi adsit intentio voluntatis  copulans 
+<lb ed="#L" n="14"/>parentem proli nihil omnino contingit intelligere.
+</p>
+            <p xml:id="v27ab7-g07947-d1e469">
+               <lb ed="#L" n="15"/>Nec enim potest esse iudicium de re aliqua sine intentione voluntatis ;
+<lb ed="#L" n="16"/>nam quod aliquis dicatur iudicare de aliquo ad quod nullo modo est attentus
+<lb ed="#L" n="17"/>vel intentus est inconveniens. Dicere autem quod nos intelligimus aliquid
+<lb ed="#L" n="18"/>de quo nec iudicamus nec iudicare possumus, immo de illo nec sciremus
+<lb ed="#L" n="19"/>nec possemus iudicare utrum se haberet sic vel sic, et utrum esset hoc vel
+<lb ed="#L" n="20"/>illud, est falsum et irrationabile. Si ergo virtute divina sic fieret motio in
+<lb ed="#L" n="21"/>intellectu quod nulla ex hoc fieret motio in voluntate, nullum esset iudicium
+<lb ed="#L" n="22"/>et per consequens non esset ibi proprie intellectio. Ex hoc autem videtur
+<lb ed="#L" n="23"/>sequi quod si non contingit intellimere Deum sine velle intelligere absque
+<lb ed="#L" n="24"/>eo quod concurrat ibi intentio voluntatis, [quod] non contingit intelligere
+<lb ed="#L" n="25"/>Deum sine diligere ipsum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e496">
+               <lb ed="#L" n="26"/>Hoc patet ex parte eius quod diligitur. Bonum enim apprehensum est
+<lb ed="#L" n="27"/>motivum voluntatis. Sicut ergo illud quod nullo modo potest apprehendi
+<lb ed="#L" n="28"/>sub ratione boni nullo modo potest esse appetibile et ideo nullus potest
+<lb ed="#L" n="29"/>velle esse miser, sic etiam illud  quod nullo modo potest apprehendi nisi
+<lb ed="#L" n="30"/>sub ratione boni, nullo modo potest apprehendi nisi appetatur, et propter
+<lb ed="#L" n="31"/>hoc quilibet de necessitate vult esse beatus, quia beatitudo non potest
+<lb ed="#L" n="32"/>apprehendi nisi sub ratione boni. Cum ergo Deus visus non possit 
+appre<lb break="no" ed="#L" n="33"/>hendi nisi sub ratione boni, non potest videri nisi diligatur, quia, ut dictum
+<lb ed="#L" n="34"/>est, non contingit nos aliquid intelligere nisi concurrat ibi intentio voluntatis.
+</p>
+            <p xml:id="v27ab7-g07947-d1e518">
+               <lb ed="#L" n="35"/>Item hoc patet ex parte modi intelligendi qui non potest esse nisi
+<lb ed="#L" n="36"/>delectabilis, et quia modus intelligendi Deum est ut unitive feramur in
+<pb ed="#L" n="97"/>
+               <lb ed="#L" n="1"/>ipsum; ratione modi ergo intelligendi delectabile erit esse in Deo et 
+nun<lb break="no" ed="#L" n="2"/>quam averti ab ipso, quod non poterit esse sine dilectione Dei.
+</p>
+            <p xml:id="v27ab7-g07947-d1e531">
+               <lb ed="#L" n="3"/>Item, hoc patet ex parte ipsorum intelligentium, nam videntes vident
+<lb ed="#L" n="4"/>quod bonum eorum magis est in Deo quam in se ipsis. Sicut ergo nullus
+<lb ed="#L" n="5"/>potest non diligere se ipsum, ita multo magis nullus videns Deum poterit
+<lb ed="#L" n="6"/>non diligere ipsum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e542">
+               <lb ed="#L" n="7"/>Sed iste modus ponendi non videtur valere , quia etsi verum est quod
+<lb ed="#L" n="8"/>ad hoc quod intellectus possit intelligere proprie vel iudicare requiratur
+<lb ed="#L" n="9"/>aliquis actus voluntatis, quia scilicet ibi oportet esse attentionem vel 
+inten<lb break="no" ed="#L" n="10"/>tionem voluntatis, tamen talis actus voluntatis non est ille de quo loquimur,
+<lb ed="#L" n="11"/>quia actus voluntatis quo amat aliquid apprehensum praesupponit actum
+<lb ed="#L" n="12"/>inteligendi completum, et quantum ad apprehensionem per ' simplicem
+<lb ed="#L" n="13"/>informationem et quantum ad iudicium superveniens. Et ideo quaecumque
+<lb ed="#L" n="14"/>circa hoc diffuse dicuntur, nihil faciunt ad propositum. Constat enim quod
+<lb ed="#L" n="15"/>talis intentio voluntatis etiam est in actu intelligendi pure speculativo, ad
+<lb ed="#L" n="16"/>quem ulterius proprie non sequitur amor vel dilectio prout nunc loquimur. 
+</p>
+            <p xml:id="v27ab7-g07947-d1e566">
+               <lb ed="#L" n="17"/>Praeterea, constat quod talis intentio voluntatis de qua loquitur 
+Augus<lb break="no" ed="#L" n="18"/>tinus ita est necessaria respectu actus intelligendi quo intelliguntur mala
+<lb ed="#L" n="19"/>et fugienda, sicut respectu illius quo intelliguntur bona et diligenda. Si ergo
+<lb ed="#L" n="20"/>propter huiusmodi intentionem voluntatis oporteret ponere quod bonum
+<lb ed="#L" n="21"/>cognitum non posset non diligi dilectione de qua nunc loquimur, similiter
+<lb ed="#L" n="22"/>etiam non posset malum cognosci nisi etiam consimiliter diligeretur, quod
+<lb ed="#L" n="23"/>est inconveniens manifestum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e584">
+               <lb ed="#L" n="24"/>Cum ulterius dicitur quod nullus potest velle esse miser, ergo nullus
+<lb ed="#L" n="25"/>potest non velle esse beatus, non sequitur etiam nullo alio supposito. Immo
+<lb ed="#L" n="26"/>cum dicere quod aliquis non potest velle esse miser nihil aliud sit quam
+<lb ed="#L" n="27"/>dicere quod non potest diligere et appetere miseriam, et sic negatur actus
+<lb ed="#L" n="28"/>praesens voluntatis, ita debet inferri quod aliquis non potest odire vel fugere
+<lb ed="#L" n="29"/>beatitudinem ut ponatur etiam actus voluntatis contrarius affirmatus. Si
+<lb ed="#L" n="30"/>autem dicatur quod cogitans de miseria non potest eam non detestari et
+<lb ed="#L" n="31"/>non refugere, tunc debet inferri quod videns beatitudinem non potest eam
+<lb ed="#L" n="32"/>non appetere et non diligere. Et qui diceret quod Deus posset  suspendere
+<lb ed="#L" n="33"/>talem actum voluntatis qui est dilipere bonum apprehensum, haberet etiam
+<lb ed="#L" n="34"/>dicere quod posset suspendere contrarium qui est odire malum apprehen-
+<pb ed="#L" n="98"/>
+               <lb ed="#L" n="1"/>sum. Et si arguitur ita esse quod cogitans de miseria, quia apprehendit
+<lb ed="#L" n="2"/>ilam omnimode sub ratione mali, de necessitate de illa cogitans ipsam
+<lb ed="#L" n="3"/>refugit, odit et detestatur, ergo ita erit in proposito, diceretur quod verum
+<lb ed="#L" n="4"/>est, si Deus totaliter permitteret res agere secundum naturas proprias,
+<lb ed="#L" n="5"/>influens in illis efficientiam causalitatis, secundum quod communiter dicitur
+<lb ed="#L" n="6"/>influere communi influentia, cogitans sic de miseria ipsam refugeret et
+<lb ed="#L" n="7"/>odiret ; et similiter cogitans de beatitudine ipsam appeteret' et diligeret.
+<lb ed="#L" n="8"/>Sed posito quod Deus posset huiusmodi efficientiam rerum particularium
+<lb ed="#L" n="9"/>impedire et operationes earum substrahere et suspendere, diceretur quod
+<lb ed="#L" n="10"/>posset actum intellectus tam respectu miseriae quam respectu beatitudinis
+<lb ed="#L" n="11"/>conservare, et actus praedictos voluntatis suspendere et substrahere, nisi
+<lb ed="#L" n="12"/>hoc alio modo quam dictum est improbetur.
+</p>
+            <p xml:id="v27ab7-g07947-d1e640">
+               <lb ed="#L" n="13"/>Cum dicitur ulterius quod talis modus intelligendi et videndi Deum
+<lb ed="#L" n="14"/>non est sine delectatione, verum est; sed ista delectatio, etsi sit aliquid
+<lb ed="#L" n="15"/>pertinens ad voluntatem, non est actus tamen voluntatis quo Deus diligatur,
+<lb ed="#L" n="16"/>nec etiam consequens talem actum, sed solum consequens actum videndi.
+<lb ed="#L" n="17"/>Unde quod aliquis sic videns Deum non velit ab ipso separari, hoc non est
+<lb ed="#L" n="18"/>propter amorem Dei secundum se, sed propter amorem actus videndi qui
+<lb ed="#L" n="19"/>secundum se  est delectabilis, et quo non vult privari. Videns enim Deum,
+<lb ed="#L" n="20"/>secundum quod huiusmodi appetit Deum cognoscere, et amat huiusmodi
+<lb ed="#L" n="21"/>cognitionem, et Deum etiam secundum quod cognitus, non autem ex hoc
+<lb ed="#L" n="22"/>solum amat eum ut est aliquod  bonum secundum se diligibile dilectione
+<lb ed="#L" n="23"/>amicitiae de qua nunc loquimur.
+</p>
+            <p xml:id="v27ab7-g07947-d1e666">
+               <lb ed="#L" n="24"/>Cum dicitur ulterius quod non potest quis se non diligere, ergo etiam
+<lb ed="#L" n="25"/>videns Deum non potest ipsum non diligere, dicendum quod hoc non valet ;
+<lb ed="#L" n="26"/>quia qui sic diligit Deum, diligit ipsum dilectione concupiscentiae, scilicet
+<lb ed="#L" n="27"/>propter bonum proprium, non autem per se dilectione amicitiae de qua
+<lb ed="#L" n="28"/>nunc loquimur. Licet ergo cognoscens se et volens et amans se esse et
+<lb ed="#L" n="29"/>vivere, et apprehendens quod ista non possunt sibi inesse nisi Deo existente
+<lb ed="#L" n="30"/>et vivente, non possit non velle Deum esse et vivere et ipsum non amare,
+<lb ed="#L" n="31"/>ex hoc tamen non sequitur quod non possit eum non diligere secundum
+<lb ed="#L" n="32"/>quod de dilectione nunc loquimur; immo etiam supposito quod ita esset,
+<lb ed="#L" n="33"/>quod non posset non diligi sic, constat tamen quod illa dilectio esset alia
+<lb ed="#L" n="34"/>secundum essentiam et alterius rationis, quia esset dilectio amicitiae.
+</p>
+            <p xml:id="v27ab7-g07947-d1e692">
+               <lb ed="#L" n="35"/>Sed diceretur quod virtute divina posset manere primus actus diligendi
+<lb ed="#L" n="36"/>Deum, secundo substracto et suspenso ; ulterius etiam posset dici quod
+<lb ed="#L" n="37"/>stante cognitione qua aliquis cognosceret  se ipsum et etiam videret Deum,
+<pb ed="#L" n="99"/>
+               <lb ed="#L" n="1"/>posset Deus substrahere actum quo et se et Deum diligeret, nisi contrarium
+<lb ed="#L" n="2"/>aliter declaretur, et hoc loquendo de dilectione qua diligitur aliquid secundum
+<lb ed="#L" n="3"/>se, id est dilectione quae non feratur solum super ipsum actum cognoscendi
+<lb ed="#L" n="4"/>vel super ipsum obiectum secundum quod cognitum, sive in aliquid solum
+<lb ed="#L" n="5"/>secundum eius esse cognitum et non in aliquid aliud. Ouod enim aliquis sit
+<lb ed="#L" n="6"/>in actu cognoscendi aliquod ' cognoscibile, et ille actus sit eius perfectio,
+<lb ed="#L" n="7"/>impossibile est quin adsit aliquis actus sive operatio voluntatis, qua scilicet
+<lb ed="#L" n="8"/>complaceat sibi in illo actu quo sic perficitur, et etiam in eo quod sic
+<lb ed="#L" n="9"/>cognoscitur in quantum est sic cognitum, et ipsum talem actum et cognitum
+<lb ed="#L" n="10"/>per ipsum in quantum huiusmodi necessario diligit.
+</p>
+            <p xml:id="v27ab7-g07947-d1e725">
+               <lb ed="#L" n="11"/>Sed quia talis actus voluntatis non videtur esse aliquid secundum se,
+<lb ed="#L" n="12"/>sed est quoddam consequens inseparabiliter ad actum talem principalem, —
+<lb ed="#L" n="13"/>sicut etiam ponitur de delectatione quod est aliquod consequens ad actum
+<lb ed="#L" n="14"/>perfectum, nec videtur esse possibile quod aliquis percipiat se esse 
+per<lb break="no" ed="#L" n="15"/>fectum secundum aliquid non impeditus, quin delectetur in illo, — talis autem
+<lb ed="#L" n="16"/>actus voluntatis sic inseparabilis ab actu cognoscendi non habet aliam
+<lb ed="#L" n="17"/>rationem bonitatis vel malitiae quam secundum conditionem actus 
+cognos<lb break="no" ed="#L" n="18"/>cendi. Nunc  autem loquimur de dilectione ut respicit aliquid secundum se,
+<lb ed="#L" n="19"/>vel secundum aliquid aliud quam solum secundum esse cognitum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e747">
+               <lb ed="#L" n="20"/>Et ? ideo circa hoc est ulterius considerandum quod quidam  ponunt
+<lb ed="#L" n="21"/>quod voluntas non movetur proprie ab obiecto, scilicet  per se et directe,
+<lb ed="#L" n="22"/>sive ut a causa movente per se, sed indirecte et improprie, scilicet ? 
+meta<lb break="no" ed="#L" n="23"/>physice ut a causa sine qua non. Hoc autem posito, videtur quod in libera
+<lb ed="#L" n="24"/>potestate voluntatis sit diligere Deum vel non diligere. Nam si obiectum
+<lb ed="#L" n="25"/>nihil penitus facit circa voluntatem sive in voluntate, sicut ante 
+praesen<lb break="no" ed="#L" n="26"/>tationem obiecti non movebatur in ipsum nec moveri poterat, ita praesentato
+<lb ed="#L" n="27"/>obiecto poterit solum moveri, sed non videtur necessarium quod moveat se
+<lb ed="#L" n="28"/>in illud. Remotio enim impedimenti negativi vel privativi, cum nihil esset
+<lb ed="#L" n="29"/>in eo in quo debet esse motio, non facit quod mobile liberum praecipue
+<lb ed="#L" n="30"/>necessario moveat se. Sed si ex praesentia obiecti per quod dicitur removeri
+<lb ed="#L" n="31"/>prohibens, contingit aliquo modo quod in mobili possit esse motus qui
+<lb ed="#L" n="32"/>prius non erat, hoc solum est quod possit se movere, quia tale movens
+<lb ed="#L" n="33"/>nulla necessitate videtur impelli ad motum, sicut contingit cum removetur
+<lb ed="#L" n="34"/>prohibens positivum quod violentat et cogit mobile ne moveat se. Voluntas
+<pb ed="#L" n="100"/>
+               <lb ed="#L" n="1"/>enim tali impedimento negativo quod est absentia obiecti non cogitur vel
+<lb ed="#L" n="2"/>violentatur ; obiectum etiam praesentatum non se habet ut materia in quam
+<lb ed="#L" n="3"/>proprie agat voluntas necessario, cum praesens est sua actualitate, sive suo
+<lb ed="#L" n="4"/>actu ! volendi quem habebat antequam obiectum sit ei praesens; sicut sol
+<lb ed="#L" n="5"/>illuminat illuminabile, cum praesens est luce qua est in actu antequam
+<lb ed="#L" n="6"/>illuminabile sit praesens. Sed est actus voluntatis respectu obiecti in ipsa
+<lb ed="#L" n="7"/>voluntate subiective existens in ipsa, causatus  post praesentationem obiecti,
+<lb ed="#L" n="8"/>et sic non videtur ei dari per obiectum necessitas aliqua ad agendum, sed
+<lb ed="#L" n="9"/>solum facultas. Quia non datur ei necessitas ut arat in obiectum, quia
+<lb ed="#L" n="10"/>obiectum non est subiectum huiusmodi actionis; item nec quod agat in
+<lb ed="#L" n="11"/>se ipsam, quia, ut dictum est, ex praesentia obiecti nulla fit immutatio in ipsa
+<lb ed="#L" n="12"/>voluntate.
+</p>
+            <p xml:id="v27ab7-g07947-d1e810">
+               <lb ed="#L" n="13"/>Item, si Deus ut summum bonum moveat voluntatem ad actum suum
+<lb ed="#L" n="14"/>per aliquem influxum vel affectionem quae ipsam voluntatem determinat
+<lb ed="#L" n="15"/>et disponit ad hoc quod ab ea efiluat suus actus diligendi vel volendi
+<lb ed="#L" n="16"/>respectu Dei, si il lo influxu existente ipsa non moveatur per illum, sed
+<lb ed="#L" n="17"/>habilitetur et vi suae libertatis possit se movere, quod non posset facere
+<lb ed="#L" n="18"/>sine illa dispositione, tunc etiam huiusmodi influxus non dat ei quod
+<lb ed="#L" n="19"/>necessario moveatur, sicut dictum est prius, sed solum quod possit se movere
+<lb ed="#L" n="20"/>sive? quod habeat facultatem movendi se, et sic posset voluntas, illo influxu
+<lb ed="#L" n="21"/>stante, Deum non diligere, sicut dictum est prius.
+</p>
+            <p xml:id="v27ab7-g07947-d1e833">
+               <lb ed="#L" n="22"/>Item, si Deus actum volitionis non efficeret in voluntate, quia secundum
+<lb ed="#L" n="23"/>istos obiectum voluntatis non habet rationem causae per se moventis et
+<lb ed="#L" n="24"/>agentis, sicut efficit actum intellectus in intellectu, non videtur quod sic
+<lb ed="#L" n="25"/>posset se substrahere a voluntate sicut ab intellectu. Ab intellectu enim
+<lb ed="#L" n="26"/>substraheret se  actum intelligendi non influendo sive non efficiendo, vel
+<lb ed="#L" n="27"/>actum iam influxum per substractionem dictae influentiae auferendo. Non
+<lb ed="#L" n="28"/>sic autem a voluntate. Cum enim actum non influeret vel causaret, nec
+<lb ed="#L" n="29"/>etiam illum proprie substraheret, nec etiam influentiam aliquam respectu
+<lb ed="#L" n="30"/>voluntatis videretur substrahere impediendo et quodam modo detinendo
+<lb ed="#L" n="31"/>voluntatem, ne in obiectum suum praesens per actum volendi tenderet si
+<lb ed="#L" n="32"/>vellet. Per hoc enim quod per se impediretur et detineretur ne tenderet
+<lb ed="#L" n="33"/>volendo in illud ad quod inclinatur, videretur voluntas cogi et violentiam
+<lb ed="#L" n="34"/>pati, quod naturae suae repugnat. Et hoc modo videretur quod, praesente
+</p>
+            <p xml:id="v27ab7-g07947-d1e864">
+               <lb ed="#L" n="35"/>eo intellectui per apertam visionem, posset voluntas, si vellet, Deum non
+<lb ed="#L" n="36"/>dilivere; sed Deus non posset facere quin diligeret si ipsa voluntas vellet.
+</p>
+            <p xml:id="v27ab7-g07947-d1e871">
+               <pb ed="#L" n="101"/>
+               <lb ed="#L" n="1"/>Quod enim aliqui  dicunt quod, licet voluntas non movetur ab obiecto,
+<lb ed="#L" n="2"/>tamen voluntas respectu finis movet se ipsam de necessitate, non potens
+<lb ed="#L" n="3"/>non moveri a se ipsa in illum, sed respectu aliorum sic movet se quod
+<lb ed="#L" n="4"/>potest se movere et non movere, hoc dicitur sine ratione.
+</p>
+            <p xml:id="v27ab7-g07947-d1e884">
+               <lb ed="#L" n="5"/>Posito enim quod obiectum quod est finis nihil plus efficit in 
+volun<lb break="no" ed="#L" n="6"/>tatem quam obiectum quod est ad finem, praesente obiecto quod est finis,
+<lb ed="#L" n="7"/>ita indifferens manet voluntas ad movendum se vel non movendum in illum,
+<lb ed="#L" n="8"/>sicut praesente eo quod est ad finem. Si dicatur quod immo, quia haec est
+<lb ed="#L" n="9"/>natura voluntatis ut sic moveat se respectu finis et sic respectu aliorum,
+<lb ed="#L" n="10"/>hoc etiam dicitur sine ratione. Quia sicut voluntas est una potentia, ita eius
+<lb ed="#L" n="11"/>est unum formale obiectum, scilicet bonum sub ratione boni; sicut 
+intel<lb break="no" ed="#L" n="12"/>lectus est una potentia et eius est unum obiectum, scilicet ens sub ratione
+<lb ed="#L" n="13"/>veri. Sed verum est quod in participantibus rationem horum obiectorum
+<lb ed="#L" n="14"/>bene est ordo, et ideo etiam et in actibus istarum potentiarum. Nam respectu
+<lb ed="#L" n="15"/>intellectus ita se habent quod quaedam entia sunt quae sui notitiam per se
+<lb ed="#L" n="16"/>inducunt, quaedam autem non nisi ex notioribus deducantur. Sed hoc non
+<lb ed="#L" n="17"/>causat talem differentiam respectu intellectus quod non possit non assentire
+<lb ed="#L" n="18"/>primis principiis cum apprehenduntur, sed possit non assentire his quae ex
+<lb ed="#L" n="19"/>ipsis deducuntur, si tamen apprehenduntur ut sunt deducta ex ipsis ; licet
+<lb ed="#L" n="20"/>ut secundum se apprehenduntur, non sic istis de necessitate assentiat 
+intel<lb break="no" ed="#L" n="21"/>lectus. Sed bene causant hanc differentiam in actibus intellectus et in
+<lb ed="#L" n="22"/>habitibus correspondentibus, quia una dicitur notitia principiorum, alia
+<lb ed="#L" n="23"/>conclusionum secundum actum vel secundum habitum. Similiter etiam
+<lb ed="#L" n="24"/>respectu voluntatis bene est diversitas in participantibus rationem obiecti;
+<lb ed="#L" n="25"/>quia quaedam sunt per se et primo bona sicut fines; quaedam autem
+<lb ed="#L" n="26"/>inquantum ordinantur et proficiunt ad illa bona, sicut ea quae sunt ad
+<lb ed="#L" n="27"/>finem. Sed hoc non faciet talem differentiam quod voluntas respectu finis
+<lb ed="#L" n="28"/>moveat se de necessitate et respectu aliorum non, sic praecipue quando
+<lb ed="#L" n="29"/>apprehenduntur sub ratione sub qua ordinantur ad finem, et rationem finis
+<lb ed="#L" n="30"/>participant, licet ut secundum se apprehenduntur possit voluntas illa non
+<lb ed="#L" n="31"/>velle, non tamen possit hoc de fine. Sed bene causat huiusmodi diversitas
+<lb ed="#L" n="32"/>in obiectis diversitatem in actibus quod unus actus est prior alio, et quod
+<lb ed="#L" n="33"/>secundus non potest esse nisi supposito primo et in virtute illius causatur.
+<lb ed="#L" n="34"/>Unde sive voluntas moveatur ab obiecto, sive moveat se in obiectum, non
+<lb ed="#L" n="35"/>est talis differentia ponenda respectu suorum actuum et obiectorum, scilicet
+<pb ed="#L" n="102"/>
+               <lb ed="#L" n="1"/>quod finem velit! de necessitate non potens illud non velle, et illud quod
+<lb ed="#L" n="2"/>est ad finem sub hac ratione, scilicet inquantum apprehenditur ut illud quo
+<lb ed="#L" n="3"/>habito habetur finis et non aliter; vel non ita bene non velit de necessitate ,
+<lb ed="#L" n="4"/>sed possit illud non velle, stante tamen voluntate finis et tali apprehensione
+<lb ed="#L" n="5"/>de eo quod est ad finem.
+</p>
+            <p xml:id="v27ab7-g07947-d1e967">
+               <lb ed="#L" n="6"/>Immo talis differentia est? quod finem vult propter se, illad autem quod
+<lb ed="#L" n="7"/>est ad finem secundum quod huiusmodi, non vult propter se, sed solum
+<lb ed="#L" n="8"/>propter finem. Et sicut ponentes quod voluntas movetur ab obiecto habent
+<lb ed="#L" n="9"/>ponere quod mota ab aliquo sub ratione finis et facta applicatione ad illud
+<lb ed="#L" n="10"/>quod est ad talem finem, stante voluntate talis finis et tali apprehensione de
+<lb ed="#L" n="11"/>eo quod est ad finem, non potest illud quod sic est ad finem non velle, quia
+<lb ed="#L" n="12"/>cum includat finem impossibile est quod velit finem et non illud — alioquin
+<lb ed="#L" n="13"/>simul vellet et non vellet finem; — consimiliter etiam ponentes quod voluntas
+<lb ed="#L" n="14"/>movet seipsam in obiectum habent ponere quod, cum movet se in aliquid
+<lb ed="#L" n="15"/>sub ratione finis modo praedicto, habet se movere in id quod est ad finem.
+<lb ed="#L" n="16"/>Immo secundum istum modum ponendi, antequam moveat se in finem
+<lb ed="#L" n="17"/>quemcumque, liberior est respectu illius, quacumque apprehensione stante,
+<lb ed="#L" n="18"/>sic scilicet quod potest se movere vel non movere in illud, (quia adhuc
+<lb ed="#L" n="19"/>nihil factum est in voluntate de actu volitionis finis, quia illum non facit
+<lb ed="#L" n="20"/>obiectum, sed voluntas quae sibi necessitatem non imponit) quam sit
+<lb ed="#L" n="21"/>respectu eius quod est ad finem, stante volitione finis et praedicta 
+deduc<lb break="no" ed="#L" n="22"/>tione et applicatione eius quod est ad finem respectu finis ; quia volitio finis
+<lb ed="#L" n="23"/>est ratio etiam volendi illud, et sic volendo finem vult illud implicite,
+<lb ed="#L" n="24"/>antequam deducatur et applicetur, et cum est deductum et applicatum
+<lb ed="#L" n="25"/>non potest illud non velle. Inconveniens ergo est modus ponendi voluntatem
+<lb ed="#L" n="26"/>exire in actum volendi a se ipsa, obiecto ipsam non movente ; quia cum tota
+<lb ed="#L" n="27"/>ratio agendi et.patiendi in se ipsa acciperetur, et cum non semper sit in
+<lb ed="#L" n="28"/>actu, non moveretur nisi quando vellet ; et secundum hoc creatura rationalis
+<lb ed="#L" n="29"/>posset immediate Deum videre absque hoc quod ipsum diligeret.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1022">
+               <lb ed="#L" n="30"/>Sed quicquid sit de hoc, ab aliquibus  redditur ratio specialis quare
+<lb ed="#L" n="31"/>Deus non potest videri nisi diligatur, quia dicunt quod, cum obiectum
+<lb ed="#L" n="32"/>voluntatis sit bonum, voluntas non potest aliquid nolle vel non velle, nisi
+<lb ed="#L" n="33"/>quia intellectus cum eo quod in aliquo videt rationem boni vel perfectionis,
+<lb ed="#L" n="34"/>simul etiam videt in eodem rationem mali vel alicuius defectus. In. omni
+<pb ed="#L" n="103"/>
+               <lb ed="#L" n="1"/>autem bono creato est invenire aliquod malum, vel saltem aliquem 
+defec<lb break="no" ed="#L" n="2"/>tum, inquantum in qualibet creatura est bonum diminutum, diminutio autem
+<lb ed="#L" n="3"/>pertecti boni defectum importat. Et ideo voluntas respectu omnis boni
+<lb ed="#L" n="4"/>creati est sic indeterminata quod potest ipsum ? velle vel nolle, et nihil
+<lb ed="#L" n="5"/>potest voluntas non velle vel nolle nisi apprehendatur circa illud alterum
+<lb ed="#L" n="6"/>illorum , scilicet ratio boni diminuti vel ratio mali et alicuius defectus. Cum
+<lb ed="#L" n="7"/>ergo in Deo viso non possit apprehendi aliquod praedictorum, ideo 
+impos<lb break="no" ed="#L" n="8"/>sibile est quod aliquis videat Deum et quod? non velit vel diligat ipsum.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1056">
+               <lb ed="#L" n="9"/>Sed istud non valet, quia differt nolle aliquid vel velle non aliquid,
+<lb ed="#L" n="10"/>et non velle aliquid. Et similiter est intelligendum circa actum diligendi,
+<lb ed="#L" n="11"/>quia cum dicitur : ego volo bibere vel volo non bibere, actus voluntatis est
+<lb ed="#L" n="12"/>affirmatus respectu obiecti negati; sed cum dicitur: ego non volo bibere,
+<lb ed="#L" n="13"/>actus voluntatis simpliciter est negatus. Nunc autem licet verum sit quod
+<lb ed="#L" n="14"/>voluntas non possit esse in actu volendi affirmato  respectu alicuius ut
+<lb ed="#L" n="15"/>fugibilis vel negati nisi illud apprehenditur sub ratione mali vel defectus,
+<lb ed="#L" n="16"/>potest tamen actus voluntatis esse simpliciter negatus respectu alicuius,
+<lb ed="#L" n="17"/>absque hoc quod sic apprehendatur. Et ideo verum est quod sicut Deus
+<lb ed="#L" n="18"/>non potest appeti vel diligi, nisi apprehendatur sub ratione boni, ita etiam
+<lb ed="#L" n="19"/>non potest odiri vel recusari nisi apprehendatur sub ratione alicuius mali
+<lb ed="#L" n="20"/>vel defectus.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1085">
+               <lb ed="#L" n="21"/>Nunc autem quaestio hoc non quaerit, sed quaerit quaestio utrum
+<lb ed="#L" n="22"/>sicut Deum non cognoscens potest ipsum non diligere licet non detestari
+<lb ed="#L" n="23"/>vel refugere vel odire, et hoc quia cum non cognoscitur non est aliquid ?
+<lb ed="#L" n="24"/>unde actus diligendi causetur, quia incognita diligere non possumus, ita
+<lb ed="#L" n="25"/>etiam cum Deum quis videt, utrum efficientia actus diligendi et ipse actus
+<lb ed="#L" n="26"/>diligendi possit suspendi et substrahi omnino a voluntate.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1101">
+               <lb ed="#L" n="27"/>Et videtur esse dicendum quod hoc est impossibile. Nam praesente
+<lb ed="#L" n="28"/>obiecto sub ratione obiecti potentiae reducibili ^in actam per ipsum, potentiae
+<lb ed="#L" n="29"/>quidem sufficienter dispositae et nullo modo impeditae ad hoc quod 
+redu<lb break="no" ed="#L" n="30"/>catur ad actum, non potest non esse actus. Sed illud quod est ipsa ? bonitas
+<lb ed="#L" n="31"/>summa per essentiam, esse praesens intellectui sub ratione summi boni et !?
+<lb ed="#L" n="32"/>summe diligibilis est ipsum esse praesens sub ratione obiecti ipsi voluntati,
+<lb ed="#L" n="33"/>cuius obiectum, ut dictum est, est bonum apprehensum sub ratione boni.
+<lb ed="#L" n="34"/>Ergo Deum se offerre intellectui sub hac ratione ad cognoscendum, est
+<lb ed="#L" n="35"/>etiam offerre se voluntati sub hac ratione ad diligendum. Unde Commentator
+<lb ed="#L" n="36"/>duodecimo Metaphysicae : aliquid desideratur quia aestimatur bonum, et
+<pb ed="#L" n="104"/>
+               <lb ed="#L" n="1"/>quantum aliquid aestimatum fuerit magis bonum et ! tantum desiderium erit
+<lb ed="#L" n="2"/>maius. Desiderium enim est propter aestimationem eius quod est aliquid
+<lb ed="#L" n="3"/>esse bonum. Unde sicut impossibile est quod aliquid habeat formam 
+gra<lb break="no" ed="#L" n="4"/>vitatis et non moveatur deorsum, nisi sit prohibitum, ita impossibile est
+<lb ed="#L" n="5"/>quod aliquis habeat tale obiectum, scilicet summum bonum formale 
+dilec<lb break="no" ed="#L" n="6"/>tionis obiectum, et non diligat sive feratur in ipsum per actum dilectionis,
+<lb ed="#L" n="7"/>nisi impediatur. Voluntas autem non potest impediri ab actu suo, supposita
+<lb ed="#L" n="8"/>praesentia obiecti, nisi ipsa posset cogi vel violentiam pati, sicut contingit
+<lb ed="#L" n="9"/>in his quae habent formam inclinatam in  aliquid, et tamen non moventur
+<lb ed="#L" n="10"/>ad illud, quia prohibita sunt. Voluntas autem non potest cogi vel impediri ;
+<lb ed="#L" n="11"/>quare et cetera.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1151">
+               <lb ed="#L" n="12"/>Et secundum hanc viam videtur quod etiam Deus hoc facere non
+<lb ed="#L" n="13"/>posset, scilicet quod videretur et non diligeretur. Quod enim aliquis 
+appre<lb break="no" ed="#L" n="14"/>hendat aliquid sub ratione diligibilis et sub hac ratione quod ipsemet
+<lb ed="#L" n="15"/>apprehendens summe debet eum diligere et hoc iudicat,scilicet quod summe
+<lb ed="#L" n="16"/>debet diligere ?, et tamen nec velit nec possit eum diligere, videntur 
+incom<lb break="no" ed="#L" n="17"/>possibilia. Istis enim stantibus necessario videtur quod saltem appetat
+<lb ed="#L" n="18"/>Deum diligere ; sed hoc non potest nisi diligat, quia actus reflexus supponit
+<lb ed="#L" n="19"/>principalem. Manifestum ergo videtur quod Deus non posset facere quod in
+<lb ed="#L" n="20"/>aliquo esset actus cognoscendi ipsum perfecte, et tamen non actus diligendi,
+<lb ed="#L" n="21"/>etiam secundum potentiam absolutam.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1175">
+               <lb ed="#L" n="22"/>Item, sicut dictum est, si cognoscens summe diligibile et sic iudicans,
+<lb ed="#L" n="23"/>scilicet Deum esse summe diligendum, cum Deum ipsum non diligeret,
+<lb ed="#L" n="24"/>peccaret. Sicut enim qui diligit non diligenda culpandus est, ita qui non
+<lb ed="#L" n="25"/>diligit diligenda est culpandus. Si dicatur quod verum est, cum potest
+<lb ed="#L" n="26"/>diligere ipsa diligenda hoc est concedendum, sed dicendum quod, cum
+<lb ed="#L" n="27"/>summe diligibile apprehenditur dicto modo, hoc potest voluntas quia habet
+<lb ed="#L" n="28"/>quicquid ad diligendum requiritur. Sicut enim appetitus naturalis, non
+<lb ed="#L" n="29"/>potest non esse in actu suo naturali quo dicitur naturaliter appetere
+<lb ed="#L" n="30"/>perfectionem rei cum res habet formam naturalem modo naturali quam
+<lb ed="#L" n="31"/>consequitur appetitus et inclinatio naturalis, nec potest Deus conservare
+<lb ed="#L" n="32"/>naturam rei et proprietates eius naturales quin in re ? remaneat huiusmodi
+<lb ed="#L" n="33"/>appetitus naturalis, ita etiam appetitus animalis qui est cum cognitione non
+<lb ed="#L" n="34"/>potest non esse in suo actu quo dicitur animal concupiscere, et homo velle
+<lb ed="#L" n="35"/>cum homo est in actu secundum apprehensionem boni quam consequitur
+<lb ed="#L" n="36"/>talis appetitus in homine. Sicut enim dictum est de appetitu naturali qui
+<pb ed="#L" n="105"/>
+               <lb ed="#L" n="1"/>consequitur praesentiam formae secundum esse naturae, ita dicendum est
+<lb ed="#L" n="2"/>de appetitu animali qui consequitur praesentiam boni secundum esse 
+appre<lb break="no" ed="#L" n="3"/>hensum. Sicut ergo impossibile est quod natura lapidis in esse conservetur
+<lb ed="#L" n="4"/>a Deo et suspendatur! eius appetitus et inclinatio naturalis respectu loci
+<lb ed="#L" n="5"/>deorsum, ita etiam impossibile videtur quod homo apprehendat bonum
+<lb ed="#L" n="6"/>omnem perfectionem homini possibilem includens, et omne malum eius
+<lb ed="#L" n="7"/>exciudens, ét possit illud non velle. Unde dicit Augustinus tertiodecimo de
+<lb ed="#L" n="8"/>Trinitate, capitulo quinto [dicit] quod homines omnes beatitudinem appetunt
+et ad hoc natura compellit cui summe bonus creator haec indidit. 
+Appre<lb break="no" ed="#L" n="9"/>hensio ergo talis boni et eius dilectio quamvis sint secandum suas proprias
+<lb ed="#L" n="10"/>essentias sic distinctae quod haec non est illa, sunt tamen sic essentialiter
+<lb ed="#L" n="11"/>connexa et essentialem habitudinem habentia, quod unum non potest esse
+<lb ed="#L" n="12"/>sine alio.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1238">
+               <lb ed="#L" n="13"/>Et per hoc patet responsio ad primum argumentum in oppositum ;
+<lb ed="#L" n="14"/>quia non omnia quae secundum suas essentias differunt possunt abinvicem
+<lb ed="#L" n="15"/>separari, sicut patet de materia et forma substantiali materiali, quae differunt
+<lb ed="#L" n="16"/>secundum proprias essentias et tamen una non potest ab alia separari ;
+<lb ed="#L" n="17"/>et similiter correlativa differunt et tamen unum sine alio non potest  in esse
+<lb ed="#L" n="18"/>correlativo remanere .
+</p>
+            <p xml:id="v27ab7-g07947-d1e1255">
+               <lb ed="#L" n="19"/>Ad aliud cum dicitur : Deus sub ratione entis simpliciter et veri videtur,
+<lb ed="#L" n="20"/>et sub alia ratione ^, scilicet sub ratione boni diligitur, dicendum quod istae
+<lb ed="#L" n="21"/>diversae rationes non important circa obiectum diversitatem aliquam realem?
+<lb ed="#L" n="22"/>vel quidditativam , sed solum secundum rationem intelligendi. Unde istae
+<lb ed="#L" n="23"/>rationes non sunt condiciones obiecti secundum quas scilicet obiectum
+<lb ed="#L" n="24"/>moveat has potentias, immo potius sunt rationes quaedam sub quibus sic
+<lb ed="#L" n="25"/>denominatur obiectum in quantum consideratur sub habitudinibus diversis,
+<lb ed="#L" n="26"/>secundum quas ipsum obiectum existens unum et idem secundum rem
+<lb ed="#L" n="27"/>diversimode se habet ad has potentias et ipsae potentiae ad illud ; quia illud
+<lb ed="#L" n="28"/>quod est obiectum intellectus ad hoc quod sit obiectum ipsius, non oportet
+<lb ed="#L" n="29"/>quod importet nisi aliquam entitatem quamcumque, sed ad hoc quod sit
+<lb ed="#L" n="30"/>obiectum voluntatis oportet quod illa entitas sit talis quod intellectus vel
+<lb ed="#L" n="31"/>apprehendens illam habeat aliquam conformitatem ad illam, secundum quod
+<lb ed="#L" n="32"/>apprehenditur, vel secundum commoditatem quae comprehendit rationem
+<lb ed="#L" n="33"/>utilis et delectabilis vel secundum honestatem. Unde cum illud quod 
+appre<lb break="no" ed="#L" n="34"/>henditur secundum entitatem secundum quam apprehenditur est conveniens
+<lb ed="#L" n="35"/>apprehendenti altero dictorum modorum, tunc cum hoc quod est obiectum
+<pb ed="#L" n="106"/>
+               <lb ed="#L" n="1"/>intellectus quia ens est etiam obiectum voluntatis et movet voluntatem ad
+<lb ed="#L" n="2"/>volendum vel amandum, quia talis entitas habet habitudinem talem ad
+<lb ed="#L" n="3"/>appetentem quia est ei conveniens. Si autem aliquid aliud apprehendatur
+<lb ed="#L" n="4"/>quod non habeat huiusmodi habitudinem et conformitatem ad 
+apprehen<lb break="no" ed="#L" n="5"/>dentem, non est obiectum voluntatis, nec vo luntas movetur in illud. Unde
+<lb ed="#L" n="6"/>si sitienti offeratur unus potus de quo certum est quod est conveniens
+<lb ed="#L" n="7"/>sitienti et apprehenditur illud suae entitatis secundum quod est conveniens,
+<lb ed="#L" n="8"/>illud erit etiam ' obiectum intellectus et voluntatis, ordine quodam, ut dictum
+<lb ed="#L" n="9"/>est. Si autem ofleratur aliud  in quo non apprehendatur aliquid  entitatis
+<lb ed="#L" n="10"/>secundum quod habeat convenientiam ad sitientem, nec etiam contrarium,
+<lb ed="#L" n="11"/>illud poterit esse obiectum intellectus absque hoc quod sit obiectum 
+volun<lb break="no" ed="#L" n="12"/>tatis, modo quo nunc loquimur, sic scilicet quod voluntas feratur in illud
+<lb ed="#L" n="13"/>amore amicitiae vel amore concupiscentiae, licet omne ens sub quacumque
+<lb ed="#L" n="14"/>ratione entitatis apprehensum, ratione entitatis quam habet, habeat quamdam
+<lb ed="#L" n="15"/>conformitatem generalem ad apprehendentem cui omne ens placet, et sic
+<lb ed="#L" n="16"/>aliquo modo sit obiectum voluntatis sibi in omni ente cum quo aliquo modo
+<lb ed="#L" n="17"/>convenit complacentis. Ex hoc autem quod intellectus et voluntas  sic
+<lb ed="#L" n="18"/>diversimode se habent in suis actibus respectu unius et eiusdem obiecti, —
+<lb ed="#L" n="19"/>in quantum scilicet intellectus movetur ab ipso, sic quod illud apprehendit
+<lb ed="#L" n="20"/>sicut est, sumitur ratio veri ; in quantum verum apprehendens per 
+volun<lb break="no" ed="#L" n="21"/>tatem fertur in illud ut in sibi conveniens, sumitur ratio boni, — tunc 
+dicen<lb break="no" ed="#L" n="22"/>dum ad rationem quod videns Deum sub ratione entitatis non potest ipsum
+<lb ed="#L" n="23"/>non velle, quia videt ipsum secundum entitatem secundum quam habet
+<lb ed="#L" n="24"/>summam conformitatem ad ipsum perficiendum. Unde non videt ipsum sub
+<lb ed="#L" n="25"/>ratione veri nec appetit ipsum sub ratione boni, quia, ut dictum est, istae
+<lb ed="#L" n="26"/>rationes non sunt rationes reales et formales obiectorum, sed ipsa entitas
+<lb ed="#L" n="27"/>cogniti et voliti. Videt ergo Deum sub ratione suae perfectissimae entitatis
+<lb ed="#L" n="28"/>quam etiam  appetit sub ista ratione, quia sub ista etiam est conveniens
+<lb ed="#L" n="29"/>in perficiendo apprehendentem. Unde cum entitas apprehensa secundum
+<lb ed="#L" n="30"/>id quod est habet huiusmodi convenientiam et conformitatem ad 
+appre<lb break="no" ed="#L" n="31"/>hendentem et sub tali ratione apprehenditur si perfecte apprehenditur, tunc
+<lb ed="#L" n="32"/>habet rationem obiecti moventis voluntatem ad actum appetendi; et secundum
+<lb ed="#L" n="33"/>hoc verum est quod dicitur quod res secundum quod con veniens movet
+<lb ed="#L" n="34"/>appetitum, et ex hoc etiam sumitur ratio boni prout dicitur quod bonum,
+<lb ed="#L" n="35"/>sive res sub ratione boni, est obiectum appetitus. Sicut ergo esuriens non
+<lb ed="#L" n="36"/>potest apprehendere entitatem cibi, quin apprehendat quod illa entitas est
+<pb ed="#L" n="107"/>
+               <lb ed="#L" n="1"/>sibi conveniens, et ipsum secundum id secundum quod imperfectum est
+<lb ed="#L" n="2"/>perficere potens, et hoc apprehendit ex parte rei, ex hoc ipsum appetit,
+<lb ed="#L" n="3"/>Ita in proposito est dicendum quod videns Deum sub ratione entitatis sive
+<lb ed="#L" n="4"/>ut est essentia ! divinitatis, sive ut est summa cognoscibilitas, videt quod
+<lb ed="#L" n="5"/>ila entitas habet rationem summae bonitatis et diligibilitatis, et ideo, ut
+<lb ed="#L" n="6"/>dictum est, non potest cognosci nisi ametur.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1390">
+               <lb ed="#L" n="7"/>Per hoc etiam patet solutio ad arrumentum consimile quod ab aliquibus
+<lb ed="#L" n="8"/>inducitur positum in corpore quaestionis, quod intellectus potest 
+appre<lb break="no" ed="#L" n="9"/>hendere obiectum sub ratione entis absolute et pure speculative absque
+<lb ed="#L" n="10"/>consideratione practica et sub ratione boni et convenientis; non movet
+<lb ed="#L" n="11"/>autem obiectum appetitum nisi isto secundo modo apprehensum et cetera.
+<lb ed="#L" n="12"/>Dicendum est enim quod non potest talis cognitio Dei esse sic speculativa
+<lb ed="#L" n="13"/>quod possit esse sine actione appetitus vel voluntatis diligentis. Nam talis
+<lb ed="#L" n="14"/>cognitio entis talis cuius entitás non potest apprehendi, cum in se ipsa
+<lb ed="#L" n="15"/>videtur, nisi ut conveniens et perfectiva imperfectionis apprehendentis,
+<lb ed="#L" n="16"/>includit summum amorem cogniti. Secus est de cognitione factibilium et
+<lb ed="#L" n="17"/>agibilium in quibus speculatio potest separari ab actu appetitus et 
+volun<lb break="no" ed="#L" n="18"/>tatis, quia perfectio eorum non est tanta quod necessario moveat voluntatem
+<lb ed="#L" n="19"/>ad eligendum et diligendum ea, propter hoc quod etiam est in eis aliquid
+<lb ed="#L" n="20"/>per quod potest homo impediri ab aliquibus quae possunt ei esse utilia vel
+<lb ed="#L" n="21"/>delectabilia; et haec dicta ad istam partem sufficiant.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1425">
+               <lb ed="#L" n="22"/>Sed quia concedere Deum posse aliquid quod tamen non possit, non
+<lb ed="#L" n="23"/>sic derogat eius potentiae quia hoc non contingit nisi ex impossibilitate
+<lb ed="#L" n="24"/>ex parte rel, sicut negare eum posse aliquid quod potest quia hoc 
+contin<lb break="no" ed="#L" n="25"/>geret ex defectu suae potentiae; quando sermo est de his quae Deus facere
+<lb ed="#L" n="26"/>potest, debemus esse largissimi in concedendo eum posse omne illud quod
+<lb ed="#L" n="27"/>non multum mani festam contradictionem includit. Et ideo licet praedicta
+<lb ed="#L" n="28"/>videantur probabiliter dicta, tamen ita esse non assero; sed videtur quod,
+<lb ed="#L" n="29"/>ilis non obstantibus, potest dici contrarium ; nam si actus et inclinatio
+<lb ed="#L" n="30"/>voluntatis sit aliqua res et qualitas absoluta in voluntate licet in ea fundetur
+<lb ed="#L" n="31"/>essentialiter relatio realis ex dependentia quam habet ad obiectum, sicut
+<lb ed="#L" n="32"/>etiam dicitur de actu intellectus respectu obiecti, cum etiam ille actus sit
+<lb ed="#L" n="33"/>posterior actu intellectus, videtur quod, licet actus voluntatis non possit
+<lb ed="#L" n="34"/>esse sine actu intellectus, tamen virtute divina posset esse actus prior 
+intel<lb break="no" ed="#L" n="35"/>lectus sine posteriori voluntatis, licet hoc non possit fieri virtute naturali.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1458">
+               <lb ed="#L" n="36"/>Nam Deus sua virtute et influentia omnes effectus nobilius et 
+imme<lb break="no" ed="#L" n="37"/>diatius causat quam agentia mediata, et causatos etiam in esse conservat,
+<pb ed="#L" n="108"/>
+               <lb ed="#L" n="1"/>Sicut ergo potest ab entibus substrahere influentiam quantum ad existentiam
+<lb ed="#L" n="2"/>naturalem et sic res omnino non essent, ita videtur quod potest substrahere
+<lb ed="#L" n="3"/>influentiam quantum ad perfectiones et operationes quascumque ! et potest
+<lb ed="#L" n="4"/>unam et creare et conservare sine alia quae saltem sunt sic  independentes,
+<lb ed="#L" n="5"/>sicut videtur de actu voluntatis respectu actus intellectus ; et sic res omnino
+<lb ed="#L" n="6"/>non erit in sua operatione vel perfectione. Sicut etiam, manente virtute
+<lb ed="#L" n="7"/>propria ignis, sic substraxit suam influentiam Deus quod nihil operatus est
+<lb ed="#L" n="8"/>quantum ad actum calefactionis, quia nihil nocuit pueris in camino propter
+<lb ed="#L" n="9"/>defectum influentiae divinae, sine qua ignis sua virtute nihil agere posset;
+<lb ed="#L" n="10"/>nec diceretur voluntas violentiam pati ex tali negativa divinae influentiae
+<lb ed="#L" n="11"/>substractione, quia non impediretur a suo actu aliquo cogente vel positivum
+<lb ed="#L" n="12"/>impedimentum praestante, sed solum dictae influentiae negatione, sicut
+<lb ed="#L" n="13"/>etiam obiecto absente nihil potest velle ? nec tamen cogitur. Et per hoc
+<lb ed="#L" n="14"/>potest responderi ad rationes adductas in corpore solutionis, quia verum
+<lb ed="#L" n="15"/>est quod, praesente obiecto potentiae sufficienter dispositae et non existente
+<lb ed="#L" n="16"/>impedimento, consurgit actio; sed in proposito ponitur impedimentum,
+<lb ed="#L" n="17"/>scilicet substractio influentiae causalitatis obiecti virtute divina ; unde licet
+obiectum sit praesens simpliciter intellectui, quia et secundum realem
+<lb ed="#L" n="18"/>praesentiam et secundum causalitatis influentiam, non tamen sic est
+<lb ed="#L" n="19"/>praesens voluntati.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1508">
+               <lb ed="#L" n="20"/>Item, verum est quod, existente natura rei quam consequitur appetitus
+<lb ed="#L" n="21"/>naturalis, non potest fieri quod non insit actus appetitus, gravi enim
+<lb ed="#L" n="22"/>existente, impossibile est quin appetat esse deorsum, quia talis actus 
+appe<lb break="no" ed="#L" n="23"/>tendi non est aliqua res absoluta addita super naturam et proprietates
+<lb ed="#L" n="24"/>naturales rei; unde cum dicitur, grave appetit esse deorsum, licet istud
+<lb ed="#L" n="25"/>appetere significetur verbaliter et per modum actus et cuiusdam operationis,
+<lb ed="#L" n="26"/>tamen secundum rem significatam nihil aliud est quam aptitudo lapidis
+<lb ed="#L" n="27"/>et convenientia quam ex natura sua habet ad locum deorsum et cetera.
+<lb ed="#L" n="28"/>Sed in  proposito secus est, quia velle et diligere voluntatis est quidam
+<lb ed="#L" n="29"/>actus realis absolutus differens realiter a voluntate et ab obiecto, et ideo
+<lb ed="#L" n="30"/>virtute divina potest fieri ut praesente obiecto in intellectu per actum 
+cogni<lb break="no" ed="#L" n="31"/>tionis, cum illud non sit id ipsum quod est velle vel diligere, sed huius 
+<lb ed="#L" n="32"/>est causativum, ideo virtute divina quae potest omnem efficientiam 
+cuius<lb break="no" ed="#L" n="33"/>cumque causae suspendere, potest esse actus cognitivus in intellectu et non
+<lb ed="#L" n="34"/>erit actus dilectivus in voluntate.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1543">
+               <lb ed="#L" n="35"/>Ad argumentum primum in oppositum pertinens ad dictam quaes-
+<pb ed="#L" n="109"/>
+               <lb ed="#L" n="1"/>tionem est dicendum, quod Deus absque mutatione sui potest substrahere
+<lb ed="#L" n="2"/>influxum praeexistentem per quod fieret mutatio in intellectu et voluntate,
+<lb ed="#L" n="3"/>scilicet carentia actuum praeexistentium, sicut absque sui mutatione effluit
+<lb ed="#L" n="4"/>animam in corpore organico, et sic mutatio in creatura ab esse non 
+ani<lb break="no" ed="#L" n="5"/>mato ! ad esse animatum, absque Dei mutatione aliqua. Si enim hoc faceret,
+<lb ed="#L" n="6"/>ab aeterno disposuisset sic se facturum fuisse; unde similiter cum disponit
+<lb ed="#L" n="7"/>intellectum et voluntatem dictis habitibus, posset actus praedictos non
+<lb ed="#L" n="8"/>existentes non influere absque sui mutatione, quia hoc etiam ? ab aeterno
+<lb ed="#L" n="9"/>disposuisset absque etiam mutatione creaturae, quia talis negatio influxus
+<lb ed="#L" n="10"/>non requirit aliquam mutationem. Deo ergo ? eodem modo habente se ad
+<lb ed="#L" n="11"/>creaturas et e converso creaturis ad Deum, non fieret aliqua mutatio. Sed
+<lb ed="#L" n="12"/>si Deus substraheret influxum praeexistentem, ut dictum est, cessaret ab
+<lb ed="#L" n="13"/>influendo, ipse non aliter se haberet ad creaturam, sed ipso manente in
+<lb ed="#L" n="14"/>voluntate immutabili qua scilicet voluit illum influxum tantum dare et non
+<lb ed="#L" n="15"/>plus, creatura aliter se haberet, ut dictum est. Si etiam, dictis potentiis sic
+<lb ed="#L" n="16"/>dispositis, Deus non influeret dictos actus, verum est quod Deus ex tunc
+<lb ed="#L" n="17"/>eodem modo se haberet ad ipsas et e converso, quousque influeret voluntate
+<lb ed="#L" n="18"/>aeterna. Si hoc disposuit et tunc etiam voluntate aeterna immutabili, 
+pro<lb break="no" ed="#L" n="19"/>siliret in creatura aliquid quo ipsa mutaretur, non Deus.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1592">
+               <lb ed="#L" n="20"/>Ad aliud cum arguitur quod Deus posset unum substrahere sine alio,
+<lb ed="#L" n="21"/>quia differunt essentialiter, dicendum, sicut prius dictum est, quod non
+<lb ed="#L" n="22"/>omnia quae essentialiter differunt possunt ab invicem separari, quia plura
+<lb ed="#L" n="23"/>talia sunt quae contradictionem includerent. Non enim videtur posse separare
+<lb ed="#L" n="24"/>materiam ab omni forma, nec formam substantialem materialem a materia,
+<lb ed="#L" n="25"/>quae essentialem habent dependentiam abinvicem, licet unum non sit aliud
+<lb ed="#L" n="26"/>essentialiter. Similiter non potest Deus abinvicem separare unum 
+relati<lb break="no" ed="#L" n="27"/>vorum ab alio relativo manente secundum actum in altero. Similiter nec
+<lb ed="#L" n="28"/>in proposito: actum unum ab alio potest separare, sic quidem quod actu
+<lb ed="#L" n="29"/>priori intellectus non existente, posset actus voluntatis posterior manere,
+<lb ed="#L" n="30"/>quia hoc contradictionem includeret ut patet intuenti. Cum vero dicitur
+<lb ed="#L" n="31"/>quod aliquis esset simpliciter beatus absque dilectione Dei, dicendum quod
+<lb ed="#L" n="32"/>sic pro quanto haberet actum principaliorem beatitudinis. Sed quia etiam
+<lb ed="#L" n="33"/>dilectionis actus ad eum requiritur, ut alias dictum est, non esset omnino
+<lb ed="#L" n="34"/>perfecte beatus.
+</p>
+            <p xml:id="v27ab7-g07947-d1e1627">
+               <lb ed="#L" n="35"/>Ad illud vero quod dicitur in corpore quaestionis quod, praemissis
+<lb ed="#L" n="36"/>condicionibus stantibus, scilicet quod iudicaret intelligens Deum esse summe
+<lb ed="#L" n="37"/>diligibile et quod summe diligendus esset a se ipso, ergo oporteret eum
+<pb ed="#L" n="110"/>
+               <lb ed="#L" n="1"/>appetere, ipsum diligere; dicendum est quod non oporteret, immo etiam '
+<lb ed="#L" n="2"/>hunc appetitum et omnem actum voluntatis posset Deus substrahere non
+<lb ed="#L" n="3"/>aliquid tollendo, sed ad talem actum non influendo, ut dictum est. Unde
+<lb ed="#L" n="4"/>sicut omnino non cognoscens non potest diligere et non peccat, quia nec
+<lb ed="#L" n="5"/>diligit nec vult diligere, ita cognoscens, cum substrahitur a cognito 
+effi<lb break="no" ed="#L" n="6"/>cientia causalitatis actus diligendi, non potest diligere et ideo etiam non
+<lb ed="#L" n="7"/>peccat quia nec diligit nec vult diligere. Non velle enim diligere, prout
+<lb ed="#L" n="8"/>puram negationem importat, non est peccatum; sed non velle diligere
+<lb ed="#L" n="9"/>quando diligi potest et debet, et velle non diligere sunt mala.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

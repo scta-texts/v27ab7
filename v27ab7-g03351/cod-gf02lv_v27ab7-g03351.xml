@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g03351"><!-- v27ab7-q5-q11 -->
+            <head xml:id="v27ab7-g03351-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-g03351-Hd1e101" type="question-title">
+      Utrum intellectus humanus ex naturalibus possit cognoscere Deum esse principium effectivum creaturarum
+    </head>
+            <p xml:id="v27ab7-g03351-d1e104">
+               <lb ed="#L" n="24"/>QUAESTIO XI.
+<lb ed="#L" n="25"/>Utrum intellectus humanus ex naturalibus possit cognoscere
+<lb ed="#L" n="26"/>Deum esse principium effectivum creaturarum.
+</p>
+            <p xml:id="v27ab7-g03351-d1e113">
+               <lb ed="#L" n="27"/>Deinde circa intellectum possibilem quaerebatur unum pertinens ad
+<lb ed="#L" n="28"/>eius actum vel operationem, scilicet utrum intellectus humanus ex  
+natura<lb break="no" ed="#L" n="29"/>libus, scilicet absque fide, possit cognoscere vel intelligere Deum esse
+<lb ed="#L" n="30"/>principium effectivum vel productivum creaturarum. Et arguebatur quod
+<pb ed="#L" n="41"/>
+               <lb ed="#L" n="1"/>non, quia suppositi est agere vel producere; ergo qui non potest 
+intel<lb break="no" ed="#L" n="2"/>ligere Deum sub ratione suppositi, non potest Deum intelligere ' sub ratione
+<lb ed="#L" n="3"/>principii productivi. Sed intellectus humanus non potest Deum intelligere ?
+<lb ed="#L" n="4"/>sub ratione suppositi sine fide, nam aut intelligit Deum sub ratione absoluti
+<lb ed="#L" n="5"/>suppositi aut ? relativi; non sub ratione absoluti, quia non intelligitur nisi
+<lb ed="#L" n="6"/>ens et verum, tale autem suppositum non est in divinis; nec sub ratione
+<lb ed="#L" n="7"/>relativi, quia cognosceret distinctionem et trinitatem personarum, quod non
+<lb ed="#L" n="8"/>potest intellectus sine fide.
+</p>
+            <p xml:id="v27ab7-g03351-d1e144">
+               <lb ed="#L" n="9"/>Contra. Philosophus in pluribus locis probat Deum esse principium
+<lb ed="#L" n="10"/>creativum omnium rerum, ergo hoc intellexit.
+</p>
+            <p xml:id="v27ab7-g03351-d1e152">
+               <lb ed="#L" n="11"/>Respondeo dicendum quod, cum ad hoc quod aliquid agat vel producat
+<lb ed="#L" n="12"/>aliquid, sufficiat quod sit ens non alii inhaerens, nec ratio agendi alicui per
+<lb ed="#L" n="13"/>se enti et subsistenti, sed sit ens secundum se et existens et subsistens,
+<lb ed="#L" n="14"/>et sit habens rationem suppositi in genere substantiae, ita quod sit etiam
+<lb ed="#L" n="15"/>ens in actu tale quale est aliud in potentia; — qui Deum intelligit ut ens
+<lb ed="#L" n="16"/>subsistens, non alii inhaerens, et sic ut habet rationem suppositi, et ut ens
+<lb ed="#L" n="17"/>in actu tale quale est quodcumque ens quantum est de se solum in potentia,
+(etiam large appellando esse in potentia id quod importat quamcumque rem
+<lb ed="#L" n="18"/>praedicamentalem quae contradictionem non implicat), intelligit ipsum 
+<lb ed="#L" n="19"/>vere ut principium causativum vel productivum omnium.
+</p>
+            <p xml:id="v27ab7-g03351-d1e174">
+               <lb ed="#L" n="20"/>Ex creaturis autem hoc potest intelligi de Deo, scilicet quod oportet
+<lb ed="#L" n="21"/>ponere aliquod ? ens primum a nullo dependens, sed a quo omnia dependent
+<lb ed="#L" n="22"/>et sic ut in se subsistens et ut habens rationem alicuius suppositi et ideo
+<lb ed="#L" n="23"/>poterit Deus ex naturalibus intelligi esse principium causativum vel 
+produc<lb break="no" ed="#L" n="24"/>tivum recum omnium.
+</p>
+            <p xml:id="v27ab7-g03351-d1e187">
+               <lb ed="#L" n="25"/>Sed quia, ut tangitur in argumento, in divinis non est suppositum nisi
+<lb ed="#L" n="26"/>relativum, praedicto autem modo non poterit Deus intelligi sub ratione
+<lb ed="#L" n="27"/>suppositi relativi, quia per creaturas ex naturalibus absque lumine fidei
+<lb ed="#L" n="28"/>non potest intellectus in notitiam trinitatis sufficienter pervenire, quaerit
+<lb ed="#L" n="29"/>quaestio sub qua ratione suppositi Deus intelligitur ex puris naturalibus.
+</p>
+            <p xml:id="v27ab7-g03351-d1e200">
+               <lb ed="#L" n="30"/>Et est dicendum quod non sub ratione suppositi relativi, sed aliquo
+<lb ed="#L" n="31"/>modo in generali sub ratione suppositi absolute et indefinite " (intelligendo
+<lb ed="#L" n="32"/>id scilicet quod non est secundum rem nisi suppositum relativum , absolute
+<lb ed="#L" n="33"/>et in definite) , id est non determinate ut subsistens ad se solum, nec 
+deter<lb break="no" ed="#L" n="34"/>minate ut subsistens ad alium, sed in generali. Intelligere enim aliquid
+<lb ed="#L" n="35"/>sub ratione suppositi absoluti potest intelligi dupliciter, vel ut ratio absoluti
+<pb ed="#L" n="42"/>
+               <lb ed="#L" n="1"/>ponatur ex parte rei intellectae, vel modi intelligendi. Primo modo ' non
+<lb ed="#L" n="2"/>potest intelligi Deus sub ratio ne suppositi absoluti, quia non intelligitur
+<lb ed="#L" n="3"/>recto intellectu nisi verum. Impossibile autem est in Deo esse suppositum
+<lb ed="#L" n="4"/>absolutum, et ideo impossibile est hoc intelligere ve] apprehendere vero
+<lb ed="#L" n="5"/>intellectu, scilicet quod Deus in se subsistat secundum rationem absolutam
+<lb ed="#L" n="6"/>et non secundum rationem proprietatis relativae. In divinis enim non est
+<lb ed="#L" n="7"/>aliquid absolutum nisi essentia et essentialia, et ideo nihil potest intelligi
+<lb ed="#L" n="8"/>secundum rationem absolutam isto modo nisi essentia et essentialia ? ;
+<lb ed="#L" n="9"/>suppositum enim absolutum vel est communicabile, sicut in creaturis ubi
+<lb ed="#L" n="10"/>intelligitur natura in abstracto, non secundum abstractionem naturae a
+<lb ed="#L" n="11"/>supposito nec formae a materia, sed secundum abstractionem universalis
+<lb ed="#L" n="12"/>a suppositis singularibus; et illud dicitur suppositum universale vel 
+inde<lb break="no" ed="#L" n="13"/>finitum, ut homo respectu huius et illius hominis, quod quidem non dicit
+<lb ed="#L" n="14"/>aliquam unitatem realem in diversis sed solum secundum conceptum et
+<lb ed="#L" n="15"/>secundum rationem. Et tale non est in divinis ubi non est universale nec
+<lb ed="#L" n="16"/>particulare proprie, quia non est ibi natura una secundum rationem 
+multi<lb break="no" ed="#L" n="17"/>plicabilis in diversis secundum rem, vel est incommunicabile sicut ponunt
+<lb ed="#L" n="18"/>Philosophi in substantiis separatis in quibus non est natura specifica aliquo
+<lb ed="#L" n="19"/>modo multiplicabilis vel communicabilis secundum eos ; et illud est 
+suppo<lb break="no" ed="#L" n="20"/>situm singulare absolutum. Sed quia in divinis est una essentia vel natura,
+<lb ed="#L" n="21"/>non quidem omnino incommunicabilis, ideo non potest ibi esse suppositum
+<lb ed="#L" n="22"/>singulare quasi unicum et solitarium, quod necessario esset absolutum et
+<lb ed="#L" n="23"/>esset sic singulare, quod et ' incommunicabile, communem naturam unam
+<lb ed="#L" n="24"/>secundum rem cum alio non participans. Sed quia essentia divina est 
+com<lb break="no" ed="#L" n="25"/>municabilis sed non multiplicabilis secundum plura supposita, ideo licet ibi
+<lb ed="#L" n="26"/>non sit suppositum singulare ut dividitur contra universale, tamen est ibi
+<lb ed="#L" n="27"/>suppositum singulare ut distinguitur contra communicabile. Sed illud 
+sup<lb break="no" ed="#L" n="28"/>positum singulare non potest esse absolutum, quia tale solum est ubi est
+<lb ed="#L" n="29"/>natura realiter multiplicabilis in diversis ubi unumquodque est id quod est
+<lb ed="#L" n="30"/>ad se et secundum se distinctum in natura sua, et cum alio non communicat
+<lb ed="#L" n="31"/>nisi secundum rationem intellectus abstrahentis.
+</p>
+            <p xml:id="v27ab7-g03351-d1e285">
+               <lb ed="#L" n="32"/>Item si in divinis esset suppositum absolutum, impossibile esset ibi
+<lb ed="#L" n="33"/>esse aliquod sup positum ? relativum, quia impossibile esset" ibi esse
+<lb ed="#L" n="34"/>plura supposita realiter distincta. Impossibile autem est esse unum solum
+<lb ed="#L" n="35"/>suppositum relativum, quia omne relativum exigit et ponit suum 
+correlati<lb break="no" ed="#L" n="36"/>vum. Antecedens patet, quia illud suppositum aut esset unum solum secun-
+<pb ed="#L" n="43"/>
+               <lb ed="#L" n="1"/>dum rationem et considerationem sed secundum realem existentiam 
+multi<lb break="no" ed="#L" n="2"/>plicatum et communicatum, et huiusmodi ! est suppositum termini universalis
+<lb ed="#L" n="3"/>in concretione significatum, ut homo vel asinus, — hoc autem non potest
+<lb ed="#L" n="4"/>reperiri in divinis ; — aut esset unum secundum realem existentiam sicut et
+<lb ed="#L" n="5"/>secundum rationis considerationem, sed tale nullo modo est communicabile,
+<lb ed="#L" n="6"/>quia sicut essentia non potest pluribus essentiis communicari aliquo modo
+<lb ed="#L" n="7"/>nisi ipsa realiter plurificetur, etsi secundum rationem sit una sicut patet in
+<lb ed="#L" n="8"/>universalibus ut animalitas quae non communicatur nisi secundum sui
+<lb ed="#L" n="9"/>realem divisionem, ita etiam suppositum nullo modo potest communicari
+<lb ed="#L" n="10"/>pluribus suppositis nisi ipsum realiter plurificetur. Sicut ergo impossibile
+<lb ed="#L" n="11"/>est patrem et filium communicare in eadem essentia indistincta, et ipsos
+<lb ed="#L" n="12"/>importare distinctionem realem in essentia, ita impossibile est eos 
+commu<lb break="no" ed="#L" n="13"/>nicare idem suppositum, et ipsos importare distinctionem realem in 
+sup<lb break="no" ed="#L" n="14"/>posito. Si ergo po neretur suppositum absolutum in divinis non esset ibi
+<lb ed="#L" n="15"/>nisi unum solum suppositum solis nominibus et relationibus secundum
+<lb ed="#L" n="16"/>rationem plurificatum, prout Sabellius fingebat.
+</p>
+            <p xml:id="v27ab7-g03351-d1e335">
+               <lb ed="#L" n="17"/>Hoc etiam patet ex ratione actionum divinarum, quia cum suppositi sit
+<lb ed="#L" n="18"/>agere, sicut actiones essentiales sunt suppositi, ita et personales sive 
+notio<lb break="no" ed="#L" n="19"/>nales. Unde ilius eiusdem cuius est generare est etiam intelligere et e
+<lb ed="#L" n="20"/>converso ejus cuius est intelligere est generare vel spirare, et non est 
+ali<lb break="no" ed="#L" n="21"/>cuius in divinis intelligere cuius non sit aliqua actio notionalis nisi sit tertia
+<lb ed="#L" n="22"/>persona . Ergo illud suppositum absolutum sicut intelligeret ita etiam
+<lb ed="#L" n="23"/>generaret vel spiraret ; sed generans dicitur relative ad genitum, ergo esset
+<lb ed="#L" n="24"/>suppositum relativum quod est contra positum. Sicut ergo essentiae in
+<lb ed="#L" n="25"/>divinis non competit generare ita nec alicui supposito absoluto, et sicut ei
+<lb ed="#L" n="26"/>non convenit generare ita nec creare vel intelligere quia illius ejusdem est
+<lb ed="#L" n="27"/>actio essentialis cujus est actio notionalis et e converso, excepta persona
+<lb ed="#L" n="28"/>Spiritus Sancti cui non competit aliqua operatio notionalis active. Non
+<lb ed="#L" n="29"/>ergo in divinis potest intelligi suppositum secundum rationem absoluti ex
+<lb ed="#L" n="30"/>parte rei.
+</p>
+            <p xml:id="v27ab7-g03351-d1e369">
+               <lb ed="#L" n="31"/>Sed si ratio absoluti referatur ad modum intelligendi nostrum, sic
+<lb ed="#L" n="32"/>aliquo modo potest dici quod Deus intelligatur sub ratione suppositi 
+abso<lb break="no" ed="#L" n="33"/>luti; intelligendo, ut dictum est, illud quod non est secundum rem nisi
+<lb ed="#L" n="34"/>suppositum relativum, absolute et indefinite, id est non determinate ut
+<lb ed="#L" n="35"/>subsistens ad se solum, nec determinate ut subsistens ad alium, sed in
+<lb ed="#L" n="36"/>generali sub ratione in se subsistentis, absque hoc quod intelligatur 
+pro<lb break="no" ed="#L" n="37"/>prietas relativa vel habitudo eius ad aliud vel ad alium ; et hoc modo recti
+<pb ed="#L" n="44"/>
+               <lb ed="#L" n="1"/>philosophi Deum simpliciter et absolute subsistentem intellexerunt, absque
+<lb ed="#L" n="2"/>hoc quod determinate intelligerent ipsum sub ratione subsistentis ad se
+<lb ed="#L" n="3"/>sic quod non ad aliud. Sic etiam fideles qui non semper actu intelligunt
+<lb ed="#L" n="4"/>distinctionem personarum cogitando de Deo et loquendo de ipso sub hoc
+<lb ed="#L" n="5"/>nomine concreto Deus intelligunt ipsum sub ratione suppositi absoluti.
+<lb ed="#L" n="6"/>Cum enim aliquis dicit : Deus creavit mundum vel huiusmodi ', non statim
+<lb ed="#L" n="7"/>in actu apprehendit per hoc quod Deus Pater, Deus Filius, Deus Spiritus
+<lb ed="#L" n="8"/>Sanctus creavit mundum ; sed Deus, id est ens primum et quo nihil maius
+<lb ed="#L" n="9"/>excogitari potest, in se subsistens absque determinatione modi subsistendi
+<lb ed="#L" n="10"/>vel solum ad se vel ad alium, creavit mundum.
+</p>
+            <p xml:id="v27ab7-g03351-d1e411">
+               <lb ed="#L" n="11"/>Fideles etiam ulterius qui credunt et supponunt Trinitatem personarum
+<lb ed="#L" n="12"/>in divinis, hoc nomine Deus bene possunt intelligere suppositum absolutum
+<lb ed="#L" n="13"/>dicto modo secundum rationem intelligendi, sed non proprie indefinitum,
+<lb ed="#L" n="14"/>quia non proprie universale, sed indefinite id est indefinitum  secundum
+<lb ed="#L" n="15"/>modum intelligendi; quia per hoc nomen Deus intelligunt Deum Patrem
+<lb ed="#L" n="16"/>vel Deum Filium vel Deum Spiritum Sanctum sive Deum qui est Pater
+<lb ed="#L" n="17"/>et Filius et Spiritus Sanctus. Cum autem intelligitur Deus qui est Pater et
+<lb ed="#L" n="18"/>Filius et Spiritus Sanctus, simul ut unitatem indivisibilem intelligamus ex
+<lb ed="#L" n="19"/>parte eius quod Dei nomine importatur, et per Patrem et Filium et Spiritum
+<lb ed="#L" n="20"/>Sanctum, spiritualia specialia relativa ? intelligimus perfectius. Sed qui primo
+<lb ed="#L" n="21"/>intelligeret Deum sub ratione suppositi secundum rationem intelligendi,
+<lb ed="#L" n="22"/>post hoc determinando istum  modum ex parte rei et secundum rationem
+<lb ed="#L" n="23"/>essendi determinatam, ut scilicet per hoc nomen Deus intelligeret naturam
+<lb ed="#L" n="24"/>summam subsistentem in se et ad se, nullo modo ad alium, talis 
+intel<lb break="no" ed="#L" n="25"/>lectus esset falsus et erroneus. Nec ad hunc intellectum debent philosophi
+<lb ed="#L" n="26"/>descendere, sed debent in illa ratione generali stare, nisi velint errare, sicut
+<lb ed="#L" n="27"/>erravit Commentator, sic suppositum aestimans in divinis et Trinitatem
+<lb ed="#L" n="28"/>personarum excludens, ut patet duodecimo Metaphysicae. Per hoc patet
+<lb ed="#L" n="29"/>responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

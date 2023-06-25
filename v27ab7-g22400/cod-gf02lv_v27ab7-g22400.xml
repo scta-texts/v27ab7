@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="262"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g22400"><!-- v27ab7-q6-q18 -->
+            <head xml:id="v27ab7-g22400-Hd1e99">Quaestio 18</head>
+            <head xml:id="v27ab7-g22400-Hd1e101" type="question-title">
+      Utrum filius servi morientis cuius bona debent devolvi ad dominum,
+      si retineat de bonis patris, non habens alia bona, tenetur illa restituere domino
+    </head>
+            <p xml:id="v27ab7-g22400-d1e104">
+               <lb ed="#L" n="13"/>QUAESTIO XVIII.
+<lb ed="#L" n="14"/>Utrum filius servi morientis cuius bona debent devolvi ad dominum,
+<lb ed="#L" n="15"/>si retineat de bonis patris, non habens alia bona, tenetur illa restituere domino.
+</p>
+            <p xml:id="v27ab7-g22400-d1e113">
+               <lb ed="#L" n="16"/>Postea ad secundum praedictorum, scilicet posito dicto casu, arguebatur quod talis
+<lb ed="#L" n="17"/>non tenetur restituere quod sic accepit, quia ille qui accepit et habet illud quod sibi
+<lb ed="#L" n="18"/>de iure competit non tenetur illud restituere. Sed ita est in proposito; nam, secundum
+<lb ed="#L" n="19"/>Philosophum, octavo Ethicorum, filius iure naturae tria habet a patre, scilicet: esse,
+<lb ed="#L" n="20"/>nutritionem, et disciplinam. Sed nutritionem sive sustenfationem corporis non potest
+<lb ed="#L" n="21"/>habere per patrem nisi de talibus bonis quia alia non habet; ergo talia sibi de iure
+<lb ed="#L" n="22"/>debentur; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g22400-d1e131">
+               <lb ed="#L" n="23"/>Contra. Secundum Philosophum, quinto Ethicorum, iudex est sicut iustum animatum;
+<lb ed="#L" n="24"/>illud ergo quod iudex iudicat esse faciendum est iustum et illud tenetur quis facere ; sed
+<lb ed="#L" n="25"/>si factum praedictum deduceretur ad iudicium, iudex iudicaret? illud esse restituendum ;
+<lb ed="#L" n="26"/>ergo ille de iure tenetur restituere, etiamsi a iudice non cogatur; quare, et cetera.
+</p>
+            <p xml:id="v27ab7-g22400-d1e143">
+               <lb ed="#L" n="27"/>Respondeo dicendum quod in tantum lex aliqua scripta vel consuetudo vim legis
+<lb ed="#L" n="28"/>habens est recta in quantum a lege aeterna derivatur et ei conformatur. Quia enim lex
+<lb ed="#L" n="29"/>aeterna est ratio gubernationis in supremo gubernatore, necesse est quod omnes rationes
+<lb ed="#L" n="30"/>gubernationis quae sunt in inferioribus gubernantibus a lege aeterna deriventur ; 
+huius<lb break="no" ed="#L" n="31"/>modi autem rationes inferiorum  gubernantium sunt quaecumque leges praeter legem
+<lb ed="#L" n="32"/>aeternam ; unde, omnes leges in quantum participant de lege aeterna in tantum rectae
+<lb ed="#L" n="33"/>sunt; et ideo leges rectae sunt quae innituntur rectae rationi quae recta est secundum
+<lb ed="#L" n="34"/>quod rationi aeternae conformatur. Unde dicit Augustinus, primo de Libero Arbitrio,
+<lb ed="#L" n="35"/>quod in temporali lege nihil est iustum ac legitimum quod non ex aeterna sibi homines
+<lb ed="#L" n="36"/>derivaverunt; et item dicit Augustinus, decimo quarto de Trinitate, capitulo decimo tertio:
+<lb ed="#L" n="37"/>regulae ubi quid sit iustum et iniustus agnoscit scriptae sunt in libro lucis illius quae
+<lb ed="#L" n="38"/>veritas dicitur, unde omnis lex iusta describitur et in cor bominis transfertur ; et secundum
+<lb ed="#L" n="39"/>hoc, illud quod est contra rectum dictamen naturalis rationis iustum esse non potest ; cum
+<pb ed="#L" n="263"/>
+               <lb ed="#L" n="1"/>ergo naturalis ratio dictat quod pater sustentationem ! praebeat pueris, praecipue cum
+<lb ed="#L" n="2"/>aliunde non habeant et indigeant, consuetudo vel lex quae hoc destrueret, rationem legis
+<lb ed="#L" n="3"/>rectae non haberet Si ergo aliqua consuetudo hoc habet quod dominus, mortuo patre,
+<lb ed="#L" n="4"/>aliquorum puerorum non? habentium bona unde vivere possunt, omnia bona talis patris
+<lb ed="#L" n="5"/>possit sic auferre? quod filiis non relinquatur unde vivant nec ipse etiam eos tenetur
+<lb ed="#L" n="6"/>de bonis patris defuncti quae recipit sustentare, non videtur talis consuetudo rationabilis
+<lb ed="#L" n="7"/>nec tenenda; et ideo si filius talis patris probabiliter aestimet quod, si dominus talia bona
+<lb ed="#L" n="8"/>auferret ei, non remanebit unde vivat nec ipse dominus eum sustentabit, — cum bona
+<lb ed="#L" n="9"/>paterna iure naturae et divino sint bona communia filiorum quae pater secundum iustitiam
+<lb ed="#L" n="10"/>distributivam debet filiis dispensare, vel si moriatur per alium, vel per ipsos filios inter
+<lb ed="#L" n="11"/>se per concordiam fieri debet hoc, vel etiam ex ipsa morte patris filii eiiure succedunt
+<lb ed="#L" n="12"/>in illis, — videtur quod si portionem convenientem sibi reservet [quod] non peccet et quod
+<lb ed="#L" n="13"/>restituere non teneatur; si autem sit  dominus talis condicionis quod possit probabiliter
+<lb ed="#L" n="14"/>aestimari quod si bona talis patris ad ipsum pervenerint [quod] filios illius convenienter
+<lb ed="#L" n="15"/>sustentabit. sic ablata restituenda essent.
+</p>
+            <p xml:id="v27ab7-g22400-d1e208">
+               <lb ed="#L" n="16"/>Cum dicitur quod lex iubet, dicendum quod, secundum quod supra dictum est, prout
+<lb ed="#L" n="17"/>dicit Augustinus, primo de Libero Arbitrio : leges humanae multa permittunt fieri et
+<lb ed="#L" n="18"/>dimittunt impunita quae secundum legem divinam aeternam punienda sunt, quia mala sunt
+<lb ed="#L" n="19"/>et iniusta secundum se; et hoc quidem de legibus humanis etiam? iustis est intelligendum;
+<lb ed="#L" n="20"/>nec propter talia aliqua mala debent huiusmodi leges annullari propter pacem communem
+<lb ed="#L" n="21"/>quae conservatur per illas etiam " secundum quod sic per eas talia permittuntur; sed
+<lb ed="#L" n="22"/>aliqua sunt in aliquibus legibus humanis sic omnino contra rationem et sine quibus bonum
+<lb ed="#L" n="23"/>commune bene servatur. quod nec leges debent dici nec etiam observari : et ideo in casu
+<lb ed="#L" n="24"/>proposito bonus iudex iudicare deberet quod dominus filium talis servi educaret vel
+<lb ed="#L" n="25"/>quod sibi id quod de bonis suis retinuit remaneret.
+</p>
+            <p xml:id="v27ab7-g22400-d1e232">
+               <lb ed="#L" n="26"/>Explicit sextum quodlibet Magistri Godefridi de Fontibus? Incipit septimum eiusdem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

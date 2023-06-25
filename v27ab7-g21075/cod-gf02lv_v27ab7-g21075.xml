@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="247"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g21075"><!-- v27ab7-q6-q14 -->
+            <head xml:id="v27ab7-g21075-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-g21075-Hd1e101" type="question-title">
+      Utrum anima humana tota producitur
+      in esse in fine generationis
+    </head>
+            <p xml:id="v27ab7-g21075-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO XIV.
+<lb ed="#L" n="6"/>Utrum anima humana tota producitur
+<lb ed="#L" n="7"/>in esse in fine generationis.
+</p>
+            <p xml:id="v27ab7-g21075-d1e113">
+               <lb ed="#L" n="8"/>Deinde circa pertinentia ad naturam humanam specialiter quaerebantur
+<lb ed="#L" n="9"/>quaedam pertinentia ad hominem generaliter, quaedam pertinentia ad
+<lb ed="#L" n="10"/>quosdam homines specialiter. Circa pertinentia ad homines generaliter
+<lb ed="#L" n="11"/>quaerebantur quaedam pertinentia ad naturam animae sive formae, quaedam
+<lb ed="#L" n="12"/>pertinentia ad naturam corporis sive materiae. Circa pertinentia ad naturam
+<lb ed="#L" n="13"/>animae quaerebantur duo : unum pertinens ad essentiam animae quantum
+<lb ed="#L" n="14"/>ad exitum eius in esse, scilicet utrum forma substantialis humana tota 
+pro<lb break="no" ed="#L" n="15"/>ducitur in esse in fine generationis, aliud erat pertinens ad naturalem
+<lb ed="#L" n="16"/>potentiam animae quae est intellectus agens, scilicet utrum intellectus agens
+<lb ed="#L" n="17"/>pertineat ad superiorem portionem rationis vel ad inferiorem.
+</p>
+            <p xml:id="v27ab7-g21075-d1e137">
+               <lb ed="#L" n="18"/>Ad primum sic procedebatur et ostendebatur quod forma substantialis
+<lb ed="#L" n="19"/>humana tota in fine generationis producatur; nam quicquid advenit existenti
+<lb ed="#L" n="20"/>in actu post formam substantialem est accidens; ergo si ante finem 
+gene<lb break="no" ed="#L" n="21"/>rationis adveniret aliquid pertinens ad formam substantialem illud ! quod
+<lb ed="#L" n="22"/>adveniret in fine generationis esset accidens sive accidentalis forma ; hoc
+<lb ed="#L" n="23"/>autem est inconveniens, quia generatio est transmutatio ad substantiam et
+<lb ed="#L" n="24"/>terminari debet ad formam substantialem ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g21075-d1e156">
+               <lb ed="#L" n="25"/>Contra. Secundum Philosophum embrio prius vivit vita plantae quam
+<lb ed="#L" n="26"/>vita animalis; sed non vivit vita plantae  nisi habeat formam substantialem
+<lb ed="#L" n="27"/>a qua procedit talis vita; ergo ante finem generationis producitur aliquid
+<lb ed="#L" n="28"/>pertinens ad formam substantialem ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g21075-d1e167">
+               <lb ed="#L" n="29"/>Respondeo dicendum quod, cum generatio sit transmutatio entis in
+<lb ed="#L" n="30"/>potentia simpliciter ad esse actu simpliciter, sicut motus quicumque est
+<lb ed="#L" n="31"/>transmutatio entis in actu simpliciter et in potentia secundum quid ad esse
+<pb ed="#L" n="248"/>
+               <lb ed="#L" n="1"/>actu secundum quid, transmutatio autem non cessat quousque terminus sit
+<lb ed="#L" n="2"/>adeptus et illo adepto cessat, sicut forma accidentalis ad quam est motus
+<lb ed="#L" n="3"/>habetur secundum esse perfectum et completum in fine transmutationis
+<lb ed="#L" n="4"/>quae est alteratio vel huiusmodi et non ante, ita etiam forma substantialis
+<lb ed="#L" n="5"/>ad quam est transmutatio quae est generatio habetur secundum esse 
+per<lb break="no" ed="#L" n="6"/>fectum et completum in fine generationis et non ante, differenter ' tamen
+<lb ed="#L" n="7"/>quantum ad ge nerationem simpliciter et secundum formam substantialem
+<lb ed="#L" n="8"/>et quantum ad generationem secundum quid et secundum formam 
+acciden<lb break="no" ed="#L" n="9"/>talem; nam cum forma accidentalis recipiat magis et minus , ideo ante
+<lb ed="#L" n="10"/>complementum generationis secundum aliquid eius habetur forma quae per
+<lb ed="#L" n="11"/>huiusmodi generationem acquiritur etiam imperfecte et secundum esse
+<lb ed="#L" n="12"/>potentiale ; non sic autem forma substantialis; sed nihil eius secundum ? se
+<lb ed="#L" n="13"/>habetur ante finem generationis alioquin generatio esset vere motus; unde
+<lb ed="#L" n="14"/>si in homine non esset nisi una forma substantialis planum esset quomodo
+<lb ed="#L" n="15"/>respondendum esset ad quaestionem : dicendum enim esset quod simul et
+<lb ed="#L" n="16"/>totaliter introduceretur ' in fine generationis.
+</p>
+            <p xml:id="v27ab7-g21075-d1e213">
+               <lb ed="#L" n="17"/>Sed quia circa hoc sunt diversae opiniones, cum quidam  ponunt
+<lb ed="#L" n="18"/>plures formas substantiales simul in eodem, quod non videtur posse esse,
+<lb ed="#L" n="19"/>quia sicut materia in genere substantiae est ens in potentia simpliciter, ita
+<lb ed="#L" n="20"/>etiam quaelibet forma substantialis est actus simpliciter et ideo dat esse 
+sim<lb break="no" ed="#L" n="21"/>pliciter; propter quod videtur quod unum ens simpliciter non possit habere
+<lb ed="#L" n="22"/>nisi unam formam quae sit de genere substantiae. Sed quia accidentales
+<lb ed="#L" n="23"/>formae non dant ? esse simpliciter et quia ens simpliciter potest esse in
+<lb ed="#L" n="24"/>potentia secundum quid, ideo cum forma una substantiali non videtur posse
+<lb ed="#L" n="25"/>esse alia forma substantialis, sed cum ea potest esse alia forma accidentalis
+<lb ed="#L" n="26"/>et ideo, supposito quod in homine non sit nisi una forma substantialis quae
+<lb ed="#L" n="27"/>est ipsa anima, dicendum quod simpliciter et totaliter in fine generationis
+<lb ed="#L" n="28"/>introducitur.
+</p>
+            <p xml:id="v27ab7-g21075-d1e242">
+               <lb ed="#L" n="29"/>Sed quia inter terminum primum et ultimum terminum generationis
+<lb ed="#L" n="30"/>possunt esse plures generationes mediae quae non habent rationem termini
+<lb ed="#L" n="31"/>manentis sed viae et medii transeuntis, ideo potest dici quod ante 
+introduc<lb break="no" ed="#L" n="32"/>tionem animae introducuntur quaedam aliae formae; sed illae non manent
+<lb ed="#L" n="33"/>anima adveniente; immo si tales plures generationes sunt intermediae
+<lb ed="#L" n="34"/>propter introductionem posterioris fit prioris corruptio eo quod plures
+<pb ed="#L" n="249"/>
+               <lb ed="#L" n="1"/>formae substantiales in eodem esse non possunt. Ouia tamen, prout dicitur
+<lb ed="#L" n="2"/>nono Metaphysicae, respectu alicuius proprie dicitur in potentia aliquid cum
+<lb ed="#L" n="3"/>est sic dispositum quod una transmutatione et ab uno agente potest
+<lb ed="#L" n="4"/>reduci ad actum, secundum illud videretur quod tunc solum est materia
+<lb ed="#L" n="5"/>hominis proprie in potentia ad formam humanam cum una transmutatione
+<lb ed="#L" n="6"/>secundum substantiam per agens ! naturale materiam transmutans et per
+<lb ed="#L" n="7"/>agens supernaturale quod quantum ad hoc, ut alias dictum est , non est
+<lb ed="#L" n="8"/>proprie agens omnino diversum, sed quasi vice agentis naturalis animam
+<lb ed="#L" n="9"/>introducere non potentis, sed ad eam materiam  summe disponentis eius
+<lb ed="#L" n="10"/>defectum quasi supplendo et ipsam animam creando, infunditur ipsa anima ;
+<lb ed="#L" n="11"/>et tunc primo proprie loquendo homo generatur et secundum hoc anima
+<lb ed="#L" n="12"/>sive forma humana tota in fine generationis hominis introducitur et statim
+<lb ed="#L" n="13"/>est generatum vivens vita aliqua, et est generatio substantialis terminata
+<lb ed="#L" n="14"/>et completa.
+</p>
+            <p xml:id="v27ab7-g21075-d1e290">
+               <lb ed="#L" n="15"/>Sed quia quaedam operationes animae quae sunt vivere [quaedam]
+<lb ed="#L" n="16"/>indigent diversis dispositionibus organorum secundum diversas qualitates
+<lb ed="#L" n="17"/>et quantitates et alia huiusmodi, ideo non statim cum est tota anima 
+secun<lb break="no" ed="#L" n="18"/>dum substantiam introducta potest omnes suas operationes vitales exercere,
+<lb ed="#L" n="19"/>prout patet in pueris qui cum statim nati sunt nullum habent usum rationis
+<lb ed="#L" n="20"/>propter defectum convenientis dispositionis organorum quae debent animae
+<lb ed="#L" n="21"/>in hac sua operatione deservire.
+</p>
+            <p xml:id="v27ab7-g21075-d1e308">
+               <lb ed="#L" n="22"/>Per hoc patet responsio ad rationem in oppositum; quia, secundum
+<lb ed="#L" n="23"/>iam dicta, statim cum embrio vivit vita? plantae quantum ad esse primum
+<lb ed="#L" n="24"/>per substantiam animae et quantum ad esse secundum quantum ad 
+opera<lb break="no" ed="#L" n="25"/>tionem eius quae est nutriri et augeri, vivit etiam vita animalis quantum ad
+<lb ed="#L" n="26"/>esse primum per substantiam animae licet non quantum ad esse secundum,
+<lb ed="#L" n="27"/>scilicet quantum ad operationes plures sensitivas, tunc etiam vivit vita
+<lb ed="#L" n="28"/>hominis quantum ad actum primum substantiae animae humanae licet non
+<lb ed="#L" n="29"/>quantum ad secundum, scilicet quantum ad opera intellectus et voluntatis.
+<lb ed="#L" n="30"/>Posset etiam dici quod non statim cum vivit vita plantae est terminata
+<lb ed="#L" n="31"/>generatio substantialis nec tamen forma humana habet esse ante terminum
+<lb ed="#L" n="32"/>generationis quia, adveniente anima priores formae  corrumpuntur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

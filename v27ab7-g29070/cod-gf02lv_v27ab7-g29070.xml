@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="336"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g29070"><!-- v27ab7-q7-q6 -->
+            <head xml:id="v27ab7-g29070-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-g29070-Hd1e101" type="question-title">
+      Utrum unum et idem sic possit differre a se ipso quod possit reali relatione referri ad se ipsum
+    </head>
+            <p xml:id="v27ab7-g29070-d1e104">
+               <lb ed="#L" n="18"/>QUAESTIO VI.
+<lb ed="#L" n="19"/>Utrum unum et idem sic possit differre a se ipso quod possit
+<lb ed="#L" n="20"/>reali relatione referri ad se ipsum.
+</p>
+            <p xml:id="v27ab7-g29070-d1e113">
+               <lb ed="#L" n="21"/>Post hoc ad secundum arguitur  quod unum et idem possit sic differre
+<lb ed="#L" n="22"/>a se ipso quod reali relatione possit referri ad se ipsum, quia movens et
+<lb ed="#L" n="23"/>motum sive activum et passivum realiter ad invicem referuntur ; sed aliquid
+<lb ed="#L" n="24"/>unum et idem vere movet se ipsum sive vere agit se ipsum de vera potentia
+<lb ed="#L" n="25"/>ad verum actum se ipsum transmutando ; ergo et cetera. Maior patet. Minor
+<lb ed="#L" n="26"/>declaratur ; quia intellectus factus in actu per actualem notitiam 
+principio<lb break="no" ed="#L" n="27"/>rum adhuc vere est in potentia quantum ad actualem notitiam conclusionum ;
+<lb ed="#L" n="28"/>sed, prout videtur dicere Philosophus, secundo Physicorum, intellectus factus
+<lb ed="#L" n="29"/>in actu secundum actualem notitiam principiorum se habet in duplici genere
+<lb ed="#L" n="30"/>causae respectu cognitionis conclusionum ^, scilicet in genere causae 
+mate<lb break="no" ed="#L" n="31"/>rialis in quantum talis notitia sit  in ipso intellectu ut in subiecto, et in genere
+<pb ed="#L" n="337"/>
+               <lb ed="#L" n="1"/>causae efficientis in quantum eadem notitia fit ' ab ipso intellectu ut ab
+<lb ed="#L" n="2"/>agente, prout etiam consuevimus dicere quod intellectus factus in actu 
+secun<lb break="no" ed="#L" n="3"/>dum cognitionem principiorum educit se ipsum in actu secundum cognitionem
+<lb ed="#L" n="4"/>conclusionum ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g29070-d1e150">
+               <lb ed="#L" n="5"/>Contra. Secundum Hilarium, unum et idem non potest esse simile sibi
+<lb ed="#L" n="6"/>ipsi ; ergo eadem ratione etiam secundum alias relationes unum et idem non
+<lb ed="#L" n="7"/>potest referri ad se ipsum.
+</p>
+            <p xml:id="v27ab7-g29070-d1e160">
+               <lb ed="#L" n="8"/>Respondeo : circa hoc est intellhipendum quod, quia quaestio quaerit
+<lb ed="#L" n="9"/>generaliter utrum unum et idem realiter sive relatione reali possit referri ad
+<lb ed="#L" n="10"/>se ipsum, unum autem dicitur multipliciter ^, ideo distinguendum est de uno
+<lb ed="#L" n="11"/>et quantum ad praesens sufficit. Potest accipi unum sic quod dicat 
+indivi<lb break="no" ed="#L" n="12"/>sionem omnino realem ita quod unum sit illud quod in se est omnino 
+sim<lb break="no" ed="#L" n="13"/>plex et omnem pluralitatem partium et essentialium et quantitativarum 
+exclu<lb break="no" ed="#L" n="14"/>dat ut circa ipsum vel in ipso non possit poni aliqua diversitas realis, sed
+<lb ed="#L" n="15"/>solum secundum rationem ; alio modo dicitur unum quod in se complectitur
+<lb ed="#L" n="16"/>plura essentialiter differentia, sunt tamen unum in esse vel subiecto sicut
+<lb ed="#L" n="17"/>compositum ex materia et forma substantiali vel ex substantia et accidente ;
+<lb ed="#L" n="18"/>tertio modo, dicitur unum quod in se complectitur plura non solum 
+essen<lb break="no" ed="#L" n="19"/>tialiter differentia, sed etiam subiecto et situ, sicut quodlibet corpus quod
+<lb ed="#L" n="20"/>ratione quantitatis extendentis habet plures partes extra se invicem ^.
+</p>
+            <p xml:id="v27ab7-g29070-d1e191">
+               <lb ed="#L" n="21"/>Potest ergo quaestio determinari ad unum primo modo; et tunc est
+<lb ed="#L" n="22"/>dicendum quod illud quod sic est unum nullo modo reali relatione potest
+<lb ed="#L" n="23"/>referri ad se ipsum, quia de ratione relationis per se est subiectum suum ad
+<lb ed="#L" n="24"/>aliud referre. Hoc etiam patet ratione oppositionis quam important relationes
+<lb ed="#L" n="25"/>oppositae ; relationum enim est relata distinguere, ut in divinis, vel distincta
+<lb ed="#L" n="26"/>supponere. Cum ergo sit duplex genus relationum — sunt enim quaedam
+<lb ed="#L" n="27"/>relationes secundum rem et quaedam secundum rationem — quando autem
+<lb ed="#L" n="28"/>est relatio secundum rationem ex utraque parte sicut contingit in relatione
+<lb ed="#L" n="29"/>qua idem refertur ad se ipsum relatione identitatis, oportet quod sit dtinctio
+<lb ed="#L" n="30"/>saltem secundum rationem relatorum ; et si tollatur distinctio secundum
+<lb ed="#L" n="31"/>rationem relatorum, tollitur secundum rationem ipsarum relationum ; ergo
+<lb ed="#L" n="32"/>similiter quando est relatio secundum rem, ex utraque parte oportet quod sit
+<lb ed="#L" n="33"/>realis distinctio relatorum ad invicem ; et si tollitur realis distinctio relatorum,
+<lb ed="#L" n="34"/>tollitur necessario realis distinctio relationum.
+</p>
+            <p xml:id="v27ab7-g29070-d1e224">
+               <lb ed="#L" n="35"/>Haec patent per Philosophum qui dicit in libro Praedicamentorum : ad
+<lb ed="#L" n="36"/>aliquid enim talia sunt vel dicuntur quaecumque hoc ipsum quod sunt 
+alio<lb break="no" ed="#L" n="37"/>rum dicuntur, ut duplum, id quod est alterius dicitur vel quomodolibet ad
+<lb ed="#L" n="38"/>aliud ut simile ad aliquid dicitur. Ubi dicit Simplicius : Philosophus dicit ad
+<pb ed="#L" n="338"/>
+               <lb ed="#L" n="1"/>aliquid dicuntur et cetera, quia non est una substantia animal est ita et quae
+<lb ed="#L" n="2"/>ad aliud in uno sunt, sed in pluribus. Quae enim ad invicem non sunt unum ;
+<lb ed="#L" n="3"/>quae enim ad aliquid secundum multitudinem habentium habitudinem et ad
+<lb ed="#L" n="4"/>invicem dictorum multa necessario erunt. Subsistentia enim habitudini et in
+<lb ed="#L" n="5"/>quibus habitudo consideratur multa sunt; proprium enim habitudinis 
+subsis<lb break="no" ed="#L" n="6"/>tere in pluribus. Sed ubi est unum et idem omnino secundum rem 
+indistinc<lb break="no" ed="#L" n="7"/>tum, talis pluralitas realis relativorum non reperitur, ut per se patet ; ergo
+<lb ed="#L" n="8"/>nec pluralitas relationum realium. Ergo, licet quis lingua possit dicere quod
+<lb ed="#L" n="9"/>unum et idem possit referri ad se, non video tamen quomodo hoc possit '
+<lb ed="#L" n="10"/>apprehendere intellectus, quia hoc  statim refugit tanquam id quo manifeste
+<lb ed="#L" n="11"/>incompossibilia implicantur, sicut patet inducendo. Hoc etiam patet 
+discur<lb break="no" ed="#L" n="12"/>rendo per singulos modos relatorum.
+</p>
+            <p xml:id="v27ab7-g29070-d1e263">
+               <lb ed="#L" n="13"/>Sed specialiter prosequendum est propositum quantum ad illum modum
+<lb ed="#L" n="14"/>relativorum quomodo aliqua referuntur ad invicem secundum potentiam
+<lb ed="#L" n="15"/>activam et passivam in quibus maxime aliqui conantur ostendere hoc esse
+<lb ed="#L" n="16"/>possibile, scilicet quod unum et idem hoc modo referatur ad se ipsum. Sed
+<lb ed="#L" n="17"/>hoc non potest uni et eidem secundum idem reale convenire propter 
+mani<lb break="no" ed="#L" n="18"/>festam oppositionem et repugnantiam actus et potentiae quae nec in 
+corpo<lb break="no" ed="#L" n="19"/>ralibus nec in spiritualibus possunt eidem simul secundum unum et idem
+<lb ed="#L" n="20"/>secundum rem inesse vel convenire, sicut etiam nec alia quae 
+contradic<lb break="no" ed="#L" n="21"/>tionem includunt. Si ergo aliqua potentia animae sit aliquid unum et simplex
+<lb ed="#L" n="22"/>secundum rem, tunc ex comparatione eius ad se ipsam vel aliquid aliud
+<lb ed="#L" n="23"/>poterit dici referri ad se ipsum vel ad aliquid aliud relatione secundum
+<lb ed="#L" n="24"/>rationem, non autem reali ; ipsa enim a se ipsa propter talia non differt 
+rea<lb break="no" ed="#L" n="25"/>liter ; ergo sola ratione. Non est enim nisi duplex differentia aliquorum : vel
+<lb ed="#L" n="26"/>secundum rem vel secundum rationem, licet differentes sint modi secundum
+<lb ed="#L" n="27"/>rationem differendi. Ex hoc ergo quod voluntas comparatur ad aliquid 
+diffe<lb break="no" ed="#L" n="28"/>rens a se, puta ad suam operationem, bene ? contingit realis diversitas 
+com<lb break="no" ed="#L" n="29"/>positi ex ipsa et illa, sed in ipsa ex hoc nulla realis diversitas nec rerum
+<lb ed="#L" n="30"/>absolutarum nec respectivarum habet esse. Praeterea talis realis diversitas
+<lb ed="#L" n="31"/>quae est inter voluntatem et suam operationem non sufficit ad hoc quod
+<lb ed="#L" n="32"/>etiam inter eas sit talis relatio, quia inter subiectum et formam vel actum
+<lb ed="#L" n="33"/>non est aliqua realis relatio. Ergo multo minus ex habitudine voluntatis ad
+<lb ed="#L" n="34"/>se ipsam, in qua nulla est diversitas realis, poterit sumi diversitas relationum
+<lb ed="#L" n="35"/>realium in se ipsa et ad se ipsam.
+</p>
+            <p xml:id="v27ab7-g29070-d1e315">
+               <lb ed="#L" n="36"/>Item, quomodo dicetur sumi talis diversitas relationum realium ex
+<lb ed="#L" n="37"/>habitudine voluntatis ad illuh unum? Non enim ex hoc quod illud
+<lb ed="#L" n="38"/>est quasi medium quo voluntas sic vel sic, scilicet sub ratione activi et
+<lb ed="#L" n="39"/>passivi, se ipsam respiciat vel ad se habitudinem habeat, sicut contin-
+<pb ed="#L" n="339"/>
+               <lb ed="#L" n="1"/>git in perfectione quae est motus mediante quo agens et patiens se 
+respi<lb break="no" ed="#L" n="2"/>ciunt et ad invicem referuntur, cum tamen non videatur aliter posse sumi
+<lb ed="#L" n="3"/>haec diversitas relationum. Nam, cum motus vere sit in uno, scilicet in
+<lb ed="#L" n="4"/>passo subiective et ab alio, scilicet ab agente effective, cum haec sint extrema
+<lb ed="#L" n="5"/>realia et medium reale, poterit ita esse. Unde ex hoc circa ' unum et idem
+<lb ed="#L" n="6"/>inteliguntur duo quidem reales modi essendi, scilicet circa ipsum motum
+<lb ed="#L" n="7"/>super quo fundantur duo praedicamenta quae sunt actio et passio quae etiam
+<lb ed="#L" n="8"/>duae res dicuntur, quod tamen nequaquam contingeret nisl passivum et
+<lb ed="#L" n="9"/>activum realiter differrent, ita quod praeter reales modos essendi ipsius motus
+<lb ed="#L" n="10"/>intelligi possunt duae relationes reales extra rationem illorum modorum in
+<lb ed="#L" n="11"/>ipsis, scilicet activo et passivo, rea|liter differentibus fundatae ?; nec enim
+<lb ed="#L" n="12"/>illa realis relatio quae dicitur esse in motu, ut est in passo et secundum quam
+<lb ed="#L" n="13"/>sumitur circa motum praedicamentaliter quod dicitur passio, est qua ipse
+<lb ed="#L" n="14"/>motus realiter ad ipsum passivum referatur, sed nec est illa  qua passivum
+<lb ed="#L" n="15"/>ut in eo est talis motus ab agente ad ipsum agens refertur. Immo, cum relatio
+<lb ed="#L" n="16"/>sit in relato, relatio quam videtur importare ipsa actio circa motum non est
+<lb ed="#L" n="17"/>qua agens referatur ad motum vel ad passum, sed est quidam modus essendi
+<lb ed="#L" n="18"/>ipsius motus secundum quod est aliquid ab agente et etiam relatio quam 
+vide<lb break="no" ed="#L" n="19"/>tur importare ipsa passio circa motum non est qua patiens referatur ad ipsum
+<lb ed="#L" n="20"/>motum vel actum, sed est quidam modus essendi ipsius motus secundum
+<lb ed="#L" n="21"/>quod est aliquid in passo. Unde actio et passio circa motum non dicunt res
+<lb ed="#L" n="22"/>quae sunt proprie relationes; sic enim essent de praedicamento relationis ;
+<lb ed="#L" n="23"/>sed sunt quidam modi essendi eiusdem rei convenientes ei ut comparatur ad
+<lb ed="#L" n="24"/>diversa. Sed in voluntate, cum sua operatione non sunt nisi duo, ideo neutrum
+<lb ed="#L" n="25"/>illorum potest habere rationem medii secundum rem. Si ergo sit medium
+<lb ed="#L" n="26"/>solum secundum rationem, erunt etiam relationes et relata differentia 
+secun<lb break="no" ed="#L" n="27"/>dum rationem.
+</p>
+            <p xml:id="v27ab7-g29070-d1e387">
+               <lb ed="#L" n="28"/>Item, si in voluntate una secundum rem fundarentur duae relationes
+<lb ed="#L" n="29"/>reales ex habitudine eius ad hanc suam unam operationem, in ipsa
+<lb ed="#L" n="30"/>operatione etiam essent quidam duo modi essendi reales in habitudine ad
+<lb ed="#L" n="31"/>ipsam voluntatem et diceretur actio ut a voluntate ut activa et passio ut in
+<lb ed="#L" n="32"/>voluntate ut passiva, quod nequaquam potest esse verum ; quia isti ? reales
+<lb ed="#L" n="33"/>modi et ista duo praedicamenta diversitatem realem inter agens et patiens
+<lb ed="#L" n="34"/>requirunt et relationem eorum realem.
+</p>
+            <p xml:id="v27ab7-g29070-d1e406">
+               <lb ed="#L" n="35"/>Item, si voluntas ut activa et passiva realiter refertur ad se ipsam
+<lb ed="#L" n="36"/>mediante actu volitionis, eo scilicet quod actus volendi in sua entitate
+<lb ed="#L" n="37"/>et actualitate dependet a voluntate a qua habet esse quod est 
+secun<lb break="no" ed="#L" n="38"/>dum suam actualitatem ut a movente et actualitatem dante, qui etiam actus
+<pb ed="#L" n="340"/>
+               <lb ed="#L" n="1"/>volitionis est in eadem voluntate ut in subiecto quasi patiente et 
+reci<lb break="no" ed="#L" n="2"/>piente, videretur quod actus volitionis ad aliquid extrinsecum ut ad suam
+<lb ed="#L" n="3"/>causam a qua habet huiusmodi actualitatem non dependeret nec ad illud
+<lb ed="#L" n="4"/>relationem realem haberet, scilicet ad obiectum. Nunc autem non invenitur
+<lb ed="#L" n="5"/>quod volitio aliquam realem relationem proprie habeat ad voluntatem cuius
+<lb ed="#L" n="6"/>ut subiecti est perfectio, immo potius ad obiectum cuius est quasi quaedam
+<lb ed="#L" n="7"/>impressio ; nam, sicut se habent perfectiones aliarum potentiarum ad referri,
+<lb ed="#L" n="8"/>ita videtur se habere perfectio voluntatis. Sicut ergo, secundum 
+Philoso<lb break="no" ed="#L" n="9"/>phum quinto Metaphysicae, scientia refertur ad scibile realiter sicut 
+mensu<lb break="no" ed="#L" n="10"/>ratum ad mensuram, ita et volitio ad volibile. Quod enim hoc dicatur de uno
+<lb ed="#L" n="11"/>actu et non de alio non videtur rationabile; et quod scientia realem 
+rela<lb break="no" ed="#L" n="12"/>tionem ' habeat ad scibile, non autem volitio ad volibile, videtur irrationale.
+<lb ed="#L" n="13"/>Sed volitio non videtur habere relationem realem ad volibile nisi ut ad
+<lb ed="#L" n="14"/>movens et aliquo modo agens in quantum dat formam et speciem ipsi actui
+<lb ed="#L" n="15"/>voluntatis. Nec tamen erit inter ea relatio activi et passivi, sed quasi 
+men<lb break="no" ed="#L" n="16"/>surae et mensurati ; quia, secundum modum tertium relationum, mensura et
+<lb ed="#L" n="17"/>mensuratum non sumuntur secundum rationem quantitatis, quia hoc ad 
+pri<lb break="no" ed="#L" n="18"/>mum modum pertinet, sed secundum mensurationem esse et veritatis. Veritas
+<lb ed="#L" n="19"/>enim scientiae mensuratur a scibili, quia ab eo quod est res intellectus est
+<lb ed="#L" n="20"/>verus; et bonitas volitionis a bonitate finis vel obiecti; ab eo enim quod
+<lb ed="#L" n="21"/>finis bonus est actus etiam voluntatis bonus est. Quod tamen aliqui  nimis
+<lb ed="#L" n="22"/>irrationabiliter negant dicentes quod, licet scientia mensuretur a scibili, non
+<lb ed="#L" n="23"/>tamen volitio a volibili, sed solum a libertate vel a libero arbitrio voluntatis.
+<lb ed="#L" n="24"/>Hoc autem improbare leve est et est alibi  reprobatum. Non debet ergo
+<lb ed="#L" n="25"/>quaeri modus quo volun tas per volitionem ad se ipsam sub ratione activi et
+<lb ed="#L" n="26"/>passivi referatur mediante huiusmodi perfectione, sed quomodo ipsa voluntas
+<lb ed="#L" n="27"/>mediante huiusmodi operatione ad ipsum volibile refertur; et sic id quod
+<lb ed="#L" n="28"/>secundum rationem activi aliquo modo se habet respectu volitionis propriae,
+<lb ed="#L" n="29"/>cum in talibus idem sit activum et mensura, non debet poni in eo in quo est
+<lb ed="#L" n="30"/>volitio subiective, sed in alio.
+</p>
+            <p xml:id="v27ab7-g29070-d1e484">
+               <lb ed="#L" n="31"/>Item, si ipsa volitio etiam realiter differens non refertur realiter ad
+<lb ed="#L" n="32"/>ipsam voluntatem, ut dictum est, multo minus ipsa voluntas ex habitudine ad
+<lb ed="#L" n="33"/>ipsam ullam realem differentiam habebit in se ipsa ratione cuius ad se
+<lb ed="#L" n="34"/>ipsam realiter referetur. Sic igitur patet quod secundum primum modum
+<lb ed="#L" n="35"/>unius nihil unum est quod ad se realiter refertur.
+</p>
+            <p xml:id="v27ab7-g29070-d1e497">
+               <pb ed="#L" n="341"/>
+               <lb ed="#L" n="1"/>Quantum autem ad secundum modum unius videtur posse ' dici quod
+<lb ed="#L" n="2"/>unum et idem possit referri ad se ipsum secundum rationem activi et passivi.
+<lb ed="#L" n="3"/>Nam, cum de ratione activi et passivi sit quod unum sit actuale et aliud
+<lb ed="#L" n="4"/>potentiale, quia quicquid agit, agit secundum quod est in actu et quicquid
+<lb ed="#L" n="5"/>patitur, patitur secundum quod est in potentia et similiter cum agens debeat 
+<lb ed="#L" n="6"/>contingere patiens, — nam, secundum Philosophum, primo de Generatione,
+<lb ed="#L" n="7"/>omne agens agit se ipso vel medio ; unde agens et patiens non approximata
+<lb ed="#L" n="8"/>sibi ipsis non sunt innata facere et pati; et ideo quod immediate suscipit
+<lb ed="#L" n="9"/>actionem agentis oportet quod immediate attingatur ab agente, — quamvis
+<lb ed="#L" n="10"/>autem unum et idem secundum rem simpliciter non possit esse actuale et
+<lb ed="#L" n="11"/>potentiale respectu eiusdem et tangens et tactum, tamen aliquod ? unum
+<lb ed="#L" n="12"/>compositum ex pluribus differentibus secundum essentiam secundum unam
+<lb ed="#L" n="13"/>partem sui potest esse activum alicuius in se et secundum aliam partem
+<lb ed="#L" n="14"/>passivum, quia sic possibile et actuale, tangens et tactum non fundantur
+<lb ed="#L" n="15"/>super idem reale. Sicut videmus in animali composito ex corpore et anima,
+<lb ed="#L" n="16"/>quae sunt partes essentiales unius compositi per se, quod anima movet 
+cor<lb break="no" ed="#L" n="17"/>pus, et in corpore mixto in quo sunt calidum et humidum quae sunt partes
+<lb ed="#L" n="18"/>accidentales unius compositi quod est ens per accidens, quia ibi unum habet
+<lb ed="#L" n="19"/>rationem activi et aliud passivi, quia calidum consumit humidum in quo est,
+<lb ed="#L" n="20"/>similiter etiam  mixtum corrumpitur a se, ut videtur velle Philosophus,
+<lb ed="#L" n="21"/>tertio Physicorum ; sic etiam ponitur quod aliquis existens in actu secundum
+<lb ed="#L" n="22"/>aliquid quod virtute continet aliquid ulterius ad quod subiectum manet in
+<lb ed="#L" n="23"/>potentia, illud secundum aliquid quo iam est in actu potest se ipsum deducere
+<lb ed="#L" n="24"/>ad actum, scilicet ad illud ad quod est in potentia, ut existens sub perfectione
+<lb ed="#L" n="25"/>una faciat se ipsum sub alia. Et ponitur exemplum in corporalibus et 
+spiri<lb break="no" ed="#L" n="26"/>tualibus. Videmus enim quod aqua qualitercumque sit facta calida ab alio se
+<lb ed="#L" n="27"/>ipsam infrigidat, quod patet: quia frigidior fit quam continens et sic 
+conti<lb break="no" ed="#L" n="28"/>nens non videtur eam infrigidare. Illud enim quod dedit aquae talem naturam
+<lb ed="#L" n="29"/>dedit ei virtutem ut, cessante impedimento, ab ea talis qualitas flueret. Ita
+<lb ed="#L" n="30"/>etiam in aliis; quia etiam grave, impedimento remoto, movet se ipsum et
+<lb ed="#L" n="31"/>etiam semen in generatione alicuius ex semine movet se ipsum. Item sic
+<lb ed="#L" n="32"/>dicitur quod voluntas mota et facta in actu volendi finem ab objecto quod
+<lb ed="#L" n="33"/>est finis et intellectus motus et factus in actu cognitionis principiorum ab
+<lb ed="#L" n="34"/>objecto quod est quasi primum verum movet se ipsum sive facit se ipsum
+<lb ed="#L" n="35"/>ad actum volendi ea quae sunt ad finem per volitionem finis sive per finem
+<lb ed="#L" n="36"/>volitum et ad actum cognoscendi conclusiones per cognitionem sive per
+<lb ed="#L" n="37"/>principia iam cognita. Ex hoc enim quod aliquid habet id quod est principale
+<lb ed="#L" n="38"/>iam habet aliquo modo etiam id quod annexum est ; et sic, cum voluntas habet
+<pb ed="#L" n="342"/>
+               <lb ed="#L" n="1"/>quod est principale, scilicet velle finem, iam habet in virtute annexum,
+<lb ed="#L" n="2"/>scilicet velle id quod est ad finem ; et illud quod causat principale, hoc
+<lb ed="#L" n="3"/>etiam ' quodammodo dicitur causare annexum ; et secundum hoc voluntas
+<lb ed="#L" n="4"/>per actum volendi finem virtute finis potest se educere ad actum volendi ea
+<lb ed="#L" n="5"/>quae sunt ad finem. Ita etiam potest in intellectu et in aliis adaptari.
+</p>
+            <p xml:id="v27ab7-g29070-d1e597">
+               <lb ed="#L" n="6"/>Sed quod unum et idem isto modo non possit esse ac tivum et passivum
+<lb ed="#L" n="7"/>et referri realiter ad se ipsum secundum has rationes, patet ex supradictis
+<lb ed="#L" n="8"/>rationibus ; quia illud quod est unum subiecto indivisum, licet plura 
+essen<lb break="no" ed="#L" n="9"/>tialiter distincta contineat ita quod ratione unius illorum habeat rationem
+<lb ed="#L" n="10"/>activi respectu alicuius alterius et ratione alterius habeat rationem passivi
+<lb ed="#L" n="11"/>respectu cuiusdam alterius, quia tamen  illud totum perse est activum et
+<lb ed="#L" n="12"/>per se passivum est, licet non ratione totius respectu eiusdem sive respectu
+<lb ed="#L" n="13"/>sui ipsius non potest esse activum et passivum quia, cum totum sit activum
+<lb ed="#L" n="14"/>per se, licet ratione unius partis, et totum etiam per se sit passivum respectu
+<lb ed="#L" n="15"/>illius respectu cuius dicitur esse activum et passivum, sequitur secundum
+<lb ed="#L" n="16"/>istam positionem quod idem secundum idem sit activum et passivum ; quod
+<lb ed="#L" n="17"/>non sequitur si totum ponatur activum respectu alterius et totum passivum
+<lb ed="#L" n="18"/>ab alio, quia totum aliquod esse frigidum in actu et sic potens  infrigidare
+<lb ed="#L" n="19"/>aliud et totum illud esse calidum in potentia et sic potens  calefieri ab alio,
+<lb ed="#L" n="20"/>non repugnat ; sed totum esse calidum in actu et calidum in potentia, quod
+<lb ed="#L" n="21"/>est ponere si aliquid unum et idem subiecto possit se ipsum facere calidum
+<lb ed="#L" n="22"/>vel frigidum, omnino repugnant.
+</p>
+            <p xml:id="v27ab7-g29070-d1e636">
+               <lb ed="#L" n="23"/>Nec valet quod distinguitur de actualitate virtualiter et formaliter ; nam
+<lb ed="#L" n="24"/>illud quod est aliquale virtute, non formaliter, non dicitur tale nisi quia habet
+<lb ed="#L" n="25"/>proprietatem secundum quam potest facere aliquid aliquale, et quia effectus
+<lb ed="#L" n="26"/>aliquam similitudinem habet ad causam; ideo etiam proprietas qua fit talis
+<lb ed="#L" n="27"/>effectus est aliquo modo talis, sed non formaliter, quia non secundum 
+univo<lb break="no" ed="#L" n="28"/>cam sed analogam rationem ; propter quod etiam tale agens dicitur 
+aequivo<lb break="no" ed="#L" n="29"/>cum vel analogum. Sed omne illud quod est formaliter tale quale facit
+<lb ed="#L" n="30"/>aliquid, cum hoc etiam est virtute tale, in quantum scilicet habet efficaciam
+<lb ed="#L" n="31"/>ut tale faciat aliquid quale ipsum est in actu, sed cum hoc fit secundum
+<lb ed="#L" n="32"/>eandem rationem univocam, ideo etiam dicitur agens univocum. Hoc ergo
+<lb ed="#L" n="33"/>videtur universaliter verum de quolibet activo respectu passivi et e converso ;
+<lb ed="#L" n="34"/>quia illud quod est potentia aliquale debet esse abiciens actum secundum
+<lb ed="#L" n="35"/>quem aliquid est actu tale quo possit fieri id quod est in potentia tale in actu
+<lb ed="#L" n="36"/>et e converso ; unde, sicut calidum formaliter, quod  simul etiam est
+<lb ed="#L" n="37"/>calidum virtualiter, non potest esse passivum respectu caliditatis quam potest
+<lb ed="#L" n="38"/>facere, quia causalitas formae quae est in aliquo subiecto respectu illius
+<pb ed="#L" n="343"/>
+               <lb ed="#L" n="1"/>subiecti non est nisi ipsum subiectum secundum totam suam virtutem 
+infor<lb break="no" ed="#L" n="2"/>mare et perficere, non autem aliquid in illo efficere ; sed causalitas existentis
+<lb ed="#L" n="3"/>in uno subiecto respectu alterius subiecti est illud posse tale facere quale
+<lb ed="#L" n="4"/>ipsum est; et, sicut inducta caliditate formali, cessat omnis ratio causalitatis
+<lb ed="#L" n="5"/>activae respectu illius in quo est inducta caliditas, non autem ratio 
+causalita<lb break="no" ed="#L" n="6"/>tis formalis in eodem, — quia ad nihil aliud per se ordinabatur actio efficientis,
+<lb ed="#L" n="7"/>sed non cessat ratio causalitatis activae respectu alterius quod habet aliquam
+<lb ed="#L" n="8"/>potentialitatem respectu illius, — ita etiam est dicendum de quacumque
+<lb ed="#L" n="9"/>perfectione quae talis dicitur virtute quale est aliquid in potentia ut nunquam
+<lb ed="#L" n="10"/>forma habeat rationem efficientis respectu illius respectu cuius habet rationem
+<lb ed="#L" n="11"/>formae, alioquin non erit distinctio realis inter causas efficientes et formales.
+<lb ed="#L" n="12"/>Immo, ut frequenter dixi, dicetur quod unumquodque facit se de potentia in
+<lb ed="#L" n="13"/>actum, quia dicetur quod aliquid prius est tale in actu virtute quale postea
+<lb ed="#L" n="14"/>facit se ipsum formaliter ; non est enim haec differentia activorum 
+univoco<lb break="no" ed="#L" n="15"/>rum et aequivocorum quod unum agat in se et aliud in aliud a se.
+</p>
+            <p xml:id="v27ab7-g29070-d1e708">
+               <lb ed="#L" n="16"/>Cum ergo aliqui dicunt quod immo hoc est possibile, quia verum est quod
+<lb ed="#L" n="17"/>potentia est contraria actui, sed illi qui est complementum ipsius potentiae; talis
+<lb ed="#L" n="18"/>enim actus, cum res est in potentia ad illum, non est idem cum re quod est in
+<lb ed="#L" n="19"/>potentia ad aliquem actum secundum unam rationem eius ; potest esse in actu
+<lb ed="#L" n="20"/>sub illo secundum aliam rationem eius secundum ' quam talis actus natus est
+<lb ed="#L" n="21"/>produci ab illo uno  secundum rem ; et secundum hoc non est inconveniens 
+<lb ed="#L" n="22"/>quod id quod estin actu aliquo secundum unam eius rationem se ipsum ut
+<lb ed="#L" n="23"/>est in potentia ad eundem actum secundum aliam rationem deducat de
+<lb ed="#L" n="24"/>potentia ad actum ; — sicut si sol, cum hoc quod est calidus virtute potens in
+<lb ed="#L" n="25"/>alio causare calorem formalem, esset etiam in potentia ad actum huiusmodi
+<lb ed="#L" n="26"/>caloris formaliter sumpti, se ipsum prout est actu et virtute talis qualis est in
+<lb ed="#L" n="27"/>potentia et ut fiat talis secundum formam se ipsum secundum formam caloris
+<lb ed="#L" n="28"/>de potentia calido faceret actu calidum per virtutem caloris quam habet in
+<lb ed="#L" n="29"/>virtute et secundum quam dicitur aliquo modo actu calidus, sed per aliam
+<lb ed="#L" n="30"/>rationem, et esset calor forma vel actus qui est complementum ipsius potentiae
+<lb ed="#L" n="31"/>secundum quam sol diceretur potentia calidus et illi potentiae contrarius nec
+<lb ed="#L" n="32"/>possent simul esse, sed? actus quo sol est virtute tale huic  calori formali
+<lb ed="#L" n="33"/>nec potentiae ad illum contrariaretur sed simul esset cum utroque, quia est
+<lb ed="#L" n="34"/>alterius rationis ; — et ista nituntur sic dicentes applicare ad voluntatem, 
+volen<lb break="no" ed="#L" n="35"/>tes per hoc declarare quomodo voluntas potest seipsam de potentia volente
+<lb ed="#L" n="36"/>facere actu volentem.
+</p>
+            <p xml:id="v27ab7-g29070-d1e757">
+               <lb ed="#L" n="37"/>Sed planum est quod, sicut illud ? per quod talia finguntur, 
+impos<lb break="no" ed="#L" n="38"/>sibile apparet esse in sole, scilicet quod se ipsum educat de potentia calido
+<pb ed="#L" n="344"/>
+               <lb ed="#L" n="1"/>actu calidum ; immo calidum quod efficit in alio producit per virtutem
+<lb ed="#L" n="2"/>activam ratione cuius dicitur calidus virtute et ideo haec dicuntur de sole sub
+<lb ed="#L" n="3"/>condicione, et ponendo non solum impossibile sed incompossibilia, ita etiam
+<lb ed="#L" n="4"/>impossibile est in omnibus aliis. Ouod autem ponantur incompossibilia sic
+<lb ed="#L" n="5"/>dicendo in sole et consimiliter in omnibus aliis patet; nam dicitur quod
+<lb ed="#L" n="6"/>actus qui est completivus potentiae et illa potentia repugnantiam habent nec
+<lb ed="#L" n="7"/>simul sunt ; sed constat quod, si calor cuiuscumque condicionis non existens
+<lb ed="#L" n="8"/>in sole in ipso causari deberet quocumque agente, totus sol et quicquid esset
+<lb ed="#L" n="9"/>in sole ante adventum talis caloris esset subiectum unum susceptivum talis
+<lb ed="#L" n="10"/>caloris, et sic talis calor esset completivus potentiae solis secundum 
+substan<lb break="no" ed="#L" n="11"/>tiam et secundum omnes dispositiones suas in ipso existentes; non potest
+<lb ed="#L" n="12"/>enim intelligi quod calor superveniens subingre deretur quasi inter 
+substan<lb break="no" ed="#L" n="13"/>tiam solis et eius dispositiones praecedentes, sic quod perficeret substantiam
+<lb ed="#L" n="14"/>solis sine dispositionibus praecedentibus, — ex quo enim est unum subiecto
+<lb ed="#L" n="15"/>secundum se totum est in potentia ad omnia quibus esse potest perfectibilis ; —
+<lb ed="#L" n="16"/>ergo illud quo dicitur calidus actu virtute esset subiectum caloris formalis et
+<lb ed="#L" n="17"/>illum efficeret non solum in substantiam ipsius solis, sed etiam ' in se ipsum
+<lb ed="#L" n="18"/>quia per se in totum compositum. Et hoc adhuc est manifestius in voluntate
+<lb ed="#L" n="19"/>in qua non ponuntur plura secundum rem, sed solum secundum rationem ad
+<lb ed="#L" n="20"/>hoc quod dicatur activa et passiva respectu unius actus volitionis. Constat
+<lb ed="#L" n="21"/>enim quod ipse actus volitionis qui perficit ipsam voluntatem sic perficit eam
+<lb ed="#L" n="22"/>quod non remanet in ea aliquid quod non perficiatur per ipsam ; et sic non
+<lb ed="#L" n="23"/>est in voluntate aliquid quod non sit potentia quae completur per actum
+<lb ed="#L" n="24"/>volitionis. Dicere enim quod ipsa perficiatur actu volitionis non secundum
+<lb ed="#L" n="25"/>rationem qua illam efficit, sed secundum aliam, istae rationes nihil faciunt ad
+<lb ed="#L" n="26"/>hoc nisi fundentur in diversitate reali; res enim est quae perficitur vel quae
+<lb ed="#L" n="27"/>agit, non ratio. Frustra ergo per talia nituntur praedicta inconvenientia,
+<lb ed="#L" n="28"/>scilicet quod idem possit agere in se ipsum et referri ad se ipsum, quasi 
+perti<lb break="no" ed="#L" n="29"/>naciter declarare.
+</p>
+            <p xml:id="v27ab7-g29070-d1e829">
+               <lb ed="#L" n="30"/>Non est ergo tenendum quod inter praedicta agentia modo praedicto
+<lb ed="#L" n="31"/>differentia inveniatur, sed in hoc differunt quod unum, scilicet univocum facit
+<lb ed="#L" n="32"/>sibi simile in specie, non autem aliud; sed omnino in hoc conveniunt quod
+<lb ed="#L" n="33"/>quodlibet est activum in aliud et distinctum ^, non autem in se ipsum.
+</p>
+            <p xml:id="v27ab7-g29070-d1e840">
+               <lb ed="#L" n="34"/>Si autem dicatur quod totum non est per se activum nec totum est per
+<lb ed="#L" n="35"/>se passivum, sed una pars est activa et alia passiva ^, hoc non potest poni
+<lb ed="#L" n="36"/>nisi in distinctis subiecto; nam illud quod est calidum et humidum, cum
+<lb ed="#L" n="37"/>ubique sit tale, non potest poni quod aliquid agat in humidum quin agat
+<lb ed="#L" n="38"/>etiam in calidum, quia nec potest poni quod agat in humiditatem sed in
+<lb ed="#L" n="39"/>totum compositum quod, sicut est humidum, ita.etiam est calidum, licet
+<pb ed="#L" n="345"/>
+               <lb ed="#L" n="1"/>caliditas non sit humiditas ; nec etiam agit in materiam, quia illa per se non
+<lb ed="#L" n="2"/>est subiecta actioni, sed ut est sub contrario ; ita etiam anima non potest
+<lb ed="#L" n="3"/>movere corpus quod informat ut ipsa sit movens tantum, quia, cum fiat ex
+<lb ed="#L" n="4"/>eis unum per se et in esse, oportet quod totum sit per se movens et totum
+<lb ed="#L" n="5"/>per se motum, quod tamen non potest contingere respectu eiusdem. Hoc
+<lb ed="#L" n="6"/>etiam patet per aliam condicionem activi et passivi ; quia tangens et tactum
+<lb ed="#L" n="7"/>oportet esse divisa essentialiter subiecto ; quia, sicut in tactu mathematico
+<lb ed="#L" n="8"/>oportet quod tactum non habeat quantitatem eius a quo tangitur, ita etiam in
+<lb ed="#L" n="9"/>tactu virtuali vel naturali oportet quod tactum non habeat qualitatem vel
+<lb ed="#L" n="10"/>virtutem tangentis. Cum ergo calidum et humidum sic ' sint coniuncta quod
+<lb ed="#L" n="11"/>illud idem indivisum quod habet humiditatem habet etiam caliditatem,
+<lb ed="#L" n="12"/>habens humiditatem non potest tangi virtualiter a caliditate quam etiam
+<lb ed="#L" n="13"/>habet ; non enim debet dici quod caliditas sive essentia caliditatis per se ipsam
+<lb ed="#L" n="14"/>tangat humiditatem sive essentiam humiditatis, sed quod calidum ratione suae
+<lb ed="#L" n="15"/>caliditatis tangat humidum ratione suae humiditatis; et sic, si idem indivisum
+<lb ed="#L" n="16"/>secundum subiectum , licet divisum secundum essentiam sit calidum et
+<lb ed="#L" n="17"/>humidum et tangat se humidum per ipsum calidum, idem secundum idem
+<lb ed="#L" n="18"/>tanget se ipsum. Et per istum modum potest in omnibus aliis adaptari, quia
+<lb ed="#L" n="19"/>universaliter in omni composito ex subiecto et accidente vel materia et forma
+<lb ed="#L" n="20"/>non potest dici materia tangi proprie a forma vel subiectum ab accidentibus
+<lb ed="#L" n="21"/>nisi sic quia, sicut quae tangunt se aliquo modo uniuntur, licet non in subiecto
+<lb ed="#L" n="22"/>et in esse, ita etiam forma et perfectio quaecumque unitur subiecto in ratione
+<lb ed="#L" n="23"/>causae formalis sive actus et perfectionis ; ex quo sequitur quod non in ratione
+<lb ed="#L" n="24"/>causae efficientis et agentis. Cum enim omnia accidentia quae sunt in uno
+<lb ed="#L" n="25"/>subiecto ordine quodam habent subiectum perficere, nullo modo unum agit
+<lb ed="#L" n="26"/>in aliud, nec etiam per ipsum totum agit in se ipsum, sed unum quasi alio
+<lb ed="#L" n="27"/>mediante subiectum perficit ; et sic etiam quodammodo se perficiunt 
+forma<lb break="no" ed="#L" n="28"/>liter, sed non agunt vel corrumpunt efficienter.
+</p>
+            <p xml:id="v27ab7-g29070-d1e918">
+               <lb ed="#L" n="29"/>Et ideo relinquitur quod solum secundum tertium modum unius unde et
+<lb ed="#L" n="30"/>idem potest referri ad se ipsum et esse activum et passivum respectu sui
+<lb ed="#L" n="31"/>ipsius, sed non per se et immediate, sed per accidens et ex consequenti. Nam
+<lb ed="#L" n="32"/>illud quod habet plures partes subiecto distinctas secundum unam illarum
+<lb ed="#L" n="33"/>poterit esse in potentia ad aliquid secundum quod est in actu secundum aliam,
+<lb ed="#L" n="34"/>et tunc per unam illarum partium per se aget in aliam; et quia sunt partes
+<lb ed="#L" n="35"/>unius totius, ideo etiam per accidens totum agit in se ipsum. Et sic etiam
+<lb ed="#L" n="36"/>declaratum est alias  quomodo aliquid movet se ^, quia anima movet corpus
+<lb ed="#L" n="37"/>in quantum una pars determinata in qua principaliter et per se residet aliqua
+<pb ed="#L" n="346"/>
+               <lb ed="#L" n="1"/>virtus animae motiva ' per illam movet aliquam partem determinatam et
+<lb ed="#L" n="2"/>mediante illa aliam, et sic deinceps.
+</p>
+            <p xml:id="v27ab7-g29070-d1e947">
+               <lb ed="#L" n="3"/>Et quia etiam illa pars primo movens est pars totius moti, ideo etiam in
+<lb ed="#L" n="4"/>toto movetur et sic movet se per accidens et refertur ad se ipsum ut movens
+<lb ed="#L" n="5"/>et motum, sed per accidens.
+</p>
+            <p xml:id="v27ab7-g29070-d1e956">
+               <lb ed="#L" n="6"/>Ad quaestionem ergo dico quod unum et idem et indivisum vel 
+indis<lb break="no" ed="#L" n="7"/>tinctum subiecto non potest realiter referri ad se ipsum ; immo etiam illa quae
+<lb ed="#L" n="8"/>realiter referuntur oportet sic differre quod etiam sint plura supposita in actu
+<lb ed="#L" n="9"/>vel saltem in potentia, ut sunt duae partes quantitativae eiusdem totius, 
+alio<lb break="no" ed="#L" n="10"/>quin non haberetur unde poneremus distinctionem realem personarum in
+<lb ed="#L" n="11"/>divinis, videlicet si duae relationes reales oppositae possent in eodem 
+suppo<lb break="no" ed="#L" n="12"/>sito esse; nam, cum sit ibi fundamentum omnino indistinctum quod non
+<lb ed="#L" n="13"/>refertur, si etiam subiecta, ut ita dicam, quae referuntur non essent necessario
+<lb ed="#L" n="14"/>realiter distincta, possent esse in divinis plures relationes reales absque 
+plura<lb break="no" ed="#L" n="15"/>litate suppositorum relatorum. Unde, sicut huc usque tenuerunt doctores et
+<lb ed="#L" n="16"/>antiqui et moderni, de relationum ratione praecipue per se oppositarum quales
+<lb ed="#L" n="17"/>sunt quae fundantur super vim activam et passivam est vel distinguere relata
+<lb ed="#L" n="18"/>realiter, immo etiam supposita constituere et referre ea ad invicem, ut patet
+<lb ed="#L" n="19"/>in divinis, vel iam dis tincta et constituta supponere et ea referre, ut contingit
+<lb ed="#L" n="20"/>in creaturis. Quod enim oppositio relationum divinarum maiorem diversitatem
+<lb ed="#L" n="21"/>vel distinctionem requirat quam creaturarum non videtur rationale  et ideo
+<lb ed="#L" n="22"/>usque nunc solebat dici et in scriptis magistrorum antiquis et novis ponitur
+<lb ed="#L" n="23"/>quod ex infinitate et illimitatione divinae essentiae contingit quod in ea
+<lb ed="#L" n="24"/>omnino indivisa fundentur plures relationes, quae tamen ipsam unam 
+essen<lb break="no" ed="#L" n="25"/>tiam referre non possunt, sed cum ipsa constituunt plura supposita relativa
+<lb ed="#L" n="26"/>realiter distincta, quae etiam huiusmodi relationibus realibus ad invicem
+<lb ed="#L" n="27"/>realiter referuntur ; in creaturis autem propter earum limitationem et realem
+<lb ed="#L" n="28"/>ab invicem dependentiam oportet plures relationes reales fundari in rebus
+<lb ed="#L" n="29"/>pluribus absolutis sive re absoluta differentibus et supponere supposita 
+dis<lb break="no" ed="#L" n="30"/>tincta in quibus sint naturae diversae super quas diversae relationes fundantur,
+<lb ed="#L" n="31"/>et ipsa supposita ad invicem realiter referuntur. Haec est etiam  sententia
+<lb ed="#L" n="32"/>doctorum antiquorum . Nam, sicut dicit Boeuus, de Trinitate versus finem :
+<lb ed="#L" n="33"/>quoniam nulla relatio ad se ipsam referri potest — commenta[tor] : quoniam
+<lb ed="#L" n="34"/>nulla relatione aliquid ad se potest referri, sed semper  aliud et aliud — facta
+<lb ed="#L" n="35"/>quidem est trinitatis numerositas in eo quod est praedicatio relationis ; idem
+<lb ed="#L" n="36"/>ergo Pater qui Filius non est ; tamen idem Deus est Pater et Filius ; servata
+<lb ed="#L" n="37"/>vero est unitas in eo quod est indifferentia eius ^. Quod secundum se dicitur
+<lb ed="#L" n="38"/>et ita sane sciendum : non potest ' esse talem relativam praedicationem ut
+<lb ed="#L" n="39"/>semper ad differens praedicetur, sicut servus ad dominum, id est ad differens
+<pb ed="#L" n="347"/>
+               <lb ed="#L" n="1"/>essentialiter ; oportet tamen quod semper ad differens supposito, licet non
+<lb ed="#L" n="2"/>natura, et hoc solum in divinis; vel supposito et natura, ut in creaturis. Unde
+<lb ed="#L" n="3"/>subdit : et in hac Trinitate similis est relatio ' Patris ad Filium ut eius quod
+<lb ed="#L" n="4"/>est idem ad id quod est idem ; qnoniam, sicut in eo quod est idem realiter
+<lb ed="#L" n="5"/>non impedit relationem secundum rationem identitas realis eiusdem ad se
+<lb ed="#L" n="6"/>ipsum, ita Patris ad Filium non aufert haec unitas qua unus Deus sunt
+<lb ed="#L" n="7"/>relationem realem eorum ad invicem, quod non potest contin|gere in 
+creatu<lb break="no" ed="#L" n="8"/>ris, scilicet quod aliqua non realiter et secundum essentiam inter se distincta
+<lb ed="#L" n="9"/>realiter ad invicem referri possunt, licet possunt referri relatione secundum
+<lb ed="#L" n="10"/>rationem, ut praemisit. Unde subdit : id autem non potest inveniri in cunctis
+<lb ed="#L" n="11"/>aliis rebus ; commenta[tor] : id est, nullae aliae res sunt in quibus hoc possit
+<lb ed="#L" n="12"/>inveniri, scilicet quod sicut indivisae realiter ad invicem realiter referantur.
+<lb ed="#L" n="13"/>Et subdens causam dicit : hoc facit cognata caducis rebus alteritas ; 
+com<lb break="no" ed="#L" n="14"/>menta[tor: non enim sine illorum in quibus sunt alteritate diversa sunt a se
+<lb ed="#L" n="15"/>quaelibet subsistentia, nec nisi hac alteritate diversa possunt ad se invicem
+<lb ed="#L" n="16"/>referri et cetera ; ergo illa secundum quae aliqua referuntur realiter ad 
+invi<lb break="no" ed="#L" n="17"/>cem iu creaturis oportet fundari in diversis absolutis realiter et essentialiter
+<lb ed="#L" n="18"/>distinctis, et cum hoc oportet illa quae per relationes referuntur esse 
+suppo<lb break="no" ed="#L" n="19"/>sita et subiecta realiter ab invicem distincta. Ergo vel dicendum quod illud
+<lb ed="#L" n="20"/>quod est unum subiecto non potest esse vere activum et passivum respectu
+<lb ed="#L" n="21"/>sui ipsius sive produc//vum ' alicuius actus in se ipso ad quem de se est in
+<lb ed="#L" n="22"/>potentia, vel oportet dicere quod vere agere in se ipsum et vere pati a se ipso
+<lb ed="#L" n="23"/>et vere producere aliquem actum in se ipsum de vera potentia reales 
+relatio<lb break="no" ed="#L" n="24"/>nes non important.
+</p>
+            <p xml:id="v27ab7-g29070-d1e1087">
+               <lb ed="#L" n="25"/>Patet etiam, quod si haec vera sunt, quod voluntas non refertur realiter
+<lb ed="#L" n="26"/>ad se ipsam secundum activum et passivum sive intelligatur nuda ut respectu
+<lb ed="#L" n="27"/>primi actus volendi finem sive jam sub aliquo actu et in potentia respectu
+<lb ed="#L" n="28"/>alterius ; ita de intellectu; ita etiam de gravibus et de aqua calida specialiter.
+<lb ed="#L" n="29"/>Tamen quantum ad aquam calidam mirabile est quod propter hoc quod 
+fri<lb break="no" ed="#L" n="30"/>gidior sit quam continens ponitur quod non ab alio, sed a se ipsa fit frigida,
+<lb ed="#L" n="31"/>cum ' in tempore frigido aliqua non frigida in tanto gradu secundum suam
+<lb ed="#L" n="32"/>proprietatem fiunt frigida multo magis quam sit continens. Et e contra, de
+<lb ed="#L" n="33"/>natura sua frigida fiunt calida multo magis quam continens tempore calido, 
+<lb ed="#L" n="34"/>ut patet de aliquo lapide qui in aestate virtute radiorum solis fit multum 
+cali<lb break="no" ed="#L" n="35"/>dior quam sit aer continens. Et tamen manifestum est quod naturaliter 
+frigi<lb break="no" ed="#L" n="36"/>dum praesente calido non facit se aliquo modo calidum. Similiter etiam nec
+<lb ed="#L" n="37"/>naturaliter calidum facit se aliquo modo frigidum praesente frigido ; sed haec
+<lb ed="#L" n="38"/>contingunt propter dispositionem susceptivi in quo fortius et melius potest
+<lb ed="#L" n="39"/>recipi calor vel frigus quam in aere raro.
+</p>
+            <p xml:id="v27ab7-g29070-d1e1122">
+               <pb ed="#L" n="348"/>
+               <lb ed="#L" n="1"/>Unde non bene dicunt qui  dicunt quod aqua potest se movere per
+<lb ed="#L" n="2"/>accidens removendo prohibens, scilicet caliditatem, sicut lapis ; nam, cum
+<lb ed="#L" n="3"/>loquimur de impedimento, proprie non ' intelligimus id quod formaliter est in
+<lb ed="#L" n="4"/>impedimento ut in subiecto ; unde ipsum ubi quod est esse sursum non 
+dici<lb break="no" ed="#L" n="5"/>mus impediens lapidem esse deorsum, sed aliquid resistens exterius, quo
+<lb ed="#L" n="6"/>remoto, statim in instanti grave se ipso habet esse deorsum ; unde qui illud
+<lb ed="#L" n="7"/>resistens amovet movet grave per accidens et, cum ipse lapis etiam movendo
+<lb ed="#L" n="8"/>medium et scindendo amovet suum impedimentum, sic etiam  movetur a
+<lb ed="#L" n="9"/>se ipso per accidens.Sed haec non possunt aquae calidae adaptari et ideo nec
+<lb ed="#L" n="10"/>per se nec per accidens est causa effectiva suae frigiditatis, sicut potest dici
+<lb ed="#L" n="11"/>de lapide qui per accidens causa est sui descensus.
+</p>
+            <p xml:id="v27ab7-g29070-d1e1151">
+               <lb ed="#L" n="12"/>Ad argumentum est dicendum quod potentia animae sive intellectus
+<lb ed="#L" n="13"/>sive voluntas facta in actu secundum aliquod obiectum non est nata se
+<lb ed="#L" n="14"/>ipsam per se facere in actum secundum aliud. Est enim supponendum quod
+<lb ed="#L" n="15"/>potentia animae, scilicet voluntas et intellectus pro obiecto non respicit 
+ali<lb break="no" ed="#L" n="16"/>quid unum secundum rem determinatum ; sed omne ens potest habere 
+ratio<lb break="no" ed="#L" n="17"/>nem obiecti sub una ratione, licet non univoca ; nec est differentia intellectus
+<lb ed="#L" n="18"/>in comparatione ad sua obiecta hoc quod respectu unius se habeat ut in
+<lb ed="#L" n="19"/>passiva potentia quae reducitur in actum ab alio sub ratione obiecti etiam
+<lb ed="#L" n="20"/>movente, et respectu alterius sit activa, quia ' se educit ad actum cognoscendi
+<lb ed="#L" n="21"/>illud ; immo est etiam  differentia quantum ad ordinem reduc tionis in
+<lb ed="#L" n="22"/>actum secundum diversitatem obiectorum ut quasi ordinatorum agentium
+<lb ed="#L" n="23"/>quorum unun non agit nisi alio praesupposito et in virtute eius. Unde, sicut
+<lb ed="#L" n="24"/>ordo est in formis materialibus et in potentiis materiae non quod primo
+<lb ed="#L" n="25"/>fiat sub una et postea mediante illa ipsa materia vel compositum faciat se sub
+<lb ed="#L" n="26"/>alia, sed sic quod non potest per agens fieri sub posteriori nisi prius habeat
+<lb ed="#L" n="27"/>esse sub priori, ita est in proposito applicandum et ad intellectum et ad
+<lb ed="#L" n="28"/>voluntatem. Unde pro tanto intellectus factus in actu secundum principia
+<lb ed="#L" n="29"/>dicitur se facere in actum secundum conclusiones, quia termini conclusionum
+<lb ed="#L" n="30"/>propter ordinem quem habent ad terminos principiorum non movent 
+intel<lb break="no" ed="#L" n="31"/>lectum nisi per applicationem principiorum ad conclusiones et sic movent
+<lb ed="#L" n="32"/>termini conclusionum in virtute terminorum principiorum  et sic quasi movens
+<lb ed="#L" n="33"/>cuius virtus reservatur in posterioribus dicuntur principia in virtute luminis
+<lb ed="#L" n="34"/>intellectus agentis ; et ita in voluntate respectu finis et eorum quae sunt ad
+<lb ed="#L" n="35"/>finem intelligendum est esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

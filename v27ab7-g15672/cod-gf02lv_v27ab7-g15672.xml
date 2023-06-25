@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="182"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g15672"><!-- v27ab7-q6-q10 -->
+            <head xml:id="v27ab7-g15672-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-g15672-Hd1e101" type="question-title">
+      Utrum actus intelligendi sit perfectior actu. diligendi
+    </head>
+            <p xml:id="v27ab7-g15672-d1e104">
+               <lb ed="#L" n="29"/>QUAESTIO X.
+<lb ed="#L" n="30"/>Utrum actus intelligendi sit perfectior actu. diligendi.
+</p>
+            <p xml:id="v27ab7-g15672-d1e111">
+               <lb ed="#L" n="31"/>Deinde circa dictas potentias, prout ad invicem comparantur 
+secun<lb break="no" ed="#L" n="32"/>dum actus suos ex naturalibus productos, quaerebantur duo. Primum erat
+<pb ed="#L" n="183"/>
+               <lb ed="#L" n="1"/>de comparatione actus potentiae unius ad actum alterius potentiae 
+secun<lb break="no" ed="#L" n="2"/>dum perfectionem, scilicet utrum actus intellectus quo creatura rationalis
+<lb ed="#L" n="3"/>cognoscit superiorem, scilicet homo angelum, vel angelus inferior 
+superio<lb break="no" ed="#L" n="4"/>rem, sit perfectior quam actus voluntatis quo illum diligit. Secundum erat
+<lb ed="#L" n="5"/>de comparatione actus unius potentiae ad actum alterius potentiae 
+secun<lb break="no" ed="#L" n="6"/>dum rationem dominii, scilicet utrum voluntas habeat dominium super
+<lb ed="#L" n="7"/>actum intellectus tam speculativi quam practici.
+</p>
+            <p xml:id="v27ab7-g15672-d1e135">
+               <lb ed="#L" n="8"/>Ad primum sic proceditur, et arguitur quod actus diligendi sit 
+per<lb break="no" ed="#L" n="9"/>fec tior quam actus cognoscendi ; quia actus cuius obiectum rationem
+<lb ed="#L" n="10"/>nobiliorem importat, est actus nobilior, quia ex nobilitate obiecti attenditur
+<lb ed="#L" n="11"/>nobilitas actus. Sed obiectum dilectionis habet nobiliorem rationem quam
+<lb ed="#L" n="12"/>obiectum intellectus, quia obiectum dilectionis quae est actus volun tatis
+<lb ed="#L" n="13"/>importat rationem boni et finis, quae est ratio nobilitatis; est enim bonum
+<lb ed="#L" n="14"/>et finis obiectum voluntatis. Obiectum autem intellectus hanc rationem non
+<lb ed="#L" n="15"/>importat. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-g15672-d1e156">
+               <lb ed="#L" n="16"/>Contra. Non minus est perfectus actus diligendi quo quis diligit se
+<lb ed="#L" n="17"/>ipsum, quam quo diligit alium, quia actus quo quis diligit seipsum videtur
+<lb ed="#L" n="18"/>esse exemplar actus quo diligit alium, secundum illud Matthaei, vigesimo
+<lb ed="#L" n="19"/>secundo: diliges proximum tuum sicut teipsum, — exemplar autem est potius
+<lb ed="#L" n="20"/>exemplato. Sed actus quo quis cognoscit superiorem naturam est perfectior
+<lb ed="#L" n="21"/>quam actus quo diligit seipsum, eo quod nobilius est obiectum ; nobilius
+<lb ed="#L" n="22"/>enim est in tali casu ! cognitum quam dilectum. Ergo nobilior est cognitio
+<lb ed="#L" n="23"/>qua  quis cognoscit naturam superiorem quam dilectio qua diligit eam. 
+</p>
+            <p xml:id="v27ab7-g15672-d1e176">
+               <lb ed="#L" n="24"/>Respondeo dicendum quod si verum est quod ab aliquibus  dicitur
+<lb ed="#L" n="25"/>circa comparationem actuum voluntatis et intellectus respectu Dei, scilicet
+<lb ed="#L" n="26"/>quod respectu Dei actus diligendi est perfectior et eminentior quam actus
+<lb ed="#L" n="27"/>intelligendi, ratione potentiae nobilioris et obiecti eminentioris vel sub
+<lb ed="#L" n="28"/>ratione eminentiori, et ipsius actus perfectiori modo unientis ?, cum haec etiam
+<lb ed="#L" n="29"/>non minus reperiantur respectu omnium, simpliciter et universaliter 
+conce<lb break="no" ed="#L" n="30"/>dendum est actum diligendi  esse nobiliorem respectu omnium diligibilium
+<lb ed="#L" n="31"/>quam actum cognoscendi respectu eorum  Sicut enim respectu Dei
+<lb ed="#L" n="32"/>voluntas est potentia nobilior quam intellectus ratione libertatis quae est
+<lb ed="#L" n="33"/>ipsius voluntatis, quia dicitur quod ipsa libera est secundum se et formaliter,
+<lb ed="#L" n="34"/>quia actus eius exit ab ea sponte et sine impulsu et necessitate coactionis,
+<pb ed="#L" n="184"/>
+               <lb ed="#L" n="1"/>et quia etiam dominium habet super operationes suas et etiam aliarum
+<lb ed="#L" n="2"/>potentiarum, et eis utitur; — melioris autem est uti deteriori et inferiori; sed
+<lb ed="#L" n="3"/>aliae potentiae fiunt in actu, alio movente et influxum quo necessitantur
+<lb ed="#L" n="4"/>faciente et imperatur eis a voluntate, unde etiam ipse intellectus, quia per
+<lb ed="#L" n="5"/>obiectum determinatur ad unum et modo necessitatis, reducitur ab ipsa
+<lb ed="#L" n="6"/>voluntate in actum intelligendi ; ideo etiam ! agit serviliter ; voluntas autem
+<lb ed="#L" n="7"/>non sic sed libere; — secundum hanc rationem erit voluntas intellectu
+<lb ed="#L" n="8"/>nobilior respectu cuiuscumque obiecti. Per consequens sequitur quod est
+<lb ed="#L" n="9"/>simpliciter nobilior. Natura enim suae libertatis et perfectionis non variatur
+<lb ed="#L" n="10"/>respectu quorumcumque.
+</p>
+            <p xml:id="v27ab7-g15672-d1e226">
+               <lb ed="#L" n="11"/>Item, sicut Deus est obiectum nobiliori modo respectu voluntatis quam
+<lb ed="#L" n="12"/>respectu intellectus, ita etiam et angelus superior respectu inferioris. Sicut
+<lb ed="#L" n="13"/>enim nobilior est ratio boni quam entis secundum se ut haec in Deo
+<lb ed="#L" n="14"/>considerantur, ita in angelo et quocumque alio ; quia sicut ratio boni est
+<lb ed="#L" n="15"/>posterior et praesupponit rationem veri in Deo, ita etiam in angelo. Nec
+<lb ed="#L" n="16"/>obstat quod ratio veri praesupposita a ratione boni est simplicior et prior :
+<lb ed="#L" n="17"/>non enim propter hoc est eminentior. Immo potius debet ex hoc concludi
+<lb ed="#L" n="18"/>quod ratio boni sit eminentior quam ratio veri, et etiam quod voluntas ?
+<lb ed="#L" n="19"/>sit potentia perfectior et eminentior intellectu, quia ea quae sunt posteriora
+<lb ed="#L" n="20"/>origine, sunt priora perfectione et e converso. Nam flos praecedit fructum
+<lb ed="#L" n="21"/>origine et tempore; fructus vero florem, perfectione et electione. Semper
+<lb ed="#L" n="22"/>etiam  informe praecedit formatum origine ; tamen perfectione et electione
+<lb ed="#L" n="23"/>formatum praecedit informe. Cum ergo prius sit aliquid apprehendi sub
+<lb ed="#L" n="24"/>ratione veri ab intellectu, quam appeti sub ratione boni a voluntate, origine
+<lb ed="#L" n="25"/>etiam intelligere praecedit amare, quia bonum apprehensum est obiectum
+<lb ed="#L" n="26"/>voluntatis, secundum hoc obiectum voluntatis est nobilius obiecto 
+intel<lb break="no" ed="#L" n="27"/>lectus, et potentia potentia, et actus actu.
+</p>
+            <p xml:id="v27ab7-g15672-d1e265">
+               <lb ed="#L" n="28"/>Item, si propter hoc est actus voluntatis perfectior, respectu Dei, quia
+<lb ed="#L" n="29"/>magis unit quam actus intellectus, quia, secundum Dyonisium et 
+Augus<lb break="no" ed="#L" n="30"/>tinum, amor est vis unitiva et transformativa amantis in amatum, non sic
+<lb ed="#L" n="31"/>actus intellectus; cum hoc etiam invenitur respectu alterius cuiuscumque
+<lb ed="#L" n="32"/>sicut respectu Dei, ut per se patet, non solum secundum hoc actus volendi 
+<lb ed="#L" n="33"/>respectu Dei erit nobilior quam actus cognoscendi, sed simpliciter et respectu
+<lb ed="#L" n="34"/>omnium. Quod autem ita sit quod actus voluntatis magis uniat quam actus
+<lb ed="#L" n="35"/>intellectus, hoc videtur quia cum intellectus et actus eius et ratio formalis
+<lb ed="#L" n="36"/>sui obiecti praecedant origine voluntatem, eius actum, et formalem rationem
+<pb ed="#L" n="185"/>
+               <lb ed="#L" n="1"/>obiecti, quamvis per utrumque istorum actuum fiat unio ad obiectum ; tamen
+<lb ed="#L" n="2"/>ex quo unio ! intelligendo incho atur et in amore consummatur, quia
+<lb ed="#L" n="3"/>origine praecedit unio per intelligere, sed perfectione praecedit unio per
+<lb ed="#L" n="4"/>amare, potior est ergo unio per amorem quam per intelligere, sicut 
+consum<lb break="no" ed="#L" n="5"/>matum est potius quam inchoatum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e300">
+               <lb ed="#L" n="6"/>Hoc etiam ostenditur per hoc quod actus intelligendi unit per 
+quam<lb break="no" ed="#L" n="7"/>dam intentionalem assimilationem ; sed actus amoris unit per quamdam
+<lb ed="#L" n="8"/>transformationem. Sufficit enim intelligenti quod habeat similitudinem 
+intel<lb break="no" ed="#L" n="9"/>ligibilis et quod habeat formalem expressionem eius; sed hoc non sufficit
+<lb ed="#L" n="10"/>amanti, sed vult se omnino coniungere amato, et vult se facere id quod
+<lb ed="#L" n="11"/>ipsum et quantum potest se transformare in ipsum. Si enim intelligens,
+<lb ed="#L" n="12"/>secundum quod huiusmodi, vult realem praesentiam intelligibilis, hoc est
+<lb ed="#L" n="13"/>propter ipsam intellectionem, ut quia forte non potest illud plene intelligere,
+<lb ed="#L" n="14"/>nisi illo praesente. Sed amans secundum quod huiusmodi, non vult 
+prae<lb break="no" ed="#L" n="15"/>sentiam amati solum propter ipsum amorem, immo propter ipsam rem
+<lb ed="#L" n="16"/>amatam, cui quantum potest vult se coniungere. Immo secundum quod
+<lb ed="#L" n="17"/>huiusmodi, quantum posset, vellet se transformare in ipsam . Inde est
+<lb ed="#L" n="18"/>quod unire et transformare amori appropriantur. Unde Dyonisius, quarto
+<lb ed="#L" n="19"/>de Divinis Nominibus : amor transformat, quia ponit amantem extra se,
+<lb ed="#L" n="20"/>et collocat eum in re amata; est enim, ut dicit, extasim faciens divinus amor,
+<lb ed="#L" n="21"/>non dimittens sui ipsorum esse amatores, sed amatorum. Amor enim non
+<lb ed="#L" n="22"/>permittit quod ? amans sit sui ipsius, sed cogit amantem esse rei amatae;
+<lb ed="#L" n="23"/>quare si transformare in bonum amatum et quantum in se est quasi idem
+<lb ed="#L" n="24"/>facere cum eo, est maior unio quam assimilari alicui rei per aliquam
+<lb ed="#L" n="25"/>intentionalem expressionem. Sicut actus diligendi Deum est perfectior actu
+<lb ed="#L" n="26"/>cognoscendi, quia magis est unitivus, ita etiam erit in proposito.
+</p>
+            <p xml:id="v27ab7-g15672-d1e348">
+               <lb ed="#L" n="27"/>Hoc autem ostenditur aliter sic, quia in diligendo est motus animae
+<lb ed="#L" n="28"/>ad res et obiectum amoris est res ut est in se ipsa; in intelligendo vero est
+<lb ed="#L" n="29"/>motus rel ad animam. Intelligitur enim res secundum quod est in nobis,
+<lb ed="#L" n="30"/>diligitur autem prout est in se ipsa. Si ergo intelligitur res  a nobis ut est
+<lb ed="#L" n="31"/>in nobis et diligitur a nobis ut est in se ipsa, consequens est quod per 
+<lb ed="#L" n="32"/>intelligrere unimur rei secundum quod est in nobis et secundum modum
+<lb ed="#L" n="33"/>nostrum, sed per diligere unimur ei ut est in se ipsa, et secundum modum
+<lb ed="#L" n="34"/>ipsius. Et quia perfectior est unio ad rem secundum quam unimur ei 
+secun<lb break="no" ed="#L" n="35"/>dum modum realem ipsius quam unio secundum quam unimur ei secundum
+<lb ed="#L" n="36"/>modum nostrum per dictam intentionalem assimilationem, consequens est
+<lb ed="#L" n="37"/>quod unio per amorem est perfectior quam unio per intelligere.
+<pb ed="#L" n="186"/>
+               <lb ed="#L" n="1"/>Sed, istis non obstantibus, melius videtur esse dicendum, quod 
+princi<lb break="no" ed="#L" n="2"/>palior et perfectior est actus intellectus cognoscendi quam actus voluntatis
+<lb ed="#L" n="3"/>diligendi, et ex rationibus sumptis ex contrariis eorum quae a praedictis
+<lb ed="#L" n="4"/>supponuntur ostendi potest propositum, per hoc scilicet quod declarabitur
+<lb ed="#L" n="5"/>quod intellectus est potentia eminentior quam voluntas, et quod eius actus
+<lb ed="#L" n="6"/>perfectior est, et quod eius obiectum etiam nobilius, et quod etiam magis
+<lb ed="#L" n="7"/>unit cum ultimo fine quam actus voluntatis.
+</p>
+            <p xml:id="v27ab7-g15672-d1e393">
+               <lb ed="#L" n="8"/>Primum declaratur ex condicione istarum potentiarum quam in eis
+<lb ed="#L" n="9"/>percipimus ex comparatione ipsarum ad finem propter quem inditae sunt
+<lb ed="#L" n="10"/>animae et ex comparatione earum cum suis actibus ad se invicem. Nam
+<lb ed="#L" n="11"/>cum diversae potentiae insint ipsi animae, potentiae apprehensivae insunt
+<lb ed="#L" n="12"/>ut secundum actus illarum animal habeat suam perfectionem sensitivam
+<lb ed="#L" n="13"/>quae secundum se vel per se ad aliam ulterius non ordinatur, — in ipso enim
+<lb ed="#L" n="14"/>actu sentiendi dicitur animal habere suam perfectionem secundum se,
+<lb ed="#L" n="15"/>absque hoc quod dicatur quod sentire ad aliam principaliorem perfectionem
+<lb ed="#L" n="16"/>sensitivam sive quantum ad esse sensitivum ordinetur; — sed potentiae 
+appe<lb break="no" ed="#L" n="17"/>titivae sicut et motivae non insunt ad hoc vel propter hoc ut secundum
+<lb ed="#L" n="18"/>actus illarum animal habeat suam perfectionem sensitivam principalem et
+<lb ed="#L" n="19"/>finalem, quae scilicet per se ad aliam non ordinetur. In ipso enim actu
+<lb ed="#L" n="20"/>appetendi, sicut etiam nec in actu movendi secundum locum, non dicitur
+<lb ed="#L" n="21"/>animal habere suam perfectionem sensitivam principalem et finalem. Immo
+<lb ed="#L" n="22"/>istae potentiae, scilicet appetitivae et motivae ad hoc inditae sunt animali,
+<lb ed="#L" n="23"/>ut per eas animal inclinetur et tendat in rem aliquam apprehensam, ut illa
+<lb ed="#L" n="24"/>habita perficiatur ipsum animal secundum aliquam aliam perfectionem
+<lb ed="#L" n="25"/>principaliorem et finalem quae non sit secundum actum appetitus sicut
+<lb ed="#L" n="26"/>nec secundum actum qui est motus.
+</p>
+            <p xml:id="v27ab7-g15672-d1e437">
+               <lb ed="#L" n="27"/>Item, si considerentur appetitus et eius actus ut ad apprehensivam
+<lb ed="#L" n="28"/>potentiam et ad eius actum comparantur, invenietur quod appetitus et eius
+<lb ed="#L" n="29"/>actus magis sunt propter potentiam apprehensivam et eius actum quam
+<lb ed="#L" n="30"/>e converso. Unde dicit Commentator, duodecimo Metaphysicae: desiderium
+<lb ed="#L" n="31"/>in animalibus est propter sensum qui distinguit et comprehendit 
+volup<lb break="no" ed="#L" n="32"/>tuosum; et hoc desiderium est appetitus, voluntas autem propter 
+intellec<lb break="no" ed="#L" n="33"/>tum. Dicit etiam Philosophus, secundo ! de Anima: cui inest sensus inest
+<lb ed="#L" n="34"/>et appetitus; est autem appetitus desiderium ; ita et voluntas. Cui ergo
+<lb ed="#L" n="35"/>inest sensus, huic et laetitja et tristitia et dulce  et triste; quibus autem hoc
+<lb ed="#L" n="36"/>et concupiscentia ; delectabilis enim appetitus [hoc]. Et  secundum hoc 
+<lb ed="#L" n="37"/>quia habentia sensum vel intellectum in actu sentiendi et intelligendi ratione
+<pb ed="#L" n="187"/>
+               <lb ed="#L" n="1"/>perfectionis quam includunt ! communicatur delectatio, ideo inditus est
+<lb ed="#L" n="2"/>appetitus quo habentia sensum et intellectum in hos suos actus secundum
+<lb ed="#L" n="3"/>sensum et intellectum inclinentur.
+</p>
+            <p xml:id="v27ab7-g15672-d1e472">
+               <lb ed="#L" n="4"/>Ex his autem potest propositum declarari sic; quia illa potentia est
+<lb ed="#L" n="5"/>eminentior et etiam eius actus cuius actus principaliter et propter se 
+quae<lb break="no" ed="#L" n="6"/>ritur, et cuius actus ad perfectionem alterius potentiae per se et principaliter
+<lb ed="#L" n="7"/>non ordinatur, quam illa potentia cuius operatio propter se et principaliter
+<lb ed="#L" n="8"/>non quaeritur sed ad perfectionem alterius potentiae ordinatur. Sed 
+intel<lb break="no" ed="#L" n="9"/>lectus est potentia cuius actus propter se et principaliter quaeritur et cuius
+<lb ed="#L" n="10"/>actus per se ad perfectionem alterius non ordinatur; voluntas autem non
+<lb ed="#L" n="11"/>est talis potentia, sed eius actus propter perfectionem intellectus 
+princi<lb break="no" ed="#L" n="12"/>paliter quaeritur, et ad illam ordinatur. Ouare et cetera.
+</p>
+            <p xml:id="v27ab7-g15672-d1e494">
+               <lb ed="#L" n="13"/>Maior est satis manifesta. Minor sic declaratur: quia universaliter
+<lb ed="#L" n="14"/>omnis virtus appetitiva et motiva data est rebus ut per illas potentias et
+<lb ed="#L" n="15"/>actus earum inclinentur et tendant res ad suas perfectiones consequendas,
+<lb ed="#L" n="16"/>quibus tamen non perficiuntur secundum ipsam potentiam appetitivam, sed
+<lb ed="#L" n="17"/>secundum aliam. Sed sic appetitus inditus est propter actum appetendi
+<lb ed="#L" n="18"/>aliquod obiectum quo ? formaliter et inhaerenter perficiatur appetens et sic
+<lb ed="#L" n="19"/>est datus propter huiusmodi bonum quod est obiectum ipsius appetitus
+<lb ed="#L" n="20"/>et non actus eius neque bonum et perfectio eius. Ex quo statim patet quod
+<lb ed="#L" n="21"/>in nullo actu appetitus potest consistere rei perfectio principalis. Et hoc
+<lb ed="#L" n="22"/>patet in omnibus. Appetitus enim naturalis gravis non est inditus gravi
+<lb ed="#L" n="23"/>ob hoc quod perfectio lapidis consistat in actu talis appetitus qui est eius
+<lb ed="#L" n="24"/>naturalis inclinatio in locum deorsum, et etiam in ipso moveri deorsum ;
+<lb ed="#L" n="25"/>sed ob hoc quod per huiusmodi appetitum inclinetur in suam principalem
+<lb ed="#L" n="26"/>perfectionem quae ? est conservatio sui in esse et operatione in loco 
+con<lb break="no" ed="#L" n="27"/>venienti. Unde, inclinatio ad talem locum non est propter se, id est propter
+<lb ed="#L" n="28"/>ipsam inclinationem, sed propter huiusmodi perfectionem.
+</p>
+            <p xml:id="v27ab7-g15672-d1e531">
+               <lb ed="#L" n="29"/>Nec videtur impedire illationem in proposito : scilicet sic esse in 
+volun<lb break="no" ed="#L" n="30"/>tate quod dicitur quod in gravi est aliqua nobilior perfectio quam sit
+<lb ed="#L" n="31"/>descensus vel inclinatio ad locum deorsum ; sed non sic est in rationali
+<lb ed="#L" n="32"/>natura aliqua perfectio nobilior perfectione secundum voluntatem.
+</p>
+            <p xml:id="v27ab7-g15672-d1e542">
+               <lb ed="#L" n="33"/>Sine ratione enim  videtur peti in hoc contrarium ; nam appetitus,
+<lb ed="#L" n="34"/>in quantum est quaedam potentia appetentis, semper est propter aliquid
+<lb ed="#L" n="35"/>quod respicit, pro obiecto quod est aliquid, quo eminentiori modo perficitur
+<lb ed="#L" n="36"/>appetens quam per ipsum actum appetitus et non est propter suum actum
+<lb ed="#L" n="37"/>principaliter. Unde in hoc non est differentia inter appetitus, sed in hoc
+<pb ed="#L" n="188"/>
+               <lb ed="#L" n="1"/>quod unus nobiliori modo fertur in obiectum suum quam alius, et in hoc
+<lb ed="#L" n="2"/>etiam quod habet unus ' nobilius obiectum quam alius. Qua ratione ergo
+<lb ed="#L" n="3"/>in uno ente invenitur quod appetitus in ipso est propter eminentiorem
+<lb ed="#L" n="4"/>aliam perfectionem quam sit perfectio quam habet secundum actum
+<lb ed="#L" n="5"/>appetitus. Debet etiam concludi ita esse in omnibus secundum 
+propor<lb break="no" ed="#L" n="6"/>tionalitatem, sic tamen quod nobilior appetitus est propter nobiliorem
+<lb ed="#L" n="7"/>perfectionem et nobiliori modo tendit in illam. Sicut ergo, ut dictum est,
+<lb ed="#L" n="8"/>est  de appetitu gravis deorsum, sic debet dici de appetitu animalis,
+<lb ed="#L" n="9"/>scilicet quod etiam actus appetitus animalis non est inditus animali 
+<lb ed="#L" n="10"/>propter hoc quod perfectio animalis consistit in aliquo actu talis appetitus,
+<lb ed="#L" n="11"/>sed ob hoc quod per huiusmodi appetitum inclinetur in suam principalem
+<lb ed="#L" n="12"/>perfectionem quae est conservatio sui in esse secundum se ipsum in
+<lb ed="#L" n="13"/>proprio individuo, quod fit per nutritionem et ciborum sumptionem , et in
+<lb ed="#L" n="14"/>esse vel conservatione sui ipsius in conservatione suae speciei in alio 
+<lb ed="#L" n="15"/>individuo, quod fit per generationem. Ad hoc enim naturaliter animal
+<lb ed="#L" n="16"/>inclinatur et ideo est ei inditus appetitus animalis quo appetit illa per quae
+<lb ed="#L" n="17"/>hoc contingit, scilicet usum ciborum secundum gustum et venereorum
+<lb ed="#L" n="18"/>secundum tactum. Unde appetitus animalis non est  in animali ut animal
+<lb ed="#L" n="19"/>in actu aliquo secundum appetitum, scilicet secundum appe tere vel
+<lb ed="#L" n="20"/>secundum quemcumque alium, ipsum animal perficiatur, sed in eo quod est
+<lb ed="#L" n="21"/>obiectum talis actus ipsius appetitus, scilicet in eo quod est talibus vel
+<lb ed="#L" n="22"/>talibus secundum tales vel tales actus aliquorum sensuum principaliter
+<lb ed="#L" n="23"/>uti et ad talem finem. Cum etiam naturaliter inclinatur amore sensitivo ad
+<lb ed="#L" n="24"/>bonum prolis et sibi coniunctorum, ista inclinatio non est bonum 
+prin<lb break="no" ed="#L" n="25"/>cipale ipsius inclinati, sic immo ipsum obiectum talis actus vel inclinationis
+<lb ed="#L" n="26"/>est bonum ipsius in quod inclinatur, in quantum scilicet est quodammodo
+<lb ed="#L" n="27"/>id ipsum cum eo qui  inclinatur. In hoc enim bonum ipsius in quod 
+incli<lb break="no" ed="#L" n="28"/>natur est bonum eius quod inclinatur in quantum reputat se unum cum illo
+<lb ed="#L" n="29"/>et e converso. Unde , inclinatio qua inclinatur in bonum alterius non est
+<lb ed="#L" n="30"/>ipsum principale bonum ipsius inclinati nec ipsius in quod inclinatur, sed
+<lb ed="#L" n="31"/>aliquid aliud, scilicet id in quo communicat qui sic inclinatur cum eo in
+<lb ed="#L" n="32"/>quod inclinatur et quod vult etiam communicari illi in quod inclinatur
+<lb ed="#L" n="33"/>in quantum est aliquo modo sibi ipsi idem; et sic bonum suum est aliquo
+<lb ed="#L" n="34"/>modo principale bonum ipsius sic inclinati; et secundum hoc, sicut 
+incli<lb break="no" ed="#L" n="35"/>natio qua animal per actum appetitus inclinatur in suum bonum in se ipso
+<lb ed="#L" n="36"/>non est principale bonum ipsius sed aliquid aliud in se ipso, ita etiam
+<pb ed="#L" n="189"/>
+               <lb ed="#L" n="1"/>inclinatio qua per amorem aliquid inclinatur in prolem suam vel in aliquid
+<lb ed="#L" n="2"/>aliud, sive in bonum alterius, non est principale bonum eius, sed aliquid
+<lb ed="#L" n="3"/>aliud. Unde, sicut animal cum deest sibi aliquid pertinens aliquo modo ad
+<lb ed="#L" n="4"/>perfectionem suam, cum illud appetit non habitum non dicitur ex hoc
+<lb ed="#L" n="5"/>habere suam perfectionem simpliciter, licet habeat quamdam perfectionem
+<lb ed="#L" n="6"/>secundum potentiam appetitivam quae est in actu desiderandi vel appetendi ;
+<lb ed="#L" n="7"/>et hoc quia ipse actus appetitus est propter aliquid aliud secundum quod
+<lb ed="#L" n="8"/>animal simpliciter habet aliquam perfectionem; et cum adeptum est id quod
+<lb ed="#L" n="9"/>prius non habitum appetebatur et desiderabatur et cessat talis actus 
+appe<lb break="no" ed="#L" n="10"/>titus in appetitu, insurgit ! alius actus vel aliqua passio, scilicet amor
+<lb ed="#L" n="11"/>aliquis iam habiti et delectatio in illo. In hoc etiam non potest consistere
+<lb ed="#L" n="12"/>principale bonum ipsius quia talia quasi concomitative  se habent ad
+<lb ed="#L" n="13"/>bonum aliud principale et ex illis habent suam bonitatem, ut patet cum
+<lb ed="#L" n="14"/>animal est aegrum et desiderat sanitatem, et cum esurit et desiderat cibum,
+<lb ed="#L" n="15"/>et sic de aliis. Constat enim quod animal magis perficitur cum est in actu
+<lb ed="#L" n="16"/>comedendi per actum gustus quo gustat gustabile quam cum erat in actu
+<lb ed="#L" n="17"/>appetendi et desiderandi gustabile. Cum autem amat gustabile iam habitum
+<lb ed="#L" n="18"/>et in eo delectatur, adhuc magis dicitur perfici per ipsum actum gustandi
+<lb ed="#L" n="19"/>quam per ipsum amorem vel delectationem consequentem. Et sicut in
+<lb ed="#L" n="20"/>animali perfectius est quod sentit et sentit se sentire quam quod amat
+<lb ed="#L" n="21"/>se vel delectatur in se, ita etiam respectu prolis amatae magis perficitur
+<lb ed="#L" n="22"/>animal amans in hoc quod percipit illam esse vivere et bene vivere et
+<lb ed="#L" n="23"/>perfecte secundum actus ad ? eius perfectionem pertinentes, quam in hoc
+<lb ed="#L" n="24"/>quod amat ipsam talia habentem et  in hoc quod prolem propter naturalem
+<lb ed="#L" n="25"/>unionem reputat quodammodo id quod ipsum est. Unde, etiam ? naturali
+<lb ed="#L" n="26"/>quodam instinctu parens in prole quodammodo reputat se esse et  se
+<lb ed="#L" n="27"/>remanere, cum in seipso corrumpitur et remanet tamen proles. Sicut
+<lb ed="#L" n="28"/>perfectius est cum ipsum bene est et utitur bene sensibus suis secundum
+<lb ed="#L" n="29"/>actus eorum et percipit se esse, vivere et sic sentire, quam cum amat ?
+<lb ed="#L" n="30"/>se tale existens, vel etiam cum percipit quod se amat talia habentem,
+<lb ed="#L" n="31"/>similiter etiam videtur dicendum in appetitu rationali. Quia non videtur
+<lb ed="#L" n="32"/>esse inditus homini propter hoc quod perfectio eius consistat in actu
+<lb ed="#L" n="33"/>talis appetitus, quo scilicet inclinatur in aliquid apprehensum a ratione, sed
+<lb ed="#L" n="34"/>ob hoc quod  per huiusmodi appetitum et eius actum inclinetur in suam
+<lb ed="#L" n="35"/>principalem perfectionem. Quae non consistit in conservatione sui in esse in
+<lb ed="#L" n="36"/>se ipso vel in alio et in usu actuum secundum gustum et tactum, quia hoc
+<pb ed="#L" n="190"/>
+               <lb ed="#L" n="1"/>habet per alium appetitum, scilicet sensitivum, in quantum est communis
+<lb ed="#L" n="2"/>homini et bruto; sed est aliqua sua perfecta operatio conveniens homini
+<lb ed="#L" n="3"/>secundum quod homo, sive naturae rationali secundum quod rationalis.
+<lb ed="#L" n="4"/>Hoc autem non est nisi operatio secundum intellectum. Appetitus ergo
+<lb ed="#L" n="5"/>rationalis sive voluntas principaliter, sive primo et per se, non est in homine
+<lb ed="#L" n="6"/>ut in aliquo actu ipsius voluntatis ipse homo perficiatur; sed ut perficiatur
+<lb ed="#L" n="7"/>in eo quod est obiectum per se ipsius voluntatis, scilicet in eo quod est
+<lb ed="#L" n="8"/>esse in actu perfecto secundum intellectum. Cum enim perfectio hominis
+<lb ed="#L" n="9"/>ipsum intrinsecus informans sit aliquis actus non autem ' voluntatis
+<lb ed="#L" n="10"/>propter praedicta, oportet quod hic  sit actus ipsius intellectus.
+</p>
+            <p xml:id="v27ab7-g15672-d1e741">
+               <lb ed="#L" n="11"/>Nec videtur impedire propositum si dicatur quod, licet aliquis actus
+<lb ed="#L" n="12"/>voluntatis bene sit propter aliquem actum intellectus tamquam propter
+<lb ed="#L" n="13"/>nobiliorem perfectionem, scilicet actus quo voluntas vult Dei cognitionem,
+<lb ed="#L" n="14"/>tamen est alius actus voluntatis qui non est propter aliquid intellectus,
+<lb ed="#L" n="15"/>et est nobilior actu ? intellectus, scilicet actus quo vult summum bonurn,
+<lb ed="#L" n="16"/>scilicet ipsum Deum esse, et quo etiam ipsum amat secundum se, quia
+<lb ed="#L" n="17"/>summe amabilis.
+</p>
+            <p xml:id="v27ab7-g15672-d1e759">
+               <lb ed="#L" n="18"/>Hoc non videtur valere, quia, licet illud obiectum voluntatis quod est
+<lb ed="#L" n="19"/>Deus secundum se et ut est obiectum voluntatis  secundum istos actus
+<lb ed="#L" n="20"/>sit quid nobilius et perfectius quam obiectum voluntatis quod est perfectio
+<lb ed="#L" n="21"/>ipsius hominis formalis ipsum per inhaerentiam informando, tamen in
+<lb ed="#L" n="22"/>genere perfectionum hominem subiective et informative perficientium, actus
+<lb ed="#L" n="23"/>voluntatis non potest esse nobilior, quia nec magis volitus vel appetitus,
+<lb ed="#L" n="24"/>ut videbitur, sed est finaliter propter actum alium ipsius intellectus qui est
+<lb ed="#L" n="25"/>magis volitus et magis habens rationem finis. Licet etiam ipse actus 
+appe<lb break="no" ed="#L" n="26"/>titus sit quaedam perfectio rationalis naturae ut etiam est informatus, non
+<lb ed="#L" n="27"/>solum obiecto praedicto quod est actus intellectus, sed etiam summo bono
+<lb ed="#L" n="28"/>secundum se amato; in genere autem obiectorum voluntatis illud est melius
+<lb ed="#L" n="29"/>et perfectius quod magis habet rationem finis et desiderati; — ergo inter actus
+<lb ed="#L" n="30"/>ille actus qui magis desideratur per se magis habet rationem finis. Quia
+<lb ed="#L" n="31"/>ergo, in genere finis et boni sive perfectionis hominem formaliter perficientis,
+<lb ed="#L" n="32"/>actus voluntatis non potest esse principalior, quia nec potest esse principale
+<lb ed="#L" n="33"/>et per se obiectum ipsius voluntatis, quod tamen requiritur ad hoc quod
+<lb ed="#L" n="34"/>habeat rationem boni et finis simpliciter et per se, sed  hoc convenit actui
+<lb ed="#L" n="35"/>intellectus, quia in genere actuum qui per se sunt obiecta voluntatis maxime
+<lb ed="#L" n="36"/>appetitur? ipse actus intelligendi, ideo actus intellectus melior est et nobilior
+<pb ed="#L" n="191"/>
+               <lb ed="#L" n="1"/>actu voluntatis. Ouamvis ergo actus quo volo Deum propter seipsum esse
+<lb ed="#L" n="2"/>et quo Ipsum propter se diligo sit perfectior quam actus quo volo Deum
+<lb ed="#L" n="3"/>videre vel quo diligitur Deus quia visus, quia nobilius est illud obiectum
+<lb ed="#L" n="4"/>isto, tamen ex hoc non sequitur quod actus quo diligitur sit perfectior actu
+<lb ed="#L" n="5"/>quo ipse videtur ubi est idem obiectum utrobique. Iudicandum est enim de
+<lb ed="#L" n="6"/>tali actu voluntatis quo vult et diligit amicum ac si esset amati qui est alter
+<lb ed="#L" n="7"/>ipse. Sicut ergo actus quo quis amat alium, si esset existens in amato, ut
+<lb ed="#L" n="8"/>scilicet ipse amatus ab alio etiam sic amaret se ipsum, esset propter aliud,
+<lb ed="#L" n="9"/>ita etiam in amante. Unde, sicut non posset esse maxima perfectio amati
+<lb ed="#L" n="10"/>actus quo se ipsum amaret, ita nec etiam amantis potest esse maxima sua
+<lb ed="#L" n="11"/>perfectio actus quo amat amicum. Cum enim voluntas inclinatur amore
+<lb ed="#L" n="12"/>rationali qui dicitur amor amicitiae et benevolentiae ! ad bonum alterius,
+<lb ed="#L" n="13"/>ista inclinatio non est bonum principale ipsius in quod inclinatur vel ipsius
+<lb ed="#L" n="14"/>inclinati; immo ipsum obiectum.talis actus vel inclinationis est bonum
+<lb ed="#L" n="15"/>aliud principale et ipsius in quod inclinatur et ipsius qui inclinatur. Nam
+<lb ed="#L" n="16"/>cum sic amantes se sint quodam modo unum, in quantum amor, secundum
+<lb ed="#L" n="17"/>Dyonisium et Augustinum, est vis unitiva et transformativa amantis in
+<lb ed="#L" n="18"/>amatum; et secundum Philosophum: amicus est alter ipse volens alicui
+<lb ed="#L" n="19"/>bonum, tali amicitia vult hoc in quantum sunt quodam modo unum et in
+<lb ed="#L" n="20"/>quantum bonum quod illi vult est bonum quod etiam sibi principaliter vult ;
+<lb ed="#L" n="21"/>quia amicabilia ? quae ad amicos videntur ex his quae ad se ipsum venisse,
+<lb ed="#L" n="22"/>ut dicitur nono Ethicorum; illud quidem vult ipsi ut est quodammodo ipse;
+<lb ed="#L" n="23"/>et sic talis actus volendi non est bonum et perfectio principalis ipsius
+<lb ed="#L" n="24"/>volentis, sed obiectum talis actus quod est quiddam aliud  quod est bonum
+<lb ed="#L" n="25"/>et perfectio amici in se ipso, et ipsius amantis ut est unum cum illo. Cum
+<lb ed="#L" n="26"/>enim volo amico hoc maximum bonum quod est esse perfectum secundum
+<lb ed="#L" n="27"/>intellectum, illud volo sibi in quantum est mihi aliquo modo coniunctus,
+<lb ed="#L" n="28"/>et quia illud quod maxime mihi volo est esse sic perfectum in eo quod
+<lb ed="#L" n="29"/>amicus est sic perfectus sive aliquo modo perfectus, quia aliquo modo sive
+<lb ed="#L" n="30"/>ipse amicus, immo etiam ? omnis amicitia sive honesta sive turpis qua quis
+<lb ed="#L" n="31"/>inclinatur in bonum alterius, ordinatur ad perfectionem amantis secundum
+<lb ed="#L" n="32"/>actus aliquos principaliter intentos, et non ad ipsum actum amandi finaliter.
+<lb ed="#L" n="33"/>Nam amici quaerunt maxime convivere et communicare sibi in operationibus
+<lb ed="#L" n="34"/>quas maxime amant et quas principaliter intendunt, scilicet in vera amicitia
+<lb ed="#L" n="35"/>communicare in actibus virtuosis. Et sicut amans vere se ipsum vult se esse
+<lb ed="#L" n="36"/>perfectum principaliter virtutibus, et exercere actus virtuosos, ita etiam vult
+<lb ed="#L" n="37"/>in amato. Unde dicit Philosophus, nono Ethicorum: illud quod maxime
+<pb ed="#L" n="192"/>
+               <lb ed="#L" n="1"/>eligimus et diligimus est esse et vivere. Hoc autem contingit homini
+<lb ed="#L" n="2"/>secundum sensum et intellectum ; et ideo maxime eligibile est homini sentire
+<lb ed="#L" n="3"/>se esse et vivere, quod fit sentiendo et intelligendo se sentire et intelligere.
+<lb ed="#L" n="4"/>Ita etiam supposita unitate affectuum amicorum, ratione assimilationis 
+vir<lb break="no" ed="#L" n="5"/>tutum quas communiter participant, intenditur unio realis ipsorum secundum
+<lb ed="#L" n="6"/>istas perfectiones, quae fit! secundum communicationem secundum hos
+<lb ed="#L" n="7"/>actus, scilicet ut sentiat amans amicum virtuose sentire et intel ligere.
+<lb ed="#L" n="8"/>Sicut enim aliquis delectatur in suo esse et vivere sentiendo se ipsum dicto
+<lb ed="#L" n="9"/>modo, ita etiam ad hoc quod delectetur in amico qui est quasi ipse alter
+<lb ed="#L" n="10"/>non sufficit quod ipsum amet, sed oportet quod consentiat, id est , simul
+<lb ed="#L" n="11"/>sentiat ipsum esse et cetera. Ouod contingit communicando ipsi secundum
+<lb ed="#L" n="12"/>communicationem sermonum scientialium et virtuosarum operationum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e913">
+               <lb ed="#L" n="13"/>Ex his videtur posse concludi quod, cum voluntas sit quidam appetitus,
+[quod] ipsa principaliter est propter perfectionem aliam quam sit perfectio
+<lb ed="#L" n="14"/>secundum suum actum. Sed ad hoc est principaliter ut per ipsam volens
+<lb ed="#L" n="15"/>inclinetur non principaliter ad ipsam perfectionem voluntatis ; quia illa non
+<lb ed="#L" n="16"/>est nisi quaedam inclinatio ad perfectionem et operationem aliarum 
+poten<lb break="no" ed="#L" n="17"/>tiarum principalium sive ? ad hoc data  ut per ipsam principaliter inclinetur
+<lb ed="#L" n="18"/>volens ad ipsas operationes aliarum potentiarum quae sunt perfectiones
+<lb ed="#L" n="19"/>hominis principales.
+</p>
+            <p xml:id="v27ab7-g15672-d1e931">
+               <lb ed="#L" n="20"/>Unde, quia perfectio cuiuslibet alterius potentiae continetur sub obiecto
+<lb ed="#L" n="21"/>voluntatis sicut proprium bonum sub bono communi, propter hoc movet
+<lb ed="#L" n="22"/>alias potentias ad suos actus et ipsa consequitur finem suum quando 
+quae<lb break="no" ed="#L" n="23"/>libet alia potentia pertingit ad suam perfectionem. Videtur ergo quod actus
+<lb ed="#L" n="24"/>voluntatis non potest esse perfectior sine quo magis perficitur ipse volens ;
+<lb ed="#L" n="25"/>quia, ut iam prius dictum est, illud quod habet magis rationem boni et finis
+<lb ed="#L" n="26"/>est perfectius ; sed in genere actuum actus intellectus magis habet rationem
+<lb ed="#L" n="27"/>boni et finis, quia cum obiectum voluntatis sit bonum et finis, illud quod
+<lb ed="#L" n="28"/>magis per voluntatem appetitur magis habet rationem boni et finis. Sed in
+<lb ed="#L" n="29"/>genere actuum actus intellectus magis appetitur quia est per se obiectum
+<lb ed="#L" n="30"/>voluntatis. Non sic autem actus voluntatis; quia non appetitur per se vel
+<lb ed="#L" n="31"/>propter se, sed secundum reflexionem sui super se ratione obiecti 
+princi<lb break="no" ed="#L" n="32"/>palis. Volo enim habere actum speculandi propter se, ut meam perfectionem
+<lb ed="#L" n="33"/>simpliciter ; sed non volo me velle hoc propter se, tanquam meam 
+perfec<lb break="no" ed="#L" n="34"/>tionem simpliciter. Velle enim speculari non est perfectio mea simpliciter,
+<lb ed="#L" n="35"/>sed ipsum speculari; et ideo volendo me velle speculari, non volo 
+perfec<lb break="no" ed="#L" n="36"/>tionem meam ratione actus volendi quem volo, sed ratione obiecti ipsius
+<pb ed="#L" n="193"/>
+               <lb ed="#L" n="1"/>quod volo. Et est tale obiectum quod est principaliter bonum volitum,
+<lb ed="#L" n="2"/>bonum non ipsius voluntatis sed intellectus ; sive non est bonum volentis
+<lb ed="#L" n="3"/>secundum voluntatem sed secundum intellectum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e979">
+               <lb ed="#L" n="4"/>Propter quod etiam beatitudo quae est finis in quem ! tendit voluntas,
+<lb ed="#L" n="5"/>in quantum ponitur consistere in aliquo bono creato, quod scilicet appetatur
+<lb ed="#L" n="6"/>ut maximum bonum inter creata, est visio Dei. Non potest enim appetens
+<lb ed="#L" n="7"/>velle sibi maius et perfectius bonum quam videre ipsum Deum. Unde actus
+<lb ed="#L" n="8"/>intellectus in genere actuum est maxime volitus, quia ipse actus voluntatis
+<lb ed="#L" n="9"/>cuius est aliquid aliud per se obiectum non potest per se et directe esse
+<lb ed="#L" n="10"/>volitus, ut dictum est. Videtur ergo intellectus esse potentia eminentior
+<lb ed="#L" n="11"/>simpliciter quam voluntas. Videtur etiam actus intellectus esse eminentior
+<lb ed="#L" n="12"/>et perfectior actu voluntatis secundum praedictam considerationem.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1001">
+               <lb ed="#L" n="13"/>Et etiam hoc aliter videtur si consideretur causalitas et principalitas
+<lb ed="#L" n="14"/>quae est actus et obiecti intellectus respectu actus et obiecti voluntatis.
+<lb ed="#L" n="15"/>Voluntas enim non est nisi apprehensi per intellectum; est autem intellectus
+<lb ed="#L" n="16"/>speculativus et practicus, et utrique actui coniungitur actus aliquis 
+volun<lb break="no" ed="#L" n="17"/>tatis. Nam cum intellectus speculativus est perfectus actu suo, cum ipse
+<lb ed="#L" n="18"/>et voluntas ratione suae abstractionis sint potentiae supra seipsas et super
+<lb ed="#L" n="19"/>actus suos et obiecta conversivae, ipse homo perfectus actu intelligendi
+<lb ed="#L" n="20"/>percipiens se intelligere obiectum nobile et actu tali nobili perfectum, 
+com<lb break="no" ed="#L" n="21"/>placet sibi in illis per voluntatem et diligit illa et ut sunt quaedam 
+perfec<lb break="no" ed="#L" n="22"/>tiones secundum se et ut sic percipit se illis perfectum. Unde, sic fertur
+<lb ed="#L" n="23"/>voluntas non per se et  immediate et directe in praedictos actum et
+<lb ed="#L" n="24"/>obiectum, sed mediante actu conversivo, quo sic perfectus cognoscit ?
+<lb ed="#L" n="25"/>actum et obiectum secundum quod perfectivum est actus intelligendi,
+<lb ed="#L" n="26"/>in quantum haec sunt quaedam perfectiones ipsius volentis  et intelligentis.
+<lb ed="#L" n="27"/>Primo enim actu intelligendi pure speculativo apprehenditur ipsum
+<lb ed="#L" n="28"/>obiectum secundum se et absolute, et non fertur voluntas in ipsum 
+secun<lb break="no" ed="#L" n="29"/>dum huiusmodi  apprehensionem per actum aliquem principalem qui
+<lb ed="#L" n="30"/>possit dici  amor vel dilectio , licet in tali actu speculativo, secundum
+<lb ed="#L" n="31"/>doctrinam Augustini, undecimo de Trinitate, adsit ? intentio voluntatis ? vel
+<lb ed="#L" n="32"/>attentio voluntatis aliquo modo copulans prolem parenti et cetera. Sicut
+<lb ed="#L" n="33"/>enim delectatio ad appetitum pertinens naturali necessitate consequitur
+<lb ed="#L" n="34"/>et annectitur actui perfecto, sic etiam talis amor vel dilectio voluntatis
+<lb ed="#L" n="35"/>consequitur et annectitur talibus quibus sic perficitur ipse volens. Si autem
+<lb ed="#L" n="36"/>quaeratur quis istorum actuum sit eminentior et perfectior, vel actus intel-
+<pb ed="#L" n="194"/>
+               <lb ed="#L" n="1"/>lectus quo perfectus sive in cognoscendo vel actus voluntatis quo diligo
+<lb ed="#L" n="2"/>hanc meam perfectionem, et similiter si quaeratur de ipso obiecto respectu
+<lb ed="#L" n="3"/>cuius habet rationem eminentiorem vel respectu intellectus vel voluntatis,
+<lb ed="#L" n="4"/>patet quod ipse actus intelligendi est eminentior et perfectior, quia ex sua
+<lb ed="#L" n="5"/>bonitate et perfectione habet ipse actus voluntatis cuius ille est obiectum
+<lb ed="#L" n="6"/>bonitatem et perfectionem. Ipse etiam actus intellectus est id quo ipse
+<lb ed="#L" n="7"/>intelligens et volens principaliter perficitur ut bono principali et finali
+<lb ed="#L" n="8"/>quod est obiectum et non actus ipsius voluntatis. Ipse autem actus 
+volun<lb break="no" ed="#L" n="9"/>tatis est id quo  volens et intellimens concomitative vel consecutive et
+<lb ed="#L" n="10"/>secundum quamdam connexionem naturalem perficitur, non ut bono 
+prin<lb break="no" ed="#L" n="11"/>cipali et finali, sed ut bono habente bonitatem et perfectionem participatam
+<lb ed="#L" n="12"/>a bono principali et finali cui connectitur. Perfectius est enim esse 
+perfec<lb break="no" ed="#L" n="13"/>tum cognitione Dei et ipso Deo secundum quod cognitus, quam esse
+<lb ed="#L" n="14"/>perfectum dilectione huius  cognitionis et ipsius cogniti secundum quod
+<lb ed="#L" n="15"/>cognitum est.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1091">
+               <lb ed="#L" n="16"/>Intellectus autem practicus qui est respectu cogniti, non secundum
+<lb ed="#L" n="17"/>se et absolute, sed in ordine ad voluntatem, in quantum scilicet ipsum
+<lb ed="#L" n="18"/>obiectum apprehensum ab intellectu per se et immediate et directe habet
+<lb ed="#L" n="19"/>movere voluntatem, dupliciter potest considerari secundum duplicem actum
+<lb ed="#L" n="20"/>voluntatis quo voluntas dupliciter fertur per se et directe et immediate in
+<lb ed="#L" n="21"/>aliquid apprehensum. Aut enim voluntas fertur in aliquid apprehensum
+<lb ed="#L" n="22"/>non habitum ut habeatur et ipsi volenti uniatur ; aut etiam fertur in 
+appre<lb break="no" ed="#L" n="23"/>hensum habitum ut conservetur et salvetur non propter se, sed in ordine
+<lb ed="#L" n="24"/>ad ipsum volentem et ut aliquid ad ipsum pertinens ; et respectu talium
+<lb ed="#L" n="25"/>dicitur voluntas actu suo volendi vel amandi habere amorem 
+concupis<lb break="no" ed="#L" n="26"/>centiae; puta si volo vinum quo careo; item si habeo vinum, illud volo -
+<lb ed="#L" n="27"/>esse et salvari propter me. Alio modo fertur voluntas in aliquid 
+apprehen<lb break="no" ed="#L" n="28"/>sum propter se, prout voluntas actu suo amandi vel volendi dicitur ad
+<lb ed="#L" n="29"/>aliquid habere amorem amicitiae.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1124">
+               <lb ed="#L" n="30"/>Quantum ad primum istorum modorum est ibi considerare tria: scilicet
+<lb ed="#L" n="31"/>actum intellectus in actu et actum voluntatis in actu et obiectum utriusque
+<lb ed="#L" n="32"/>quod etiam consistit principaliter et finaliter in aliquo actu, licet non 
+prae<lb break="no" ed="#L" n="33"/>sente, quia consistit in aliquo quo formaliter perficitur ipse volens, ut patet
+<lb ed="#L" n="34"/>per exemplum supra dictum. Si autem ista tria ad invicem comparentur,
+<lb ed="#L" n="35"/>puta cognoscere vinum ratione potationis et velle vinum potare et ipsum
+<lb ed="#L" n="36"/>vinum actu potare, sive esse perfectum tali perfectione et tali bono quale
+<lb ed="#L" n="37"/>est in potatione  vini, sive velle conservari et salvari vinum propter huius-
+<pb ed="#L" n="195"/>
+               <lb ed="#L" n="1"/>modi perfectionem, et sic de aliis, et quaeratur quid sit perfectius inter
+<lb ed="#L" n="2"/>Ista, — dicendum quod, quia ipsum velle non est finale bonum, immo est
+<lb ed="#L" n="3"/>quaedam inclinatio in aliud ; inclinatio autem in aliud non potest habere
+<lb ed="#L" n="4"/>rationem finalis perfectionis secundum modum praedictum, sed illud in
+<lb ed="#L" n="5"/>quod aliquid inclinatur cum res in suam perfectionem inclinetur et ideo
+<lb ed="#L" n="6"/>nullum velle potest esse ' finalis perfectio inclinati ; quia vero obiectum
+<lb ed="#L" n="7"/>apprehensum et volitum secundum suum esse reale secundum se et 
+abso<lb break="no" ed="#L" n="8"/>lute non apprehenditur nec appetitur [sive] ut est aliquod ens secundum
+<lb ed="#L" n="9"/>se et absolute, sed ut est quoddam bonum nostrum, nonnisi in quantum
+<lb ed="#L" n="10"/>potest nobis coniungi per aliquem usum et secundum aliquam operationem
+<lb ed="#L" n="11"/>alicuius alterius potentiae, puta cum apprehenditur ut quoddam potabile
+<lb ed="#L" n="12"/>et appetitur propter ipsum potare ; et tunc est dicendum quod si actus quo
+<lb ed="#L" n="13"/>tale obiectum apprehenditur et appetitur si[n]t actus intellectus et voluntatis,
+<lb ed="#L" n="14"/>actus autem propter quem talis res apprehenditur sit  actus sensus gustus,
+<lb ed="#L" n="15"/>nobilioris autem potentiae nobilior est actus ; — secundum hoc cognitio et
+<lb ed="#L" n="16"/>volitio talis obiecti simpliciter est nobilior actu qui est obiectum .
+</p>
+            <p xml:id="v27ab7-g15672-d1e1181">
+               <lb ed="#L" n="17"/>Si autem actus quo talis res cognoscitur sit potentiae sensitivae,
+<lb ed="#L" n="18"/>nobilior videtur adhuc visio vel cognitio talis obiecti simpliciter quam
+<lb ed="#L" n="19"/>obiectum quod est actus gustus sensus. Et hoc quidem est intelligendum
+<lb ed="#L" n="20"/>secundum quod sensus considerantur ? in ordine ad cognitionem et in
+<lb ed="#L" n="21"/>quantum propter ipsam cognitionem principaliter diliguntur. Verumtamen
+<lb ed="#L" n="22"/>cum ipsum potare vinum non sit cognitum nec volitum nisi ut habet
+<lb ed="#L" n="23"/>rationem finis, et sic cognitio vini non est ? nisi ut potetur, propter quod
+<lb ed="#L" n="24"/>est et  ipsum velle potare vinum  — propter hoc enim insunt cognoscenti
+<lb ed="#L" n="25"/>et volenti talis cognitio et talis appetitus ut illud secundum suum esse
+<lb ed="#L" n="26"/>reale per actum potandi adipiscatur, — oportet ponere quod ex quo istud
+<lb ed="#L" n="27"/>habet rationem finis debeat etiam aliquo modo dici melius, sed non 
+simpli<lb break="no" ed="#L" n="28"/>citer sed secundum quid, scilicet quia est appetenti necessarium vel utile,
+<lb ed="#L" n="29"/>puta ad conservationem sui esse. Sicut enim opera perfectiora 
+contempla<lb break="no" ed="#L" n="30"/>tionis aliquando intermittuntur propter opera imperfectiora ad vitae 
+susten<lb break="no" ed="#L" n="31"/>tationem necessaria, ita etiam operatio intellectus et voluntatis, licet sit
+<lb ed="#L" n="32"/>nobilior operatione aliqua ad corpus et ad virtutes corporales pertinente,
+<lb ed="#L" n="33"/>in quantum tamen est homini necessaria ad illam ut ad id quod est bonum
+<lb ed="#L" n="34"/>necessarium, et  sic melius quo possunt huiusmodi operationes per
+<lb ed="#L" n="35"/>fectiores aliquo modo ordinari, non sicut minus et imperfectius ad maius
+<pb ed="#L" n="196"/>
+               <lb ed="#L" n="1"/>et perfectius, sed potius e converso, sicut etiam dominus aliquando propter
+<lb ed="#L" n="2"/>sui ipsius bonum et necessitatem circa servorum dispositionem occupatur
+<lb ed="#L" n="3"/>et ! illorum aliquo modo habet curam.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1233">
+               <lb ed="#L" n="4"/>Si autem huiusmodi obiectum quod est vinum  secundum quod 
+pota<lb break="no" ed="#L" n="5"/>bile, vel ipsa potatio vini referuntur ad actum cognoscendi et appetendi
+<lb ed="#L" n="6"/>sensitivum, sic videtur quod ipsum potare vinum sit aliquo modo perfectius 
+<lb ed="#L" n="7"/>quam cognitio eius secundum alium sensum vel appetitus secundum sensum.
+<lb ed="#L" n="8"/>Prout enim sensus diliguntur propter utilitatem et quia utilitas sensibilium
+<lb ed="#L" n="9"/>quae sunt obiecta sensuum attenditur secundum ordinem ad? 
+conserva<lb break="no" ed="#L" n="10"/>tionem naturae animalis secundum individuum et secundum speciem, ad
+<lb ed="#L" n="11"/>hanc autem utilitatem propinquius se habent sensibilia tactus qui est 
+cognos<lb break="no" ed="#L" n="12"/>citivus eorum ex quibus consistit animal, secundum hoc etiam delectationes
+<lb ed="#L" n="13"/>quae sunt secundum tactum sunt maiores, quia sunt fini propinquiores
+<lb ed="#L" n="14"/>delectationibus aliorum sensuum ; sic et actus secundum tactum videntur
+<lb ed="#L" n="15"/>perfectiores et magis dilecti aliis, quamvis, prout sensus diliguntur propter
+<lb ed="#L" n="16"/>cognitionem, sicut delectationes secundum visum sunt potiores et visus 
+<lb ed="#L" n="17"/>est sensus perfectior secundum quod deservit cognitioni praecipue 
+intel<lb break="no" ed="#L" n="18"/>lectivae ; et secundum hoc perfectior est actus potionis vini quam cognitio
+<lb ed="#L" n="19"/>eius secundum alium sensum vel quam actus appetitus eius sive antecedens
+<lb ed="#L" n="20"/>sive concomitans.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1272">
+               <lb ed="#L" n="21"/>Per praedicta tamen non est intellirendum quod sensus tactus in 
+ani<lb break="no" ed="#L" n="22"/>malibus sit simpliciter perfectior quam sensus visus, sed tantum quo ; 
+alio<lb break="no" ed="#L" n="23"/>quin, cum virtus generativa et nutritiva magis de propinquo se habeant
+<lb ed="#L" n="24"/>ad finem qui est conservatio naturae animalis quam quaecumque potentia
+<lb ed="#L" n="25"/>sensitiva, potentiae vegetativae et earum actus essent perfectiores sensitivis
+<lb ed="#L" n="26"/>potentiis et earum actibus, quod tamen est falsum. Unde, quia potentiae
+<lb ed="#L" n="27"/>sensitivae sunt spiritualiores et immaterialiores quam vegetativae, sunt
+<lb ed="#L" n="28"/>perfectiores; et inter sensitivas quae magis sunt spirituales  et 
+immateria<lb break="no" ed="#L" n="29"/>liores, sunt perfectiores , quia etiam  sunt magis et perfectius 
+cognos<lb break="no" ed="#L" n="30"/>citivae. Unde, cum cognitio sit per se et? proprius actus potentiae sensitivae
+<lb ed="#L" n="31"/>apprehensivae , per se debet dici illa perfectior per quam '" sumus magis
+<lb ed="#L" n="32"/>et perfectius cognoscitivi. Haec autem est illa quae !' immaterialior vel
+<lb ed="#L" n="33"/>spiritualior , cuiusmodi est potentia visiva et auditiva. Propter quod etiam
+<lb ed="#L" n="34"/>in animalibus imperfectis quae non sunt nata habere omnem perfectionem
+<lb ed="#L" n="35"/>secundum sensum invenitur sensus tactus sine aliis, sicut id quod est prius
+<lb ed="#L" n="36"/>et imperfectius et materialius sine posterioribus perfectionibus et magis
+<pb ed="#L" n="197"/>
+               <lb ed="#L" n="1"/>spiritualibus. Nec obstat quod delectationes secundum tactum sunt 
+vehe<lb break="no" ed="#L" n="2"/>mentiores quam secundum alios sensus. Quia etiam sunt vehementiores
+<lb ed="#L" n="3"/>quam delectationes intellectuales, non sunt tamen simpliciter perfectiores
+<lb ed="#L" n="4"/>et nobiliores. Oualitercumque etiam se habeat inter actus cognoscitivos
+<lb ed="#L" n="5"/>sensuum, scilicet sive visio cervi a leone sit perfectior quam gustatio
+<lb ed="#L" n="6"/>cervi! sive non ?, tamen semper actus sensus cognoscitivi est perfectior
+<lb ed="#L" n="7"/>quam actus appetitus, quia actus sensus est quasi finis propter quem et in
+<lb ed="#L" n="8"/>ordine ad quem habet esse actus appetitus.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1329">
+               <lb ed="#L" n="9"/>Quantum ad secundum modum supradictorum, est intelligendum quod
+<lb ed="#L" n="10"/>voluntas fertur in aliquid propter se dupliciter, vel ut in obiectum 
+prin<lb break="no" ed="#L" n="11"/>cipale ut ad quod per se actus voluntatis terminatur, vel ut ad id quod
+<lb ed="#L" n="12"/>est formalis ratio obiecti principalis ratione cuius voluntas in ipsum sic
+<lb ed="#L" n="13"/>terminatur. Isto modo enim non fertur proprie nisi in bonum quod habet
+<lb ed="#L" n="14"/>rationem ? boni simpliciter et finis, non solum in ordine ad aliud. Unde,
+<lb ed="#L" n="15"/>cum secundum Philosophum, octavo Ethicorum, tria sunt amabilia in quae
+<lb ed="#L" n="16"/>scilicet fertur voluntas ut in ea quae important rationes volendi et amandi,
+<lb ed="#L" n="17"/>scilicet bonum delectabile et utile; et secundum hoc sunt tres species
+<lb ed="#L" n="18"/>amicitiae. Ouia amantur quidam propter bonum honestum, quia sunt boni
+<lb ed="#L" n="19"/>et virtuosi secundum se; quidam autem propter bonum delectabile, quia
+<lb ed="#L" n="20"/>scilicet sunt amanti delectabiles ; quidam propter bonum utile, quia scilicet
+<lb ed="#L" n="21"/>sunt amanti utiles ?. Sed duae posteriores amicitiae non sunt per se amicitiae
+<lb ed="#L" n="22"/>sed per accidens, quia in illis non amatur aliquis secundum se, sed 
+secun<lb break="no" ed="#L" n="23"/>dum quod amanti aliquid exhibet, scilicet utilitatem vel delectationem. Quia
+<lb ed="#L" n="24"/>ergo sola prima amicitia est vera et perfecta amicitia, secundum quam
+<lb ed="#L" n="25"/>unusquisque bonus et perfectus se ipsum amat, sicut decet, et alium 
+con<lb break="no" ed="#L" n="26"/>similiter sicut seipsum, et secundum illum vult se esse et vivere virtuose,
+<lb ed="#L" n="27"/>et operationes virtutum exercere et similiter amicum ut alium se , ideo
+<lb ed="#L" n="28"/>secundum hanc considerandum quomodo respectu apprehensorum ab 
+intel<lb break="no" ed="#L" n="29"/>lectu in quae fertur ipsa voluntas ad invicem se habeant intellectus ipse et
+<lb ed="#L" n="30"/>voluntas, et actus eorum, et obiecta.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1380">
+               <lb ed="#L" n="31"/>Circa hoc autem intelligendum quod intellectus et voluntas aliquando
+<lb ed="#L" n="32"/>sunt respectu obiecti ut realiter absentis, puta cum aliquis vult sibi vel
+<lb ed="#L" n="33"/>amico aliquod bonum simpliciter quo caret, puta cum aliquis vult scire
+<lb ed="#L" n="34"/>mathematica vel esse liberalis et apprehendit hoc ut perfectionem qua
+<lb ed="#L" n="35"/>caret; aliquando vero respectu obiecti iam praesentis, puta cum aliquis
+<lb ed="#L" n="36"/>existens mathematicus vel liberalis vult sibi hoc bonum quo sic perfectus
+<pb ed="#L" n="198"/>
+               <lb ed="#L" n="1"/>est, et secundum illud operari. Si autem quaeratur quid ' istorum trium sit
+<lb ed="#L" n="2"/>perfectius, scilicet obiectum apprehensum et volitum vel ipsa apprehensio
+<lb ed="#L" n="3"/>et volitio quantum ad alterum obiectum , manifestum est quid dicendum :
+<lb ed="#L" n="4"/>quia scire mathematica secundum suum esse reale quo scilicet actu informat
+<lb ed="#L" n="5"/>intellectum est nobilius quam secundum suum esse potentiale et secundum
+<lb ed="#L" n="6"/>esse cognitum vel volitum, sive quam eius cognitio vel volitio, et secundum
+<lb ed="#L" n="7"/>hoc scire mathematica est quid nobilius quam apprehendere vel cognoscere
+<lb ed="#L" n="8"/>hoc quod est scire mathematica vel etiam quam velle scire illa. Scire enim
+<lb ed="#L" n="9"/>mathematica est notitia perfecta et determinata in intellectu, sed cognoscere
+<lb ed="#L" n="10"/>solum hoc quod est scire mathematica ut perfectionem aliquam cognoscentis
+<lb ed="#L" n="11"/>in potentia est quaedam cognitio generalis indeterminata et imperfecta
+<lb ed="#L" n="12"/>eorumdem. Item, est bonum finale quod propter se quaeritur. Sed velle
+<lb ed="#L" n="13"/>scire illa non est finale bonum, sed est quaedam inclinatio in hoc quod est
+<lb ed="#L" n="14"/>scire mathematica ut in finale bonum. Actus enim voluntatis, quo scilicet
+<lb ed="#L" n="15"/>voluntas est in actu, non potest habere rationem boni finalis et per se voliti.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1430">
+               <lb ed="#L" n="16"/>Quantum ad aliud autem? obiectum, videtur quod, prout esse liberalem
+<lb ed="#L" n="17"/>et liberaliter operari dicunt habitum et actum secundum esse quod habent
+<lb ed="#L" n="18"/>in appetitu inferiori, secundum hoc istud obiectum secundum esse eius
+<lb ed="#L" n="19"/>reale  non est quid nobilius et perfectius quam secundum cognitum esse
+<lb ed="#L" n="20"/>suum  et volitum, licet sit verius et perfectius id quod est secundum esse
+<lb ed="#L" n="21"/>proprium in natura sua quam secundum esse cognitum et volitum. Prout
+<lb ed="#L" n="22"/>enim Commentator ostendit, in fine sexti Ethicorum, prudentiam esse 
+per<lb break="no" ed="#L" n="23"/>fectiorem virtutibus moralibus, quia scilicet est perfectio nobilioris potentiae,
+<lb ed="#L" n="24"/>quia ratiocinatum  in quo est prudentia nobilior est irascibili et 
+concupis<lb break="no" ed="#L" n="25"/>cibili in quo sunt virtutes morales; ita etiam potest argui propositum, quia
+<lb ed="#L" n="26"/>scilicet intellectus et voluntas quibus apprehendimus et volumus esse 
+libe<lb break="no" ed="#L" n="27"/>rales et liberaliter operari sunt nobiliores potentiae appetitu inferiori. Sicut
+<lb ed="#L" n="28"/>autem haec se habent respectu eius ' qui se diligit, volens se esse, vivere
+<lb ed="#L" n="29"/>et huiusmodi perfectiones habere et secundum eas operari, sic etiam se
+<lb ed="#L" n="30"/>habent respectu amici qui diligitur secundum ista; quia diligens amicum
+<lb ed="#L" n="31"/>diligit eum sicut alium se.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1467">
+               <lb ed="#L" n="32"/>Istis ergo suppositis, considerandum est quomodo obiectum voluntatis
+<lb ed="#L" n="33"/>est vel non est? nobilius obiecto intellectus. Et videtur quod si consideretur
+<lb ed="#L" n="34"/>obiectum intellectus speculativi in quod non fertur voluntas per se et directe,
+<lb ed="#L" n="35"/>ut supra dictum est, illud obiectum est obiectum intellectus sub ratione
+<lb ed="#L" n="36"/>nobiliori quam voluntatis: puta cum Deus secundum intellectum videtur
+<pb ed="#L" n="199"/>
+               <lb ed="#L" n="1"/>a beatis secundum se et secundum suam perfectionem et entitatem 
+abso<lb break="no" ed="#L" n="2"/>lutam ; voluntas autem, cum fertur in hanc perfectionem ipsius videntis et in
+<lb ed="#L" n="3"/>obiectum visionis quod ratione suae perfectionis causat hunc perfectum
+<lb ed="#L" n="4"/>actum visionis, non sic fertur in ipsum secundum se et secundum suam
+<lb ed="#L" n="5"/>perfectionem et ! entitatem absolutam ; sed fertur in ipsam visionem et in
+<lb ed="#L" n="6"/>ipsum visum in quantum visum ; et sic ut facit ad perfectionem ipsius
+<lb ed="#L" n="7"/>videntis. Sub nobiliori autem ratione consideratur aliquid ut consideratur
+<lb ed="#L" n="8"/>secundum se et absolute et secundum suam entitatem et perfectionem
+<lb ed="#L" n="9"/>absolutam ut sibi convenit secundum se ipsum, quam cum consideratur
+<lb ed="#L" n="10"/>sub aliqua ratione particulari et contracta, quare et cetera. Et ideo, ut
+<lb ed="#L" n="11"/>supra dictum est, perfectior est actus intellectus quo Deus videtur, quam
+<lb ed="#L" n="12"/>actus voluntatis quo complacet videnti in hac visione et in viso ut visus est,
+<lb ed="#L" n="13"/>et quo vult se esse perfectum tali actu visionis, et vult habere praesens
+<lb ed="#L" n="14"/>obiectum et illud esse et conservari in sua entitate et perfectione propter
+<lb ed="#L" n="15"/>perfectionem actus videndi quem causat.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1515">
+               <lb ed="#L" n="16"/>Propter quod nec in isto actu quodammodo reflexo, quo scilicet 
+appre<lb break="no" ed="#L" n="17"/>hendo me videre Deum et apprehendo ? Deum esse obiectum perficiens
+<lb ed="#L" n="18"/>hunc actum visionis, nec in actu consequente voluntatis circa hoc, potest
+<lb ed="#L" n="19"/>consistere principale et finale bonum, sive principalis et finalis perfectio
+<lb ed="#L" n="20"/>vel  beatitudo hominis, immo in ipso actu principali qui est obiectum istorum
+<lb ed="#L" n="21"/>actuum consequentium et a quo perfectionem habent isti actus.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1531">
+               <lb ed="#L" n="22"/>Cum autem voluntas non feratur directe per se et immediate nisi in
+<lb ed="#L" n="23"/>obiectum apprehensum ab intellectu practico potest comparari obiectum
+<lb ed="#L" n="24"/>intellectus speculativi ad obiectum intellectus practici quod etiam est 
+obiec<lb break="no" ed="#L" n="25"/>tum voluntatis, et potest comparari obiectum intellectus practici ad obiectum
+<lb ed="#L" n="26"/>voluntatis. Quantum ad primum patet quod aliquid est obiectum intellectus
+<lb ed="#L" n="27"/>speculativi sub nobiliori ratione quam sit obiectum intellectus practici, et
+<lb ed="#L" n="28"/>per consequens voluntatis ; quia aliquid est obiectum intellectus speculativi
+<lb ed="#L" n="29"/>secundum se et absolute, sive secundum suam entitatem et perfectionem
+<lb ed="#L" n="30"/>absolutam, est autem obiectum intellectus practici secundum esse 
+contrac<lb break="no" ed="#L" n="31"/>tum et particulatum, sive sub ratione particulata  et contracta, in quantum
+<lb ed="#L" n="32"/>scilicet est conveniens apprehendenti.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1557">
+               <lb ed="#L" n="33"/>Est autem circa hoc intelligendum quod per intellectum practicum
+<lb ed="#L" n="34"/>nunc intelligimus intellectum qui apprehendit rem non secundum se et
+<lb ed="#L" n="35"/>absolute, in quantum scilicet intelligens perficitur simpliciter secundum
+<lb ed="#L" n="36"/>intellectum, sed intellectum  qui apprehendit rem sub ratione convenientis
+<pb ed="#L" n="200"/>
+               <lb ed="#L" n="1"/>et perfectionem importantis ad ipsum intelligentem, ut ex hoc non solum
+<lb ed="#L" n="2"/>perficiatur intelligens simpliciter secundum intellectum, sed etiam inclinetur
+<lb ed="#L" n="3"/>ipse intelligens in illud quod apprehenditur secundum appetitum, ut ex
+<lb ed="#L" n="4"/>eius adeptione perfectionem aliquam consequatur. Et hoc contingit 
+dupli<lb break="no" ed="#L" n="5"/>citer secundum duplicem actum voluntatis: quorum unus est velle 
+simpli<lb break="no" ed="#L" n="6"/>citer, alius dicitur electio, quamvis magis proprie dicatur intellectus practicus
+<lb ed="#L" n="7"/>ille quo existente in actu sequitur electio eius quod est ad finem, quam ille
+<lb ed="#L" n="8"/>quo existente in actu sequitur velle ipsum finem, quia esse practicum est
+<lb ed="#L" n="9"/>esse operativum. Nunc autem ex intellectu ex quo causatur voluntas finis
+<lb ed="#L" n="10"/>immediate non sequitur operatio aliqua ultra actum ipsum volendi finem,
+<lb ed="#L" n="11"/>sed ex intellectu ex quo causatur electio eius quod est ad finem sequitur
+<lb ed="#L" n="12"/>operatio alia cuius causa est immediate ipsa electio. Electionis autem causa
+<lb ed="#L" n="13"/>est ipse  intellectus qui proprie dicitur practicus. In quantum tamen  
+intel<lb break="no" ed="#L" n="14"/>lectus practicus accipit principium sui processus in syllogizando ex fine
+<lb ed="#L" n="15"/>volito, sive ex appetitu finis, pro tanto cognitio finis, ad quam scilicet
+<lb ed="#L" n="16"/>sequitur appetitus finis, ad intellectum practicum dicitur pertinere. Et sicut
+<lb ed="#L" n="17"/>verum quod est bonum et perfectio intellectus sic proprie practici non est
+<lb ed="#L" n="18"/>verum simpliciter sed concorditer se habens ad appetitum rectum, ut dicitur
+<lb ed="#L" n="19"/>sexto Ethicorum, quia verum intellectus practici respectu eorum quae sunt
+<lb ed="#L" n="20"/>ad finem non est verum causatum ex apprehensione illorum simplici et
+<lb ed="#L" n="21"/>absoluta, sed secundum convenientiam et consonantiam quam habent ad
+<lb ed="#L" n="22"/>ipsum finem appetitum, ita etiam intelligendum est quod verum quod est
+<lb ed="#L" n="23"/>bonum et perfectio intellectus practici alio modo sumpti qui est 
+appre<lb break="no" ed="#L" n="24"/>hensivus alicuius entis sub ratione finis non est verum simpliciter sed
+<lb ed="#L" n="25"/>concorditer se habens ad intelligentem, id est verum talis intellectus 
+prac<lb break="no" ed="#L" n="26"/>tici, scilicet respectu finis, non est verum causatum ex apprehensione illius
+<lb ed="#L" n="27"/>simplici et absoluta sive sub ratione entis simpliciter et absolute, vel etiam
+<lb ed="#L" n="28"/>sub ratione entis perfecti et boni simpliciter et absolute sed secundum
+<lb ed="#L" n="29"/>consonantiam et convenientiam quam habet ad ipsum apprehendentem.
+<lb ed="#L" n="30"/>Immo, sicut convenientia et conformitas quam apprehendit intellectus circa
+<lb ed="#L" n="31"/>id quod est ad finem ad ipsum finem est formalis ratio talis actus intellectus,
+<lb ed="#L" n="32"/>ita etiam convenientia et conformitas quam apprehendit intellectus circa
+<lb ed="#L" n="33"/>id quod est finis ad ipsum apprehendentem est formalis ratio obiecti talis
+<lb ed="#L" n="34"/>intellectus practici ; et formalis ratio obiecti intellectus qui propriissime est
+<lb ed="#L" n="35"/>practicus, scilicet conformitas et convenientia eius quod est ad finem ad
+<lb ed="#L" n="36"/>ipsum finem includit convenientiam ipsius finis per se ad ipsum 
+apprehen<lb break="no" ed="#L" n="37"/>dentem ; et virtute illius procedit ratio practica in syllogizando et voluntas
+<pb ed="#L" n="201"/>
+               <lb ed="#L" n="1"/>in eligendo circa illa quae habent convenientiam ad ipsum finem propter PEE
+<lb ed="#L" n="2"/>convenientiam ipsius finis ad ipsum apprehendentem. Unde, illud quod est
+<lb ed="#L" n="3"/>ad finem apprehenditur sub ratione convenientis ad ipsum apprehendentem
+<lb ed="#L" n="4"/>et hoc mediante fine qui per se est conveniens sive apprehensus sub ratione
+<lb ed="#L" n="5"/>convenientis. Unde, potio habens conformitatem ad sanitatem, quia eius est
+<lb ed="#L" n="6"/>inductiva et causativa, non apprehenditur ab intellectu practico sub hac
+<lb ed="#L" n="7"/>ratione nisi praeintelligatur sanitas apprehensa sub ratione convenientis 
+<lb ed="#L" n="8"/>et ideo etiam iam ut conveniens apprehendenti sit volita. Et sicut intellectus
+<lb ed="#L" n="9"/>proprie practicus qui est respectu eorum quae sunt ad finem numquam
+<lb ed="#L" n="10"/>moveret appetitum ad eligendum ea quae sunt ad finem et ulterius, mediante
+<lb ed="#L" n="11"/>appetitu, ad alia quae sunt necessaria ad executionem in opere eius quod
+<lb ed="#L" n="12"/>appetitur per electionem, nisi quia illud quod apprehendit, apprehendit sub
+<lb ed="#L" n="13"/>conformitate et convenientia ad ipsum finem volitum, quia secundum se
+<lb ed="#L" n="14"/>conveniens et conforme apprehendenti ; — ita etiam intellectus qui est alio
+<lb ed="#L" n="15"/>modo practicus respectu finis non moveret voluntatem ad volendum ipsum
+<lb ed="#L" n="16"/>finem, nisi illud quod est finis apprehenderetur sub ratione convenientis ad
+<lb ed="#L" n="17"/>ipsum apprehendentem. Unde, sicut apprehensio potionis alicuius inductivae
+<lb ed="#L" n="18"/>sanitatis non moveret appetitum ad eligendum eam ! et ad sumendum, nisi
+<lb ed="#L" n="19"/>apprehenderetur ut sic in ordine ad sanitatem appetitam ut finem, ita etiam
+<lb ed="#L" n="20"/>apprehensio ipsius  sanitatis, vel sanitas apprehensa, non moveret 
+volun<lb break="no" ed="#L" n="21"/>tatem ad volendum ipsam, nisi apprehenderetur sub ratione convenientis
+<lb ed="#L" n="22"/>ad ipsum apprehendentem. Quantumcumque enim aliquid apprehendatur
+<lb ed="#L" n="23"/>non solum sub ratione entis, puta circa corporalia sanitas vel huiusmodi,
+<lb ed="#L" n="24"/>et circa spiritualia scientia vel huiusmodi, sed etiam sub ratione perfectionis
+<lb ed="#L" n="25"/>sive ut ens perfectum et bonum secundum se et absolute, nisi 
+apprehen<lb break="no" ed="#L" n="26"/>datur sub ratione convenientis ad ipsum apprehendentem, non potest
+<lb ed="#L" n="27"/>movere voluntatem eius ad volendum ipsum, alioquin nullus apprehenderet
+<lb ed="#L" n="28"/>aliquid sub ratione boni et perfecti secundum se quin illud vellet et hoc vel
+<lb ed="#L" n="29"/>ut finem propter se, vel ut ad finem propter ipsum finem ?; quod est falsum.
+<lb ed="#L" n="30"/>Unde dicit Philosophus, octavo Ethicorum, quod unusquisque videtur amare
+<lb ed="#L" n="31"/>id quod est sibi bonum. Sicut enim simpliciter amabile est quod est 
+simpli<lb break="no" ed="#L" n="32"/>citer bonum, ita unicuique amabile est id quod est ei bonum. Et, prout ibi
+<lb ed="#L" n="33"/>subdit, nihil differt dicere quod unusquisque amat id quod est bonum ei,
+<lb ed="#L" n="34"/>et dicere quod unicuique est amabile id quod  apparet ei bonum, quia
+<lb ed="#L" n="35"/>appetitus non fertur in aliquid nisi prout est apprehensum. Unde, cum
+<lb ed="#L" n="36"/>aliquis amat aliquid apparens bonum, illud amat ut sibi bonum, etsi forte
+<lb ed="#L" n="37"/>non sit sibi simpliciter bonum. Unde  videtur dicendum simpliciter quod AT Ps
+<lb ed="#L" n="38"/>unusquisque amat id quod est sibi apparens bonum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1736">
+               <pb ed="#L" n="202"/>
+               <lb ed="#L" n="1"/>Et secundum praedicta patet quod pro eodem accipiendum est sive
+<lb ed="#L" n="2"/>dicatur aliquid esse obiectum voluntatis sub ratione boni, sive sub ratione
+<lb ed="#L" n="3"/>convenientis; quia actus voluntatis non est nisi quaedam inclinatio in
+<lb ed="#L" n="4"/>aliquid propter conformitatem et convenientiam quam magis habet ad illud
+<lb ed="#L" n="5"/>quam ad aliud et in quo, adepto illo, tamquam in sibi simpliciter 
+conve<lb break="no" ed="#L" n="6"/>nienti ratione huiusmodi ' convenientiae quiescat. Unde cum specificatur
+<lb ed="#L" n="7"/>bonum, quaedam rationes convenientiae exprimuntur, scilicet utile, 
+delec<lb break="no" ed="#L" n="8"/>tabile, honestum. Item, bonum quoddam est commodum quoddam, iustum
+<lb ed="#L" n="9"/>et cetera. Ex praedictis ergo patet quomodo sub alia ratione est aliquid
+<lb ed="#L" n="10"/>obiectum intellectus speculativi quam intellectus practici et quod sub 
+nobi<lb break="no" ed="#L" n="11"/>liori ratione est obiectum intellectus  speculativi quam practici. Unde et
+<lb ed="#L" n="12"/>perfectior est actus intellectus speculativi quam practici; et virtutes 
+intel<lb break="no" ed="#L" n="13"/>lectuales speculativae sunt nobiliores virtutibus intellectualibus practicis.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1769">
+               <lb ed="#L" n="14"/>Quantum ad alium vero articulum circa comparationem obiecti 
+intel<lb break="no" ed="#L" n="15"/>lectus practici ad obiectum voluntatis, est intelligendum quod non videtur
+<lb ed="#L" n="16"/>quod sint ponendae diversae rationes circa huiusmodi obiectum utrumque,
+<lb ed="#L" n="17"/>ut scilicet sub una ratione sit obiectum unius et sub alia  alterius. Quia
+<lb ed="#L" n="18"/>constat quod voluntas nihil vult nisi apprehensum per intellectum, et etiam "
+<lb ed="#L" n="19"/>non vult aliquid sub aliqua ratione nisi illud sit apprehensum sub illa
+<lb ed="#L" n="20"/>ratione. Quod enim intellectus apprehendat aliquid sub una ratione et
+<lb ed="#L" n="21"/>voluntas non velit illud sub illa ratione sed sub alia, hoc est impossibile ;
+<lb ed="#L" n="22"/>quia si non apprehenditur sub illa alia ratione, nec voluntas illud potest
+<lb ed="#L" n="23"/>velle sub illa. Si autem apprehenditur, habetur propositum. Unde, quia, ut
+<lb ed="#L" n="24"/>dictum est, obiectum voluntatis non est nisi bonum apparens, — non est
+<lb ed="#L" n="25"/>autem apparens nisi quia sub ratione boni vel ut bonum et conveniens
+<lb ed="#L" n="26"/>apprehenditur ; non enim apparet aliquod bonum ipsi volenti secundum
+<lb ed="#L" n="27"/>voluntatem sed secundum intellectum, licet voluntas per actum volendi in
+<lb ed="#L" n="28"/>illud feratur, sed non nisi secundum quod apprehensum est, — non 
+<lb ed="#L" n="29"/>videtur esse differentia in obiecto intellectus practici et voluntatis; neque
+<lb ed="#L" n="30"/>secundum rem, quia illud idem quod est obiectum intellectus est etiam
+<lb ed="#L" n="31"/>obiectum voluntatis; neque secundum rationem, quia, ut dictum est,
+<lb ed="#L" n="32"/>voluntas non potest ferri in aliquid nisi secundum quod apprehensum est,
+<lb ed="#L" n="33"/>et non potest ferri in obiectum suum sub aliqua ratione sub qua non sit
+<lb ed="#L" n="34"/>apprehensum. Sed in hoc solum potest attendi differentia talis obiecti
+<lb ed="#L" n="35"/>ut ad istas potentias comparatur, quia non potest movere utramque 
+poten<lb break="no" ed="#L" n="36"/>tiam primo et immediate, quia ens secundum quod est conveniens sive
+<pb ed="#L" n="203"/>
+               <lb ed="#L" n="1"/>bonum ipsi cognoscenti, apprehenditur et movet intellectum per se et
+<lb ed="#L" n="2"/>immediate ; sed illud idem non movet voluntatem solum, sic scilicet quia
+<lb ed="#L" n="3"/>sit conveniens ipsi volenti sic sive sub ratione convenientis, sed movet
+<lb ed="#L" n="4"/>voluntatem secundum quod sic est apprehensum ; quia scilicet talis est ordo
+<lb ed="#L" n="5"/>istarum potentiarum inter se et respectu suorum obiectorum quod voluntas
+<lb ed="#L" n="6"/>non potest exire in actum suum nisi mediante actu intellectus ; et illud
+<lb ed="#L" n="7"/>obiectum quod movet intellectum et voluntatem non potest movere 
+volun<lb break="no" ed="#L" n="8"/>tatem nisi prius moveat intellectum secundum cognitionem. Et secundum
+<lb ed="#L" n="9"/>hoc potest poni differentia in isto obiecto ut est obiectum intellectus et
+<lb ed="#L" n="10"/>voluntatis ! ; quia est obiectum intellectus simpliciter et absolute absque
+<lb ed="#L" n="11"/>hoc quod oporteat quod non moveat intellectum nisi mediante motione
+<lb ed="#L" n="12"/>alterius potentiae, quam primo faciat in actu idem obiectum sub eadem
+<lb ed="#L" n="13"/>ratione; sed non est obiectum voluntatis secundum se et simpliciter et
+<lb ed="#L" n="14"/>absolute, sed secundum quod apprehensum, quia de ratione eius quod
+<lb ed="#L" n="15"/>habet movere voluntatem est quod sit bonum apprehensum sive apparens
+<lb ed="#L" n="16"/>ipsi volenti secundum intellectum, ut sic intelligatur differentia inter 
+intel<lb break="no" ed="#L" n="17"/>lectum speculativum et practicum et voluntatem et inter obiecta eorum ;
+<lb ed="#L" n="18"/>nam ens secundum quod ens sive secundum se et ? absolute est obiectum
+<lb ed="#L" n="19"/>intellectus. Sed hoc quod dicitur secundum se et absolute ? potest intelligi
+<lb ed="#L" n="20"/>dupliciter : uno modo sic quod excludatur habitudo entis cognoscibilis ad
+<lb ed="#L" n="21"/>actum aliquem qui per se praeexigatur ad hoc quod moveat  intellectum
+<lb ed="#L" n="22"/>et sic est obiectum tam intellectus practici quam speculativi; alio modo sic
+<lb ed="#L" n="23"/>quod per hoc excluditur habitudo entis cognoscibilis ad ipsum 
+cognoscen<lb break="no" ed="#L" n="24"/>tem sive sub ratione convenientis sive sub ratione disconvenientis, et sic
+<lb ed="#L" n="25"/>est obiectum intellectus speculativi et non practici. Cum enim, ut dictum
+<lb ed="#L" n="26"/>est, intellectus practicus moveat voluntatem vel ad appetendum finem, vel
+<lb ed="#L" n="27"/>ad eligendum id quod est ad finem, non potest esse obiectum intellectus
+<lb ed="#L" n="28"/>practici ens secundum se et absolute sic dictum, sed oportet quod sit ens
+<lb ed="#L" n="29"/>secundum conformitatem et convenientiam ad cognoscentem, alioquin
+<lb ed="#L" n="30"/>omne ens cognitum moveret voluntatem. Ad obiectum ergo intellectus
+<lb ed="#L" n="31"/>speculativi per additionem se habet obiectum intellectus practici et est
+<lb ed="#L" n="32"/>magis particulatum et contractum. Ens enim secundum se est obiectum
+<lb ed="#L" n="33"/>intellectus speculativi; ens secundum quod conveniens cognoscenti est
+<lb ed="#L" n="34"/>obiectum intellectus practici; et obiectum voluntatis se habet per 
+addi<lb break="no" ed="#L" n="35"/>tionem ad obiectum intellectus practici, quia est conveniens sub ratione
+<lb ed="#L" n="36"/>convenientis apprehensum. Unde non est ens absolute sumptum, quia nec
+<pb ed="#L" n="204"/>
+               <lb ed="#L" n="1"/>excludit habitudinem ad cognoscentem nec ad cognitionem, sed utramque
+<lb ed="#L" n="2"/>includit, scilicet quod sit conveniens, et ' hoc pertinet ad obiectum 
+intel<lb break="no" ed="#L" n="3"/>lectus practici; et quod sit apparens sive quod apprehendatur sub ratione
+<lb ed="#L" n="4"/>convenientiae et conformitatis, et sic addit ad  obiectum intellectus practici
+<lb ed="#L" n="5"/>rationem apparentiae sive apprehensionis tali modo. Ens enim simpliciter
+<lb ed="#L" n="6"/>sive sub ratione entis est obiectum intellectus speculativi; ens conveniens
+<lb ed="#L" n="7"/>sive sub ratione convenientis est obiectum intellectus practici; ens 
+appa<lb break="no" ed="#L" n="8"/>rens conveniens sive sub ratione convenientis apparentis, sive 
+appre<lb break="no" ed="#L" n="9"/>hensum sub ratione convenientis est obiectum voluntatis; ita quod ratio
+<lb ed="#L" n="10"/>apprehensionis vel apparentiae aliquo modo includitur in ratione obiecti
+<lb ed="#L" n="11"/>voluntatis. Nec tamen per ? hoc est intelligendum quod ipsa apprehensio
+<lb ed="#L" n="12"/>sive apparentia eius quod dicitur bonum et obiectum voluntatis sit per
+<lb ed="#L" n="13"/>se et principaliter obiectum voluntatis. Non enim dicitur bonum apparens
+<lb ed="#L" n="14"/>vel apprehensum esse obiectum voluntatis secundum quod apparens et
+<lb ed="#L" n="15"/>secundum quod apprehensum, quia scilicet ipsa apprehensio sit ratio
+<lb ed="#L" n="16"/>formalis ipsius obiecti, sed dicitur quod bonum apprehensum secundum
+<lb ed="#L" n="17"/>quod apprehensum  est obiectum voluntatis; quia ordo et distinctio
+<lb ed="#L" n="18"/>istarum potentiarum requirit quod illud quod est obiectum voluntatis
+<lb ed="#L" n="19"/>ipsam movere non possit nisi mediante motione quam prius facit in 
+intel<lb break="no" ed="#L" n="20"/>lectu; et sic ordine quodam ? unum et idem, sicut dictum est, et 
+secun<lb break="no" ed="#L" n="21"/>dum rem et secundum rationem movet intellectum practicum primo, et
+<lb ed="#L" n="22"/>mediante illo movet voluntatem ; et pro tanto quidem unum et idem 
+secun<lb break="no" ed="#L" n="23"/>dum rem et rationem, quia illud idem quod apprehenditur, sub ratione sub
+<lb ed="#L" n="24"/>qua apprehenditur, appetitur..Sicut enim apprehenditur ut conveniens, 
+<lb ed="#L" n="25"/>quia scilicet secundum talem vel talem rationem convenientiae, ita etiam et
+<lb ed="#L" n="26"/>sic appetitur;:sed quia, in quantum movet intellectum practicum, non
+<lb ed="#L" n="27"/>includit habitudinem ad actum cognitivum ; — non enim movet intellectum
+<lb ed="#L" n="28"/>practicum secundum quod apparens vel secundum quod apprehensum,
+<lb ed="#L" n="29"/>immo apparentiam vel apprehensionem efficit in intellectu; — in quantum
+<lb ed="#L" n="30"/>autem movet voluntatem hanc habitudinem includit. Ideo secundum hoc
+<lb ed="#L" n="31"/>obiectum intellectus practici et voluntatis differunt aliquo modo secundum
+<lb ed="#L" n="32"/>rationem. Ista ergo obiecta se habent per ordinem: ens secundum se et
+<lb ed="#L" n="33"/>absolute, ens secundum quod conveniens, ens secundum quod conveniens
+<lb ed="#L" n="34"/>apprehensum vel apparens. Hoc autem nihil aliud est quam bonum 
+appa<lb break="no" ed="#L" n="35"/>rens quod est per se obiectum voluntatis.
+</p>
+            <p xml:id="v27ab7-g15672-d1e1980">
+               <lb ed="#L" n="36"/>Ex istis corollarie sequitur quod qui ponit quod voluntas possit ferri
+<pb ed="#L" n="205"/>
+               <lb ed="#L" n="1"/>in aliquid alio modo quam secundum quod apprehensum est, nec oporteat
+<lb ed="#L" n="2"/>voluntatem et intellectum practicum conformari, ut scilicet voluntas possit
+<lb ed="#L" n="3"/>esse perversa, intellectu existente recto, et e converso, talis ponit 
+volun<lb break="no" ed="#L" n="4"/>tatem esse in actu suo sine obiecto. Ex praedictis patet quod obiectum
+<lb ed="#L" n="5"/>intellectus speculativi est nobilius obiecto intellectus practici et ex 
+con<lb break="no" ed="#L" n="6"/>sequenti quam obiectum voluntatis, sicut etiam ' nobilior est scientia
+<lb ed="#L" n="7"/>speculativa quam practica.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2002">
+               <lb ed="#L" n="8"/>Quantum autem ad obiectum intellectus practici et voluntatis patet
+<lb ed="#L" n="9"/>quomodo est unum secundum rem, differens aliquo modo ratione. Et quia
+<lb ed="#L" n="10"/>secundum quod est obiectum voluntatis se habet per additionem 
+contra<lb break="no" ed="#L" n="11"/>hentem et limitantem, aliquo modo secundum hoc videtur esse obiectum
+<lb ed="#L" n="12"/>intellectus practici sub nobiliori ratione quam voluntatis ; quia etiam in hoc
+<lb ed="#L" n="13"/>habet causalitatem actus intellectus super actum voluntatis, non e converso,
+<lb ed="#L" n="14"/>et actus voluntatis dependet ab actu intellectus, non autem e converso,
+<lb ed="#L" n="15"/>quodammodo sicut dicitur de actu intellectus quo cognoscit praemissas
+<lb ed="#L" n="16"/>respectu actus quo cognoscit conclusionem. Sicut enim cognoscens 
+prae<lb break="no" ed="#L" n="17"/>missas est dispositus ut fiat in actu cognoscendi conclusionem, ita etiam
+<lb ed="#L" n="18"/>volens, cum est in actu cognoscendi conveniens ? sub ratione convenientis,
+<lb ed="#L" n="19"/>sive cum illud quod apprehendit apparet sibi bonum, est dispositus ut sit
+<lb ed="#L" n="20"/>in actu volendi illud.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2033">
+               <lb ed="#L" n="21"/>Per praedicta patet quomodo semper actus intellectus est perfectior
+<lb ed="#L" n="22"/>actu voluntatis qui est respectu eiusdem obiecti respectu cuius etiam est
+<lb ed="#L" n="23"/>ipse actus intellectus, quia actus voluntatis mensuratur et habet rationem
+<lb ed="#L" n="24"/>boni et perfecti in habitudine ad actum intellectus ; actus enim voluntatis
+<lb ed="#L" n="25"/>bonus ? est secundum quod concordat rationi rectae ; malus autem 
+secun<lb break="no" ed="#L" n="26"/>dum quod declinat ab ea, non autem e contrario.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2049">
+               <lb ed="#L" n="27"/>Sed si comparetur actus voluntatis respectu alicuius obiecti ad actum
+<lb ed="#L" n="28"/>intellectus respectu alterius, puta actus volendi finem aliquem ad actum
+<lb ed="#L" n="29"/>intellectus practici quo iudicatur eligendum et agendum aliquid quod est
+<lb ed="#L" n="30"/>ad finem propter ipsum finem, et actus quo iudicatur esse eligendum et
+<lb ed="#L" n="31"/>faciendum illud quod est inductivum finis desiderati vel amati, secundum
+<lb ed="#L" n="32"/>hoc videtur aliquibus quod talis actus voluntatis sit nobilior tali actu 
+intel<lb break="no" ed="#L" n="33"/>lectus; et secundum hoc actus voluntatis dicetur nobilior actu intellectus
+<lb ed="#L" n="34"/>practici proprie dicti. Et hoc scilicet quod voluntas sit principalior intellectu
+<lb ed="#L" n="35"/>practico arguitur sic, quoniam illa potentia principalior est alia cuius actus
+<lb ed="#L" n="36"/>secundum quod huiusmodi est principalior, et cuius obiectum primum est
+<lb ed="#L" n="37"/>principalius. Sed actus voluntatis est principalior quam actus intellectus
+<pb ed="#L" n="206"/>
+               <lb ed="#L" n="1"/>practici, quoniam actus intellectus practici ordine naturae posterior est actu
+<lb ed="#L" n="2"/>voluntatis, cum rationem ' sumat ex eo.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2083">
+               <lb ed="#L" n="3"/>Item, obiectum voluntatis est principalius obiecto intellectus practici,
+<lb ed="#L" n="4"/>quia obiectum voluntatis primum est finis ultimus ; obiectum autem 
+intel<lb break="no" ed="#L" n="5"/>lectus practici est eius dilectio vel desiderium ; bonum enim dilectum est 
+pri<lb break="no" ed="#L" n="6"/>mum obiectum intellectus practici. Ergo voluntas est principalior intellectu
+<lb ed="#L" n="7"/>secundum quod practicus est. Similiter etiam videtur posse distingui  quod
+<lb ed="#L" n="8"/>voluntas est eminentior aliquo intellectu speculativo, puta dilectio entis
+<lb ed="#L" n="9"/>melioris, puta Dei vel hominis, cognitione entis vilioris, puta terrae vel
+<lb ed="#L" n="10"/>vermis; quia illa potentia est nobilior cuius obiectum est nobilius; quia etiam
+<lb ed="#L" n="11"/>ex consequenti secundum nobilitatem obiecti est nobilitas actus. Sed in 
+pro<lb break="no" ed="#L" n="12"/>posito obiectum voluntatis est nobilius obiecto intellectus. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2107">
+               <lb ed="#L" n="13"/>Et circa hoc videtur dicendum quod non est propria comparatio
+<lb ed="#L" n="14"/>inter voluntatem et intellectum et inter actus ipsorum nisi secundum quod
+<lb ed="#L" n="15"/>comparantur ad idem obiectum. Hoc modo enim ? potest declarari 
+quo<lb break="no" ed="#L" n="16"/>modo una potentia et actus eius est simpliciter perfectior altero. Sed non
+<lb ed="#L" n="17"/>sic proprie potest dici cum sic ad diversa comparantur. Circa hoc tamen
+<lb ed="#L" n="18"/>videtur posse dici quod cum voluntatis actus sit quaedam inclinatio et
+<lb ed="#L" n="19"/>tendentia in aliquid alterum magis bonum, et ideo eius obiectum dicitur
+<lb ed="#L" n="20"/>finis et bonum ; et ideo nullus actus voluntatis potest habere rationem boni
+<lb ed="#L" n="21"/>finalis proprie. Omnis autem actus intellectus est quaedam perfectio qua
+<lb ed="#L" n="22"/>intelligens quodammodo quietatur in re apprehensa secundum quod 
+intel<lb break="no" ed="#L" n="23"/>ligens, licet per actum intellectus practici insurgat voluntas in actum quo
+<lb ed="#L" n="24"/>ipse intelligens ulterius inclinatur ; et ideo etiam omnis actus intellectus
+<lb ed="#L" n="25"/>secundum quod huiusmodi quodammodo rationem boni et finis habet.
+<lb ed="#L" n="26"/>Secundum hoc videtur quod quicumque actus intellectus est nobilior 
+quo<lb break="no" ed="#L" n="27"/>cumque actu voluntatis simpliciter et absolute, secundum quid autem et per
+<lb ed="#L" n="28"/>comparationem ad alterum potest dici voluntas et actus eius eminentior,
+<lb ed="#L" n="29"/>sicut si auditus dicatur esse secundum quid nobilior visu in quantum res
+<lb ed="#L" n="30"/>aliqua cuius est sonus est nobilior aliqua re cuius est color. Quando ergo
+<lb ed="#L" n="31"/>res cuius est dilectio est nobilior re cuius est cognitio, cum etiam talis rei
+<lb ed="#L" n="32"/>dilectio  includit eius cognitionem, nobilior est ipsa dilectione, licet non
+<lb ed="#L" n="33"/>oporteat quod quaelibet cognitio includat dilectionem. Ideo quantum ad
+<lb ed="#L" n="34"/>hoc potest dici talis actus voluntas.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2157">
+               <lb ed="#L" n="35"/>Nec obstat praedictis quod dicitur ab aliquibus quod voluntas libera
+<lb ed="#L" n="36"/>est, non sic intellectus. Quia voluntas non est potentia libera quia est appe-
+<pb ed="#L" n="207"/>
+               <lb ed="#L" n="1"/>titiva potentia, sed quia est appetitus in ratione, ut ratio dicit idem quod
+<lb ed="#L" n="2"/>mens secundum quam homo est ad imaginem Dei. Est ergo libera quia est
+<lb ed="#L" n="3"/>potentia radicata in natura abstracta. Formae enim quae sunt in materia
+<lb ed="#L" n="4"/>ratione potentialitatis et imperfectionis materiae determinantur et 
+contra<lb break="no" ed="#L" n="5"/>huntur ut modo determinato et materiali secundum aliquid determinatum
+<lb ed="#L" n="6"/>agant. E contra etiam entia abstracta ratione suae immaterialitatis et
+<lb ed="#L" n="7"/>abstractionis et ex hoc actualitatis maximae non determinantur in sua
+<lb ed="#L" n="8"/>operatione ad aliquod ' ens particulare, sed totum ens eis subest et 
+quan<lb break="no" ed="#L" n="9"/>tum ad apprehensivam potentiam et quantum ad appetitivam. Habet ergo
+<lb ed="#L" n="10"/>libertatem simpliciter unaquaque potentia naturae sic abstractae. Hoc est
+<lb ed="#L" n="11"/>ergo causa libertatis voluntatis in sua operatione, quia est appetitivum
+<lb ed="#L" n="12"/>in ratione. Sed eadem de causa intellectus habet libertatem, ex eo scilicet
+<lb ed="#L" n="13"/>quod est apprehensivum in ratione.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2194">
+               <lb ed="#L" n="14"/>Ergo non bene dicitur quod intellectus agit serviliter, licet ab aliquo
+<lb ed="#L" n="15"/>obiecto necessario immutetur. Nam actus intellectus in Deo a suo obiecto
+<lb ed="#L" n="16"/>quod est divina essentia necessario et  immutabiliter immutatur ; et tamen
+<lb ed="#L" n="17"/>cum absit quod intellectus divinus serviliter agat vel intelligat, immo
+<lb ed="#L" n="18"/>liberrime, licet de necessitate, in quantum est summe abstractus et 
+indeter<lb break="no" ed="#L" n="19"/>minatus et actualissimus et omne ens et quamlibet rationem entis 
+perfec<lb break="no" ed="#L" n="20"/>tissime cognoscens, ergo similiter et ? in nobis, hoc nullam facit  
+intel<lb break="no" ed="#L" n="21"/>lectus servitutem, scilicet quod necessario immutatur ab aliquo obiecto.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2214">
+               <lb ed="#L" n="22"/>Voluntas etiam non dicitur servilis, immo libera, respectu obiecti a quo
+<lb ed="#L" n="23"/>de necessitate reducitur ad actum, scilicet respectu summi boni vel ultimi
+<lb ed="#L" n="24"/>finis, eo quod ipsum est tale in quo omne bonum quodammodo includitur,
+<lb ed="#L" n="25"/>et non est bonum aliquod  particulare et contractum. Respectu aliorum
+<lb ed="#L" n="26"/>autem habet sic libertatem quod non movetur de necessitate in aliquod .
+<lb ed="#L" n="27"/>Qualecumque enim  quod non secundum omnem sui considerationem est
+<lb ed="#L" n="28"/>bonum, quia est defectivum, et defectus cuiuscumque boni habet rationem
+<lb ed="#L" n="29"/>non boni vel aliquo modo mali, ideo potest a voluntate repudiari vel
+<lb ed="#L" n="30"/>acceptari secundum diversas considerationes. Nec etiam talis libertas in
+<lb ed="#L" n="31"/>eligendo vel repudiando convenit voluntati nisi quia, ut dictum est, 
+radi<lb break="no" ed="#L" n="32"/>catur in ratione ; in qua etiam  radicatur intellectus cuius consideratio non
+<lb ed="#L" n="33"/>est determinata circa talia ad unum, sed unum et idem potest considerari
+<lb ed="#L" n="34"/>sub diversis rationibus vel boni et convenientis vel mali et nocivi. Et ideo
+<lb ed="#L" n="35"/>non male dicitur a quibusdam  quod homo habet dominium super suos
+<pb ed="#L" n="208"/>
+               <lb ed="#L" n="1"/>actus quia habet deliberationem de illis. Ex hoc enim quod ratio deliberans
+<lb ed="#L" n="2"/>se habet ad opposita, potest voluntas in utraque. Liberam enim electionem
+<lb ed="#L" n="3"/>sive potestatem sic libere eligendi habet voluntas originaliter a natura
+<lb ed="#L" n="4"/>rationis vel mentis abstractae dicto modo in qua ' radicatur; formaliter
+<lb ed="#L" n="5"/>autem eam  habet a se ipsa, quia huiusmodi libera electio est subiective
+<lb ed="#L" n="6"/>ipsius voluntatis.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2262">
+               <lb ed="#L" n="7"/>Sed actum et usum huiusmodi  libertatis habet voluntas ab intellectu
+<lb ed="#L" n="8"/>etiam habente libertatem in suo actu ut a causa; quia secundum deli 
+bera<lb break="no" ed="#L" n="9"/>tionem rationis diversas condiciones circa res considerantis potest voluntas
+<lb ed="#L" n="10"/>actu eligere vel repudiare aliquod apprehensorum. Unde dicit Damascenus,
+<lb ed="#L" n="11"/>libro secundo, capitulo quadragesimo primo: omnis consilians in se ipso
+<lb ed="#L" n="12"/>ente electione agibilium consiliatur ut quod praeiudicatum  ex consilio
+<lb ed="#L" n="13"/>eligat et eligens agat. Et Theophrastus dicit, tertio de Anima: 
+ratio<lb break="no" ed="#L" n="14"/>cinativus homo non ducitur ab apparente mox sicut bruta animalia, sed
+<lb ed="#L" n="15"/>exponit saepe si hoc hoc et si hoc rursus hoc ; et concluditur ex pluribus
+<lb ed="#L" n="16"/>unum. Propter quod brutorum animalium appetitus velut motus semper
+<lb ed="#L" n="17"/>a simplici phantasia opinionem non habet, quia nec syllogismum ; 
+rationa<lb break="no" ed="#L" n="18"/>lium autem hominum appetitus opinionem . Et Commentator dicit, sexto
+<lb ed="#L" n="19"/>Ethicorum, super illud : sensus nullius principium actus; irrationalia solum
+<lb ed="#L" n="20"/>sensu communicantia sentientia  delectabilia statim appetunt et sequuntur,
+<lb ed="#L" n="21"/>tristia renuunt et fugiunt; actus autem in ipsis neque " unus, quia neque 
+<lb ed="#L" n="22"/>ratio; actus enim in quibus consiliari et sic eligibile concludi et sic ad
+<lb ed="#L" n="23"/>ipsum appetitum extendi. Dominium ergo actus habet intellectus et 
+appe<lb break="no" ed="#L" n="24"/>titus hoc quidem iudicans et inveniens eligibile ex consiliatione ; appetitus
+<lb ed="#L" n="25"/>autem factivus est  eius quod intellectus esse melius concludebat.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2307">
+               <lb ed="#L" n="26"/>Habet ergo intellectus libertatem suo modo in iudicando; quia ex se
+<lb ed="#L" n="27"/>non est determinatus circa talia ad unum, sicut voluntas in eligendo; et
+<lb ed="#L" n="28"/>dependet aliquo modo, sicut dictum est, libertas voluntatis a libertate 
+huius<lb break="no" ed="#L" n="29"/>modi rationis. Propter quod non debet dici quod intellectus sit servus et
+<lb ed="#L" n="30"/>voluntas sola libera; sed unicuique est libertas modo sibi convenienti
+<lb ed="#L" n="31"/>tribuenda. Libertas enim, prout potest trahi ex dictis Anselmi, de Libero
+<lb ed="#L" n="32"/>Arbitrio, est potestas recta operandi in ordine ad finem non coacta nec
+<lb ed="#L" n="33"/>prohibita, ita scilicet quod operans ipsum finem ert rationem eius et ordinem
+<lb ed="#L" n="34"/>et habitudinem sui et eorum quae sunt ad finem ad ipsum finem agnoscat '.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2329">
+               <lb ed="#L" n="35"/>Rectae operationis autem sunt quasi unum principium intellectus et
+<lb ed="#L" n="36"/>voluntas, sed magis immediate voluntas; et ideo etiam ?? ipsa libertas quasi
+<pb ed="#L" n="209"/>
+               <lb ed="#L" n="1"/>appropriate attribuitur voluntati; quia immediatius quodammodo se habet
+<lb ed="#L" n="2"/>ad voluntatem operatio respectu cuius homo dicitur habere libertatem,
+<lb ed="#L" n="3"/>quam ad intellectum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2345">
+               <lb ed="#L" n="4"/>Item, praedictis non obstat quod voluntas utitur intellectu. Utens 
+<lb ed="#L" n="5"/>autem videtur nobilius ex quo utitur; quia voluntas numquam utitur 
+intel<lb break="no" ed="#L" n="6"/>lectu nisi virtute alicuius apprehensionis ipsius intellectus moventis ipsam
+<lb ed="#L" n="7"/>voluntatem ut! moveat alias potentias intellectui subservientes. Nullius
+<lb ed="#L" n="8"/>enim dominium habet voluntas sola sine intellectu, et nullo etiam utitur
+<lb ed="#L" n="9"/>sine illo, sed in virtute intellectus, a quo movetur ipsa voluntas; et 
+domi<lb break="no" ed="#L" n="10"/>nium habet super alia et aliis utitur; immo, ut dictum est, in talibus 
+intel<lb break="no" ed="#L" n="11"/>lectus et voluntas sunt quasi unum principium. Ipsa voluntas etiam non
+<lb ed="#L" n="12"/>utitur alis potentiis praecipue intellectu, sicut superius inferiori, ipsum
+<lb ed="#L" n="13"/>intellectum quantum ad exercitium actus movendo ; immo utitur intellectu
+<lb ed="#L" n="14"/>sicut inferius superiori. Nam, ut dictum est, appetitus inditus est ut per
+<lb ed="#L" n="15"/>suam operationem quae est inclinatio quaedam appetentis tendat appetens
+<lb ed="#L" n="16"/>ad adeptionem suae perfectionis, quae consistit principaliter in operatione
+<lb ed="#L" n="17"/>intellectus ; sicut et gravitas dicitur uti substantia lapidis quae dignior est,
+<lb ed="#L" n="18"/>in quantum sua inclinatione facit eum tendere deorsum ut ibi in sua 
+per<lb break="no" ed="#L" n="19"/>fectione principali conservetur; sicut etiam appetitus sensitivus in animali
+<lb ed="#L" n="20"/>utitur alis potentiis nobilioribus in quantum animalia per huiusmodi 
+appe<lb break="no" ed="#L" n="21"/>titum inclinantur ad suas alias principaliores perfectiones. Prout enim dictum
+<lb ed="#L" n="22"/>est, bonum aliarum potentiarum et praecipue intellectus est? obiectum ipsius
+<lb ed="#L" n="23"/>voluntatis, cuius obiectum est finis; et ideo movet alias potentias ad suas
+<lb ed="#L" n="24"/>operationes quae sunt perfectiones ? et bonum non ipsius voluntatis sed
+<lb ed="#L" n="25"/>aliarum potentiarum. Actus enim voluntatis qui est perfectio ipsius 
+volun<lb break="no" ed="#L" n="26"/>tatis et cuius per se obiectum est aliquid aliud non potest esse actus qui sit
+<lb ed="#L" n="27"/>finis in genere actuum ; et ideo non potest esse actus perfectissi mus in
+<lb ed="#L" n="28"/>genere actuum. Cum enim, ut patet ex praedictis, ad hoc sit inditus 
+appe<lb break="no" ed="#L" n="29"/>titus rebus non ut in actu ipsius appetitus consistat perfectio appetentis
+<lb ed="#L" n="30"/>tanquam formalis eius perfectio, sed ut per huiusmodi actum inclinetur
+<lb ed="#L" n="31"/>appetens et moveatur ad assecutionem suae ultimae et optimae perfectionis,
+<lb ed="#L" n="32"/>id est actus  quo magis ipse perficitur qui est obiectum sub ratione finis
+<lb ed="#L" n="33"/>et boni ipsius voluntatis, — actus voluntatis ? qui est perfectio ipsius 
+volun<lb break="no" ed="#L" n="34"/>tatis  non potest esse actus qui sit finis ipsius appetentis simpliciter, licet
+<lb ed="#L" n="35"/>sit finis ipsius secundum hanc potentiam quae formaliter non perficitur
+<lb ed="#L" n="36"/>nisi per talem actum, sed oportet ponere alium actum qui sit obiectum
+<pb ed="#L" n="210"/>
+               <lb ed="#L" n="1"/>huiusmodi actus sub ratione finis qui sit bonum et perfectio alterius
+<lb ed="#L" n="2"/>potentiae.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2426">
+               <lb ed="#L" n="3"/>Quod ergo dicitur ab aliis quod actus voluntatis est perfectior quia est
+<lb ed="#L" n="4"/>nobilioris obiecti, dicendum quod non est verum ; quia obiectum intellectus,
+<lb ed="#L" n="5"/>praecipue speculativi, est ens secundum quod ens, id est secundum omnem
+<lb ed="#L" n="6"/>eius rationem ad suam entitatem et perfectionem pertinentem ; obiectum
+<lb ed="#L" n="7"/>autem voluntatis et intellectus practici est ens contractum, non quidem per
+<lb ed="#L" n="8"/>aliquam condicionem quasi additam ad perfectionem eius pertinentem, sed
+<lb ed="#L" n="9"/>ut ad aliquod ens determinatum comparatur, quia est ens sub ratione
+<lb ed="#L" n="10"/>convenientis ipsi amanti vel volenti. Loquimur enim nunc de actu voluntatis
+<lb ed="#L" n="11"/>quo volens fertur in volitum amore amicitiae vel concupiscentiae. Sic enim
+<lb ed="#L" n="12"/>bonum videtur importare rationem magis determinatam sub ente ; quia non
+<lb ed="#L" n="13"/>omne ens hoc modo est bonum proprie loquendo. Et secundum hoc patet
+<lb ed="#L" n="14"/>quod sub nobiliori ratione est aliquid obiectum intellectus praecipue 
+specu<lb break="no" ed="#L" n="15"/>lativi  quam voluntatis. Item, licet, ut supradictum est, id quod est obiectum
+<lb ed="#L" n="16"/>voluntatis et intellectus practici sub eadem ratione sit obiectum utriusque
+<lb ed="#L" n="17"/>in quantum sub ratione convenientis, quia tamen, ut est obiectum 
+volun<lb break="no" ed="#L" n="18"/>tatis, plus includit quam ut est obiectum intellectus practici, et sic magis
+<lb ed="#L" n="19"/>est contractum ; quia etiam, ut dictum est, ipse actus voluntatis ab actu
+<lb ed="#L" n="20"/>intellectus regulatur et mensuratur, ideo etiam ' actus practici intellectus est
+<lb ed="#L" n="21"/>perfectior actu voluntatis. Si enim loquamur de bono communiter sumpto
+<lb ed="#L" n="22"/>ut est convertibile cum ente et  ut aliquo modo movet voluntatem 
+cuius<lb break="no" ed="#L" n="23"/>libet uniformiter, prout scilicet bonum est idem quod perfectum , in
+<lb ed="#L" n="24"/>quantum autem est aliquid in actu in tantum est perfectum ; et sic omne
+<lb ed="#L" n="25"/>ens in quantum ens est bonum, quia omne ens in quantum ens est in actu
+<lb ed="#L" n="26"/>et quodammodo perfectum (quia omnis actus perfectio quaedam est), sic
+<lb ed="#L" n="27"/>non videtur sub alia ratione aliquid esse obiectum intellectus et voluntatis
+<lb ed="#L" n="28"/>sed sub eadem ratione; quia sub ratione suae actualitatis et perfectionis,
+<lb ed="#L" n="29"/>sed ordine quodam, movet intellectum [et] ad  actum principalem intelligendi
+<lb ed="#L" n="30"/>et ipsam voluntatem ad actum cuiusdam com placentiae; et tunc etiam
+<lb ed="#L" n="31"/>dicendum quod nobiliori modo movet intellectum quam voluntatem, sicut
+<lb ed="#L" n="32"/>dictum est de intellectu practico et voluntate amante supradicto modo.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2494">
+               <lb ed="#L" n="33"/>Item,quando illud quod praecedit alterum origine est imperfectius altero,
+<lb ed="#L" n="34"/>et similiter informe formato quod praecedit, hoc intelligitur in illis quorum
+<pb ed="#L" n="211"/>
+               <lb ed="#L" n="1"/>unum est materiale et potentiale respectu alterius, sicut patet in flore
+<lb ed="#L" n="2"/>respectu fructus, et in voce respectu cantus; non autem nisi unum est
+<lb ed="#L" n="3"/>causa effectiva vel ! motiva respectu alterius; causa enim praecedit effectum,
+<lb ed="#L" n="4"/>et est perfectior secundum quod huiusmodi. Ita est in proposito.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2512">
+               <lb ed="#L" n="5"/>Quod autem actus voluntatis dicitur magis unitivus, non est verum
+<lb ed="#L" n="6"/>simpliciter; quia ille actus quo quis sic unitur alicui obiecto quod in hoc
+<lb ed="#L" n="7"/>maxime perficitur, ita etiam ut actus qui virtute illius obiecti elicitur, habet
+<lb ed="#L" n="8"/>rationem finis, in genere actuum est magis unitivus, cum in unione potentiae
+<lb ed="#L" n="9"/>ad tale obiectum per actum eius consistit perfectio principalis sic uniti. Sed
+<lb ed="#L" n="10"/>hoc fit per actum intellectus, non voluntatis. Nam actus videndi magis unit
+<lb ed="#L" n="11"/>quia magis assimilat quam actus diligendi quo etiam amicus absens 
+dlili<lb break="no" ed="#L" n="12"/>gitur, cuius praesentia propter videre et propter alios actus aliarum 
+poten<lb break="no" ed="#L" n="13"/>tiarum principaliter appetitur, secundum quod ad hoc videtur Augustinus,
+<lb ed="#L" n="14"/>primo de Trinitate, capitulo vigesimo secundo, inducere illud quod scribitur?
+<lb ed="#L" n="15"/>Prima Iohannis, tertio: nunc filii Dei sumus sed nondum apparuit quid
+<lb ed="#L" n="16"/>erimus ; cum autem apparuerit, similes ei erimus, quoniam ? videbimus eum
+<lb ed="#L" n="17"/>sicuti est; ecce quod per actum visionis dicit fieri maximam 
+assimila<lb break="no" ed="#L" n="18"/>tionem et unionem realem possibilem nobis ad Deum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2546">
+               <lb ed="#L" n="19"/>Unde, ad intelligendum dicta Dyonisii et Augustini de unione et 
+trans<lb break="no" ed="#L" n="20"/>formatione sive copulatione duorum per amorem qui est actus voluntatis,
+<lb ed="#L" n="21"/>propter quod videretur quod actus voluntatis esset magis unitivus, est '
+<lb ed="#L" n="22"/>sciendum quod quaedam unio est causa amoris. Unio enim substantialis est
+<lb ed="#L" n="23"/>causa amoris quo quis amat se ipsum. Unio vero similitudinis est causa
+<lb ed="#L" n="24"/>amoris quo quis amat alterum ; ex hoc enim quod aliqui sunt similes 
+secun<lb break="no" ed="#L" n="25"/>dum aliquam perfectionem vel formam quam communiter participant et
+<lb ed="#L" n="26"/>quam propter se diligunt, et sic sunt quodammodo unum in illa, ex hoc
+<lb ed="#L" n="27"/>affectus unius tendit in alterum ut in unum sibi et vult ei bonum sicut et
+<lb ed="#L" n="28"/>sibi. Quaedam autem unio est ipse amor formaliter, sive nexus duorum,
+<lb ed="#L" n="29"/>et haec est unio? secundum affectionem sive secundum coaptationem
+<lb ed="#L" n="30"/>affectus quae contingit ex apprehensione qua apprehenditur aliquo modo
+<lb ed="#L" n="31"/>unitas amati  ad amantem. Cum enim aliquis  apprehendit aliquid ut aliquid
+<lb ed="#L" n="32"/>sui, sive pertinens ad bene esse suum, amat ilud concupiscens ipsum.
+<lb ed="#L" n="33"/>Cum autem apprehendit alium ut amicum sicut quodammodo unum sibi
+<lb ed="#L" n="34"/>secundum similitudinem et participationem eiusdem perfectionis, et sic
+<lb ed="#L" n="35"/>apprehendit eum: quodammodo ut alium se, vult ei bonum sicut et sibi.
+<lb ed="#L" n="36"/>Est autem alia unio effectus amoris et haec est realis quam amans quaerit
+<pb ed="#L" n="212"/>
+               <lb ed="#L" n="1"/>principaliter in amato, sive de re amata quae consistit in praesentia amati
+<lb ed="#L" n="2"/>ad amatum ut eo frui possit. Hanc autem unionem causat amor effective,
+<lb ed="#L" n="3"/>quia movet ad desiderandum et quaerendum praesentiam amati quasi sibi
+<lb ed="#L" n="4"/>convenientis et ad se pertinentis, secundum quod dicit Augustinus, 
+duo<lb break="no" ed="#L" n="5"/>decimo de Trinitate, capitulo trigesimo: cultus Dei est amor eius quo
+<lb ed="#L" n="6"/>nunc desideramus eum videre. Sed haec unio realis habet fieri et esse
+<lb ed="#L" n="7"/>secundum operationes non ipsius voluntatis, sed aliarum virtutum et 
+poten<lb break="no" ed="#L" n="8"/>tiarum ; et hoc fit secundum convenientiam amoris. Prout enim dicit 
+Philo<lb break="no" ed="#L" n="9"/>sophus, secundo Politicorum: Aristophanes dixit quod amantes desiderarent
+<lb ed="#L" n="10"/>ex ambobus fieri unum ; sed quia ex hoc contingeret ambos aut ' alterum
+<lb ed="#L" n="11"/>corrumpi, quaerunt ex unione secundum aífectum unionem realem quae
+<lb ed="#L" n="12"/>convenit et decet, scilicet ut simul conversentur et colloquantur ; et sic
+<lb ed="#L" n="13"/>in aliis actibus delectabilibus coniungantur. Sic ergo unio qua Deus unitur
+<lb ed="#L" n="14"/>intellectui per apertam visionem et sic fit ei omnimode praesens et in hoc
+<lb ed="#L" n="15"/>fit Deum assequens et apprehendens, est unio realior et perfectior quam
+<lb ed="#L" n="16"/>quae est secundum affectionem voluntatis tantum, quae etiam est, amato
+<lb ed="#L" n="17"/>absente.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2627">
+               <lb ed="#L" n="18"/>Propter quod etiam dicitur et bene quod, cum beatitudo sit finis hominis,
+<lb ed="#L" n="19"/>non nisi in potentia quousque praesentialiter  habeatur. Habetur autem
+<lb ed="#L" n="20"/>praesentialiter per actum intellectus. Ideo, cum per finis adeptionem sit
+<lb ed="#L" n="21"/>homo beatus, beatitudo principaliter consistit in actu intellectus. Quod enim
+<lb ed="#L" n="22"/>modo est absens, hoc non est quia non sit unio secundum affectum, sed
+<lb ed="#L" n="23"/>quia non est unio realis secundum praesentialem  adeptionem eius in se
+<lb ed="#L" n="24"/>ipso, et, prout dicit Augustinus, primo Soliloquiorum, capitulo duodecimo,
+<lb ed="#L" n="25"/>quasi  adiunctive et propter aliud actus voluntatis sive caritatis requiritur,
+<lb ed="#L" n="26"/>videlicet ut in illa visione beata teneatur.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2649">
+               <lb ed="#L" n="27"/>Et secundum hoc patet quare actus intellectus quo magis unitur beatus
+<lb ed="#L" n="28"/>obiecto non dicitur habere vim unitivam vel transformativam sicut actus
+<lb ed="#L" n="29"/>voluntatis qui tamen minus est uniens. Quia enim ad amorem pertinet
+<lb ed="#L" n="30"/>duplex unio, scilicet : una formaliter quae est unio affectuum, quae est
+<lb ed="#L" n="31"/>amor ipse formaliter ; alia effective, scilicet realis ; ideo, ut dicit Augustinus,
+<lb ed="#L" n="32"/>octavo de Trinitate, capitulo quarto: amor est vita quaedam duo 
+copu<lb break="no" ed="#L" n="33"/>lans, hoc convenit amori formaliter quia est nexus duorum, scilicet amantis
+<lb ed="#L" n="34"/>et amati, quo  scilicet unione[msecundum affectus copulantur ; sive 
+copu<lb break="no" ed="#L" n="35"/>lare appetens , hoc convenit amori effective, quia efficit unionem realem
+<lb ed="#L" n="36"/>et propter istam ad quam principaliter ordinatur dicitur amor proprie vis
+<pb ed="#L" n="213"/>
+               <lb ed="#L" n="1"/>unitiva et transformativa. Et quia per actum ! intellectus non sic fit unio
+<lb ed="#L" n="2"/>effective, immo ipsa est effecta a quadam unione secundum affectum, ideo
+<lb ed="#L" n="3"/>intellectus non dicitur unitivus. Per praedicta patet quod rationes 
+osten<lb break="no" ed="#L" n="4"/>dentes quod maior et perfectior sit unio per voluntatem quam per 
+intel<lb break="no" ed="#L" n="5"/>lectum non concludunt. Quamvis enim actus intellectus sit praevius actui
+<lb ed="#L" n="6"/>voluntatis et causa eius, et in actu voluntatis consistit aliqua unio, illa
+<lb ed="#L" n="7"/>tamen non est maior et perfectior unio, ut declaratum est. Et sic, licet talis
+<lb ed="#L" n="8"/>actus intellectus sit illud  quod est quasi in se causativum ? talis unionis
+<lb ed="#L" n="9"/>quae consistit in actu voluntatis secundum quamdam affectionem, tamen
+<lb ed="#L" n="10"/>in illo actu voluntatis non consummatur unio magis principalis et magis
+<lb ed="#L" n="11"/>realis, sed in aliis actibus et praecipue secundum intellectum. Ad hoc enim
+<lb ed="#L" n="12"/>se amant amantes non ut sistant in ipso actu amoris, sed ut delectabiliter
+<lb ed="#L" n="13"/>convivant secundum actus perfectos et in participando illos  congaudeant
+<lb ed="#L" n="14"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2706">
+               <lb ed="#L" n="15"/>Item, non est intelligendum quod aliquid possit alicui uniri magis realiter
+<lb ed="#L" n="16"/>quam per aliquos actus potentiarum animae cum maneant secundum rem
+<lb ed="#L" n="17"/>et essentiam distincti. Non est ergo intelligendum quod magis realiter
+<lb ed="#L" n="18"/>uniatur aliquis per actum voluntatis quam per actum intellectus, sic quod
+<lb ed="#L" n="19"/>ultra ipsam unionem quae est formaliter per ipsum actum voluntatis sit
+<lb ed="#L" n="20"/>alia quaedam perfectior unio magis realis quam ex parte intellectus ultra
+<lb ed="#L" n="21"/>unionem quae est formaliter per ipsum actum intellectus. Et ideo non debet
+<lb ed="#L" n="22"/>dici unio secundum intellectum minus perfecta quia sit quasi intentionalis,
+<lb ed="#L" n="23"/>et unio secundum voluntatem magis perfecta quia sit? quasi realis. Sed
+<lb ed="#L" n="24"/>hoc ideo dicitur quod alicui non sufficit unio secundum intellectum quasi
+<lb ed="#L" n="25"/>intentionalis sive secundum suum  esse cognitum quocumque modo ; sed
+<lb ed="#L" n="26"/>per amorem vel actum voluntatis appetit ill; uniri secundum eius 
+prae<lb break="no" ed="#L" n="27"/>sentiam realem, non quia ' illo adepto perfectius uniatur illi per actum
+<lb ed="#L" n="28"/>voluntatis, sed potius per actum ipsius intellectus vel alterius potentiae ;
+<lb ed="#L" n="29"/>puta, cum aliquis amat aliquid amore concupiscentiae vult illi uniri realiter
+<lb ed="#L" n="30"/>sic quod habita praesentia eius fruatur illo secundum tactum et gustum vel
+<lb ed="#L" n="31"/>alio modo; si autem amat amore amicitiae vult  illi uniri realiter sic quod
+<lb ed="#L" n="32"/>habita praesentia eius convivant delectabiliter secundum actus perfectiores,
+<lb ed="#L" n="33"/>ut praedictum est. Unde amans non quaerit uniri amato realiter, ut perfectius
+<lb ed="#L" n="34"/>amet principaliter, sed ut, eo habito, secundum alios actus illo possit plenius
+<lb ed="#L" n="35"/>frui, Et cum, illo habito, non cesset  actus voluntatis quia illi qui prius erat
+<lb ed="#L" n="36"/>actus desiderii respectu non habiti succedit delectatio "" in habito, et semper
+<pb ed="#L" n="214"/>
+               <lb ed="#L" n="1"/>adest actus amoris, quo scilicet amat iam habitum et appetit quod maneat
+<lb ed="#L" n="2"/>coniunctum ut illo per alios actus plenius fruatur; et cum dicitur quod
+<lb ed="#L" n="3"/>amans secundum quod huiusmodi vult praesentiam amati non propter eius
+<lb ed="#L" n="4"/>pleniorem cognitionem vel amorem ex hoc habendam, sed quia propter
+<lb ed="#L" n="5"/>ipsam rem amatam appetens vult fieri id ipsum cum illa et transformari in
+<lb ed="#L" n="6"/>illam realiter quantum possibile est, — talia non ostendunt quod fiat alia unio
+<lb ed="#L" n="7"/>quam per actus praedictos amandi et cognoscendi, cum, ut dictum est,
+<lb ed="#L" n="8"/>amantem et amatum necessarium sit manere distincta realiter; et ideo
+<lb ed="#L" n="9"/>impossibile est quod aliquis ' velit amato uniri secundum praesentiam
+<lb ed="#L" n="10"/>realem nisi ? quia ex illa unione perfectius sit in acta secundum amorem et
+<lb ed="#L" n="11"/>cognitionem et, ut dictum est, actus intellectus etiam semper 
+principalita<lb break="no" ed="#L" n="12"/>tem habet. Unde omnia talia, scilicet quod voluntas est vis unitiva et quod
+<lb ed="#L" n="13"/>eius actus est motus animae ad res, ostendunt quod actus voluntatis est
+<lb ed="#L" n="14"/>minus perfectus et minus unitivus formaliter ipsis rebus ; nam propter 
+com<lb break="no" ed="#L" n="15"/>pletam perfectionem consequendam vel conservandam in re desiderata vel
+<lb ed="#L" n="16"/>amata, ille cuius est perfectio per voluntatem inclinatur in rem qua 
+perfi<lb break="no" ed="#L" n="17"/>citur secundum actum cognitivum quo ei perfectissime coniungitur.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2795">
+               <lb ed="#L" n="18"/>Ex praedictis patet solutio quaestionis. Dicendum enim quod actus quo
+<lb ed="#L" n="19"/>angelus inferior cognoscit superiorem est perfectior propter praedicta ;
+<lb ed="#L" n="20"/>et videtur quod qui concedunt hoc in proposito, scilicet quod talis cognitio
+<lb ed="#L" n="21"/>sit perfectior quam dilectio et quod etiam cognitio Dei quae ex naturalibus
+<lb ed="#L" n="22"/>haberi potest, est perfectior quam dilectio etiam quae ex naturalibus potest
+<lb ed="#L" n="23"/>haberi, habent etiam hoc concedere de actibus istis ut sunt gratuiti in via
+<lb ed="#L" n="24"/>et gloriosi in patria. Nec debet reputari mirabile si ad declarationem 
+per<lb break="no" ed="#L" n="25"/>fectionis actuum intellectus et voluntatis gratuitorum et gloriosorum utatur
+<lb ed="#L" n="26"/>quis condicione et comparatione istorum ut ex naturalibus possunt haberi,
+<lb ed="#L" n="27"/>considerando praecipue ea quae amicitiae acquisitae vel ex naturalibus
+<lb ed="#L" n="28"/>habitae conveniunt; quia res aliqua non potest melius manifestari quam
+<lb ed="#L" n="29"/>per illud quod est ei simillimum. Nunc autem tanta est similitudo actuum
+<lb ed="#L" n="30"/>amicitiae acquisitae vel ex naturalibus habitae qua diligitur Deus naturaliter
+<lb ed="#L" n="31"/>et ex deliberatione super omnia, et proximus sicut ipse diligens, ad actus
+<lb ed="#L" n="32"/>quibus diligitur Deus et proximus gratuite a voluntate caritate informata,
+<lb ed="#L" n="33"/>quod non potest cognosci certa distinctio inter illos. Propter quod nemo
+<lb ed="#L" n="34"/>scit utrum amore vel odio dignus sit; sicut etiam nemo potest 
+certitu<lb break="no" ed="#L" n="35"/>dinaliter scire se habere caritatem.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2837">
+               <lb ed="#L" n="36"/>Quod autem haec vera sint, scilicet quod actus intellectus est 
+per<lb break="no" ed="#L" n="37"/>fectior actu voluntatis, ita quod etiam in illo per se et essentialiter vel
+<pb ed="#L" n="215"/>
+               <lb ed="#L" n="1"/>formaliter consistit summum hominis bonum, scilicet beatitudo, videtur
+<lb ed="#L" n="2"/>quia, secundum Anselmum, de Gratia et libero arbitrio !, voluntas ut est
+<lb ed="#L" n="3"/>instrumentum volendi duas habet aptitudines sive affectiones, quarum una
+<lb ed="#L" n="4"/>est ad volendum commoditatem, alia ad volendum rectitudinem. Secundum
+<lb ed="#L" n="5"/>affectionem quidem quae est ad volendum commoditatem semper vult
+<lb ed="#L" n="6"/>homo beatitudinem et esse beatus; per illam vero quae est ad 
+rectitudi<lb break="no" ed="#L" n="7"/>nem vult rectitudinem et rectus, id est iustus esse. Differunt autem in hoc
+<lb ed="#L" n="8"/>quod illa quae est ad volendum commodum non est hoc quod ipsa vult, —
+<lb ed="#L" n="9"/>voluntas enim beatitudinis non est ipsa beatitudo, quia non omnis homo
+<lb ed="#L" n="10"/>habet beatitudinem qui habet eius voluntatem — sed illa quae est ad 
+volen<lb break="no" ed="#L" n="11"/>dum rectitudinem rectitudo est; voluntas enim iustitiae est ipsa iustitia,
+<lb ed="#L" n="12"/>nullus quippe vult rectitudinem nisi rectitudinem habens. Ex istis videtur
+<lb ed="#L" n="13"/>posse suaderi quod beatitudo non consistat in actu voluntatis et quod actus
+<lb ed="#L" n="14"/>beatitudinis non sit elicitus a voluntate; quia actus eliciti a voluntate sunt
+<lb ed="#L" n="15"/>quibus diligimus et volumus aliquid. Eliciuntur autem duo genera actuum
+<lb ed="#L" n="16"/>a voluntate secundum dictas duas affectiones ; et actus quidem eliciti a
+<lb ed="#L" n="17"/>voluntate secundum affectionem rectitudinis perficiunt ipsum volentem
+<lb ed="#L" n="18"/>in esse rectitudinis et in esse virtuosum virtute quae perfectiva est 
+appe<lb break="no" ed="#L" n="19"/>titus; non perficiunt autem ipsum in esse commoditatis et in habere 
+com<lb break="no" ed="#L" n="20"/>moditatem, vel illud in quo commoditas ipsius  volentis consistit. Similiter
+<lb ed="#L" n="21"/>etiam ? actus eliciti a voluntate secundum affectionem commoditatis non
+<lb ed="#L" n="22"/>perficiunt ipsum volentem in esse rectitudinis vel in esse virtuosum, proprie
+<lb ed="#L" n="23"/>loquendo de virtute morali, vel quasi morali sive appetitiva ; nec etiam in
+<lb ed="#L" n="24"/>esse commoditatis. Sed illud quod est obiectum talis actus est id in quo
+<lb ed="#L" n="25"/>consistit commodum essentialiter et formaliter et, quo habito, habetur
+<lb ed="#L" n="26"/>commodum. Quare, cum beatitudo in aliquo actu consistit et ille appetitur
+<lb ed="#L" n="27"/>a voluntate sub ratione commodi, non iusti, necesse est quod beatitudo in
+<lb ed="#L" n="28"/>alio actu principalius consistat quam voluntatis. Si enim beatitudo quae
+<lb ed="#L" n="29"/>maxime appetitur sub ratione commodi pertineret ad actum voluntatis, tunc
+<lb ed="#L" n="30"/>in ipso actu voluntatis consisteret id quod per commodum intelligitur ;
+<lb ed="#L" n="31"/>et sic velle commodum esset id ipsum quod commodum, sicut  patet in 
+<lb ed="#L" n="32"/>his quae ad perfectionem hominis secundum appetitum pertinent; ut velle
+<lb ed="#L" n="33"/>iustum est id ipsum quod iustum sive iustitia, quia est actus iustitiae 
+essen<lb break="no" ed="#L" n="34"/>tialiter ; et actus exteriores sunt actus iustitiae per participationem iustitiae
+<lb ed="#L" n="35"/>ab actu interiori elicito a voluntate; alii autem sunt imperati. Cum ergo
+<lb ed="#L" n="36"/>diligere Deum vel quodcumque aliud non sit per se loquendo bonum
+<lb ed="#L" n="37"/>commoditatis sed bonum rectitudinis ; videre autem vel intelligere Deum
+<pb ed="#L" n="216"/>
+               <lb ed="#L" n="1"/>vel quodcumque aliud est per se loquendo bonum commoditatis, non
+<lb ed="#L" n="2"/>bonum rectitudinis, videtur quod videre Deum sit actus perfectior, quia
+<lb ed="#L" n="3"/>beatificus, quam diligere Deum. Et similiter videtur dicendum in proposito,
+<lb ed="#L" n="4"/>scilicet quod cognoscere angelum sit perfectius quam diligere ipsum.
+</p>
+            <p xml:id="v27ab7-g15672-d1e2938">
+               <lb ed="#L" n="5"/>Ad argumentum in oppositum est dicendum quod verum est quod
+<lb ed="#L" n="6"/>illud est nobilius cui competit ratio finis quae convenit rei ex ordine ad
+<lb ed="#L" n="7"/>appetitum quam cui non competit ; et ideo, ut dictum est, in genere actuum
+<lb ed="#L" n="8"/>ille est nobilior cui competit ratio finis, id est qui a voluntate appetitur
+<lb ed="#L" n="9"/>principaliter ut bonum et finis quam qui non sic appetitur. Ita etiam in
+<lb ed="#L" n="10"/>genere entium illud est nobilius quod propter se appetitur quam quod non
+<lb ed="#L" n="11"/>appetitur vel non sit propter se. Cum autem dicitur quod ille actus est
+<lb ed="#L" n="12"/>no bilior cuius est obiectum nobilius, sive sub ratione nobiliori, verum
+<lb ed="#L" n="13"/>est. Cum assumitur quod obiectum actus voluntatis est obiectum sub ratione
+<lb ed="#L" n="14"/>nobiliori, quia sub ratione boni et finis ', quam obiectum intellectus,
+<lb ed="#L" n="15"/>dicendum quod quando obiectum actus voluntatis est aliquis alius  actus,
+<lb ed="#L" n="16"/>scilicet actus ipsius intellectus, cum talis actus intellectus habeat rationem
+<lb ed="#L" n="17"/>boni et finis, perfectior est quam ipse actus voluntatis. Nec oportet quod
+<lb ed="#L" n="18"/>obiectum talis actus sit obiectum sic sub ratione finis et boni desiderati vel
+<lb ed="#L" n="19"/>amati, sed sub ratione entis perfectissimi ? perfectissimum actum causantis;
+<lb ed="#L" n="20"/>et secundum hoc nobiliori modo est tale ens obiectum actus ipsius 
+intel<lb break="no" ed="#L" n="21"/>lectus, non tamen sub ratione boni et finis quam huiusmodi actus 
+intel<lb break="no" ed="#L" n="22"/>lectus sit obiectum ipsius voluntatis sub ratione boni et finis; quia 
+perfec<lb break="no" ed="#L" n="23"/>tius est facere quod aliquid sit finis ipse et bonum ipsius appetentis quam
+<lb ed="#L" n="24"/>facere quod illud quod est finis appetatur vel diligatur, sicut etiam 
+per<lb break="no" ed="#L" n="25"/>fectior est ipse finis quam illum appetere vel amare. Cum ergo in genere
+<lb ed="#L" n="26"/>actuum actus intellectus sit qui magis habet rationem boni et finis, quia
+<lb ed="#L" n="27"/>etiam est ille qui maxime appetitur, cum finis sit qui appetitur, non obstante
+<lb ed="#L" n="28"/>quod iste actus movet ' voluntatem sub ratione finis et boni, sed obiectum
+<lb ed="#L" n="29"/>causans hunc actum non movet intellectum sic sub ratione finis et boni,
+<lb ed="#L" n="30"/>est  tamen huiusmodi obiectum movens intellectum non in ratione finis
+<lb ed="#L" n="31"/>perfectius et eminentius illo voluntatem in ratione finis movente. Similiter
+<lb ed="#L" n="32"/>etiam cum intellectus per suum actum simpliciter  speculativum fertur in
+<lb ed="#L" n="33"/>Deum vel in angelum superiorem et voluntas etiam in id idem fertur per
+<lb ed="#L" n="34"/>actum intellectus quasi practicum, licet intellectus non feratur in tale
+<lb ed="#L" n="35"/>obiectum sub ratione boni et finis, sed solum sub ratione entis perfecti;
+<lb ed="#L" n="36"/>voluntas autem fertur in illud sub ratione boni et finis ; nihilominus actus
+<pb ed="#L" n="217"/>
+               <lb ed="#L" n="1"/>intellectus est perfectior quia habens rationem finis et boni, intra scilicet
+<lb ed="#L" n="2"/>formaliter perficientis, quam actus voluntatis qui est respectu alicuius quod
+<lb ed="#L" n="3"/>habet rationem finis et boni, et non est ipse actus voluntatis ipse finis
+<lb ed="#L" n="4"/>et bonum principale appetentis, sed est propter aliquid ' aliud bonum, ut
+<lb ed="#L" n="5"/>supra declaratum est. Et sic illud quod non est ? sub ratione boni et finis
+<lb ed="#L" n="6"/>est obiectum intellectus sed sub ratione entis perfecti, nobiliori modo et
+<lb ed="#L" n="7"/>secundum nobiliorem rationem est obiectum, quia, ut dictum est, facit
+<lb ed="#L" n="8"/>ipsum esse finem et bonum ipsius intelligentis quam illud quod sub
+<lb ed="#L" n="9"/>ratione boni et finis est obiectum voluntatis, quia per hoc non efficit ipsum
+<lb ed="#L" n="10"/>actum voluntatis bonum et finem ipsius appetentis, immo ? est finis et
+<lb ed="#L" n="11"/>terminus in quem inclinatur et tendit appetens per ipsum actum appetendi.
+</p>
+            <p xml:id="v27ab7-g15672-d1e3036">
+               <lb ed="#L" n="12"/>Si autem consideretur actus intellectus quo Deus vel angelus 
+cognos<lb break="no" ed="#L" n="13"/>citur quasi practice et sub ratione qua per se et directe est obiectum, non
+<lb ed="#L" n="14"/>solum intellectus, sed etiam voluntatis diligentis, sic est dicendum quod,
+<lb ed="#L" n="15"/>licet neuter istorum actuum sit proprie loquendo finis et bonum principale
+<lb ed="#L" n="16"/>intelligentis et diligentis, nihilominus tamen est dicendum quod ipse actus
+<lb ed="#L" n="17"/>intellectus est perfectior quia est regula et mensura respectu alterius, ut !
+<lb ed="#L" n="18"/>supra dictum est.
+</p>
+            <p xml:id="v27ab7-g15672-d1e3054">
+               <lb ed="#L" n="19"/>Cum ergo ulterius ab aliquibus  arguitur quod immo etiam obiectum
+<lb ed="#L" n="20"/>voluntatis est nobilius quam obiectum intellectus, quia nobilior est ratio
+<lb ed="#L" n="21"/>boni quam entis simpliciter; quia in ratione boni includitur ratio entis
+<lb ed="#L" n="22"/>simpliciter ; quod autem addit nobilem condicionem super alterum est 
+com<lb break="no" ed="#L" n="23"/>positius  aliquo modo et perfectius illo, sicut patet in genere et specie,
+<lb ed="#L" n="24"/>ideo et cetera; — hoc non valet, quia non additur enti condicio nobilitatis
+<lb ed="#L" n="25"/>ultra id quod secundum se importatper rationem bonitatis sicut per
+<lb ed="#L" n="26"/>rationem differentiae respectu generis. Constat enim quod, cum aliquid
+<lb ed="#L" n="27"/>consideratur sub ratione entis simpliciter et deinde sub ratione convenientis
+<lb ed="#L" n="28"/>ad aliquid, hoc non addit aliquam perfectionem, puta cum consideratur
+<lb ed="#L" n="29"/>balneum ut tale ens natum mundificare secundum se; item, cum consideratur
+<lb ed="#L" n="30"/>ut conveniens alicui determinate indigenti mundificatione, ex hoc nihil plus
+<lb ed="#L" n="31"/>intelligitur circa ipsum balneum ; sed apprehenditur in quadam habitudine
+<lb ed="#L" n="32"/>in qua prius non apprehendebatur. Propter hoc enim talia, scilicet verum,
+<lb ed="#L" n="33"/>bonum, unum et cetera non possunt poni species sub ente.
+</p>
+            <p xml:id="v27ab7-g15672-d1e3089">
+               <lb ed="#L" n="34"/>Praeterea, dicere quod in ente secundum quod bonum et finis et simi-
+<pb ed="#L" n="218"/>
+               <lb ed="#L" n="1"/>liter secundum quod obiectum voluntatis includatur aliqua ratio perfectionis
+<lb ed="#L" n="2"/>quae non includitur in obiecto intellectus est omnino impossibile, cum nulla
+<lb ed="#L" n="3"/>ratio cuiuscumque entitatis vel perfectionis a ratione obiecti intellectus
+<lb ed="#L" n="4"/>excludatur, cum etiam illud quod est obiectum voluntatis sub ea ratione '
+<lb ed="#L" n="5"/>sub qua appetitur necessario prius apprehendatur, ut supra est declaratum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

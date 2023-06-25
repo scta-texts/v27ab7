@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g12787"><!-- v27ab7-q6-q7 -->
+            <head xml:id="v27ab7-g12787-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-g12787-Hd1e101" type="question-title">
+      Utrum voluntas potest se movere per aliquam dispositionem dato quod non potest sime dispositione
+    </head>
+            <p xml:id="v27ab7-g12787-d1e104">
+               <lb ed="#L" n="15"/>QUAESTIO VII.
+<lb ed="#L" n="16"/>Utrum voluntas potest se movere per aliquam dispositionem
+<lb ed="#L" n="17"/>dato quod non potest sime dispositione.
+</p>
+            <p xml:id="v27ab7-g12787-d1e113">
+               <lb ed="#L" n="18"/>Deinde circa voluntatem quaerebantur duo. Primum erat pertinens ad
+<lb ed="#L" n="19"/>exitum eius de potentia in actum, utrum ista duo stent simul quod voluntas
+<lb ed="#L" n="20"/>per se ipsam, praesente obiecto, non possit se movere ad actum volendi
+<lb ed="#L" n="21"/>et quod ipsa per aliquam dispositionem in ipsa existentem possit se movere
+<lb ed="#L" n="22"/>ad actum volendi, non obstante quod huiusmodi dispositio et ipsa voluntas
+<lb ed="#L" n="23"/>sint ? indistincta subiecto. Secundum erat pertinens ad obiectum voluntatis,
+<lb ed="#L" n="24"/>scilicet utrum dicere quod actus voluntatis non possit esse per se obiectum
+<lb ed="#L" n="25"/>voluntatis sit perniciosum.
+</p>
+            <p xml:id="v27ab7-g12787-d1e133">
+               <lb ed="#L" n="26"/>Ad primum arguebatur quod sic. Primo, auctoritate Anselmi qui dicit,
+<lb ed="#L" n="27"/>in libro de Gratia et libero arbitrio, quod voluntas per affectiones suas, scilicet
+<lb ed="#L" n="28"/>per affectionem commodi et per affectionem iusti movet se et quod sine illis
+<lb ed="#L" n="29"/>nullo modo posset se movere. Hoc idem etiam arguitur multis exemplis
+<pb ed="#L" n="149"/>
+               <lb ed="#L" n="1"/>quibus ostenditur quod movens et illud secundum quod aliquid est motum
+<lb ed="#L" n="2"/>non oportet esse distincta subiecto. Nam angelus potentia intelligens
+<lb ed="#L" n="3"/>aliquid per speciem in eo existentem movet se ad actum intelligendi illud ;
+<lb ed="#L" n="4"/>et similiter etiam diabolus per se ipsum efficit in se suam malam 
+volun<lb break="no" ed="#L" n="5"/>tatem. Item intellectus possibilis et agens et etiam virtus phantastica in qua
+<lb ed="#L" n="6"/>sunt phantasmata in quibus virtute intellectus agentis relucet obiectum
+<lb ed="#L" n="7"/>intellectus sunt in eodem subiecto, scilicet in anima, et tamen per ista
+<lb ed="#L" n="8"/>reducit se homo de potentia intelligendi ad actum intelligendi. Item 
+com<lb break="no" ed="#L" n="9"/>muniter dicitur quod voluntas movet intellectum et intellectus voluntatem
+<lb ed="#L" n="10"/>et tamen ista sunt indistincta subiecto.
+</p>
+            <p xml:id="v27ab7-g12787-d1e169">
+               <lb ed="#L" n="11"/>Item, illi qui ponunt intellectum agentem esse memoriam et habere
+<lb ed="#L" n="12"/>rationem parentis sive patris, cuius est agere, non possunt negare quin
+<lb ed="#L" n="13"/>activum et passivum possunt esse indistincta subiecto.
+</p>
+            <p xml:id="v27ab7-g12787-d1e178">
+               <lb ed="#L" n="14"/>Item, hoc arguitur auctoritatibus Commentatoris qui dicit, nono 
+Meta<lb break="no" ed="#L" n="15"/>physicae, quod activum et passivum quandoque non sunt distincta 
+sub<lb break="no" ed="#L" n="16"/>iecto. Item, dicit octavo Physicorum quod movens et motum aliquando sunt
+<lb ed="#L" n="17"/>distincta solum diffinitione et non in esse. Item, eodem octavo, dicit quod
+<lb ed="#L" n="18"/>rationes Aristotelis per quas probat quod movens et motum debent esse
+<lb ed="#L" n="19"/>distincta subiecto tenent tantum in corporalibus ubi vere est motus, non
+<lb ed="#L" n="20"/>autem in spiritualibus vel separatis ubi est motus aequivoce ; ergo per hoc
+<lb ed="#L" n="21"/>vult quod anima quae non est forma corporalis sive materialis, sed 
+spiri<lb break="no" ed="#L" n="22"/>tualis, non utens organo quantum ad suam operationem possit se ipsam
+<lb ed="#L" n="23"/>movere.
+</p>
+            <p xml:id="v27ab7-g12787-d1e202">
+               <lb ed="#L" n="24"/>Contra: qui ponunt quod voluntas per se ipsam non potest se
+<lb ed="#L" n="25"/>movere ad actum volendi, hoc ponunt quia si poneretur quod voluntas
+<lb ed="#L" n="26"/>posset se ipsam per se ipsam movere sequeretur quod idem secundum idem
+<lb ed="#L" n="27"/>esset in actu et in potentia; sed hoc sequitur etiam ponendo quod per
+<lb ed="#L" n="28"/>aliquam dispositionem in ea existentem moveat se; nam sicut voluntas
+<lb ed="#L" n="29"/>secundum se, cum actu non vult, est? in potentia ad actum volendi, ita
+<lb ed="#L" n="30"/>etiam cum voluntas, cum illa dispositione non vult illud totum agregatum
+<lb ed="#L" n="31"/>ex voluntate et illa dispositione et quaelibet huiusmodi partium, est in
+<lb ed="#L" n="32"/>potentia in ? actum volendi. Si autem secundum se totum et secundum :
+<lb ed="#L" n="33"/>quantumcumque illarum partium facit se in actu volendi, ipsa tota vel illa
+<lb ed="#L" n="34"/>pars per quam se faceret in actu iam esset in actu secundum actum
+<lb ed="#L" n="35"/>volendi; patet ergo quod etiam ex hoc sequeretur quod idem secundum
+<lb ed="#L" n="36"/>idem esset in potentia et in actu.
+</p>
+            <p xml:id="v27ab7-g12787-d1e233">
+               <pb ed="#L" n="150"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod aliqui  ponunt quod voluntas etiam
+<lb ed="#L" n="2"/>absque dispositione superaddita seipsam movere potest ; et ad declarandum
+<lb ed="#L" n="3"/>quomodo voluntas movet seipsam dicunt quod in ea sunt diversa ratione ; et
+<lb ed="#L" n="4"/>secundum unum habet rationem moventis et secundum aliud rationem moti,
+<lb ed="#L" n="5"/>nec movetur a se primo secundum totum; et secundum unum illorum potest
+<lb ed="#L" n="6"/>esse in actu ad quod est in potentia secundum aliud. Est enim secundum
+<lb ed="#L" n="7"/>istos quaedam diversitas secundum rationem in voluntate humana et 
+ange<lb break="no" ed="#L" n="8"/>lica quae sufficit ad hoc quod vere possit dici movere se ipsam ! primo, sed
+<lb ed="#L" n="9"/>non secundum se totum, sed secundum aliud et aliud ; quia voluntas ut est
+<lb ed="#L" n="10"/>appetitus simpliciter se habet ad se ipsum ut est rationalis sive liber aut
+<lb ed="#L" n="11"/>liberi arbitrii, sicut se habet genus ad differentiam ; haec enim duo nominat
+<lb ed="#L" n="12"/>voluntas tanquam species composita. Nam sicut homo est animal rationale,
+<lb ed="#L" n="13"/>ita voluntas est appetitus rationalis; in qua rationalitate eius includitur
+<lb ed="#L" n="14"/>libertas eius respectu finis et liberum arbitrium respectu eorum quae sunt
+<lb ed="#L" n="15"/>ad finem. Ideo motum volitionis facit voluntas quae est appetitus rationalis
+<lb ed="#L" n="16"/>eo quod rationalis est ut una parte eius, in appetitu autem in quantum est
+<lb ed="#L" n="17"/>appetitus simpliciter ut in subiecto receptibili et passivo ut in alia parte
+<lb ed="#L" n="18"/>eius. Verum est etiam quod agens sive movens semper est tale in actu quale
+<lb ed="#L" n="19"/>est mobile in potentia; sed esse tale contingit dupliciter, scilicet virtualiter
+<lb ed="#L" n="20"/>vel formaliter. In quibusdam enim est agens tale virtute quale passivum
+<lb ed="#L" n="21"/>est in potentia, sicut in sole qui est calidus virtute et inducit caliditatem
+<lb ed="#L" n="22"/>formalem in aliquo corpore mixto. Sicut etiam grave habet formam 
+secun<lb break="no" ed="#L" n="23"/>dum quam habet similitudinem virtualem ad locum deorsum et ideo movet
+<lb ed="#L" n="24"/>se? ad illum amoto impedimento, ita etiam appetitus humanus habet a
+<lb ed="#L" n="25"/>creante formam liberi arbitrii qua vult secundum actum aut potest velle,
+<lb ed="#L" n="26"/>amoto impedimento, quod est absentia obiecti ; quo facto praesente in
+<lb ed="#L" n="27"/>intellectu per? cognitionem, libere vult illud si sit finis vel potest velle
+<lb ed="#L" n="28"/>liberum arbitrium si sit ad finem.
+</p>
+            <p xml:id="v27ab7-g12787-d1e298">
+               <lb ed="#L" n="29"/>Sed ista positio non videtur rationabilis. Potest enim repelli per hoc
+<lb ed="#L" n="30"/>quod, licet voluntas includat duas rationes per modum generis et 
+diffe<lb break="no" ed="#L" n="31"/>rentiae, ex hoc non sequitur quod ratione unius habet rationem activi et
+<lb ed="#L" n="32"/>ratione alterius passivi. Cum enim incidant in idem  simplex secundum
+<lb ed="#L" n="33"/>rem, oportet quod per illa solum sit activa vel passiva. Sed si sit passiva 
+<pb ed="#L" n="151"/>
+               <lb ed="#L" n="1"/>verum est quod erit aliter passiva quia rationalis, quam quia appetitus 
+sim<lb break="no" ed="#L" n="2"/>pliciter; — sicut etiam intellectus est vis apprehensiva rationalis nec habet
+<lb ed="#L" n="3"/>ex uno quod sit activa, ex alio quod sit passiva, sed ! habet quod alio modo
+<lb ed="#L" n="4"/>est passiva respectu cognitionis in quantum rationalis quam in quantum
+<lb ed="#L" n="5"/>apprehensiva.
+</p>
+            <p xml:id="v27ab7-g12787-d1e324">
+               <lb ed="#L" n="6"/>Praeterea, ista positio improbatur ex hoc quod omne agens principale
+<lb ed="#L" n="7"/>est nobilius si sit non univocum effectu vel aeque nobile si sit univocum ;
+<lb ed="#L" n="8"/>et est nobilius et actualius eo ex quo vel in quo producitur huiusmodi ?
+<lb ed="#L" n="9"/>effectus. Et cum tale agens est quid compositum, est nobilius vel aeque
+<lb ed="#L" n="10"/>nobile composito producto ab ipso. Si ergo nihil sit agens respectu 
+volun<lb break="no" ed="#L" n="11"/>tatis propriae, nec intellectus nec obiectum in virtute intellectus, sed ipsa
+<lb ed="#L" n="12"/>per se ipsam educit ? se de potentia ad actum et hoc ut agens principale,
+<lb ed="#L" n="13"/>non instrumentale ; et hoc quia est virtute tale qualem facit se in actu, ipsa
+<lb ed="#L" n="14"/>voluntas sine volitione  est quid nobilius quam ipsum totum volens. Semen
+<lb ed="#L" n="15"/>enim quod est instrumentale agens et virtute ? tale quale est in potentia
+<lb ed="#L" n="16"/>instrumentum non est nobilius alteri generato.
+</p>
+            <p xml:id="v27ab7-g12787-d1e351">
+               <lb ed="#L" n="17"/>Praeterea, sicut impossibile est quod illud activum quod est formaliter
+<lb ed="#L" n="18"/>tale quale debet facere passivum sit illud passivum et se ipsum faciat 
+for<lb break="no" ed="#L" n="19"/>maliter tale, ita impossibile est quod illud quod est virtualiter tale quale
+<lb ed="#L" n="20"/>debet facere passivum sit illud passivum et faciat se ipsum formaliter tale.
+<lb ed="#L" n="21"/>Sicut enim contra rationem eius quod formaliter est tale quale debet facere
+<lb ed="#L" n="22"/>passivum est quod ex quo iam est tale faciat se tale, quia iam  esset in actu
+<lb ed="#L" n="23"/>etin potentia secundum idem et respectu eiusdem, item essent in eodem
+<lb ed="#L" n="24"/>numero et subiecto plura accidentia numero differentia et plura alia 
+incon<lb break="no" ed="#L" n="25"/>venientia sequerentur; ita etiam contra rationem eius quod virtualiter est
+<lb ed="#L" n="26"/>tale quale debet facere passivum, formaliter est quod ex quo iam est tale
+<lb ed="#L" n="27"/>eminentiori et perfectiori modo, quia est principale agens quod faciat se
+<lb ed="#L" n="28"/>tale minus perfecto modo. Inconveniens etiam est quod qualitas secundum
+<lb ed="#L" n="29"/>quam agens aliquid tale dicitur virtute et qualitas secundum quam aliquid
+<lb ed="#L" n="30"/>tale dicitur formaliter illi correspondens, cum haec dicantur esse talia non
+<lb ed="#L" n="31"/>univoce sed aequivoce, quod ' sint? perfectiva unius et eiusdem subiecti ;
+<lb ed="#L" n="32"/>et cetera.
+</p>
+            <p xml:id="v27ab7-g12787-d1e388">
+               <lb ed="#L" n="33"/>Praeterea, quando activum per se est praesens passivo per se sequitur
+<lb ed="#L" n="34"/>actio et in  hoc est exclusum omne impeditivum, ut patet per Philosophum,
+<lb ed="#L" n="35"/>nono Metaphysicae. Si ergo in voluntate ponatur activum et passivum quae
+<lb ed="#L" n="36"/>semper sibi sunt praesentia quia sunt id ipsum, ut dicit ista positio, vel
+<pb ed="#L" n="152"/>
+               <lb ed="#L" n="1"/>sunt unum subiecto, ut dicit alia, sequitur actio et huic non potest praestari
+<lb ed="#L" n="2"/>impedimentum. Quid enim potest impedire quod idem non sit praesens sibi
+<lb ed="#L" n="3"/>ipsi ? et cetera. '
+</p>
+            <p xml:id="v27ab7-g12787-d1e408">
+               <lb ed="#L" n="4"/>Dicere autem quod potest intervenire impedimentum negativum,
+<lb ed="#L" n="5"/>scilicet absentia obiecti, hoc nihil aliud videtur quam dicere quod absentia
+<lb ed="#L" n="6"/>activi a passivo vel e converso sit impedimentum ne procedat actio. Igne
+<lb ed="#L" n="7"/>enim existente alicubi est calefactivum, sed impeditur ne calefaciat, quia
+<lb ed="#L" n="8"/>deest aqua calefactibilis, vel aqua existente alicubi est calefactibile, sed
+<lb ed="#L" n="9"/>impeditur ne calefiat quia impeditur ab hoc propter absentiam ignis 
+cale<lb break="no" ed="#L" n="10"/>factivi.In proposito enim dicitur quod, voluntate existente et absente obiecto,
+<lb ed="#L" n="11"/>voluntas non producit actum impedita propter absentiam volibilis. Aut ergo
+<lb ed="#L" n="12"/>dicetur quod voluntas et volibile se habent sicut per se activum et per se
+<lb ed="#L" n="13"/>passivum, sicut dicitur in aliis ubi invenitur actio, nisi sit tale 
+impedimen<lb break="no" ed="#L" n="14"/>tum scilicet negativum quale ponitur circa voluntatem, aut, sicut frequenter
+<lb ed="#L" n="15"/>dictum est, dicetur quod unumquodque agens agit in seipsum amoto tamen
+<lb ed="#L" n="16"/>tali impedimento ; et cetera.
+</p>
+            <p xml:id="v27ab7-g12787-d1e439">
+               <lb ed="#L" n="17"/>Hac igitur positione dimissa tanquam minus irrationali propter has
+<lb ed="#L" n="18"/>rationes et multas alias quae possunt induci et alibi etiam sunt inductae,
+<lb ed="#L" n="19"/>videamus utrum voluntas cum aliqua saltem dispositione sibi inhaerente
+<lb ed="#L" n="20"/>possit seipsam movere, et ex hoc etiam irrationabilitas et impossibilitas
+<lb ed="#L" n="21"/>praemissae positionis magis apparebit. Sciendum est igitur quod quamvis
+<lb ed="#L" n="22"/>multae rationes possunt induci contra praemissam positionem qua dicitur
+<lb ed="#L" n="23"/>quod voluntas simplex existens secundum se movet se, tamen una est
+<lb ed="#L" n="24"/>principalis, quia scilicet identitas et unitas repugnat rationi activi et passivi.
+<lb ed="#L" n="25"/>Sed eadem ratio invenitur in voluntate cum quacumque dispositione sibi
+<lb ed="#L" n="26"/>inhaerente. Nam cum de ratione activi et passivi secundum quod 
+huius<lb break="no" ed="#L" n="27"/>modi sit quod sint distincta secundum has rationes quae sunt potentia
+<lb ed="#L" n="28"/>et actus — nam activum debet  esse tale in actu quale est passivum in
+<lb ed="#L" n="29"/>potentia, — unum autem et idem secundum idem non potest esse tale
+<lb ed="#L" n="30"/>respectu sui ipsius, ideo sic dicitur de voluntate secundum se, scilicet quod
+<lb ed="#L" n="31"/>non potest se movere. Sed cum de ratione activi non solum sit quod sit in
+<lb ed="#L" n="32"/>actu et passivi quod sit in potentia, sed quod in quantum est activum sua
+<lb ed="#L" n="33"/>actualitas ordinetur ad aliud, et similiter secundum quod passivum sua
+<lb ed="#L" n="34"/>potentialitas ad aliud ordinetur; et ideo, ut dicitur nono Metaphysicae, quod
+<lb ed="#L" n="35"/>potentia activa est id quod est principium activum in aliud secundum
+<lb ed="#L" n="36"/>quod aliud (commenta : non in se), cum ? sit manifestum quod nihil agat in
+<lb ed="#L" n="37"/>seipsum; potentia autem passiva est id quod est principium per quod
+<pb ed="#L" n="153"/>
+               <lb ed="#L" n="1"/>aliquid recipit transmutationem in se ex alio secundum quod aliud, cum sit
+<lb ed="#L" n="2"/>manifestum quod nihil patitur a se, ideo si aliquod '! ens ex se non sit sic in
+<lb ed="#L" n="3"/>actu quodpossit ei convenire ratio activi et potentiae activae, quae
+<lb ed="#L" n="4"/>quidem ratio activi, ut patet ex praedictis, non potest sibi competere nisi
+<lb ed="#L" n="5"/>respectu alterius per aliquid sibi additum quod sit idem subiecto cum ipso,
+<lb ed="#L" n="6"/>bene poterit consequi hanc rationem, scilicet quod activum sit, sed non
+<lb ed="#L" n="7"/>respectu sui, sed respectu alterius. Sicut enim una simplex natura hoc habet
+<lb ed="#L" n="8"/>quod sit in actu et quod habeat potentiam activam, sed non respectu sui,
+<lb ed="#L" n="9"/>sed respectu alterius, ita etiam cum alicui enti secundum se non convenit
+<lb ed="#L" n="10"/>potentia activa per aliquid sibi additum poterit ei convenire etiam respectu
+<lb ed="#L" n="11"/>alterius, non respectu sui; verbi gratia, ignis secundum se, quia includit
+<lb ed="#L" n="12"/>caliditatem quae est principium activum, habet potentiam activam, sed non
+<lb ed="#L" n="13"/>respectu sui, sed respectu alterius quod potest calefacere ; li[n]yna autem
+<lb ed="#L" n="14"/>secundum se non habent hoc principium ? activum, sed possunt per
+<lb ed="#L" n="15"/>aliquid additum vel causatum in eis hoc habere. Sed sicut ignis qui ex
+<lb ed="#L" n="16"/>natura sua hoc habet non est activus in se, sed in alio, ita etiam ligna,
+<lb ed="#L" n="17"/>si consequantur per aliquam dispositionem in eis vim activam, illa erit
+<lb ed="#L" n="18"/>respectu alterius. Et ita etiam est de potentia passiva; nam si alicui
+<lb ed="#L" n="19"/>convenit potentia passiva de se, convenit ei respectu alterius; si autem non
+<lb ed="#L" n="20"/>nisi per aliquid additum, per id hoc solum etiam consequetur quod cum
+<lb ed="#L" n="21"/>prius non posset pati ab alio, modo potest. Si ergo voluntas de se non sit
+<lb ed="#L" n="22"/>activa, tamen si esset activa, necessario esset activa in aliud quod esset
+<lb ed="#L" n="23"/>tale in potentia qualis ipsa est in actu, per dispositionem in ea existentem
+<lb ed="#L" n="24"/>non potest consequi nisi quod possit agere ? in aliud cum prius non posset.
+<lb ed="#L" n="25"/>Cuius ratio est: nam sicut si ipsa secundum se haberet potentiam activam,
+<lb ed="#L" n="26"/>unum et idem simpliciter per se esset activum et ratio agendi respectu
+<lb ed="#L" n="27"/>alterius, ita si ipsa cum alio sibi addito et mediante illo habet potentiam
+<lb ed="#L" n="28"/>agendi, hoc totum compositum per se erit activum etiam respectu alterius;
+<lb ed="#L" n="29"/>sed aliquid erit ibi immediata et propria ratio agendi et aliquid ratio
+<lb ed="#L" n="30"/>mediata; unde penes hoc non poterit causari aliqua diversitas circa 
+volun<lb break="no" ed="#L" n="31"/>tatem, ut scilicet, cum secundum se non possit agere in se, per aliquid
+<lb ed="#L" n="32"/>additum quod sit ei ratio agendi possit agere in se. Et ita etiam est de
+<lb ed="#L" n="33"/>potentia passiva; nam si anima secundum suam substantiam non sit 
+suscep<lb break="no" ed="#L" n="34"/>tibilis actus intelligendi vel huiusmodi 5, sed per aliquid additum, scilicet
+<lb ed="#L" n="35"/>quod sit potentia animae vel species intelligibilis, illud additum non facit
+<lb ed="#L" n="36"/>quod talem actum possit a se suscipere, sed ab alio.
+</p>
+            <p xml:id="v27ab7-g12787-d1e567">
+               <lb ed="#L" n="37"/>Nec potest etiam dici quod dispositio quaecumque posita in voluntate
+<pb ed="#L" n="154"/>
+               <lb ed="#L" n="1"/>potest esse activum vel passivum, id est, illud cui principaliter convenit
+<lb ed="#L" n="2"/>agere vel pati, sed solum potest esse ratio agendi vel patiendi totius 
+com<lb break="no" ed="#L" n="3"/>positi ex ipsa et voluntate. Supposito enim per se competit agere sive sit
+<lb ed="#L" n="4"/>simplex sive compositum. Ei autem quod est aliquid compositi potest
+<lb ed="#L" n="5"/>competere ratio agendi vel patiendi. Si ergo voluntas nuda nihil potest
+<lb ed="#L" n="6"/>agere vel pati, hoc estquia non habet rationem agendi vel patiendi.
+<lb ed="#L" n="7"/>Si autem cum dispositione potest, hoc est quia per eam habet rationem
+<lb ed="#L" n="8"/>agendi vel patiendi; et ipsa cum huiusmodi dispositione per se erit
+<lb ed="#L" n="9"/>activum vel passivum. Et quia nihil potest per se agere in se ipsum, sicut
+<lb ed="#L" n="10"/>voluntas nuda non potest movere seipsam, quia idem per se esset in 
+poten<lb break="no" ed="#L" n="11"/>tia et in actu respectu eiusdem, ita etiam voluntas cum dispositione non
+<lb ed="#L" n="12"/>potest movere se ipsam, quia etiam ! idem secundum idem esset in potentia
+<lb ed="#L" n="13"/>et in actu respectu eiusdem ; quia voluntas et quaecumque dispositio in
+<lb ed="#L" n="14"/>ipsa non sic haberent se ? quod unum esset movens et aliud motum, sed sic
+<lb ed="#L" n="15"/>quod unum esset ratio agendi et aliud ratio patiendi respectu alicuius unius
+<lb ed="#L" n="16"/>actus, totum autem esset per se movens et per se motum et sic nihil esset
+<lb ed="#L" n="17"/>ibi quod per se non esset in actu et per se in potentia. Propter quod sicut
+<lb ed="#L" n="18"/>nuda voluntate existente in potentia ad volitionem ipsam non potest se
+<lb ed="#L" n="19"/>facere actu volentem, quia in ea non est aliquid quod non sit in potentia
+<lb ed="#L" n="20"/>respectu volitionis et sic idem esset potentia  et actu respectu eiusdem, 
+<lb ed="#L" n="21"/>ita etiam voluntas cum sua dispositione non potest se facere in actu
+<lb ed="#L" n="22"/>volentem. à
+</p>
+            <p xml:id="v27ab7-g12787-d1e622">
+               <lb ed="#L" n="23"/>Cum enim voluntas simul cum sua dispositione sit in potentia ad
+<lb ed="#L" n="24"/>volitionem, in potentia quidem passiva, quia potest actu velle, non est ibi
+<lb ed="#L" n="25"/>aliquid quod non sit in potentia. Ergo si cum sua dispositione  faceret
+<lb ed="#L" n="26"/>se actu volentem, idem secundum idem esset in potentia et in actu.
+</p>
+            <p xml:id="v27ab7-g12787-d1e634">
+               <lb ed="#L" n="27"/>Sicut enim potest dici quod voluntas cum affectione vel dispositione
+<lb ed="#L" n="28"/>est respectu volitionis in se causandae in actu virtualiter, non formaliter, ita
+<lb ed="#L" n="29"/>hoc idem potest dici de voluntate secundum se , et si sufficit ad hoc
+<lb ed="#L" n="30"/>quod aliquid  possit agere in seipsum quod sit actu tale virtualiter quale
+<lb ed="#L" n="31"/>est in potentia formaliter, ita poterit dici quod unum et idem simplex possit
+<lb ed="#L" n="32"/>agere in seipsum sicut compositum. Propter quod neutri debet attribui
+<lb ed="#L" n="33"/>quod possit, ex eo quod talis est aliquo modo virtualiter, efficere aliquid in se
+<pb ed="#L" n="155"/>
+               <lb ed="#L" n="1"/>ipso, sed ad agere in aliud sufficit quod sit tale in actu sive virtualiter sive
+<lb ed="#L" n="2"/>formaliter.
+</p>
+            <p xml:id="v27ab7-g12787-d1e658">
+               <lb ed="#L" n="3"/>Unde, secundum planam intentionem Philosophi et Commentatoris in
+<lb ed="#L" n="4"/>octavo Physicorum, oportet omne movens se ipsum esse compositum ex
+<lb ed="#L" n="5"/>pluribus partibus, non sic ad invicem se habentibus quod solum 
+essen<lb break="no" ed="#L" n="6"/>tialiter et non subiecto differant et quod una sit illi toti ratio agendi sic
+<lb ed="#L" n="7"/>quod totum per se ratione illius agat in se, et alia ratio patiendi ita quod
+<lb ed="#L" n="8"/>totum per se ratione iliius patiatur a se ipso, sicut aliqui aestimant esse
+<lb ed="#L" n="9"/>in gravi et levi, sed sic etiam ! quod subiecto etiam differant et quod una
+<lb ed="#L" n="10"/>sit movens primo et alia primo mota et ratione talium partium quae sunt
+<lb ed="#L" n="11"/>unius totius illud unum totum est movens se totum per accidens, id est,
+<lb ed="#L" n="12"/>in quantum una pars est per se movens aliam. Unde, quia animal non est
+<lb ed="#L" n="13"/>sic unum quod habeat partes integrales et subiecto distantes unius rationis,
+<lb ed="#L" n="14"/>potest in una parte esse dispositio secundum aliquam actualitatem, ratione
+<lb ed="#L" n="15"/>cuius potest esse activa respectu alterius partis quae habet aliam 
+disposi<lb break="no" ed="#L" n="16"/>tionem ratione cuius potest esse passiva et quia in gravi non sunt partes
+<lb ed="#L" n="17"/>heterogeneae sic differentes, ideo una non potest habere potentiam
+<lb ed="#L" n="18"/>activam respectu alterius, sed quicquid convenit per se uni respectu
+<lb ed="#L" n="19"/>alterius, convenit et alteri respectu ipsius; et ideo illud quod movet se
+<lb ed="#L" n="20"/>oportet esse compositum ex partibus heterogeneis. Et quod est eiusdem
+<lb ed="#L" n="21"/>rationis in toto et in partibus non potest movere seipsum, ut probat
+<lb ed="#L" n="22"/>Aristoteles, octavo Physicorum, per hoc quod una pars ibi non potest esse
+<lb ed="#L" n="23"/>agens respectu alterius eo quod agens et patiens secundum quod 
+huius<lb break="no" ed="#L" n="24"/>modi sunt contraria. Unde ubi sunt partes continuae secundum quantitatem
+<lb ed="#L" n="25"/>et ? eiusdem dispositionis et rationis secundum formam non potest inveniri
+<lb ed="#L" n="26"/>in una parte unde habeat rationem agendi respectu alterius. Quod autem
+<lb ed="#L" n="27"/>ita sit patet per Commentatorem super dictum locum, licet dictum eius ad
+<lb ed="#L" n="28"/>contrarium adducatur. Dicit enim ibi quod illa quae moventur per 
+princi<lb break="no" ed="#L" n="29"/>pium in eis necesse est ut dividantur secundum definitionem in motorem
+<lb ed="#L" n="30"/>et motum. Motor enim debet esse distinctus a moto aut secundum 
+defini<lb break="no" ed="#L" n="31"/>tionem et esse simul, sicut illa quae moventur ab extrinseco, aut secundum
+<lb ed="#L" n="32"/>definitionem tantum, sicut est dispositio in habentibus animos. Anima enim
+<lb ed="#L" n="33"/>quae est motor in eis distinguitur a corpore quod est motum secundum
+<lb ed="#L" n="34"/>definitionem, licet non distinguatur secundum esse, quia non est anima
+<lb ed="#L" n="35"/>sine corpore. Et quia corpora simplicia sunt una secundum definitionem
+<lb ed="#L" n="36"/>et nullum eorum potest dividi in motorem et motum, necesse est ut non
+<lb ed="#L" n="37"/>sint mota ex se, nisi esset possibile ut motor esset ipsum motum. Si autem
+<pb ed="#L" n="156"/>
+               <lb ed="#L" n="1"/>quis dixerit quod sunt composita ' ex materia et forma quae sunt distincta
+<lb ed="#L" n="2"/>per definitionem, dicemus quod prima materia non est ens in actu et id
+<lb ed="#L" n="3"/>quod movetur ex se debet dividi in motorem et motum actu.
+</p>
+            <p xml:id="v27ab7-g12787-d1e745">
+               <lb ed="#L" n="4"/>Ex his patet quod si grave movet se per se oportet quod in eo sunt
+<lb ed="#L" n="5"/>talia duo quae sic se habeant non solum quod unum sit ratio movendi
+<lb ed="#L" n="6"/>active ipsum totum et alia ratio movendi passive cum in gravi sit forma
+<lb ed="#L" n="7"/>ratione cuius posset dici movens et materia ratione cuius posset dici
+<lb ed="#L" n="8"/>motum, sed oportet quod una sit per se movens in gravi, si movet se, ut
+<lb ed="#L" n="9"/>contingeret de forma et alia per se mota ut contingeret  de materia.
+<lb ed="#L" n="10"/>Deinde manifestat quod non solum oportet ea esse distincta definitione,
+<lb ed="#L" n="11"/>sed etiam subiecto, licet non in esse, ut praemisit: quod etiam non 
+contin<lb break="no" ed="#L" n="12"/>geret in gravi etiamsi ponatur gravitas definitione distingui non solum a
+<lb ed="#L" n="13"/>materia quae est ens solum ? in potentia, sed a natura substantiae gravis
+<lb ed="#L" n="14"/>quae est ens in actu per formam substantialem. Unde subdit, exponendo
+<lb ed="#L" n="15"/>illud Philosophi quomodo est possibile ut aliquid continuum et naturarum
+<lb ed="#L" n="16"/>convenientium moveat se ipsum, Commentator etiam intendit per continuum
+<lb ed="#L" n="17"/>illud quod est unum non per contiguitatem  per conveniens et cetera, illud
+<lb ed="#L" n="18"/>quod est similium partium cuius definitio partis et totius est una, scilicet
+<lb ed="#L" n="19"/>id quod non est diversae substantiae res; ergo secundum quod continuae
+<lb ed="#L" n="20"/>non contiguae impossibile est ut recipiant passionem, id est motum a se.
+<lb ed="#L" n="21"/>Unde patet quod, quia corpora simplicia sunt omnino unum secundum
+<lb ed="#L" n="22"/>quantitatem, quia perfecte continua, et secundum formam quia secundum
+<lb ed="#L" n="23"/>eamdem rationem perficit forma talis totum et singulas partes, non potest
+<lb ed="#L" n="24"/>in eis inveniri movens et motum.
+</p>
+            <p xml:id="v27ab7-g12787-d1e793">
+               <lb ed="#L" n="25"/>Sed quia animal non sic est unum perfectum continuitate, sed naturali
+<lb ed="#L" n="26"/>colligatione partium quae etiam ratione et definitione formali differunt ab
+<lb ed="#L" n="27"/>invicem (nam sunt partes organicae quarum forma non est anima 
+secun<lb break="no" ed="#L" n="28"/>dum se ut est forma substantialis, sed secundum suas potentias, et in aliqua
+<lb ed="#L" n="29"/>parte determinata est vis appetitiva et vis motiva virtute cuius partis aliqua
+<lb ed="#L" n="30"/>propinqua pars impellitur et movetur et sic deinceps), anima ergo quae 
+<lb ed="#L" n="31"/>movet corpus non dicitur sic movere quod, ut est altera pars compositi
+<lb ed="#L" n="32"/>formalis differens ratione ab altera, scilicet materialis, sit movens corpus
+<lb ed="#L" n="33"/>per se, et corpus quod perficit sit motum per se; sed ipsa quae differt
+<lb ed="#L" n="34"/>definitione, non in esse a corpore, per aliquam potentiam suam appetitivam
+<lb ed="#L" n="35"/>et motivam secundum esse quod habet in aliqua parte determinata, movet
+<lb ed="#L" n="36"/>corpus, movendo primo aliquam partem determinatam. Unde, illud animae
+<pb ed="#L" n="157"/>
+               <lb ed="#L" n="1"/>per quod ipsa movet corpus est potentia animae ; et est perfectio entis in
+<lb ed="#L" n="2"/>actu, quia partis organicae iam perfectae per animam secundum quod est
+<lb ed="#L" n="3"/>forma substantialis ; et ideo dicitur ! quod anima movens corpus differat
+<lb ed="#L" n="4"/>ab eo definitione,non in esse, quod non intelligitur de anima secundum quod
+<lb ed="#L" n="5"/>est actus substantialis, quia sic non relinquitur nisi ens in potentia, scilicet
+<lb ed="#L" n="6"/>materia quae non movetur ?, sed intelligitur de anima secundum rationem
+<lb ed="#L" n="7"/>talis potentiae, scilicet appetitivae et motivae quae ratione differt a corpore
+<lb ed="#L" n="8"/>composito ex materia et forma substantiali ?, sive anima ut est forma
+<lb ed="#L" n="9"/>substantialis, non autem in esse, quia est perfectio alicuius partis corporis
+<lb ed="#L" n="10"/>actu tamen existentis per animam. Unde si per impossibile esset aliquod
+<lb ed="#L" n="11"/>animal cuius partes omnes essent eiusdem rationis, sicut contingit in gravi,
+<lb ed="#L" n="12"/>licet haberet appetitum et vim motivam quae etiam essent in qualibet parte
+<lb ed="#L" n="13"/>corporis, non moveret seipsum. Quod autem non sic intelligendum quod
+<lb ed="#L" n="14"/>animal movet se in quantum est divisibile in duo secundum definitionem,
+<lb ed="#L" n="15"/>scilicet in animam et corpus, ut per animam secundum quod est in toto
+<lb ed="#L" n="16"/>corpore sit movens et per corpus motum, sed quod secundum esse quod
+<lb ed="#L" n="17"/>habet anima in una parte corporis non mota per se moveat alias partes.
+<lb ed="#L" n="18"/>Patet per hoc quod dicit Aristoteles, libro de Motibus animalium dicens,
+<lb ed="#L" n="19"/>quod aestimandum constare animal quemadmodum  civitatem bene legibus
+<lb ed="#L" n="20"/>rectam. [n civitate enim, quando bene stabilitus fuerit ordo, nihil opus est
+<lb ed="#L" n="21"/>separato monarcho quem oporteat adesse ad singula eorum quae fiunt, sed
+<lb ed="#L" n="22"/>ipse quilibet facit quae ipse, ut ordinatum est, et fit hoc post hoc propter
+<lb ed="#L" n="23"/>consuetudinem. In animalibus autem idem hoc propter naturam [hoc] fit et
+<lb ed="#L" n="24"/>quia natum est unumquodque sic constantium facere proprium opus sic
+<lb ed="#L" n="25"/>ut nihil opus sit in unoquoque animam esse, sed tamen quodam principio
+<lb ed="#L" n="26"/>corporis existente, alia quidem vivere eo quod adnata ? sunt facere autem
+<lb ed="#L" n="27"/>proprium opus propter naturam. Unde non solum oportet aliquid esse 
+im<lb break="no" ed="#L" n="28"/>mobile extra animal ad hoc quod moveatur, sicut contingit in motu caeli,
+<lb ed="#L" n="29"/>sed oportet etiam quod habeat aliquam partem intrinsecam, id est, ad ipsum
+<lb ed="#L" n="30"/>animal pertinentem fixam super immobile extra ad motus progressivi
+<lb ed="#L" n="31"/>executionem, ad quam scilicet appellatur alia pars movenda. Nec adhuc
+<lb ed="#L" n="32"/>propter hoc dicitur animal movere se proprie, sed quia oportet " etiam ad
+<lb ed="#L" n="33"/>motus animalis inchoationem esse in animali aliquam partem immobilem
+<lb ed="#L" n="34"/>per se a qua oriatur omnis motus localis ipsius animalis, virtute tamen
+<lb ed="#L" n="35"/>appetitus et potentiae motivae, ut haec in libro de Motibus animalium
+<lb ed="#L" n="36"/>declarantur.
+</p>
+            <p xml:id="v27ab7-g12787-d1e902">
+               <lb ed="#L" n="37"/>Sed iterum, ad propositum scilicet quod nihil per se possit se ipsum
+<pb ed="#L" n="158"/>
+               <lb ed="#L" n="1"/>movere, videtur facere ratio et dictum Commentatoris super secundo!
+<lb ed="#L" n="2"/>Physicorum ubi dicit quod a contingente quod habet se aequaliter ad plura
+<lb ed="#L" n="3"/>nulla actio provenit secundum quod est contingens aequaliter quantum
+<lb ed="#L" n="4"/>natura eius est natura materiae et non formae et ita materia ergo prima est
+<lb ed="#L" n="5"/>parata ad recipiendum duo contraria aequaliter; et similiter apparet de
+<lb ed="#L" n="6"/>anima concupiscibili , scilicet ipsam esse paratam ad actiones contrarias
+<lb ed="#L" n="7"/>aequaliter. Illud igitur contingens non habet causas agentes contrarias
+<lb ed="#L" n="8"/>aequaliter. Unde necesse est ut actiones illae attribuantur agenti, scilicet qui
+<lb ed="#L" n="9"/>facit alterum contrariorum ; et ita apparet ergo quod contingens aequaliter
+<lb ed="#L" n="10"/>non invenitur in potentiis agentibus per se, sed in potentiis passivis et in
+<lb ed="#L" n="11"/>eis quorum praeparatio ad receptionem duorum contrariorum est aequalis,
+<lb ed="#L" n="12"/>sive sit anima sive non anirna et cetera.
+</p>
+            <p xml:id="v27ab7-g12787-d1e935">
+               <lb ed="#L" n="13"/>Cum ergo voluntas de se sit indifferens ad duas volitiones secundum
+<lb ed="#L" n="14"/>duo volita, vel ad volendum vel ad nolendum  aliquid unum, et in hoc
+<lb ed="#L" n="15"/>habeat rationem materiae secundum Commentatorem, oportet quod per
+<lb ed="#L" n="16"/>aliquid determinatum fiat in actu secundum alterum horum. Non est enim
+<lb ed="#L" n="17"/>dare quare in unum exeat potius quam in aliud si nulla facta sit in ea
+<lb ed="#L" n="18"/>mutatio quae prius non erat, aut si, quacumque mutatione facta secundum
+<lb ed="#L" n="19"/>quemcumque influxum, adhuc manet indifferens quantum est de se ad
+<lb ed="#L" n="20"/>utrumque. Alioquin si sic dici potest de voluntate, aeque faciliter et 
+rationabi<lb break="no" ed="#L" n="21"/>liter poterit negari omnis potentia activa distinc ta a passivo et dicetur
+<lb ed="#L" n="22"/>quod unumquodque ens producit se ipsum de potentia ad actum. Quis enim
+<lb ed="#L" n="23"/>probabit quod ignis generet ignem ex aqua? Dicetur enim quod in aqua
+<lb ed="#L" n="24"/>est forma substantialis ignis virtualiter quae tamen non efficit se in actum
+<lb ed="#L" n="25"/>nisi praesente igne ut causa sine qua non. Quis etiam probabit lignum vel
+<lb ed="#L" n="26"/>corpus aliquod calefieri ab igne? Immo dicetur quod seipsum calefacit,
+<lb ed="#L" n="27"/>praesente igne ut causa sine qua non. Idem etiam dici poterit de actibus
+<lb ed="#L" n="28"/>omnium potentiarum animae, ut patet  inducendo; quia enim per nihil
+<lb ed="#L" n="29"/>potest probari aliquid esse activum respectu alterius nisi quia, illo praesente,
+<lb ed="#L" n="30"/>aliud est in actu aliquid quod prius erat in potentia. Ita etiam  videmus in
+<lb ed="#L" n="31"/>voluntate quod praesente obiecto fit in actu de necessitate respectu finalis
+<lb ed="#L" n="32"/>obiecti, non de necessitate respectu aliorum ; nec unquam fit in actu nisi
+<lb ed="#L" n="33"/>secundum modum et formam rationis ; quia nihil fugit nisi iudicet illud esse
+<lb ed="#L" n="34"/>nocivum, nihil etiam prosequitur nisi iudicet illud esse conveniens; quia
+<lb ed="#L" n="35"/>non est in actu nisi praesente obiecto, obiectum autem fugere non est nisi
+<lb ed="#L" n="36"/>id quod sub ratione mali et nocivi apprehenditur, obiectum autem prose-
+<pb ed="#L" n="159"/>
+               <lb ed="#L" n="1"/>cutionis est id quod sub ratione boni et convenientis apprehenditur. Non
+<lb ed="#L" n="2"/>videtur ergo ratio per quam probari possit quod aliquod ! ens sit activum
+<lb ed="#L" n="3"/>respectu alterius per quod non possit etiam probari de obiecto respectu
+<lb ed="#L" n="4"/>voluntatis. Non videtur ergo esse negandum quin voluntas vere ab obiecto
+<lb ed="#L" n="5"/>moveatur quantum ad actus volitionis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1004">
+               <lb ed="#L" n="6"/>Si autem, ut dicunt alii, actio non omnino substrahitur ab obiecto
+<lb ed="#L" n="7"/>voluntatis, quia efficit in voluntate aliquam dispositionem et influxum quo
+<lb ed="#L" n="8"/>determinatur voluntas ad actum determinatum volitionis, quem tamen actum,
+<lb ed="#L" n="9"/>supposita illa dispositione, voluntas se ipsam vi suae libertatis efficit, 
+simi<lb break="no" ed="#L" n="10"/>liter etiam dicetur quod alia agentia actum principalem non efficiunt ? in
+<lb ed="#L" n="11"/>passivis, sed tantum quamdam dispositionem et influxum, quo supposito,
+<lb ed="#L" n="12"/>agunt actum principalem. Sed hoc falsum est; unde similiter est falsum ex
+<lb ed="#L" n="13"/>alia parte, scilicet in voluntate. Verum est enim quod omnia agentia 
+princi<lb break="no" ed="#L" n="14"/>palia inducentia in passiva aliquas dispositiones in ordine ad formam
+<lb ed="#L" n="15"/>principaliorem iuducunt etiam huiusmodi formam, ut patet in omnibus aliis
+<lb ed="#L" n="16"/>a forma humana quae propter sui nobilitatem non potest produci ex aliquo,
+<lb ed="#L" n="17"/>sed ex nihilo a solo Deo per creationem ; et quod nulla forma principalis
+<lb ed="#L" n="18"/>inducitur a subiecto in quo talis dispositio prima inducitur. Unde hoc oportet
+<lb ed="#L" n="19"/>similiter ponere in voluntate.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1037">
+               <lb ed="#L" n="20"/>Cum etiam ponatur ab aliquibus quidam consimilis influxus fieri ab
+<lb ed="#L" n="21"/>obiecto in intellectu respectu sui actus intelligendi et tamen dicitur quod
+<lb ed="#L" n="22"/>etiam obiectum ? efficit ipsum actum intelligendi, alioquin intellectus non
+<lb ed="#L" n="23"/>diceretur virtus passiva, videtur posse dici hoc de voluntate sicut de 
+intel<lb break="no" ed="#L" n="24"/>lectu, ita tamen quod libertas voluntatis salvetur dicendo quod secundum
+<lb ed="#L" n="25"/>condicionem suae libertatis movetur de necessitate solum a summo bono,
+<lb ed="#L" n="26"/>non de necessitate autem sed cum possibilitate ad oppositum ab omnibus
+<lb ed="#L" n="27"/>aliis, ita quod, licet in potestate hominis non sit per voluntatem semper
+<lb ed="#L" n="28"/>prompte ac delectabiliter vel sine tristitia agere et eligere, vel non agere
+<lb ed="#L" n="29"/>et non eligere ea quae sunt citra finem, prout dicit Philosophus tertio 
+Ethi<lb break="no" ed="#L" n="30"/>corum, quod ante generationem habitus in nobis est hoc sed non post habitus
+<lb ed="#L" n="31"/>generationem, tamen semper a principio usque in finem per libertatem
+<lb ed="#L" n="32"/>voluntatis remanemus domini actionum, scientes quae circa singula. 
+Quo<lb break="no" ed="#L" n="33"/>modo autem hoc sit aliqualiter potest sic ad praesens explicari. Nam in vita
+<lb ed="#L" n="34"/>ista secundum cursum communem numquam ita aboletur iudicium rationis
+<lb ed="#L" n="35"/>quin remaneat sic quod per principia universalia potest rectificari per
+<lb ed="#L" n="36"/>deductionem ordinatam ad posteriora et sic etiam malus per seipsum potest
+<lb ed="#L" n="37"/>fieri bonus, licet cum difficultate. Intemperatus enim habens notitiam cor-
+<pb ed="#L" n="160"/>
+               <lb ed="#L" n="1"/>ruptam circa venerea habet rectitudinem iudicii quantum ad universalia per
+<lb ed="#L" n="2"/>quae potest seipsum deducere ad hoc quod cum occurrit aliquid delectabile
+<lb ed="#L" n="3"/>id non prosequitur licet cum difficultate abstineat. Sicut enim timor poenae
+<lb ed="#L" n="4"/>comminatae facit alicui aestimationem ratione cuius ad horam seipsum
+<lb ed="#L" n="5"/>cohibet quantum ad actum exteriorem, licet cum tristitia ; ita etiam 
+consi<lb break="no" ed="#L" n="6"/>deratio alicuius deformitatis et turpitudinis potest ipsum movere ut 
+absti<lb break="no" ed="#L" n="7"/>neat, licet cum difficultate et tristitia appetitus sensitivi; et sic tandem per
+<lb ed="#L" n="8"/>frequentes tales actus poterit virtus adgenerari. Si autem aliquis permittat
+<lb ed="#L" n="9"/>ex negligentia invalescere passionem, vel insistat diu circa alicuius 
+delec<lb break="no" ed="#L" n="10"/>tabilis considerationem et non divertat intellectum ab hoc et tandem devenit
+<lb ed="#L" n="11"/>ad corruptionem iudicii in particulari, iudicando quod, omnibus consideratis,
+<lb ed="#L" n="12"/>melius est nunc tale quid facere propter delectationem quam illud omittere
+<lb ed="#L" n="13"/>propter quamcumque deordinationem, non obstante quod tunc voluntas
+<lb ed="#L" n="14"/>agit secundum iudicium perversum rationis, imputatur sibi, quia, ut dicit
+<lb ed="#L" n="15"/>ibi Aristoteles, eius quod est diligentes esse domini sumus. Unde etiam
+<lb ed="#L" n="16"/>defectus corporales et infirmitates quae contingunt ex negligentia homini
+<lb ed="#L" n="17"/>recte imputantur. Quia ergo habens voluntatem potest, per notitiam 
+univer<lb break="no" ed="#L" n="18"/>salem quam habet circa defectum omnis boni defectivi divertere intellectum '
+<lb ed="#L" n="19"/>ad aliud considerandum, et quia non movetur nisi ab apprehenso, a nullo
+<lb ed="#L" n="20"/>tali de necessitate movetur quamdiu ratio non totaliter corrumpitur, sicut
+<lb ed="#L" n="21"/>in amentibus et furiosis; et ideo non bene videntur  dicere qui  dicunt
+<lb ed="#L" n="22"/>quod voluntatem esse passivam et ipsam esse liberam non stant simul, ac si
+<lb ed="#L" n="23"/>ponentes eam moveri ab obiecto nitantur destruere libertatem arbitrii. Si
+<lb ed="#L" n="24"/>enim poneretur quod respectu cuiuslibet obiecti de necessitate absoluta ?
+<lb ed="#L" n="25"/>moveretur, libertas arbitrii tolleretur. Sed cum ponitur moveri dicto modo
+<lb ed="#L" n="26"/>libere et non de necessitate, quia posset non moveri ab obiecto tali in quo
+<lb ed="#L" n="27"/>posset considerare defectum, servatur libertas quae voluntati competit.
+<lb ed="#L" n="28"/>Unde non valet etiam si sic arguatur : homo est dominus suorum
+<lb ed="#L" n="29"/>actuum per voluntatem ; videtur ergo quod voluntas sit potissime domina
+<lb ed="#L" n="30"/>sui actus, sed non videtur habere dominium super actum suum si est 
+sim<lb break="no" ed="#L" n="31"/>pliciter passiva respectu illius; quare et cetera. Item, cum nihil sit ita in
+<lb ed="#L" n="32"/>potestate voluntatis sicut velle, videtur quod respectu illius habeat dominium
+<lb ed="#L" n="33"/>et quod sit illius effectiva; ergo non est in potentia simpliciter passiva.
+<lb ed="#L" n="34"/>Potest enim dici quod hoc quod aliquid habet dominium super aliquid, hoc
+<pb ed="#L" n="161"/>
+               <lb ed="#L" n="1"/>contingit quia suo actu potest efficere libere aliquid circa illud vel in illo.
+<lb ed="#L" n="2"/>Unde voluntas habet dominium super ea quae actu suo potest movere
+<lb ed="#L" n="3"/>aliquo modo et educere de potentia ad actum ; et ideo ipsa super actum
+<lb ed="#L" n="4"/>suum dominium proprie non habet per se et directe ac immediate, sed
+<lb ed="#L" n="5"/>super alias potentias et super actus earum ; quia alias potentias habet
+<lb ed="#L" n="6"/>movere ad exercitium actus et habet imperare actus aliarum potentiarum,
+<lb ed="#L" n="7"/>sed a nulla alia habet sic moveri. Quia ergo voluntas inter potentias animae
+<lb ed="#L" n="8"/>humanae est maxime secundum hoc activa et motiva, non autem 
+deter<lb break="no" ed="#L" n="9"/>minate et uno modo tantum, eo quod movet efficiendo, mota tamen ab
+<lb ed="#L" n="10"/>obiecto apprehenso a ratione deliberativa non determinata, ideo per 
+volun<lb break="no" ed="#L" n="11"/>tatem dicitur habere homo dominium, non per alias potentias. Quod tamen
+<lb ed="#L" n="12"/>non est ita ! intelligendum quod per solam voluntatem dicatur homo habere
+<lb ed="#L" n="13"/>dominium sui actus, excludendo etiam ipsam rationem a cuius obiecto
+<lb ed="#L" n="14"/>movetur ; sed quia actus intellectus non immediate efficit operationes alias,
+<lb ed="#L" n="15"/>quia eius non est movere secundum exercitium actus, sed hoc convenit
+<lb ed="#L" n="16"/>voluntati ; unde non debet dici quod homo habeat dominium super actus
+<lb ed="#L" n="17"/>suos per voluntatem simpliciter et absolute, sed per rationem et voluntatem
+<lb ed="#L" n="18"/>in quantum etiam liberum arbitrium utrumque includit, quia dicitur esse
+<lb ed="#L" n="19"/>facultas rationis et voluntatis. Unde etiam ab aliquibus  bene dicitur quod
+<lb ed="#L" n="20"/>homo habet dominium super actus suos eo quod habet deliberationem de
+<lb ed="#L" n="21"/>suis actibus. Dicitur etiam quod nihil est in potestate voluntatis sicut velle,
+<lb ed="#L" n="22"/>non quia actum volendi efficiat voluntas in se ipsa, sed quia actus volendi
+<lb ed="#L" n="23"/>non potest impediri sicut alii actus qui per voluntatem imperantur.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1206">
+               <lb ed="#L" n="24"/>Potest enim homo intelligere cum vult et quae vult. Praesente autem 
+<lb ed="#L" n="25"/>obiecto voluntatis a nullo potest prohiberi actus volendi. Sed cum 
+volun<lb break="no" ed="#L" n="26"/>tas ? est in actu volendi, potest esse impedimentum respectu actuum
+<lb ed="#L" n="27"/>aliorum. Universaliter igitur tam in voluntate quam in aliis dicendum est
+<lb ed="#L" n="28"/>quod nihil movet se ipsum, non obstantibus praemissis obiectionibus
+<lb ed="#L" n="29"/>vel quibuscumque aliis quas vidi; et hoc praecipue propter rationes activi
+<lb ed="#L" n="30"/>et passivi, ut iam allegatum est prius, quia, si de ratione potentiae activae
+<lb ed="#L" n="31"/>secundum quod huiusmodi est posse  agere in aliud secundum quod aliud,
+<lb ed="#L" n="32"/>passivae autem est transmutari ab alio secundum quod aliud, patet quod in
+<lb ed="#L" n="33"/>quolibet genere entis oportet activum et passivum esse realiter distincta,
+<pb ed="#L" n="162"/>
+               <lb ed="#L" n="1"/>Si autem dicatur quod in quibusdam de ratione potentiae activae est 
+trans<lb break="no" ed="#L" n="2"/>mutare aliud, in quibusdam idem hoc sine ratione dicitur, et in hoc etiam
+<lb ed="#L" n="3"/>manifeste contradictoria implicantur, et qua ratione dicetur in uno et in alio.
+<lb ed="#L" n="4"/>Unde, posito quod in uno solo idem agat ! in se ipsum, vel educat se de
+<lb ed="#L" n="5"/>potentia ad actum, aequali facilitate ponetur in omnibus. Nam si dicatur
+<lb ed="#L" n="6"/>quod voluntas movet se et non moveatur  ab obiecto, alioquin praesentato
+<lb ed="#L" n="7"/>obiecto uno duobus, qua ratione voluntas unius moveretur, eadem ratione
+<lb ed="#L" n="8"/>voluntas alterius moveretur ; quod tamen non contingit, ut patet praecipue
+<lb ed="#L" n="9"/>per exemplum Augustini, duodecimo de Civitate Dei, de duobus aequaliter
+<lb ed="#L" n="10"/>dispositis quorum unus movetur ad praesentiam cuiusdam obiecti 
+delecta<lb break="no" ed="#L" n="11"/>bilis, non autem alius. Sed si ponantur duo ligna eiusdem condicionis ad
+<lb ed="#L" n="12"/>praesentiam ignis, si unum calefit oportet etiam quod aliud calefiat ; ergo
+<lb ed="#L" n="13"/>in istis est manifestum quod fiunt in actu, igne agente, non sic autem in
+<lb ed="#L" n="14"/>habentibus voluntatem respectu obiecti — dici poterit quod hoc non valet ad
+<lb ed="#L" n="15"/>ostendendum quod sola voluntas movet se, quia quod duo ligna aeque 
+dispo<lb break="no" ed="#L" n="16"/>sita ad praesentiam ignis aeque calefiant, non sic autem aequaliter movetur
+<lb ed="#L" n="17"/>voluntas duorum ad praesentiam alicuius volibilis, hoc contingit ex parte
+<lb ed="#L" n="18"/>voluntatis ex libertate talis agentis abstracti, scilicet quod non determinatur
+<lb ed="#L" n="19"/>virtus eius activa ad actum secundum praesentiam talis obiecti. Sed lignum
+<lb ed="#L" n="20"/>quod omnino naturaliter et determinate agit per se ipsum, calefacit seipsum
+<lb ed="#L" n="21"/>praesente igne, quia ex natura sua ad hoc est determinatum. Hoc ergo
+<lb ed="#L" n="22"/>dicetur contingere non quia voluntas sit potentia activa, lignum autem
+<lb ed="#L" n="23"/>non, sed quia haec ? potentia activa est determinata ad talem actum, non
+<lb ed="#L" n="24"/>illa; sicut etiam de voluntate dicitur quod est potentia activa respectu
+<lb ed="#L" n="25"/>ultimi finis, et tamen, ultimo fine apprehenso a quocumque, de necessitate
+<lb ed="#L" n="26"/>fertur ad illum et de necessitate facit se volentem finem, sicut lignum de
+<lb ed="#L" n="27"/>necessitate facit se calidum, praesente igne. Videtur ergo ista positio falsa.
+<lb ed="#L" n="28"/>Nec obstat quod dicit Augustinus 83 quaestionibus, 9, quod moveri per se
+<lb ed="#L" n="29"/>animam sentit qui sentit in se esse voluntatem, nam si volumus non alius de
+<lb ed="#L" n="30"/>nobis vult; quia per hoc non intelligit quod voluntas ab obiecto non moveatur,
+<lb ed="#L" n="31"/>sed quod etiam iste motus est voluntarius et non fit in nobis, invitis nobis,
+<lb ed="#L" n="32"/>quia ab alio ad volendum non impellimur nec cogimur, sicut aliquis de
+<lb ed="#L" n="33"/>manu mea, me invito, scriberet ; unde subdit ibidem: et ille motus animae
+<lb ed="#L" n="34"/>spontaneus est. Hoc enim tributum est ei a Deo et sic est per se ab anima,
+<lb ed="#L" n="35"/>sic quod licet  sit ab obiecto movente est tamen sic quod anima non 
+com<lb break="no" ed="#L" n="36"/>pellitur sed libere consentit. Non similiter autem se habet in aliis motibus ?
+<pb ed="#L" n="163"/>
+               <lb ed="#L" n="1"/>qui nobis invitis possunt fieri in nobis et de nobis. Et hoc est quod prius
+<lb ed="#L" n="2"/>dicit quod si volumus, non alius vult de nobis, quia sponte et nobis 
+consen<lb break="no" ed="#L" n="3"/>tientibus fit actus voluntatis. Sed cum inviti scribimus per manus motum
+<lb ed="#L" n="4"/>violentum, nos proprie non scribimus, sed alius de nobis scribit. Item
+<lb ed="#L" n="5"/>nituntur plures ostendere auctoritate Aristotelis et Commentatoris quod
+<lb ed="#L" n="6"/>voluntas moveat seipsam per hoc quod dicitur nono Metaphysicae, quod
+<lb ed="#L" n="7"/>cum potentiae rationales sint ad opposita, quia scientia est contrariorum,
+<lb ed="#L" n="8"/>non sunt principia alicuius actionis ex se solum, alioquin contraria simul
+<lb ed="#L" n="9"/>agerent, ideo necesse est, ut sit dominus verus alius ' quod sit causa in
+<lb ed="#L" n="10"/>hoc quod agunt alterum contrariorum quandoque et quandoque alterum.
+<lb ed="#L" n="11"/>Et hoc est verum principium. Et hoc principium quod facit magis agere
+<lb ed="#L" n="12"/>contrarium quam alterum est appetitus et voluntas. Ex hoc videtur quod
+<lb ed="#L" n="13"/>voluntas moveat se libere ad, alterum contrariorum et non moveatur ab
+<lb ed="#L" n="14"/>aliquo illorum.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1343">
+               <lb ed="#L" n="15"/>Et est dicendum quod, cum voluntas sive volens non determinatur ad
+<lb ed="#L" n="16"/>alterum nisi propter aliquid propter quod agere vult, oportet quod ad hoc
+<lb ed="#L" n="17"/>quod alterum magis eligat et magis appetat propter  hoc sit quia illud
+<lb ed="#L" n="18"/>aestimat melius et magis eligendum. Hoc autem contingit ex aliquo bono
+<lb ed="#L" n="19"/>apprehenso a quo voluntas, quasi a fine mota, ex consequenti eligit alterum
+<lb ed="#L" n="20"/>contrariorum quod magis ordinatur ad illum finem quem ? magis appetit.
+<lb ed="#L" n="21"/>Unde subdit ibi, scilicet in nono Metaphysicae : appetitus enim, cum fuerit
+<lb ed="#L" n="22"/>alterius contrariorum, tunc actio agentis pendet ex illo contrario; et similiter
+<lb ed="#L" n="23"/>a voluntate; et ille non agit ? de contrariis nisi illud quod magis appetit.
+<lb ed="#L" n="24"/>Ipse autem Commentator dicit, duodecimo Metaphysicae, quod aliquid
+<lb ed="#L" n="25"/>desideratur quia aestimatur esse bonum et quanto magis aliquid fuerit
+<lb ed="#L" n="26"/>aestimatum bonum, tantum desiderium erit maius ; et sic voluntas non
+<lb ed="#L" n="27"/>movet se, sed movetur a bono apprehenso secundum modum et formam
+<lb ed="#L" n="28"/>apprehensionis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1376">
+               <lb ed="#L" n="29"/>Ex dictis ergo Philosophi magis arguitur ipsum propositum quam
+<lb ed="#L" n="30"/>contrarium. Quidam tamen arguunt adhuc quod  non oportet movens
+<lb ed="#L" n="31"/>et motum esse distincta subiecto per hoc quod dicit Commentator, 
+duo<lb break="no" ed="#L" n="32"/>decimo  Metaphysicae, quod balneum quod est in anima est movens
+<lb ed="#L" n="33"/>secundum rationem efficientis et secundum quod est in re secundum
+<lb ed="#L" n="34"/>rationem finis. Propter formam enim balnei quae est in anima desideramus
+<lb ed="#L" n="35"/>formam aliam quae est extra animam. Forma ergo balnei quae est in anima
+<lb ed="#L" n="36"/>est agens desiderium et motum ; secundum autem quod est extra animam
+<pb ed="#L" n="164"/>
+               <lb ed="#L" n="1"/>est finis motus. Ex hoc autem videtur quod cum voluntas cuius est 
+desi<lb break="no" ed="#L" n="2"/>derare sit in anima et etiam forma balnei in anima, quod idem subiecto est
+<lb ed="#L" n="3"/>movens et motum. Sed illud magis est ad nostrum propositum, scilicet ad '
+<lb ed="#L" n="4"/>ostendendum quod voluntas non moveat se, sed quod moveatur ab obiecto
+<lb ed="#L" n="5"/>apprehenso, quia bonum secundum quod apprehensum movet voluntatem
+<lb ed="#L" n="6"/>vel ad  actum volitionis ut hoc dicitur secundum rationem causae 
+effi<lb break="no" ed="#L" n="7"/>cientis, licet secundum quod est in se ipso moveat in ratione finis. 
+Quo<lb break="no" ed="#L" n="8"/>modo autem ex hoc non sequitur quod movens et motum sint idem subiecto
+<lb ed="#L" n="9"/>declarabitur ostendendo quomodo obiectum primo movet intellectum et
+<lb ed="#L" n="10"/>deinde voluntatem. Licet etiam verum sit  quoddam dictum Commentatoris,
+<lb ed="#L" n="11"/>nono Metaphysicae, quod contra hoc inducitur, tamen non est secundum
+<lb ed="#L" n="12"/>intentionem Aristotelis ibidem, prout patet ex nova translatione quae
+<lb ed="#L" n="13"/>certior est.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1426">
+               <lb ed="#L" n="14"/>Si tamen recte intelligatur, illud dictum Commentatoris  non facit pro
+<lb ed="#L" n="15"/>illis. Littera quam exponit sic Commentator  habet: for te possibile ut actio
+<lb ed="#L" n="16"/>et passio sint sicut una potentia, forte erit sicut alia; quaedam enim est in
+<lb ed="#L" n="17"/>passivo et quaedam in agente. Item, quod Commentator non sit pro eis patet.
+<lb ed="#L" n="18"/>Dicit enim sic Commentator: possibile est ut potentiae activae et passivae
+<lb ed="#L" n="19"/>ab eis sint in eodem. Aestimatur enim quod potentia quae est in agente
+<lb ed="#L" n="20"/>est entis cuius est potentia passionis, verbi gratia, illud quod movetur in
+<lb ed="#L" n="21"/>loco per se. Alteratio autem et generatio aestimatur esse ut principium
+<lb ed="#L" n="22"/>actionis in eis sit in subiecto alio a principio passivo. Ex istis enim patet
+<lb ed="#L" n="23"/>quid Commentator intelligit per principium activum et passivum esse in
+<lb ed="#L" n="24"/>eodem vel non esse in eodem . Non enim intelligit hoc esse in eodem
+<lb ed="#L" n="25"/>subiecto indivisibili sed communi. Animal enim quod movetur est quid
+<lb ed="#L" n="26"/>unum secundum substantiam, divisibile est autem  secundum diversas
+<lb ed="#L" n="27"/>partes organicas secundum quarum unam potest dici movens, secundum
+<lb ed="#L" n="28"/>aliam ? motum. Unde in motu animalis movens et motum non differunt loco
+<lb ed="#L" n="29"/>nec subiecto nec re, sed situ tantum, ut patet in homine in quo est anima
+<lb ed="#L" n="30"/>quae est tota in qualibet parte quae, ut est in parte una, puta dextra, movet
+<lb ed="#L" n="31"/>aliam, puta sinistram ; sed quia istae sunt partes unius totius quod est
+<lb ed="#L" n="32"/>unum ab una forma substantiali ideo dicuntur esse in eodem dicto modo.
+<lb ed="#L" n="33"/>Verum quia illud quod alteratur et generatur et transmutatur ab eo quod
+<lb ed="#L" n="34"/>non est idem cum ipso nec subiecto nec etiam unius formae substantialis
+<lb ed="#L" n="35"/>participatione, ideo ibi dicitur quod sunt simpliciter hae potentiae in alio
+<lb ed="#L" n="36"/>et alio. Ex hoc etiam potest patere quare animal non dicitur alterari ex se
+<pb ed="#L" n="165"/>
+               <lb ed="#L" n="1"/>cum una pars ab alia alteratur. Dicitur tamen moveri ex se secundum locum
+<lb ed="#L" n="2"/>cum una pars ab alia movetur. Huius ! ratio est, quia una pars non alterat
+<lb ed="#L" n="3"/>aliam nisi etiam ipsa iam sit ab alio alterata et nisi existens in actu in
+<lb ed="#L" n="4"/>quantum facit aliam in actu, sicut hepar non calefacit stomachum nisi sit
+<lb ed="#L" n="5"/>calefactum. Sed primum movens in animali secundum locum, licet sit 
+trans<lb break="no" ed="#L" n="6"/>mutatum secundum aliquam qualitatem et alterationem,non tamen secundum
+<lb ed="#L" n="7"/>loci mutationem. Unde quia non mota localiter movet aliam et sic motum
+<lb ed="#L" n="8"/>localem quem prius animal non habebat formaliter nec in parte movente nec
+<lb ed="#L" n="9"/>in mota, nunc habet ab aliqua sui parte illum primo agente. Non sic autem
+<lb ed="#L" n="10"/>potest dici in alia transmutatione. Ideo dicitur animal ex se habere motum
+<lb ed="#L" n="11"/>localem, quia ex aliqua sui parte, sed non mota localiter. Deinde subdit
+<lb ed="#L" n="12"/>Commentator super illud : In quibusdam rebus potentia activa erit in ipso
+<lb ed="#L" n="13"/>passivo et in quibusdam in alio ; et intendit quod non est necesse quod hoc
+<lb ed="#L" n="14"/>principium sit in subiecto diverso in quo est potentia passionis in loco.
+<lb ed="#L" n="15"/>Et hoc etiam inducitur contra praedicta.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1514">
+               <lb ed="#L" n="16"/>Sed ex hoc etiam nihil habetur contra illa . Loquitur enim de his
+<lb ed="#L" n="17"/>quae per aliquod agens principium reducuntur de potentia ad actum, non
+<lb ed="#L" n="18"/>solum secundum motum localem, sed secundum formam aliquam. Quod
+<lb ed="#L" n="19"/>patet per hoc quod dicit postea: Passivum enim patitur secundum quod
+<lb ed="#L" n="20"/>habet principium quod differt ab ipso quod extrahit ipsum de potentia ad
+<lb ed="#L" n="21"/>actum. Talium autem quaedam producuntur a principio simpliciter 
+sepa<lb break="no" ed="#L" n="22"/>rato et distincto loco et subiecto, ut contingit in his quae non generantur
+<lb ed="#L" n="23"/>ex semine, ut cum ex aqua generatur ignis ab igne; quaedam autem a
+<lb ed="#L" n="24"/>principio coniuncto, non secundum aliquid indivisibile nec secundum 
+parti<lb break="no" ed="#L" n="25"/>cipationem unius formae substantialis cum passivo, sicut contingit in motis
+<lb ed="#L" n="26"/>ex se localiter quantum ad animalia, sed in coniuncto cum passivo in aliqua
+<lb ed="#L" n="27"/>massa una habente tamen partes quantitativas et formales, sicut est ? 
+com<lb break="no" ed="#L" n="28"/>mixtum ex seminibus maris et feminae. In illo enim est activum coniunctum
+<lb ed="#L" n="29"/>passivo, sed non in eadem parte indivisibili, sed sunt propinqua ; unde talia
+<lb ed="#L" n="30"/>quae sic coniunguntur in una massa non sunt proprie distincta loco prout
+<lb ed="#L" n="31"/>hic ? dicit. Quod etiam dicit Commentator, octavo Physicorum, quod sermo
+<lb ed="#L" n="32"/>Aristotelis dicentis quod impossibile est ut aliquid moveat secundum quod
+<lb ed="#L" n="33"/>movetur, tenet in motis et moventibus quae moventur univoce et hoc dicit
+<lb ed="#L" n="34"/>quia hoc non est impossibile nisi in motoribus qui non sunt corpora aut
+<lb ed="#L" n="35"/>virtutes in corporibus; philosophi enim aestimaverunt quod abstracta movent
+<pb ed="#L" n="166"/>
+               <lb ed="#L" n="1"/>se; sed si hoc fuerit ita, tunc motus et movere illic dicuntur aequivoce cum
+<lb ed="#L" n="2"/>motu qui est hic.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1566">
+               <lb ed="#L" n="3"/>Hoc non valet ad ostendendum quod anima vel voluntas moveat ! se
+<lb ed="#L" n="4"/>ipsam, sed potius ad contrarium. Intelligendum tamen quod qui vult se
+<lb ed="#L" n="5"/>iuvare de hac auctoritate quantum  ad totum debet concedere quod corpus
+<lb ed="#L" n="6"/>vel virtus in corpore non potest se ipsum movere sic quod secundum unam
+<lb ed="#L" n="7"/>et eamdem partem corporalem sit movens et motum, — alioquin si 
+intelli<lb break="no" ed="#L" n="8"/>geretur sic quod sufficeret quod secundum aliqua duo essent movens et
+<lb ed="#L" n="9"/>motum sic quod totum  per se moveretur et moveret, — sed secundum unam
+<lb ed="#L" n="10"/>partem haberet rationem moventis et secundum aliam rationem moti, cum
+<lb ed="#L" n="11"/>hoc etiam oporteat ponere in omnibus moventibus se ad excludendum illud
+<lb ed="#L" n="12"/>inconveniens quod idem secundum idem sit actu et potentia; nec valeret
+<lb ed="#L" n="13"/>differentia quam videtur ponere Commentator istorum corporalium ad 
+sepa<lb break="no" ed="#L" n="14"/>rata. Item, si secundum Commentatorem in separatis non tenet quin idem
+<lb ed="#L" n="15"/>possit esse movens et motum, eo quod ibi non est vere et proprie motus,
+<lb ed="#L" n="16"/>etiam  vocando verum motum exitum de potentia ad actum qui nullo modo
+<lb ed="#L" n="17"/>secundum ipsum est ibi, ex hoc arguitur, secundum eum, quod ubicumque 
+<lb ed="#L" n="18"/>est exitus vere de potentia ad actum, oportet ponere diversa secundum rem.
+<lb ed="#L" n="19"/>Et hoc patet expresse per Commentatorem, secundo  Physicorum, ubi dicit
+<lb ed="#L" n="20"/>quod illud quod est in potentia ad plura numquam exit in actum per se, sed
+<lb ed="#L" n="21"/>oportet quod sit aliud agens ipsum extrahens de potentia ad actum. Item,
+<lb ed="#L" n="22"/>quod illud quod dicit de separatis non valeat contra dicta patet: constat
+<lb ed="#L" n="23"/>enim quod appellando verum motum exitum de potentia ad actum qualem
+<lb ed="#L" n="24"/>ponimus in voluntate cum vult quod prius non volebat, nullo modo talis
+<lb ed="#L" n="25"/>motus secundum Philosophum et Commentatorem est in separatis, quia
+<lb ed="#L" n="26"/>nullam innovationem ponunt in eis cum nec per se nec per accidens subsint
+<lb ed="#L" n="27"/>motui caeli a quo secundum ipsos omnis exitus de potentia ad  actum
+<lb ed="#L" n="28"/>causatur. Unde, in duodecimo Metaphysicae, probatur quod substantiae
+<lb ed="#L" n="29"/>separatae semper sunt in actu; immo quod in eis idem est secundum rem
+<lb ed="#L" n="30"/>intellectus et intellectum ? et actus intelligendi. Ergo prout hic? dicit 
+Com<lb break="no" ed="#L" n="31"/>mentator: si verum est dictum Platonis, scilicet quod moveant se, 
+intelli<lb break="no" ed="#L" n="32"/>gitur de motu aequivoce dicto, id est solum secundum.rationem intelligendi,
+<lb ed="#L" n="33"/>quia ibi intelligitur aliquid ut intelligens  et aliquid ut intellectum et ipsum
+<lb ed="#L" n="34"/>intelligere quasi quiddam secundum fieri et moveri, et hoc quidem modo
+<lb ed="#L" n="35"/>movere se ipsum perfectissime convenit primo "abstracto, scilicet Deo,
+<lb ed="#L" n="36"/>a quo tamen omnis potentia est relegata. Unde dicit Augustinus, octavo
+<pb ed="#L" n="167"/>
+               <lb ed="#L" n="1"/>super Genesim, quod Spiritus Creator movet seipsum sine tempore et
+<lb ed="#L" n="2"/>loco.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1649">
+               <lb ed="#L" n="3"/>Item, solent etiam induci plures instantiae contra id quod dicitur quod
+<lb ed="#L" n="4"/>oportet per se et primo movens et per se et primo motum esse distincta
+<lb ed="#L" n="5"/>subiecto, scilicet de motu gravis deorsum et e converso. Possum addere de
+<lb ed="#L" n="6"/>motu gravis sursum, scilicet de ascensu ! aquae in urinali vel in clepsydra 
+<lb ed="#L" n="7"/>sive in canteplora ? et huiusmodi ; item, de motu ferri  ad adamantem, in
+<lb ed="#L" n="8"/>quibus non apparet motor distinctus ; item, quod non secundum locum solum,
+<lb ed="#L" n="9"/>sed etiam secundum alterationem et augmentum idem moveat se ipsum
+<lb ed="#L" n="10"/>ut  videtur de aqua calefacta quae revertitur ad frigiditatem maiorem quam
+<lb ed="#L" n="11"/>sit frigiditas aeris continentis, ut prius inductum est. Item, nutriens se ipsum
+<lb ed="#L" n="12"/>uniendo sibi nutrimentum extendit quantitatem suam. Item, cum haec etiam
+<lb ed="#L" n="13"/>sunt exempla inducta a Philosopho et Commentatore de libro de Morte et
+<lb ed="#L" n="14"/>Vita. Nam ignis deficit non solum actione contrarii, sed etiam actione sui
+<lb ed="#L" n="15"/>ipsius in se ipso, scilicet marcescendo. Item, calidum naturale agit continue
+<lb ed="#L" n="16"/>in humidum radicale in quo est tanquam in subiecto; et multa alia consimilia.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1682">
+               <lb ed="#L" n="17"/>Sed dicendum quod in omnibus istis non est idem movens et motum
+<lb ed="#L" n="18"/>per se, sed in aliquibus idem est movens et motum per accidens ut in
+<lb ed="#L" n="19"/>descensu gravis. [In aliis autem est movens per se distinctum sed latens.
+<lb ed="#L" n="20"/>Haec autem sunt magis naturalis quam theoreticae speculationis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1693">
+               <lb ed="#L" n="21"/>His visis, patet responsio ad auctoritatem Anselmi in principio inductam
+<lb ed="#L" n="22"/>in qua dicit quod anima et voluntas movent se secundum affectiones.
+<lb ed="#L" n="23"/>Dicendum est enim quod per affectionem in appetitu vel in voluntate
+<lb ed="#L" n="24"/>existentem potest intelligi ipsa naturalis idoneitas ut aptitudo qua voluntas
+<lb ed="#L" n="25"/>naturaliter inclinatur ad bonum vel aliqua habitualis dispositio superaddita
+<lb ed="#L" n="26"/>per acquisitionem vel per infusionem ; et est intelligendum quod per 
+huius<lb break="no" ed="#L" n="27"/>modi affectionem non dicitur voluntas se movere per se et directe, sed
+<lb ed="#L" n="28"/>indirecte et quasi dispositive, in quantum scilicet per talem affectionem
+<lb ed="#L" n="29"/>sic est disposita quod per illam habet quamdam conformitatem ad quaedam
+<lb ed="#L" n="30"/>obiecta sic quod cum apprehenduntur ab intellectu apprehenduntur sub
+<lb ed="#L" n="31"/>ratione boni et convenientis. Sic autem apprehensa per se et directe movent
+<lb ed="#L" n="32"/>voluntatem sicut obiectum movet potentiam. Et hoc patet per exempla quae
+<lb ed="#L" n="33"/>circa hoc inducit Anselmus. Eadem etiam est sententia Philosophi dicentis,
+<lb ed="#L" n="34"/>tertio Ethicorum, quod qualis unusquisque est talis finis videtur ei et cetera.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1726">
+               <lb ed="#L" n="35"/>Restat respondere ad instantias suprapositas. Prima autem dictarum
+<lb ed="#L" n="36"/>instantiarum inductarum, scilicet in principio quaestionis, est  de innova-
+<pb ed="#L" n="168"/>
+               <lb ed="#L" n="1"/>tionibus actuum quibus angeli intelligunt alia a se ex naturalibus, quia
+<lb ed="#L" n="2"/>videtur quod per aliquid in eis existens reducunt se de potentia ad actum
+<lb ed="#L" n="3"/>secundum huiusmodi actus cum nihil extrinsecum videatur agere in ipsos.
+<lb ed="#L" n="4"/>Item de peccato primi angeli qui causavit in se suam malam voluntatem.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1745">
+               <lb ed="#L" n="5"/>Et quantum ad praesens est dicendum quod illi philosophi praecipui
+<lb ed="#L" n="6"/>qui ductu naturalis rationis absque lumine fidei de talibus tractaverunt totum
+<lb ed="#L" n="7"/>exitum de potentia in actum circa substantias separatas negaverunt, propter
+<lb ed="#L" n="8"/>quod id quod circa hoc tenemus magis ex auctoritate Sacrae Scripturae et
+<lb ed="#L" n="9"/>fidei adhaesione tenemus quam per rei evidentiam capiamus. Quae autem
+<lb ed="#L" n="10"/>fide tenentur suppono esse verissima. Sed cum talia quae ! in vita praesenti
+<lb ed="#L" n="11"/>aut non possunt aut cum magna difficultate, etiam a paucis de quorum
+<lb ed="#L" n="12"/>numero non sum, possunt per evidentiam rationis alicuius intelligi vel sciri ;
+<lb ed="#L" n="13"/>unde etiam quia casum diaboli firmissime ex fide supponimus, sed modum
+<lb ed="#L" n="14"/>sui casus sive quomodo cadere potuit Scriptura perfecte non exprimit, licet
+<lb ed="#L" n="15"/>illum innuat, quia etiam hoc magnam et diffusam declarationem et 
+explana<lb break="no" ed="#L" n="16"/>tionem requirit, ideo de hoc me breviter expedio dicendo quod ex casu eius
+<lb ed="#L" n="17"/>non probatur quod idem subiecto moveat seipsum, quia non peccavit nisi
+<lb ed="#L" n="18"/>spontanea voluntate appetendo aliquid modo quo illud appetere non debuit.
+<lb ed="#L" n="19"/>Obiectum ergo apprehensum, supposita defectibilitate voluntatis et 
+incon<lb break="no" ed="#L" n="20"/>sideratione et aliquali negligentia rationis, causavit in eo actum volendi,
+<lb ed="#L" n="21"/>quo actu peccavit ex eo quod illud obiectum appetiit modo quo non
+<lb ed="#L" n="22"/>debuit non ex errore vel ignorantia, praecedente duratione, sed nescientia
+<lb ed="#L" n="23"/>simplici ex defectu considerationis modi quem considerare debuisset, quam
+<lb ed="#L" n="24"/>tamen nescientiam vel  inconsiderationem sequebatur error vel ignorantia
+<lb ed="#L" n="25"/>in hora qua illicite consensit . Et huiusmodi error vel ignorantia, licet fuerit
+<lb ed="#L" n="26"/>duratione simul cum ipso consensu, naturaliter tamen prior fuit. Nisi ergo
+<lb ed="#L" n="27"/>ostendatur quod primus homo causavit in se actum intelligendi, non 
+osten<lb break="no" ed="#L" n="28"/>ditur quod idem moveat se, quia dicitur quod illud idem quod est obiectum
+<lb ed="#L" n="29"/>intellectus est obiectum voluntatis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1802">
+               <lb ed="#L" n="30"/>Et ideo esset ulterius considerandum quomodo angeli reducuntur in
+<lb ed="#L" n="31"/>actum intelligendi eorum quae prius actu non intelligunt. Et quia hoc etiam
+<lb ed="#L" n="32"/>videtur esse de his quae  fide tenemus, quia ea quae praecipui philosophi
+<lb ed="#L" n="33"/>circa hoc ductu naturalis rationis investigare potuerunt non consonant his
+<lb ed="#L" n="34"/>quae a catholicis sunt tenenda, nec modus circa hoc etiam expresse habetur
+<lb ed="#L" n="35"/>in Scriptura, de hoc etiam  doctores contraria opinantur. Sicut de aliis
+<lb ed="#L" n="36"/>credibilibus confiteor, ita et de isto, quod nescio istum modum ; nondum
+<pb ed="#L" n="169"/>
+               <lb ed="#L" n="1"/>enim vidi circa modum cognoscendi angelorum modum ponendi qui 
+intel<lb break="no" ed="#L" n="2"/>lectum quietare possit. Dicunt enim aliqui quod universaliter in angelis et
+<lb ed="#L" n="3"/>in intellectu nostro est intellectus agens qui est lux increata, et secundum
+<lb ed="#L" n="4"/>hoc cum illa sufficiat ad repraesentandum omnia scibilia per influentiam
+<lb ed="#L" n="5"/>illius lucis in intelligentia angelorum causatur intellectus cuiuscumque entis,
+<lb ed="#L" n="6"/>sicut per influentiam eiusdem secundum rationes ideales per applicationem
+<lb ed="#L" n="7"/>voluntatis divinae causatur rerum entitas vel existentia in se ipsis. Alii autem
+<lb ed="#L" n="8"/>dicunt quod naturalem cognitionem habent de rebus aliis a se ex ipsarum
+<lb ed="#L" n="9"/>rerum existentia. Unde videtur dicere Augustinus, quarto super Genesim
+<lb ed="#L" n="10"/>capitulo trigesimo quinto, quod minor cognitio vespera dicta est, quam
+<lb ed="#L" n="11"/>cognitionem sane praecedebant quae fiebant, quia praecedit cognitionem
+<lb ed="#L" n="12"/>quicquid cognosci potest. Et ponunt quod per abstractionem a rebus fiat
+<lb ed="#L" n="13"/>eorum cognitio. Alii dicunt  quod cognoscunt per quasdam species 
+con<lb break="no" ed="#L" n="14"/>creatas sive per quosdam habitus inditos in quibus secundum rationem
+<lb ed="#L" n="15"/>obiecti moventis omnia creata relucent, et super hunc modum fundantur
+<lb ed="#L" n="16"/>dictae instantiae.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1857">
+               <lb ed="#L" n="17"/>Sed istud numquam capere potui, quia, sicut dictum est supra, illae
+<lb ed="#L" n="18"/>species cum intellectu faciunt unum compositum cuius est per se agere
+<lb ed="#L" n="19"/>in aliud vel per se pati ab alio et ideo illud quod sic additur potest esse
+<lb ed="#L" n="20"/>ratio agendi in aliud vel patiendi ab alio, sed non potest agere in illud cui
+<lb ed="#L" n="21"/>inhaeret et quod informat. Sed circa hoc nihil definio. Sed quantum ad
+<lb ed="#L" n="22"/>praesens sufficit videtur posse dici quod per huiusmodi species aliquo modo
+<lb ed="#L" n="23"/>determinantes et habilitantes ad obiecta in virtute luminis aeterni super
+<lb ed="#L" n="24"/>mentes eorum irradiantis, non gratuita illustratione et speciali — sic enim non
+<lb ed="#L" n="25"/>illustrantur daemones — sed quasi naturali et generali, fiunt actu intelligentes
+<lb ed="#L" n="26"/>singula, quomodocumque ergo hoc contingat. Non dico quod moveantur
+<lb ed="#L" n="27"/>nisi ab obiecto et dico, sicut alias dixi, quo talia ardua dubia et difficilia non
+<lb ed="#L" n="28"/>ostendunt directe propositum ad quod inducuntur, sed magis innuunt 
+oppo<lb break="no" ed="#L" n="29"/>situm, scilicet quod idem non potest educere seipsum de potentia in actum
+<lb ed="#L" n="30"/>aut quod hoc non videtur de facili applicabile  animo per hoc quod talia
+<lb ed="#L" n="31"/>dicta petunt evolutionem difficultatum latentium. Nisi enim hoc obstaret
+<lb ed="#L" n="32"/>quod unum et idem secundum rem non potest reducere se de potentia ad
+<lb ed="#L" n="33"/>actum, facile esset solvere omnia supra posita et etiam alia; nec diceremus
+<lb ed="#L" n="34"/>necessarias species in intellectu angeli, sed sufficeret praesentia vel existentia
+<lb ed="#L" n="35"/>rei ut causa sine qua non. Etenim sicut dicitur quod praesente obiecto, nihil
+<pb ed="#L" n="170"/>
+               <lb ed="#L" n="1"/>tamen faciente in voluntate, voluntas facit se de non volente volentem, ita
+<lb ed="#L" n="2"/>obiecto praesente nihil in intellectu faciente, intellectus faceret se de non
+<lb ed="#L" n="3"/>intelligente intelligentem. Non apparet enim ratio quare de voluntate sic
+<lb ed="#L" n="4"/>ponatur et non de intellectu; immo etiam ! de quocumque alio. Et si in
+<lb ed="#L" n="5"/>intellectu negatur, quare hoc etiam in voluntate non negetur ?
+</p>
+            <p xml:id="v27ab7-g12787-d1e1914">
+               <lb ed="#L" n="6"/>Deinde inducuntur aliae difficultates de po tentiis animae. Sed quia,
+<lb ed="#L" n="7"/>ut dicit Aristoteles in principio de anima: omnino penitus difficillimorum
+<lb ed="#L" n="8"/>est accipere aliquam fidem de animae substantia et natura, ideo circa ipsam
+<lb ed="#L" n="9"/>et eius potentias et operationes multi fuerunt errores et adhuc sunt multae
+<lb ed="#L" n="10"/>et diversae opiniones quaedam falsae, quaedam verae, licet ignoretur quae
+<lb ed="#L" n="11"/>sint verae. Et sunt etiam plurimae difficiles dubitationes, scilicet non inductae
+<lb ed="#L" n="12"/>et quaedam aliae quas nescirem bene dissolvere. Tamen ad praedictas 
+dubi<lb break="no" ed="#L" n="13"/>tationes dissolvendas primo supponimus quod, quia aliqua principia esse
+<lb ed="#L" n="14"/>certissima oportet, alioquin nihil etiam posset per ea investigari, communia
+<lb ed="#L" n="15"/>ergo illa principia metaphysicae, quae quodam modo est omnis scientia,
+<lb ed="#L" n="16"/>debent in qualibet scientia speciali supponi; et ideo quia ex metaphysica
+<lb ed="#L" n="17"/>hoc scire debemus quod unum et idem non potest esse in actu et potentia
+<lb ed="#L" n="18"/>et quod illud quod est in potentia ad aliquid non potest se reducere ad
+<lb ed="#L" n="19"/>actum secundum illud et hoc pertinet ad metaphysicam, quia  est 
+com<lb break="no" ed="#L" n="20"/>mune omni enti, ideo  hoc debemus supponere circa angelos et circa
+<lb ed="#L" n="21"/>animam et, hoc supposito, alia quae ad ipsam animam specialiter pertinent
+<lb ed="#L" n="22"/>investigare, nec propter ignorantiam vel dubitationem circa posteriora
+<lb ed="#L" n="23"/>debemus certissima et prima negare. Si ergo alicui videatur quod, supposito
+<lb ed="#L" n="24"/>quod voluntas non moveat se ipsam, difficile sit servare libertatem quam
+<lb ed="#L" n="25"/>sua aestimatione vult ponere in voluntate sicut placet ex hoc posteriori,
+<lb ed="#L" n="26"/>non debet procedere ad negationem priorum et certorum, sed propter
+<lb ed="#L" n="27"/>certitudinem priorum quae supponere habet debet studere quomodo illis
+<lb ed="#L" n="28"/>posteriora concordet. Unde quantum ad praesens est dicendum quod
+<lb ed="#L" n="29"/>voluntas proprie et per se non movet intellectum nec e converso, sed
+<lb ed="#L" n="30"/>obiectum quod intellectum movet ad actum intellectionis movet etiam 
+volun<lb break="no" ed="#L" n="31"/>tatem ad actum volitionis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e1973">
+               <lb ed="#L" n="32"/>Unde, pro tanto intellectus movet voluntatem in quantum voluntas non
+<lb ed="#L" n="33"/>fit in actu a suo obiecto nisi natura saltim prius intellectus factus sit in actu
+<lb ed="#L" n="34"/>ab eodem obiecto. Unde unum et idem obiectum secundum rem  efficit
+<lb ed="#L" n="35"/>duplicem actionem ordine naturae, tamen prius unam quam alteram, sed
+<lb ed="#L" n="36"/>simul tempore in eodem subiecto, id est in anima ratione dictarum eius
+<lb ed="#L" n="37"/>potentiarum, scilicet intellectus et volunta tis.
+<pb ed="#L" n="171"/>
+               <lb ed="#L" n="1"/>Voluntas autem dicitur movere intellectum quantum ad exercitium actus
+<lb ed="#L" n="2"/>in quantum movet potentias sensitivas intellectui ! subservientes quae sunt
+<lb ed="#L" n="3"/>organicae ad debitam formationem phantasmatum, quibus factis virtute
+<lb ed="#L" n="4"/>intellectus agentis semper quantum est de se in actu existentis fit illustratio
+<lb ed="#L" n="5"/>super phantasmata convenienter disposita et abstractio sive formatio obiecti
+<lb ed="#L" n="6"/>convenientis ipsius intellectus quo fit in actu ipse intellectus possibilis.
+</p>
+            <p xml:id="v27ab7-g12787-d1e2004">
+               <lb ed="#L" n="7"/>Sed tunc restat maior difficultas de illo obiecto? intellectus et voluntatis
+<lb ed="#L" n="8"/>et de istis potentiis deservientibus intellectui et voluntati quae sic moventur
+<lb ed="#L" n="9"/>a voluntate, quia omnes potentiae simul subiecto sunt in quantum subiective
+<lb ed="#L" n="10"/>sunt in anima quae est in toto corpore. Phantasmata, etiam rebus corruptis,
+<lb ed="#L" n="11"/>remanentia in memoria vel phantasia sunt in eodem subiecto cum intellectu
+<lb ed="#L" n="12"/>et voluntate et est dicendum quod est considerare animam secundum eius
+<lb ed="#L" n="13"/>essentiam vel substantiam et secundum eius potentias. Primo modo sic est
+<lb ed="#L" n="14"/>tota in toto corpore et in qualibet parte eius propter eius indivisibilitatem
+<lb ed="#L" n="15"/>per se et per accidens et sic non est immediatum principium alicuius 
+opera<lb break="no" ed="#L" n="16"/>tionis secundae. Secundo modo sic quantum ad aliquas eius potentias est
+<lb ed="#L" n="17"/>in aliqua parte corporis determinata, quantum ad aliquas in nulla, scilicet
+<lb ed="#L" n="18"/>quantum ? ad intellectum et voluntatem quae non sunt organicae. Et sicut
+<lb ed="#L" n="19"/>substantia per se unitur materiae et facit unum per se cum materia, ita
+<lb ed="#L" n="20"/>potentiae etiam sensitivae per se ut in subiecto sunt in coniuncto ex anima
+<lb ed="#L" n="21"/>et corpore sive in corpore et in parte determinata secundum determinatam
+<lb ed="#L" n="22"/>dispositionem corporis. Intellectus autem et voluntas nec per se sunt 
+per<lb break="no" ed="#L" n="23"/>fectio materiae vel in materia, nec etiam in coniuncto nec in aliqua parte
+<lb ed="#L" n="24"/>corporis, immo ut sic sunt separatae eo quod operatio earum non exercetur
+<lb ed="#L" n="25"/>per corpus, quia nec per aliquam partem corporis sive per aliquod organum
+<lb ed="#L" n="26"/>corporale; et ideo licet anima ut essentia vel forma substantialis sit in illa
+<lb ed="#L" n="27"/>parte corporis in qua est phantasia et sic de aliis, tamen ipsa sub ratione
+<lb ed="#L" n="28"/>talis potentiae sive talis potentia quae est intellectus vel voluntas ut sic 
+<lb ed="#L" n="29"/>nec est in hac parte corporis nec in illa, quia in nulla, et ideo dicitur quod
+<lb ed="#L" n="30"/>substantia animae est coniuncta, potentia vero intellectiva separata, non
+<lb ed="#L" n="31"/>quia secundum rem non sit subiective in ipsa anima quae est in materia
+<lb ed="#L" n="32"/>ut perfectio eius, sed quia per se nec est in toto nec in aliqua parte sicut
+<lb ed="#L" n="33"/>nec operatio quae per eam exercetur. Sicut ergo potentia quae esset in alia
+<lb ed="#L" n="34"/>parte corporis a parte in qua est phantasia  posset immutari et moveri ab
+<lb ed="#L" n="35"/>eo quod esset in phantasia, ita potentia quae non est determinata ad partem
+<lb ed="#L" n="36"/>in qua est phantasia, sed est extra illam sic quod non plus est ibi quam in
+<pb ed="#L" n="172"/>
+               <lb ed="#L" n="1"/>pede, ab co quod est in phantasia poterit immutari. Ita autem est in 
+pro<lb break="no" ed="#L" n="2"/>posito, quia illae potentiae non sunt sic alligatae et immersae materiae sicut
+<lb ed="#L" n="3"/>aliae, sed sunt dicto modo abstractae et separatae. Propter quod etiam
+<lb ed="#L" n="4"/>obiectum ipsius intellectus secundum quod huiusmodi, licet adminiculo
+<lb ed="#L" n="5"/>phantasmatis formetur, tamen non concernit subiectum determinatum in
+<lb ed="#L" n="6"/>aliqua parte corporis, sed ut sic importat quid abstractum secundum se,
+<lb ed="#L" n="7"/>ens aliquid non designatum ! ad hoc et nunc. Quod autem dicitur quod
+<lb ed="#L" n="8"/>intellectus agens est memoria cuius est agere et producere prolem in ipsa
+<lb ed="#L" n="9"/>intelligentia et cetera, dicendum quod hoc dictum videtur originem sumpsisse
+<lb ed="#L" n="10"/>a dictis meis alibi male tamen intellectis , quia non dixi asserendo quod
+<lb ed="#L" n="11"/>intellectus agens sit omnino proprie et perfecte memoria nec quod aliquam
+<lb ed="#L" n="12"/>actionem per se et proprie faciat in intellectu possibili, sed quod pro quanto
+<lb ed="#L" n="13"/>pertinet ad naturam mentis in anima secundum quam anima facta est ad
+<lb ed="#L" n="14"/>Dei imaginem debet ad imaginem pertinere, et cum sint tres partes imaginis,
+<lb ed="#L" n="15"/>scilicet memoria intelligentia et voluntas, et memoria secundum quod ad
+<lb ed="#L" n="16"/>imaginem dicitur pertinere videtur habere rationem agentis et parentis ;
+<lb ed="#L" n="17"/>quod etiam ad intellectum agentem pertinet videtur pro tanto  quod sit
+<lb ed="#L" n="18"/>idem quod intellectus agens, sed quomodo hoc sit intelligendum alterius
+<lb ed="#L" n="19"/>est considerationis. Cum vero dicitur quod intellectus agentis pro quanto
+<lb ed="#L" n="20"/>pertinet ad memoriam est agere, dico quod actio intellectus agentis proprie
+<lb ed="#L" n="21"/>dicta est circa phantasmata quae non sunt in intellectu possibili sed in
+<lb ed="#L" n="22"/>virtute phantastica , quomodo tamen hoc fiat, non obstante quod aliquo
+<lb ed="#L" n="23"/>modo simul subiecto sunt mediante substantia animae intellectus agens et
+<lb ed="#L" n="24"/>phantasia iam dictum est, quia etiam aliquo modo non sunt simul, in
+<lb ed="#L" n="25"/>quantum scilicet non determinat sibi aliquam partem  pro subiecto nec
+<lb ed="#L" n="26"/>etiam ipsum totum, quia non est in toto per se sed solum in anima 
+secun<lb break="no" ed="#L" n="27"/>dum  se simplici, ut dictum est. Ad omnes etiam huiusmodi instantias dici
+<lb ed="#L" n="28"/>potest quod non valent ad probandum propositum de voluntate, scilicet
+<lb ed="#L" n="29"/>quod ipsa secundum unum et idem secundum rem possit esse movens et
+<lb ed="#L" n="30"/>motum, licet videantur valere ad probandum aliquo modo quod illud quod
+<lb ed="#L" n="31"/>continet plura in eodem subiecto potest esse movens et motum secundum
+<lb ed="#L" n="32"/>illa quamvis etiam hoc non sit concedendum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

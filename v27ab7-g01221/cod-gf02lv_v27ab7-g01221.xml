@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="15"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g01221"><!-- v27ab7-q5-q4 -->
+            <head xml:id="v27ab7-g01221-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-g01221-Hd1e101" type="question-title">
+      Utrum verbum in divinis sit solum personale soli Filio
+      conveniens vel sit aliquod verbum essentiale in divinis
+    </head>
+            <p xml:id="v27ab7-g01221-d1e104">
+               <lb ed="#L" n="7"/>QUAESTIO IV.
+<lb ed="#L" n="8"/>Utrum verbum in divinis sit solum personale soli Filio
+<lb ed="#L" n="9"/>conveniens vel sit aliquod verbum essentiale in divinis.
+</p>
+            <p xml:id="v27ab7-g01221-d1e113">
+               <lb ed="#L" n="10"/>Deinde circa personam Filii quaerebantur duo. Unum erat pertinens
+<lb ed="#L" n="11"/>ad ipsam personam divinam, utrum verbum in divinis sit solum personale
+<lb ed="#L" n="12"/>soli Filio conveniens, vel sit aliquod verbum essentiale in divinis. Aliud
+<lb ed="#L" n="13"/>quaesitum circa personam Filii erat pertinens ad naturam humanam
+<lb ed="#L" n="14"/>assumptam, scilicet utrum illius incorruptionis corporis Christi, de qua
+<lb ed="#L" n="15"/>praedixit Psaltes: non dabis ? sanctum tuum videre corruptionem, fuit
+<lb ed="#L" n="16"/>causa acceleratio resurrectionis, vel conservatio miraculosa alicuius 
+for<lb break="no" ed="#L" n="17"/>mae quae prius erat in corpore vivo.
+</p>
+            <p xml:id="v27ab7-g01221-d1e133">
+               <lb ed="#L" n="18"/>Ad primum arguebatur quod verbum in divinis non solum sit 
+perso<lb break="no" ed="#L" n="19"/>nale et proprium Filio, sed sit essentiale et commune tribus personis, quia
+<lb ed="#L" n="20"/>verbum est terminus intellectualis operationis. Ergo secundum 
+multiplica<lb break="no" ed="#L" n="21"/>tionem intellectualis operationis oportet multiplicari verbum ; sed non
+<lb ed="#L" n="22"/>solum est  intelligere personale quo producitur Filius qui est verbum
+<lb ed="#L" n="23"/>personale, sed est etiam intelligere essentiale commune tribus personis.
+<lb ed="#L" n="24"/>Ergo etiam per illud intelligere producitur verbum essentiale.
+</p>
+            <p xml:id="v27ab7-g01221-d1e152">
+               <lb ed="#L" n="25"/>Contra. Illud quod importat relationem in divinis non est essentiale
+<lb ed="#L" n="26"/>sed tantum personale ; sed verbum importat relationem quia dicitur relative
+<lb ed="#L" n="27"/>ad dicentem ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g01221-d1e161">
+               <lb ed="#L" n="28"/>Respondeo dicendum quod verbum dicit aliquid emanans ab intellectu
+<lb ed="#L" n="29"/>et operatione ipsius intellectus. Unde secundum Augustinum, quinto
+<lb ed="#L" n="30"/>decimo de Trinitate capitulo vigesimo octavo: verbum est quod nascitur ex
+<pb ed="#L" n="16"/>
+               <lb ed="#L" n="1"/>scientia quam memoria tenemus, quod eiusmodi omnino est cuiusmodi
+<lb ed="#L" n="2"/>est ila scientia de qua nascitur ; formata enim cogitatio ab ea re
+<lb ed="#L" n="3"/>quam scimus verbum est quod in corde dicimus. Et ' prout dicit capitulo
+<lb ed="#L" n="4"/>trigesimo octavo : sic verbum nostrum nascitur  de nostra scientia quem 
+<lb ed="#L" n="5"/>admodum verbum Patris aeternum de substantia Patris natum ; et
+<lb ed="#L" n="6"/>secundum hoc de ratione verbi est quod sit quaedam notitia quae 
+proce<lb break="no" ed="#L" n="7"/>dat ab intelligente. Quia ergo in divinis non est notitia emanans
+<lb ed="#L" n="8"/>et declarativa ab intelligente, nisi illa quae est id  ipsa persona Filii, ideo
+<lb ed="#L" n="9"/>non est ibi verbum realiter nisi personale. Unde propter rationem inductam
+<lb ed="#L" n="10"/>in principio est intelligendum quod non est in divinis nisi unum intelligere,
+<lb ed="#L" n="11"/>scilicet intelligere essentiale commune tribus personis, quod tamen convenit
+<lb ed="#L" n="12"/>ipsi Patri ut primae personae, et quia actus intelligendi non perficitur sine
+<lb ed="#L" n="13"/>conceptu aliquo emanante ab ipso intelligente, mediante huiusmodi actu
+<lb ed="#L" n="14"/>intelligendi, ideo intelligere essentiale Dei non potest esse sine verbo
+<lb ed="#L" n="15"/>producto et concepto. Sed quia nulla actio procedit ab essentia secundum
+<lb ed="#L" n="16"/>se, sed a supposito, quia per se suppositi est agere licet ratione formae,
+<lb ed="#L" n="17"/>ideo etiam ipsum intelligere, secundum se, scilicet ut est essentiale et 
+com<lb break="no" ed="#L" n="18"/>mune tribus, non potest esse principium huiusmodi verbi emanantis ab
+<lb ed="#L" n="19"/>intellectu divino, sed  ut est primae personae quae non est ab alia et quae
+<lb ed="#L" n="20"/>includit proprietatem relativam quae est vis generativa ; et ideo verbum
+<lb ed="#L" n="21"/>productum per tale intelligere dicit respectum determinatum ad 
+determina<lb break="no" ed="#L" n="22"/>tam personam et non ad ipsum actum intelligendi secundum se. Et ideo
+<lb ed="#L" n="23"/>licet intelligere in divinis sit quid essentiale, verbum tamen quod per
+<lb ed="#L" n="24"/>ipsum concipitur non est nisi personale.
+<lb ed="#L" n="25"/>Per hoc patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

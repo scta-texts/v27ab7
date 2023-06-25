@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="60"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g04997"><!-- v27ab7-q5-q13 -->
+            <head xml:id="v27ab7-g04997-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-g04997-Hd1e101" type="question-title">
+      Utrum ille qui vovit quod certa die tota abstineret a vino quotiens
+      illo die bibit vinum sit transgressor voti
+    </head>
+            <p xml:id="v27ab7-g04997-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO XIII.
+<lb ed="#L" n="17"/>Utrum ille qui vovit quod certa die tota abstineret a vino quotiens
+<lb ed="#L" n="18"/>illo die bibit vinum sit transgressor voti.
+</p>
+            <p xml:id="v27ab7-g04997-d1e113">
+               <lb ed="#L" n="19"/>Deinde circa pertinentia ad voluntatem in comparatione ad exteriores actus 
+quae<lb break="no" ed="#L" n="20"/>rebantur quaedam pertinentia ad ipsam in comparatione ad quosdam actus ab ipsa
+<lb ed="#L" n="21"/>voluntate imperatos; quaedam pertinentia ad ipsam in comparatione ad actus ab ipsa
+<lb ed="#L" n="22"/>omissos. Circa pertinentia ad actus a voluntate imperatos quaerebantur duo. Unum erat
+<lb ed="#L" n="23"/>pertinens ad transgressionem voti, scilicet utrum ille qui vovit quod certa die tota,
+<lb ed="#L" n="24"/>Scilicet feria sexta, abstineret a vino, quotiens illo die bibit vinum sit transgressor
+<lb ed="#L" n="25"/>voti, et peccet  novo peccato qualibet vice vel hora qua primo vinum bibit. Aliud erat
+<lb ed="#L" n="26"/>pertinens ad contractum emptionis, scilicet utrum licitum sit emere redditus ad vitam
+<lb ed="#L" n="27"/>et recipere de redditibus emptis ultra sortem.
+</p>
+            <p xml:id="v27ab7-g04997-d1e135">
+               <lb ed="#L" n="28"/>Ad primum arguebatur quod qui sic vovit quolibet actu sit  transgressor voti, et
+<lb ed="#L" n="29"/>peccet novo pecca!o, quia quotiens quis facit contra id ad quod voto se obligavit, est
+<lb ed="#L" n="30"/>transgressor voti. Sed qui vovit se non bibiturum vinum sexta feria, quotiens illo die
+<lb ed="#L" n="31"/>bibit vinum facit contra promissum. Ergo ex hoc sequitur quod non solum qualibet
+<lb ed="#L" n="32"/>vice dum bibit, sed quolibet haustu vel tractu, immo secundum quamlibet guttam vini
+<lb ed="#L" n="33"/>quam sumit sit transgressor voti. Nam cum quolibet instanti talis ? actu voluntatis velit
+<lb ed="#L" n="34"/>bibere et sic uti vino et est successio temporis in diversis haustibus vel in sumptione
+<lb ed="#L" n="35"/>diversarum guttarum, ergo etiam est successio actuum voluntatis, et quolibet actu
+<lb ed="#L" n="36"/>voluntatis gustatur. Ergo et caetera.
+</p>
+            <p xml:id="v27ab7-g04997-d1e158">
+               <lb ed="#L" n="37"/>Contra arguitur quod etiam  multotiens bibens vinum, sed  non bibens tota die
+<pb ed="#L" n="61"/>
+               <lb ed="#L" n="1"/>non est. transgressor voti, quia cum pars non sit totum, pars diei non est tota dies.
+<lb ed="#L" n="2"/>Ergo qui vovit se non bibiturum tota die veneris vinum non facit contrarium huius
+<lb ed="#L" n="3"/>nisi bibat tota die vinum.
+</p>
+            <p xml:id="v27ab7-g04997-d1e171">
+               <lb ed="#L" n="4"/>Respondeo dicendum quod, quia ea quae cadunt sub voto sic sunt regulanda et
+<lb ed="#L" n="5"/>iudicanda quod nec dicatur esse faciendum ratione voti aliquid quod sub voto non
+<lb ed="#L" n="6"/>cadit, nec etiam subtrahatur a voto sive ab eius impletione id quod sub eius 
+obliga<lb break="no" ed="#L" n="7"/>tione comprehenditur, ideo ad videndum utrum talis quolibet tali actu sit transgressor
+<lb ed="#L" n="8"/>praedicti voti, est considerandum quomodo et quantum votum obligat ipsum. Et ad
+<lb ed="#L" n="9"/>huius evidentiam est intelligendum quod sicut aliquis praecepto divino obligatur ad
+<lb ed="#L" n="10"/>aliquid faciendum vel omittendum, ita etiam obligatur ex voto quod fit Deo qui 
+prae<lb break="no" ed="#L" n="11"/>cipit vota et iuramenta propria firmiter observari, et modo quo aliquis efficitur 
+trans<lb break="no" ed="#L" n="12"/>gressor praecepti efficitur etiam ! transgres sor voti. Cum autem sint paecepta negativa
+<lb ed="#L" n="13"/>quae obligant ad non faciendum aliqua, et affirmativa quae obligant ad faciendum
+<lb ed="#L" n="14"/>aliqua, sicut ille qui omittit facere id ad quod ex praecepto affirmativo tenetur, quando
+<lb ed="#L" n="15"/>illud facere tenetur, peccat et est transgressor praecepti; ita etiam qui facit aliquid
+<lb ed="#L" n="16"/>quod non tenetur facere ex praecepto et quando illud non facere ? tenetur, peccat,
+<lb ed="#L" n="17"/>et est trans gressor praecepti.
+</p>
+            <p xml:id="v27ab7-g04997-d1e204">
+               <lb ed="#L" n="18"/>Sed cum aliquis tenetur facere aliqua plura in uno die pluribus horis, puta ire ad
+<lb ed="#L" n="19"/>ecclesiam hora primae et tertiae et sic de aliis horis, cam non vadit hora prima et tunc
+<lb ed="#L" n="20"/>cogitat cogitatione in qua permanet tota die quod per totam diem ad ecclesiam non
+<lb ed="#L" n="21"/>ibit, tunc peccare videtur in singulis horis quibus omittit ire, non obstante unitate et
+<lb ed="#L" n="22"/>continuitate voluntatis secundum rem et naturam . Si etiam aliquis teneatur abstinere
+<lb ed="#L" n="23"/>a carnibus et ieiunare per unam septimanam sive qualibet die septimanae, si prima die
+<lb ed="#L" n="24"/>comedit carnes proponens comedere per alios subsequentes, peccat et transgreditur 
+<lb ed="#L" n="25"/>praeceptum singulis diebus comedendo, non obstante continuitate voluntatis secundum
+<lb ed="#L" n="26"/>rem et naturam , Sed cum ratio peccati principaliter consistat in actu interioris 
+volun<lb break="no" ed="#L" n="27"/>tatis, secundum quod multiplicatur actus voluntatis in transgressionibus huiusmodi,
+<lb ed="#L" n="28"/>multiplicantur peccata et etiam secundum quod multiplicantur obiecta. Unde si aliquis
+<lb ed="#L" n="29"/>teneretur stare in ecclesia certa hora et diversis actibus et discontinuis voluntatis vellet
+<lb ed="#L" n="30"/>non stare, essent diversa peccata secundum numerum quantum ad actum voluntatis,
+<lb ed="#L" n="31"/>licet unum quantum ad unitatem obiecti secundum rem. Si autem uno actu voluntatis
+<lb ed="#L" n="32"/>continuo et protenso vellet non stare per totam illam horam, esset unum peccatum ex
+<lb ed="#L" n="33"/>utraque parte, sed gravius ratione continuationis et extensionis voluntatis. Quanto enim
+<lb ed="#L" n="34"/>voluntas est diuturnior in malo, tanto est peior. Si autem in diversis horis deberet
+<lb ed="#L" n="35"/>stare et una ac ? continua voluntate vellet non stare per totam diem, licet actus 
+volun<lb break="no" ed="#L" n="36"/>tatis esset unus secundum naturam vel secundum rem, essent tamen plura peccata
+<lb ed="#L" n="37"/>ratione diversorum obiectorum, propter quorum diversitatem diversificatur voluntas
+<lb ed="#L" n="38"/>etiam in esse moris, sicut etiam patet in peccato commissionis. Nam si homo una 
+volun<lb break="no" ed="#L" n="39"/>tate interficiat hominem unum, multum diu durante huiusmodi voluntate, antequam ipsum
+<lb ed="#L" n="40"/>interfecerit est unum peccatum, sed maius quam si subito simplici libidine hoc fieret,
+<lb ed="#L" n="41"/>Et si diversis horis cogitans de hoc diversis actibus voluntatis velit ipsum interficere,
+<lb ed="#L" n="42"/>sunt diversa peccata numero ex parte actus volendi, licet unum ex parte obiecti 
+secun<lb break="no" ed="#L" n="43"/>dum rem, quod tamen est multiplicatum sub ratione obiecti ut pluries voliti. Si autem
+<pb ed="#L" n="62"/>
+               <lb ed="#L" n="1"/>uno ictu et uno actu voluntatis simul interficiat duos homines facit plura peccata 
+ho<lb break="no" ed="#L" n="2"/>micidii, non solum propter obiecta sed etiam ex parte voluntatis, quia licet sit unus
+<lb ed="#L" n="3"/>actus voluntatis secundum rem, est tamen plures secundum rationem moris quam habet
+<lb ed="#L" n="4"/>ex obiectis diversis.
+</p>
+            <p xml:id="v27ab7-g04997-d1e274">
+               <lb ed="#L" n="5"/>Circa casum tamen propositum est intelligendum quod differunt ista, scilicet quod
+<lb ed="#L" n="6"/>aliquis ex voto et praecepto teneatur ieiunare una die certa et quod teneatur abstinere
+<lb ed="#L" n="7"/>a vino per totam unam diem . Si enim per ieiunium intelligamus ieiunium ecclesiae,
+<lb ed="#L" n="8"/>sic videtur quod postquam comedendo secunda vice transgressus est praeceptum 
+sim<lb break="no" ed="#L" n="9"/>pliciter, quod si postea comedit tertia vice, illud non transgreditur novo peccato nisi
+<lb ed="#L" n="10"/>hoc faciat expresse in contemptum, despiciendo scilicet tale praeceptum, sic scilicet
+<lb ed="#L" n="11"/>cogitando quod si illud non violasset quando secundo comedit, nihilominus illud vellet
+<lb ed="#L" n="12"/>violare per tertiam comestionem. Isto enim modo cum quis ex praecepto tenetur
+<lb ed="#L" n="13"/>ieiunare aliqua certa die, id est non nisi semel in illa die comedere sicut statuit 
+eccle<lb break="no" ed="#L" n="14"/>sia, statim cum secundo comedit, peccat et est transgressor praecepti. Et si postea
+<lb ed="#L" n="15"/>eadem voluntate manente secundum rem hora alia distincta in tantum quod alia
+<lb ed="#L" n="16"/>comestio iudicari debeat, iterum comedat modo praedicto praeceptum contemnendo, 
+<lb ed="#L" n="17"/>est novum peccatum. Sed si tota die comederet post primam vicem unum solum 
+pec<lb break="no" ed="#L" n="18"/>catum committeret sed maius esset ex ratione continuationis et extensionis. Cum enim
+<lb ed="#L" n="19"/>semel comederit ? statim cum secundo comedit planum est quod peccat et est primum
+<lb ed="#L" n="20"/>peccatum. Cum autem tertio comedit patet quod secundo peccat si modo praedicto
+<lb ed="#L" n="21"/>contemnat , Prima enim comestio non videtur tollere rationem peccati secundae come$-
+<lb ed="#L" n="22"/>tionis immo potius aggravare. Si enim illa vice qua secundo comedit non comedisset,
+<lb ed="#L" n="23"/>sed solum illa vice qua tertio, planum est quod peccaret uno peccato et videtur quod
+<lb ed="#L" n="24"/>gravius peccet, praesupposita prima vice, quia quanto pluries contemnit magis 
+con<lb break="no" ed="#L" n="25"/>temnit. Cum ergo qualibet hora diei postquam semel comederit teneatur non comedere,
+<lb ed="#L" n="26"/>quotiens comedit cum tali contemptu totiens peccat. Unde talis cum videt se secundo
+<lb ed="#L" n="27"/>comedisse, licet non possit servare praeceptum quantum ad id quod iam fecit per quod
+<lb ed="#L" n="28"/>iam praeceptum est transgressus, licet etiam non potest servare quantum ad residuum
+<lb ed="#L" n="29"/>temporis, sic videlicet quod postea non comedendo tertia vice in hoc possit dici 
+ser<lb break="no" ed="#L" n="30"/>vare dictum praeceptum et in hoc possit dici ieiunare tali die ieiunio ecclesiae, tamen
+<lb ed="#L" n="31"/>sic debet post ea abstinere a cibo quod non comedat in contemptum praecepti, sed si
+<lb ed="#L" n="32"/>comedit debet cogitare quod si per aliam comestionem dictum praeceptum non 
+vio<lb break="no" ed="#L" n="33"/>lasset nullo modo plus comederet illa die sed ex quo sic est transgressus vult comedere
+<lb ed="#L" n="34"/>non in contemptum praedictum sed causa alicuius recreationis, in hoc non videtur
+<lb ed="#L" n="35"/>novum peccatum transgressionis praecepti simpliciter committere.
+</p>
+            <p xml:id="v27ab7-g04997-d1e344">
+               <lb ed="#L" n="36"/>Sed si intelligatur de ieiunio naturae, sic scilicet quod per totam diem nullo modo
+<lb ed="#L" n="37"/>sumet cibum nisi semel una hora, tunc postquam talis comedit aliqua hora, si etiam
+<lb ed="#L" n="38"/>alia hora comederet 5, praecepti vel voti transgressor esset, et eadem ratione si iterum 
+<lb ed="#L" n="39"/>tertia hora alia et sic deinceps, quia simpliciter obligatus est abstinere qualibet hora
+<lb ed="#L" n="40"/>diei, una sola excepta. Ita etiam cum quis teneatur ex vo to abstinere per totam
+<lb ed="#L" n="41"/>unam diem a vino, quotiens bibit vinum trangressor est voti; et sunt plura peccata si
+<lb ed="#L" n="42"/>tamen sint actus voluntatis et contemptus novi et distincti. Sicut enim debeo non 
+tan<lb break="no" ed="#L" n="43"/>gere non meam, cum primo eam tangam pecco. Nec ideo si secundo tango, non propter
+<pb ed="#L" n="63"/>
+               <lb ed="#L" n="1"/>hoc minus pecco, quia iam sum transgressus praeceptum; ita in proposito. Similiter
+<lb ed="#L" n="2"/>etiam quia non debeo furari rem proximi mei, quolibet actu furandi quo rem 
+distinc<lb break="no" ed="#L" n="3"/>tam vel distincto actu voluntatis volo furari, pecco peccato ! novo . Et similiter ? in
+<lb ed="#L" n="4"/>proposito casu de non potando. Votum enim de non potando ita obligat sicut 
+prae<lb break="no" ed="#L" n="5"/>ceptum negativum. Praecepta autem negativa obligant semper et ad semper et ideo
+<lb ed="#L" n="6"/>semper quolibet actu novo fit nova transgressio. Unde cum non bibere vinum tali die
+<lb ed="#L" n="7"/>cadit sub voto et obligat sicut praeceptum negativum, ideo per totam diem obligat et
+<lb ed="#L" n="8"/>ad quamlibet horam diei; quare qualibet hora bibendo peccat. Quando autem debet
+<lb ed="#L" n="9"/>dici novus actus et contemptus non est leve nec securum describere. Si enim existens
+<lb ed="#L" n="10"/>in mensa bibat prima vice vinum, cum tota illa sessio ad mensam reputatur una hora
+<lb ed="#L" n="11"/>et una comestio et sic unus actus, non est tamen indivisibilis sed est unus 
+aggrega<lb break="no" ed="#L" n="12"/>tione  plurium et ordine quodam. Unde si in diversis instantibus advertens se non
+<lb ed="#L" n="13"/>debere comedere vel bibere cum diversis partibus cibi vel vini, utendo diversis actibus
+<lb ed="#L" n="14"/>voluntatis, illis utatur, sunt diversa peccata. Si autem uno actu voluntatis, et hoc sit
+<lb ed="#L" n="15"/>possibile, est unum sed ratione continuationis maius quam esset quilibet actus 
+particu<lb break="no" ed="#L" n="16"/>laris voluntarius infra illam commissus, et forte tantum vel maius esset illud unum
+<lb ed="#L" n="17"/>peccatum ratione huiusmodi  continuationis, quanta essent plura peccata pluribus 
+acti<lb break="no" ed="#L" n="18"/>bus infra illam horam commissa, ita quod, ad demeritum forte non multum refert utrum
+<lb ed="#L" n="19"/>uno actu sive uno peccato peccet vel pluribus quibus forte unus actus potest 
+aequi<lb break="no" ed="#L" n="20"/>pollere, prout secundum Augustinum non refert utrum multa arena ? continente multos 
+<lb ed="#L" n="21"/>lapides parvos vel uno lapide magno et ponderoso obruatur et submergatur navis.
+</p>
+            <p xml:id="v27ab7-g04997-d1e412">
+               <lb ed="#L" n="22"/>Argumentum in oppositum non concludit, quia licet pars diei non sit tota dies, est
+<lb ed="#L" n="23"/>tamen aliquid diei et sic qui non debet aliquid facere tota die, id est quacumque parte
+<lb ed="#L" n="24"/>diei, peccat faciendo illud, in quacumque parte hoc fiat. Non enim potest intelligi quod
+<lb ed="#L" n="25"/>intentio facientis dictum votum fuerit hoc quod non biberet tota die, id est uno 
+conti<lb break="no" ed="#L" n="26"/>nuo actu a mane usque ad noctem, sed hoc quod non biberet vinum tota die, id est
+<lb ed="#L" n="27"/>quamdiu duraret illa dies sive quacumque hora illius diei.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

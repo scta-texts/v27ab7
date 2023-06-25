@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="395"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g34397"><!-- v27ab7-q7-q14 -->
+            <head xml:id="v27ab7-g34397-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-g34397-Hd1e101" type="question-title">
+      Utrum retinentes quod eis impositum est teneantur illud vestituere et hoc illi
+      qui recipit dictam collectam ad firmam
+    </head>
+            <p xml:id="v27ab7-g34397-d1e104">
+               <lb ed="#L" n="18"/>QUAESTIO XIV.
+<lb ed="#L" n="19"/>Utrum retinentes quod eis impositum est teneantur illud vestituere et hoc illi
+<lb ed="#L" n="20"/>qui recipit dictam collectam ad firmam.
+</p>
+            <p xml:id="v27ab7-g34397-d1e113">
+               <lb ed="#L" n="21"/>Deinde circa ea quae pertinent ad quosdam homines specialiter quaere bantur  quaedam
+<lb ed="#L" n="22"/>pertinentia ad quosdam homines tam fideles quam infideles communiter, quaedam pertinentia
+<lb ed="#L" n="23"/>ad fideles tantum. Circa primum quaerebatur unum pertinens ad superiores in comparatione
+<lb ed="#L" n="24"/>ad inferiores, scilicet posito quod aliquis dominus alicui communitati sibi subditae imponit
+<lb ed="#L" n="25"/>aliquam exactionem iniustam, rectores dictae communitatis pro se et pro communitate ut
+<lb ed="#L" n="26"/>maius malum evitent promittant eidem domino quandam pecuniae summam, et statuunt
+<lb ed="#L" n="27"/>quendam modum recipiendi sive colligendi dictam pecuniam a singulis de illa communitate
+<lb ed="#L" n="28"/>vel imponendo cuilibet personae certam summam pecuniae solvendam secundum 
+aestima<lb break="no" ed="#L" n="29"/>tionem suorum bonorum vel alio modo ; posito etiam quod aliquis civium dictam summam
+<lb ed="#L" n="30"/>pecuniae vel simul vel per partes promittens solvere dicto domino recipiat ad firmam 
+pecu<lb break="no" ed="#L" n="31"/>niam impositam communitati dicto modo colligendam ; demum posito quod aliqui ? de dicta
+<lb ed="#L" n="32"/>communitate aestimantes huiusmodi exactionem iniustam, et ideo non solvendam nisi per
+<pb ed="#L" n="396"/>
+               <lb ed="#L" n="1"/>violentiam et coactionem, aliquam pecuniae summam eis impositam clam vel occulte retineant
+<lb ed="#L" n="2"/>— rebus sic se habentibus, quaeritur utrum sic retinentes 1d quod eis impositum est teneantur
+<lb ed="#L" n="3"/>illud restituere, et hoc illi qui recipit dictam collectam ad firmam. Et arguitur quod non ; quia,
+<lb ed="#L" n="4"/>qui retinet id quod de iure non est alteri debitum, non tenetur illud ! restituere ; ita est in 
+pro<lb break="no" ed="#L" n="5"/>posito ; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g34397-d1e155">
+               <lb ed="#L" n="6"/>Contra, Qui retinet illud quod est impositum pro bono communitatis malum facit et illud
+<lb ed="#L" n="7"/>tenetur restituere ; ita est in proposito ; ergo et cetera,
+</p>
+            <p xml:id="v27ab7-g34397-d1e163">
+               <lb ed="#L" n="8"/>Respondeo dicendum quod, cum omnes pertinentes ad unam communitatem sint quasi
+<lb ed="#L" n="9"/>unum corpus quod debet foveri ex mutua contributione et mutuo adiutorio omnium ad invicem
+<lb ed="#L" n="10"/>secundum proportionem a iustitia statuendam, bona et prospera pro portionaliter participando,
+<lb ed="#L" n="11"/>et mala et alversa sive damna communia proportionaliter etiam sustinendo, quando pro utilitate
+<lb ed="#L" n="12"/>reijpublicae sive communitatis aliquod onus alicuius exactionis ab his qui communitatem habent
+<lb ed="#L" n="13"/>regere rationabiliter imponitur, huic  debent se omnes de communitate tanquam partes unius
+<lb ed="#L" n="14"/>totius voluntarie subicere, et illud quol eis imponitur teneantur contribuere ; et, si contingat
+<lb ed="#L" n="15"/>quod aliqui aliquod de hoc retinuerint, illud tanquam debitum restituere tenentur, Nunc autem
+<lb ed="#L" n="16"/>in casu proposito, licet ille cui pecunia sic communitati imposita et ab ea exacta tribuitur
+<lb ed="#L" n="17"/>iniuste, et male eam recipiat, et sua potestate tyrannizans quadam violentia extorqueat, et eam
+<lb ed="#L" n="18"/>etiam restitusre teneretur, quia tamen a rectoribus communitatis ut maius malum totius 
+com<lb break="no" ed="#L" n="19"/>munitatis evitetur tanquam malum minus hoc eligitur ut vexatio indebita redimatur, ideo ab
+<lb ed="#L" n="20"/>eis iuste communitati imponitur. Ista enim bene stant simul, sicut etiam potest in pluribus
+<lb ed="#L" n="21"/>casibus inveniri quo aliq iid iniuste ab aliquo recipitur et tamen iuste potest ab aliis exigi ;
+<lb ed="#L" n="22"/>puta, si dominus terrae pro utilitate rei publicae opponens se inimicis iniustum bellum 
+haben<lb break="no" ed="#L" n="23"/>tibus capitur nec possit liberari nisi per aliquam exactionem a communitate solvendam, constat
+<lb ed="#L" n="24"/>quod rectores communitatis possent iuste aliquam summam pecuniae a communitate 
+solven<lb break="no" ed="#L" n="25"/>dam communitati imponere, et quilibet tenetur suam portionem solvere. Ille tamen cui 
+trade<lb break="no" ed="#L" n="26"/>retur illam iniuste reciperet et restituere teneretur.
+</p>
+            <p xml:id="v27ab7-g34397-d1e207">
+               <lb ed="#L" n="27"/>Per hoc patet solutio ad argumentum in oppositum ; quia, licet portio imposita alicui
+<lb ed="#L" n="28"/>singulari personae sive etiam in communi omnibus de communitate non sit de iure debita illi
+<lb ed="#L" n="29"/>cui dicto modo tribuitur, quia etiam nec ei propter se et ex amore, sed ex timore maioris mali
+<lb ed="#L" n="30"/>datur, tamen in ordine ad hunc finem quod maius malum vitetur, unusquisque tenetur id quod
+<lb ed="#L" n="31"/>impositum est dare ex debito quod respicit iustitiam legalem per quam actus omnium virtutum
+<lb ed="#L" n="32"/>specialium in bonum communitatis ordinantur, Est enim debitum ut unusquisque tanquam
+<lb ed="#L" n="33"/>pars tribuat ad bonum commune conservandum secundum suam proportionem ?, sicut etiam
+<lb ed="#L" n="34"/>unusquisque tenetur pro salute propria conservanda dare vel perdere bona exteriora ; puta
+<lb ed="#L" n="35"/>tvranno potius debet dare persona singularis aliquod bonum temporale quam permittat se
+<lb ed="#L" n="36"/>perimi ab eodem ; prout etiam quis tenetur potius perdere merces proiciendo in mare quam
+<lb ed="#L" n="37"/>permittere se periclitari cum eis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="178"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g15275"><!-- v27ab7-q6-q9 -->
+            <head xml:id="v27ab7-g15275-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-g15275-Hd1e101" type="question-title">
+      Utrum intellectu vidente Deum immediate per lumen gloriae voluntas potest eo frui absque habitu
+    </head>
+            <p xml:id="v27ab7-g15275-d1e104">
+               <lb ed="#L" n="6"/>QUAESTIO IX.
+<lb ed="#L" n="7"/>Utrum intellectu vidente Deum immediate
+<lb ed="#L" n="8"/>per lumen gloriae voluntas potest eo frui absque habitu.
+</p>
+            <p xml:id="v27ab7-g15275-d1e113">
+               <lb ed="#L" n="9"/>Deinde circa potentias dictas, scilicet intellectum et voluntatem prout
+<lb ed="#L" n="10"/>ad invicem secundum actus suos comparantur, quaerebantur quaedam
+<lb ed="#L" n="11"/>pertinentia ad istas potentias prout actus  unius ad actum alterius 
+com<lb break="no" ed="#L" n="12"/>paratur; quaedam vero pertinentia ad istas potentias prout ambae ad
+<lb ed="#L" n="13"/>eosdem actus comparantur.
+</p>
+            <p xml:id="v27ab7-g15275-d1e126">
+               <lb ed="#L" n="14"/>Circa primum quaerebantur quaedam pertinentia ad actus beatificos,
+<lb ed="#L" n="15"/>quaedam pertinentia ad actus ex naturalibus productos. Circa primum
+<lb ed="#L" n="16"/>quaerebatur unum: scilicet utrum, intellectu existente perfecto per lumen
+<lb ed="#L" n="17"/>gloriae virtute cuius possit Deum praesentialiter  et immediate videre,
+<lb ed="#L" n="18"/>voluntas etiam possit eum diligere et eo frui praesentialiter absque aliquo
+<lb ed="#L" n="19"/>habitu existente in ipsa voluntate? Et arguebatur quod sic; quia omnis
+<lb ed="#L" n="20"/>potentia quae formatur et actuatur ab obiecto apprehenso potest exire
+<lb ed="#L" n="21"/>in actum suum, illo obiecto sibi sufficienter praesentato. Sed voluntas
+<lb ed="#L" n="22"/>formatur et actuatur ab obiecto apprehenso per intellectum. Ergo, illo
+<lb ed="#L" n="23"/>suf ficientef sibi praesentato, poterit exire in actum suum. Sed sufficienter
+<lb ed="#L" n="24"/>sibi praesentatur cum per intellectum lumine gloriae perfectum 
+praesen<lb break="no" ed="#L" n="25"/>tialiter et immediate apprehenditur. Ergo et cetera. Similiter etiam posset
+<lb ed="#L" n="26"/>argumentum formari secundum aliam positionem sic. Potentia quae libere
+<lb ed="#L" n="27"/>seipsam movet in suum obiectum potest exire in actum suum, obiecto
+<lb ed="#L" n="28"/>ilii sibi sufficienter praesentato. Sed voluntas sufficienter habet obiectum
+<lb ed="#L" n="29"/>praesens cum ab intellectu apprehenditur. Ergo intellectu existente in actu,
+<lb ed="#L" n="30"/>poterit et ipsa exire in actum suum . Quare et cetera.
+<pb ed="#L" n="179"/>
+               <lb ed="#L" n="1"/>Contra. Eadem videtur esse proportio habitus perficientis voluntatem
+<lb ed="#L" n="2"/>ad habitum perficientem intellectum in patria et in via. Si ergo ad 
+perfec<lb break="no" ed="#L" n="3"/>tum actum beatitudinis non oportet voluntatem esse perfectam habitu
+<lb ed="#L" n="4"/>in patria, nec ad actum merendi in via oporteret actum voluntatis esse
+<lb ed="#L" n="5"/>perfectum per habitum. Hoc autem est falsum ; quia omne meritum in
+<lb ed="#L" n="6"/>via est ex caritate, ut patet prima Corinthiorum, tertiodecimo. Quare et
+<lb ed="#L" n="7"/>cetera.
+</p>
+            <p xml:id="v27ab7-g15275-d1e184">
+               <lb ed="#L" n="8"/>Respondeo dicendum quod perfectissima unio possibilis naturae
+<lb ed="#L" n="9"/>rationalis ad Deum est in unitate suppositi quantum ad esse existentiae
+<lb ed="#L" n="10"/>secundum naturam, et cum hoc quantum ad actus gloriosos secundum
+<lb ed="#L" n="11"/>intellectum et voluntatem post istam est alia, quae est unio solum secundum
+<lb ed="#L" n="12"/>actus beatificos intellectus et voluntatis. Et sicut  dicitur ab aliquibus quod
+<lb ed="#L" n="13"/>natura humana est assumpta vel saltem assumptibilis a divino supposito
+<lb ed="#L" n="14"/>absque aliqua gratia habituali et habitu quocumque et tamen assumpta
+<lb ed="#L" n="15"/>anima perfecte est ? beata ; ab aliis autem dicitur quod, licet non sit anima
+<lb ed="#L" n="16"/>Christi assumpta sine gratia habituali, illa tamen non est necessitatis sed
+<lb ed="#L" n="17"/>congruitatis et decentiae, ita forte videretur quod Deus sub ratione obiecti
+<lb ed="#L" n="18"/>beatificantis  posset se unire naturae rationali sic quod elicerentur dicti
+<lb ed="#L" n="19"/>actus beatifici absque hoc quod dictae potentiae essent per aliquos habitus
+<lb ed="#L" n="20"/>elevatae, quamvis ? ad congruitatem et decentiam possunt etiam per tales
+<lb ed="#L" n="21"/>habitus elevari. Et secundum hoc dicendum esset ad quaestionem quod
+<lb ed="#L" n="22"/>existente intellectu disposito habitu glorioso, non autem voluntate, si Deus
+<lb ed="#L" n="23"/>se offerret tali naturae sub ratione obiecti, utraque potentia esset in actu
+<lb ed="#L" n="24"/>beatifico, licet intellectus quodam modo convenientiori et decentiori ; sed
+<lb ed="#L" n="25"/>hoc beatitudinem  essentialiter non mutaret.
+</p>
+            <p xml:id="v27ab7-g15275-d1e226">
+               <lb ed="#L" n="26"/>Sed hoc non tenetur. Et ideo aliter est dicendum quod quaestio videtur
+<lb ed="#L" n="27"/>supponere impossibile, scilicet quod intellectus sic sit dispositus habitu
+<lb ed="#L" n="28"/>glorioso quod possit exire in actum visionis beatificae, voluntate non sic
+<lb ed="#L" n="29"/>existente disposita habitu proportionato sic quod etiam possit exire in
+<lb ed="#L" n="30"/>actum dilectionis beatae, et quod actu exeat in illum actum, nisi virtute
+<lb ed="#L" n="31"/>divina, stante actu intellectus, voluntatis actus suspenderetur et 
+substra<lb break="no" ed="#L" n="32"/>heretur, sicut alibi dictum est. Si enim supponitur quod in actus beatificos
+<lb ed="#L" n="33"/>non possunt exire dictae potentiae quantumcumque Deus se offerat nisi
+<lb ed="#L" n="34"/>sint habitibus supernaturalibus elevatae et sicut natura rationalis in esse
+<lb ed="#L" n="35"/>naturae constituta habet unde in actus naturae suae proportionatos possit
+<lb ed="#L" n="36"/>exire, ita etiam quod nullum actum naturae suae proportionatum elicere
+<pb ed="#L" n="180"/>
+               <lb ed="#L" n="1"/>potest nisi sit in hoc esse naturae per suam formam naturalem et 
+dispo<lb break="no" ed="#L" n="2"/>sitiones sibi convenientes constituta; tunc etiam videtur quod natura
+<lb ed="#L" n="3"/>rationalis quae ordinatur ad perfectionem et operationem supernaturalem
+<lb ed="#L" n="4"/>debeat per aliquam formam et dispositiones ' convenientes constitui in esse
+<lb ed="#L" n="5"/>supernaturali ut sic in tali esse supernaturali constituta possit in 
+opera<lb break="no" ed="#L" n="6"/>tiones sibi secundum hunc modum suae existentiae competentes elicere ;
+<lb ed="#L" n="7"/>nec potest elicere aliquam talem operationem perfectam et perfecte nisi sit
+<lb ed="#L" n="8"/>in hoc esse perfecte constituta. Videtur ergo quod per aliquid a Deo
+<lb ed="#L" n="9"/>infusum elevetur homo ad huiusmodi esse supernaturale quo quodam
+<lb ed="#L" n="10"/>modo sit particeps divinae et supernaturalis naturae secundum quod
+<lb ed="#L" n="11"/>dicitur secunda  Petri, primo: maxima et pretiosa promissa nobis donavit
+<lb ed="#L" n="12"/>ut per hoc efficiamini divinae consortes naturae.
+</p>
+            <p xml:id="v27ab7-g15275-d1e281">
+               <lb ed="#L" n="13"/>Et secundum quod duplex est status hominis secundum hoc esse
+<lb ed="#L" n="14"/>supernaturale, scilicet viae et patriae, secundum hoc etiam diversificatur
+<lb ed="#L" n="15"/>hoc donum infusum et dicitur pro statu viae gratia simpliciter, pro statu
+<lb ed="#L" n="16"/>patriae gloria sive gratia consummata. Sicut ergo constituendo hominem
+<lb ed="#L" n="17"/>in esse supernaturali secundum statum viae Deus infundit ei dictum donum
+<lb ed="#L" n="18"/>quod est gratia, quae vel est idem quod caritas realiter licet differens
+<lb ed="#L" n="19"/>ratione, vel numquam est sine caritate nec esse potest, ita cum  constituit
+<lb ed="#L" n="20"/>hominem in esse supernaturali pro statu patriae dat ei dictum donum quod
+<lb ed="#L" n="21"/>etiam sine caritate esse non habet. Sed perfectio supernaturalis viae pro
+<lb ed="#L" n="22"/>quanto respicit id quod ad intellectum pertinet ratione sui modi imperfecti,
+<lb ed="#L" n="23"/>quia non elevat intellectum ad videndum Deum in se ipso, non includit
+<lb ed="#L" n="24"/>necessario hoc donum gratiae quod vel est caritas vel quod  non est sine
+<lb ed="#L" n="25"/>caritate. Quia enim per fidem non perfecte videtur Deus sub ratione qua
+<lb ed="#L" n="26"/>omnino in ipso satietur appetitus, ideo non obstante tali cognitione potest
+<lb ed="#L" n="27"/>appetitus diligere aliquod bonum creatum inordinate. Perfectio autem
+<lb ed="#L" n="28"/>intellectus patriae quo videtur Deus immediate in se ipso non sic se habet ;
+<lb ed="#L" n="29"/>immo necessario ad ipsam sequitur perfectio affectus. Ouia enim tantum
+<lb ed="#L" n="30"/>bonum creaturae provenit ex voluntate et dilectione divina quo creaturam
+<lb ed="#L" n="31"/>diligit, impossibile est quod Deus creaturae maxima bona communicet
+<lb ed="#L" n="32"/>et ipsam dilectione specialissima non diligat. Sed eum quem Deus sic
+<lb ed="#L" n="33"/>diligit facit etiam sui dilectorem ; et ideo dat ei etiam habitum quo ipsum
+<lb ed="#L" n="34"/>summe diligit. Cum ergo videre Deum sit summum quod Deus 
+commu<lb break="no" ed="#L" n="35"/>nicare potest creaturae quia, ut dicit Augustinus, primo de Trinitate, visio
+<lb ed="#L" n="36"/>Dei est summa merces nostra et omnium desideriorum finis, videtur quod
+<lb ed="#L" n="37"/>Deum sic videns habeat necessario habitum quo eum proportionaliter
+<pb ed="#L" n="181"/>
+               <lb ed="#L" n="1"/>diligat. Unde non videtur quod posset facere Deus quod aliquis peccator
+<lb ed="#L" n="2"/>et non diligens videat ipsum sic. Unde dixit Moises in Exodo : Domine
+<lb ed="#L" n="3"/>si inveni gratiam in oculis tuis ostende mihi faciem tuam. Et ideo etiam
+<lb ed="#L" n="4"/>dicit Augustinus, in libro de Videndo Deum, capitulo vigesimo septimo :
+<lb ed="#L" n="5"/>filiis promissum est hoc, scilicet videre Deum, de quibus dictum est: nunc
+<lb ed="#L" n="6"/>fili Dei sumus et nondum apparuit quid erimus et scimus, quoniam cum
+<lb ed="#L" n="7"/>apparuerit, similes ei erimus quoniam videbimus eum sicuti est. Sic ergo
+<lb ed="#L" n="8"/>videtur dicendum quod Deum videre ! beatifice et Deum etiam sic diligere
+<lb ed="#L" n="9"/>inseparabiliter sunt connexa. Sed supponitur quod Deum non potest quis
+<lb ed="#L" n="10"/>sic diligere sine habitu caritatis. Ouare oportet videntem Deum  sicut
+<lb ed="#L" n="11"/>habet intellectum elevatum per habitum gloriae, ita etiam voluntatem oportet
+<lb ed="#L" n="12"/>habere ele vatam per habitum caritatis existentem in ipsa voluntate.
+</p>
+            <p xml:id="v27ab7-g15275-d1e366">
+               <lb ed="#L" n="13"/>Hoc etiam ? patet ex his quae communiter supponuntur. Quia aut
+<lb ed="#L" n="14"/>gratia et gloria sunt idem secundum essentiam, prout aliqui ponunt ; et sic
+<lb ed="#L" n="15"/>non potest poni quod Deus aperte videatur, cum iste sit praecipuus actus
+<lb ed="#L" n="16"/>gloriosus, sine habitu glorioso qui est gratia consummata quae necessario
+<lb ed="#L" n="17"/>includit caritatem ; — aut est habitus essentialiter differens multo  perfectior
+<lb ed="#L" n="18"/>et excellentior et excellentius includens quicquid per gratiam importatur
+<lb ed="#L" n="19"/>vel includitur. Et ideo sic loquendo de habitu gloriae oportet quod includat
+<lb ed="#L" n="20"/>habitum caritatis quo Deus perfectissime diligitur et sine quo gratia non
+<lb ed="#L" n="21"/>habetur.
+</p>
+            <p xml:id="v27ab7-g15275-d1e388">
+               <lb ed="#L" n="22"/>Si autem esset possibile quod natura sic perficeretur ? habitu glorioso
+<lb ed="#L" n="23"/>quod posset immediate Deum videre absque hoc quod esset perfecta
+<lb ed="#L" n="24"/>secundum aliquem habitum voluntatis, esset dicendum quod non posset
+<lb ed="#L" n="25"/>cognosci sic quin diligeretur secundum modum et possibilitatem voluntatis
+<lb ed="#L" n="26"/>naturalis. Sed iste actus diligendi non esset omnino perfectus nec actui
+<lb ed="#L" n="27"/>intelligendi proportionatus et ideo nec simpliciter beatificus. Cum tamen
+<lb ed="#L" n="28"/>actus perfectus voluntatis ad beatitudinem requiratur, et secundum hoc
+<lb ed="#L" n="29"/>etiam talis natura beata esset  simpliciter pro tanto quod esset perfecta
+<lb ed="#L" n="30"/>secundum actum qui ad beatitudinem principalius pertinet, non esset tamen
+<lb ed="#L" n="31"/>omnino et perfecte beata. Et esset tunc exponendum quod accipit prima
+<lb ed="#L" n="32"/>ratio sic quod licet voluntas actuetur  et formetur ab obiecto apprehenso
+<lb ed="#L" n="33"/>secundum rationem, formatur tamen et actuatur ab illo secundum  modum
+<lb ed="#L" n="34"/>suae dispositionis et perfectionis ; et ideo, si sit elevata per habitum 
+super<lb break="no" ed="#L" n="35"/>naturalem, perfectior est actus eius et simpliciter beatificus ; si non, non.
+</p>
+            <p xml:id="v27ab7-g15275-d1e421">
+               <lb ed="#L" n="36"/>Ad rationem in oppositum esset dicendum quod in via cum habitu
+<pb ed="#L" n="182"/>
+               <lb ed="#L" n="1"/>fidei in intellectu non requiritur habitus caritatis in voluntate ad hoc quod
+<lb ed="#L" n="2"/>voluntas Deum simpliciter et absolute etiam super omnia diligat, cum hoc
+<lb ed="#L" n="3"/>aliquo modo possit ex naturalibus, praeexistente apprehensione summi
+<lb ed="#L" n="4"/>et universalis boni in ratione. Sed ad hoc quod meritorie ipsum diligat et
+<lb ed="#L" n="5"/>quod per voluntatem operationes meritorias eliciat et imperet, ad hoc
+<lb ed="#L" n="6"/>requiritur habitus gratuitus in voluntate, et ita etiam potest fieri adaptatio
+<lb ed="#L" n="7"/>de dilectione gratuita in patria. Sed primum videtur melius dictum ; et
+<lb ed="#L" n="8"/>secundum hoc concedenda est ratio ad hoc gratia conclusionis.
+</p>
+            <p xml:id="v27ab7-g15275-d1e446">
+               <lb ed="#L" n="9"/>Ad rationem in oppositum est dicendum, sicut tactum est, quod verum
+<lb ed="#L" n="10"/>est quod potentia quae actzuatur ! et formatur ab obiecto apprehenso, illo
+<lb ed="#L" n="11"/>obiecto praesente per apprehensionem, potest huiusmodi potentia esse in
+<lb ed="#L" n="12"/>actu perfecto secundum huiusmodi obiectum, si tamen ipsa sit sufficienter
+<lb ed="#L" n="13"/>disposi ta et habilitata sive? elevata. Quod ergo dicitur : voluntas actuatur ?
+<lb ed="#L" n="14"/>et formatur a bono summo apprehenso, hoc est concedendum ; 
+perfec<lb break="no" ed="#L" n="15"/>tionem enim formalem et speciem habet actus quo voluntas diligit Deum ex
+<lb ed="#L" n="16"/>bonitate et perfectione Dei, non ex alio. Et secundum hoc concedenda est
+<lb ed="#L" n="17"/>conclusio quod, cum voluntas est sufficienter disposita respectu sui obiecti,
+<lb ed="#L" n="18"/>illo praesente, actuatur  et formatur ab eo . Et est ulterius dicendum quod
+<lb ed="#L" n="19"/>numquam praesentatur ei sic secundum intellectum quin  ipsa etiam sit
+<lb ed="#L" n="20"/>perfecte disposita per habitum correspondentem ; quia  Deus praesentans
+<lb ed="#L" n="21"/>se intellectui dicto modo sua libera voluntate et dilectione animam sibi
+<lb ed="#L" n="22"/>gratam facit et eam sic elevat et disponit quod huiusmodi actus 
+con<lb break="no" ed="#L" n="23"/>venienter suscipere possit. Hoc autem requirit animam totam esse 
+perfec<lb break="no" ed="#L" n="24"/>tam per habitum gratiae qui non est sine caritate in voluntate et sine
+<lb ed="#L" n="25"/>sapientia in intellectu. Et sic, quando hoc modo praesens est obiectum,
+<lb ed="#L" n="26"/>voluntas perfecte est in actu suo, non tamen sine dicto habitu, quia ille
+<lb ed="#L" n="27"/>necessario includitur. Si vero ille habitus non inesset tunc, ut dictum est,
+<lb ed="#L" n="28"/>voluntas esset in actu secundum suum modum, tamen imperfectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

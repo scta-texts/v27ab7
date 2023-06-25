@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="260"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g22174"><!-- v27ab7-q6-q17 -->
+            <head xml:id="v27ab7-g22174-Hd1e99">Quaestio 17</head>
+            <head xml:id="v27ab7-g22174-Hd1e101" type="question-title">
+      Utrum praelatus beneficium ecclesiasticum tenetur conferre meliori sic
+      quod peccet conferendo minus bono
+    </head>
+            <p xml:id="v27ab7-g22174-d1e104">
+               <lb ed="#L" n="3"/>QUAESTIO XVII.
+<lb ed="#L" n="4"/>Utrum praelatus beneficium ecclesiasticum tenetur conferre meliori sic
+<lb ed="#L" n="5"/>quod peccet conferendo minus bono.
+</p>
+            <p xml:id="v27ab7-g22174-d1e113">
+               <lb ed="#L" n="6"/>Deinde circa pertinentia ad quosdam homines specialiter quaerebantur duo: unum
+<lb ed="#L" n="7"/>erat pertinens ad praelatos Ecclesiae, scilicet utrum praelatus habens conferre aliquod
+<lb ed="#L" n="8"/>beneficium ecclesiasticum tenea'ur illud conferre meliori, ita quod peccet si meliori
+<lb ed="#L" n="9"/>postposito illud conferat minus bono; secundum erat pertinens ad servos dominorum
+<lb ed="#L" n="10"/>temporalium, posito quod aliquis dominus habeat secundum legem vel consuetudinem
+<lb ed="#L" n="11"/>humanam tale ius in servis suis quod, cum moritur aliquis servus eius, omnia bona quae
+<lb ed="#L" n="12"/>habet devolvun tur ad ipsum dominum, unus autem talis servus habet filios vel filias
+<lb ed="#L" n="13"/>qui non habent aliqua bona per se et aliquis eorum clam recipit aliqua de bonis patris
+<lb ed="#L" n="14"/>quae devolverentur ad dominum, quaeritur utrum ille qui talia bona sic recepit! teneatur
+<lb ed="#L" n="15"/>ea domino restituere.
+</p>
+            <p xml:id="v27ab7-g22174-d1e137">
+               <lb ed="#L" n="16"/>Ad primum sic procedebatur et arguebatur quod talis praelatus nom peccet, quia
+<lb ed="#L" n="17"/>qui facit illud quod sufficit secundum iura, quae sunt regulae actuum humanorum, non
+<lb ed="#L" n="18"/>peccat; sed talis praelatus facit id quod sufficit secundum iura; nam secundum iura
+<lb ed="#L" n="19"/>sufficit dare bono, licet perfectius sit dare meliori; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g22174-d1e149">
+               <lb ed="#L" n="20"/>Contra. Praelatus Ecclesiae est quasi vicarius Christi in terris; ergo debet conferre
+<lb ed="#L" n="21"/>beneficia sicut Christus ea conferret et sicut Christus vult ea conferri, et si aliter confert
+<lb ed="#L" n="22"/>peccat; sed Christus conferret meliori; ergo et cetera.
+</p>
+            <p xml:id="v27ab7-g22174-d1e158">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod quicumque directe facit contra iustitiam graviter peccat ;
+<lb ed="#L" n="24"/>ita est in proposito. Nam, cum duplex sit iustitia, scilicet distributiva et commutativa,
+<lb ed="#L" n="25"/>sicut in commutativa qui minus dat quam dare tenetur alteri peccat, ita? in distributiva
+<lb ed="#L" n="26"/>qui non dat ei cui dare tenetur peccat. Prout enim dicit Ambrosius in libro de Officiis :
+<lb ed="#L" n="27"/>iustitia est quae unicuique quod suum est tribuit, alienum non vendicat, utilitatem 
+pro<lb break="no" ed="#L" n="28"/>priam negligit ut  communem aequitatem custodiat. Secundum iustitiam ergo 
+commu<lb break="no" ed="#L" n="29"/>tativam tenetur aliquis dare alteri quantum ab eo recipit; secundum iustitiam autem
+<lb ed="#L" n="30"/>distributivam persona publica et communis tenetur bona communia totius communitatis
+<lb ed="#L" n="31"/>partibus communitatis distribuere secundum quod unicuique personae debitum est fieri
+<lb ed="#L" n="32"/>in ordine ad bonum commune ; tanto autem? maius est debitum quod personae quae est
+<lb ed="#L" n="33"/>pars communitatis debetur, quanto ipsa pars maiorem principalitatem habet in toto sive
+<lb ed="#L" n="34"/>in communitate, quae quidem principalitas attenditur secundum virtutem personae et
+<lb ed="#L" n="35"/>utilitatem eiusdem ad bonum commune; ideo et in distributiva iustitia non accipitur
+<lb ed="#L" n="36"/>medium secundum aequa litatem rei ad rem simpliciter et absolute, sed secundum 
+pro<lb break="no" ed="#L" n="37"/>portionem rerum ad personas, ut scilicet, sicut una persona excedit aliam, ita etiam 
+<lb ed="#L" n="38"/>res quae datur uni personae excedere debet rem quae datur alii. Quia ergo praelatus
+<pb ed="#L" n="261"/>
+               <lb ed="#L" n="1"/>est quasi persona publica praesidens communitati ad quem pertinet actus distributionis
+<lb ed="#L" n="2"/>bonorum communium, tenetur ea distribuere secundum condicionem personarum et
+<lb ed="#L" n="3"/>Ecclesiae utilitatem sive in ordine ad Ecclesiae utilitatem, ita quod personae magis
+<lb ed="#L" n="4"/>excellenti et utili ad bonum commune magis et maiora bona tenetur distribuere et
+<lb ed="#L" n="5"/>conferre, quia et! ei magis sunt debita quia melior. Item, quia hoc exigit Ecclesia cui
+<lb ed="#L" n="6"/>ille utilior; nam, ut dictum est, cum illa bona sint totius communitatis, sunt et? 
+cuius<lb break="no" ed="#L" n="7"/>libet partis secundum eius proportionem ad communitatem, et ideo meliori meliora sunt
+<lb ed="#L" n="8"/>debita. Cum etiam praelatus principaliter tenetur bona communia distribuere secundum
+<lb ed="#L" n="9"/>quod magis proficiunt? ad bonum communitatis cui praesidet et cuius sunt bona quae
+<lb ed="#L" n="10"/>distribuit, si ea distribuat aliter, graviter contra iustitiam peccat.
+</p>
+            <p xml:id="v27ab7-g22174-d1e219">
+               <lb ed="#L" n="11"/>Cum ergo quaeritur utrum praelatus teneatur dare meliori et peccet graviter 
+con<lb break="no" ed="#L" n="12"/>trarium faciendo , dicendum quod dans beneficium ecclesiasticum alicui non dat illud
+<lb ed="#L" n="13"/>respiciendo personam cui dat ut est homo simpliciter vel etiam ut est bonus homo
+<lb ed="#L" n="14"/>simpliciter? et absolute, sed ut est bonus homo in ordine ad officium Ecclesiae propter
+<lb ed="#L" n="15"/>quod est beneficium institutum, sive ut est idoneus ad huiusmodi officium  bene 
+exer<lb break="no" ed="#L" n="16"/>cendum: quia in tali provisione intendit providere principaliter non personae de beneficio,
+<lb ed="#L" n="17"/>immo magis Ecclesiae de ministro cui de bonis Ecclesiae in quantum idoneus minister
+<lb ed="#L" n="18"/>merito providetur; et ideo est dicendum quod tenetur providere ei qui melior est non
+<lb ed="#L" n="19"/>simpliciter et secundum se, sed qui melior est ad officium vel beneficium ad quod debet
+<lb ed="#L" n="20"/>institui, quod quidem ordinatur, ut dictum est, ad bonum commune: haec est enim 
+con<lb break="no" ed="#L" n="21"/>dicio quam per se et principaliter debet praelatus attendere in beneficiorum collatione.
+<lb ed="#L" n="22"/>Si" tamen hwzc?aliae honestae circumstantiae ? concurrunt, tanto melius; sed si haec
+<lb ed="#L" n="23"/>principalis non sit, tunc patet eum esse acceptorem personarum, quia praefert unum
+<lb ed="#L" n="24"/>alteri, non ob causam quae faciat eum esse praeferendum in comparatione ad officium
+<lb ed="#L" n="25"/>ad quod instituitur vel ad beneficium quod confertur, sed ob causam aliam impertinentem,
+<lb ed="#L" n="26"/>Patet ergo quod talis non est fidelis servus et dispensator bonorum Domini principalis ;
+<lb ed="#L" n="27"/>ideo oportet supponere quod peccet non conferendo meliori si '" aequali facilitate possit
+<lb ed="#L" n="28"/>haberi, quin immo si sit fidelis procurator !' et dispensator debet multo studio laborare
+<lb ed="#L" n="29"/>ad hoc quod beneficia melioribus conferantur.
+</p>
+            <p xml:id="v27ab7-g22174-d1e263">
+               <lb ed="#L" n="30"/>Eodem modo, qui habent praelatos eligere, tenentur etiam eligere meliores ; immo
+<lb ed="#L" n="31"/>etiam ad hoc magis tenentur pro quanto status eorum, ratione perfectionis maximae
+<lb ed="#L" n="32"/>quam importat, requirit etiam personas inter alias perfectiores, non quidem solum de
+<lb ed="#L" n="33"/>status congruentia, sed essentia ?5, sic scilicet quod qui dignus est praelatione et ad digne
+<lb ed="#L" n="34"/>et perfecte faciendum ea quae praelationis officium requirit idoneus, oportet ipsum esse
+<lb ed="#L" n="35"/>perfectiorem quam illum qui dignus est religione et ad digne et perfecte faciendum ea
+<lb ed="#L" n="36"/>quae status religiosus requirit; de congruentia enim requiritur in omni homine perfectio
+<lb ed="#L" n="37"/>qualiscumque et quantacumque quantum a( ea in quibus essentialiter perfectio consistit,
+<lb ed="#L" n="38"/>status autem speciales secundum se suas perfectiones requirunt.
+</p>
+            <p xml:id="v27ab7-g22174-d1e285">
+               <lb ed="#L" n="39"/>Ad argumentum in ? contrarium est dicendum quod conferenti non sufficit simpliciter
+<lb ed="#L" n="40"/>quod bono conferat quando potest convenienter conferre meliori, quia non facit quod
+<lb ed="#L" n="41"/>débet, nec sufficit Deo cuius minister est et ideo ab ipso est graviter puniendus; sed
+<pb ed="#L" n="262"/>
+               <lb ed="#L" n="1"/>sufficit ei quantum ad hoc quod talis collatio tenet nec repellitur ille cui fit ab illo
+<lb ed="#L" n="2"/>beneficio. Nec conferens ab Ecclesia sive ecclesiastico iudice punitur, quia nec hoc posset
+<lb ed="#L" n="3"/>fieri bono modo, immo esset occasio impediendi omnes provisiones si statutum esset
+<lb ed="#L" n="4"/>quod con ferentis collatio non teneret nisi meliori facta, quia difficile esset frequenter
+<lb ed="#L" n="5"/>indicare quis alio melior et in quo et quomodo posset vel non posset haberi, et! ideo
+<lb ed="#L" n="6"/>talis electio uniuscuiusque conscientiae relinquitur; et ex statuto divino et iuris naturalis
+<lb ed="#L" n="7"/>ad sic? faciendum quilibet obligatur nec ab huiusmodi obligatione simpliciter potest
+<lb ed="#L" n="8"/>aliquis per statutum Ecclesiae absolvi, sed sic absolvitur quod etiam si constaret, sicut
+<lb ed="#L" n="9"/>frequenter constare potest, satis probabiliter quod potuisset meliori contulisse, tamen de
+<lb ed="#L" n="10"/>hoc ab Ecclesia publice non punitur propter pacem communem Ecclesiae conservandam,
+sed relinquitur Deo puniendus, prout dicit Augustinus, primo de Libero Arbitrio, quod
+<lb ed="#L" n="11"/>propter pacem communem leges humanae quaedam mala non puniunt quae tamen lege
+<lb ed="#L" n="12"/>divina punientur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

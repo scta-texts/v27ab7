@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 25, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf02lv">Louvain 1914</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-25" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-g00003"><!-- v27ab7-q5-q1 -->
+            <head xml:id="v27ab7-g00003-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-g00003-Hd1e101" type="question-title">
+      Utrum Deus posset transsubstantiare naturam spiritualem
+      in substantiam corporalem
+    </head>
+            <p xml:id="v27ab7-g00003-d1e104">
+               <pb ed="#L" n="1"/>
+               <lb ed="#L" n="1"/>QUODLIBETUM QUINTUM
+<lb ed="#L" n="2"/>QUAESTIO I.
+<lb ed="#L" n="3"/>Utrum Deus posset transsubstantiare naturam spiritualem
+<lb ed="#L" n="4"/>in substantiam corporalem
+</p>
+            <p xml:id="v27ab7-g00003-d1e117">
+               <lb ed="#L" n="5"/>Quaerebantur quaedam circa Deum, quaedam circa creaturas. Circa
+<lb ed="#L" n="6"/>Deum quaerebantur quaedam pertinentia ad essentialia, quaedam 
+perti<lb break="no" ed="#L" n="7"/>nentia ad personalia. Circa pertinentia ad essentialia quaerebantur duo
+<lb ed="#L" n="8"/>pertinentia ad divinam potentiam. Primum erat utrum Deus posset 
+trans<lb break="no" ed="#L" n="9"/>substantiare naturam spiritualem sive angelicam in substantiam corporalem,
+<lb ed="#L" n="10"/>puta in lignum vel lapidem, vel e converso. Secundum erat utrum Deus
+<lb ed="#L" n="11"/>posset ex materia corporis corruptibilis, puta terrae, producere aliquod
+<lb ed="#L" n="12"/>corpus incorruptibile per naturam, puta corpus alicuius stellae vel caeli.
+</p>
+            <p xml:id="v27ab7-g00003-d1e137">
+               <lb ed="#L" n="13"/>Ad primum arguebatur quod Deus posset angelum in corpus aliquod
+<lb ed="#L" n="14"/>transsubstantiare, quia maius est ex nihilo aliquid producere quam ens
+<lb ed="#L" n="15"/>aliquod in ens aliud transsubstantiare vel transmutare, eo quod maior
+<lb ed="#L" n="16"/>videtur distantia vel repugnantia nihili ad aliquid quam cuiuscumque entis
+<lb ed="#L" n="17"/>ad ens aliud. Sed Deus potest ex nihilo aliquid producere. Ergo poterit
+<lb ed="#L" n="18"/>quodcumque ens in ens aliud transmutare, et lapidem in angelum 
+trans<lb break="no" ed="#L" n="19"/>substantiare.
+</p>
+            <p xml:id="v27ab7-g00003-d1e156">
+               <lb ed="#L" n="20"/>Contra. Deus non potest facere id ex quo sequitur inconveniens et
+<lb ed="#L" n="21"/>impossibile. Sed ex transsubstantiatione angeli in corpus aliquod sequitur
+<lb ed="#L" n="22"/>inconveniens et impossibile. Nam si angelus in lapidem transsubstantiaretur,
+<lb ed="#L" n="23"/>sicut cum substantia panis in corpus Christi convertitur manent accidentia
+<lb ed="#L" n="24"/>panis sine subiecto, ita etiam, cum converteretur substantia angeli in lapidis
+<pb ed="#L" n="2"/>
+               <lb ed="#L" n="1"/>naturam, accidentia angeli sine subiecto manerent. Ergo maneret 
+intel<lb break="no" ed="#L" n="2"/>lectus et voluntas angeli sine substantia angeli quae est subiectum illorum,
+<lb ed="#L" n="3"/>et sic esset ponere intellectum et voluntatem absque actu intelligendi et
+<lb ed="#L" n="4"/>volendi, quod videtur inconveniens et impossibile.
+</p>
+            <p xml:id="v27ab7-g00003-d1e180">
+               <lb ed="#L" n="5"/>Respondeo dicendum quod quantum sufficit ad praesens, triplex est
+<lb ed="#L" n="6"/>transmutatio. Quaedam, cuius est tantum unus terminus positivus, et hoc
+<lb ed="#L" n="7"/>est sine subiecto communi, et illud quod transmutatur huiusmodi 
+transmu<lb break="no" ed="#L" n="8"/>tatione, quod scilicet praeintelligitur  sub termino a quo et ut transi ens
+<lb ed="#L" n="9"/>ad terminum ad quem, nullo modo manet nec in se nec in alio in quod
+<lb ed="#L" n="10"/>scilicet transmutatur ?, ut convenit in creatione vel adnihilatione ; et hac
+<lb ed="#L" n="11"/>transmutatione omnis creatura a Deo est ex nihilo ad esse transmutata,
+<lb ed="#L" n="12"/>large de transmutatione loquendo, et posset Deus potentia absoluta 
+quam<lb break="no" ed="#L" n="13"/>libet in nihilum redigere. — Quaedam autem est transmutatio quae habet
+<lb ed="#L" n="14"/>utrumque terminum positivum et subiectum commune utrique, in qua 
+trans<lb break="no" ed="#L" n="15"/>mutatum secundum aliquid sui manet in eo in? quod transmutatur, et de
+<lb ed="#L" n="16"/>hac transmutatione loquendo non posset Deus transmutare unam naturam
+<lb ed="#L" n="17"/>materialem in aliam naturam quae non esset etiam natura materialis. Non
+<lb ed="#L" n="18"/>enim posset sic ex lapide angelum producere quod lapis vel aliquid lapidis
+<lb ed="#L" n="19"/>in angelo remaneret, sed sic posset Deus immediate convertere quodlibet
+<lb ed="#L" n="20"/>corpus in quodlibet aliud quod in eadem materia communicat; unde ex
+<lb ed="#L" n="21"/>lapide immediate posset producere asinum, leonem, et quodcumque aliud
+<lb ed="#L" n="22"/>huiusmodi. Unde dicit Augustinus septimo super Genesim capitulo decimo
+<lb ed="#L" n="23"/>et capitulo decimo sexto : Omne corpus in omne corpus posse mutari sunt
+<lb ed="#L" n="24"/>qui assererent", quia supra aestimabant ea omnia in materia eiusdem rationis
+<lb ed="#L" n="25"/>communicare, corpus autem aliquod converti in animam fierique naturam
+<lb ed="#L" n="26"/>incorpoream nec quemquam sensisse scio nec fides habet. — Alia autem
+<lb ed="#L" n="27"/>transmutatio est quae habet utrumque terminum positivum, sed subiectum
+<lb ed="#L" n="28"/>commune non habet, et haec dicitur transsubstantiatio qua scilicet res
+<lb ed="#L" n="29"/>aliqua non accidentaliter sed substantialiter secundum illud quod est in
+<lb ed="#L" n="30"/>aliam iam existentem transit et convertitur; et de ista transmutatione est
+<lb ed="#L" n="31"/>quaestio, an sic posset Deus angelum in lapidem vel e converso transmutare.
+</p>
+            <p xml:id="v27ab7-g00003-d1e241">
+               <lb ed="#L" n="32"/>Et circa hoc est intelligendum quod si, prout aliqui videntur dicere,
+<lb ed="#L" n="33"/>pro tanto dicitur panis in corpus Christi transsubstantiatus et non esse
+<lb ed="#L" n="34"/>adnihilatus, quia aliquid eius manet eo quod accidentia panis manent,
+<lb ed="#L" n="35"/>tunc res quae non haberet accidentia quae possent manere ipsius substantia
+<pb ed="#L" n="3"/>
+               <lb ed="#L" n="1"/>transsubstantiata, hoc modo non posset in aliam transmutari. Et quia ita
+<lb ed="#L" n="2"/>videtur de angelo, quod scilicet non habet huiusmodi accidentia, scilicet
+<lb ed="#L" n="3"/>quae possent manere ipso transsubstantiato, diceretur quod angelus non
+<lb ed="#L" n="4"/>posset sic in lapidem transmutari; sed cum huiusmodi accidentia habeat
+<lb ed="#L" n="5"/>lapis, videtur quod nisi aliud obstet, posset lapis in angelum sic 
+trans<lb break="no" ed="#L" n="6"/>mutari. Hoc autem est inconveniens; nam in huiusmodi transmutatione
+<lb ed="#L" n="7"/>videtur esse convenientia terminorum, et sicut unus potest converti in
+<lb ed="#L" n="8"/>alium, ita e converso.
+</p>
+            <p xml:id="v27ab7-g00003-d1e272">
+               <lb ed="#L" n="9"/>Praeterea, licet panis sic conversus non diceretur omnino adnihilatus,
+<lb ed="#L" n="10"/>quia scilicet aliquid eius maneret, non quidem pertinens ad eius essentiam
+<lb ed="#L" n="11"/>sed ad accidentalem dispositionem, tamen sic adnihilatus esset quia '
+<lb ed="#L" n="12"/>ex remanentia huiusmodi? accidentium non dicetur aliquid ad eius essentiam
+<lb ed="#L" n="13"/>pertinens remanere, et sic substantia panis simpliciter esset adnihilata,
+<lb ed="#L" n="14"/>cum scilicet nec in se nec in alio aliquo modo maneret.
+</p>
+            <p xml:id="v27ab7-g00003-d1e288">
+               <lb ed="#L" n="15"/>Praeterea, non est sic intelligenda non adnihilatio, quia in huiusmodi
+<lb ed="#L" n="16"/>transmutatione non solum dicitur non adnihilatum, propter id quod 
+secun<lb break="no" ed="#L" n="17"/>dum se manet de eo quod prius erat eius quod transmutatum est, sed
+<lb ed="#L" n="18"/>etiam id ipsum quod transmutatum est dicitur non adnihilatum ita quod,
+<lb ed="#L" n="19"/>si totus panis quantum ad substantiam et accidentia in corpus Christi
+<lb ed="#L" n="20"/>transmutaretur (sive conversione substantiali quantum ad materiam et 
+for<lb break="no" ed="#L" n="21"/>mam substantialem panis in cuius materiam accidentia resolverentur, sive
+<lb ed="#L" n="22"/>etiam tali transmutatione quod substantia panis conversa accidentia quae
+<lb ed="#L" n="23"/>nunc manent adnihilarentur), diceretur quod substantia panis ? non esset
+<lb ed="#L" n="24"/>adnihilata eo quod id in quod  substantia panis est conversa est aliquid in
+<lb ed="#L" n="25"/>quod substantia ipsa panis diceretur aliquo modo manere, illo manente.
+<lb ed="#L" n="26"/>Non enim dicitur quod oportet accidentia manere ad hoc, quod tali 
+con<lb break="no" ed="#L" n="27"/>versione transmutatum dicatur non adnihilari, sed ad hoc quod id in quod
+<lb ed="#L" n="28"/>conversum est dicatur esse sacramentaliter, ubi prius erat substantia eius
+<lb ed="#L" n="29"/>quod conversum est realiter et localiter ; quod non posset esse nisi aliquid
+<lb ed="#L" n="30"/>per quod substantia rei conversae erat in loco, maneret. Et ideo contra
+<lb ed="#L" n="31"/>rationem et veritatem sacramenti videntur dicere qui ponunt, quod si panis
+<lb ed="#L" n="32"/>totaliter converteretur in corpus Christi, ita quod nec substantia panis nec
+<lb ed="#L" n="33"/>aliquod ? accidens eius maneret, quod corpus Christi esset ubi panis prius
+<lb ed="#L" n="34"/>erat. Ouia ergo hoc non impedit quin possit substantia angeli converti in
+<lb ed="#L" n="35"/>lapidem, possibile est hoc fieri, si aliud non obsistat.
+</p>
+            <p xml:id="v27ab7-g00003-d1e336">
+               <lb ed="#L" n="36"/>Cum autem in secundo modo transmutationis impediat fieri trans-
+<pb ed="#L" n="4"/>
+               <lb ed="#L" n="1"/>mutationem lapidis in angelum et e converso ', hoc quod non important
+<lb ed="#L" n="2"/>naturam communem ratione cuius quodlibet in alio secundum aliquid sui
+<lb ed="#L" n="3"/>maneret, in hac autem transmutatione ad hoc quod non fiat adnihilatio
+<lb ed="#L" n="4"/>non oportet ponere aliquid sic commune quod esse habeat in utroque 
+ter<lb break="no" ed="#L" n="5"/>mino, quia transmutatum non manet secundum aliquid sui quod secundum
+<lb ed="#L" n="6"/>essentiam non transmutetur, immo solum manet in quantum manet illud
+<lb ed="#L" n="7"/>in quod est conversum. Unde si lapis sic convertatur in lignum, licet 
+com<lb break="no" ed="#L" n="8"/>municet cum  ligno in materia, non tamen plus dicitur manere, ut videtur,
+<lb ed="#L" n="9"/>quam si in caelum transmutetur , esto quod in illo non sit materia saltem
+<lb ed="#L" n="10"/>eiusdem rationis, eo quod nihil eius secundum se manet. Secundum hoc
+<lb ed="#L" n="11"/>ergo videtur posse dici quod lapis posset in angelum transmutari et e 
+con<lb break="no" ed="#L" n="12"/>verso. Solum enim in hoc dicitur manere conversum, quod entitas sua fit
+<lb ed="#L" n="13"/>illa, et quia Deus habet potestatem super totum ens, quamlibet entitatem
+<lb ed="#L" n="14"/>creatam videtur posse in aliam transmutare sic quod transmutatum non
+<lb ed="#L" n="15"/>adnihiletur, quia manet illa entitas in quam est conversum.
+</p>
+            <p xml:id="v27ab7-g00003-d1e376">
+               <lb ed="#L" n="16"/>Non poterit tamen Deus aliquid in seipsum transmutare, quia de ratione
+<lb ed="#L" n="17"/>talis transmutationis est quod uterque terminorum sit transmutabilis, et
+<lb ed="#L" n="18"/>unus in alterum ; quia qua ratione unus potest in alterum converti, eadem
+<lb ed="#L" n="19"/>ratione alter quantum est de se debet esse transmutabilis in illum, et debet
+<lb ed="#L" n="20"/>uterque terminus sive entitas utriusque termini subiacere potestati eiusdem
+<lb ed="#L" n="21"/>agentis. Non sic autem se habet Deus respectu creaturarum, et hoc videtur
+<lb ed="#L" n="22"/>dicere Ambrosius, in libro de sacramentis, de totius mundi operibus legimus
+<lb ed="#L" n="23"/>quia dixit Deus et facta sunt. Sermo ergo qui potuit ex nihilo aliquid
+<lb ed="#L" n="24"/>facere quod non erat non poterit  mutare ea quae sunt in id quod non
+<lb ed="#L" n="25"/>erant. Et secundum hoc processit prima ratio.
+</p>
+            <p xml:id="v27ab7-g00003-d1e400">
+               <lb ed="#L" n="26"/>Sed quia haec conversio, quam certa fide tenemus, est supernaturalis
+<lb ed="#L" n="27"/>et ab intellectu creato incomprehensibilis, quia fit sola virtute divina, praeter
+<lb ed="#L" n="28"/>ordinem naturae ut ibidem dicit Ambrosius, ideo, licet non possimus 
+com<lb break="no" ed="#L" n="29"/>prehendere modum quo fieri habent, tamen  certum est ipsam non fieri
+<lb ed="#L" n="30"/>contra naturae ordinem, id est modo qui contradictionem includat, quia
+<lb ed="#L" n="31"/>hoc nulli potentiae  subici potest. Cum ergo illud quod convertitur dicatur
+<lb ed="#L" n="32"/>in huiusmodi transmutatione non adnihilari, oportet supponere sic fieri
+<lb ed="#L" n="33"/>huiusmodi  conversionem, quod illud quod convertitur aliquo modo possit
+<lb ed="#L" n="34"/>dici manere ; sed hoc non videtur posse dici nisi illud quod convertitur in
+<lb ed="#L" n="35"/>aliud, et illad in quod? convertitur sic se habeant quod unum sit aliquo
+<lb ed="#L" n="36"/>modo potentia ad aliud, ut modus faciendi sit? supernaturalis, sed termini
+<pb ed="#L" n="5"/>
+               <lb ed="#L" n="1"/>sic se habeant et ad invicem communicent quod unus quantum est de se
+<lb ed="#L" n="2"/>aliquo modo est alius ! in potentia : nulla enim potentia videtur posse fieri
+<lb ed="#L" n="3"/>quod aliquid fiat aliud quod, quantum est de se, nullo modo natum est esse.
+<lb ed="#L" n="4"/>Videtur ergo supponendum in hac conversione, quod illud quod iam existit
+<lb ed="#L" n="5"/>fiat aliquid aliud iam existens, quod quidem est tale, quod ipsum conversum,
+<lb ed="#L" n="6"/>quantum est de se, absolute natum est aliquo modo esse illud.
+</p>
+            <p xml:id="v27ab7-g00003-d1e442">
+               <lb ed="#L" n="7"/>Nunc autem sic se habent quae conveniunt in materia, sed ordine
+<lb ed="#L" n="8"/>quodam. Unde lapis est in potentia asinus, et planta, sed ordinate, et e
+<lb ed="#L" n="9"/>converso. Et quia Deus potest agere in res immediate, absque aliquo ordine
+<lb ed="#L" n="10"/>determinato, immediate potest ex quocumque corpore quodcumque aliud,
+<lb ed="#L" n="11"/>cum illo communicans in materia, producere. Si ergo Deus produceret
+<lb ed="#L" n="12"/>ex lapide existente asinum non existentem, lapis non diceretur adnihilari,
+<lb ed="#L" n="13"/>quia totus maneret in asino, sed? secundum aliquid eius, scilicet secundum
+<lb ed="#L" n="14"/>essentiam suae materiae in quam sua forma resolveretur. Sed si ex lapide
+<lb ed="#L" n="15"/>existente produceretur angelus non existens, non diceretur lapis manere,
+<lb ed="#L" n="16"/>sed adnihilari, quia non maneret secundum aliquid eius in angelo ad quem
+<lb ed="#L" n="17"/>nullo modo erat in potentia. Unde non posset dici proprie angelus prius
+<lb ed="#L" n="18"/>non existens produci ex lapide, immo diceretur angelus produci post esse
+<lb ed="#L" n="19"/>lapidis, vel post eius corruptionem, vel post eius adnihilationem. 
+Consi<lb break="no" ed="#L" n="20"/>militer videtur quod si aliquid existens convertatur in aliquid iam existens,
+<lb ed="#L" n="21"/>ad hoc quod possit conversum dici, non adnihilari, debet converti in tale
+<lb ed="#L" n="22"/>quid ad quod sit aliquo modo in potentia, et quod natum est fieri ex ipso,
+<lb ed="#L" n="23"/>si non esset, et quod sit in potentia illud idem in specie virtute naturali,
+<lb ed="#L" n="24"/>et idem numero virtute supernaturali, qua potest etiam aliquid adnihilari
+<lb ed="#L" n="25"/>et idem numero reparari. Unde nihil potest converti sic in aliud, nisi illud
+<lb ed="#L" n="26"/>vice versa possit converti in primum, et huius causa videtur esse 
+commu<lb break="no" ed="#L" n="27"/>nicatio in materia eiusdem rationis, prout dicit Boetius in libro de duabus
+<lb ed="#L" n="28"/>naturis et una persona Christi capitulo octavo : non omnis res in rem
+<lb ed="#L" n="29"/>omnem converti potest aut transmutari, nam neque corporeum ? in 
+incor<lb break="no" ed="#L" n="30"/>poreum, neque incorporea in eam quae corpus est mutari potest, nec 
+incor<lb break="no" ed="#L" n="31"/>porea in se invicem proprias formas mutant: sola enim mutari et 
+trans<lb break="no" ed="#L" n="32"/>formari quidem in se possunt quae habent unius materiae communem
+<lb ed="#L" n="33"/>substantiam . Ita ergo nullo modo fieri potest ut incorporea ? in 
+incor<lb break="no" ed="#L" n="34"/>poralem speciem permutetur; quorum enim communis nulla est materia,
+<lb ed="#L" n="35"/>nec in se converti ? nec permutari possunt. Et quia Deus potuit ab initio
+<lb ed="#L" n="36"/>corpus suum ex materia panis, quae " secundum suam essentiam praeexiste-
+<pb ed="#L" n="6"/>
+               <lb ed="#L" n="1"/>bat, producere; ita potest etiam substantiam panis eandem in idem corpus
+<lb ed="#L" n="2"/>jam existens convertere, et sic conversa non debet dici adnihilari. Quia
+<lb ed="#L" n="3"/>ergo lapis non est in potentia ut ex eo producatur angelus non existens,
+<lb ed="#L" n="4"/>nec e converso, ita etiam nunc non videtur posse converti lapis in angelum
+<lb ed="#L" n="5"/>existentem, nec e converso, absque adnihilatione ; immo hoc non esset
+<lb ed="#L" n="6"/>aliqua conversio unius in alterum, sed esset desinere esse alterum, 
+reli<lb break="no" ed="#L" n="7"/>quo in sua entitate manente. Et ad hoc etiam facit quod dicit 
+Augus<lb break="no" ed="#L" n="8"/>tinus, septimo super Genesim, capitulo sexto quod etiam est supra 
+alle<lb break="no" ed="#L" n="9"/>gatum : Omne corpus in omne corpus mutari posse credibile est ; quodlibet
+<lb ed="#L" n="10"/>autem corpus posse mutari in animam fierique naturam incorpoream 
+absur<lb break="no" ed="#L" n="11"/>dum est credere. Super hoc tamen nihil assero, quia quae divinae potentiae
+<lb ed="#L" n="12"/>sunt subiecta, non potest humanus intellectus perscrutari. Si autem sic
+<lb ed="#L" n="13"/>ponatur quod corpus in spiritum ' non possit trans mutari, remanet dubium
+<lb ed="#L" n="14"/>quomodo fiet conversio substantiae panis in corpus Christi, si in eo non sit
+<lb ed="#L" n="15"/>aliqua forma substantialis alia ab anima in quam oportet substantiam panis
+<lb ed="#L" n="16"/>converti, quae tamen est substantia a materia abstracta, posito quod tota
+<lb ed="#L" n="17"/>substantia panis composita ex materia et forma substantiali per se 
+conver<lb break="no" ed="#L" n="18"/>tatur in totum corpus Christi compositum etiam ex materia et forma 
+sub<lb break="no" ed="#L" n="19"/>stantiali. Sed non pertinet hoc ad praesentem perscrutationem et alias
+<lb ed="#L" n="20"/>absque assertione dixi quod mihi super hoc videbatur posse probabiliter
+<lb ed="#L" n="21"/>opinari.
+</p>
+            <p xml:id="v27ab7-g00003-d1e557">
+               <lb ed="#L" n="22"/>Ad argumentum in oppositum  est dicendum quod verum est quod
+<lb ed="#L" n="23"/>aliquo modo maius est producere aliquid ex nihilo, quam quod iam est in
+<lb ed="#L" n="24"/>aliud convertere. Hoc enim verum est conversione qua convertitur aliquid ?
+<lb ed="#L" n="25"/>materiale in aliquid  materiale non existens, ut cum fit asinus ex lapide,
+<lb ed="#L" n="26"/>vel cum in iam existens convertitur; sed non est verum de conversione
+<lb ed="#L" n="27"/>materialis in immateriale, vel e converso, quia cum producitur non ens
+<lb ed="#L" n="28"/>ex nihilo, non est ibi repugnantia vel contradictio quae hoc  includeretur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
