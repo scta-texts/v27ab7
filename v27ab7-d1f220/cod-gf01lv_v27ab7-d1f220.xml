@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="353"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f220"><!-- v27ab7-q4short-q22 -->
+            <head xml:id="v27ab7-d1f220-Hd1e99">Quaestio 22</head>
+            <head xml:id="v27ab7-d1f220-Hd1e101" type="question-title">
+      Utrum aliqua qualitas puta albedo possit habere esse sine quantitate
+    </head>
+            <p xml:id="v27ab7-d1f220-d1e104">
+               <lb ed="#L" n="11"/>QUAESTIO XXII
+<lb ed="#L" n="12"/>(BREVIS).
+<lb ed="#L" n="13"/>Utrum aliqua qualitas puta albedo possit habere esse sine quantitate .
+</p>
+            <p xml:id="v27ab7-d1f220-d1e113">
+               <lb ed="#L" n="14"/>Postea quaerebatur unum quantum ad naturam accidentalem, scilicet utrum
+<lb ed="#L" n="15"/>aliqua qualitas puta albedo possit habere esse sine quantitate. Et arguitur quod sic,
+<lb ed="#L" n="16"/>quia non minus dependet albedo a quantitate quam quantitas a substantia. Sed
+<lb ed="#L" n="17"/>quantitas potest esse sine !? substantia. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f220-d1e124">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod licet quantitas possit esse virtute divina sine 
+sub<lb break="no" ed="#L" n="19"/>stantia, non tamen videtur quod ita possit esse albedo vel consimilis qualitas sine
+<lb ed="#L" n="20"/>quantitate. Primo quia quantitas, cum ! immediatius sequatur substantiam quam
+<lb ed="#L" n="21"/>qualitas vel aliud accidens , magis potest participare modum substantiae quam
+<lb ed="#L" n="22"/>qualitas, quod est esse sine subiecto. Secundo quia quantitas sibi nullam formam
+<lb ed="#L" n="23"/>materialem determinat, sed indeterminate respicit omnem ? formam materialem.
+<lb ed="#L" n="24"/>Qualitas autem determinat | sibi quantitatem. Unde magis videtur qualitas  dependere
+<lb ed="#L" n="25"/>a quantitate quam quantitas a substantia. Puta albedo non potest inveniri nisi in
+<lb ed="#L" n="26"/>superficie; quantitas autem in omni substantia materiali. — Tertio quia quantitas
+<lb ed="#L" n="27"/>individuatur per se et determinatur ad hic et nunc, non sic ' qualitas, et ideo qualitas
+<lb ed="#L" n="28"/>non potest habere esse individuum sine quantitate sicut !" quantitas sine substantia.
+<lb ed="#L" n="29"/>— Quarto quia qualitas non est sensibilis sine quantitate, puta albedo non est quid
+<lb ed="#L" n="30"/>sensibile sine superficie vel perspicuo terminato sicut nec lux sine diaphano. Et ex
+<pb ed="#L" n="354"/>
+               <lb ed="#L" n="1"/>intellectualis. non corruptibilis nec mutabilis quae omnia ponerent albedinem extra
+<lb ed="#L" n="2"/>naturam sui generis; non sic sequitur de quantitate. Et ideo non videtur quod ita
+<lb ed="#L" n="3"/>sit separabilis albedo vel consimilis qualitas  a quantitate sicut quantitas a substantia.
+</p>
+            <p xml:id="v27ab7-d1f220-d1e164">
+               <lb ed="#L" n="4"/>Ad rationem patet, quia maior est falsa, quia  magis dependet albedo vel
+<lb ed="#L" n="5"/>consimilis qualitas  quam quantitas a substantia .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e680"><!-- v27ab7-q4q1 -->
+            <head xml:id="v27ab7-d1e680-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-d1e680-Hd1e101" type="question-title">
+      Utrum in Deo sit idea propria et distincta respectu cuiuslibet singularis
+    </head>
+            <p xml:id="v27ab7-d1e680-d1e104">
+               <pb ed="#L" n="230"/>
+               <lb ed="#L" n="1"/>QUODLIBETUM QUARTUM
+<lb ed="#L" n="2"/>QUAESTIO I
+<lb ed="#L" n="3"/>(LONGA).
+<lb ed="#L" n="4"/>Utrum in. Deo sit idea propria et distincta respectu
+<lb ed="#L" n="5"/>cuiuslibet. singularis.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e120">
+               <lb ed="#L" n="6"/>Quaerebantur quaedam circa Deum et quaedam circa creaturas.
+<lb ed="#L" n="7"/>Circa Deum quaerebatur unicum, utrum in Deo sit idea propria et
+<lb ed="#L" n="8"/>distincta respectu cuiuslibet singularis. Et arguebatur quod sic, quia
+<lb ed="#L" n="9"/>diversorum cognoscibilium sunt diversae rationes cognoscendi. Sed
+<lb ed="#L" n="10"/>diversa individua sunt diversa cognoscibila quia sunt diversa entia.
+<lb ed="#L" n="11"/>Ideae autem sunt rationes cognoscendi. Ergo diversorum individuorum
+<lb ed="#L" n="12"/>sunt diversae ideae in Deo.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e138">
+               <lb ed="#L" n="13"/>Contra. Quaecumque uno modo sive secundum unum gradum
+<lb ed="#L" n="14"/>imitabilitatis imitantur divinam essentiam, non habent in Deo nisi unam
+<lb ed="#L" n="15"/>ideam quia idea in Deo non est nisi essentia divina secundum aliquam
+<lb ed="#L" n="16"/>imitabilitatem sive secundum quod imitabilis a creatura. Sed individua
+<lb ed="#L" n="17"/>eiusdem speciei imitantur divinam essentiam uno modo sive secundum
+<lb ed="#L" n="18"/>unum gradum imitabilitatis, quia etiam 1psa individua non excedunt se
+<lb ed="#L" n="19"/>invicem secundum diversos gradus. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e157">
+               <lb ed="#L" n="20"/>Respondeo dicendum quod cum idea in Deo non sit nisi ipsa
+<lb ed="#L" n="21"/>essentia divina ut est exemplaris forma rei secundum quod apprehenditur
+<lb ed="#L" n="22"/>ut est imitabilis a creatura (est enim secundum Augustinum  idea
+<lb ed="#L" n="23"/>forma vel species) ipsa forma idea quaedam existens non videtur
+<lb ed="#L" n="24"/>esse nisi eorum quae nata sunt participare et imitari divinam essentiam
+<pb ed="#L" n="231"/>
+               <lb ed="#L" n="1"/>secundum aliquam formam. Et quia quae secundum diversas formas
+<lb ed="#L" n="2"/>nata sunt imitari divinam essentiam diversas ideas habent, ideo ea
+<lb ed="#L" n="3"/>quorum non est nisi una forma per se (si autem multiplicentur hoc est
+<lb ed="#L" n="4"/>per accidens), videntur habere unam ideam quae est iliius formae primo
+<lb ed="#L" n="5"/>et per se et ex consequenti omnium in quibus reperitur. Cum enim
+<lb ed="#L" n="6"/>ratio idearum sumatur ex apprehensione essentiae divinae prout scilicet
+<lb ed="#L" n="7"/>apprehenditur in intellectu divino imitabilis diversimode a diversis, et
+<lb ed="#L" n="8"/>secundum diversitatem graduum in imitabilibus sumitur diversitas
+<lb ed="#L" n="9"/>idearum, licet non ex illa, ea quae secundum unum gradum imitantur
+<lb ed="#L" n="10"/>unam habent ideam. Unde sicut non habet diversam rationem 
+mensu<lb break="no" ed="#L" n="11"/>randi numeros eiusdem speciei (nam eodem modo omnes quaternarii
+<lb ed="#L" n="12"/>univoce mensurantur, sed alio modo quaternarius et ternarius; nam
+<lb ed="#L" n="13"/>perfectior dicitur unitas ex hoc quod est mensura mille quaternariorum
+<lb ed="#L" n="14"/>quam unius solius, quia una et aeque perfecta ratione mensurandi qua
+<lb ed="#L" n="15"/>men | suratur unum mensurat omnes), — ita in proposito divina essentia
+<lb ed="#L" n="16"/>ex hoc quod est imitabilis a pluribus individuis non intelligitur sub
+<lb ed="#L" n="17"/>ratione perfectiore quam ab uno, quia uno modo est ab eis imitabilis.
+<lb ed="#L" n="18"/>Et sic cum non habeat diversam rationem mensurandi diversa individua,
+<lb ed="#L" n="19"/>nec diversa individua habent diversam rationem imitandi, sed unam
+<lb ed="#L" n="20"/>primo et per se, quasi per accidens diversificatam vel diversificabilem, —
+<lb ed="#L" n="21"/>ideo ex ratione ideae et eius cuius est per se patet quod respectu
+<lb ed="#L" n="22"/>cuiuslibet singularis non est propria et distincta idea.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e220">
+               <lb ed="#L" n="23"/>Item, hoc idem patet secundo ex ratione ordinis idearum qui non
+<lb ed="#L" n="24"/>est in individuis. Cum enim in individuis non sit ordo nec ante vel
+<lb ed="#L" n="25"/>post, ut dicitur quinto Metaphysicae , et in ideis sit aliquo modo ordo
+<lb ed="#L" n="26"/>secundum rationem et non confusio, pluribus individuis quae eundem
+<lb ed="#L" n="27"/>ordinem habent non respondent per se plures ideae.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e233">
+               <lb ed="#L" n="28"/>Hoc idem tertio apparet ex ratione perfectionis ideae et eius cuius
+<lb ed="#L" n="29"/>est. In quantum enim essentia divina est ratio mensurandi et cognoscendi
+<lb ed="#L" n="30"/>perfectiora et magis simplicia habet rationem ideae perfectioris, solum
+<lb ed="#L" n="31"/>tamen secundum rationem et intellectum, nullo posito ordine secundum
+<lb ed="#L" n="32"/>rem. Non potest enim diversimode intelligi imitabilis divina essentia a
+<lb ed="#L" n="33"/>diversis nisi in quantum intelligitur imitabilis uno »7odo scilicet perfectiore
+<lb ed="#L" n="34"/>ab uno, et alio modo ab alio scilicet imperfectiore. Perfectio autem per
+<lb ed="#L" n="35"/>se attenditur in entibus secundum formas specificas.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e253">
+               <pb ed="#L" n="232"/>
+               <lb ed="#L" n="1"/>Praeterea, hoc idem quarto ostenditur ex ratione identitatis essentiae
+<lb ed="#L" n="2"/>individuorum et speciei et generis et differentiae in specie. Cum enim
+<lb ed="#L" n="3"/>in entibus sola species specialissima est quae importat per se formam
+<lb ed="#L" n="4"/>ab alia per se et essentialiter distinctam, videtur quod nec generum
+<lb ed="#L" n="5"/>nec differentiarum sit idea, quia genus et differentia non sunt plura
+<lb ed="#L" n="6"/>secundum se vel secundum rem, sed solum secundum rationem et
+<lb ed="#L" n="7"/>intellectus considerationem et accidentaliter per intellectum considerantem
+<lb ed="#L" n="8"/>et dividentem quae re sunt unum. Res enim, etsi universaliter et distincte
+<lb ed="#L" n="9"/>intelligantur et considerantur, non tamen sic sunt. Unde eorum non est
+<lb ed="#L" n="10"/>idea per se. Sed per ideam speciei per quam perfecte cognoscitur
+<lb ed="#L" n="11"/>species omnium, qua! esse vel considerari habet, cognoscuntur huiusmodi
+<lb ed="#L" n="12"/>quae etiam differunt accidentaliter operatione agentis plura in natura
+<lb ed="#L" n="13"/>unius essentiae specificae producentis, ut individua non habent per se
+<lb ed="#L" n="14"/>nisi unam ideam et per se proprias ideas habere non possunt. Sed
+<lb ed="#L" n="15"/>solius speciei est per se idea, quia per illam cognoscitur per se et
+<lb ed="#L" n="16"/>primo species secundum se, et quasi ex consequenti et secundario sive
+<lb ed="#L" n="17"/>in Ipsa specie et genus et omnes differentiae secundum quod ad rationem
+<lb ed="#L" n="18"/>speciei completivam pertinent et etiam omnia individua in quibus haec
+<lb ed="#L" n="19"/>essentia multiplicabilis est.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e299">
+               <lb ed="#L" n="20"/>Potest ergo ex his formari ratio ad propositum ostendendum
+<lb ed="#L" n="21"/>formaliter sic. Sicut per ideam perfectam speciei perfecte cognoscitur
+<lb ed="#L" n="22"/>ratio generis ut incompleti et ratio differentiae ut completi, nec ex hoc
+<lb ed="#L" n="23"/>sunt plures ideae unius et eiusdem speciei respectu generis et differentiae,
+<lb ed="#L" n="24"/>quorum tamen ratio unius est extra rationem alterius et quasi diversos
+<lb ed="#L" n="25"/>gradus formales secundum rationem considerandi important, — ita
+<lb ed="#L" n="26"/>etiam respectu diversorum individuorum quorum species est tota ratio
+<lb ed="#L" n="27"/>formalis et essentialia: Nec addit individuum super speciem aliquid
+<lb ed="#L" n="28"/>pertinens ad rationem et essentiam eius in tali specie. Una et eadem
+<lb ed="#L" n="29"/>idea, quae est ipsius speciei per se, est et omnium individuorum sub
+<lb ed="#L" n="30"/>illa. Nec alia idea est humanitatis secundum se et humanitatis huius ut
+<lb ed="#L" n="31"/>in hoc individuo, sicut alia est humanita£is et asinitatis. Unde homo per
+<lb ed="#L" n="32"/>se et primo habet esse ad imitationem divini exemplaris, Petrus autem
+<lb ed="#L" n="33"/>non sic primo et per se, licet aliquo modo per se, in quantum est quoddam
+<lb ed="#L" n="34"/>ens unum reale. Sed non habet esse secundum imitationem divini esse
+<lb ed="#L" n="35"/>per se et primo secundum quod est Petrus habens in se hanc 
+humani<lb break="no" ed="#L" n="36"/>tatem, | sed secundum quod homo simpliciter habens in se humanitatem
+<lb ed="#L" n="37"/>simpliciter; et quemadmodum accidit humanitati simpliciter quod sit
+<pb ed="#L" n="233"/>
+               <lb ed="#L" n="1"/>hoc in Petro, sic accidit quod idea humanitatis vel hominis simpliciter
+<lb ed="#L" n="2"/>sit idea Petri. Et videtur hoc esse intentio Augustini  in epistula
+<lb ed="#L" n="3"/>ad Nebridium ubi dicit: utrum summa illa veritas et rerum forma per
+<lb ed="#L" n="4"/>quam facta sunt omnia, generaliter hominis aut etiam uniuscuiusque
+<lb ed="#L" n="5"/>nostrum rationem contineat magis quaestio est. Sed mihi videtur quod
+<lb ed="#L" n="6"/>quantum ad hominem faciendum attinet, hominis quidem tantum non
+<lb ed="#L" n="7"/>meam vel tuam ibi esse rationem ; quod autem ad orbem temporis,
+<lb ed="#L" n="8"/>varias hominum rationes (reales quidem [sunt] ipsorum individuorum
+<lb ed="#L" n="9"/>secundum se ipsa[m], secundum quas sunt id quod sunt in rerum natura
+<lb ed="#L" n="10"/>cum sunt et quae esse cognitum habent in mente divina secundum
+<lb ed="#L" n="11"/>unam rationem speciei) in illa sinceritate vivere, supple: mihi videtur.
+<lb ed="#L" n="12"/>Et infra: in disciplina[m] mentiendi una est anguli ratio, una quadrati.
+<lb ed="#L" n="13"/>Itaque quotiens demonstrare angulum volo, non nisi una ratio anguli
+<lb ed="#L" n="14"/>mihi occurrit. Sed quadratum nequaquam scriberem nisi quattuor solum
+<lb ed="#L" n="15"/>angulorum rationem immorer. Ita quilibet homo una ratione qua homo
+<lb ed="#L" n="16"/>intelligitur factus est. At ut populus fiat, quamvis et ipsa una ratio, non
+<lb ed="#L" n="17"/>tamen hominis ratio sed hominum. Non potest enim universi conditor
+<lb ed="#L" n="18"/>rationem partium non habere.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e382">
+               <lb ed="#L" n="19"/>His etiam ratio consonat, ut sic adhuc alia ratione quinto ostenditur
+<lb ed="#L" n="20"/>propositum. Si enim ponitur quod angelus per unam speciem cognoscit
+<lb ed="#L" n="21"/>singularia, in quantum illa species efiluxit ab ideis exemplaribus in Deo
+<lb ed="#L" n="22"/>quae sunt perfecta ratio rei secundum totum esse ipsius non solum
+<lb ed="#L" n="23"/>quantum ad universalia vel quantum ad formam, sed quantum ad minima
+<lb ed="#L" n="24"/>et singularia et quantum ad materiam, multo magis debet hoc dici de
+<lb ed="#L" n="25"/>ipsa essentia divina ut est idea speciei alicuius entis. Sicut ergo
+<lb ed="#L" n="26"/>dicitur quod angelus per unam et eandem speciem cognoscendo, naturam
+<lb ed="#L" n="27"/>speciei cognoscit et omnia in quibus illa natura reservatur secundum
+<lb ed="#L" n="28"/>quod habent ordinem ad huiusmodi naturam (hoc enim requirit 
+per<lb break="no" ed="#L" n="29"/>fecta cognitio naturae), individua autem habent ordinem et habitudinem
+<pb ed="#L" n="234"/>
+               <lb ed="#L" n="1"/>ad naturam speciei quia et in ipsa uniuntur essentialiter et ipsam
+<lb ed="#L" n="2"/>dividunt accidentaliter, non autem cognosceretur perfecte talis natura
+<lb ed="#L" n="3"/>nisi etiam cognosceretur omnis huiusmodi habitudo et ordo ad ipsam, —
+<lb ed="#L" n="4"/>ideo cognoscendo naturam cognoscit individua secundum utramque
+<lb ed="#L" n="5"/>habitudinem ad ipsam. Hoc autem non esset nisi cognosceret illa
+<lb ed="#L" n="6"/>distincte et secundum quod dividunt eam dicto modo. Similiter immo
+<lb ed="#L" n="7"/>multo magis Deus, per ideam perfecte repraesentantem naturam aliquam,
+<lb ed="#L" n="8"/>sic perfecte intelligit illam ut intelligat omnia illa quae habent aliquo
+<lb ed="#L" n="9"/>modo ordinem et habitudinem ad naturam illam.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e431">
+               <lb ed="#L" n="10"/>Sed quicquid sit de hoc, dicendum ut prius, salvando perfectam et
+<lb ed="#L" n="11"/>distinctam cognitionem in Deo omnium tam singularium quam 
+univer<lb break="no" ed="#L" n="12"/>salium et ponendo minimam distinctionem et multitudinem idearum in
+<lb ed="#L" n="13"/>ipso. Negare enim Deum cognoscere singularia distincte est inconveniens,
+<lb ed="#L" n="14"/>sed ponere quod hoc fiat per unam ideam rationale videtur.
+</p>
+            <p xml:id="v27ab7-d1e680-d1e444">
+               <lb ed="#L" n="15"/>Ad rationem igitur in oppositum dicendum quod plura quae
+<lb ed="#L" n="16"/>essentialiter per se et formaliter sunt plura et distincta, ut plura sive
+<lb ed="#L" n="17"/>distincte non cognoscuntur nisi per plura, secundum rem ut in creaturis,
+<lb ed="#L" n="18"/>vel secundum rationem ut in Deo. Sed plura non essentialiter et 
+forma<lb break="no" ed="#L" n="19"/>liter secundum se sed accidentaliter ratione diversitatis materiae, vel
+<lb ed="#L" n="20"/>ratione agentis cuius actio ad plura sub una specie terminatur, non
+<lb ed="#L" n="21"/>oportet quod ab his quae non recipiunt cognitionem a rebus ipsis
+<lb ed="#L" n="22"/>diversis secundum rem in angelo secundum aliquos vel secundum
+<lb ed="#L" n="23"/>rationem in Deo cognoscantur; sed secundum unum et idem 
+cogno<lb break="no" ed="#L" n="24"/>scuntur quod est primo et per se ratio speciei, et secundario et quasi ex
+<lb ed="#L" n="25"/>consequenti sive in ipsa specie omnium individuorum habentium hunc
+<lb ed="#L" n="26"/>ordinem vel habitudinem ad ipsam speciem quod species multiplicabilis
+<lb ed="#L" n="27"/>est in ipsis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

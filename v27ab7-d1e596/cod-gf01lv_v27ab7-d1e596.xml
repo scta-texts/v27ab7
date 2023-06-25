@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="219"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e596"><!-- v27ab7-q3q10 -->
+            <head xml:id="v27ab7-d1e596-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-d1e596-Hd1e101" type="question-title">
+      Utrum doctor in theologia possit determinare ea quae ad solum papam pertinent
+    </head>
+            <p xml:id="v27ab7-d1e596-d1e104">
+               <pb ed="#L" n="219"/>
+               <lb ed="#L" n="1"/>QUAESTIO X.
+<lb ed="#L" n="2"/>Utrum doctor in. theologia possit determinare ea quae
+<lb ed="#L" n="3"/>ad solum papam pertinent.
+</p>
+            <p xml:id="v27ab7-d1e596-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa hoc quaerebatur unum ex parte doctorum theologicae
+<lb ed="#L" n="5"/>facultatis habentium auctoritatem docendi ratione ofhlicii magistralis,
+<lb ed="#L" n="6"/>videlicet utrum aliquis doctor in theologia possit in cathedra determinare
+<lb ed="#L" n="7"/>ea quae ad solum papam pertinent,.sive possit determinare et asserere
+<lb ed="#L" n="8"/>alteram partem in dubiis quae oriri possunt in his quae a solo papa
+<lb ed="#L" n="9"/>sunt condita vel statuta. Et arguebatur quod magister et cetera, non
+<lb ed="#L" n="10"/>possit et cetera, quia cuius non est aliquid interpretari, eius non est
+<lb ed="#L" n="11"/>ilud determinare, quia omnis oratio definitiva sive determinativa est
+<lb ed="#L" n="12"/>interpretativa, sed non e converso secundum Boetium. Sed talia
+<lb ed="#L" n="13"/>quae a solo papa sunt condita, ab ipso solo habent interpretari, ergo
+<lb ed="#L" n="14"/>et determinari.
+</p>
+            <p xml:id="v27ab7-d1e596-d1e141">
+               <lb ed="#L" n="15"/>Contra. Ad rationem pertinet inquirere de dubiis, et de illis post
+<lb ed="#L" n="16"/>inquisitionem iudicare et determinare. Sed ea quae condita sunt a papa
+<lb ed="#L" n="17"/>possunt esse dubia. Ergo de illis sapiens praecipue ratiocinando potest
+<lb ed="#L" n="18"/>inquirere et determinare. Sed doctor in theologia debet esse inter
+<lb ed="#L" n="19"/>alios de numero sapientum. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e596-d1e155">
+               <lb ed="#L" n="20"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

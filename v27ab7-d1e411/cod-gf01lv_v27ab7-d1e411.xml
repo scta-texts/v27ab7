@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="136"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e411"><!-- v27ab7-q2q8 -->
+            <head xml:id="v27ab7-d1e411-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-d1e411-Hd1e101" type="question-title">
+      Utrum animam respectu necessariorum et respectu contingentium aliter se habere sit ponere plures potentias intellectivas realiter differentes
+    </head>
+            <p xml:id="v27ab7-d1e411-d1e104">
+               <pb ed="#L" n="136"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIII.
+<lb ed="#L" n="2"/>Utrum animam respectu necessariorum et respectu
+<lb ed="#L" n="3"/>contingentium aliter se habere sit ponere plures potentias
+<lb ed="#L" n="4"/>intellectivas. realiter. differentes.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e117">
+               <lb ed="#L" n="5"/>Circa formam hominis specialiter quae est anima quaerebatur 
+quod<lb break="no" ed="#L" n="6"/>dam sibi pertinens quantum ad eius potentias, utrum videlicet respectu
+<lb ed="#L" n="7"/>necessariorum et impossibilium aliter se habere et respectu 
+contingeen<lb break="no" ed="#L" n="8"/>tium aliter se habere sit ponere plures potentias intellectivas realiter
+<lb ed="#L" n="9"/>differentes, et non solum unam secundum rem, diversificatam secundum
+<lb ed="#L" n="10"/>rationem. Et arguebatur quod respectu contingentium et necessariorum
+<lb ed="#L" n="11"/>sint diversae potentiae intellectivae realiter differentes, quia diversitas
+<lb ed="#L" n="12"/>et distinctio obiectorum secundum formalem rationem requirit diversitatem
+<lb ed="#L" n="13"/>realem potentiarum. Sed necessarium et contingens sunt obiecta 
+forma<lb break="no" ed="#L" n="14"/>liter differentia, quia secundum Philosophum , decimo Metaphysicae,
+<lb ed="#L" n="15"/>corruptibile et incorruptibile differunt plus quam in genere; et in sexto
+<lb ed="#L" n="16"/>Ethicorum  dicit quod contingens et necessarium sunt obiecta genere
+<lb ed="#L" n="17"/>diversa. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e148">
+               <lb ed="#L" n="18"/>Contra. Sicut se habet in | tellectus respectu intelligibilium, sic se
+<lb ed="#L" n="19"/>habet voluntas respectu appetibilium. Sed una et eadem potentia 
+volun<lb break="no" ed="#L" n="20"/>tatis secundum rem appetimus necessaria et contingentia. Ergo una
+<lb ed="#L" n="21"/>et eadem potentia intellectus secundum rem intelligimus necessaria et
+<lb ed="#L" n="22"/>contingentia !.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e162">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod circa hoc videtur Philosophus sentire
+<lb ed="#L" n="24"/>in principio sexti Ethicorum  quod scientificum et ratiocinativum sint
+<pb ed="#L" n="137"/>
+               <lb ed="#L" n="1"/>potentiae ab invicem realiter differentes, et quod ambae sint potentiae
+<lb ed="#L" n="2"/>animae rationalis, quoniam dicit ' quod intendit de parte animae, non
+<lb ed="#L" n="3"/>irrationali participante autem rationem ?, sed de parte animae quae? est
+<lb ed="#L" n="4"/>rationem habens. Dicens etiam: « supponantur rationem habentia duo,
+<lb ed="#L" n="5"/>unum quo speculamur talia entium quae non contingit aliter se habere,
+<lb ed="#L" n="6"/>aliud quo contingentia. Ad ea enim quae genere altera, et animae
+<lb ed="#L" n="7"/>particularum alterum genere ad utrumque aptum natum; dicatur autem
+<lb ed="#L" n="8"/>horum quidem hoc scientificum, hoc autem ratiocinativum. »
+</p>
+            <p xml:id="v27ab7-d1e411-d1e188">
+               <lb ed="#L" n="9"/>Sed cum in genere rerum  materialium sit ponere tantum unam
+<lb ed="#L" n="10"/>materiam secundum essentiam non diversificatam secundum rem respectu
+<lb ed="#L" n="11"/>omnium formarum materialium ad quas tamen non est in potentia nisi
+<lb ed="#L" n="12"/>ordine quodam, ita videtur quod erit in genere intelligibilium ponere
+<lb ed="#L" n="13"/>unam quasi materiam secundum rem non variatam respectu omnium 
+for<lb break="no" ed="#L" n="14"/>marum intelligibilium. Quia enim intellectus est quasi virtus immaterialis
+<lb ed="#L" n="15"/>et sic quodammodo infinita, quia non contracta ad materiam signatam,
+<lb ed="#L" n="16"/>eo quod non est virtus organica vel materialis, ideo virtus eius se
+<lb ed="#L" n="17"/>extendit ad cognoscendum omnia ut sibi obiecta vel ad obiectum |
+<lb ed="#L" n="18"/>commune omnibus entibus. Unde, ut dicit Philosophus  : intellectus,
+<lb ed="#L" n="19"/>scilicet possibilis, est quo est omnia fieri. Et sic obiectum eius est ens
+<lb ed="#L" n="20"/>secundum quod ens; et omne quod habet rationem entis et quidditatis
+<lb ed="#L" n="21"/>aliqualiter habet rationem obiecti respectu huius intellectus. Si ergo
+<lb ed="#L" n="22"/>potentia animae dicat rem aliquam additam, patet quod non debet dici
+<lb ed="#L" n="23"/>alia et alia potentia animae respectu obiectorum quorumcumque 
+intel<lb break="no" ed="#L" n="24"/>ligibilium, sed solum differens secundum rationem vel respectum, sicut
+<lb ed="#L" n="25"/>dictum est de materia.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e227">
+               <lb ed="#L" n="26"/>Inmo etiam, ut videtur ?, si potentiae sint respectus quidam  reales
+<lb ed="#L" n="27"/>respectu diversorum intelligibilium, non erunt diversae potentiae diversos
+<lb ed="#L" n="28"/>respectus reales importantes, eo quod omnia habent unam formalem
+<lb ed="#L" n="29"/>rationem obiecti, scilicet rationem veri sive entis quidditativi respicientis
+<lb ed="#L" n="30"/>unam potentiam. Sed cum nec hoc obiectum habeat " unam rationem
+<lb ed="#L" n="31"/>omnino univocam (quia ens secundum quod ens quod dicitur esse obiectum
+<lb ed="#L" n="32"/>intellectus non est quid univocum sed analogum, per prius dictum de prima
+<lb ed="#L" n="33"/>substantia et de omnibus aliis per attributionem ad ipsam), — ita videtur
+<pb ed="#L" n="138"/>
+               <lb ed="#L" n="1"/>quod etiam primum et per se obiectum '! intellectus sit primum ens et
+<lb ed="#L" n="2"/>omnia alia in quantum quodammodo participant rationem primi entis
+<lb ed="#L" n="3"/>et attributionem habent ad ipsum; ut sic et per se obiectum intellectus
+<lb ed="#L" n="4"/>sint ens quod est substantia, et praecipue substantia prima, et omnia alia
+<lb ed="#L" n="5"/>entia secundum hunc ordinem et attributionem.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e260">
+               <lb ed="#L" n="6"/>Ad hoc primum obiectum, contra dicentes quod intellectus noster
+<lb ed="#L" n="7"/>nullo modo potest ex naturalibus cognoscere aliquam substantiam 
+im<lb break="no" ed="#L" n="8"/>mediate intellectu essentiali, sed solum argumentative  et cetera, vel
+<lb ed="#L" n="9"/>potest dici quod ad unitatem obiecti potentiae immaterialis, quae ratione
+<lb ed="#L" n="10"/>suae immaterialitatis et abstractionis a  materia quae nata est  
+contra<lb break="no" ed="#L" n="11"/>here et limitare, habe[n]t quandam infinitatem et ideo extendit se ad
+<lb ed="#L" n="12"/>infinita quodammodo sive ad nihil unum determinatur, sufficit 
+huius<lb break="no" ed="#L" n="13"/>modi unitas analogiae, unde quicquid est sive substantiae sive accidentis
+<lb ed="#L" n="14"/>sive cuiuscumque alterius in quantum unumquodque habet aliquam
+<lb ed="#L" n="15"/>entitatem ex se sive ex suis principiis vel natum est habere obiectum
+<lb ed="#L" n="16"/>illus potentiae quae ratione suae praedictae infinitatis ad nullum speciale
+<lb ed="#L" n="17"/>ens determinatur. Nec requiritur quod eius per se obiectum importet
+<lb ed="#L" n="18"/>aliquam rationem unam univocam, sicut requiritur in aliis ad materiam
+<lb ed="#L" n="19"/>et condiciones materiales contractis et limitatis.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e293">
+               <lb ed="#L" n="20"/>Et sic patet quod licet accidens et substantia secundum rem et
+<lb ed="#L" n="21"/>secundum esse naturae diversa sint genere, tamen secundum rationem
+<lb ed="#L" n="22"/>obiecti et cetera non differunt respectu intellectus. Unde sicut non est
+<lb ed="#L" n="23"/>alia scientia de substantia et accidente ut attribuitur substantiae, ita nec
+<lb ed="#L" n="24"/>est alia potentia  animae ut est cognitiva substantiae et accidentis ut ei
+<lb ed="#L" n="25"/>attribuitur, licet differant | genere. Et ideo videtur quod in ipso intellectu
+<lb ed="#L" n="26"/>non sit ponere diversas potentias realiter differentes respectu 
+quorum<lb break="no" ed="#L" n="27"/>cumque intelligibilium ; et sic si scientificum et ratiocinativum ad ipsum
+<lb ed="#L" n="28"/>intellectum. secundum  se referantur, dicendum quod non sunt diversae
+<lb ed="#L" n="29"/>potentiae realiter differentes circa ipsum intellectum: uterque enim est
+<lb ed="#L" n="30"/>potentia passiva, et sic essent plures intellectus possibiles, quare et plures
+<lb ed="#L" n="31"/>agentes.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e322">
+               <lb ed="#L" n="32"/>Verumtamen, quia ad hoc dividit rationem Philosophus in sexto
+<lb ed="#L" n="33"/>Ethicorum in principio, ut accipiat ratiocinativum in quo habent esse
+<lb ed="#L" n="34"/>habitus practici et? praecipue prudentia de qua principaliter agit in
+<lb ed="#L" n="35"/>sexto; — ipse autem in eodem sexto dicit  quod prudentia non est
+<pb ed="#L" n="139"/>
+               <lb ed="#L" n="1"/>scientia, quia scientia est universalium, prudentia autem est extremi, id
+<lb ed="#L" n="2"/>est particularis sive singularis operabilis cuius non est scientia quia
+<lb ed="#L" n="3"/>non probatur ratione, sed sensu[s] (quia percipitur aliquo sensu non
+<lb ed="#L" n="4"/>quidem propriorum sensibilium sed interiore quali sentimus sive ! 
+perci<lb break="no" ed="#L" n="5"/>pimus triangulum singularem imaginatum ad quem statur in 
+mathe<lb break="no" ed="#L" n="6"/>maticis); — et, ut dicit, ad istum sensum particularem magis pertinet
+<lb ed="#L" n="7"/>prudentia per quam perficiatur ratio particularis ad recte aestimandum
+<lb ed="#L" n="8"/>de intentionibus particularibus operabilium ; — et sic cum ad prudentiam
+<lb ed="#L" n="9"/>pertineat cognitio universalium relativarum directivarum quarum cognitio
+<lb ed="#L" n="10"/>pertinet ad intellectum, quia etiam nemo bene consiliabitur hoc ignorans,
+<lb ed="#L" n="11"/>et etiam cognitio particularium operabilium  de quibus est consilium
+<lb ed="#L" n="12"/>et inquisitio (est etiam prudentia quorum cognitio pertinet? ad sensum
+<lb ed="#L" n="13"/>praedictum), — prudentia quantum ad aliquid sui habet esse in potentia
+<lb ed="#L" n="14"/>intellectiva, quantum ad aliquid vero quod est completivum prudentiae
+<lb ed="#L" n="15"/>habet esse in potentia sensitiva. Vel cum prudentia intellectualis habitus
+<lb ed="#L" n="16"/>dicatur esse, — et sic nihil cognitionis intellectualis essentialiter ad
+<lb ed="#L" n="17"/>ipsam prudentiam pertinentis videtur posse ad aliquem sensum pertinere ;
+<lb ed="#L" n="18"/>— oportet quod prudentia quantum ad aliquid habeat esse in intellectu
+<lb ed="#L" n="19"/>secundum se, scilicet quantum ad cognitionem universalium, et quantum ad
+<lb ed="#L" n="20"/>aliquid in intellectu ut intelligitur coniunctus praedicto sensui. Aut 
+intel<lb break="no" ed="#L" n="21"/>lectus ut sic scilicet ut in suo actu cognoscendi sensui tali sive cognitioni
+<lb ed="#L" n="22"/>rationis particularis vel cogiZativae  coniunctus dicitur ratiocinativum.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e384">
+               <lb ed="#L" n="23"/>Et secundum hoc dicendum quod scientificum et ratiocinativum dicunt
+<lb ed="#L" n="24"/>diversas potentias in quantum in scientifico accipitur solum id quod
+<lb ed="#L" n="25"/>est ipsius intellectus; in ratiocinativo autem coaccipitur id quod est
+<lb ed="#L" n="26"/>sensus. Contingentia enim secundum quod sunt operabilia  et ad 
+consi<lb break="no" ed="#L" n="27"/>derationem prudentiae pertinentia scilicet in particulari, [ut] cadunt sub
+<lb ed="#L" n="28"/>consilio et operatione nostra, quia sic variabilia sunt nec cadunt sic
+<lb ed="#L" n="29"/>sub consideratione intellectus nisi mediantibus potentiis sensitivis. Et
+<lb ed="#L" n="30"/>ideo inter potentias animae sensitivas ponitur una potentia quae dicitur
+<lb ed="#L" n="31"/>ratio particularis sive vis cogitativa quae est collativa intentionum
+<lb ed="#L" n="32"/>particularium. Et quia intellectus considerando huiusmodi contingentia
+<pb ed="#L" n="140"/>
+               <lb ed="#L" n="1"/>operabilia coniungitur huic virtuti sensitivae differenti realiter ab ipso
+<lb ed="#L" n="2"/>intellectu, ideo dicit' hoc quod necessaria sive universalia quaecumque
+<lb ed="#L" n="3"/>speculabilia et contingentia sive operabilia particularia ad diversas
+<lb ed="#L" n="4"/>potentias realiter differentes pertinent; et dicit quod ambae pertinent
+<lb ed="#L" n="5"/>ad partem animae rationalem, sive ad rationem, extendendo nomen
+<lb ed="#L" n="6"/>rationis ad sensitivam apprehensivam quae dicitur cogitativa sive ratio
+<lb ed="#L" n="7"/>particularis, ratione cuius intellectus practicus ut in sua consideratione
+<lb ed="#L" n="8"/>huic sensui coniunctus dicitur ut ratiocinativum et ut | potentia alia
+<lb ed="#L" n="9"/>re differens ab intellectu secundum se speculabilia abstracta et universalia
+<lb ed="#L" n="10"/>considerante. Differens quidem re dicitur intellectus practicus, non ratione
+<lb ed="#L" n="11"/>eius quod est ipsius intellectus, sed ratione eius quod coexigitur de
+<lb ed="#L" n="12"/>sensu ut dictum est.
+</p>
+            <p xml:id="v27ab7-d1e411-d1e436">
+               <lb ed="#L" n="13"/>Aut etiam secundum quod aliqui dicunt, aliquid prudentiae bene
+<lb ed="#L" n="14"/>potest ad solam hanc sensitivam pertinere et sic ipsa di | cetur
+<lb ed="#L" n="15"/>ratiocinativum divisum contra scientificum. Sic autem non potest dici
+<lb ed="#L" n="16"/>appetitus rationalis per essentiam quia actum apprehensivum non habet,
+<lb ed="#L" n="17"/>sed per? participationem quia sequitur apprehensionem virtutis 
+cogno<lb break="no" ed="#L" n="18"/>scitivae. Et ideo non valet ratio de indistinctione intellectus propter 
+indi<lb break="no" ed="#L" n="19"/>stinctionem  appetitus. Vel aliter responderi potest quia cum dicitur quod
+<lb ed="#L" n="20"/>voluntas vel appetitus non distinguitur, dicendum quod secundum aliquos
+<lb ed="#L" n="21"/>sicut ratio dividitur in superiorem et inferiorem, ita et voluntas ut habitum
+<lb ed="#L" n="22"/>est. Dicitur etiam quod sicut ratiocinativum dicitur intellectus cum 
+prae<lb break="no" ed="#L" n="23"/>dicto sensu, ita huic respondet appetitus quasi electivus qui est voluntas
+<lb ed="#L" n="24"/>cum appetitu sensitivo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

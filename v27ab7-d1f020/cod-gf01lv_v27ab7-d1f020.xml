@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f020"><!-- v27ab7-q4short-q2 -->
+            <head xml:id="v27ab7-d1f020-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1f020-Hd1e101" type="question-title">
+      Utrum ponere creaturam ab aeterno esse quantum ad esse quidditativum secundum
+      quod est in praedicamento, sit ponere mundum fuisse ab aeterno
+    </head>
+            <p xml:id="v27ab7-d1f020-d1e104">
+               <lb ed="#L" n="58"/>QUAESTIO II
+<lb ed="#L" n="59"/>(BREVIS)
+<lb ed="#L" n="60"/>Utrum ponere creaturam ab aeterno esse quantum ad esse quidditativum secundum
+<lb ed="#L" n="61"/>quod est in praedicamento, sit ponere mundum fuisse ab aeterno .
+</p>
+            <p xml:id="v27ab7-d1f020-d1e115">
+               <lb ed="#L" n="62"/>Postea quaerebantur duo in generali de creatura quantum ad esse essentiae.
+<lb ed="#L" n="63"/>Primum erat utrum ponere creaturam ab aeterno esse quantum ad esse quidditativum
+<lb ed="#L" n="64"/>secundum quod est in praedicamento, sit ponere mundum fuisse ab aeterno. Secundum
+<pb ed="#L" n="324"/>
+               <lb ed="#L" n="1"/>est utrum in gradibus essentialibus creaturarum habentibus essentialem ordinem sit
+<lb ed="#L" n="2"/>possibilis processus in infinitum.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e131">
+               <lb ed="#L" n="3"/>Ad primum sic proceditur, et arguitur quod ponere creaturas ab aeterno quantum
+<lb ed="#L" n="4"/>ad esse quod habent in genere, est ponere mundum ab aeterno. Quia ponere res
+<lb ed="#L" n="5"/>secundum esse quod habent in se ipsis esse ab aeterno, est ponere mundum ab
+<lb ed="#L" n="6"/>aeterno. Sed esse quod res habent in genere est! esse quod habent in se ipsis.
+<lb ed="#L" n="7"/>Ergo et cetera. — Maior supponitur; minor probatur ?. Quia res non habe[n]t esse in
+<lb ed="#L" n="8"/>genere secundum quod habet esse ? in mente divina quia sic est illimitata et extra
+<lb ed="#L" n="9"/>genus, nec secundum esse quod habet in intellectu creato quia hoc est diminutum
+<lb ed="#L" n="10"/>nec? est in genere, nec secundum esse quod habet? in suis principiis quia hoc est
+<lb ed="#L" n="11"/>esse in potentia et secundum quid. Relinquitur ergo quod sunt in genere secundum
+<lb ed="#L" n="12"/>esse quod habent in se ipsis. Et sic patet minor.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e156">
+               <lb ed="#L" n="13"/>Contra. Mundum fuisse ab aeterno est condemnatum. Non autem est condem-'
+<lb ed="#L" n="14"/>natum res fuisse ab aeterno quantum ad esse quod habent in genere, cum aliqui
+<lb ed="#L" n="15"/>catholici teneant. Ergo unum istorum non est ? idem quod aliud.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e165">
+               <lb ed="#L" n="16"/>Respondeo. Ad evidentiam istius quaestionis sciendum primo quod licet esse
+<lb ed="#L" n="17"/>complexe dictum ? dicit veritatem propositionis sicut praedicameatum " de accidente nec
+<lb ed="#L" n="18"/>sit in praedicamento, tamen esse quod dicit actum existendi rem et dicitur incomplexe
+<lb ed="#L" n="19"/>sicut est actus existendi substantiae vel quantitatis et sic de aliis, est idem re cum
+<lb ed="#L" n="20"/>essentia, sicut alias  dictum est, et tantum est res in praedicamento quantum ad
+<lb ed="#L" n="21"/>unum sicut quantum ad alterum, et ideo tantum est res in praedicamento quantum
+<lb ed="#L" n="22"/>ad '! esse existentiae sicut est quantum ad esse essentiae. — Secundo sciendum '? quod
+<lb ed="#L" n="23"/>res habet tripliciter ? esse. Uno modo in sola potentia Dei creatoris, sicut erant res
+<lb ed="#L" n="24"/>creabiles antequam crearentur; alio modo in potentia propinqua tam principiorum
+<lb ed="#L" n="25"/>intrinsecorum quam extrinsecorum creatorum !' sicut rosa antequam sit in actu est
+<lb ed="#L" n="26"/>in potentia materiae et in potentia agentis creati proximi; tertio modo sunt res in se
+<lb ed="#L" n="27"/>ipsis in actu, sicut quando rosa vel aliquid aliud est iam !? actu in rerum natura sive '
+<lb ed="#L" n="28"/>in propria natura. Secundum ergo hoc, sicut res habet esse | diversimode, ita diversimode
+<lb ed="#L" n="29"/>est in genere accipiendo genus non pro intentione secunda sed pro re substrata intentioni.
+<lb ed="#L" n="30"/>Esse enim sic in genere substantiae nihil aliud est quam esse substantiam. — Ulterius
+<lb ed="#L" n="31"/>sciendum quod unumquodque genus dividitur in actum et ' potentiam, quae quidem
+<lb ed="#L" n="32"/>divisio non est divisio in materiam et formam sed dicit diversum modum essendi
+<lb ed="#L" n="33"/>eiusdem rei, sicut dicimus hominem in actu et hominem in potentia, album in actu
+<lb ed="#L" n="34"/>et album in potentia, ita quod quodlibet eorum dicit totum compositum, sed ratione
+<lb ed="#L" n="35"/>materiae dicitur esse homo vel album in potentia, ratione autem ! formae dicitur |
+<lb ed="#L" n="36"/>homo vel album in actu, Et quia potentia praecipue passiva habet diminutam entitatem,
+<lb ed="#L" n="37"/>ideo res prout est in potentia dicitur habere esse secundum quid ??; secundum autem
+<lb ed="#L" n="38"/>quod sunt in actu dicuntur esse simpliciter.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e217">
+               <pb ed="#L" n="325"/>
+               <lb ed="#L" n="1"/>Cum ergo, ut praemissum est, triplex sit esse rei vel magis proprie res
+<lb ed="#L" n="2"/>habeat triplex esse : uno modo in propria natura et in actu sicut quando rosa est 
+<lb ed="#L" n="3"/>actu; alio modo in potentia passiva et activa creaturae, ita quod iam est in potentia
+<lb ed="#L" n="4"/>secundum aliquod principium existens in rerum natura natum intrare essentiam
+<lb ed="#L" n="5"/>suam quod quidem principium est materia et secundum principium activum creatum
+<lb ed="#L" n="6"/>et proprium; tertio modo prout sunt virtualiter tantum in primo agente prout erant
+<lb ed="#L" n="7"/>res antequam crearentur, — secundum primum modum essendi proprie et 
+simpli<lb break="no" ed="#L" n="8"/>citer habet res esse essentiae et esse in genere, quia homo in actu est simpliciter
+<lb ed="#L" n="9"/>homo et simpliciter substantia. — Secundum autem secundum modum habet esse in
+<lb ed="#L" n="10"/>genere sed non simpliciter sicut in primo modo, sed debet dici quod habet esse in
+<lb ed="#L" n="11"/>genere in potentia quia homo in potentia nec? debet dici homo simpliciter nec 
+<lb ed="#L" n="12"/>substantia simpliciter sed cum determinatione quia debet dici homo in potentia
+<lb ed="#L" n="13"/>et substantia in potentia. Et sic est in genere in potentia in quantum eius 
+prin<lb break="no" ed="#L" n="14"/>cipia existentia in rerum natura sunt determinata ad genus substantiae modo
+<lb ed="#L" n="15"/>quo principia rei habent esse, scilicet per reductionem in eodem genere cum re
+<lb ed="#L" n="16"/>cuius sunt principia. Et forte hoc intendunt illi qui ponunt quod res quando non
+<lb ed="#L" n="17"/>sunt in actuali existentia, sunt tamen  quantum ad esse quidditativum et 
+praedi<lb break="no" ed="#L" n="18"/>camentale quia sunt scilicet  non simpliciter sed in potentia in suis principiis
+<lb ed="#L" n="19"/>proximis. Et sic etiam est de eis scientia vera, quia sicut quandoque sunt in actu
+<lb ed="#L" n="20"/>propriae naturae quandoque in suis principiis, ita potest haberi scientia de eis in se
+<lb ed="#L" n="21"/>vel? in suis principiis. Non sic haberi potest " scientia de chimaera vel "
+<lb ed="#L" n="22"/>hircocervo quia nullam realitatem habent actu vel potentia ", sed solum sunt figmenta
+<lb ed="#L" n="23"/>habentia tantum ? esse secundum conceptum intellectus fingentis ea. — Secundum autem
+<lb ed="#L" n="24"/>tertium modum essendi prout res sunt virtualiter in sola virtute divina, sic adhuc '
+<lb ed="#L" n="25"/>minus proprie sunt in genere quia principium primum in cuius sola virtute sic habent
+<lb ed="#L" n="26"/>res esse, non est in aliquo genere sed est extra omne genus. Tamen secundum tale
+<lb ed="#L" n="27"/>esse habent aliquo modo esse in genere, scilicet secundum quandam aptitudinem, in
+<lb ed="#L" n="28"/>quantum scilicet non habent repugnantiam ad entitatem generis sed sunt nata voluntate
+<lb ed="#L" n="29"/>divina participare naturam alicuius generis, puta substantiae vel quantitatis et sic
+<lb ed="#L" n="30"/>de aliis. Unde cervus magis fuit ab aeterno in genere quam chimaera vel hircocervus
+<lb ed="#L" n="31"/>quia hircocervus non habuit nec habere potuit aliquam aptitudinem participandi
+<lb ed="#L" n="32"/>quacumque virtute naturam alicuius generis, sicut cervus habuit, cui talis participatio
+<lb ed="#L" n="33"/>non repugnat sicut repugnat hircocervo.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e293">
+               <lb ed="#L" n="34"/>Nec est contra praemissa illud quod Simplicius dicit super Praedicamenta '
+<lb ed="#L" n="35"/>ubi dicit quod quantum ad genus substantiae pertinet, non refert utrum | sit in
+<lb ed="#L" n="36"/>rebus | an ? in conceptu, quia ibi loquitur non de re substrata intentioni generis,
+<lb ed="#L" n="37"/>sed de ipsa intentione quae convenit rebus non in suo esse reali sed secundum
+<lb ed="#L" n="38"/>esse quod habent in intellectu secundum quod esse genus generalissimum est esse
+<lb ed="#L" n="39"/>maxime abstractum, esse autem genus subalternum est esse minus abstractum. Nos
+<lb ed="#L" n="40"/>autem hic non loquimur de intentione secundum esse vel non esse abstractum, sed
+<pb ed="#L" n="326"/>
+               <lb ed="#L" n="1"/>de re substrata intentioni secundum quod esse in genere substantiae vel non esse
+<lb ed="#L" n="2"/>dicimus esse substantiam vel non esse substantiam.
+</p>
+            <p xml:id="v27ab7-d1f020-d1e317">
+               <lb ed="#L" n="3"/>Ex his patet ad quaestionem et ad argumenta. Nam ponere res esse in 
+praedica<lb break="no" ed="#L" n="4"/>mento ab aeterno primo vel secundo modo esset' ponere mundum aeternum. Sed
+<lb ed="#L" n="5"/>ponere eas secundum esse praedicamentale tertio modo acceptum esse ab aeterno non
+<lb ed="#L" n="6"/>est ponere mundum simpliciter ab aeterno. Et per? hoc etiam patet? ad rationes.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

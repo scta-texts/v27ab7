@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="153"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e456"><!-- v27ab7-q2q12 -->
+            <head xml:id="v27ab7-d1e456-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-d1e456-Hd1e101" type="question-title">
+      Utrum avaritia sit vitium deterius quam prodigalitas
+    </head>
+            <p xml:id="v27ab7-d1e456-d1e104">
+               <lb ed="#L" n="25"/>QUAESTIO XII.
+<lb ed="#L" n="26"/>Utrum avaritia sit vitium deterius quam prodigalitas.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e111">
+               <lb ed="#L" n="27"/>Postea circa habitus malos etiam unum quaerebatur, scilicet utrum
+<lb ed="#L" n="28"/>avaritia sit vitium deterius quam  prodigalitas. Et arguebatur quod
+<lb ed="#L" n="29"/>prodigalitas sit vitium deterius quam avaritia, quia illud ex quo plura
+<lb ed="#L" n="30"/>bona procedunt vel sequuntur minus malum est quam illud ex quo
+<pb ed="#L" n="154"/>
+               <lb ed="#L" n="1"/>talia non sequuntur. Sed ex avaritia sequuntur ' plura bona quam ex
+<lb ed="#L" n="2"/>prodigalitate. Nam per bona avari reservata consequitur quis amicitiam
+<lb ed="#L" n="3"/>sanctorum a quibus meretur recipi in aeterna tabernacula, secundum
+<lb ed="#L" n="4"/>illud Lucae , decimo sexto: facite vobis amicos de mammona 
+iniqui<lb break="no" ed="#L" n="5"/>tatis et cetera. Hoc autem non potest consequi prodigus qui substantiam
+<lb ed="#L" n="6"/>suam totaliter perdit. Unde etiam propter hoc est spiritualiter  mortuus,
+<lb ed="#L" n="7"/>ut patet de filio pro | digo, Lucae  decimo quinto. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e140">
+               <lb ed="#L" n="8"/>Contra. Dicitur Ecclesiastico , decimo: avaro nihil est scelestius ;
+<lb ed="#L" n="9"/>item nihil est iniquius quam amare pecuniam. Ex omnibus istis arguitur
+<lb ed="#L" n="10"/>quod avaritia sit pessimum vitiorum.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e150">
+               <lb ed="#L" n="11"/>Respondeo, dicendum quod cum virtutes morales consistant in medio
+<lb ed="#L" n="12"/>duarum malitiarum et illud  extremum sit peius quod magis repugnat
+<lb ed="#L" n="13"/>medio, — bonum autem virtutis liberalitatis consistit in recta dispositione
+<lb ed="#L" n="14"/>et inclinatione appetitus respectu usus bonorum exteriorum, ut scilicet
+<lb ed="#L" n="15"/>sic afficiatur circa illa quod ad eorum usum convenientem inclinetur
+<lb ed="#L" n="16"/>debite, illa autem dicuntur bona utilia quia in usus hominum debent
+<lb ed="#L" n="17"/>venire propter aliud, scilicet propter naturae convenientem sustentationem,
+<lb ed="#L" n="18"/>unde dicuntur esse substantia hominis, et quia usus talium consistit
+<lb ed="#L" n="19"/>in emissione et largitione eorum, nam acquisitio pecuniae assimilatur
+<lb ed="#L" n="20"/>magis eius generationi quam usui, et custodia pecuniae in quantum
+<lb ed="#L" n="21"/>ordinatur ad facultatem utendi assimilatur  habitui, quae etiam deberet
+<lb ed="#L" n="22"/>ordinari ad convenientem usum existentem, ut dictum est, in. emissione
+<lb ed="#L" n="23"/>et largitione, et non deberet  secundum se haec appeti sed ipsa emissio
+<lb ed="#L" n="24"/>tamen secundum debitas circumstantias regulata per prudentiam et
+<lb ed="#L" n="25"/>cetera, — a quo quidem medio receditur per defectum in avaro et per
+<lb ed="#L" n="26"/>superabundantiam in prodigo, tum in affectione interiore appetitus circa
+<lb ed="#L" n="27"/>divitias, tum in exteriore operatione circa eas, sed diversimode. Nam
+<lb ed="#L" n="28"/>avarus quantum ad affectum interiorem superabundat plus debito 
+dili<lb break="no" ed="#L" n="29"/>gendo pecunias et ex hoc etiam quantum ad actum exteriorem deficit |
+<lb ed="#L" n="30"/>in dando. Superabundat enim in recipiendo et conservando et in hoc
+<lb ed="#L" n="31"/>avarus magis intendit illud  quod minus intenditur ab illiberali, scilicet
+<lb ed="#L" n="32"/>acquisitionem et conservationem pecuniarum quam illiberalis non quaerit
+<lb ed="#L" n="33"/>nisi quia ordinat ad emissionem et dationem. Avarus autem propter se
+<pb ed="#L" n="155"/>
+               <lb ed="#L" n="1"/>hoc quaerit, et omnino a datione quod est principale in liberalitate
+<lb ed="#L" n="2"/>deficit. Prodigus autem quantum ad affectum  interiorem et respectu 
+pecu<lb break="no" ed="#L" n="3"/>niarum deficit minus debito earum sollicitudinem gerens; quantum autem
+<lb ed="#L" n="4"/>ad operationem exteriorem superabundat et excedit scilicet in plus
+<lb ed="#L" n="5"/>dando et deficit scilicet in minus retinendo et acquirendo. Sed in hoc
+<lb ed="#L" n="6"/>magis tendit ad illud  quod magis intenditur a liberali scilicet ad dationem
+<lb ed="#L" n="7"/>et emissionem pecuniarum; deficit tamen  a recta intentione finis
+<lb ed="#L" n="8"/>scilicet a debitis circumstantiis propter quod non est huiusmodi datio
+<lb ed="#L" n="9"/>sua bona.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e224">
+               <lb ed="#L" n="10"/>Ex hoc ergo patet quod secundum se sive per se avaritia pelor
+<lb ed="#L" n="11"/>est prodigalitate, attendendo scilicet ea quae per se ad utramque ? pertinent
+<lb ed="#L" n="12"/>et includuntur. Ex consequenti etiam sive quantum ad ea quae ipsas
+<lb ed="#L" n="13"/>consequuntur est ita, quia multis prodigus est utilis, non sic avarus,
+<lb ed="#L" n="14"/>sed nec sibi ut dicitur quarto Ethicorum , quia etiam est facile
+<lb ed="#L" n="15"/>sanabilis prodigus, scilicet per hoc quod declinat ad senectutem quae
+<lb ed="#L" n="16"/>est contraria prodigalitati, et per hoc quod devenit ad egestatem de
+<lb ed="#L" n="17"/>facili dum multa inutiliter consumit et sic pauper factus non potest
+<lb ed="#L" n="18"/>superabundare sic in dando et cogitur sollicitus esse de accipiendo et
+<lb ed="#L" n="19"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e248">
+               <lb ed="#L" n="20"/>Auctoritates inductae pro ista parte concedendae sunt. Ratione 
+con<lb break="no" ed="#L" n="21"/>clusionis essent tamen exponendae, quia etiam concedunt? avaritiam
+<lb ed="#L" n="22"/>non solum esse peiorem prodigalitate, sed etiam omnibus aliis vitiis.
+<lb ed="#L" n="23"/>Unde esset declarandum quomodo aliquo modo hoc habeat veritatem.
+</p>
+            <p xml:id="v27ab7-d1e456-d1e259">
+               <lb ed="#L" n="24"/>Ad aliud in oppositum dicendum est quod illud non dicitur avaris
+<lb ed="#L" n="25"/>existentibus avaris, quia illud? dicitur quod dando faciant sibi amicos
+<lb ed="#L" n="26"/>quod non contingit avaris existentibus avaris, sed dicitur eis qui vel
+<lb ed="#L" n="27"/>fuerunt avari vel bona quae habent dicuntur mammona et cetera. Unde
+<lb ed="#L" n="28"/>etiam si contingat pecuniam avarorum post mortem eorum bene dispensari
+<lb ed="#L" n="29"/>et multas utilitates multi ex illa consequantur, non sic autem respectu
+<lb ed="#L" n="30"/>prodigi quia ipso mortuo non consequuntur aliqua talia bona, — propter
+<lb ed="#L" n="31"/>quod videtur quod minus malum esset avare? reservare quam prodige
+<lb ed="#L" n="32"/>expendere, — non valet. Quia si aliqua bona contingant ex bonis avari,
+<pb ed="#L" n="156"/>
+               <lb ed="#L" n="1"/>hoc non contingit ex ipsa actione vel intentione avari nisi multum per
+<lb ed="#L" n="2"/>accidens, quia nec pecunias acquirebat nec conservabat ut distribuerentur.
+<lb ed="#L" n="3"/>Et ideo talis distributio sequens, esto quod bona sit, nihil facit ad 
+diminu<lb break="no" ed="#L" n="4"/>tionem malitiae avari, sed ex ipsa actione prodigi consequuntur multi
+<lb ed="#L" n="5"/>multas utilitates, quia eius actio est dare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

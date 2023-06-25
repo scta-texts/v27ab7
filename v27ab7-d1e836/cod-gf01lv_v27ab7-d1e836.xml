@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="279"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e836"><!-- v27ab7-q4q15 -->
+            <head xml:id="v27ab7-d1e836-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-d1e836-Hd1e101" type="question-title">
+      Utrum habentes potestatem a papa audiendi confessiones et absolvendi, possint absolvere poenitentes venientes ad ipsos de licentia sacerdotum parochialium in casibus qui episcopis de iure vel consuetudine vel retentione reservantur
+    </head>
+            <p xml:id="v27ab7-d1e836-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO XV
+<lb ed="#L" n="6"/>(LONGA)
+<lb ed="#L" n="7"/>Utrum habentes. potestatem a papa audiendi confessiones. et
+<lb ed="#L" n="8"/>absolvendi, possint. absolvere poenitentes venientes ad. ipsos de
+<lb ed="#L" n="9"/>licentia sacerdotum parochialium in casibus qui episcopis de
+<lb ed="#L" n="10"/>iure vel consuetudine vel retentione reservantur.
+</p>
+            <p xml:id="v27ab7-d1e836-d1e120">
+               <lb ed="#L" n="11"/>Post hoc vero quaerebatur aliud pertinens ad confessores, scilicet
+<lb ed="#L" n="12"/>posito quod aliquibus detur a papa potestas audiendi confessiones et
+<lb ed="#L" n="13"/>absolvendi confitentes sub hac forma: | damus vobis potestatem 
+absol<lb break="no" ed="#L" n="14"/>vendi venientes ad vos de licentia praelatorum suorum ab omnibus
+<lb ed="#L" n="15"/>peccatis pro quibus non esset merito sedes apostolica requirenda, utrum
+<lb ed="#L" n="16"/>habentes talem potestatem possint absolvere poenitentes venientes ad
+<lb ed="#L" n="17"/>ipsos de licentia sacerdotum parochialium, in casibus qui episcopis de
+<lb ed="#L" n="18"/>iure vel consuetudine vel retentione reservantur. Et arguebatur quod
+<lb ed="#L" n="19"/>sic, quia in privilegio  concesso fratribus minoribus et praedicatoribus
+<lb ed="#L" n="20"/>dicitur: volumus autem et cetera. Ideo ab aliquibus determinatur quod
+<lb ed="#L" n="21"/>quia non exprimuntur aliqui casus nec aliqui excipiuntur, sed in generali
+<lb ed="#L" n="22"/>datur eis potestas audiendi confessiones et absolvendi poenitentes, quod
+<lb ed="#L" n="23"/>propter hoc solum intelligitur de communibus et non de casibus 
+papa<lb break="no" ed="#L" n="24"/>libus nec episcopalibus. Ergo cum in hoc privilegio excipiantur casus
+<lb ed="#L" n="25"/>papales specialiter, videtur guod potest data se extendere generaliter ad
+<lb ed="#L" n="26"/>omnes alios et ita ad episcopales.
+</p>
+            <p xml:id="v27ab7-d1e836-d1e157">
+               <lb ed="#L" n="27"/>In contrarium est quod habentes talem potestatem a praelatis
+<lb ed="#L" n="28"/>impediuntur quod non permittunt eos absolvere in dictis casibus.
+</p>
+            <p xml:id="v27ab7-d1e836-d1e165">
+               <pb ed="#L" n="280"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod si alicui concedatur potestas absolvendi
+<lb ed="#L" n="2"/>simpliciter et cetera, in casibus episcopi non haberet potestatem, nisi
+<lb ed="#L" n="3"/>forte cum petit licentiam ab episcopo et episcopus hoc expresse dicat.
+<lb ed="#L" n="4"/>In talibus enim privilegiis simpliciter datis, ius episcopale intelligitur
+<lb ed="#L" n="5"/>esse salvum (Extra, de privilegiis, Pastoralis) . Sed ex quo de omnibus
+<lb ed="#L" n="6"/>pro quibus non est sedes apostolica requirenda, dedit potestatem 
+absol<lb break="no" ed="#L" n="7"/>vendi expresse casus papae reservatos exciplendo et denegando, omnes
+<lb ed="#L" n="8"/>alios concessisse videtur, vigesima quinta distinctione Qualis , ubi
+<lb ed="#L" n="9"/>dicitur quod de uno negatur de aliis concedi videtur. Cum enim haec
+<lb ed="#L" n="10"/>exceptio casuum papalium intelligeretur, etiam si non esset apposita
+<lb ed="#L" n="11"/>(Extra, de officio legati Ouod f£ranslationem !) , cum in dicto privilegio
+<lb ed="#L" n="12"/>exprimitur, aut de nihilo fuit aut denominat quod solum illi excipiuntur.
+<lb ed="#L" n="13"/>Non videtur autem rationabile quod de nihilo serviat; ergo solum illi
+<lb ed="#L" n="14"/>excipiuntur. Sed quia non possunt tales absolvere nisi venientes ad
+<lb ed="#L" n="15"/>ipsos de licentia praelatorum, quia ex privilegio habent potestatem
+<lb ed="#L" n="16"/>absolvendi de omnibus et claves quantum ad omnes tales casus qui
+<lb ed="#L" n="17"/>non sunt papales solutas, ex licentia autem habent populum et materiam
+<lb ed="#L" n="18"/>cui possunt huiusmodi potestatemi per usum clavium applicare, si
+<lb ed="#L" n="19"/>praelati in dando licentiam dent eam simpliciter et absolute, possunt
+<lb ed="#L" n="20"/>de omnibus casibus exceptis papalibus absolvere, cum tamen non possent
+<lb ed="#L" n="21"/>hoc nisi dicti casus papales solum et non alii essent expressi. Si autem
+<lb ed="#L" n="22"/>dent sub coartatione tali, quod cum  àb episcopo petunt licentiam
+<lb ed="#L" n="23"/>sive quod cum episcopus det licentiam suis subditis quod eis confiteantur,
+<lb ed="#L" n="24"/>sic dicat: do licentiam ut vobis quantum ad omnes casus exceptis mihi
+<lb ed="#L" n="25"/>reservatis confiteantur, si sic de illis acceptant, non videntur posse
+<lb ed="#L" n="26"/>absolvere. Si non acceptant et episcopus dicat: alioquin nulla sit licentia,
+<lb ed="#L" n="27"/>lam de nullis videntur posse absolvere. Sed cum inferiores sacerdotes
+<lb ed="#L" n="28"/>non habeant potestatem nisi de communibus, nec habeant potestatem
+<lb ed="#L" n="29"/>vel consuetudinem aliquos reservandi, dando licentiam dant eam 
+simpli<lb break="no" ed="#L" n="30"/>citer quantum possunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

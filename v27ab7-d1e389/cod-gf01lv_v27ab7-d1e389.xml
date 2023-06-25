@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e389"><!-- v27ab7-q2q6 -->
+            <head xml:id="v27ab7-d1e389-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1e389-Hd1e101" type="question-title">
+      Utrum in materia prima virtute supernaturalis agentis possit fieri forma et species ad quam non est in potentia naturali
+    </head>
+            <p xml:id="v27ab7-d1e389-d1e104">
+               <pb ed="#L" n="90"/>
+               <lb ed="#L" n="1"/>QUAESTIO VI.
+<lb ed="#L" n="2"/>Utrum in materia prima, virtute supernaturalis agentis possit
+<lb ed="#L" n="3"/>fieri forma et species ad quam mon est in potentia. naturali.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e115">
+               <lb ed="#L" n="4"/>Postea circa secundum praedictorum, scilicet circa naturam pure
+<lb ed="#L" n="5"/>materiadem sive circa materiam primam quae est principium omnium
+<lb ed="#L" n="6"/>materialium quaerebatur unum !, scilicet utrum in? materia prima ipsa
+<lb ed="#L" n="7"/>manente in eadem essentia et virtute in qua nunc est, virtute 
+super<lb break="no" ed="#L" n="8"/>naturalis agentis possit fieri forma et species ad quam non est in potentia
+<lb ed="#L" n="9"/>naturali respectu primi alterantis sive caeli Et arguebatur quod in
+<lb ed="#L" n="10"/>materia prima, ipsa manente in eadem essentia in qua nunc est, possit
+<lb ed="#L" n="11"/>fieri forma et species ad quam non est in potentia naturali; quia sicut
+<lb ed="#L" n="12"/>se habet id quod est in potentia in genere spiritualium, scilicet ipsa
+<lb ed="#L" n="13"/>anima ad perfectiones et formas spirituales, sic se habet id quod est in
+<lb ed="#L" n="14"/>potentia in genere corporalium, scilicet prima materia ad perfectiones et
+<lb ed="#L" n="15"/>formas naturales. Sed virtute divina potest in anima fieri aliqua perfectio
+<lb ed="#L" n="16"/>sive forma ad quam non est in potentia naturaliter, utpote gratia vel.
+<lb ed="#L" n="17"/>caritas. Ergo similiter in materia prima virtute divina poterit fieri forma
+<lb ed="#L" n="18"/>materialis ad quam non est in potentia naturaliter.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e150">
+               <lb ed="#L" n="19"/>Contra. Si in materia possit fieri aliqua talis forma ad quam non
+<lb ed="#L" n="20"/>esset in potentia naturaliter, aut hoc fieret per additionem novae 
+poten<lb break="no" ed="#L" n="21"/>tiae, et tunc videretur destrui suppositio quaestionis quia oporteret
+<lb ed="#L" n="22"/>materiam ? essentialiter variarl, eo quod potentia materiae vel est ipsum
+<lb ed="#L" n="23"/>realiter quod materia vel est aliquid consequens essentialiter materiam,
+<lb ed="#L" n="24"/>ita quod ad eius variationem sequitur variatio materiae. Si autem hoc
+<lb ed="#L" n="25"/>fieret sine additione novae potentiae, ergo lam videtur quod iam materia
+<lb ed="#L" n="26"/>ad, talem formam de se erat in potentia, et ita non solum virtute divina
+<lb ed="#L" n="27"/>sed virtute agentis naturalis posset fieri huiusmodi forma in materia.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e173">
+               <lb ed="#L" n="28"/>Respondeo dicendum quod cum, secundum Augustinum , duodecino
+<pb ed="#L" n="91"/>
+               <lb ed="#L" n="1"/>Confessionum, capitulo septimo, materia sit prope nihil (duo enim fecisti
+<lb ed="#L" n="2"/>Domine, dicit, unum | prope te, alterum prope nihil quo nihil inferius
+<lb ed="#L" n="3"/>esset), materia autem est prope nihil ut dicitur communiter, natura !
+<lb ed="#L" n="4"/>autem angelica prope Deum, ita quod haec sunt  extrema creaturarum,
+<lb ed="#L" n="5"/>non quidem quod non  sit possibile esse angelum perfectiorem 
+quo<lb break="no" ed="#L" n="6"/>cumque angelo nunc existente, sicut non est dare naturam inferiorem et
+<lb ed="#L" n="7"/>magis potentialem quam materiam primam sed quia non est dare
+<lb ed="#L" n="8"/>naturam perfectiorem quam naturam angelicam, sicut nec naturam 
+infe<lb break="no" ed="#L" n="9"/>riorem quam materiam  saltem secundum dispositionem huiusmodi
+<lb ed="#L" n="10"/>universi; — medium autem inter haec extrema videtur esse intellectiva
+<lb ed="#L" n="11"/>forma in quantum est actus dans esse materiae in quo communicat cum
+<lb ed="#L" n="12"/>alis formis materialibus, non tamen sic materiae immersa et ab ea
+<lb ed="#L" n="13"/>comprehensa vel dependens quin quantum est de se nata sit per se
+<lb ed="#L" n="14"/>subsistere, et quin etiam coniuncta materiae habeat operationem in qua
+<lb ed="#L" n="15"/>non utitur organo materiali ut subiecto, in quo excedit formas pure
+<lb ed="#L" n="16"/>materiales et communicat cum angelis vel substantiis et simpliciter
+<lb ed="#L" n="17"/>separatis; (unde sicut in genere materiallum non est natum esse ens
+<lb ed="#L" n="18"/>imperfectius materia prima, ita etiam in genere intellectualium non videtur
+<lb ed="#L" n="19"/>esse possibile esse inferiorem anima humana, et sicut illud quod aliquo
+<lb ed="#L" n="20"/>modo est perfectius ens ipsa materia prima est actus simpliciter, quia
+<lb ed="#L" n="21"/>e:t id ad quod per se et immediate est in potentia materia quae est
+<lb ed="#L" n="22"/>simpliciter et pura potentia, id autem quod immediate advenit et 
+imme<lb break="no" ed="#L" n="23"/>diate perficit illud  quod est simpliciter materia est simpliciter actus,
+<lb ed="#L" n="24"/>quod non convenit nisi formae substantiali et convenit omni formae
+<lb ed="#L" n="25"/>substantiali, quia solum materia prima est in potentia simpliciter in
+<lb ed="#L" n="26"/>genere substantiae, et quicquid non est ipsa materia in genere substantiae
+<lb ed="#L" n="27"/>non est simpliciter potentia, sicut quia quod est infra simpliciter potentiam
+<lb ed="#L" n="28"/>ut infra materiam est pure non ens, ita quod est supra materiam in genere
+<lb ed="#L" n="29"/>substantiae est simpliciter ens et ideo | omni formae substantiali convenit
+<lb ed="#L" n="30"/>simpliciter esse actum et formam, — ita illud quod est supra intellectum
+<lb ed="#L" n="31"/>humanum et aliquo modo ens !! perfectius ipso non potest esse intellectus
+<lb ed="#L" n="32"/>potentialis, materiae scilicet unibilis, sed actualis, id est simpliciter in suo
+<lb ed="#L" n="33"/>esse ? separato perfectus; quare nec potest esse actus substantialis
+<lb ed="#L" n="34"/>materiae, sed est quid per se et in se subsistentiam  completam habens) —
+<pb ed="#L" n="92"/>
+               <lb ed="#L" n="1"/>secundum hoc ergo videtur quod in materia prima non possit esse forma
+<lb ed="#L" n="2"/>perfectior quam anima intellectiva, nec imperfectior! quam forma 
+simpli<lb break="no" ed="#L" n="3"/>cium corporum in qua stat omnis resolutio et corruptio compositorum
+<lb ed="#L" n="4"/>et materialium entium perfectorum . Et sicut omnis forma aliquo modo
+<lb ed="#L" n="5"/>perfectior anima intellectiva est omnino immaterialis nullo modo nata
+<lb ed="#L" n="6"/>esse forma materiae, ita omnis forma inferior intellectiva est omnino
+<lb ed="#L" n="7"/>materialis et omnino? immersa materiae, et de potentia materiae per
+<lb ed="#L" n="8"/>generationem educibilis et in ipsam per corruptionem reducibilis, ita
+<lb ed="#L" n="9"/>quod talium formarum ultima est forma elementaris, ita quod si materia
+<lb ed="#L" n="10"/>nisl sit sub forma mixti vel? elementi non est sub aliqua forma, immo
+<lb ed="#L" n="11"/>etiam Ipsa non est. Quare etiam sl forma corporeitatis vel alia sit prior,
+<lb ed="#L" n="12"/>timen materia non est nata esse solum sub illa nisi simul sit sub
+<lb ed="#L" n="13"/>elementari; et sic etiam saltem est devenire ad primam formam natam
+<lb ed="#L" n="14"/>esse in materia sub qua materia nata est existere in actu quae est forma
+<lb ed="#L" n="15"/>elementaris, et ad ultimam quae est intellectiva. Sed positis extremis
+<lb ed="#L" n="16"/>necesse est esse statum in mediis. Ergo cum caelum habeat vim activam
+<lb ed="#L" n="17"/>super has formas extremas, scilicet disponendo et inducendo vel saltem
+<lb ed="#L" n="18"/>disponendo, habebit etiam vim activam super omnes alias. Quare cum
+<lb ed="#L" n="19"/>formae praecedentes primo, scilicet ordine naturali in materia existentes
+<lb ed="#L" n="20"/>sint  dispositiones ad formas perfectiores, ut elementares ad mixtum,
+<lb ed="#L" n="21"/>forma mixti ad vivum ?, vivi? ad sensitivum et cetera, sicut formae
+<lb ed="#L" n="22"/>primae simplices habent esse in materia virtute corporis caelestis, ita
+<lb ed="#L" n="23"/>videtur quod virtute eius possint fieri in materia omnes  formae quae ??
+<lb ed="#L" n="24"/>aliquo modo elementares supponunt et ad quas ipsae elementares
+<lb ed="#L" n="25"/>formae disponunt. Et quia forte elementares et dispositiones istas 
+conse<lb break="no" ed="#L" n="26"/>quentes non possunt disponere ad formam perfectiorem quam est anima
+<lb ed="#L" n="27"/>intellectiva, nec etiam aliqua forma perfectior nata est perficere |
+<lb ed="#L" n="28"/>materiam ut declaratum est quam ipsa intellectiva, ex quo disponunt
+<lb ed="#L" n="29"/>huiusmodi formae priores ordinatae  ad formam perfectissimam quae nata
+<lb ed="#L" n="30"/>est perficere naturam, et hoc actione et virtute primi alterantis cum aliis
+<lb ed="#L" n="31"/>agentibus ordinatis, videntur etiam disponere eadem virtute ad 
+quam<lb break="no" ed="#L" n="32"/>cumque aliam.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e325">
+               <lb ed="#L" n="33"/>Et ex hoc videtur quod nullo agente possit fieri aliqua forma in
+<lb ed="#L" n="34"/>materia prima quin ipsa ad hoc habeat potentiam naturalem respectu primi
+<lb ed="#L" n="35"/>alterantis sive caeli, potentiam quidem vel ut virtute caeli materiam trans-
+<pb ed="#L" n="93"/>
+               <lb ed="#L" n="1"/>mutantis transmutatione ! huiusmodi quam facit mediantibus agentibus
+<lb ed="#L" n="2"/>inferioribus ipsam formam inducentis ut contingit de omnibus formis pure
+<lb ed="#L" n="3"/>materialibus aliis scilicet ab intellectiva ?, vel sua huiusmodi 
+transmuta<lb break="no" ed="#L" n="4"/>tione materiam disponentis ad hoc ut haec forma perfectissima a 
+super<lb break="no" ed="#L" n="5"/>naturali agente inducatur. Si enim caelum sua transmutatione mediantibus
+<lb ed="#L" n="6"/>formis primis  et aliis agentibus mediis potest materiam: sufficienter 
+dis<lb break="no" ed="#L" n="7"/>ponere ad hoc ut forma immaterialis, scilicet anima respectu cuius 
+ter<lb break="no" ed="#L" n="8"/>minus  est potentiae quia non ad ulteriorem vel perfectiorem se extendit,
+<lb ed="#L" n="9"/>ab agente supernaturali inducatur, multo magis potest disponere ipsam
+<lb ed="#L" n="10"/>materiam sufficienter mediantibus activis primis formis et alis agentibus
+<lb ed="#L" n="11"/>ad hoc quod quaecumque alia forma  materiam perficere nata inducatur .
+<lb ed="#L" n="12"/>Sed omnis forma alia ab intellectu talis est quod non est nata habere  esse
+<lb ed="#L" n="13"/>in materia per creationem, sed per eductionem de potentia materiae ipsius
+<lb ed="#L" n="14"/>transmutatione, alioquin non esset dependens a materia sic quin nata esset
+<lb ed="#L" n="15"/>per se subsistere et esset substantia immaterialis et intellectualis. Sic autem
+<lb ed="#L" n="16"/>non esset nisi ipsa anima rationalis quia non potest alia esse ut dictum
+<lb ed="#L" n="17"/>est. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e373">
+               <lb ed="#L" n="18"/>Et secundum hoc verificatur illud Commentatoris , duodecimo 
+Meta<lb break="no" ed="#L" n="19"/>physicae, quod omnes formae quae sunt actu in motore quas scilicet natus
+<lb ed="#L" n="20"/>est inducere in ipsa materia per se et immediate quantum ad intellectum,
+<lb ed="#L" n="21"/>aut mediate quantum ad alias, sunt in potentia in materia prima, id est
+<lb ed="#L" n="22"/>respectu illarum habet materia prima potentiam naturalem, nec etiam videtur
+<lb ed="#L" n="23"/>esse in potentia quacumque ut respectu alterius caeli, vel in alio mundo vel
+<lb ed="#L" n="24"/>universo possit fieri in ipsa aliqua forma quae non posset fieri in ea in
+<lb ed="#L" n="25"/>mundo isto 5, et respectu huius caeli. Quoniam illud ad quod immediate est
+<lb ed="#L" n="26"/>in potentia ut prima forma et simplicissima est forma elementi, id  ad quod
+<lb ed="#L" n="27"/>ultimate est in potentia, ut dictum est, est anima rationalis. Non potest ergo
+<lb ed="#L" n="28"/>habere potentiam nisi respectu istorum et eorum quae sunt post elementa
+<lb ed="#L" n="29"/>et supra animam. Quare cum istud caelum habeat potentiam respectu
+<lb ed="#L" n="30"/>omnium talium, non est ponendum ipsam materiam esse in potentia ad
+<lb ed="#L" n="31"/>aliam formam singulariter respectu alterius caeli.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e406">
+               <lb ed="#L" n="32"/>Est tamen intelligendum quod alio modo est materia in potentia ad
+<lb ed="#L" n="33"/>omnes formas materiales respectu caeli vel primi alterantis et respectu Dei
+<pb ed="#L" n="94"/>
+               <lb ed="#L" n="1"/>sive primi motoris. Nam, ut dicit Augustinus , respectu caeli non est in
+<lb ed="#L" n="2"/>potentia ut immediate fiat quaelibet forma ad quam naturaliter est in 
+poten<lb break="no" ed="#L" n="3"/>tia, sed hoc oportet fieri ordine quodam et secundum diversas dispositiones
+<lb ed="#L" n="4"/>vel! rationes seminales in materia existentes, secundum quas ex semine
+<lb ed="#L" n="5"/>fabae determinate et immediate caelum fabam et non olivam potest 
+produ<lb break="no" ed="#L" n="6"/>cere. Sed respectu Dei sic est in potentia ut quacumque dispositione in
+<lb ed="#L" n="7"/>ipsa existente et quacumque dispositione materiae non obstante, immediate
+<lb ed="#L" n="8"/>possit in ipsa fieri quaecumque forma ad quam est in potentia. Et 
+secun<lb break="no" ed="#L" n="9"/>dum hoc distinguitur in materia quaedam potentia naturalis secundum
+<lb ed="#L" n="10"/>rationes seminales aliquo modo inditas materiae, quaedam oboedientialis
+<lb ed="#L" n="11"/>secundum rationes causales ei non inditas, sed in virtute divina | existentes.
+<lb ed="#L" n="12"/>Eo quod unumquodque creatum agens virtutis finitae et determinatae
+<lb ed="#L" n="13"/>existens et sub determinato ordine constitutum requirit in materia 
+deter<lb break="no" ed="#L" n="14"/>minatam dispositionem secundum aliquid superadditum ? ipsi materiae,
+<lb ed="#L" n="15"/>ratione cuius materia in quantum immediate non agit sit actionis eius 
+sus<lb break="no" ed="#L" n="16"/>ceptiva, et ex consequenti etiam formam determinatam ; — Deus autem qui
+<lb ed="#L" n="17"/>sua infinita virtute attingit ad infima materiae et qua immediate potest
+<lb ed="#L" n="18"/>quicquid possunt immediata agentia, huiusmodi dispositione materiam
+<lb ed="#L" n="19"/>determinante et aptante non indiget. Unde dicit Augustinus , nono super
+<lb ed="#L" n="20"/>Genesim, capitulo vigesimo sexto: « omnis iste naturae usitatissimus
+<lb ed="#L" n="21"/>cursus habet quasdam naturales leges suas secundum quas elementa
+<lb ed="#L" n="22"/>mundi huius  corporei habent definitivam vim qualitatemque suam quzd?
+<lb ed="#L" n="23"/>unumquodque valeat vel non valeat de quo fieri possit vel non possit. Et
+<lb ed="#L" n="24"/>infra: unde fit ut de grano tritici non nascatur faba (verum est immediate)
+<lb ed="#L" n="25"/>vel de pecore homo, vel de homine pecus. Super hunc autem  motum 
+cur<lb break="no" ed="#L" n="26"/>sumque rerum ? naturalem potestas creatoris habet apud se de his omnibus
+<lb ed="#L" n="27"/>facere aliud quam eorum quasi rationes seminales habent quae non solum
+<lb ed="#L" n="28"/>in Deo sunt, sed etiam in rebus creatis ab illo aliquo modo inditae vel et
+<lb ed="#L" n="29"/>concreatae !", et tamen id !! quod in eis non posuit, ut de his fieri vel ab
+<lb ed="#L" n="30"/>ipso possit, scilicet ut lignum aridum repente floreat et cetera. Dedit quidem
+<lb ed="#L" n="31"/>naturas quas creavit ut ex eis haec fierl possent, non ut haec haberent
+<lb ed="#L" n="32"/>in motu naturali sed in eo quo voluntati potentiori amplius subiacerent. »
+<pb ed="#L" n="95"/>
+               <lb ed="#L" n="1"/>Hoc autem videtur creaturis materialibus dedisse materiam ipsam cum
+<lb ed="#L" n="2"/>suis potentiis, non importantibus aliquid superadditum materiae nisi
+<lb ed="#L" n="3"/>relationes vel respectum  producendo, in qua ut sic non est ut aliquid
+<lb ed="#L" n="4"/>fiat ex ipsa mediante aliquo agente creato, sed oportet coadesse aliquas
+<lb ed="#L" n="5"/>dispositiones superadditas quae dicuntur rationes seminales. Sed hae
+<lb ed="#L" n="6"/>nudae potentiae sufficiunt ad quamcumque ' formam respectu agentis
+<lb ed="#L" n="7"/>supernaturalis, qui non indiget aliqua ratione seminali cooperante et
+<lb ed="#L" n="8"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e504">
+               <lb ed="#L" n="9"/>Habet ergo Deus in se ipso absconditas quorundam factorum causas
+<lb ed="#L" n="10"/>quas rebus conditis non inseruit (ibi est et gratia per quam salvi fiunt
+<lb ed="#L" n="11"/>peccatores). Et respectu Dei, quantum ad virtutem harum causarum, dicitur
+<lb ed="#L" n="12"/>materia solum habere potentiam oboedientalem non naturalem; quia ut
+<lb ed="#L" n="13"/>sic non consideratur in materia aliquid per quod ad id quod sic in ea
+<lb ed="#L" n="14"/>fieri habet? determinetur vel aptetur, et per quod aliquo modo cooperari
+<lb ed="#L" n="15"/>possit intelligi, sed? quasi ex se nihil habens unde quasi ex se 
+deter<lb break="no" ed="#L" n="16"/>minate tenderet ad quod intendit agens, oboediendo sustinet id quod
+<lb ed="#L" n="17"/>voluntas Dei ex ipsa vult facere ; vel quia etiam ut sic consideratur,
+<lb ed="#L" n="18"/>aliquando habet esse sub opposita dispositione ipsam magis ad 
+contra<lb break="no" ed="#L" n="19"/>rium disponente et aptante et inclinante, et nihilominus non renitens per
+<lb ed="#L" n="20"/>huiusmodi contrariam dispositionem quasi sustinet de ipsa divinam fieri
+<lb ed="#L" n="21"/>voluntatem. Respectu autem agentis naturalis, dicitur habere naturalem
+<lb ed="#L" n="22"/>potentiam ipsam ad formam natam induci ab agente aptantem et 
+deter<lb break="no" ed="#L" n="23"/>minantem, et quodammodo naturaliter inclinantem et dispositiones 
+con<lb break="no" ed="#L" n="24"/>trarias impedientes excludentem; ut sic non quasi oboediendo contra eius
+<lb ed="#L" n="25"/>inclinationem, sed appetitum suum proprium quasi sequendo, pervenit ad
+<lb ed="#L" n="26"/>id quod intendit, licet non nisi virtute agentis principalis.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e546">
+               <lb ed="#L" n="27"/>Cum dicitur quod in materia quasi intellectuali, scilicet in anima
+<lb ed="#L" n="28"/>rationali potest Deus aliquid facere ad quod non habet potentiam 
+natu<lb break="no" ed="#L" n="29"/>ralem et cetera, dicendum quod sicut in materia corporali quaedam fiunt
+<lb ed="#L" n="30"/>a Deo totaliter mediate, scilicet formae purae naturales eductae de potentia
+<lb ed="#L" n="31"/>materiae, quaedam mediate et immediate, scilicet intellectiva, quae pro
+<lb ed="#L" n="32"/>tanto inducitur mediantibus agentibus naturalibus in quantum materiam
+<lb ed="#L" n="33"/>ad susceptionem intellectivae disponunt, immediate vero a Deo quantum
+<lb ed="#L" n="34"/>ad ipsam essentiam animae quam inducit in materiam creando, et etiam
+<lb ed="#L" n="35"/>ipsas dispositiones materiales animam rationalem in materia consequentes,
+<lb ed="#L" n="36"/>ita suo modo contingit in materia spirituali. Nam scientiae et virtutes
+<pb ed="#L" n="96"/>
+               <lb ed="#L" n="1"/>acquisitae insunt a Deo omnino mediate, sed virtutes infusae secundum
+<lb ed="#L" n="2"/>cursum communem in adultis natae sunt fieri a Deo partim mediate
+<lb ed="#L" n="3"/>partim immediate, — mediate in quantum hominis est per liberum 
+arbi<lb break="no" ed="#L" n="4"/>trium, supposita communi motione divina quam Deus omnibus exhibet
+<lb ed="#L" n="5"/>secundum cursum communem ut declarant ' aliqui, se de congruo disponere
+<lb ed="#L" n="6"/>et aptare ad influentiam divini luminis et ad susceptionem huiusmodi
+<lb ed="#L" n="7"/>doni infundendi, quia forma non habet esse nisi in materia disposita et
+<lb ed="#L" n="8"/>cetera, — immediate quantum ad ipsam essentiam habituum qui in
+<lb ed="#L" n="9"/>anima infunduntur per creationem | ;sed absque huiusmodi dispositione
+<lb ed="#L" n="10"/>Deus potest huiusmodi habitus infundere ut per sacramenta in parvulis
+<lb ed="#L" n="11"/>et per sanctificationem collatam aliquibus in utero, sicut etiam animam
+<lb ed="#L" n="12"/>intellectivam posset infundere antequam esset materia praeparata.
+</p>
+            <p xml:id="v27ab7-d1e389-d1e599">
+               <lb ed="#L" n="13"/>Praeterea, esto quod Deus posset facere in anima aliquam formam
+<lb ed="#L" n="14"/>vel habitum ad quem non est sic in potentia naturali quod per actionem
+<lb ed="#L" n="15"/>animae vel naturalis agentis possit induci in anima, vel quod anima
+<lb ed="#L" n="16"/>actione aliqua? naturali vel ex naturalibus possit ad eam disponi, non
+<lb ed="#L" n="17"/>oportet tamen quod sic sit de materia; quia materia ordine naturae et
+<lb ed="#L" n="18"/>secundum gradum suae infimae etiam perfectionis constituta est sub
+<lb ed="#L" n="19"/>primo agente corporali et sub aliis agentibus particularibus, ita quod
+<lb ed="#L" n="20"/>naturali actione possunt agere in ipsam, sed anima soli Deo est subiecta
+<lb ed="#L" n="21"/>ut agenti potenti ipsam immediate immutare et perficere. Et ideo ab?
+<lb ed="#L" n="22"/>agentibus naturalibus possunt omnes formae ad quas materia est in
+<lb ed="#L" n="23"/>potentia induci, aut per ipsam potest materia ad e | arum susceptionem
+<lb ed="#L" n="24"/>disponi, licet hoc non oporteat de anima.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

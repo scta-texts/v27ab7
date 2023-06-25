@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="33"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e190"><!-- v27ab7-q1q13 -->
+            <head xml:id="v27ab7-d1e190-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-d1e190-Hd1e101" type="question-title">
+      Quis illorum gravius peccat 
+      qui simulat sanctitatem vite propter bonum utile 
+      vel ille qui simulat sanctitatem propter bonum honorabile
+    </head>
+            <p xml:id="v27ab7-d1e190-d1e104">
+               <pb ed="#L" n="33"/>
+               <lb ed="#L" n="1"/>QUAESTIO XIII.
+<lb ed="#L" n="2"/>Quis illorum gravius peccat qui simulat sanctitatem
+<lb ed="#L" n="3"/>vitae propter bonum utile
+<lb ed="#L" n="4"/>vel ille qui simulat sanctitatem propter bonum honorable.
+</p>
+            <p xml:id="v27ab7-d1e190-d1e117">
+               <lb ed="#L" n="5"/>Postea quaerebatur aliud respectu fictae vel! apparentis sanctitatis
+<lb ed="#L" n="6"/>videlicet quis illorum gravius peccat et peior est dicendus qui hypocrizat
+<lb ed="#L" n="7"/>vel simulat sanctitatem vitae propter bonum utile ut ? videlicet ex hoc quod
+<lb ed="#L" n="8"/>sanctus reputatur aliqua bona temporalia consequatur, vel ille qui 
+hypo<lb break="no" ed="#L" n="9"/>crizat et simulat sanctitatem propter bonum honorabile ut videlicet ex hoc
+<lb ed="#L" n="10"/>quod sanctus reputatur ab hominibus honoretur. Et arguebatur quod
+<lb ed="#L" n="11"/>hypocrita simulans ? sanctitatem vitae propter bonum utile minus peccet
+<lb ed="#L" n="12"/>quam simulans propter bonum honorabile. Quia secundum Philosophum 
+<lb ed="#L" n="13"/>nono Ethicorum, qui simulat se habere amicitiam ad aliquem propter 
+vir<lb break="no" ed="#L" n="14"/>tutem, cum tamen non sic amet sed simulat se sic amare, magis est 
+accu<lb break="no" ed="#L" n="15"/>sandus quam qui numismata corrumpit; sed numisma corrumpens illud
+<lb ed="#L" n="16"/>corrumpit propter bonum utile. Ergo qui simulat se habere amicitiam
+<lb ed="#L" n="17"/>quod est habere virtutem propter bonum moris vel honestatis peior est
+<lb ed="#L" n="18"/>eo qui simulat se habere aliquam sanctitatem propter bonum utile.
+</p>
+            <p xml:id="v27ab7-d1e190-d1e150">
+               <lb ed="#L" n="19"/>Contra. Secundum Philosophum  quarto Ethicorum : iactator maiora
+<lb ed="#L" n="20"/>existentibus fingens gratia gloriae vel honoris non est valde vituperabilis,
+<lb ed="#L" n="21"/>inquantum | scilicet gloria et honor habent quamdam affinitatem cum
+<lb ed="#L" n="22"/>rebus honestis propter quas merito aliqui laudantur et honorantur. 
+Qui<lb break="no" ed="#L" n="23"/>cumque autem iactat se gratia argenti vel cuiuscumque quod argento
+<pb ed="#L" n="34"/>
+               <lb ed="#L" n="1"/>existimari potest deformior est, quia propter minus bonum mentitur.
+<lb ed="#L" n="2"/>Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e190-d1e171">
+               <lb ed="#L" n="3"/>Respondeo dicendum quod in peccato est ! considerare 
+conver<lb break="no" ed="#L" n="4"/>sionem ad bonum commutabile quae materialiter se habet in peccato |
+<lb ed="#L" n="5"/>et aversionem a bono incommutabili quae est formalis et completiva
+<lb ed="#L" n="6"/>ratio peccati. Ex parte conversionis hypocrisis propter gloriam non est
+<lb ed="#L" n="7"/>maius peccatum, quia honor quem inordinate intendit non habet maiorem
+<lb ed="#L" n="8"/>repugnantiam ad bonum virtutis quam lucrum ad quod intendit alius.
+<lb ed="#L" n="9"/>Sed ex parte aversionis maius est, quia magis directe avertitur, id est
+<lb ed="#L" n="10"/>resistendo  et non volendo subici Deo sicut superbia. Unde sicut 
+super<lb break="no" ed="#L" n="11"/>bia vel inanis gloria est  maius peccatum ex parte aversionis quam
+<lb ed="#L" n="12"/>avaritia, ita hypocrisis per quam intenditur lucrum quod est finis avaritiae
+<lb ed="#L" n="13"/>est minus malum: quam  per quam intenditur vana gloria quae est finis
+<lb ed="#L" n="14"/>superbiae. Unus enim talium dicendus est superbus, alius autem avarus,
+<lb ed="#L" n="15"/>saltem a fine. — Sed ex parte conversionis  tamen e contrario se habet,
+<lb ed="#L" n="16"/>quia cum secundum Augustinum  de libero arbitrio nihil aliud sit 
+dam<lb break="no" ed="#L" n="17"/>nandum in toto genere malefaciendi quam libido, sive  etiam huiusmodi
+<lb ed="#L" n="18"/>libido alio nomine cupiditas nuncupetur, actus malus factus  [est] ex
+<lb ed="#L" n="19"/>maiore libidine peior est dicendus. Actus autem malus factus ex minore
+<lb ed="#L" n="20"/>motivo exterius procedit ex maiore libidine voluntatis quam factus ex
+<lb ed="#L" n="21"/>maiore bono. Et quia inter bona exteriora divitiae sunt minora, honores
+<lb ed="#L" n="22"/>autem sunt maiora, ideo qui inducitur occasione honoris ad peccandum
+<lb ed="#L" n="23"/>maius habens motivum, minus peccat quam qui inducitur occasione 
+<lb ed="#L" n="24"/>boni utilis. Quia tamen simpliciter est iudicandum de peccato secundum
+<lb ed="#L" n="25"/>rationem quae est aversio, peccatum hypocrisis propter inanem gloriam
+<lb ed="#L" n="26"/>est maius simpliciter peccato  hypocrisis propter lucrum licet e contrario
+<lb ed="#L" n="27"/>sit secundum quid sive ' ex parte conversionis sive motivi ad 
+conver<lb break="no" ed="#L" n="28"/>tendum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

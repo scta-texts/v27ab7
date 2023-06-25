@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e201"><!-- v27ab7-q1q14 -->
+            <head xml:id="v27ab7-d1e201-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-d1e201-Hd1e101" type="question-title">
+      Utrum liceat religiosis inducere novicios signo, 
+      nutu vel verbo ad hoc quod ante lapsum anni probationis profiteantur
+    </head>
+            <p xml:id="v27ab7-d1e201-d1e104">
+               <pb ed="#L" n="35"/>
+               <lb ed="#L" n="1"/>QUAESTIO XIV.
+<lb ed="#L" n="2"/>Utrum liceat religiosis inducere novicios signo, nutu vel verbo ad
+<lb ed="#L" n="3"/>hoc quod ante lapsum anni probationis profiteantur.
+</p>
+            <p xml:id="v27ab7-d1e201-d1e115">
+               <lb ed="#L" n="4"/>Postea circa pertinentia ad quosdam status hominum specialiter 
+quae<lb break="no" ed="#L" n="5"/>rebantur quaedam pertinentia ad religiosos sive regulares. Et primo utrum
+<lb ed="#L" n="6"/>liceat religiosis inducere novicios signo, nutu vel verbo ad hoc quod ante
+<lb ed="#L" n="7"/>lapsum anni probationis profiteantur. Et arguebatur quod liceat inducere
+<lb ed="#L" n="8"/>novicios ad. profitendum infra annum probationis, quia ad id quod de se
+<lb ed="#L" n="9"/>est bonum et utile licet inducere ut fiat. Sed profiteri in religione approbata
+<lb ed="#L" n="10"/>est bonum et utile facienti ut mala mundi evitet. Ergo etiam ? licitum est
+<lb ed="#L" n="11"/>inducere aliquem ad hoc ut in continenti fiat.
+</p>
+            <p xml:id="v27ab7-d1e201-d1e135">
+               <lb ed="#L" n="12"/>Contra. Extra de regularibus et transeuntibus ad religionem 
+<lb ed="#L" n="13"/>dicitur: prohibendum est abbatibus ne passim ante tempus probationis
+<lb ed="#L" n="14"/>quoslibet ad professionem suscipiant; alioquin [in] animadversione  sunt
+<lb ed="#L" n="15"/>debita corrigendi, cum in subsidium fragilitatis humanae spatium 
+proba<lb break="no" ed="#L" n="16"/>tionis sit? regulariter institutum. Sed illud quod est animadversione 
+corri<lb break="no" ed="#L" n="17"/>piendum non est licitum. Ergo cum secundum hanc. decretalem non liceat
+<lb ed="#L" n="18"/>recipi ad professionem novicios etiam profiteri volentes, non licet ipsos
+<lb ed="#L" n="19"/>inducere ad profitendum antequam tempus probationis sit impletum.
+</p>
+            <p xml:id="v27ab7-d1e201-d1e156">
+               <lb ed="#L" n="20"/>Respondeo dicendum quod, cum tempus probationis rationabiliter sit
+<lb ed="#L" n="21"/>institutum ex parte noviclorum ut possint ordinis asperitates experiri, eo
+<lb ed="#L" n="22"/>quod votum vel obligatio professionis cum discretione fieri debet — nemo
+<lb ed="#L" n="23"/>enim sapiens debet se obligare ad ignota maxime quae ardua et difficilia
+<lb ed="#L" n="24"/>sunt respectu fragilitatis humanae, — videtur etiam quod, nulla prohibitione
+<lb ed="#L" n="25"/>ab homine super hoc facta, non liceret vel saltem non deceret quod infra
+<lb ed="#L" n="26"/>tempus sufficiens probationis aliquis  ad profitendum induceretur, quia
+<lb ed="#L" n="27"/>exponi periculo videretur obligando se ut dictum est ad ignota. Si ? etiam
+<lb ed="#L" n="28"/>tempus statutum ad probationem huiusmodi asperitatum non sit sufficiens
+<lb ed="#L" n="29"/>ad hoc quod infra illud asperitates, quae satis communiter possunt 
+pro<lb break="no" ed="#L" n="30"/>fessi postea experiri, ipsi novicii [non] valeant experiri, non videtur tutum
+<pb ed="#L" n="36"/>
+               <lb ed="#L" n="1"/>quod ante huiusmodi experientiam ad profitendum inducantur vel 
+pro<lb break="no" ed="#L" n="2"/>fitentur. Et ideo facta est prohibitio per novam constitutionem Innocentii
+<lb ed="#L" n="3"/>Quarti Extra de regularibus , ubi prohibetur quod nullo modo sunt
+<lb ed="#L" n="4"/>infra dictum tempus novicii ad profitendum inducendi et etiam dicitur ibi
+<lb ed="#L" n="5"/>quod si aliquis inductus profitetur non est ex hoc illi ordini obligatus,
+<lb ed="#L" n="6"/>sed secundum aliquos expositores ordini sive religioni in generali 
+obli<lb break="no" ed="#L" n="7"/>gatus. Sed si vellet sponte | profiteri vel se obligare ad perpetuo
+<lb ed="#L" n="8"/>remanendum potest, non tamen solemniter profitendo. Si etiam ? peteret
+<lb ed="#L" n="9"/>consilium ab aliquo illius ordinis de profitendo statim, si ille a quo peteret
+<lb ed="#L" n="10"/>videret quod sufficienter esset expertus gravitates ordinis et cetera, posset
+<lb ed="#L" n="11"/>ei consulere. Non tamen sic diceretur eum inducere, quia ille proprie
+<lb ed="#L" n="12"/>inducit alium qui conatur eius voluntatem aliquibus persuasionibus vel
+<lb ed="#L" n="13"/>promissis vel huiusmodi ad aliquid inclinare ad quod de se non est talis
+<lb ed="#L" n="14"/>inclinatus et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

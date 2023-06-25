@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="258"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e758"><!-- v27ab7-q4q8 -->
+            <head xml:id="v27ab7-d1e758-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-d1e758-Hd1e101" type="question-title">
+      Utrum voluntas humana contineat duas potentias sicut intellectus humanus
+    </head>
+            <p xml:id="v27ab7-d1e758-d1e104">
+               <pb ed="#L" n="258"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIII
+<lb ed="#L" n="2"/>(LONGA).
+<lb ed="#L" n="3"/>Utrum voluntas humana contineat duas potentias sicut
+<lb ed="#L" n="4"/>intellectus humanus.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e117">
+               <lb ed="#L" n="5"/>Post hoc vero circa pertinentia ad naturam humanam in se ipsa
+<lb ed="#L" n="6"/>quaerebantur quaedam pertinentia ad omnem hominem generaliter, T
+<lb ed="#L" n="7"/>quaedam pertinentia ad hominem feminei sexus specia | liter. Circa ae en Vb
+<lb ed="#L" n="8"/>primum quaerebatur unum, utrum scilicet voluntas humana contineat
+<lb ed="#L" n="9"/>duas potentias, unam activam et aliam passivam sicut intellectus
+<lb ed="#L" n="10"/>humanus duas potentias dicitur continere. Et arguebatur quod sic, quia
+<lb ed="#L" n="11"/>inter movens et mobile debet esse proportio (intellectus habet rationem
+<lb ed="#L" n="12"/>moventis et voluntas rationem mobilis). Sed in intellectu est distinguere
+<lb ed="#L" n="13"/>tales duas - potentias, scilicet activam et passivam. Ergo similiter et in
+<lb ed="#L" n="14"/>voluntate.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e141">
+               <lb ed="#L" n="15"/>Contra. A nullo auctore reperitur hoc esse positum. Ergo videtur
+<lb ed="#L" n="16"/>quod non sit ponendum.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e149">
+               <lb ed="#L" n="17"/>Respondeo dicendum quod ad hoc requiritur potentia vel dispositio
+<lb ed="#L" n="18"/>in mobili vel passivo ut ipsum passivum natum participare aliquem
+<lb ed="#L" n="19"/>actum illo possit perfici et recipere possit formam agentis vel moventis.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e158">
+               <lb ed="#L" n="20"/>Cum ergo actus intelligendi sit intelligere vel cognoscere entia materialia
+<lb ed="#L" n="21"/>non secundum esse materiale et signatum et individuatum quod habent
+<lb ed="#L" n="22"/>in se Ipsis (sic enim per se cognoscitur a sensu et non ab intellectu
+<lb ed="#L" n="23"/>nostro nisi secundum quendam modum reflexionis et cetera, ut 
+com<lb break="no" ed="#L" n="24"/>munius ponitur), sed secundum abstractionem ab istis condicionibus, quae
+<lb ed="#L" n="25"/>non potest fieri a virtute omnino passiva, et etiam sl poneretur quod
+<lb ed="#L" n="26"/>singularia sensibilia per se intelliperentur, tamen secundum se et virtute
+<lb ed="#L" n="27"/>propria non possent id quod est sic immateriale et abstractum immutare
+<lb ed="#L" n="28"/>per speciem materialem, — et ideo oportet ponere non solum intellectum
+<lb ed="#L" n="29"/>possibilem in quo est omnia fierl, sed etiam agentem de quo est omnia
+<lb ed="#L" n="30"/>facere. Quia ergo res non potest habere rationem obiecti immutantis
+<lb ed="#L" n="31"/>intellectum possibilem secundum se, ideo ponitur intellectus agens. Si
+<lb ed="#L" n="32"/>etiam res materialis secundum se immediate immutare deberet appetitum
+<lb ed="#L" n="33"/>intellectivum immaterialem, absque hoc quod facta esset per ipsum
+<lb ed="#L" n="34"/>materiale virtute alicuius immaterialis immutatio in potentiam materialem
+<pb ed="#L" n="259"/>
+               <lb ed="#L" n="1"/>praecedentem, cum materiale virtute propria immateriale immutare non
+<lb ed="#L" n="2"/>posset, videretur quod deberet poni aliqua virtus activa aliquo modo
+<lb ed="#L" n="3"/>pertinens ad voluntatem. Sed quia res quaecumque non immutat
+<lb ed="#L" n="4"/>voluntatem nisi apprehensa, ad hoc autem quod habeat rationem
+<lb ed="#L" n="5"/>moventis respectu appetitus immaterialis, sufficit quod sit apprehensa
+<lb ed="#L" n="6"/>a virtute apprehensivà immateriali, ad hoc autem quod convenienter
+<lb ed="#L" n="7"/>apprehendatur a tali virtute apprehensiva immateriali sufficiunt. dictae
+<lb ed="#L" n="8"/>potentiae intellectus, — ideo sicut si intellectum possibilem possent res
+<lb ed="#L" n="9"/>materiales immutare secundum se sive virtute propria, non poneretur
+<lb ed="#L" n="10"/>intellectus agens, ita etiam cum res secundum quod apprehensa ab
+<lb ed="#L" n="11"/>intellectu possit movere voluntatem, non requiritur ad velle appetere
+<lb ed="#L" n="12"/>vel amare nisi una potentia ex parte voluntatis, sive ponatur voluntas
+<lb ed="#L" n="13"/>potentia sic passiva quod per modum pfassivi ab obiecto apprehenso
+<lb ed="#L" n="14"/>moveatur, licet etiam activa sit movendo omnes potentias alias per
+<lb ed="#L" n="15"/>modum agentis et ad suos actus impellentis, sive sit activa quod moveat
+<lb ed="#L" n="16"/>se ipsam ad obiectum apprehensum.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e230">
+               <lb ed="#L" n="17"/>Sicut enim dicitur quod quia sensibilia extra possunt ex se sufficienter
+<lb ed="#L" n="18"/>movere et immutare virtutem sensitivam passivam, et ideo non ponitur
+<lb ed="#L" n="19"/>communiter sensus agens, sive ia sensu non ponitur cum virtute passiva
+<lb ed="#L" n="20"/>virtus sensitiva activa, licet aliqui ponant contrarium et cetera, — ita
+<lb ed="#L" n="21"/>non est ponenda nisi una potentia in voluntate quae est dicenda
+<lb ed="#L" n="22"/>activa vel passiva, vel aliquo modo activa et aliquo modo passiva 
+secun<lb break="no" ed="#L" n="23"/>dum quod iam dictum est, vel secundum quod diversimode circa hoc
+<lb ed="#L" n="24"/>sentiunt aliqui. Utrum autem hoc ulterius dividatur in irascibilem et
+<lb ed="#L" n="25"/>concupiscibilem, sicut appetitus sensitivus in quo non ponitur duplex
+<lb ed="#L" n="26"/>potentia primo modo, scilicet activa et passiva, subdividitur in hoc, —
+<lb ed="#L" n="27"/>de hoc nihil ad praesens.
+</p>
+            <p xml:id="v27ab7-d1e758-d1e256">
+               <lb ed="#L" n="28"/>Est ergo conveniens proportio inter intellectum moventem — per
+<lb ed="#L" n="29"/>modum finis in quantum apprehendit rem quae est finis et obiectum
+<lb ed="#L" n="30"/>voluntatis, et voluntatem motam in hoc, quod obiectum quod secundum
+<lb ed="#L" n="31"/>esse materiale et virtute propria non poterat immediate movere 
+volun<lb break="no" ed="#L" n="32"/>tatem, in virtute intellectus agentis sic fit immateriale quod potest
+<lb ed="#L" n="33"/>movere immediate intellectum possibilem sub ratione veri, et ipsam
+<lb ed="#L" n="34"/>voluntatem sub ratione boni; nec alia proportio requiritur inter ipsa.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="53"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e344"><!-- v27ab7-q2q2 -->
+            <head xml:id="v27ab7-d1e344-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1e344-Hd1e101" type="question-title">
+      Utrum essentia creature sit aliquid indifferens ad esse et non esse
+    </head>
+            <p xml:id="v27ab7-d1e344-d1e104">
+               <lb ed="#L" n="10"/>QUAESTIO II.
+<lb ed="#L" n="11"/>Utrum essentia creaturae sit. aliquid. indifferens ad esse. et
+<lb ed="#L" n="12"/>non esse.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e113">
+               <lb ed="#L" n="13"/>Postea circa puras creaturas quaerebantur quaedam pertinentia ad
+<lb ed="#L" n="14"/>creaturas in generali, quaedam pertinentia ad creaturas quasdam in
+<lb ed="#L" n="15"/>speciali. Circa creaturas in generali quaerebantur duo ; unum erat 
+per<lb break="no" ed="#L" n="16"/>tinens ad naturam essentiae creaturae, scilicet utrum essentia creaturae
+<lb ed="#L" n="17"/>sit aliquid indifferens ad esse et non esse; secundum erat pertinens
+<lb ed="#L" n="18"/>ad esse existentiae creaturae quantum ad eius durationem, scilicet utrum
+<lb ed="#L" n="19"/>mundus sive aliqua creatura potuit esse vel existere ab aeterno.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e131">
+               <lb ed="#L" n="20"/>Ad primum horum arguebatur quod essentia | creaturae sit aliquid
+<lb ed="#L" n="21"/>indifferens ad esse et non esse, quia scientia non est nisi de eo quod
+<lb ed="#L" n="22"/>est vera quidditas et essentia sive vera res praedicamentalis. Sed ad
+<lb ed="#L" n="23"/>hoc quod de aliquo sit vera scientia non oportet quod sit vel existat,
+<lb ed="#L" n="24"/>sed solum quod aptum sit esse vel existere, nam vera scientia habetur
+<lb ed="#L" n="25"/>de eclpsi et de pluvia cum non sunt. Ergo ad hoc quod alicui 
+con<lb break="no" ed="#L" n="26"/>veniat vera essentia realis vel esse quidditativum, sive ad hoc quod
+<lb ed="#L" n="27"/>aliquid sit vera quidditas et essentia, non oportet quod sit vel existat.
+<lb ed="#L" n="28"/>Ergo huiusmodi essentia vel quidditas, cum secundum suum esse reale
+<lb ed="#L" n="29"/>quidditativum ipsum esse vel existere non includat, est indifferens quan-
+<pb ed="#L" n="54"/>
+               <lb ed="#L" n="1"/>tum est de se ad ipsum et eius oppositum quod est non esse; et sic
+<lb ed="#L" n="2"/>essentiae et quidditati rei manenti in suo esse vero quidditativo et 
+essen<lb break="no" ed="#L" n="3"/>tiali aliquando convenit esse, aliquando non esse.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e165">
+               <lb ed="#L" n="4"/>Contra. Secundum Augustinum  quinto de Trinitate, capitulo quinto :
+<lb ed="#L" n="5"/>sicut ab eo quod est sapere dicta est sapientia et ab eo quod est scire
+<lb ed="#L" n="6"/>dicta est scientia, ita ab eo quod est esse dicta est essentia. Essentia
+<lb ed="#L" n="7"/>ergo se habet ad esse sicut sapientia ad sapere. Sed nulla sapientia se
+<lb ed="#L" n="8"/>habet per indifferentiam ad sapere et non sapere, quia omnis sapientia
+<lb ed="#L" n="9"/>determinate se habet ad actum sapiendi. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e181">
+               <lb ed="#L" n="10"/>Respondeo dicendum quod quia quaedam, cum non sunt sic non
+<lb ed="#L" n="11"/>sunt in existentia, quia tamen dicuntur aliquo modo entia vera  sive
+<lb ed="#L" n="12"/>res vere praedicamentales habentes veras rationes formales et 
+exem<lb break="no" ed="#L" n="13"/>plares in  intellectu divino, secundum quas mediante voluntate eius natae
+<lb ed="#L" n="14"/>sunt existere in re extra, [et] de talibus potest dici esse scientia quae non
+<lb ed="#L" n="15"/>est non entium, sed entium, eo quod obiectum intellectus est quod quid
+<lb ed="#L" n="16"/>est sive vera rei quidditas, et cum de talibus sit scientia, hoc non
+<lb ed="#L" n="17"/>contingeret nisi apprehenderentur vere praedicata essentialia de ipsis
+<lb ed="#L" n="18"/>sive ipsis convenire, utpote pluvia non existente vere habetur scientia
+<lb ed="#L" n="19"/>de ipsa, non autem nisi cognoscendo eius materiam et formam ad
+<lb ed="#L" n="20"/>eius essentiam pertinentia et praedicata essentialia de ipsa, ut quod
+<lb ed="#L" n="21"/>est aqua gradatim cadens, et per se passiones et cetera; — quaedam
+<lb ed="#L" n="22"/>autem, cum non sunt ' sic non sunt in existentia, quod etiam nullo modo
+<lb ed="#L" n="23"/>dicuntur entia vera sive res vere praedicamentales habentes veras
+<lb ed="#L" n="24"/>rationes formales in Deo exemplares, secundum quas natae sunt aliquando
+<lb ed="#L" n="25"/>existere in rerum natura, et de talibus nullo modo potest dici esse
+<lb ed="#L" n="26"/>scientia vere et simpliciter quae non est nisi eorum quae sunt aliquo
+<lb ed="#L" n="27"/>modo vera entia; — propter huiusmodi, inquam, diversitatem rerum
+<lb ed="#L" n="28"/>talium, videtur aliquibus quod cum prima non exis | tunt, cum tamen
+<lb ed="#L" n="29"/>dicantur entia praedicamentalia (alioquin de ipsis non vera  esset scientia),
+<lb ed="#L" n="30"/>alia autem non sic, non possunt autem dici vera entia nisi ratione
+<lb ed="#L" n="31"/>esse existentiae ipsorum vel ratione essentiae, sive quia sunt aliquid in
+<lb ed="#L" n="32"/>esse existentiae in re extra " vel saltem in esse essentiae et quidditativo
+<pb ed="#L" n="55"/>
+               <lb ed="#L" n="1"/>secundum se, — ideo videtur aliquibus quod vera essentia creaturae
+<lb ed="#L" n="2"/>aliquo modo potest dici indifferens ad esse et ad non esse, et quod
+<lb ed="#L" n="3"/>re corrupta quantum ad eius esse existentiae non corrumpitur quantum
+<lb ed="#L" n="4"/>ad eius esse essentiae, sicut non corrumpitur scientia vel cognitio quae
+<lb ed="#L" n="5"/>habetur de ipsa.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e246">
+               <lb ed="#L" n="6"/>Et hoc nituntur sic declarare : cum enim creatura comparetur ad
+<lb ed="#L" n="7"/>Deum  secundum duplex genus causae ad praesens, scilicet secundum
+<lb ed="#L" n="8"/>genus causae formalis exemplaris in quantum est cognoscens, et 
+secun<lb break="no" ed="#L" n="9"/>dum genus causae efficientis in quantum est volens vel in effectu per
+<lb ed="#L" n="10"/>voluntatem producere potens et aliquando producens, creatura aliquid
+<lb ed="#L" n="11"/>habet vel consequitur a Deo ex hac duplici causalitate. Unde ad has
+<lb ed="#L" n="12"/>rationes causalitatis comparatur creatura secundum aliqua diversa in
+<lb ed="#L" n="13"/>ipsa aliquo modo, ita quod creatura est id  quod est aliquid ad se per
+<lb ed="#L" n="14"/>essentiam realiter, sive vera res praedicamentalis, ex hoc quod habet
+<lb ed="#L" n="15"/>rationem formalem exemplarem sive idealem in Deo. Creatura enim
+<lb ed="#L" n="16"/>cum secundum se sit id quod est aliquid ad se ipsam per essentiam,
+<lb ed="#L" n="17"/>non potest non autem esse id quod est ad seipsam per essentiam nisi
+<lb ed="#L" n="18"/>ab alio, non autem nisi a Deo, non quidem secundum genus causae
+<lb ed="#L" n="19"/>efficientis quod respicit rerum existentias ; quare oportet quod hoc
+<lb ed="#L" n="20"/>sit secundum genus causae formalis exemplaris tantum, secundum
+<lb ed="#L" n="21"/>rationes ideales quae respiciunt ipsas rerum essentias  Et hoc. modo
+<lb ed="#L" n="22"/>divina scientia vel cognitio ex se sola est causa rerum non quoad
+<lb ed="#L" n="23"/>earum existentias, sed quoad earum essentiam, inquantum scilicet ipsa
+<lb ed="#L" n="24"/>creatura est illud  quod est per essentiam in esse suo ? quidditativo per
+<lb ed="#L" n="25"/>divinam scientiam constituta. Et praesupponitur illa causalitas ad 
+causa<lb break="no" ed="#L" n="26"/>litatem secundum genus causae efficientis qua per divinam voluntatem
+<lb ed="#L" n="27"/>habent res quod sint extra per essentiam sive in esse existentiae, quia
+<lb ed="#L" n="28"/>Deus nihil potest facere extra in rerum natura nisi quod est vera res ?
+<lb ed="#L" n="29"/>praedicamentalis, ens id quod est per essentiam, quam habet a Deo in
+<lb ed="#L" n="30"/>quantum habet ideam in Deo quam imitatur, quod non convenit figmentis.
+<lb ed="#L" n="31"/>Et secundum modum et formam secundum quam creatura sic habet
+<lb ed="#L" n="32"/>esse id quod est per essentiam in scientia interiore ut a causa exemplari,
+<lb ed="#L" n="33"/>per voluntatem ut a causa efficiente, habet esse in existentia exteriore,
+<lb ed="#L" n="34"/>secundum illud Boetii  tertio de Consolatione : tu cuncta superna ducis
+<pb ed="#L" n="56"/>
+               <lb ed="#L" n="1"/>ab exemplo pulchrum, pulcherrimus ipse mundum mente gerens 
+simi<lb break="no" ed="#L" n="2"/>lique in imagine formans. Ita quod sicut relationem realem et respectuni
+<lb ed="#L" n="3"/>ex tempore habet creatura ad Deum ut ad causam efficientem, in quantum:
+<lb ed="#L" n="4"/>habet quod sit existens in effectu per dictam voluntatem, ita relationem
+<lb ed="#L" n="5"/>realem et respectum ab aeterno habet ! ad ipsum ut ad causam formalem
+<lb ed="#L" n="6"/>exemplarem, in quantum habet quod sit ens aliquod per essentiam
+<lb ed="#L" n="7"/>realem in esse quidditativo per divinam scientiam secundum rationem
+<lb ed="#L" n="8"/>idealem ut dictum est. Neutrum autem respectum realem possunt
+<lb ed="#L" n="9"/>habere figmenta respectu Dei, quia quae non habent exemplar in Deo,
+<lb ed="#L" n="10"/>et ideo etiam non | sunt nata esse aliquid in re extra in rerum natura
+<lb ed="#L" n="11"/>non possunt dici natura vel essentia aut res, vel certitudo aliqua nata
+<lb ed="#L" n="12"/>etiam capi ab intellectu cuius obiectum est quidditas.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e340">
+               <lb ed="#L" n="13"/>Dicitur ergo secundum praedicta quod, loquendo de non esse quod
+<lb ed="#L" n="14"/>privat omnem rationem essendi, prout aliquid etiam ? sic dicitur non
+<lb ed="#L" n="15"/>esse quod non habet rationem exemplarem in Deo (quare nec natum
+<lb ed="#L" n="16"/>est esse extra in rerum natura), sic non est ponere aliquam essentiam
+<lb ed="#L" n="17"/>creaturae per indifferentiam se habere ad esse et non esse; immo 
+quae<lb break="no" ed="#L" n="18"/>libet  essentia creaturae determinata est ad aliquod esse scilicet ad esse
+<lb ed="#L" n="19"/>quidditativum et essentiale ut dictum est. Sed loquendo de non esse
+<lb ed="#L" n="20"/>quod negat esse secundum unam rationem essendi, scilicet esse actualis
+<lb ed="#L" n="21"/>existentiae extra in singularibus, non negat tamen esse secundum aliam
+<lb ed="#L" n="22"/>rationem essendi scilicet esse essentiae quo res est id quod est in se
+<lb ed="#L" n="23"/>secundum esse  quidditativum et secundum conceptum absolutum et
+<lb ed="#L" n="24"/>dicitur esse res et natura aliqua licet non habeat esse in singularibus
+<lb ed="#L" n="25"/>extra, — hoc modo bene est ponere essentiam et naturam creaturae per
+<lb ed="#L" n="26"/>indifferentiam se habere ad esse et non esse. Non quod de facto neutrum
+<lb ed="#L" n="27"/>ei conveniat, cum sint contradictoria, sed quod non ita de natura sua
+<lb ed="#L" n="28"/>determinat sibi unum, quin possit habere alterum . Essentia enim creaturae
+<lb ed="#L" n="29"/>non ita determinat sibi non esse actualis existentiae quin possit illud
+<lb ed="#L" n="30"/>recipere ab alio effective, nec sic habet esse ab alio quin relictum sibi
+<lb ed="#L" n="31"/>caderet in non esse. i
+</p>
+            <p xml:id="v27ab7-d1e344-d1e384">
+               <lb ed="#L" n="32"/>Quamvis autem ita per indifferentiam se habeat ad esse et non
+<lb ed="#L" n="33"/>esse, ut dictum est, quod semper oportet ipsam  de facto realiter alteri
+<lb ed="#L" n="34"/>esse coniunctam ut realiter ab utroque non possit abstrahi, tamen 
+secun<lb break="no" ed="#L" n="35"/>dum mentis conceptum ipsa essentia creaturae bene se habet per 
+indiffe<lb break="no" ed="#L" n="36"/>rentiam ad esse et non esse, in quantum concipi potest absque intellectu
+<pb ed="#L" n="57"/>
+               <lb ed="#L" n="1"/>conditionis essendi vel non essendi. Et talis conceptus est solius quidditatis
+<lb ed="#L" n="2"/>et essentiae rei, ea ratione qua est quidditas et essentia, supra quam
+<lb ed="#L" n="3"/>secundum tale esse quod habet in simplici mentis conceptu fundatur per
+<lb ed="#L" n="4"/>se veritas enuntiationum de inhaerentia essentiali, ut quod homo est
+<lb ed="#L" n="5"/>homo, Socrates est homo, homo est animal et cetera; et per accidens
+<lb ed="#L" n="6"/>fundatur super hoc quod habet esse res! extra in partibus, dicente 
+Avi<lb break="no" ed="#L" n="7"/>cenna primo Metaphysicae  quod enuntiationes non sunt nisi per
+<lb ed="#L" n="8"/>id quod habet? esse in anima et secundum accidens sunt per id quod ? est
+<lb ed="#L" n="9"/>in exterioribus. Quod enim homo est homo vel animal, hoc habet ex
+<lb ed="#L" n="10"/>certitudine suae essentiae, quam non habet ab alio effective, quia quoad
+<lb ed="#L" n="11"/>hoc  non est aliquod factum, sed habet hoc ex hoc quod habet rationem
+<lb ed="#L" n="12"/>formalem et exemplarem in intellectu divino in quo est quid aeternum.
+<lb ed="#L" n="13"/>Et est haec veritas aequaliter re extra existente et non existente, et ideo
+<lb ed="#L" n="14"/>ratione huiusmodi realis entitatis essentialis verificantur propositiones
+<lb ed="#L" n="15"/>scientiales de talibus, rebus etiam non existentibus, et de ipsis ut vere
+<lb ed="#L" n="16"/>obiectis vere est scientia, dicente etiam Algazele  in Logica sua: Cum
+<lb ed="#L" n="17"/>intelligis quid est homo et quid animal, non potes intelligere hominem
+<lb ed="#L" n="18"/>sine intellectu animalis. Sed cum intelligis quid est homo ?, non est 
+neces<lb break="no" ed="#L" n="19"/>sarium intelligere ipsum esse, vel esse album, quia esse accidentale est
+<lb ed="#L" n="20"/>omnibus quae sunt , animal vero est essentiale homini. Unde potest quaeri
+<lb ed="#L" n="21"/>quae res posuit hominem esse vel habere esse; sed non est vera 
+inter<lb break="no" ed="#L" n="22"/>rogatio qua quaeritur quae res posuit hominem esse animal, sicut nec
+<lb ed="#L" n="23"/>hominem esse hominem: homo enim est homo et animal essentialiter.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e449">
+               <lb ed="#L" n="24"/>Loquendo autem de essentia creaturae quoad certitudinem eius non
+<lb ed="#L" n="25"/>solum ut sic absoluto conceptu comprehenditur, sed de certitudine eius in
+<lb ed="#L" n="26"/>se ipsa, sic nullo modo per indifferentiam se habet ad esse et non esse in
+<pb ed="#L" n="58"/>
+               <lb ed="#L" n="1"/>effectu, quia haec sunt contradictoria quorum alterum necessarium est ! ei
+<lb ed="#L" n="2"/>convenire ut dictum est, ita tamen quod secundum hane positionem [cum]
+<lb ed="#L" n="3"/>essentiae sive rei non convenit actu esse essentiae sive esse in esse 
+quid<lb break="no" ed="#L" n="4"/>ditativo. Hanc autem positionem nituntur declarare per dicta Avicennae,
+<lb ed="#L" n="5"/>praecipue primo Metaphysicae ubi dicitur quod unaquaeque res in sua
+<lb ed="#L" n="6"/>natura specifica  habet certitudinem propriam quae est eius quidditas qua
+<lb ed="#L" n="7"/>est id quod est et non aliud a se, sicut albedo habet certitudinem qua est
+<lb ed="#L" n="8"/>albedo et non est nigredo, neque aliquid aliud . Et huiusmodi certitudinem
+<lb ed="#L" n="9"/>vel intentionem de re concomitatur  intentio de esse, ex hoc scilicet quod
+<lb ed="#L" n="10"/>certitudo rei qua est id quod est secundum se habet esse in intellectu
+<lb ed="#L" n="11"/>sive in singularibus extra. Unde, ut dicit  quinto Metaphysicae, certitudo
+<lb ed="#L" n="12"/>cuiuscumque quantum est de se habet conceptum absolutum quo scitur
+<lb ed="#L" n="13"/>quid est res absque concomitantia  intelligendi eam esse nullo modo sive
+<lb ed="#L" n="14"/>intellectu sive in singularibus; hoc tamen quod sic habet conceptum 
+abso<lb break="no" ed="#L" n="15"/>lutum non ponit rem habere aliquod esse separatum, quia non habet esse
+<lb ed="#L" n="16"/>nisi in anima et universale, vel in re extra et singulare. Et animal secundum
+<lb ed="#L" n="17"/>respectum quo est in his sensibilibus vel in anima intellectum est animal,
+<lb ed="#L" n="18"/>et aliud non animal consideratum in se tantum. Cum autem fuit animal, et
+<lb ed="#L" n="19"/>aliud quod non est animal, tunc animal erit in hoc  quasi pars eius. Poterit
+<lb ed="#L" n="20"/>autem animal per se considerari : essentia enim eius est cum alio a se, ergo
+<lb ed="#L" n="21"/>essentia eius est ipsa, per se ipsum vero esse est quoddam quod accidit ei
+<lb ed="#L" n="22"/>vel aliquid quod comitatur naturam suam. Ergo haec " consideratio 
+secun<lb break="no" ed="#L" n="23"/>dum quod est animal praecedit in esse et animal quod est individuum per
+<lb ed="#L" n="24"/>accidentia sua et universale quod est in istis singularibus et intelligibile,
+<lb ed="#L" n="25"/>sicut simplex praecedit compositum !", et sicut pars totum. Quamvis enim
+<lb ed="#L" n="26"/>animalitas non sit nisi universalis vel particularis, tamen ex ratione suae
+<pb ed="#L" n="59"/>
+               <lb ed="#L" n="1"/>essentiae sive secundum se ut est animalitas neutrum sibi determinat, sed
+<lb ed="#L" n="2"/>est indifferens ad utrumque. Unde, ut dicit, humanitas quae est in Socrate
+<lb ed="#L" n="3"/>non est alia ab humanitate quae est in Platone, ex eo quod ipsa est 
+huma<lb break="no" ed="#L" n="4"/>nitas, nec propter hoc est una numero, sed est alia et alia propter aliud
+<lb ed="#L" n="5"/>extrinsecum. Et | hoc videtur aliquo modo colligi ex dictis Avicennae 
+<lb ed="#L" n="6"/>qui dicit in Logica sua quod essentiae rerum duplex habent esse, scilicet in
+<lb ed="#L" n="7"/>singularibus ! extra vel in intellectu. Triplicem autem habet unaquaeque
+<lb ed="#L" n="8"/>essentia considerationem sive respectum: unum secundum quod ipsa est
+<lb ed="#L" n="9"/>secundum se non | relata ad aliquod istorum  esse nec ad aliquid quod
+<lb ed="#L" n="10"/>consequitur ipsam, secundum quod ipsa est sic; alium secundum quod ipsa
+<lb ed="#L" n="11"/>est in singularibus, et tertium secundum quod est in intellectu.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e544">
+               <lb ed="#L" n="12"/>Sed ulterius aliqui dicunt quod ipsa quidditas et essentia rei habet
+<lb ed="#L" n="13"/>huiusmodi tres respectus vel considerationes secundum tres modos quos
+<lb ed="#L" n="14"/>habet in esse: unum quidem habet extra in rebus quod dicitur esse 
+natu<lb break="no" ed="#L" n="15"/>rae, alium in intellectu quod dicitur esse rationis, tertium vero habet
+<lb ed="#L" n="16"/>secundum se quod dicitur esse essentiae. Nam dicit Avicenna , quinto
+<lb ed="#L" n="17"/>Metaphysicae quod animal acceptum cum accidentibus suis in singularibus
+<lb ed="#L" n="18"/>est res naturalis, acceptum vero cum accidentibus in anima est res rationis,
+<lb ed="#L" n="19"/>acceptum ? vero secundum se est res essentiae.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e564">
+               <lb ed="#L" n="20"/>Sed quantamcumque probabilitatem videatur sumere dicta positio ex
+<lb ed="#L" n="21"/>dictis praedictis et aliis Avicennae, tamen non videtur esse necessarium
+<lb ed="#L" n="22"/>quod ponitur eo modo quo verba positionis sonare videntur, licet forte
+<lb ed="#L" n="23"/>habeant bonum intellectum. Et etiam suppositis dictis Avicennae non
+<pb ed="#L" n="60"/>
+               <lb ed="#L" n="1"/>videtur esse ponendum quod, cum hoc quod essentia non existit nisi
+<lb ed="#L" n="2"/>secundum quod habet esse in intellectu vel in rebus particularibus, nec
+<lb ed="#L" n="3"/>aliquod esse existentiae habeat nisi ut sic vel sic ', [quia] nihilominus ipsa
+<lb ed="#L" n="4"/>secundum ? se habeat aliquo modo quod sit res vera secundum suum esse
+<lb ed="#L" n="5"/>essentiae in actu, sed quod ipsa essentia rei non existente in rerum natura
+<lb ed="#L" n="6"/>et in ipsis particularibus habet solum esse cognitum in cognoscente.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e590">
+               <lb ed="#L" n="7"/>Ad cuius intellectum est considerandum quod essentia sic se habet
+<lb ed="#L" n="8"/>ad esse existentiae eius quod est aut idipsum realiter cum  ipso differens
+<lb ed="#L" n="9"/>ratione vel intentione, aut esse dicit rem aliam ab ipsa essentia.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e599">
+               <lb ed="#L" n="10"/>Si autem esse dicat rem aliam quae sit actualitas essentiae realiter alia
+<lb ed="#L" n="11"/>ab ipsa essentia, sicut suo modo forma est actualitas materiae realiter alia
+<lb ed="#L" n="12"/>ab ipsa materia, et quaeratur utrum ipsa essentia sit indifferens ad 
+huius<lb break="no" ed="#L" n="13"/>modi esse et non esse, — huiusmodi indifferentia potest esse intelligi realiter
+<lb ed="#L" n="14"/>et secundum esse ita scilicet quod ipsa essentia in sua natura et realitate
+<lb ed="#L" n="15"/>sive res ipsa creata quantum ad eius essentiam sit  aliquid secundum rem
+<lb ed="#L" n="16"/>natum manere ipsa re corrupta quantum ad ipsum esse existentiae, ut sic
+<lb ed="#L" n="17"/>res generetur et corrumpatur secundum esse existentiae, non autem 
+sim<lb break="no" ed="#L" n="18"/>pliciter scilicet secundum esse essentiae. Sed non videtur esse possibile
+<lb ed="#L" n="19"/>quod res quantum ad eius essentiam sive ipsa essentia secundum id quod
+<lb ed="#L" n="20"/>est realiter, possit manere ipsa re corrupta secundum esse existentiae, ut
+<lb ed="#L" n="21"/>possit dici esse aliquid non solum secundum esse intellectum et potentiale,
+<lb ed="#L" n="22"/>sed secundum esse reale et actuale sive realiter aliquid in rerum natura ;
+<lb ed="#L" n="23"/>cum corrupta re creata quantum ad eius esse existentiae quod est 
+actua<lb break="no" ed="#L" n="24"/>litas realis ipsius essentiae, non maneat  huiusmodi essentia sub alia 
+actua<lb break="no" ed="#L" n="25"/>litate essendi sive existendi, alioquin una et eadem essentia numero posset
+<lb ed="#L" n="26"/>esse  plurium successive, sicut contingit de materia. — Aut huiusmodi
+<lb ed="#L" n="27"/>indifferentia potest intelligi secundum considerationem, ut scilicet ipsa
+<lb ed="#L" n="28"/>essentia creaturae, quae non est id ipsum quod esse  existentiae quod est
+<lb ed="#L" n="29"/>eius actualitas, absolute intellectu concipiatur absque hoc quod 
+cointelli<lb break="no" ed="#L" n="30"/>gatur huiusmodi suum esse vel non esse oppositum, prout etiam diceretur
+<lb ed="#L" n="31"/>quod materia potest intelligi secundum se ut subiectum commune 
+for<lb break="no" ed="#L" n="32"/>marum contrariarum et habitus et privationis, absque hoc quod 
+cointelli<lb break="no" ed="#L" n="33"/>gatur ipsa forma vel eius privatio sive contrarium ipsius, eo modo quo
+<lb ed="#L" n="34"/>materia potest habere aliquem intellectum secundum se. Et sic bene posset
+<lb ed="#L" n="35"/>dici quod essentia creaturae esset indifferens ad esse et non esse.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e658">
+               <lb ed="#L" n="36"/>Si autem esse existentiae, ut dicitur probabilius, non sit res  alia ab
+<lb ed="#L" n="37"/>ipsa essentia, sed differt ab ea solum ratione vel intentione sive respectu
+<pb ed="#L" n="61"/>
+               <lb ed="#L" n="1"/>(aliter etiam quam differunt in Deo essentia et esse solum ratione, propter
+<lb ed="#L" n="2"/>quod etiam nulla creatura ita dicitur suum esse sicut dicitur de Deo), multo
+<lb ed="#L" n="3"/>magis est dicendum quod ipsa essentia creaturae realiter non possit esse
+<lb ed="#L" n="4"/>indifferens ad esse et non esse. Immo cum producitur res ab agente
+<lb ed="#L" n="5"/>de non esse existentiae ad esse existentiae, producitur etiam in esse
+<lb ed="#L" n="6"/>essentiae ; et cum corrumpitur de esse existentiae in non esse existentiae
+<lb ed="#L" n="7"/>corrumpitur etiam de esse essentiae in non esse essentiae ?. Nec etiam
+<lb ed="#L" n="8"/>potest essentia isto modo eadem realiter existens cum sua existentia  esse
+<lb ed="#L" n="9"/>indifferens a suo esse existentiae secundum considerationem et intellectum,
+<lb ed="#L" n="10"/>ita quod possit intelligi realiter id quod res ipsa est secundum essentiam
+<lb ed="#L" n="11"/>vel secundum esse eius essentiae et non intelligatur realiter id quod res est
+<lb ed="#L" n="12"/>secundum existentiam vel secundum ? esse existentiae. Cum enim haec non
+<lb ed="#L" n="13"/>sint diversae res sed una, non potest dici quod intelligatur essentia quin
+<lb ed="#L" n="14"/>etiam intelligatur esse, esse quidem rei verum  et reale extra in seipsa sub
+<lb ed="#L" n="15"/>ratione incomplexi, licet non esse diminutum quod. dicitur esse verum in
+<lb ed="#L" n="16"/>anima et sub ratione complexi; prout dicit Commentator  quarto 
+Meta<lb break="no" ed="#L" n="17"/>physicae, quod hoc praedicatum : est, cum | dicitur res aliqua est, potest
+<lb ed="#L" n="18"/>esse et praedicatum essentiale per modum generis vel accidentale sive de 
+<lb ed="#L" n="19"/>accidente. Et sic quantum intelligitur de essentia rei, tantum intelligitur de
+<lb ed="#L" n="20"/>esse Ipsius et e converso, quia quantum etiam habet res de essentia tantum
+<lb ed="#L" n="21"/>habet de esse, ut si habet essentiam in actu et formaliter in seipsa, habet
+<lb ed="#L" n="22"/>etiam esse in actu, si autem habet essentiam in potentia et virtualiter in
+<lb ed="#L" n="23"/>suis causis, habet etiam esse in potentia; et e converso, ut si aliquid est
+<lb ed="#L" n="24"/>homo simpliciter sive in actu, est etiam simpliciter et in actu, si in potentia,
+<lb ed="#L" n="25"/>in potentia, eo quod, ut dictum est, esse et essentia realiter non differunt 5.
+<lb ed="#L" n="26"/>Et sic non potest dici quod alicui creaturae conveniat esse essentiae 
+sim<lb break="no" ed="#L" n="27"/>pliciter et in actu, utpote quod aliquid sit homo vel animal simpliciter et
+<lb ed="#L" n="28"/>in actu, et non conveniat ei esse existentiae simpliciter et in actu, utpote
+<lb ed="#L" n="29"/>quod non sit vel existat in actu extra in rerum natura.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e730">
+               <lb ed="#L" n="30"/>Loquendo | de his quorum essentia vel natura non consistit solum
+<lb ed="#L" n="31"/>in ? intelligi vel in esse cognito, et quod non habent esse nisi in intellectu
+<lb ed="#L" n="32"/>vel etiam in cognitione, sed etiam in seipsis in " re extra, verum est
+<lb ed="#L" n="33"/>quidem quod essentia rei potissime materialis existens in actu duplex
+<pb ed="#L" n="62"/>
+               <lb ed="#L" n="1"/>habet esse etiam existentiae, vel etiam triplex aliquo modo praedicto ;
+<lb ed="#L" n="2"/>quia ipsa existens habet esse secundum suum esse existentiae secundum
+<lb ed="#L" n="3"/>se in esse suo essentiali, sive ! secundum id quod est essentialiter, ita quod
+<lb ed="#L" n="4"/>hoc suum esse existentiae non est esse existentiae accidentium singularium
+<lb ed="#L" n="5"/>quae concomitantur  existentiam substantiae materialis in rerum natura.
+<lb ed="#L" n="6"/>Quod tamen esse existentiae non habet ipsa essentia substantiae sive
+<lb ed="#L" n="7"/>esse existentiae illorum accidentium, utpote humanitas existens in hoc
+<lb ed="#L" n="8"/>homine ut in Socrate vel in alio habet in illo suum esse existentiae
+<lb ed="#L" n="9"/>inquantum est humanitas existens, quod quidem non est ipsum esse 
+exis<lb break="no" ed="#L" n="10"/>tentiae quantitatis huius et aliorum accidentium, sicut nec humanitas est
+<lb ed="#L" n="11"/>quantitas et cetera; hoc tamen esse existentiae non habet haec humanitas
+<lb ed="#L" n="12"/>sive existentia vel esse existentiae talium accidentium singularium. Et sic
+<lb ed="#L" n="13"/>haec humanitas existens potest considerari secundum Avicennam ut est
+<lb ed="#L" n="14"/>humanitas etiam  existens secundum se sive secundum id quod non est
+<lb ed="#L" n="15"/>nisi humanitas, vel ut cum cointelligitur  cum ea haec quantitas existens ;
+<lb ed="#L" n="16"/>et sic secundum Avicennam consideratur cum alio quod accidit ei et
+<lb ed="#L" n="17"/>concomitatur secundum naturam et est haec humanitas sic secundum
+<lb ed="#L" n="18"/>se considerata quasi pars huius totius quod est humanitas, ut cum
+<lb ed="#L" n="19"/>hac quantitate et his accidentibus ostentata animalitas vel etiam animal
+<lb ed="#L" n="20"/>existens habet hoc modo duplex esse sive duplicem considerationem. —
+<lb ed="#L" n="21"/>Item huiusmodi animalis existentis potest esse tertium esse sive potest
+<lb ed="#L" n="22"/>considerari tertio modo ut habet esse in intellectu sive ut eius est 
+intel<lb break="no" ed="#L" n="23"/>lectus secundum se praeter huiusmodi accidentia individualia. Et tunc
+<lb ed="#L" n="24"/>etiam ipsum esse existentiae animalis  secundum se sicut est aliud ab
+<lb ed="#L" n="25"/>esse existentiae accidentium particularium sine quibus tamen non habet
+<lb ed="#L" n="26"/>suum proprium et reale ? esse existentiae ', ita etiam est aliud ab hoc esse
+<lb ed="#L" n="27"/>considerato quod non est ipsa essentia, nec etiam in ipsa subiective, nec
+<lb ed="#L" n="28"/>etiam ambo simul sunt in uno secundum esse ut in subiecto, sed 
+huius<lb break="no" ed="#L" n="29"/>modi esse cognitum est !! ipsius obiective sive ut obiecti, et est in intellectu
+<lb ed="#L" n="30"/>subiective, et est etiam aliud ab accidentibus quae consequuntur hoc
+<lb ed="#L" n="31"/>esse animalis secundum hoc eius esse cognitum ut est cognitum ?? sive ?
+<lb ed="#L" n="32"/>eius cognitionem vel conceptum in intellectu ut esse ! universale genus
+<lb ed="#L" n="33"/>subiectum praedicatum.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e816">
+               <lb ed="#L" n="34"/>Si autem non maneat hoc suum esse existentiae coniunctum esse !
+<pb ed="#L" n="63"/>
+               <lb ed="#L" n="1"/>existentiae accidentium singularium extra, nullo modo potest manere suum
+<lb ed="#L" n="2"/>esse existentiae secundum se vel in se ipso, nec etiam aliquomodo ' manere
+<lb ed="#L" n="3"/>potest in esse existentiae actuali, ita scilicet quod possit dici quod illud
+<lb ed="#L" n="4"/>simpliciter est essentia in actu, nec possunt praedicari de ipso praedicata
+<lb ed="#L" n="5"/>essentialia importantia essentias actuales sive ea quae sunt actu essentiae
+<lb ed="#L" n="6"/>et quidditates reales. Potest enim manere eius esse existentiae cognitum
+<lb ed="#L" n="7"/>sive potest manere secundum esse cognitum  vel intellectum, sive potest
+<lb ed="#L" n="8"/>manere eius cognitio et ea quae consequuntur ipsum in quantum cognitum
+<lb ed="#L" n="9"/>vel modum cognoscendi. Utpote si non existat aliquod individuum hominis
+<lb ed="#L" n="10"/>nullo modo manet homo existens realiter, nec etiam essentia hominis
+<lb ed="#L" n="11"/>manet in esse actuali essentiali, ita quod possit dici quod homo non
+<lb ed="#L" n="12"/>existens, etsi non vere sit, vere tamen est essentia actualis et vere est
+<lb ed="#L" n="13"/>animal in actu et cetera; vere tamen manet in esse cognito et vere manet
+<lb ed="#L" n="14"/>eius cognitio, et vere potest dici quod est universale quoddam sive 
+univer<lb break="no" ed="#L" n="15"/>salis terminus et species quaedam, id est quod eius est cognitio secundum
+<lb ed="#L" n="16"/>rationem abstractam ut naturae possibilis esse in pluribus individuis, et
+<lb ed="#L" n="17"/>sic de alüs. Et secundum hoc sunt intelligenda dicta Avicennae et
+<lb ed="#L" n="18"/>aliorum.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e862">
+               <lb ed="#L" n="19"/>Ad videndum ergo quomodo, rebus in esse existentiae extra non
+<lb ed="#L" n="20"/>entibus, de quibusdam verum est dicere quod dicunt veras res et naturas
+<lb ed="#L" n="21"/>et veras quidditates et essentias praedicamentales importantes, propter
+<lb ed="#L" n="22"/>quod de ipsis etiam non existentibus ? est scientia, nec tamen cum
+<lb ed="#L" n="23"/>non existant  dicuntur vere esse secundum esse essentiae vel quod sunt
+<lb ed="#L" n="24"/>quaedam essentiae ? simpliciter et in actu de quibus possunt praedicta
+<lb ed="#L" n="25"/>praedicata verificari, — de quibusdam autem non existentibus non est verum
+<lb ed="#L" n="26"/>hoc dicere, — intelligendum quod res quae veras quidditates et essentias
+<lb ed="#L" n="27"/>praedicamentales important, quandoque habent esse in seipsis formaliter
+<lb ed="#L" n="28"/>prout ex suis principiis actualiter coniunctis sunt in existentia  constitutae ;
+<lb ed="#L" n="29"/>et tunc verum est dicere quod sunt et quod sunt essentiae simpliciter et in
+<lb ed="#L" n="30"/>actu tales vel tales ; et sic de Ipsis ut  sic est scientia in propria forma, ut
+<lb ed="#L" n="31"/>patet de caelo , angelis et cetera. Ouandoque autem habent esse extra
+<lb ed="#L" n="32"/>non in seipsis formaliter, sed in suis principiis virtualiter, ita quod
+<lb ed="#L" n="33"/>aliqua principia essentialia sive essentiam earum ingredientia existunt
+<lb ed="#L" n="34"/>in rerum natura, ratione quorum dicuntur huiusmodi res et essentiae
+<lb ed="#L" n="35"/>esse tales res et essentiae, non simpliciter sed in potentia, ut rosa vel
+<pb ed="#L" n="64"/>
+               <lb ed="#L" n="1"/>pluvia non existente, quia existit semen vel vapor, ens in potentia
+<lb ed="#L" n="2"/>rosa vel pluvia ! et agens potens facere ea. Et ideo dicitur rosa vel
+<lb ed="#L" n="3"/>pluvia esse aliquo modo, et esse rosa vel pluvia in potentia et non
+<lb ed="#L" n="4"/>simpliciter et in actu, in potentia quidem quae est aliquid ipsorum
+<lb ed="#L" n="5"/>essentialiter quia in potentia eius quod natum est reduci in actum
+<lb ed="#L" n="6"/>completum secundum quem simpliciter nata sunt esse in esse essentiali
+<lb ed="#L" n="7"/>et esse existentiae in se ipsis. Quandoque  autem habent esse virtualiter
+<lb ed="#L" n="8"/>solum in suis principiis non ingredientibus ipsorum essentiam, ut in
+<lb ed="#L" n="9"/>potentia Dei qui ratione suae infinitae perfectionis quodammodo est
+<lb ed="#L" n="10"/>omnia in virtute, sive omnia quodammodo virtualiter in se habens et
+<lb ed="#L" n="11"/>ex se producere potens, et non solum est ea cognoscens. Et sic omnia
+<lb ed="#L" n="12"/>creabilia quae nec sunt in seipsis formaliter nec in aliquo suorum
+<lb ed="#L" n="13"/>principiorum intrinsecorum virtualiter habent esse in Deo dicto modo
+<lb ed="#L" n="14"/>ut in sua causa, omnia | continente, cognoscere  et producere potente,
+<lb ed="#L" n="15"/>qui eo quod sic ratione suae infinitae perfectionis continet omnia et est
+<lb ed="#L" n="16"/>natura summe intellectualis, est etiam ? omnia perfectissime cogmnoscens
+<lb ed="#L" n="17"/>secundum rationes ideales quae dicuntur formae quasi exemplares 
+secun<lb break="no" ed="#L" n="18"/>dum quas essentiae rerum ab aeterno habent esse cognitum, et quod
+<lb ed="#L" n="19"/>sunt essentiae non iam realiter sive formaliter aliquo modo in se ipsis,
+<lb ed="#L" n="20"/>sed tantum virtualiter et in potentia.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e947">
+               <lb ed="#L" n="21"/>Et secundum hoc omnia illa quae important res in rerum natura
+<lb ed="#L" n="22"/>natas existere dicuntur importare veras essentias vel naturas sive 
+quid<lb break="no" ed="#L" n="23"/>ditates de quibus vere est scientia sive existant sive non existant, pro
+<lb ed="#L" n="24"/>quanto huiusmodi essentiae vel res natae sunt esse in rerum natura vel
+<lb ed="#L" n="25"/>sic quod iam sunt. Et sunt essentiae actu in se ipsis vel sunt essentiae
+<lb ed="#L" n="26"/>in potentia in suis causis ut dictum est. Unde rosa non existens videtur
+<lb ed="#L" n="27"/>importare veram essentiam praedicamentalem de genere substantiae,
+<lb ed="#L" n="28"/>non quod rosa ipsa  actu sit illa essentia vel sit substantia vel flos actu
+<lb ed="#L" n="29"/>sive quia actu  habeat huiusmodi essentiam, sed quia id quod nomine
+<lb ed="#L" n="30"/>rosae apprehenditur natum est esse actu in rerum natura secundum
+<lb ed="#L" n="31"/>quod apprehenditur et iam est in potentia et virtute suorum principiorum.
+<lb ed="#L" n="32"/>Sicut enim unumquodque genus praedicamenti dividitur in actum et
+<lb ed="#L" n="33"/>potentiam, ut substantia in substantiam actu et substantiam in potentia,
+<lb ed="#L" n="34"/>ita et unumquodque pertinens ad unumquodque genus ut homo in
+<lb ed="#L" n="35"/>actu et homo in potentia et cetera. Nec dicitur aliquid esse substantia
+<pb ed="#L" n="65"/>
+               <lb ed="#L" n="1"/>simpliciter et in actu et praedicatione essentiali quod non existat in
+<lb ed="#L" n="2"/>actu, nec substantia in potentia dicitur nisi quod existit in potentia et
+<lb ed="#L" n="3"/>cetera. Ea autem quae non sunt in existentia et habent solum esse
+<lb ed="#L" n="4"/>cognitum, ita quod non sunt nata existere realiter extra secundum
+<lb ed="#L" n="5"/>formam et modum talis cognitionis, non dicuntur aliquo modo importare
+<lb ed="#L" n="6"/>veras essentias et quidditates praedicamentales. Et ideo nec de ipsis
+<lb ed="#L" n="7"/>ut de realibus entibus est scientia, quia nullo modo habent esse reale
+<lb ed="#L" n="8"/>nec actu in se ipsis nec in potentia in suis causis, et ideo talibus rebus
+<lb ed="#L" n="9"/>nullo modo convenit esse essentiae vel reale sed solum esse cognitum
+<lb ed="#L" n="10"/>vel imaginatum vel huiusmodi. Et sic cognitio chimaerae non est
+<lb ed="#L" n="11"/>cognitio alicuius veram essentiam importantis, quia chimaerae habenti
+<lb ed="#L" n="12"/>tale esse cognitum non potest respondere esse reale extra, et ideo nec
+<lb ed="#L" n="13"/>praedicata realia essentialia de talibus praedicari possunt, nec per modum
+<lb ed="#L" n="14"/>actus nec per modum potentiae. Alius autem dicto modo convenit esse
+<lb ed="#L" n="15"/>essentiae et reale, etiam cum non existunt formaliter in seipsis, et cognitio
+<lb ed="#L" n="16"/>talium entium non existentium dicitur esse alicuius verae essentiae, | quia
+<lb ed="#L" n="17"/>tali cognitioni vel habenti sic esse cognitum natum est respondere esse
+<lb ed="#L" n="18"/>reale extra, et iam respondet esse reale in potentia vel virtute suorum
+<lb ed="#L" n="19"/>principiorum, et secundum modum secundum quem eis convenit? esse
+<lb ed="#L" n="20"/>essentiae et reale praedicantur de ipsis praedicata essentialia. Unde
+<lb ed="#L" n="21"/>quia rosa non existente ipsa non habet esse essentiae rosae in actu et
+<lb ed="#L" n="22"/>simpliciter, sed in potentia et virtute, unde rosa non existens non est
+<lb ed="#L" n="23"/>rosa nisi in potentia ; et ideo etiam nec est flos simpliciter sed in potentia
+<lb ed="#L" n="24"/>et sic de aliis.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e1036">
+               <lb ed="#L" n="25"/>Est tamen intelligendum quod terminorum significantium res veras
+<lb ed="#L" n="26"/>essentias importantes, quidam significant res nullum tempus ad esse
+<lb ed="#L" n="27"/>suum actuale determinantes, ut patet de multis nominibus significantibus
+<lb ed="#L" n="28"/>multas species entium ; — quidam autem significant res tempus sibi 
+deter<lb break="no" ed="#L" n="29"/>minantes quae tamen sunt reiterabiles secundum sua individua infinities,
+<lb ed="#L" n="30"/>prout etiam secundum cursum communem revolutiones caeli sunt infinities
+<lb ed="#L" n="31"/>reiterabiles et prout dicitur de phoenice, pluvia et huiusmodi ; — quidam
+<lb ed="#L" n="32"/>significant res tempus sibi determinantes  non reiterabiles secundum
+<lb ed="#L" n="33"/>aliquod aliud tempus, ut patet de omnibus individuis corruptibilibus
+<lb ed="#L" n="34"/>secundum cursum communem vel naturam. Et secundum hoc diversimode
+<lb ed="#L" n="35"/>verificabilia sunt praedicata de ills et ipsa etiam diversimode 
+verifi<lb break="no" ed="#L" n="36"/>cantur de illis quibus nata sunt attribui. Nam cum animal sit natura
+<pb ed="#L" n="66"/>
+               <lb ed="#L" n="1"/>sibi non determinans tempus quantum ad eius esse actuale, ideo prima
+<lb ed="#L" n="2"/>sui impositione videtur esse nomen rei secundum eius esse ' actuale
+<lb ed="#L" n="3"/>simpliciter et pro re sub tali ratione accipi si secundum se  servatur,
+<lb ed="#L" n="4"/>propter quod non praedicatur simpliciter de his quae non sunt simpliciter
+<lb ed="#L" n="5"/>in actu  Unde phoenice  non existente, haec est vera : phoenix est
+<lb ed="#L" n="6"/>phoenix, non tamen haec : phoenix est animal, nisi addatur 
+praeteri<lb break="no" ed="#L" n="7"/>tum vel futurum sive in potentia, eo quod phoenix est nomen animalis
+<lb ed="#L" n="8"/>temporis determinati sive actualiter esse habentis tantum pro tempore
+<lb ed="#L" n="9"/>determinato, animal autem est nomen animalis temporis indeterminati
+<lb ed="#L" n="10"/>sive pro quocumque tempore  esse actuale habentis. Nunc autem cum
+<lb ed="#L" n="11"/>idem de se praedicetur, verum est quod animal determinati temporis
+<lb ed="#L" n="12"/>vel esse actuale habens pro tempore determinato est animal determinati
+<lb ed="#L" n="13"/>temporis, id est habens esse pro tempore determinato, non tamen est
+<lb ed="#L" n="14"/>animal indeterminati temporis et pro quolibet tempore esse habens, et
+<lb ed="#L" n="15"/>sic est intelligendum de aliis.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e1099">
+               <lb ed="#L" n="16"/>Secundum aliquos tamen posset dici quod, licet Socrate vel rosa
+<lb ed="#L" n="17"/>non existente nec rosa nec Socrates habeat esse essentiae sicut nec
+<lb ed="#L" n="18"/>esse existentiae nisi in potentia vel secundum praeteritionem vel 
+futuri<lb break="no" ed="#L" n="19"/>tionem, quia tamen de intellectu  eorum sunt superiora quae habent esse
+<lb ed="#L" n="20"/>in actu et quantum ad esse essentiae et quantum ad esse existentiae
+<lb ed="#L" n="21"/>secundum quodcumque tempus in aliis individu;s vel speciebus ut homo
+<lb ed="#L" n="22"/>in Platone et cetera, flos in viola et cetera, secundum hoc nomen talium
+<lb ed="#L" n="23"/>superiorum est nomen analogum ad talia entia. Ut sicut nomen 
+indivi<lb break="no" ed="#L" n="24"/>duorum est nomen entis in actu et in potentia prout talia sunt aliquando
+<lb ed="#L" n="25"/>in actu aliquando in potentia prout  homo ad hominem in actu et potentia
+<lb ed="#L" n="26"/>et flos ad florem in actu et florem in potentia; ideo sicut substantia dicitur
+<lb ed="#L" n="27"/>ens et accidens dicitur ens analogice tamen, ita homo in potentia dicitur
+<lb ed="#L" n="28"/>animal et rosa in potentia flos et similiter? rosa in actu. Et ideo cum
+<lb ed="#L" n="29"/>talia analoga praedicantur, verificanda sunt secundum exigentiam 
+sub<lb break="no" ed="#L" n="30"/>iectorum et cetera.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e1134">
+               <lb ed="#L" n="31"/>Non intelligit ergo Avicenna per ea quae superius sunt allegata quod
+<lb ed="#L" n="32"/>cum res nata existere  in singularibus non existit in ilis, quod tamen
+<lb ed="#L" n="33"/>nihilominus habeat esse suum quidditativum et reale, et quod etiam cum
+<lb ed="#L" n="34"/>existit cum huiusmodi accidentibus est aliud non solum ab esse illorum,
+<lb ed="#L" n="35"/>sed etiam a suo proprio esse existentiae; | sed solum cum existit cum
+<pb ed="#L" n="67"/>
+               <lb ed="#L" n="1"/>huiusmodi accidentibus in singularibus quod aliud est secundum rem
+<lb ed="#L" n="2"/>illud quod ad ipsam essentiam et quidditatem rei secundum se pertinet,
+<lb ed="#L" n="3"/>et illud cuius est ipsa quidditas sive totum aggregatum ex tali natura et,
+<lb ed="#L" n="4"/>accidentibus quae ! in uno supposito includuntur. Secundum illud 
+Philo<lb break="no" ed="#L" n="5"/>sophi  tertio de anima, quod aliud est caro et carnis esse; et septimo
+<lb ed="#L" n="6"/>Metaphysicae  quod in habentibus materiam differt  quidditas et habens
+<lb ed="#L" n="7"/>quidditatem. Et licet huiusmodi sua realitas sit inseparabilis ab huiusmodi
+<lb ed="#L" n="8"/>accidentibus omnibus secundum omnia individua, tamen | essentialiter
+<lb ed="#L" n="9"/>differt? a realitate huiusmodi accidentium ; et licet non secundum esse vel
+<lb ed="#L" n="10"/>realiter, tamen secundum rationem et considerationem potest separari, id
+<lb ed="#L" n="11"/>est potest intelligi secundum se huiusmodi quidditas vel esse quidditativum
+<lb ed="#L" n="12"/>non cointeligendo huiusmodi accidentia vel esse huiusmodi accidentium
+<lb ed="#L" n="13"/>et cetera ut supra dictum est. Verum est etiam quod, cum verificantur
+<lb ed="#L" n="14"/>praedicata essentialia de talibus utpote cum verificatur homo vel animal
+<lb ed="#L" n="15"/>de Socrate etiam existente, non verificatur de ipso ratione huiusmodi
+<lb ed="#L" n="16"/>accidentium sed ratione huiusmodi essentiae quae tamen non est, et ex
+<lb ed="#L" n="17"/>consequenti nec est essentia sine illis: Unde ista : Socrates est homo,
+<lb ed="#L" n="18"/>est  aliquo modo vera per se in quantum Socrates est homo vel in 
+quan<lb break="no" ed="#L" n="19"/>tum importat humanitatem, est autem vera per accidens in quantum tale
+<lb ed="#L" n="20"/>quantum, et sic signatum et cetera est homo vel animal et cetera.
+</p>
+            <p xml:id="v27ab7-d1e344-d1e1194">
+               <lb ed="#L" n="21"/>Non videtur ergo verum quod essentiae rerum habent quod sint
+<lb ed="#L" n="22"/>essentiae simpliciter ab aeterno, ita quod reali relatione etiam ? ab aeterno
+<lb ed="#L" n="23"/>referantur ad Deum ut ad suam causam, ex eo quod secundum rationes
+<lb ed="#L" n="24"/>exemplares ideales habent esse in divina cognitione, quia ex hoc non
+<lb ed="#L" n="25"/>arguitur quod de ipsis? sit realiter et in actu nisi earum cognitio et
+<lb ed="#L" n="26"/>etiam earum natura potentialiter et virtualiter in divina potentia et virtute,
+<lb ed="#L" n="27"/>prout ipse Deus ut dictum est, est quodammodo omnia. Nec unquam reali
+<lb ed="#L" n="28"/>relatione refertur" creatura ad Deum ut ad causam formalem, nisi etiam
+<lb ed="#L" n="29"/>referatur ad ipsum ut ad causam efficientem, sicut patet etiam de idea
+<lb ed="#L" n="30"/>artificis. Esto enim quod arca cognita secundum totum id quod est, et
+  <pb ed="#L" n="68"/>
+               <lb ed="#L" n="1"/>quantum ad materiam et quantum ad formam, dependeret ab artifice et
+<lb ed="#L" n="2"/>totum ab ipso haberet, tamen antequam esset in rerum natura ex esse arcae
+<lb ed="#L" n="3"/>in mente artificis ut in forma exemplari non diceretur quod arca haberet
+<lb ed="#L" n="4"/>aliquod esse reale vel essentiae vel existentiae nisi in potentia; nec etiam
+<lb ed="#L" n="5"/>haberet aliquam relationem realem ad ipsum artificem et cetera. Ab eodem
+<lb ed="#L" n="6"/>enim habet creatura quod est secundum se ad quod est aliquid secundum
+<lb ed="#L" n="7"/>essentiam sive quod est aliquid in esse quidditativo, et quod est extra in
+<lb ed="#L" n="8"/>seipsa in rerum natura secundum esse existentiae. Tamen haec non sunt
+<lb ed="#L" n="9"/>diversa aut separabilia ut dictum est, et ab eodem simul habet esse et
+<lb ed="#L" n="10"/>secundum essentiam et secundum existentiam, ut! a causa exemplari et
+<lb ed="#L" n="11"/>formali et ut a causa efficiente.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

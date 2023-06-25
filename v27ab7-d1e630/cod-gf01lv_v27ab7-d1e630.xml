@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="226"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e630"><!-- v27ab7-q3q13 -->
+            <head xml:id="v27ab7-d1e630-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-d1e630-Hd1e101" type="question-title">
+      Utrum omnes habitus morales sint in voluntate ut in subiecto
+    </head>
+            <p xml:id="v27ab7-d1e630-d1e104">
+               <lb ed="#L" n="14"/>QUAESTIO XIII.
+<lb ed="#L" n="15"/>Utrum omnes habitus morales sint in. voluntate ut in subiecto.
+</p>
+            <p xml:id="v27ab7-d1e630-d1e111">
+               <lb ed="#L" n="16"/>Deinde circa habitus quaerebantur duo, unum pertinens ad habitus
+<lb ed="#L" n="17"/>virtuosos, scilicet utrum omnes habitus morales sint in voluntate ut in
+<lb ed="#L" n="18"/>subiecto. Deinde quaerebatur secundo unum pertinens ad habitus
+<lb ed="#L" n="19"/>vitiosos, scilicet de peccato originali in comparatione ad peccatum
+<lb ed="#L" n="20"/>actuale, scilicet utrum peccatum originale sit maius peccatum quam
+<lb ed="#L" n="21"/>peccatum actuale.
+</p>
+            <p xml:id="v27ab7-d1e630-d1e127">
+               <lb ed="#L" n="22"/>Ad primum istorum sic proceditur, et arguitur quod omnes virtutes
+<lb ed="#L" n="23"/>morales sint in voluntate sicut in subiecto, quia virtus moralis est in
+<lb ed="#L" n="24"/>illo sicut in subiecto in quo praecipue habent esse tristitia et delectatio,
+<lb ed="#L" n="25"/>respectu quorum sunt virtutes morales praecipue. Sed in voluntate
+<lb ed="#L" n="26"/>maxime habet esse delectatio et tristitia. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e630-d1e141">
+               <lb ed="#L" n="27"/>Contra. Temperantia et fortitudo sunt virtutes morales. Sed fortitudo
+<lb ed="#L" n="28"/>ponitur in irascibilii temperantia in concupiscibilj quae sunt vires
+<pb ed="#L" n="227"/>
+               <lb ed="#L" n="1"/>appetitus sensitivi. Unde dicit Philosophus  tertio Ethicorum, quod
+<lb ed="#L" n="2"/>hae virtutes sunt irrationalium partium animae et cetera.
+<lb ed="#L" n="3"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="350"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f200"><!-- v27ab7-q4short-q20 -->
+            <head xml:id="v27ab7-d1f200-Hd1e99">Quaestio 20</head>
+            <head xml:id="v27ab7-d1f200-Hd1e101" type="question-title">
+      Utrum religiosus teneatur revelare secretum commissum fidei suae vel peccatum
+      occultum proximi praelato talem revelationem praecifrienti
+    </head>
+            <p xml:id="v27ab7-d1f200-d1e104">
+               <pb ed="#L" n="350"/>
+               <lb ed="#L" n="1"/>QUAESTIO XX
+<lb ed="#L" n="2"/>(BREVIS)
+<lb ed="#L" n="3"/>Utrum religiosus teneatur revelare secretum commissum fidei suae vel peccatum
+<lb ed="#L" n="4"/>occultum proximi praelato talem revelationem praecifrienti .
+</p>
+            <p xml:id="v27ab7-d1f200-d1e117">
+               <lb ed="#L" n="5"/>Ad quartum sic proceditur, et arguitur quod religiosus teneatur revelare 
+prae<lb break="no" ed="#L" n="6"/>dictum secretum vel peccatum ! occultum praelato praecipienti. Quia tenetur | ei
+<lb ed="#L" n="7"/>oboedire in his quae pertinent ad bonum proximi et bonum communitatis et
+<lb ed="#L" n="8"/>quorum oppositum cedit in malum. Sed revelare tale secretum praelato est huiusmodi,
+<lb ed="#L" n="9"/>quia posset per praelatum corrigi. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f200-d1e130">
+               <lb ed="#L" n="10"/>Contra. Praelatus non habet de secretis iudicare extra forum poenitentiae. Ergo
+<lb ed="#L" n="11"/>non est necessarium revelare ei talia extra forum poenitentiae.
+</p>
+            <p xml:id="v27ab7-d1f200-d1e138">
+               <lb ed="#L" n="12"/>Respondeo dicendum quod nullus tenetur praelato revelare secretum vel peccatum
+<lb ed="#L" n="13"/>occultum Íratris ratione cuiuscumque praecepti quod praelatus faceret super hoc,
+</p>
+            <p xml:id="v27ab7-d1f200-d1e145">
+               <lb ed="#L" n="14"/>licet quandoque teneatur hoc? revelare praelato ut bono homini, non ut praelato
+<lb ed="#L" n="15"/>TOL DAVE et hoc propter caritatem  non propter praeceptum praelati, quia praelatus non se
+<lb ed="#L" n="16"/>habet ut praelatus ut scilicet gerens vicem Ecclesiae nisi vel in foro publicae
+<lb ed="#L" n="17"/>correctionis sicut in capitulo vel in foro" poenitentiae . Sed peccatum occultum
+<lb ed="#L" n="18"/>fratris non debet revelare in capitulo, quia tunc faceret contra praeceptum caritatis
+<lb ed="#L" n="19"/>quo tenetur corrigere fratrem si potest salvando famam íratris cum hoc. Si hoc
+<lb ed="#L" n="20"/>revelaret per modum accusationis, faceret contra se ipsum, quia posset deficere in
+<lb ed="#L" n="21"/>probatione si alius negaret et sic scandalizaret. Nullus autem tenetur oboedire
+<lb ed="#L" n="22"/>praelato contra praeceptum caritatis quo quis tenetur salvare famam fratris si potest
+<lb ed="#L" n="23"/>et quo tenetur non scandalizare se" ipsum. Nec etiam in foro poenitentiae debet
+<lb ed="#L" n="24"/>homo dicere peccata aliorum sed sua tantum. Tenetur tamen in casu revelare
+<lb ed="#L" n="25"/>praelato ut bono homini et quandoque etiam tenetur magis hoc? praelato facere
+<lb ed="#L" n="26"/>quam alii.
+</p>
+            <p xml:id="v27ab7-d1f200-d1e176">
+               <lb ed="#L" n="27"/>Et ideo ?? distinguendum est de peccatis, quia '? aut agitur de peccato commisso
+<lb ed="#L" n="28"/>aut de committendo. Si de commisso, sic non debet denuntiare praelato ut praelato,
+<lb ed="#L" n="29"/>scilicet per denuntiationem vel per accusationem ut de hoc a praelato fiat inquisitio
+<lb ed="#L" n="30"/>et correctio publica, quia omitteret praeceptum de correctione fraterna secundum
+<lb ed="#L" n="31"/>quam quis tenetur si potest corrigere fratrem salvando famam. Et etiam si non vult
+<lb ed="#L" n="32"/>se corrigere ad dictum fratris, non debet eum ducere coram praelato ad corrigendum
+<lb ed="#L" n="33"/>eum super hoc, quia fieret deterior. Quia posset verecundari coram praelato et ex
+<pb ed="#L" n="351"/>
+               <lb ed="#L" n="1"/>hoc moveretur de facili ad negandum sciens quod non posset probari et fieret frater
+<lb ed="#L" n="2"/>deterior, et sic faceret contra correctionem fraternam ubi solum quaeritur bonum
+<lb ed="#L" n="3"/>delinquentis. Sed si magis speraretur de correctione eius per praelatum quam per
+<lb ed="#L" n="4"/>alium, tunc posset dici praelato ut bono homini vel etiam alii bono viro si speraretur
+<lb ed="#L" n="5"/>quod melius faceret quam praelatus. Immo etiam, si eum posset! convincere ? per
+<lb ed="#L" n="6"/>paucos testes, per duos?, si non cucurit infamia, ad salvandum famam secundum
+<lb ed="#L" n="7"/>ordinem caritatis, debet  eum ante ? corripere in privato quam procedere ad 
+denun<lb break="no" ed="#L" n="8"/>tiationem per quam fiat publica correctio. Ubi autem per testes non posset " convincere,
+<lb ed="#L" n="9"/>si ille non vult se corrigere, debet committere Deo.
+</p>
+            <p xml:id="v27ab7-d1f200-d1e215">
+               <lb ed="#L" n="10"/>Si autem sit peccatum committendum, aut cedit tantum in nocumentum peccantis
+<lb ed="#L" n="11"/>aut cedit cum hoc in nocumentum aliorum. Si primo modo, non debet ostendi vel 
+<lb ed="#L" n="12"/>revelari praelato, nisi sicut dictum est de peccato commisso, quia similiter hic 
+inten<lb break="no" ed="#L" n="13"/>ditur principaliter bonum | delinquentis. Si secundo modo, cum ibi solum mnon
+<lb ed="#L" n="14"/>debeat intendi bonum delinquentis sed debeat etiam  caveri nocumento proximorum,
+<lb ed="#L" n="15"/>ideo in tali casu debet denuntiare praelato in quantum illud peccatum vergit in
+<lb ed="#L" n="16"/>nocumentum aliorum. Nec istud pertinet ad correctionem fraternam in qua quaeritur
+<lb ed="#L" n="17"/>principaliter bonum delinquentis, sed pertinet ad virtutem iustitiae publicae, ut
+<lb ed="#L" n="18"/>scilicet praelatus caveat bono communitatis quod praeponendum est famae singularis
+<lb ed="#L" n="19"/>personae. Nec ad hoc obligatur ex praecepto praelati, sed ex praecepto divino
+<lb ed="#L" n="20"/>pertinente ad virtutem publicae iustitiae. Quod autem ubi quaeritur principaliter
+<lb ed="#L" n="21"/>bonum delinquentis sicut in correctione fraterna, non debet ? revelari praelato vel
+<lb ed="#L" n="22"/>cuicumque alii nisi prout posset cedere ad bonum !'peccantis, dicit Augustinus 
+<lb ed="#L" n="23"/>de Verbis Domini, sermone decimo quinto: corripe ipsum inter te et ipsum, studens
+<lb ed="#L" n="24"/>correctioni, parcens pudori. Forte enim prae verecundia incipit defendere suum 
+pecca<lb break="no" ed="#L" n="25"/>tum, et quem vis facere meliorem forte facis peiorem.
+</p>
+            <p xml:id="v27ab7-d1f200-d1e252">
+               <lb ed="#L" n="26"/>Ad argumentum dicendum quod in casibus in quibus dictum est non esse
+<lb ed="#L" n="27"/>revelandum, non pertinet ad bonum proximi. Et similiter dicendum est de secreto
+<lb ed="#L" n="28"/>quod non debet revelari praelato nisi sit in nocumentum aliorum, et tunc debet
+<lb ed="#L" n="29"/>revelari non obstante fide data de contrario, quia in male promissis rescindenda ??
+<lb ed="#L" n="30"/>est fides. In talibus enim cognitio secretorum '? pertinet ad praelatos quorum est
+<lb ed="#L" n="31"/>intendere et procurare benum commune.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="42"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e257"><!-- v27ab7-q1q19 -->
+            <head xml:id="v27ab7-d1e257-Hd1e99">Quaestio 19</head>
+            <head xml:id="v27ab7-d1e257-Hd1e101" type="question-title">
+      Utrum uxor sciens maritum suum consanguineam suam cognovisse, 
+      ratione cuius facti est affinis factus sue uxori, 
+      possit licite debitum exigere a suo marito
+    </head>
+            <p xml:id="v27ab7-d1e257-d1e104">
+               <pb ed="#L" n="42"/>
+               <lb ed="#L" n="1"/>QUAESTIO XIX.
+<lb ed="#L" n="2"/>Utrum uxor sciens maritum suum consanguineam suam
+<lb ed="#L" n="3"/>cognovisse ratione cuius facti est affinis factus suae uxori
+<lb ed="#L" n="4"/>possit. licite debitum exigere a suo marito.
+</p>
+            <p xml:id="v27ab7-d1e257-d1e117">
+               <lb ed="#L" n="5"/>Postea circa coniugatos quantum ad actus matrimoniales quaerebatur
+<lb ed="#L" n="6"/>unum, videlicet utrum uxor sciens maritum suum consanguineam suam
+<lb ed="#L" n="7"/>cognovisse ratione cuius facti est affinis factus suae uxori possit licite
+<lb ed="#L" n="8"/>debitum exigere a suo marito. Et arguebatur quod praedicta uxor non
+<lb ed="#L" n="9"/>debeat nec possit exigere debitum, quia nullus alium debet inducere ad
+<lb ed="#L" n="10"/>peccandum nisi etiam ipse inducens peccet. Sed talis maritus 
+cogno<lb break="no" ed="#L" n="11"/>scendo uxorem suam factam sibi affinem ex facto et peccato suo peccat.
+<lb ed="#L" n="12"/>Ergo uxor inducens ipsum ad hoc etiam ' peccat.
+</p>
+            <p xml:id="v27ab7-d1e257-d1e137">
+               <lb ed="#L" n="13"/>Contra. Non est iustum quod aliquis amittat ius suum propter 
+cul<lb break="no" ed="#L" n="14"/>pam alterius cui non consentit. Sed uxor praedicta habebat ius exigendi
+<lb ed="#L" n="15"/>debitum a marito praedicto antequam eius consanguineam cognosceret
+<lb ed="#L" n="16"/>propter quod factus est affinis. Hoc autem factum est absque scitu et
+<lb ed="#L" n="17"/>consensu uxoris. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e257-d1e151">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod, cum uterque coniugum habeat 
+pote<lb break="no" ed="#L" n="19"/>statem et ius in corpore alterius, nullus autem debet sine culpa sua 
+<lb ed="#L" n="20"/>privari iure suo, ideo si maritus absque consensu et beneplacito mulieris
+<lb ed="#L" n="21"/>cognoscendo consanguineam eius efficiatur affinis ?, ex hoc ipse amittit
+<lb ed="#L" n="22"/>ius ne possit  absque peccato exigere debitum. Uxor autem propter
+<lb ed="#L" n="23"/>hoc ius suum non amittit, sed potest petere, et vir non voluntarie sed
+<lb ed="#L" n="24"/>quasi inductus et coactus sive exactus reddere tenetur, et sic non peccat.
+<lb ed="#L" n="25"/>De hoc Extra  de eo qui cognovit consanguineam uxoris suae, Tuae
+<lb ed="#L" n="26"/>fraternitatis et Nec affinitas et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="38"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e223"><!-- v27ab7-q1q16 -->
+            <head xml:id="v27ab7-d1e223-Hd1e99">Quaestio 16</head>
+            <head xml:id="v27ab7-d1e223-Hd1e101" type="question-title">
+      Utrum licite possint laici tenere decimas titulo fidei 
+      vel quocumque alio modo ius et proprietatem in illis habendo
+    </head>
+            <p xml:id="v27ab7-d1e223-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO XVI.
+<lb ed="#L" n="6"/>Utrum licite possint laici tenere decimas titulo fidei
+<lb ed="#L" n="7"/>vel quocumque alio modo ius et proprietatem in illis habendo.
+</p>
+            <p xml:id="v27ab7-d1e223-d1e113">
+               <lb ed="#L" n="8"/>Postea circa pertinentia ad laicos generaliter quaerebatur unum
+<lb ed="#L" n="9"/>videlicet utrum licite possint tenere decimas titulo fidei vel quocumque
+<lb ed="#L" n="10"/>alio modo ius et proprietatem in illis habendo. Et arguebatur quod laici
+<lb ed="#L" n="11"/>non possint iusto titulo decimas retinere, quia praecepta iuris divini
+<lb ed="#L" n="12"/>inviolabilia sunt. Sed ex praecepto iuris divini debentur decimae Deo
+<lb ed="#L" n="13"/>aut ! ministris Ecclesiae. Unde dicitur Levitico  ultimo : omes 
+deci<lb break="no" ed="#L" n="14"/>mae lerrae sive de frugibus sive de pomis arborum Domini sunt | et
+<lb ed="#L" n="15"/>illi? sanctificantur. Quod autem Domino sanctificatum est non potest ad
+<lb ed="#L" n="16"/>communes et laicos usus converti. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e223-d1e135">
+               <lb ed="#L" n="17"/>In contrarium est generalis permissio Ecclesiae permittentis quod
+<lb ed="#L" n="18"/>a multis detinentur decimae absque ipsius Ecclesiae concessione 
+spe<lb break="no" ed="#L" n="19"/>cial. A multis etiam tenentur decimae in feudum perpetuum ex 
+Eccle<lb break="no" ed="#L" n="20"/>siae supposita  concessione et donatione, quod non fieret nisi esset
+<lb ed="#L" n="21"/>licitum. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e223-d1e149">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod per decimas intelligimus bona temporalia
+<lb ed="#L" n="23"/>quae de iure debentur ministris Ecclesiae propter ecclesiastica beneficia
+<lb ed="#L" n="24"/>quae ministrant, sive sint secundum quoddam decimae sive alia. Primum
+<lb ed="#L" n="25"/>enim est debitum iure divino et naturali, secundum vero est 
+caeremo<lb break="no" ed="#L" n="26"/>niale, et in praesenti est secundum Ecclesiae determinationem. Et 
+secun<lb break="no" ed="#L" n="27"/>dum hoc circa decimas distinguitur quod est considerare ipsum ius
+<lb ed="#L" n="28"/>accipiendi et ipsas res quae nomine decimae dantur. lus accipiendi
+<lb ed="#L" n="29"/>decimas dicitur esse spirituale, et ideo in laicum non cadit; sed ipsae
+<lb ed="#L" n="30"/>res corporales sunt, ideo in usus cuiuslibet sunt et  cadere possunt.
+</p>
+            <p xml:id="v27ab7-d1e223-d1e171">
+               <pb ed="#L" n="39"/>
+               <lb ed="#L" n="1"/>Sed quia usus perpetuus videtur inniti alicui iuri etiam. perpetuo, 
+ulte<lb break="no" ed="#L" n="2"/>rius distinguitur quod decimae duplici iure debentur Ecclesiae, ratione
+<lb ed="#L" n="3"/>divini obsequii in ea praestiti, quo seminantibus spiritualia debentur 
+tem<lb break="no" ed="#L" n="4"/>poralia, quod ad solos Ecclesiae praelatos per se et suis ministris competit
+<lb ed="#L" n="5"/>(tertia decima ', quaestione prima, capitulo His ita; Extra de decimis,
+<lb ed="#L" n="6"/>Novum et capitulo Tua nobis) , et hoc ius percipiendi  decimas mere
+<lb ed="#L" n="7"/>spirituale est nec potest cadere in laicum. Item debentur alio iure in
+<lb ed="#L" n="8"/>signum subiectionis et dominii (decima sexta, quaestione rima, 
+Rever<lb break="no" ed="#L" n="9"/>timini et capitulo Decimae) . Hoc tamen | ius non est ita spirituale
+<lb ed="#L" n="10"/>ut primum, immo quasi civile et cadere potest in laicum saltem 
+quan<lb break="no" ed="#L" n="11"/>tum ad fructuum perceptionem. Sicut ergo res nomine decimae acceptas
+<lb ed="#L" n="12"/>potest ecclesia alicui laico tradere, ita etiam potest eis concedere ut
+<lb ed="#L" n="13"/>decimas ipsi accipiant, iure tamen principali accipiendi ministris ecclesiae
+<lb ed="#L" n="14"/>servato sive pro necessitate ecclesiae sive ad sustentationem pauperum,
+<lb ed="#L" n="15"/>ut quibusdam religiosis, laicis vel etiam curam animarum non habentibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

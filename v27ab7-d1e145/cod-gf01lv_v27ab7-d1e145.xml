@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="22"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e145"><!-- v27ab7-q1q9 -->
+            <head xml:id="v27ab7-d1e145-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-d1e145-Hd1e101" type="question-title">
+      Utrum intellectus possibilis necessario informetur
+      aliqua specie intelligibili alia ab ipso actu intelligendi, quae sit
+      necessaria ad hoc quod ipsa operatio intelligendi eliciatur
+    </head>
+            <p xml:id="v27ab7-d1e145-d1e104">
+               <pb ed="#L" n="22"/>
+               <lb ed="#L" n="1"/>QUAESTIO IX.
+<lb ed="#L" n="2"/>Utrum intellectus possibilis necessario informetur
+<lb ed="#L" n="3"/>aliqua specie intelligibili alia ab ipso actu intelligendi, quae sit
+<lb ed="#L" n="4"/>necessaria ad hoc quod ipsa operatio intelligendi eliciatur.
+</p>
+            <p xml:id="v27ab7-d1e145-d1e117">
+               <lb ed="#L" n="5"/>Tertio quaerebatur utrum intellectus possibilis necessario informetur
+<lb ed="#L" n="6"/>aliqua specie intelligibili alia ab ipso intelligere sive ab ipso actu 
+intelli<lb break="no" ed="#L" n="7"/>gendi, quae sit necessaria ad hoc quod ipsa operatio intelligendi eliciatur.
+<lb ed="#L" n="8"/>Et arguebatur ! quod sic, quia actionis vel operationis cuiuslibet operantis
+<lb ed="#L" n="9"/>est principium vel ratio agendi aliqua forma, secundum quam elicitur
+<lb ed="#L" n="10"/>huiusmodi  operatio, alia ab ipsa operatione. Sed intellectus possibilis de
+<lb ed="#L" n="11"/>se nullam speciem habet. Ergo oportet quod ad hoc quod eliciat aliquam
+<lb ed="#L" n="12"/>operationem intelligendi, prius reducatur in actum alicuius formae et 
+spe<lb break="no" ed="#L" n="13"/>ciei quae  sit aliud quam ipsum intelligere. Et hoc videtur esse de 
+inten<lb break="no" ed="#L" n="14"/>tione Philosophi  dicentis quod lapis non est in anima, sed species
+<lb ed="#L" n="15"/>lapidis.
+</p>
+            <p xml:id="v27ab7-d1e145-d1e143">
+               <lb ed="#L" n="16"/>Contra, ut dictum est, secundum Philosophum , intelligere est
+<lb ed="#L" n="17"/>quoddam pati respectu intellectus possibilis. Ergo intellectus possibilis
+<lb ed="#L" n="18"/>respectu ipsius intelligere ex parte sua nullo indiget, nisi quo disponatur
+<lb ed="#L" n="19"/>ad patiendum. Sed cum de se sit quaedam potentia respectu ipsius 
+intel<lb break="no" ed="#L" n="20"/>ligere, ex hoc est sufficienter dispositus. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e145-d1e157">
+               <lb ed="#L" n="21"/>Respondeo dicendum quod, prout tangitur in prima ratione, 
+secum<lb break="no" ed="#L" n="22"/>dum  ponentes intellectum esse principium activum respectu actus 
+intel<lb break="no" ed="#L" n="23"/>ligendi, cum secundum se consideratus non sit nisi  quaedam potentia
+<lb ed="#L" n="24"/>indeterminata respectu cuiuscumque obiecti | et actus intelligendi, ad hoc
+<lb ed="#L" n="25"/>quod faciat se ipsum in actum aliquem determinatum intelligendi respectu
+<lb ed="#L" n="26"/>obiecti determinati, oportet quod actuetur aliquo modo, et determinetur
+<lb ed="#L" n="27"/>secundum speciem determinatam obiecti, respectu cuius debet eligere
+<pb ed="#L" n="23"/>
+               <lb ed="#L" n="1"/>actum intelligendi. Sicut forte aliqui videntur ponere quod ratio formalis
+<lb ed="#L" n="2"/>ignis quae dicitur ' inesse naturae per agentia naturalia, est aliquid 
+cau<lb break="no" ed="#L" n="3"/>satum ab agente in eo ex quo res producitur, et per illud dicitur illud in
+<lb ed="#L" n="4"/>quo est habere rationem activi principii respectu effectus principalis.
+</p>
+            <p xml:id="v27ab7-d1e145-d1e186">
+               <lb ed="#L" n="5"/>Sed iste modus ponendi non videtur conveniens, quia supponitur
+<lb ed="#L" n="6"/>falsum, scilicet quod intellectus sit activus respectu sui actus intelligendi.
+<lb ed="#L" n="7"/>Praeterea , ponendo speciem dicto modo, potest concludi quod 
+intel<lb break="no" ed="#L" n="8"/>lectus respectu actus intelligendi non est activus sed passivus; quia cum
+<lb ed="#L" n="9"/>huiusmodi species sit quaedam similitudo imperfecta obiecti, actus autem
+<lb ed="#L" n="10"/>intelligendi completus sit perfecta similitudo eius, cuius est agere et 
+effi<lb break="no" ed="#L" n="11"/>cere huiusmodi ? speciem, eius etiam est  agere et efficere ipsum actum. Et
+<lb ed="#L" n="12"/>huiusmodi species si ponatur ut aliquid necessarium ad actum efficiendum,
+<lb ed="#L" n="13"/>habebit rationem instrumentalis  agentis, et obiectum rationem 
+princi<lb break="no" ed="#L" n="14"/>palis  efficientis. Sicut etiam semen viri coniunctum menstruo mulieris
+<lb ed="#L" n="15"/>habet rationem instrumentalis " agentis, et sicut menstruum mulieris per
+<lb ed="#L" n="16"/>semen viri non dicitur habere vim activam respectu fetus sed passivam ;
+<lb ed="#L" n="17"/>ita in proposito quantum ad hoc similiter potest dici quod intellectus
+<lb ed="#L" n="18"/>possibilis in quo recipitur huiusmodi ? species non habet per illam actum
+<lb ed="#L" n="19"/>efficere, sed tantum habet rationem principii passivi, ut sic per obiectum ut
+<lb ed="#L" n="20"/>per agens principale, mediante huiusmodi  specie et instrumentali agente,
+<lb ed="#L" n="21"/>actus intelligendi causetur.
+</p>
+            <p xml:id="v27ab7-d1e145-d1e225">
+               <lb ed="#L" n="22"/>Quidam autem ponentes intellectum passivum et obiectum activum
+<lb ed="#L" n="23"/>respectu actus intelligendi, ponunt nihilominus speciem generari ab obiecto
+<lb ed="#L" n="24"/>ut quamdam dispositionem potentiam determinantem et habilitantem ad
+<lb ed="#L" n="25"/>actum determinatum et specialem. Et secundum hoc non habet rationem
+<lb ed="#L" n="26"/>activi sed magis dispositionem materialis . Sed quod huiusmodi species, si
+<lb ed="#L" n="27"/>ponatur ut dictum est, sit quaedam similitudo obiecti imperfecta !! et actus
+<lb ed="#L" n="28"/>intelligendi est  similitudo eiusdem perfecta, et sic ad eumdem causandum
+<lb ed="#L" n="29"/>non P formaliter pertinere vide[n]tur, (sicut ipsum calefieri est similitudo
+<lb ed="#L" n="30"/>imperfecta calefacientis, et calefactum esse est similitudo perfecta eius),
+<lb ed="#L" n="31"/>huiusmodi species non cedet in rationem dispositionis formalis, sed sub
+<lb ed="#L" n="32"/>ratione formae causatae  ab obiecto sicut et ipse actus continebitur. Et
+<lb ed="#L" n="33"/>ideo, omnibus consideratis, non apparet sufficiens motivum propter quod
+<lb ed="#L" n="34"/>intellectus possibilis tali specie informetur ?9....
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

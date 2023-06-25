@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="332"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f060"><!-- v27ab7-q4short-q6 -->
+            <head xml:id="v27ab7-d1f060-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1f060-Hd1e101" type="question-title">
+      Utrum extra istum mundum posset Deus facere aliam terram eiusdem
+      speciei cum terra huius mundi
+    </head>
+            <p xml:id="v27ab7-d1f060-d1e104">
+               <lb ed="#L" n="7"/>QUAESTIO VI
+<lb ed="#L" n="8"/>(BREVIS).
+<lb ed="#L" n="9"/>Utrum extra istum mundum posset Deus facere aliam terram eiusdem
+<lb ed="#L" n="10"/>speciei cum terra huius mundi .
+</p>
+            <p xml:id="v27ab7-d1f060-d1e115">
+               <lb ed="#L" n="11"/>Postea quaerebatur unum pertinens ad creaturam corporalem specialem, et est
+<lb ed="#L" n="12"/>utrum extra  istum mundum posset Deus íacere aliam terram eiusdem speciei cum
+<lb ed="#L" n="13"/>terra huius mundi. Et arguitur quod non, quia hoc posito  sequeretur quod naturale
+<lb ed="#L" n="14"/>esset illi terrae esse cum terra istius mundi, cum omnia corpora eiusdem speciel
+<lb ed="#L" n="15"/>habeant eundem locum naturalem. Ergo illa terra naturaliter moveretur ad centrum
+<lb ed="#L" n="16"/>huius mundi. Sed non posset naturaliter moveri ad centrum huius mundi nisi poneretur
+<lb ed="#L" n="17"/>naturaliter ascendere recedendo a centro alterius mundi. Hoc autem est  impossibile.
+<lb ed="#L" n="18"/>Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f060-d1e135">
+               <lb ed="#L" n="19"/>Contra. Deus cum sit virtutis infinitae, ita potest facere plures terras sicut
+<lb ed="#L" n="20"/>unam.
+</p>
+            <p xml:id="v27ab7-d1f060-d1e143">
+               <lb ed="#L" n="21"/>Respondeo. Licet secundum viam Philosophi , Deus non posset aliquid facere ?
+<lb ed="#L" n="22"/>de novo nisi mediante motu caeli et per consequens non posset aliquid facere de
+<lb ed="#L" n="23"/>novo nisi praesupposita !! materia, ad quam statim | sequitur Deum non posse !! facere
+<lb ed="#L" n="24"/>aliam terram sicut nec alium mundum, quia secundum eum mundus est ex tota sua
+<lb ed="#L" n="25"/>materia qualicumque ' possibili; — secundum tamen veritatem, sicut Deus potuit
+<lb ed="#L" n="26"/>a principio producere materiam cum non erat ?, ita nunc posset producere de
+<lb ed="#L" n="27"/>nihilo alium mundum ex alia materia quam simul cum alio mundo crearet.
+</p>
+            <p xml:id="v27ab7-d1f060-d1e161">
+               <lb ed="#L" n="28"/>Ad rationem dicendum quod omnia corpora eiusdem speciei infra idem caelum
+<lb ed="#L" n="29"/>contenta habent unum locum naturalem. Non autem oportet hoc de corporibus
+<lb ed="#L" n="30"/>eiusdem speciei contentis a diversis caelis. Et hoc ideo est quia esse in loco et
+<lb ed="#L" n="31"/>moveri naturaliter ad locum !, contingit ? corporibus per habitudinem ad influentiam
+<lb ed="#L" n="32"/>caeli, et ideo, quia illa terra non reciperet influentiam ab illo caelo, ideo non
+<pb ed="#L" n="333"/>
+               <lb ed="#L" n="1"/>moveretur naturaliter ad centrum istius caeli ', Nec oporteret etiam ponere vacuum
+<lb ed="#L" n="2"/>quia extra utrumque caelum non esset aliquod quod esset aptum natum continere et
+<lb ed="#L" n="3"/>non continens actu nisi imaginatur? sicut modo ? imaginamur vacuum extra caelum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

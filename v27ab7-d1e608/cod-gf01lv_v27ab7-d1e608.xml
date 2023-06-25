@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="219"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e608"><!-- v27ab7-q3q11 -->
+            <head xml:id="v27ab7-d1e608-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-d1e608-Hd1e101" type="question-title">
+      Utrum liceat decimas vendere carius ratione solutionis differendae
+    </head>
+            <p xml:id="v27ab7-d1e608-d1e104">
+               <lb ed="#L" n="21"/>QUAESTIO XI
+<lb ed="#L" n="22"/>(LONGA)
+<lb ed="#L" n="23"/>Utrum liceat decimas vendere carius ratione
+<lb ed="#L" n="24"/>solutionis differendae.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e115">
+               <lb ed="#L" n="25"/>Deinde circa actus communes quaerebantur duo, unum quantum
+<lb ed="#L" n="26"/>ad actum venditionis, videlicet utrum liceat decimas vendere carius
+<pb ed="#L" n="220"/>
+               <lb ed="#L" n="1"/>ratione dilationis solutionis faciendae. Deinde quaerebatur unum quantum
+<lb ed="#L" n="2"/>ad actum gratuitae donationis, videlicet utrum uxor possit dare
+<lb ed="#L" n="3"/>eleemosynam invito et contradicente marito.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e131">
+               <lb ed="#L" n="4"/>Ad primum istorum sic proceditur, et arguitur quod non licet
+<lb ed="#L" n="5"/>decimas vendere carius ratione dilationis solutionis, quia quod prohibitum
+<lb ed="#L" n="6"/>est et non licet in bonis temporalibus communibus, debet intelligi 
+pro<lb break="no" ed="#L" n="7"/>hibitum et illicitum in bonis ecclesiasticis deputatis personis spiritualibus.
+<lb ed="#L" n="8"/>Sed aliqua bona temporalia communia non licet vendere carius propter
+<lb ed="#L" n="9"/>dilationem solutionis. Ergo minus licet de istis.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e148">
+               <lb ed="#L" n="10"/>Contra. lllad quod fit a personis ecclesiasticis et spiritualibus non
+<lb ed="#L" n="11"/>videtur esse illicitum. Sed religiosi et clerici sic consueverunt vendere
+<lb ed="#L" n="12"/>suas decimas. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e157">
+               <lb ed="#L" n="13"/>Dicendum quod cum in commutatione emptionis et venditionis sive
+<lb ed="#L" n="14"/>etiam locationis quae est quaedam venditio ad tempus, debeat aequalitas
+<lb ed="#L" n="15"/>secundum iustitiam conservari, ut unus non recipiat plus de eo quod
+<lb ed="#L" n="16"/>est alterius quam det ei de suo quantum est de ratione contractus,
+<lb ed="#L" n="17"/>constat quod pro dilatione solutionis faciendae non est res carius
+<lb ed="#L" n="18"/>vendenda vel locanda quam valeat pro tempore venditionis. Si ergo
+<lb ed="#L" n="19"/>vendat vel locet aliquis aliquid pro pretio non solvendo secundum
+<lb ed="#L" n="20"/>communem consuetudinem sed tempore posteriore, propinquiore vel
+<lb ed="#L" n="21"/>remotiore, ut contingit in venditione decimarum et huiusmodi fructuum
+<lb ed="#L" n="22"/>vel locatione praediorum vel domorum in quibus emens pro hora
+<lb ed="#L" n="23"/>contractus! non recipit vel consequitur quicquid ex re empta vel
+<lb ed="#L" n="24"/>locata ratione emptionis vel locationis intendit, nec vendens vel locans
+<lb ed="#L" n="25"/>transfert in ementem vel locantem quicquid circa rem emptam vel
+<lb ed="#L" n="26"/>locatam transferre potest, quia non dominium, sed usum simplicem vel
+<lb ed="#L" n="27"/>usum fructuum vel huiusmodi, quando pro certo pretio talia venduntur
+<lb ed="#L" n="28"/>vel locantur quod quidem pretium communiter recipi et solvi consuevit
+<lb ed="#L" n="29"/>de bonis et fructibus levandis et recipiendis, — si, inquam, tale quid
+<lb ed="#L" n="30"/>vendatur vel locatur pretio maiore eo quod solutio differtur plus quam
+<lb ed="#L" n="31"/>communiter consuevit differri, solutio talium est usura, non quidem
+<lb ed="#L" n="32"/>quia minus reciperetur si statim | solveretur, cum talium solutio 
+com<lb break="no" ed="#L" n="33"/>muniter fieri non consuevit tempore venditionis vel locationis (alioquin
+<lb ed="#L" n="34"/>communiter minus competenter possent de talibus homines facere
+<lb ed="#L" n="35"/>utilitatem suam), sed quia plus recipitur quam consuevit recipi[t] tempore
+<lb ed="#L" n="36"/>communis solutionis et cetera. Videtur etiam quod si emens, eo quod
+<lb ed="#L" n="37"/>in continenti solveret pretium quod communiter non solvitur nisi
+<pb ed="#L" n="221"/>
+               <lb ed="#L" n="1"/>tempore posteriore, minus det quam si postea solveret, committere£
+<lb ed="#L" n="2"/>usuram, ut patet in locatione domorum et huiusmodi.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e220">
+               <lb ed="#L" n="3"/>Primum istorum ex quo etiam sequitur secundum, patet per illam
+<lb ed="#L" n="4"/>decretalem Extra de usuris, Consuluit , ubi dicitur: consuluit nos
+<lb ed="#L" n="5"/>tua devotio an ille in iudicio animarum usurarius debeat iudicari qui
+<lb ed="#L" n="6"/>merces suas longe maiore pretio distrahit si ad solutionem faciendam
+<lb ed="#L" n="7"/>prolixi temporis dilatio prorogetur quam si ei in continenti pretium
+<lb ed="#L" n="8"/>persolvatur. Et infra: talis iudicandus est male agere et ad ea quae
+<lb ed="#L" n="9"/>taliter sunt accepta restituenda in animarum iudicio efficaciter inducendus.
+<lb ed="#L" n="10"/>Si autem aliquis habeat rem quae statim vendi possit sic quod totaliter
+<lb ed="#L" n="11"/>transferatur in emptorem quicquid de illa potest a vendente transferri,
+<lb ed="#L" n="12"/>utpote bladum vel vinum iam in horreo vel cellario recollectum, et pro
+<lb ed="#L" n="13"/>quibus pretium consuevit dari in continenti cum venditur, si talis res
+<lb ed="#L" n="14"/>consuevit plus et minus valere secundum diversitatem temporum (et
+<lb ed="#L" n="15"/>ideo aliqui potentes custodire custodiunt illam usque ad tempus quo
+<lb ed="#L" n="16"/>solet plus valere; indigentes vero vendunt prius secundum quod
+<lb ed="#L" n="17"/>indigentia compelluntur), — tunc si dives habens huiusmodi rem, utpote
+<lb ed="#L" n="18"/>frumentum in principio hiemis, cum solet valere decem solidos, vel
+<lb ed="#L" n="19"/>triticum, quod non intendit vendere ante principium Augusti, cum solet
+<lb ed="#L" n="20"/>valere duodecim solidos [vel triticum], et velit aliquis non habens paratam
+<lb ed="#L" n="21"/>pecuniam et indigens frumento pro tempore praedicto, scilicet in 
+prin<lb break="no" ed="#L" n="22"/>cipio hiemis, emere ab illo frumentum, — videtur quod licite poterit
+<lb ed="#L" n="23"/>vendere carius quam valeat tempore venditionis sive in tempore in quo
+<lb ed="#L" n="24"/>vendit, dum tamen non vendat carius quam communius valere consuevit
+<lb ed="#L" n="25"/>tempore solutionis, scilicet tempore pro quo vendit, ut pro duodecim
+<lb ed="#L" n="26"/>solidis vel parum plus vel minus, ita tamen quod non recedat notabiliter
+<lb ed="#L" n="27"/>a medio secundum communem consuetudinem aestimando. Licet enim
+<lb ed="#L" n="28"/>unicuique rei suum pretium imponere prout vult, dum tamen non excedat
+<lb ed="#L" n="29"/>notabiliter pretium quod solet communiter aestimatione vel consuetudine
+<lb ed="#L" n="30"/>statui, et hoc scilicet quod nunc dictum est de cariore venditione rei
+<lb ed="#L" n="31"/>quam valeat tempore venditionis, confirmari potest. Quia hoc videtur
+<lb ed="#L" n="32"/>dicere illa decretalis Extra, capitulo : in civitate tua  dicis saepe
+<lb ed="#L" n="33"/>contingere quod quidam merces aliquas comparant quae tunc ultra
+<lb ed="#L" n="34"/>quinque libras non valent et promittunt se sex libras statuto termino
+<lb ed="#L" n="35"/>soluturos, et ita venditores peccatum incurrunt nisi dubium sit merces
+<lb ed="#L" n="36"/>illos plus vel minus solutionis tempore valituras. Hoc idem expressius
+<pb ed="#L" n="222"/>
+               <lb ed="#L" n="1"/>dicitur Extra, capitulo Naviganti  ubi dicitur: ratione dubii, Glossa :
+<lb ed="#L" n="2"/>si certum esset quod tempore solutionis minus valerent, usurarius esset
+<lb ed="#L" n="3"/>censendus ; sed non sic cum emptor et venditor ratione dubii probabilis
+<lb ed="#L" n="4"/>aequaliter commodum et incommodum ex dilatione expectat. Glossa  :
+<lb ed="#L" n="5"/>a talibus contractibus qui dicuntur liciti ex tali dubio esset potius
+<lb ed="#L" n="6"/>propter periculum abstinendum, quoniam frequenter fingunt se aliqui
+<lb ed="#L" n="7"/>dubitare ubi dubitandum non est. Tamen in talibus sunt homines suae
+<lb ed="#L" n="8"/>conscientiae relinquendi. Excusari enim potest qui pannos, vinum, granum
+<lb ed="#L" n="9"/>vel alias merces vendit, ut amplius quam valeant tunc in certo termino
+<lb ed="#L" n="10"/>recipiat pro eisdem, si tamen ea tempore contractus non fuerat 
+ven<lb break="no" ed="#L" n="11"/>diturus.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e322">
+               <lb ed="#L" n="12"/>Per praedicta patet responsio ad quaestionem et ad argumenta.
+<lb ed="#L" n="13"/>Nam si aliquis clericus velit vendere fructus perceptos de decima sua
+<lb ed="#L" n="14"/>sive etiam dare | huiusmodi fructus percipiendos ad firmam, ut videbatur
+<lb ed="#L" n="15"/>intendere quaerens quantum ad primum casum, si jam habet penes se
+<lb ed="#L" n="16"/>fructus et non vellet eos pro tunc vendere, — tunc si carius vendat, quia
+<lb ed="#L" n="17"/>pro tempore solutionis plus solent communiter valere, non incurritur
+<lb ed="#L" n="18"/>usura. Si autem non habet sed habiturus est, tunc etiam de facto non
+<lb ed="#L" n="19"/>potest carius vendere quam valeant tempore venditionis si solutionem
+<lb ed="#L" n="20"/>statim velit recipere; fatuus enim esset sic emens cum ab alio posset
+<lb ed="#L" n="21"/>emere pro minore. Si autem minus recipiat quam valeazt tunc et minus
+<lb ed="#L" n="22"/>valiturae etiam sunt pro tempore colligendorum fructuum sive 
+recipien<lb break="no" ed="#L" n="23"/>dorum, neuter peccaret. Sed si minus recipiat quam probabiliter
+<lb ed="#L" n="24"/>aestimatur quod dicti fructus valere debeant tempore quo recipientur,
+<lb ed="#L" n="25"/>peccatum est ex parte ementis.
+</p>
+            <p xml:id="v27ab7-d1e608-d1e355">
+               <lb ed="#L" n="26"/>In secundo casu patet quod si aliquis velit dare ad firmam sic
+<lb ed="#L" n="27"/>quod carius det propter prolongationem terminorum solutionis plus
+<lb ed="#L" n="28"/>quam scilicet communiter fieri consuevit, videtur illicitum. Per hoc patet
+<lb ed="#L" n="29"/>responsio ad argumenta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

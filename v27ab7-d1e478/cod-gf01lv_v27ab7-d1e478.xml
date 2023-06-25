@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="157"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e478"><!-- v27ab7-q2q14 -->
+            <head xml:id="v27ab7-d1e478-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-d1e478-Hd1e101" type="question-title">
+      Utrum sacerdos curatus possit dare licentiam ut parochianus defunctus, qui extra parochiam suam non elegit sepulturam, in loco religioso extra suam parochiam sepeliatur
+    </head>
+            <p xml:id="v27ab7-d1e478-d1e104">
+               <pb ed="#L" n="157"/>
+               <lb ed="#L" n="1"/>OUAESTIO XIV.
+<lb ed="#L" n="2"/>Utrum sacerdos curatus. possit. dare licentiam ut parochianus
+<lb ed="#L" n="3"/>defunctus, qui extra parochiam suam, non elegit
+<lb ed="#L" n="4"/>sepulturam, in loco religioso extra suam parochiam sepeliatur.
+</p>
+            <p xml:id="v27ab7-d1e478-d1e117">
+               <lb ed="#L" n="5"/>Postea circa secundum praedictorum, scilicet circa! pertinentia ad
+<lb ed="#L" n="6"/>sacerdotes curatos quaerebatur unum, scilicet utrum sacerdos curatus
+<lb ed="#L" n="7"/>possit dare licentiam ut parochianus defunctus, qui extra parochiam
+<lb ed="#L" n="8"/>suam non elegit sepulturam, in loco religioso extra su | am parochiam  
+<lb ed="#L" n="9"/>sepeliatur. Et arguebatur quod sacerdos parochialis possit dare licen- 
+<lb ed="#L" n="10"/>tiam ut subditus defunctus qui extra parochiam non elegit sepulturam
+<lb ed="#L" n="11"/>alibi sepeliatur, quia ad hoc habet sacerdos curam subditorum ut eorum
+<lb ed="#L" n="12"/>salutem quanto melius potest procuret. Sed sacerdos dans licentiam ut
+<lb ed="#L" n="13"/>talis. subditus sepeliatur in loco religioso melius procurat salutem
+<lb ed="#L" n="14"/>ipsius quam si ipsum sepeliret in sua parochia. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e478-d1e141">
+               <lb ed="#L" n="15"/>Contra. Illud quod de iure debitum est ecclesiae parochiali non est
+<lb ed="#L" n="16"/>licitum sacerdoti alienare vel alteri donare. Sed talis de iure, debet in
+<lb ed="#L" n="17"/>sua parochia sepeliri. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e478-d1e151">
+               <lb ed="#L" n="18"/>Respondeo dicendum... In libro magistri.
+</p>
+            <!-- quodlibet 3 ? -->
+         </div>
+      </body>
+   </text>
+</TEI>

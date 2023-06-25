@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="24"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e156"><!-- v27ab7-q1q10 -->
+            <head xml:id="v27ab7-d1e156-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-d1e156-Hd1e101" type="question-title">
+      Utrum unus amicorum debeat alteri amico velle maxima bona
+    </head>
+            <p xml:id="v27ab7-d1e156-d1e104">
+               <pb ed="#L" n="24"/>
+               <lb ed="#L" n="1"/>QUAESTIO X.
+<lb ed="#L" n="2"/>Utrum unus amicorum debeat alteri. amico velle maxima bona.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e113">
+               <lb ed="#L" n="3"/>Postea quaerebatur circa pertinentia ad actum voluntatis, et primo
+<lb ed="#L" n="4"/>circa actus virtuosos, primo utrum unus amicorum debeat alteri amico
+<lb ed="#L" n="5"/>velle maxima bona. Et arguitur quod sic, quia secundum Philosophum 
+<lb ed="#L" n="6"/>in nono Ethicorum, amicus se habet ad amicum sicut ad seipsum, quia
+<lb ed="#L" n="7"/>amicum reputat quasi ' se alterum, et etiam  in eodem nono dicit 
+<lb ed="#L" n="8"/>quod amicabilia quae ad amicos, id est amicitiae opera quibus aliquis
+<lb ed="#L" n="9"/>utitur ad amicos, videntur processisse ex his quae sunt hominis ad
+<lb ed="#L" n="10"/>seipsum. Sed unusquisque vult sibi maxima bona . Ergo etiam illa debet
+<lb ed="#L" n="11"/>velle amico.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e135">
+               <lb ed="#L" n="12"/>Contra. Secundum Philosophum  octavo Ethicorum ubi quaerit
+<lb ed="#L" n="13"/>hanc quaestionem, dicit quod cum amicus vult amico bona illius gratia,
+<lb ed="#L" n="14"/>manere oportet qualiscumque est ille, id est oportet supponere quod
+<lb ed="#L" n="15"/>habitis illis bonis ille ipse remanet qualiscumque est. Sed si alter 
+ami<lb break="no" ed="#L" n="16"/>corum consequatur maxima bona, non manet qualis  prius, quia non
+<lb ed="#L" n="17"/>manet amicus, sed dissolvitur amicitia propter non convivere. Quare et
+<lb ed="#L" n="18"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e154">
+               <lb ed="#L" n="19"/>Respondeo. Dicendum est quod secundum Philosophum  in octavo
+<lb ed="#L" n="20"/>et nono Ethicorum, amicitia proprie dicta non potest esse inter multum
+<lb ed="#L" n="21"/>inaequales, eo quod secundum ipsum amicitia et generatur et 
+conser<lb break="no" ed="#L" n="22"/>vatur ex mutua communicatione, et ad invicem conversatione amicorum,
+<lb ed="#L" n="23"/>quantum ad ea in quibus communiter delectantur secundum virtutem et
+<pb ed="#L" n="25"/>
+               <lb ed="#L" n="1"/>honestatem, quod non posset fieri inter multum distantes. Unde dicit  :
+<lb ed="#L" n="2"/>si multa fiat distantia virtutis vel malitiae vel alicuius alterius, non
+<lb ed="#L" n="3"/>adhuc sunt amici, quia nec dignum reputatur quod aliquis habeat 
+amici<lb break="no" ed="#L" n="4"/>tiam cum eo qui multum est inferior ipso ; reges enim non dignificant
+<lb ed="#L" n="5"/>his esse amici qui multum defectiores et cetera. Propter quod non
+<lb ed="#L" n="6"/>potest inter multum distantes talis amicitia cum actibus ad ipsam
+<lb ed="#L" n="7"/>pertinentibus qui sunt delectabiles et perfecti conservari ; et ideo amicus
+[amicum] in quantum amicus est et sic sub ratione amicitiae proprie
+<lb ed="#L" n="8"/>dictae, non potest velle amico maxima bona, nisi ! etiam sequatur eum
+<lb ed="#L" n="9"/>velle amico carere quod est magnum bonum. Inde est quod amicus
+<lb ed="#L" n="10"/>secundum quod huiusmodi, id est secundum quod per se diligens amicum
+<lb ed="#L" n="11"/>ut sibi coaequalem, immo quodammodo unum, et propter bonum 
+ami<lb break="no" ed="#L" n="12"/>citiae propriissime dictae, non debet velle maxima bona amico. Et haec
+<lb ed="#L" n="13"/>videtur esse determinatio Philosophi  octavo Ethicorum, ubi dicit quod
+<lb ed="#L" n="14"/>amicus, forte autem non prae omnibus, vult amico bona: sibi ipsi enim
+<lb ed="#L" n="15"/>maxime vult unusquisque  bona. Et ex ? hoc potest inferri quod amicus
+<lb ed="#L" n="16"/>non debet velle amico bona per quae perdat amicum quod est magnum
+<lb ed="#L" n="17"/>bonum.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e206">
+               <lb ed="#L" n="18"/>Sed quia, ut ibi determinat , praeter hunc modum amicitiae 
+pro<lb break="no" ed="#L" n="19"/>priae  sunt aliae amicitiae species, quae secundum superabundantiam
+<lb ed="#L" n="20"/>sunt, puta patri ad fi | lium, viro ad uxorem et imperanti ad imperatum
+<lb ed="#L" n="21"/>et huiusmodi, in quibus secundum gradus diversos magis et minus 
+rece<lb break="no" ed="#L" n="22"/>ditur ab huiusmodi amicitia propria, in quantum in illis maior vel minor
+<lb ed="#L" n="23"/>excessus inter amantes invenitur, — non receditur tamen a bono virtutis
+<lb ed="#L" n="24"/>simpliciter qua unusquisque sic disponitur ut omnes diligat secundum
+<lb ed="#L" n="25"/>suam  dignitatem, et huiusmodi dilectio vel amatio est secundum 
+ami<lb break="no" ed="#L" n="26"/>citiam aliquam licet non secundum praedictam, et secundum hanc 
+amici<lb break="no" ed="#L" n="27"/>tiam | communem etiam impares amici dici possunt amantes se;
+<lb ed="#L" n="28"/>isto modo dicendum quod sibi invicem possunt et debent velle maxima
+<lb ed="#L" n="29"/>bona, secundum dignitatem tamen personae dilectae, quam diligens debet
+<lb ed="#L" n="30"/>velle esse optimam et maximis bonis dignam et maxima bona habere in
+<pb ed="#L" n="26"/>
+               <lb ed="#L" n="1"/>ordine tamen ad bonum commune et ad Dei gloriam et honorem. Haec
+<lb ed="#L" n="2"/>autem praecipue pertinent ' ad amicitiam caritatis.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e243">
+               <lb ed="#L" n="3"/>Immo videtur esse dicendum quod sicut amicus, non tamen amicitia
+<lb ed="#L" n="4"/>proprie dicta, seipsum propter excessum amoris quem habet ad seipsum
+<lb ed="#L" n="5"/>prae omnibus vult sibi maxima bona, ita etiam cum post  seipsum
+<lb ed="#L" n="6"/>maxime diligat amicum secundum amicitiam proprie dictam, quia diligit
+<lb ed="#L" n="7"/>illum ? quasi alium se, illi prae omnibus aliis a se ipso, ceteris paribus,
+<lb ed="#L" n="8"/>vult maxima bona, in quantum vehementius diligit ipsum duplici genere
+<lb ed="#L" n="9"/>amicitiae, scilicet proprie dictae qua illum solum vel cum paucis aliis
+<lb ed="#L" n="10"/>diligit, et communiter dictae per quam omnes generaliter diligit; et
+<lb ed="#L" n="11"/>inconveniens videtur quod aliquis omnibus consideratis extraneis velit
+<lb ed="#L" n="12"/>maiora bona quam amicis secundum amicitiam proprie dictam, prout
+<lb ed="#L" n="13"/>tangitur in argumento primo inducto.
+</p>
+            <p xml:id="v27ab7-d1e156-d1e269">
+               <lb ed="#L" n="14"/>Ad evidentiam autem solutionis secundi argumenti est intelligendum
+<lb ed="#L" n="15"/>quod, secundum Philosophum  et Commentatorem  in nono 
+Ethi<lb break="no" ed="#L" n="16"/>corum, non obstante quod virtuosus velit  sibi maxima bona, tamen
+<lb ed="#L" n="17"/>propter perfectum actum virtutis sustinet mortem, cum expedit propter
+<lb ed="#L" n="18"/>maius bonum, licet sciat se ex hoc privari vita qua posset etiam vivere
+<lb ed="#L" n="19"/>virtuose, licet non ita perfecta virtute. Et sic, licet ut homo et diligat
+<lb ed="#L" n="20"/>naturali dilectione vitam naturalem e£" non possit velle mori et amittere
+<lb ed="#L" n="21"/>bonum vitae naturalis, tamen ut homo virtuosus potest: ita etiam, licet
+<lb ed="#L" n="22"/>amicus propria amicitia, in quantum.talis habendo respectum ad bonum
+<lb ed="#L" n="23"/>amicitiae proprie dictae quam ? vult conservari non velit nec velle debeat
+<lb ed="#L" n="24"/>amico maxima bona, tamen in quantum amans bonum simpliciter et 
+abso<lb break="no" ed="#L" n="25"/>lute, et in quantum amans bonum perfectum commune, et propter 
+perfec<lb break="no" ed="#L" n="26"/>tiorem actum perfectioris virtutis quem exerceret in volendo et, quantum
+<lb ed="#L" n="27"/>in se est, efficiendo quod amicus haberet maxima bona, non obstante
+<lb ed="#L" n="28"/>quod ex illo sequeretur quod amitteret amicum et usum virtutis amicitiae
+<pb ed="#L" n="27"/>
+               <lb ed="#L" n="1"/>proprie dictae ; — nihilominus hoc velle deberet. Hoc enim in pluribus
+<lb ed="#L" n="2"/>contingit quod propter bonum virtutis perfectioris omittuntur actus et
+<lb ed="#L" n="3"/>bonum minus perfectae. Per praedicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

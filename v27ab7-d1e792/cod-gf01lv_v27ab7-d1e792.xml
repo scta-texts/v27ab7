@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="265"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e792"><!-- v27ab7-q4q11 -->
+            <head xml:id="v27ab7-d1e792-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-d1e792-Hd1e101" type="question-title">
+      Utrum illud quod per se est malum possit aliquo modo fieri bonum
+    </head>
+            <p xml:id="v27ab7-d1e792-d1e104">
+               <lb ed="#L" n="26"/>QUAESTIO XI
+<lb ed="#L" n="27"/>(LONGA)
+<lb ed="#L" n="28"/>Utrum illud quod per se est malum possit aliquo
+<lb ed="#L" n="29"/>modo fieri bonum.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e115">
+               <lb ed="#L" n="30"/>Post hoc vero quaerebatur aliud pertinens ad operationem boni,
+<lb ed="#L" n="31"/>scilicet utrum illud quod per se vel secundum se est malum et illicitum
+<pb ed="#L" n="266"/>
+               <lb ed="#L" n="1"/>possit aliquo modo fieri bonum et licitum. Et arguebatur quod sic, quia
+<lb ed="#L" n="2"/>habere plura beneficia simul ab eodem est malum et illicitum per se vel
+<lb ed="#L" n="3"/>secundum se, et tamen per dispensationem potest esse bonum et licitum.
+<lb ed="#L" n="4"/>Quare et cetera. Antecedens probatur. Nam beneficia dantur propter
+<lb ed="#L" n="5"/>officia vel servitia. De iure ergo naturali est ut deservienti et officium
+<lb ed="#L" n="6"/>facienti detur beneficium vel stipendium et non deservienti non detur.
+<lb ed="#L" n="7"/>Ergo malum est secundum se recipere beneficium ratione cuius non fit
+<lb ed="#L" n="8"/>officium et servitium. Sed hoc contingit cum quis habet plura beneficia.
+<lb ed="#L" n="9"/>Nam simul plura deservire non potest. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e144">
+               <lb ed="#L" n="10"/>Contra. Quando aliquid est aliquale secundum se vel per se,
+<lb ed="#L" n="11"/>oppositum nullo modo potest ei inesse. Ergo illud quod per se et
+<lb ed="#L" n="12"/>secundum se est malum nullo modo potest esse vel fieri bonum, non
+<lb ed="#L" n="13"/>ergo dispensatum.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e156">
+               <lb ed="#L" n="14"/>Respondeo dicendum quod quaecumque sunt bona vel mala secundum
+<lb ed="#L" n="15"/>se, id est iusta vel iniusta loquendo generaliter in genere moris, sunt
+<lb ed="#L" n="16"/>talia quod secundum se sunt de iure naturali vel divino, et convenientia
+<lb ed="#L" n="17"/>rectae rationi vel contra haec. Sed in his sunt gradus: quaedam enim
+<lb ed="#L" n="18"/>sic sunt bona secundum se quod ex natura sua sunt determinata ad
+<lb ed="#L" n="19"/>bonum, ita quod nullo modo possunt esse mala nisi multum per accidens,
+<lb ed="#L" n="20"/>sicut honorare parentes, et e contra est in malis. Haec autem sunt quae
+<lb ed="#L" n="21"/>dicuntur esse bona et iusta vel mala et iniusta simpliciter de iure
+<lb ed="#L" n="22"/>naturae, et de istis dantur praecepta moralia decalogi quae dicuntur
+<lb ed="#L" n="23"/>praecepta iuris naturelis, de quibus dicitur a7 Aomanos' secundo: gentes
+<lb ed="#L" n="24"/>quae legem non habent naturaliter ea quae legis sunt faciunt. Haec
+<lb ed="#L" n="25"/>enim est scripta in cordibus hominum secundum naturalem aptitudinem
+<lb ed="#L" n="26"/>ad faciliter apprehendendum, sicut contingit in principiis speculabilium,
+<lb ed="#L" n="27"/>et etiam in talibus non cadit dispensatio quantum ad rationem iustitiae
+<lb ed="#L" n="28"/>quam continent. Nam praecepta primae tabulae quae ordinant ad Deum
+<lb ed="#L" n="29"/>continent ipsum ordinem ad bonum commune et finale quod est Deus.
+<lb ed="#L" n="30"/>Praecepta autem secundae tabulae continent ipsum ordinem iustitiae
+<lb ed="#L" n="31"/>inter homines observandae, ut scilicet nulli fiat indebitum et cuilibet
+<lb ed="#L" n="32"/>reddatur debitum. Et de talibus dicit Bernardus  in epistula ad Adam
+<lb ed="#L" n="33"/>monachum: quaedam sunt pura bona, quaedam pura mala, et etiam in
+<pb ed="#L" n="267"/>
+               <lb ed="#L" n="1"/>his nullam debere fieri hominibus oboedientiam, quoniam nec illa
+<lb ed="#L" n="2"/>omittenda sunt etiam cum prohibentur, nec ista cum iubentur 
+commit<lb break="no" ed="#L" n="3"/>tenda. De talibus etiam dicit Philosophus, secundo Ethicorum: quaedam
+<lb ed="#L" n="4"/>confestim nominata convoluta sunt cum malitia, adulterium, furtum et
+<lb ed="#L" n="5"/>cetera. Haec enim et omnia talia secundum se ipsa mala sunt, sed non
+<lb ed="#L" n="6"/>superabundantiae ipsorum neque defectus quare neque medietas. Non
+<lb ed="#L" n="7"/>ergo est circa hoc dirigere, sed semper peccare, neque est bene vel non
+<lb ed="#L" n="8"/>bene circa talia in eo quod oportet, quando et quomodo; sed simpliciter
+<lb ed="#L" n="9"/>facere quodcumque horum peccatum est.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e224">
+               <lb ed="#L" n="10"/>Quomodo autem se debet habere aliquis, vel «uid faciendum vel
+<lb ed="#L" n="11"/>fieri possit quantum ad horum determinationem, nihil ad praesens. Hoc
+<lb ed="#L" n="12"/>tamen in universali dici potest quod quantum ad aliquam 
+determina<lb break="no" ed="#L" n="13"/>tionem horum per applicationem ad singulos actus, ut scilicet hoc vel
+<lb ed="#L" n="14"/>illud sit homicidium vel furtum vel rapina vel adulterium aut non, haec
+<lb ed="#L" n="15"/>sunt mutabilia aliquando sola auctoritate divina, ut habere plures uxores
+<lb ed="#L" n="16"/>vel huiusmodi, aliquando et ab homine, ut cum propter delictum personae
+<lb ed="#L" n="17"/>non solum meretur puniri in corpore ut occidatur in quantum maleficus
+<lb ed="#L" n="18"/>tali vel tali maleficio, sed etiam in bonis ut ei absque peccato rapinae
+<lb ed="#L" n="19"/>auferantur sua quae heredes habere deberent et cetera, vel quod mutuum
+<lb ed="#L" n="20"/>proditori patriae non reddatur et cetera. Si enim alicui auferatur quod
+<lb ed="#L" n="21"/>suum erat, si debitum erat quod illud amitteret, non est furtum vei
+<lb ed="#L" n="22"/>rapina quae praecepto deca!logi prohibentur. Unde cum filiis Israel
+<lb ed="#L" n="23"/>praecepto Dei Aegyptiorum tulerunt spolia, non fuit furtum, quia hoc eis -
+<lb ed="#L" n="24"/>debebatur ex sententia divina.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e259">
+               <lb ed="#L" n="25"/>Quaedam autem sunt bona vel mala secundum se, in quantum ex
+<lb ed="#L" n="26"/>istis. quasi primis principiis et regmulis iuris naturalis derivantur vel eis
+<lb ed="#L" n="27"/>repugnant, et in tantum sunt mala vel bona in quantum eis conveniunt
+<lb ed="#L" n="28"/>vel repugnant, et de talibus constituuntur leges humanae et praecepta
+<lb ed="#L" n="29"/>tam affirmativa quam negativa quae dicuntur iura communia, et dicuntur
+<lb ed="#L" n="30"/>positiva in quantum ab homine secundum rectam rationem, non quidem
+<lb ed="#L" n="31"/>ut conclusiones quae necessario ex principiis tantum uno modo
+<lb ed="#L" n="32"/>deducuntur, sed ut quaedam determinationes communium praeceptorum
+<lb ed="#L" n="33"/>quae secundum diversitatem hominum et temporum et negotiorum
+<pb ed="#L" n="268"/>
+               <lb ed="#L" n="1"/>diversimode expedit vel non expedit determinari. Et ponitur exemplum :
+<lb ed="#L" n="2"/>de iure naturali est quod qui peccat puniatur. Ouod autem sic vel sic,
+<lb ed="#L" n="3"/>est quaedam determinatio legis naturae quae debet fieri secundum
+<lb ed="#L" n="4"/>rectum iudicium rationis, in quantum magis proportionatur praecepto
+<lb ed="#L" n="5"/>iuris naturalis quod per ipsum determinatur. Et de talibus, ut dictum
+<lb ed="#L" n="6"/>est, dantur lepes communes sive iura communia, quae in tantum sunt
+<lb ed="#L" n="7"/>iustae in quantum sunt rectae secundum regulam rationis, cuius prima
+<lb ed="#L" n="8"/>lex in agibilibus est lex naturae. Propter quod omnis lex humana in
+<lb ed="#L" n="9"/>tantum est recta et iusta in quantum a lege naturae derivatur. Quod
+<lb ed="#L" n="10"/>autem a lege naturali discordat est legis corruptela. Sed talia quae ut
+<lb ed="#L" n="11"/>quaedam determinationes,non ut conclusiones necessario ex ipsis deductae
+<lb ed="#L" n="12"/>se habent respectu praeceptorum legis naturalis dicto modo, non habent
+<lb ed="#L" n="13"/>omnimodam necessitatem et immutabilitatem. Sunt tamen talia quae ut
+<lb ed="#L" n="14"/>in pluribus sunt conferentia ad bonum commune propter quod 
+consti<lb break="no" ed="#L" n="15"/>tuuntur. Unde dicit iuris peritus  quod iura constitui oportet in his
+<lb ed="#L" n="16"/>quae saepius accidunt. Ex his autem quae raro accidere possunt, iura
+<lb ed="#L" n="17"/>non constituuntur.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e320">
+               <lb ed="#L" n="18"/>Quia autem in pluribus, non necessario in omnibus sunt conferentia,
+<lb ed="#L" n="19"/>ideo possunt contingere aliqui casus in quibus id quod iusta lege
+<lb ed="#L" n="20"/>constitutum est in communi, non expedit ab aliquibus singulis personis
+<lb ed="#L" n="21"/>et in aliquo tempore observari. Et ideo talia non sic sunt bona secundum
+<lb ed="#L" n="22"/>se quin in casu possint esse mala vel minus bona. Et ideo in talibus
+<lb ed="#L" n="23"/>cadit dispensatio quae habet fieri ab illo qui habet multitudinem regere,
+<lb ed="#L" n="24"/>propter quam talia sunt statuta. Et secundum hoc quod secundum se est
+<lb ed="#L" n="25"/>bonum, potest in aliquo casu esse malum, et quod secundum se est
+<lb ed="#L" n="26"/>malum potest esse in casu bonum. Contrarium enim eius quod lege vel
+<lb ed="#L" n="27"/>iure communi est statutum secundum se est malum, sicut quod hoc iure
+<lb ed="#L" n="28"/>statutum est, bonum est. Tamen in casu dicto modo est bonum, sed
+<lb ed="#L" n="29"/>super illo debet fieri dispensatio ad hoc quod illud aliquis licite faciat
+<lb ed="#L" n="30"/>et sit el bonum. Alioquin si aliquis auctoritate propria contra illud quod
+<lb ed="#L" n="31"/>lege communi est statutum hoc faceret, peccaret. Dispensatio enim
+<lb ed="#L" n="32"/>importat commensurationem alicuius communis ad singularia. Et sic in
+<lb ed="#L" n="33"/>quacumque multitudine ex eo aliquis dicitur dispensare quod ordinat
+<lb ed="#L" n="34"/>qualiter aliquod commune praeceptum sit a singulis implendum. Quando
+<pb ed="#L" n="269"/>
+               <lb ed="#L" n="1"/>ergo praeceptum accommodatum multitudini ut in pluribus, non est
+<lb ed="#L" n="2"/>conveniens huic personae vel in hoc casu, quia vel per hoc impeditur
+<lb ed="#L" n="3"/>aliquid melius vel etiam induceretur aliquod malum, habet locum
+<lb ed="#L" n="4"/>dispensatio.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e370">
+               <lb ed="#L" n="5"/>Non expediret autem quod hoc iudicio et potestati uniuscuiusque
+<lb ed="#L" n="6"/>relinqueretur. Et ideo qui praeest multitudini habet dispensare in lege
+<lb ed="#L" n="7"/>humana quae suae auctoritati innititur, ut scilicet in personis vel casibus
+<lb ed="#L" n="8"/>in quibus lex deficit dirigat, et licentiam tribuat ut praeceptum legis non
+<lb ed="#L" n="9"/>servetur. Sj autem absque ratione pro sola voluntate licentiam tribuat,
+<lb ed="#L" n="10"/>non erit fidelis dispensator, sed crudelis dissipator. Cum enim leges et
+<lb ed="#L" n="11"/>iura communia constituantur propter bonum commune, quando cum
+<lb ed="#L" n="12"/>aliquo dispensatur ut legem communem non servet, non debet fieri in
+<lb ed="#L" n="13"/>praeiudicium iuris communis, sed ut ad bonum commune profi | ciat.
+<lb ed="#L" n="14"/>Alioquin dispensatio non valet, quia in talibus quae dicto modo sunt
+<lb ed="#L" n="15"/>mala secundum se, et non solum quia prohibita ideo prohibentur, [quia]
+<lb ed="#L" n="16"/>mala dispensatio proprie non facit de malo bonum ex parte rei circa
+<lb ed="#L" n="17"/>quam fit dispensatio, sed solum ex parte legis vel statuti, prohibitionem
+<lb ed="#L" n="18"/>in quantum est ab homine auferendo et non rationem prohibitionis quae
+<lb ed="#L" n="19"/>est naturalis sive secundum rectam rationem ex parte rei immutando,
+<lb ed="#L" n="20"/>sed determinat in quo casu lex deficit, et in quo non intendebat legislator
+<lb ed="#L" n="21"/>ligare. Ouod quidem cum ex parte rei est bonum, licite fieret 
+aucto<lb break="no" ed="#L" n="22"/>ritate singularis personae, si prohibitio legis vel superioris non
+<lb ed="#L" n="23"/>obstaret.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e414">
+               <lb ed="#L" n="24"/>Quaedam autem sunt talia quod secundum se non sunt bona vel
+<lb ed="#L" n="25"/>mala dictis modis, sed sunt simpliciter indifferentia. Quantum est ex
+<lb ed="#L" n="26"/>natura rei, possunt tamen esse bona vel mala per accidens sive per aliud
+<lb ed="#L" n="27"/>in ordine ad aliud. Et super istis etiam sunt quaedam statuta legalia,
+<lb ed="#L" n="28"/>cuius est quod feria sexta a carnibus abstineatur in reverentia Christi
+<lb ed="#L" n="29"/>illo die patientis, qualia etiam erant plura caerimonialia in lege. Et cum
+<lb ed="#L" n="30"/>talia cadunt sub praecepto legis, potest fieri sic dispensatio, quod illud
+<lb ed="#L" n="31"/>quod esset malum vel illicitum sine dispensatione propter legis 
+prohi<lb break="no" ed="#L" n="32"/>bitionem, fit bonum sive non malum vel licitum per solam dispensationem
+<lb ed="#L" n="33"/>dictam prohibitionem amoveatem, eo quod secundum se est indifferens,
+<lb ed="#L" n="34"/>nec esset malum prohibitione stante nisi ratione prohibitionis.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e441">
+               <lb ed="#L" n="35"/>Sunt ergo in universo quaedam bona vel mala secundum se, quia
+<lb ed="#L" n="36"/>ex natura sua omnino sunt determinata ad rectitudinem vel obliquitatem,
+<lb ed="#L" n="37"/>ut non occidere innocentem, honorare patrem et cetera, debitis 
+circum<lb break="no" ed="#L" n="38"/>stantiis adhibitis. Quaedam autem sunt bona vel mala solum quia
+<lb ed="#L" n="39"/>ordinata auctoritate superioris vel prohibita, et in istis est ordo quia
+<pb ed="#L" n="270"/>
+               <lb ed="#L" n="1"/>quaedam etiam constituta sunt a Christo et a primitiva Ecclesia,
+<lb ed="#L" n="2"/>quaedam autem ab apostolis et successoribus eorum et cetera. Pro
+<lb ed="#L" n="3"/>quanto autem circa talia potest fieri dispensatio, scilicet in. quantum
+<lb ed="#L" n="4"/>in casu possunt esse bona quae mala sunt secundum se, potest dici
+<lb ed="#L" n="5"/>quod illud quod secundum se est malum, potest ex dispensatione esse
+<lb ed="#L" n="6"/>bonum, non quidem aliquid unum et idem numero et secundum idem,
+<lb ed="#L" n="7"/>sed sic quod illud quod in generalitate sua est malum, pro aliquo
+<lb ed="#L" n="8"/>casu potest esse bonum, et hunc casum determinat superior 
+dis<lb break="no" ed="#L" n="9"/>pensando.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e476">
+               <lb ed="#L" n="10"/>Circa bona ergo vel. mala ecclesiastica pro quibus principaliter
+<lb ed="#L" n="11"/>quantum ad beneficiorum distributionem quaestio proponebatur, est
+<lb ed="#L" n="12"/>intelligendum quod loquendo de bono et malo secundum se primo modo,
+<lb ed="#L" n="13"/>bonum est secundum se quod hierarchia ecclesiastica sit convenienter
+<lb ed="#L" n="14"/>ordinata et malum est secundum se contrarium. Ad hoc autem quod
+<lb ed="#L" n="15"/>haec sit ordinata sic, videtur pertinere tanquam bonum secundum se
+<lb ed="#L" n="16"/>secundo modo ordo et distinctio graduum ecclesiasticorum et 
+per<lb break="no" ed="#L" n="17"/>sonarum, et praecipue a Christo et sanctis patribus institutus ad modum
+<lb ed="#L" n="18"/>caelestis hierarchiae ut superiores teneant gradum suum respectu
+<lb ed="#L" n="19"/>inferiorum et supremorum, et inferiores respectu superiorum, et supremus
+<lb ed="#L" n="20"/>respectu omnium, de quo Bernardus , libro secundo ad Eugenium :
+<lb ed="#L" n="21"/>sicut in caelo omnes angeli secundum gradum ordinati sunt sub uno
+<lb ed="#L" n="22"/>capite Deo, ita hic sub uno summo pontifice primates vel patriarchae,
+<lb ed="#L" n="23"/>archiepiscopi, episcopi, presbyteri vel abbates et ceteri, in hunc modum
+<lb ed="#L" n="24"/>quod si dicat episcopus: nolo esse sub archiepiscopo, aut abbas: nolo
+<lb ed="#L" n="25"/>oboedire episcopo, aut quicumque vilis et humilis religiosus : nolo oboedire
+<lb ed="#L" n="26"/>nec episcopo nec archiepiscopo, sed ei in facie resistere, hoc de caelo
+<lb ed="#L" n="27"/>non est, nisi tu forte angelorum quempiam dicentem audisti: ;zlo ! sub
+<pb ed="#L" n="271"/>
+               <lb ed="#L" n="1"/>archangelis esse. Nullus enim dubitat quin iste ordo secundum se 
+grene<lb break="no" ed="#L" n="2"/>raliter et ut in pluribus sit quid bonum et observandum. Ergo contrarium
+<lb ed="#L" n="3"/>secundum s? est malum, quia quantumcumque aliquid in sua communitate
+<lb ed="#L" n="4"/>sive regulariter et ut in. pluribus est tale, dicitur secundum se esse tale.
+<lb ed="#L" n="5"/>Unde omnia de quibus sunt iura communia humana sive regulae et 
+prae<lb break="no" ed="#L" n="6"/>cepta iuris sunt talia, quod secundum se sunt bona et contraria mala,
+<lb ed="#L" n="7"/>et tamen in hoc cadit dispensatio. Unde subdit Bernardus : quid,
+<lb ed="#L" n="8"/>inquis, pro | Zubes dispensare? Non, sed dissipare; misi ubi necessitas
+<lb ed="#L" n="9"/>urget, ex causa est dispensatio vel ubi utilitas provocat non propria sed
+<lb ed="#L" n="10"/>communis laudabilis. Sed quia illud est de his quae quantum ad regimen
+<lb ed="#L" n="11"/>Zcclesiae sunt magis secundum se bona et a Christo dicto modo instituta,
+<lb ed="#L" n="12"/>magis debet esse difficilis et rara dispensatio, quia fructus talis 
+dispen<lb break="no" ed="#L" n="13"/>sationis rarus videtur. Unde dicit ibidem : nolo praetendas mihi
+<lb ed="#L" n="14"/>fructum emancipationis. Nullus est enim nisi quod mihi episcopi 
+insolen<lb break="no" ed="#L" n="15"/>tiores, monachi dissolutiores sunt. Unde sicut in caelo nunquam fiunt
+<lb ed="#L" n="16"/>tales exceptiones quia semper inferiores convenienter se habent ad
+<lb ed="#L" n="17"/>medios et medii ad superiores, ita quamdiu sic ordinati in Ecclesia se
+<lb ed="#L" n="18"/>habent convenienter, non debet fieri talis exceptio et ut convenienter
+<lb ed="#L" n="19"/>se habeant debet studeri potius quam debeant eximi. Bonum etiam
+<lb ed="#L" n="20"/>secundum se est quia hoc requirit ordo ecclesiasticae hierarchiae quod ,
+<lb ed="#L" n="21"/>personae ecclesiasticae sunt distinctae et convenienter multiplicatae. Et
+<lb ed="#L" n="22"/>ad hoc constituta sunt diversa et distincta beneficia ut diversae et
+<lb ed="#L" n="23"/>distinctae personae in ,diversis locis Deo serviant, et officium 
+ecclesia<lb break="no" ed="#L" n="24"/>sticum ad honorem Dei et utilitatem Ecclesiae exerceant[ur], et quod una
+<lb ed="#L" n="25"/>persona diversis beneficiis et ecclesiis non deputetar. Gregorius, ocfogesina
+<lb ed="#L" n="26"/>nona distinctione, capitulo : singula ecclesiastici iuris officia singulis
+<lb ed="#L" n="27"/>quibuscumque personis singillatim connecti iubemus. Sicut enim in uno
+<lb ed="#L" n="28"/>corpore multa membra habemus, omnia autem membra non eundem actum
+<lb ed="#L" n="29"/>habent, ita in Ecclesiae corpore conferendum est hoc officium uni, alii
+<lb ed="#L" n="30"/>autem est committendum 7//u4, neque uni personae duarum rerum officia
+<lb ed="#L" n="31"/>committenda sunt. Sicut enim varietas membrorum per diversa officia
+<lb ed="#L" n="32"/>et robur corporis servat et pulchritudinem repraesentat, ita varietas
+<lb ed="#L" n="33"/>personarum per diversa officia distributa et fortitadinem et venustatem
+<lb ed="#L" n="34"/>sanctae Ecclesiae Dei manifestat. Et. sicut indecorum est ut in corpore
+<pb ed="#L" n="272"/>
+               <lb ed="#L" n="1"/>alterum membrum alterius fungatur officio, ita noxium turpissimumque
+<lb ed="#L" n="2"/>est si singula rerum ministeria personis /£ofidem ? non fuerunt
+<lb ed="#L" n="3"/>distributa.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e602">
+               <lb ed="#L" n="4"/>Ecce statutum generale quo prohibentur haberi plura beneficia simul,
+<lb ed="#L" n="5"/>tanquam malum secundum se, quia rationi contrarium, ut patet per
+<lb ed="#L" n="6"/>rationes hic positas. Unde quod beneficia diversa diversis personis
+<lb ed="#L" n="7"/>conferantur et quod diversae personae diversa beneficia habeant, hoc
+<lb ed="#L" n="8"/>non est bonum quia praeceptum, nec quod una habeat plures est
+<lb ed="#L" n="9"/>malum quia prohibitum ; immo quia hoc est bonum secundum se dicto
+<lb ed="#L" n="10"/>modo et illud malum, et ideo hoc est praeceptum et illud prohibitum
+<lb ed="#L" n="11"/>per statuta et iura communia. Hoc quidem [enim] est de iure communi
+<lb ed="#L" n="12"/>quod unus non nisi unum habeat. lus autem commune non debet esse
+<lb ed="#L" n="13"/>nisi de eo quod secundum se ut in pluribus est bonum. Unde dicitur
+<lb ed="#L" n="14"/>Extra de clericis non residentibus, capitulo Quia multa : cum
+<lb ed="#L" n="15"/>ecclesiasticum ministerium committi debet, talis persona ad hoc quaeratur
+<lb ed="#L" n="16"/>quae residere in loco et curam elus per se ipsam valeat exercere.
+<lb ed="#L" n="17"/>Alias enim, ut dicitur capitulo Relatum , poterunt amoveri nisi forte ?
+<lb ed="#L" n="18"/>de licentia praelatorum suorum vel pro studio litterarum vel pro aliis
+<lb ed="#L" n="19"/>honestis causis conti[n]gerit  eos: abesse. Unde non solum habere plura
+<lb ed="#L" n="20"/>est secundum se malum, sed etiam abesse est secundum se malum, ut
+<lb ed="#L" n="21"/>residere et deservire est secundum se bonum; cadit tamen dispensatio in
+<lb ed="#L" n="22"/>utroque. Item de prohibitione generali habetur vigesima prima, quaestione
+<lb ed="#L" n="23"/>prima : in duabus ecclesiis aliquem posse connumerari septima synodus
+<lb ed="#L" n="24"/>prohibet. Negotiationis enim est hoc et turpissimum commodum. Ex quo
+<lb ed="#L" n="25"/>patet quod secundum se dicto modo est malum. Sed in casu potest esse
+<lb ed="#L" n="26"/>licitum et bonum, scilicet cum unum non sufficit (iam enim non sunt
+<lb ed="#L" n="27"/>plura ut plura), vel cum una est intitulata et alia commendata, vel cum
+<lb ed="#L" n="28"/>unum dependet ex altero, item propter penuriam clericorum, item ex
+<lb ed="#L" n="29"/>dispensatione. Et in praedictis casibus non est potestas papae 
+dispen<lb break="no" ed="#L" n="30"/>sandi reservata, sed quasi communi dispensatione sive praecepti generalis
+<lb ed="#L" n="31"/>quantum ad praedictos casus obligatione amota, potest hoc fieri quia
+<lb ed="#L" n="32"/>episcopus habens intitulatam ? potest aliam commendare.
+</p>
+            <p xml:id="v27ab7-d1e792-d1e667">
+               <lb ed="#L" n="33"/>Est ergo secundum se bonum quod diversis diversa beneficia
+<lb ed="#L" n="34"/>conferantur et maioribus maiora et meliora, et contrarium malum secun-
+<pb ed="#L" n="273"/>
+               <lb ed="#L" n="1"/>dum se, scilicet dare uni plura et minus bono maius. Sed cum una
+<lb ed="#L" n="2"/>mediocres, vel cum aliquis universali Ecclesiae plus potest proficere
+<lb ed="#L" n="3"/>nec habet redditus sufficientes, tunc. bonum est quod tali plura 
+con<lb break="no" ed="#L" n="4"/>ferantur beneficia et quod secum in hoc dispensetur. Unde Bernardus 
+<lb ed="#L" n="5"/>ad "Theobaldum comitem : honores et dignitates ecclesiasticae — his
+<lb ed="#L" n="6"/>debentur qui eas digne et secundum Deum administrare possint et
+<lb ed="#L" n="7"/>velint. Non cuiquam plures in pluribus ecclesiis habere licet nisi
+<lb ed="#L" n="8"/>dispensatione ob magnam vel ecclesiae necessitatem vel personae
+<lb ed="#L" n="9"/>utilitatem non propriam sed communem ecclesiae, ut dictum est. 
+Alio<lb break="no" ed="#L" n="10"/>ergo modo est malum habere plura beneficia et comedere carnes aliqua
+<lb ed="#L" n="11"/>die certa prohibita, et alia debet esse ratio dispensandi hinc inde.
+<lb ed="#L" n="12"/>Nam si papa amoveret statutum generale quo prohibentur plura beneficia
+<lb ed="#L" n="13"/>teneri simul, tamen nihilominus adhuc esset malum in eisdem casibus
+<lb ed="#L" n="14"/>in quibus nunc malum est. Sed nunc malum est et secundum se et
+<lb ed="#L" n="15"/>ratione prohibitionis; tunc autem solum secundum se. Sed si amoveretur
+<lb ed="#L" n="16"/>praeceptum quo prohibentur carnes aliqua certa die, simpliciter esset
+<lb ed="#L" n="17"/>licitum comedere. In primo ergo casu dispensatio non facit licitum, sed
+<lb ed="#L" n="18"/>in secundo casu facit. In una tamen ecclesia simul plura tenentur sine
+<lb ed="#L" n="19"/>nova vel speciali dispensatione ut praebenda et archidiaconatus et cetera
+<lb ed="#L" n="20"/>quae tamen alicubi distinguuntur, et aliquando in diversis ut praebenda
+<lb ed="#L" n="21"/>cum aliqua dignitate alterius ecclesiae antiquitus annexa. Sicut autem
+<lb ed="#L" n="22"/>licitum est. tenere simul praebenda» et archidiaconatum eiusdem
+<lb ed="#L" n="23"/>ecclesiae sine nova dispensatione, vel praebendam in una ecclesia
+<lb ed="#L" n="24"/>et praeposituram  in alia, ita etiam cum nova dispensatione possunt
+<lb ed="#L" n="25"/>haec coniungi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

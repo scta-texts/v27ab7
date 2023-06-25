@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="342"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f150"><!-- v27ab7-q4short-q15 -->
+            <head xml:id="v27ab7-d1f150-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-d1f150-Hd1e101" type="question-title">
+      Utrum illi quibus commissa est a domino papa potestas audiendi confessiones possint
+      absolvere a casibus retentis episcopis a iure vel consuetudine habita licentia a
+      sacerdotibus parochialibus
+    </head>
+            <p xml:id="v27ab7-d1f150-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO XV
+<lb ed="#L" n="6"/>(BREVIS).
+<lb ed="#L" n="7"/>Utrum illi quibus commissa est a domino papa potestas audiendi confessiones possint
+<lb ed="#L" n="8"/>absolvere a casibus retentis episcopis a iure vel consuetudine habita licentia a
+<lb ed="#L" n="9"/>sacerdotibus parochialibus .
+</p>
+            <p xml:id="v27ab7-d1f150-d1e117">
+               <lb ed="#L" n="10"/>Ad tertium sic proceditur, et arguitur quod tales possint absolvere a casibus
+<lb ed="#L" n="11"/>episcoporum, quia in hoc quod privilegio fratrum praedicatorum et minorum quod
+<lb ed="#L" n="12"/>habent sub praedicta: forma, excipiuntur soli casus papales, videntur omnes alii 
+con<lb break="no" ed="#L" n="13"/>cedi, et sic videntur concedi casus episcoporum.
+</p>
+            <p xml:id="v27ab7-d1f150-d1e128">
+               <lb ed="#L" n="14"/>In contrarium est quod praelati tales impediunt ne absolvant a casibus suis.
+</p>
+            <p xml:id="v27ab7-d1f150-d1e134">
+               <lb ed="#L" n="15"/>Respondeo. Sic est in privilegio : vobis concedimus auctoritate praesentium
+<lb ed="#L" n="16"/>ut fratrum ac familiarium virorum ac aliorum fidelium causa devotionis ad vos
+<lb ed="#L" n="17"/>recurrentium  de suorum licentia praelatorum confessiones audire ac eis pro |
+<lb ed="#L" n="18"/>commissis poenitentiam iniungere valeatis , nisi  forte ipsi talia commiserint propter
+<lb ed="#L" n="19"/>quae sedes apostolica sit merito consulenda. Dicendum ergo quod licet in simplici
+<lb ed="#L" n="20"/>commissione intelligantur excepti tam casus papae quam casus episcoporum, in
+<lb ed="#L" n="21"/>tali tamen commissione ubi expresse committitur totum exceptis casibus papalibus,
+<lb ed="#L" n="22"/>videntur concedi casus episcopales. Primo quia quod de uno negatur, de alio
+<lb ed="#L" n="23"/>videtur concedi ut habetur vigesima quinta distinctione, Qualis . Secundo quia
+<lb ed="#L" n="24"/>cum in commissione generali sine quacumque expressione intelligantur  casus
+<lb ed="#L" n="25"/>papales 5 excipi ut Extra, de officio legati , Quod translationem , de nullo serviret
+<lb ed="#L" n="26"/>illa exceptio si casus episcopales non intelligerentur concedi. Sed quia praelati
+<lb ed="#L" n="27"/>habent per licentiam concedere materiam istis cui applicent potestatem commissam
+<lb ed="#L" n="28"/>a domino papa, si praelati puta episcopi absolute dant licentiam nihil determinando,
+<lb ed="#L" n="29"/>tales possunt absolvere a casibus episcopalibus. Si autem sic dent licentiam: do
+<lb ed="#L" n="30"/>licentiam | subditis meis confitendi '' sic quod possint eos absolvere ab omnibus
+<lb ed="#L" n="31"/>exceptis casibus !' retentis episcopis, et si non acceptant hoc ex nunc licentia sit nulla,
+<lb ed="#L" n="32"/>— tunc si acceptant talem licentiam, non possunt absolvere a casibus episcopalibus ;
+<lb ed="#L" n="33"/>si autem non acceptant, a nullo possunt absolvere quia licentia annullatur. Sacerdotes
+<pb ed="#L" n="343"/>
+               <lb ed="#L" n="1"/>autem parochiales qui nihil possunt retinere, dando licentiam concedunt eis quantum
+<lb ed="#L" n="2"/>possunt.
+</p>
+            <p xml:id="v27ab7-d1f150-d1e184">
+               <lb ed="#L" n="3"/>Ex dictis potest patere ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

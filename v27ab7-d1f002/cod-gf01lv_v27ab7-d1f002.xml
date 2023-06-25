@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="306"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f002"><!-- v27ab7-q3short-q2 -->
+            <head xml:id="v27ab7-d1f002-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1f002-Hd1e101" type="question-title">
+      Utrum prius creetur essentia quam esse
+    </head>
+            <p xml:id="v27ab7-d1f002-d1e104">
+               <lb ed="#L" n="14"/>QUAESTIO II
+<lb ed="#L" n="15"/>(BREVIS)
+<lb ed="#L" n="16"/>Utrum prius creetur essentia quam esse .
+</p>
+            <p xml:id="v27ab7-d1f002-d1e113">
+               <lb ed="#L" n="17"/>Ad secundum sic proceditur et arguitur quod esse prius creetur quam essentia,
+<lb ed="#L" n="18"/>quia secundum beatum Dionysium , quinto de Divinis Nominibus, Deus incircumscripte
+<lb ed="#L" n="19"/>totum esse coambit? et omnia ipsum participant, et ibi: praemittit ipsum esse
+<lb ed="#L" n="20"/>omnibus aliis quae participantur, et sic videtur quod primo creetur. Item quarta 
+pro<lb break="no" ed="#L" n="21"/>positione de Causis dicitur quod prima rerum creatarum est esse. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f002-d1e126">
+               <lb ed="#L" n="22"/>Contra. In generatione compositi non prius generatur forma quam materia vel
+<lb ed="#L" n="23"/>e converso. Ergo a simili sic erit de esse et essentia.
+</p>
+            <p xml:id="v27ab7-d1f002-d1e134">
+               <lb ed="#L" n="24"/>Respondeo dicendum quod si essentia differret re ab esse et essentia esset ut
+<lb ed="#L" n="25"/>pura potentia et esse esset simpliciter  actus cum simul  duratione produceretur 
+<lb ed="#L" n="26"/>utrumque, tamen essentia praecederet ipsum esse origine et e converso esse praecederet
+<lb ed="#L" n="27"/>essentiam dignitate, sicut Augustinus  dicit  septimo Confessionum, quod materia
+<lb ed="#L" n="28"/>informis praecessit formam origine, sed forma praecessit materiam dignitate et 
+per<lb break="no" ed="#L" n="29"/>fectione licet secundum eum ?! ambo fuerint simul tempore facta '. Si autem essentia
+<lb ed="#L" n="30"/>ponatur ens actu simpliciter, ens tamen in potentia secundum quid et esse ponatur
+<lb ed="#L" n="31"/>actus secundum quid, tunc licet producantur simul tempore sive duratione, tamen
+<lb ed="#L" n="32"/>essentia origine et perfectione praecederet? esse. Sed quia, ut probatum est supra
+<pb ed="#L" n="307"/>
+               <lb ed="#L" n="1"/>esse et essentia non differunt re, ideo unum non creatur prius alio nec unum 
+prae<lb break="no" ed="#L" n="2"/>cedit aliud origine vel dignitate secundum rem.
+</p>
+            <p xml:id="v27ab7-d1f002-d1e163">
+               <lb ed="#L" n="3"/>Illud autem quod dicitur quinto de Divinis Nominibus et quarta propositione de
+<lb ed="#L" n="4"/>Causis potest intelligi et secundum ! platonicos et secundum ? peripateticos.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

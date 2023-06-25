@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="274"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e803"><!-- v27ab7-q4q12 -->
+            <head xml:id="v27ab7-d1e803-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-d1e803-Hd1e101" type="question-title">
+      Utrum statuto generalis concilii possit per consuetudinem contrariam derogari
+    </head>
+            <p xml:id="v27ab7-d1e803-d1e104">
+               <pb ed="#L" n="274"/>
+               <lb ed="#L" n="1"/>QUAESTIO XII
+<lb ed="#L" n="2"/>(LONGA).
+<lb ed="#L" n="3"/>Utrum statuto generalis concilii possit per. consuetudinem
+<lb ed="#L" n="4"/>contrariam derogari.
+</p>
+            <p xml:id="v27ab7-d1e803-d1e117">
+               <lb ed="#L" n="5"/>Deinde circa pertinentia ad personas supremas habentes supremam
+<lb ed="#L" n="6"/>potestatem in. Ecclesia, quaerebatur primo utrum scilicet statuto generalis
+<lb ed="#L" n="7"/>concilii possit per consuetudinem contrariam derogari. Et arguebatur
+<lb ed="#L" n="8"/>quod sic, quia statutum est in ultimo concilio generali Lugdunensi 
+<lb ed="#L" n="9"/>quod nullus recipiat beneficium cum cura animarum, nisi attigerit 
+vigre<lb break="no" ed="#L" n="10"/>simum quintum annum et nisi faciat se in sacerdotem promoveri infra
+<lb ed="#L" n="11"/>annum, et quod alienigenae usurarii expellantur, et est sententia lata
+<lb ed="#L" n="12"/>in terris praelatorum qui hoc non faciunt, et tamen per contrariam
+<lb ed="#L" n="13"/>consuetudinem hoc iam videtur abrogatum. Nam si adhuc ligaret
+<lb ed="#L" n="14"/>statutum, infiniti contrarium facientes essent in statu damnationis et
+<lb ed="#L" n="15"/>irregulares, et etiam praelati qui essent suspensi et interdicti 
+excom<lb break="no" ed="#L" n="16"/>municati absolvere non possent petentes et cetera, quod nullo modo
+<lb ed="#L" n="17"/>permitteret Ecclesia ut videtur. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e803-d1e148">
+               <lb ed="#L" n="18"/>Contra. Multitudo et diuturnitas peccatorum non excusat ab
+<lb ed="#L" n="19"/>inoboedientia et transgressione praecepti, immo magis auget huiusmodi
+<lb ed="#L" n="20"/>inoboedientiam et transgressionem. Quare per actus contrarios statuto et
+<lb ed="#L" n="21"/>praecepto Ecclesiae non derogatur.
+</p>
+            <p xml:id="v27ab7-d1e803-d1e160">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod cum statuta humana auctoritatem
+<lb ed="#L" n="23"/>habeant a ratione et voluntate ipsa ratione regulata legislatoris, et haec
+<lb ed="#L" n="24"/>non solum potest manifestari verbo vel scripto, sed etiam facto (hoc
+<lb ed="#L" n="25"/>enim unusquisque eligere videtur quod opere implet), — ideo per actus
+<lb ed="#L" n="26"/>multiplicatos qui consuetudinem faciunt, sciente et permittente illo cuius
+<lb ed="#L" n="27"/>auctoritate lex vel statutum habet vim obligandi, mutari potest statutum
+<lb ed="#L" n="28"/>et exponi, et etiam aliquid causari quod legis vigorem habet, cum
+<lb ed="#L" n="29"/>scilicet talis consuetudo est rationabilis et praescripta (Extra de :
+con<lb break="no" ed="#L" n="30"/>suetudine, capitulo ultimo) ; quae scilicet.consuetudo est rationabilis,
+<pb ed="#L" n="275"/>
+               <lb ed="#L" n="1"/>si non est contra ius divinum vel naturae, nec est a iure positivo
+<lb ed="#L" n="2"/>reprobata. Irrationalis enim. est omnis quae a iure reprobatur et quae ;,'
+<lb ed="#L" n="3"/>est contra ordinem vel libertatem ecclesiasticae disciplinae (septima ' E
+<lb ed="#L" n="4"/>distinctione, capitulo Frustra) . Tale est illud pro quo quaeritur ; nam 1
+<lb ed="#L" n="5"/>quod subditi nunquam teneantur confiteri suis propriis sacerdotibus, videtur
+<lb ed="#L" n="6"/>enervare ordinem ecclesiasticae hierarchiae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

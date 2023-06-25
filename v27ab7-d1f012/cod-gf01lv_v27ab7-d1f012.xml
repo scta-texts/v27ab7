@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="321"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f012"><!-- v27ab7-q3short-q12 -->
+            <head xml:id="v27ab7-d1f012-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-d1f012-Hd1e101" type="question-title">Utrum uxor possit facere eleemosynam invito vel contradicente marito</head>
+            <p xml:id="v27ab7-d1f012-d1e104">
+               <pb ed="#L" n="321"/>
+               <lb ed="#L" n="1"/>QUAESTIO XII
+<lb ed="#L" n="2"/>(BREVIS).
+<lb ed="#L" n="3"/>Utrum uxor possit facere eleemosynam invito vel contradicente marito .
+</p>
+            <p xml:id="v27ab7-d1f012-d1e115">
+               <lb ed="#L" n="4"/>Ad secundum sic proceditur, et arguitur quod licet uxori dare eleemosynam
+<lb ed="#L" n="5"/>sine consensu mariti, quia hoc commendatur in beata Lucia quod sine consensu sui
+<lb ed="#L" n="6"/>mariti ! faciebat eleemosynas. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f012-d1e124">
+               <lb ed="#L" n="7"/>Contra. Mulier non debet aliquid facere contra voluntatem illius cui debet
+<lb ed="#L" n="8"/>subesse et a quo debet gubernari sicut membrum a capite. Sed secundum 
+Apo<lb break="no" ed="#L" n="9"/>stolum , prima ad Corinthios, undecimo, sic se habet mulier ad virum sicut membrum
+<lb ed="#L" n="10"/>ad caput. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f012-d1e136">
+               <lb ed="#L" n="11"/>Respondeo dicendum quod licet quidam: distinguant et dicant quod mulier
+<lb ed="#L" n="12"/>lucrativa potest facere eleemosynam sine consensu viri non lucrativa autem non
+<lb ed="#L" n="13"/>potest nisi habeat bona paraphernalia ?, tamen tenendum videtur simpliciter quod
+<lb ed="#L" n="14"/>mulier nec de dote nec de? bonis quae in matrimonio lucratur, nec etiam de bonis
+<lb ed="#L" n="15"/>quae ante matrimonium habebat, loquendo in illis locis in quibus quicquid habet
+<lb ed="#L" n="16"/>mulier consuevit  vir pro dote habere, potest mulier facere eleemosynam sine
+<lb ed="#L" n="17"/>consensu viri probabiliter praesumpto vel verbo expresso.
+</p>
+            <p xml:id="v27ab7-d1f012-d1e154">
+               <lb ed="#L" n="18"/>Et hoc patet tali ratione 5. Quia illud  quod est sub dominio et iure alicuius
+<lb ed="#L" n="19"/>sive quantum ad proprietatem substantiae rel, sive quantum ad dispensationem et"
+<lb ed="#L" n="20"/>ministrationem, non potest aliquis alius alienare vel distrahere nisi de licentia illius
+<lb ed="#L" n="21"/>cuius iuri? et dominio subest res illa. Sed mulier quantum ad ea"? quae pertinent ad
+<lb ed="#L" n="22"/>ab | stinentiam et omnia bona ipsius mulieris vel habita ante matrimonium vel post,
+<lb ed="#L" n="23"/>exceptis paraphernalibus in locis in quibus talia consueverunt esse, subes? " dominio
+<lb ed="#L" n="24"/>viri quantum ad ministrationem '' durante matrimonio ??. Ergo mulier nec votum 
+absti<lb break="no" ed="#L" n="25"/>nentiae nec eleemosynas de dictis bonis potest facere sine licentia viri.
+</p>
+            <p xml:id="v27ab7-d1f012-d1e174">
+               <lb ed="#L" n="26"/>Maior patet. Minor probatur P. — Primo auctoritate canonis. Dicitur enim 
+trige<lb break="no" ed="#L" n="27"/>sima tertia, quaestione quinta : manifestum est quod mulier non potest vovere nisi
+<lb ed="#L" n="28"/>vir sit actor permittendo ; et ibi  dicitur quod vir est caput mulieris, et quod
+<lb ed="#L" n="29"/>mulier est sub potestate viri ita quod paene famula debet dici. Item eadem quaestione ?!,
+<lb ed="#L" n="30"/>capitulo Quod Deo  pari consensu , dicitur: nihil de tua veste vel" de auro
+<lb ed="#L" n="31"/>vel de argento vel de pecunia facere debuisti, ubi dicit Glossa (b) quod duplicem
+<pb ed="#L" n="322"/>
+               <lb ed="#L" n="1"/>servitutem ! habet vir? in uxore , unam ad debitum, aliam ad ministerium. — Eadem
+<lb ed="#L" n="2"/>etiam minor patet ratione. Quia in omni  communitate oportet esse unum caput ad
+<lb ed="#L" n="3"/>quod pertineat dispensare bona communitatis ad hoc quod communitas sit bene
+<lb ed="#L" n="4"/>ordinata, et sic oportet ponere ad solum patrem familias pertinere dispensationem |
+<lb ed="#L" n="5"/>bonorum domus. Sic igitur mulier non potest contra voluntatem viri facere eleemosynam
+<lb ed="#L" n="6"/>extra casum extremae necessitatis, nisi habuerit bona paraphernalia de quibus potest
+<lb ed="#L" n="7"/>facere quod vult. In hoc tamen potest probabiliter supponere voluntatem mariti
+<lb ed="#L" n="8"/>esse talem quod secundum quantitatem facultatum suarum  et necessitatem pauperum
+<lb ed="#L" n="9"/>et maiorem coniunctionem eorum per cognationem vel alias", possit facere eleemosynas
+<lb ed="#L" n="10"/>mediocres, quia in talibus communiter consuevit committi uxoribus a maritis " 
+dispen<lb break="no" ed="#L" n="11"/>satio domus. Sed si expresse prohiberet eam maritus dare eleemosynam, non posset
+<lb ed="#L" n="12"/>hoc facere nisi in casu necessitatis extremae, in quo omnia sunt communia, licet
+<lb ed="#L" n="13"/>maritus male faceret prohibendo; sicut etiam contra prohibitionem mariti non potest
+<lb ed="#L" n="14"/>vovere nec votum tenere licet prohibendo male faceret maritus. ] ;
+</p>
+            <p xml:id="v27ab7-d1f012-d1e222">
+               <lb ed="#L" n="15"/>Ad rationem in oppositum, dicendum quod Valerianus adhuc non erat maritus
+<lb ed="#L" n="16"/>Caeciliae, quando ipsa faciebat eleemosynas, sed sponsus. Et ideo de consensu matris
+<lb ed="#L" n="17"/>cuius erant bona poterat facere eleemosynas.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

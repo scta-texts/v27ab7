@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="339"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f130"><!-- v27ab7-q4short-q13 -->
+            <head xml:id="v27ab7-d1f130-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-d1f130-Hd1e101" type="question-title">
+      Utrum magister in theologia quaestionem cuius cognitio est necessaria ad salutem
+      debeat reputare litigiosam et inducentem scandalum et ob hoc non recipiat eam
+    </head>
+            <p xml:id="v27ab7-d1f130-d1e104">
+               <lb ed="#L" n="26"/>QUAESTIO XIII
+<lb ed="#L" n="27"/>(BREVIS).
+<lb ed="#L" n="28"/>Utrum magister in theologia quaestionem cuius cognitio est necessaria ad salutem
+<lb ed="#L" n="29"/>debeat reputare litigiosam et inducentem scandalum et ob hoc non recipiat eam .
+</p>
+            <p xml:id="v27ab7-d1f130-d1e115">
+               <lb ed="#L" n="30"/>Postea quaerebantur tria pertinentia ad doctores, praedicatores et confessores.
+<lb ed="#L" n="31"/>— Primum erat utrum magister in theologia quaestionem cuius cognitio est necessaria
+<pb ed="#L" n="340"/>
+               <lb ed="#L" n="1"/>ad salutem debeat reputare litigiosam et inducentem scandalum et ob hoc non
+<lb ed="#L" n="2"/>recipiat eam. — Secundum erat utrum examinati et approbati a certis per | sonis
+<lb ed="#L" n="3"/>habentes! ex privilegio potestatem praedicandi post talem approbationem debeant
+<lb ed="#L" n="4"/>ab ordinariis recipi ad praedicandum nisi doceant se sic examinatos. — Tertium
+<lb ed="#L" n="5"/>erat utrum illi quibus  commissa  est a domino papa potestas audiendi confessiones
+<lb ed="#L" n="6"/>sub hoc forma: damus vobis potestatem absolvendi venientes ad vos de licentia
+<lb ed="#L" n="7"/>praelatorum ab omnibus peccatis pro quibus non esset merito sedes apostolica
+<lb ed="#L" n="8"/>requirenda, — utrum, inquam, tales possint  absolvere a casibus retentis episcopis a
+<lb ed="#L" n="9"/>iure vel consuetudine habita licentia a sacerdotibus parochialibus.
+</p>
+            <p xml:id="v27ab7-d1f130-d1e144">
+               <lb ed="#L" n="10"/>Ad primum sic proceditur, et arguitur quod talis quaestio non debet repudiari
+<lb ed="#L" n="11"/>immo recipi, quia magister in theologia debet determinare veritatem necessariam ad
+<lb ed="#L" n="12"/>salutem. Sed veritas dictae quaestionis ponitur huiusmodi. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f130-d1e154">
+               <lb ed="#L" n="13"/>Contra. Scire veritatem quaestionis motae de privilegio fratrum est 
+neces<lb break="no" ed="#L" n="14"/>sarium  ad salutem, et tamen reputatur ab aliquibus litigiosa et generans scandalum.
+<lb ed="#L" n="15"/>Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f130-d1e163">
+               <lb ed="#L" n="16"/>Respondeo. Ad evidentiam istius? quaestionis primo sciendum est? quod licet
+<lb ed="#L" n="17"/>ad non dicendum falsitatem quilibet teneatur semper et ad semper, quia est 
+prae<lb break="no" ed="#L" n="18"/>ceptum negativum, tamen  non tenetur dicere veritatem semper et ad semper,
+<lb ed="#L" n="19"/>quia hoc est praeceptum affirmativum quod obligat | semper sed non ad semper,
+<lb ed="#L" n="20"/>sed pro loco et tempore. Secundo sciendum est quod aliqua quaestio potest esse
+<lb ed="#L" n="21"/>litigiosa dupliciter. Uno modo per se et ex parte sua, sicut sunt " stultae quaestiones
+<lb ed="#L" n="22"/>in quibus non est profectus scientiae vel agibilium. vel speculabilium, et de talibus
+<lb ed="#L" n="23"/>quaestionibus dicitur secunda ad Timotheum , secundo, quod tales generant lites,
+<lb ed="#L" n="24"/>et ad Timotheum , secundo '': stultas quaestiones devita. Alio modo potest esse
+<lb ed="#L" n="25"/>quaestio litigiosa non per se et  ex parte sui sed per occasionem, propter scilicet
+<lb ed="#L" n="26"/>aliquos contradicentes veritati cuius veritatis manifestatio vel tolleret eis aliquid quod
+<lb ed="#L" n="27"/>affectant vel detegeret vitam eorum. Et utinam quod non sit impleta hodie illa 
+pro<lb break="no" ed="#L" n="28"/>phetia prophetae mostri, scilicet apostoli Pauli  qua dicitur: a veritate quidem
+<lb ed="#L" n="29"/>auditum avertent , ad fabulas autem convertentur et ad ' sua desideria [et] ' 
+coacer<lb break="no" ed="#L" n="30"/>vabunt sibi magistros prurientes auribus volentes audire ea quae desiderant et non
+<lb ed="#L" n="31"/>alia. Et  talis quaestio non debet iudicari litigiosa ex natura rei et per se.
+</p>
+            <p xml:id="v27ab7-d1f130-d1e200">
+               <lb ed="#L" n="32"/>Ad quaestionem ergo dicendum quod quaestio cuius cognitio est necessaria ad
+<lb ed="#L" n="33"/>salutem, non est primo modo litigiosa, et ideo magister in theologia qui talem
+<lb ed="#L" n="34"/>quaestionem reputaret primo modo litigiosam et propter hoc non recipiendam, esset
+<lb ed="#L" n="35"/>fatuus magister. Sgd bene talis quaestio potest esse secundo modo litigiosa propter
+<lb ed="#L" n="36"/>aliquos contradicentes veritati, et tunc distinguendum est. Quia aut veritas talis
+<lb ed="#L" n="37"/>quaestionis est sufficienter manifesta et parum proficeret dictum magistri, et tunc
+<lb ed="#L" n="38"/>si non recipit eam ut intendat circa magis utilia, non male facit. Si autem eius
+<lb ed="#L" n="39"/>veritas non est sufficienter manifesta, tunc propter scandalum contradicentium non
+<pb ed="#L" n="341"/>
+               <lb ed="#L" n="1"/>debet eius determinationem dimittere, immo magis assumere ad defendendum
+<lb ed="#L" n="2"/>veritatem contra contradictores tales. Propter tamen scandalum pusillorum qui in
+<lb ed="#L" n="3"/>eis quae sunt fidei videntes magnos ! et magnae auctoritatis doctores sibi contradicere
+<lb ed="#L" n="4"/>possent titubare in eis quae sunt moris? vel fidei , ad tempus potest intermitti
+<lb ed="#L" n="5"/>nec recipi.
+</p>
+            <p xml:id="v27ab7-d1f130-d1e233">
+               <lb ed="#L" n="6"/>Et talis quaestio est  pro qua propositum fuit istud, scilicet quaestio de privilegiis
+<lb ed="#L" n="7"/>fratrum, quia, sicut alias declaravi, non est litigiosa primo modo, licet sit aliquo
+<lb ed="#L" n="8"/>modo ? litigiosa secundo modo. Et de hac videbantur praelati  intendere quando
+<lb ed="#L" n="9"/>fuit ordinatum quod magistri non reciperent quaestiones litigiosas. Sed si fuisset
+<lb ed="#L" n="10"/>positum exemplum de ista, fuisset statim contradictum ab aliquibus. Unde et illi qui
+<lb ed="#L" n="11"/>eam receperunt propter utilitatem eius ut magis manifestetur, bene fecerunt. Et illi
+<lb ed="#L" n="12"/>qui credentes quod  de illa intendebatur  quando fuit concordatum quod non
+<lb ed="#L" n="13"/>reciperentur quaestiones litigiosae, non receperunt eam, sunt aliquo modo excusati .
+</p>
+            <p xml:id="v27ab7-d1f130-d1e253">
+               <lb ed="#L" n="14"/>Per hoc patet ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

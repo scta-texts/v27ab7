@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="335"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f090"><!-- v27ab7-q4short-q9 -->
+            <head xml:id="v27ab7-d1f090-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-d1f090-Hd1e101" type="question-title">Utrum in prima rerum productione debuit mulier fieri</head>
+            <p xml:id="v27ab7-d1f090-d1e104">
+               <pb ed="#L" n="335"/>
+               <lb ed="#L" n="1"/>QUAESTIO IX
+<lb ed="#L" n="2"/>(BREVIS)
+<lb ed="#L" n="3"/>Utrum in prima rerum productione debuit mulier fieri .
+</p>
+            <p xml:id="v27ab7-d1f090-d1e115">
+               <lb ed="#L" n="4"/>Postea quaerebatur unum pertinens specialiter  ad mulierem ?, et est utrum
+<lb ed="#L" n="5"/>EN in prima rerum productione debuit mulier fieri. Et arguitur quod non |. Nam a Deo
+<lb ed="#L" n="6"/>1 optimo non debuit produci illud  quod fuit causa sive occasio mali culpae. Sed mulier
+<lb ed="#L" n="7"/>fuit hujusmodi. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f090-d1e126">
+               <lb ed="#L" n="8"/>Contrarium patet Genesis  secundo.
+</p>
+            <p xml:id="v27ab7-d1f090-d1e132">
+               <lb ed="#L" n="9"/>Respondeo dicendum quod decuit  producere hominem in utroque sexu in -
+<lb ed="#L" n="10"/>prima rerum productione, quia Deum cuius  perfecta sunt opera  decuit producere
+<lb ed="#L" n="11"/>unamquamque speciem et praecipue humanam quae magis intenditur quam quaecumque
+<lb ed="#L" n="12"/>alia creatura corporalis 5, secundum esse perfectum speciei et individui non solum
+<lb ed="#L" n="13"/>quantum ad esse in natura speciei sed etiam quantum ad conservationem speciei
+<lb ed="#L" n="14"/>per propagationem naturalem. Sed species humana non esset perfecte et sufficienter
+<lb ed="#L" n="15"/>instituta ad propagationem naturalem sine masculo et femina. Ergo et cetera. Licet
+<lb ed="#L" n="16"/>enim Deus posset creare omnes homines sine propagatione naturali, tamen non
+<lb ed="#L" n="17"/>decuit ita fieri, quia " posse se conservare per propagationem naturalem pertinet ad
+<lb ed="#L" n="18"/>perfectionem speciei, nec hoc debuit sibi subtrahi. Licet etiam mulier dicatur mas
+<lb ed="#L" n="19"/>occasionatus, quia non est de intentione naturae particularis scilicet '" virtutis seminis
+<lb ed="#L" n="20"/>viri quae similem in sexu intendit producere scilicet virum qui perfectior est '' quam
+<lb ed="#L" n="21"/>mulier, non tamen est occasionata et praeter intentionem  quantum ad naturam
+<lb ed="#L" n="22"/>universalem quae conservationem speciei per propagationem naturalem intendit. Unde
+<lb ed="#L" n="23"/>mulier non est ita praeter intentionem naturae sicut monstra sunt praeter intentionem
+<lb ed="#L" n="24"/>naturae, quia vir primo et per se est de intentione naturae, mulier autem secundo
+<lb ed="#L" n="25"/>et per se, non sic monstra.
+</p>
+            <p xml:id="v27ab7-d1f090-d1e171">
+               <lb ed="#L" n="26"/>Ad rationem in oppositum dicendum quod Deum decuit producere eflectum
+<lb ed="#L" n="27"/>suum bonum. Sed non oportuit quod produceret ipsum talem quod non posset
+<lb ed="#L" n="28"/>deficere, alioquin non sineret res agere proprios motus. Et sic etiam fecit mulierem
+<lb ed="#L" n="29"/>bonam et dedit ? facultatem qua posset uti ad bonum, sed non ita quin in potestate
+<lb ed="#L" n="30"/>sua esset deficere. Unde et ad eius perfectionem pertinet permittere mala ' ex quibus
+<lb ed="#L" n="31"/>bona elicit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e246"><!-- v27ab7-q1q18 -->
+            <head xml:id="v27ab7-d1e246-Hd1e99">Quaestio 18</head>
+            <head xml:id="v27ab7-d1e246-Hd1e101" type="question-title">
+      Utrum exceptionem super maiore excommunicatione a reo contra actorem propositam admittere teneatur iudex secularis
+    </head>
+            <p xml:id="v27ab7-d1e246-d1e104">
+               <lb ed="#L" n="24"/>QUAESTIO XVIII.
+<lb ed="#L" n="25"/>Utrum exceptionem super maiore excommunicatione a reo contra
+<lb ed="#L" n="26"/>actorem propositam admittere teneatur iudex saecularis.
+</p>
+            <p xml:id="v27ab7-d1e246-d1e113">
+               <lb ed="#L" n="27"/>Postea secundo quaerebatur utrum exceptionem super maiore 
+excom<lb break="no" ed="#L" n="28"/>municatione a reo contra actorem propositam admittere teneatur iudex
+<lb ed="#L" n="29"/>saecularis. Et arguebatur quod iudex saecularis exceptionem super excom-
+<pb ed="#L" n="41"/>
+               <lb ed="#L" n="1"/>municatione a reo contra actorem propositam admittere non debet, quia
+<lb ed="#L" n="2"/>quamdiu aliquis est obligatus ad reddendum aliquid alicui tenetur reddere
+<lb ed="#L" n="3"/>huiusmodi debitum, et etiam ad hoc per iudicem est cogendus. | Sed non
+<lb ed="#L" n="4"/>obstante excommunicatione actoris reus est et fuit ei obligatus ad 
+redden<lb break="no" ed="#L" n="5"/>dum aliquid termino iam elapso. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e246-d1e135">
+               <lb ed="#L" n="6"/>Contra. Forum saeculare est infra forum ecclesiasticum et ideo illi
+<lb ed="#L" n="7"/>etiam debet oboedire et ipsum imitari. Sed in foro ecclesiastico a iudice
+<lb ed="#L" n="8"/>ecclesiastico admitteretur huiusmodi exceptio. Ergo etiam in foro saeculari
+<lb ed="#L" n="9"/>est etiam a saeculari iudice admittenda.
+</p>
+            <p xml:id="v27ab7-d1e246-d1e147">
+               <lb ed="#L" n="10"/>Respondeo dicendum quod, cum excommunicatio sit poena 
+medici<lb break="no" ed="#L" n="11"/>nalis, debet servari in quantum vergere habet ad correctionem 
+excommu<lb break="no" ed="#L" n="12"/>nicati, quod fit cum ei denegatur communio fidelium in his quae essent ad
+<lb ed="#L" n="13"/>eius commodum temporale vel consolationem temporalem. Si autem 
+excom<lb break="no" ed="#L" n="14"/>municatus posset communicare cum aliis in repetendo debita sua et 
+huius<lb break="no" ed="#L" n="15"/>modi, hoc cederet ad commodum et consolationem eius. Ideo eidem sic ?
+<lb ed="#L" n="16"/>petenti non est communicandum, immo communicantes incurrerent saltem
+<lb ed="#L" n="17"/>minorem excommunicationem. Et ideo exceptio super excommunicatione
+<lb ed="#L" n="18"/>proposita contra ipsum non solum a iudice ecclesiastico sed saeculari est
+<lb ed="#L" n="19"/>admittenda. Peccat enim excommunicatus sic se ingerendo et iudex eidem
+<lb ed="#L" n="20"/>communicando. Immo etiam forte qui solveret ei sponte malefaceret, vel
+<lb ed="#L" n="21"/>saltem non tenetur ei solvere quamdiu est in tali statu propter dictam 
+cau<lb break="no" ed="#L" n="22"/>sam, nisi aliqua necessitas ex parte excommunicati vel causa damni vitandi
+<lb ed="#L" n="23"/>ex parte debitoris eum excusaret. Immo etiam si aliquis iurasset solvere ?
+<lb ed="#L" n="24"/>alicui ad aliquam certam diem, si illo tempore esset excommunicatus forte
+<lb ed="#L" n="25"/>solvere non teneretur. Ex quo enim per iudicem qui debet iniuriantes aliis
+<lb ed="#L" n="26"/>corripere et ad satisfaciendum cogere talis non cogeretur? solvere si a
+<lb ed="#L" n="27"/>creditore conveniretur, quia per exceptionem a iudicio expelleretur, non
+<lb ed="#L" n="28"/>videtur? quod pro tali statu teneretur sic? satisfacere, nec videtur eius
+<lb ed="#L" n="29"/>debitor esse pro illo statu; nam si esset debitor per iudicem compelleretur
+<lb ed="#L" n="30"/>ad satisfaciendum debitori. Tamen de hoc notantur opiniones decima
+<lb ed="#L" n="31"/>quinta, questione sexta, capitulo Nos sanctorum .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

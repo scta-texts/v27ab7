@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="330"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f050"><!-- v27ab7-q4short-q5 -->
+            <head xml:id="v27ab7-d1f050-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-d1f050-Hd1e101" type="question-title">
+      Utrum idem corpus possit virtute divina esse localiter in pluribus locis
+      per se et sine conversione alterius in ipsum</head>
+            <p xml:id="v27ab7-d1f050-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO V
+<lb ed="#L" n="17"/>(BREVIS).
+<lb ed="#L" n="18"/>Utrum idem corpus possit virtute divina esse localiter in pluribus locis
+<lb ed="#L" n="19"/>per se et sine conversione alterius in ipsum .
+</p>
+            <p xml:id="v27ab7-d1f050-d1e115">
+               <lb ed="#L" n="20"/>Postea quaerebatur unum de natura pure corporali in generali, utrum scilicet
+<lb ed="#L" n="21"/>idem corpus possit virtute divina  esse localiter in pluribus locis per se et sine
+<lb ed="#L" n="22"/>conversione alterius in ipsum. Et arguitur quod sic, quia quod Deus potest facere
+<lb ed="#L" n="23"/>per medium potest facere sine medio. Sed mediante conversione facit idem corpus
+<lb ed="#L" n="24"/>Christi esse in pluribus ? locis. Ergo  potest facere sine tali conversione ".
+</p>
+            <p xml:id="v27ab7-d1f050-d1e128">
+               <lb ed="#L" n="25"/>Contra. Quod est alicubi localiter et circumscriptive, est ita ibi quod extra
+<lb ed="#L" n="26"/>locum illum nihil eius est. Sed si cum hoc poneretur alibi, ipsum esset extra illum
+<lb ed="#L" n="27"/>locum !!, quia quod est hic ita quod alibi, est ita hic quod cum hoc est extra istum
+<lb ed="#L" n="28"/>locum. Ergo esset | simul idem extra istum locum et non extra istum locum. Sed
+<lb ed="#L" n="29"/>hoc implicat contradictoria ??. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f050-d1e142">
+               <lb ed="#L" n="30"/>Respondeo dicendum quod aliquid dupliciter potest ?? esse in loco !, uno modo
+<lb ed="#L" n="31"/>per se sive hoc sit definitive tantum propter limitationem naturae sicut in creaturis
+<pb ed="#L" n="331"/>
+               <lb ed="#L" n="1"/>spiritualibus, sive hoc sit simul definitive et circumscriptive sicut corpora. Alio modo
+<lb ed="#L" n="2"/>ponitur aliquid in aliquo loco non per se sed per aliud ad quod habet habitudinem,
+<lb ed="#L" n="3"/>sicut angelus ponitur per operationem esse in loco in quo est eius operatio sive in
+<lb ed="#L" n="4"/>quo est illud  circa quod operatur, et corpus Christi ponitur esse in altari 
+sacra<lb break="no" ed="#L" n="5"/>mentaliter per dimensionem panis conversi in ipsum. Licet ergo isto modo secundo ,
+<lb ed="#L" n="6"/>scilicet per aliud, possit aliquid esse simul in pluribus locis saltem virtute divina,
+<lb ed="#L" n="7"/>primo tamen modo nulla virtute potest esse quod idem corpus per dimensiones
+<lb ed="#L" n="8"/>proprias sit circumscriptive in pluribus locis quia  implicat contradictoria . Et hoc
+<lb ed="#L" n="9"/>patet triplici ratione. — Prima talis est et est tacta in opponendo, quia esse 
+circum<lb break="no" ed="#L" n="10"/>scriptive alicubi est claudi illo loco, ita quod nihil eius est extra illum locum. Sed
+<lb ed="#L" n="11"/>si poneretur cum hoc alibi, esset extra illum . Ergo esset extra et non extra. —
+<lb ed="#L" n="12"/>Secunda talis est. Sicut commensuratur locatum quod per se cet localiter est in loco
+<lb ed="#L" n="13"/>ipsi loco secundum quantitatem continuam, ita scilicet quod locatum non potest
+<lb ed="#L" n="14"/>esse maius loco vel e converso, ita etiam commensuratur secundum quantitatem
+<lb ed="#L" n="15"/>discretam ut quot sint loca tot sint locata. Sed hoc posito non potest aliquid esse
+<lb ed="#L" n="16"/>circumscriptive in pluribus locis nisi sint  realiter plura et non unum. Ergo qui ponit
+<lb ed="#L" n="17"/>unum et idem corpus dicto modo esse in pluribus locis ponit illud  corpus esse unum
+<lb ed="#L" n="18"/>et non unum. Nec contra hoc est quod duo corpora virtute divina possunt | esse
+<lb ed="#L" n="19"/>simul, quia alterum est ibi per se et alterum " quasi per accidens, quia virtute
+<lb ed="#L" n="20"/>divina absolvitur a situ qui est ubi per quod aliquid habct ordinem ad locum et
+<lb ed="#L" n="21"/>per quem situm sunt incompossibilia ' corpora  in eodem loco, quia directe et per se
+<lb ed="#L" n="22"/>non repugnat corporibus esse simul per essentiam dimensionis, sed per istud accidens
+<lb ed="#L" n="23"/>consequens quod est ubi a quo potest corpus absolvi virtute divina. Sed quod
+<lb ed="#L" n="24"/>illud ? quod " non est absolutum a tali ubi sed est per se in loco circumscriptive,
+<lb ed="#L" n="25"/>absolvatur a denominatione !'? loci, ita quod existens " non sit ita determinatum ad
+<lb ed="#L" n="26"/>locum quod sit ita ibi ' quod non alibi, non potest fieri quacumque virtute. — Tertia
+<lb ed="#L" n="27"/>talis est. Materia per eandem partem quantitatis sive mediante eadem quantitate, non
+<lb ed="#L" n="28"/>potest esse subiectum  ad "" oppositas formas  quacumque virtute, quia omnia
+<lb ed="#L" n="29"/>opposita includunt contradictoria. Ergo a simili mediante eadem quantitate sive per '
+<lb ed="#L" n="30"/>solam unam ? dimensionem non possunt " habere diversa ubi quae sunt secundum
+<lb ed="#L" n="31"/>situm opposita.
+</p>
+            <p xml:id="v27ab7-d1f050-d1e218">
+               <lb ed="#L" n="32"/>Ad rationem in oppositum dicendum quod nec per medium nec sine medio
+<lb ed="#L" n="33"/>nec qualitercumque  potest Deus facere quod corpus Christi per proprias dimensiones
+<lb ed="#L" n="34"/>et circumscriptive sit in pluribus locis , quia in locis in quibus est corpus Christi
+<lb ed="#L" n="35"/>sacramentaliter non est per proprias dimensiones sed per dimensiones panis conversi
+<lb ed="#L" n="36"/>in ipsum. Quibus dimensionibus annihilatis vel conversis in aliud vel sic transmutatis
+<lb ed="#L" n="37"/>quod non fuisset nata substantia panis manere sub eis, non manet  amplius ibi
+<pb ed="#L" n="332"/>
+               <lb ed="#L" n="1"/>corpus Christi sacramentaliter. Unde ubi desinunt illae dimensiones esse, non est
+<lb ed="#L" n="2"/>corpus Christi ibi nec plus ! quam alibi. Nec est ibi Christus adorandus ? plus quam
+<lb ed="#L" n="3"/>alibi sicut nec est modo ubi fuit localiter per propriam dimensionem dum esset
+<lb ed="#L" n="4"/>in hoc mundo. Supponebat ergo ratio falsum, scilicet quod Deus faceret corpus
+<lb ed="#L" n="5"/>Christi per medium esse in pluribus locis? per propriam dimensionem et 
+circum<lb break="no" ed="#L" n="6"/>scriptive.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

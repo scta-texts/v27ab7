@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="223"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e619"><!-- v27ab7-q3q12 -->
+            <head xml:id="v27ab7-d1e619-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-d1e619-Hd1e101" type="question-title">
+      Utrum uxor possit dare eleemosynam invito et contradicente marito
+    </head>
+            <p xml:id="v27ab7-d1e619-d1e104">
+               <pb ed="#L" n="223"/>
+               <lb ed="#L" n="1"/>QUAESTIO XII
+<lb ed="#L" n="2"/>(LONGA).
+<lb ed="#L" n="3"/>Utrum uxor possit dare eleemosynam invito et
+<lb ed="#L" n="4"/>contradicente marito.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e117">
+               <lb ed="#L" n="5"/>Ad secundum praedictorum sic proceditur et arguitur quod uxor
+<lb ed="#L" n="6"/>potest dare eleemosynam invito et contradicente marito, quia illud
+<lb ed="#L" n="7"/>propter quod aliquis laudatur non solum est licitum sed virtuosum.
+<lb ed="#L" n="8"/>Sed beata Lucia commendatur ex hoc quod eleemosynas dabat 
+irre<lb break="no" ed="#L" n="9"/>quisito, immo etiam non consentiente sponso. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e130">
+               <lb ed="#L" n="10"/>Contra. Secundum Apostolum , prima ad Corinthios, undecimo,
+<lb ed="#L" n="11"/>vir est caput mulieris et cetera. Sicut ergo membra corporis capiti
+<lb ed="#L" n="12"/>subsunt et ab ipso reguntur, ita et mulier debet subesse viro et
+<lb ed="#L" n="13"/>gubernari ab ipso. Sed qui debet gubernari et regi ab alio, non
+<lb ed="#L" n="14"/>debet facere aliquid contra eius voluntatem vel prohibitionem. Quare et
+<lb ed="#L" n="15"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e147">
+               <lb ed="#L" n="16"/>Dicendum quod cum nullus possit aliquid dare sive de aliquo
+<lb ed="#L" n="17"/>eleemosynam facere nisi pro quanto habet ius et dominium in illa re
+<lb ed="#L" n="18"/>vel quantum ad proprietatem et plenam possessionem, et ex consequenti
+<lb ed="#L" n="19"/>quantum ad dispensationem, vel saltem quantum ad dispensationem, —
+<lb ed="#L" n="20"/>ili qui subsunt aliis quantum ad proprias personas et bona exteriora in
+<lb ed="#L" n="21"/>quantum illis subsunt, nec de se ipsis nec de bonis exterioribus possunt
+<lb ed="#L" n="22"/>uti contra voluntatem et praeceptum superioris, quia in tantum in 
+quan<lb break="no" ed="#L" n="23"/>tum secundum ista subsunt, dispensatio et dispositio illorum ad
+<lb ed="#L" n="24"/>superiorem pertinet. Unde cum monachus vel religiosus subsit suo
+<lb ed="#L" n="25"/>superiori, quantum ad personam propriam et quantum ad bona exteriora
+<lb ed="#L" n="26"/>quibus utitur humana fragilitas, pro quanto se in talibus superiori suo
+<lb ed="#L" n="27"/>subiecit, non potest de se ipso nec de huiusmodi bonis facere aliquid
+<lb ed="#L" n="28"/>contra eius voluntatem; immo etiam non nisi secundum eius voluntatem.
+<lb ed="#L" n="29"/>Et ideo cum non habet aliquam administrationem bonorum exteriorum,
+<lb ed="#L" n="30"/>nihil potest dare pauperibus 'sine voluntate explicita et actuali vel
+<pb ed="#L" n="224"/>
+               <lb ed="#L" n="1"/>implicita et habituali superioris, nisi in. extrema necessitate in qua ex
+<lb ed="#L" n="2"/>divino praecepto quo tenemur proximos diligere magis tenemur oboedire
+<lb ed="#L" n="3"/>Deo quam homini, et ita proximo in extrema necessitate existenti
+<lb ed="#L" n="4"/>subvenire etiam contra praeceptum cuiuscumque superioris. Sed de hoc
+<lb ed="#L" n="5"/>nihil ad propositum.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e195">
+               <lb ed="#L" n="6"/>Cum igitur uxor subsit potestati viri, quantum ad corpus vel
+<lb ed="#L" n="7"/>personam suam et quantum ad bona exteriora sive ipsorum 
+dispensa<lb break="no" ed="#L" n="8"/>tionem, ideo nec votum abstinentiae sine consensu viri potest emittere
+<lb ed="#L" n="9"/>et etiam si emiserit vir potest revocare. Et hoc est quod dicitur trigesima
+<lb ed="#L" n="10"/>tertia, quaestione quinta : manifestum est, ita voluisse legem feminam
+<lb ed="#L" n="11"/>sub viro esse, ut nulla eius vota quae abstinentiae causa voverit,
+<lb ed="#L" n="12"/>reddantur ab ea, nisi auctor vir fuerit permittendo et cetera. Quia licet
+<lb ed="#L" n="13"/>in debito coniugii aeque mulier habet potestatem viri sicut vir mulieris,
+<lb ed="#L" n="14"/>et ideo votum continentiae vir non potest facere contra voluntatem
+<lb ed="#L" n="15"/>uxoris, in ceteris tamen vir est caput mulieris et cetera, et mulier est
+<lb ed="#L" n="16"/>paene famula eius, ut ibidem dicitur capitulo Haec imago . Hoc etiam
+<lb ed="#L" n="17"/>convenit monacho vigesima !, quaestione quarta  : monachis non licet
+<lb ed="#L" n="18"/>votum vovere sine consensu abbatis. Si | autem voverint, frangendum
+<lb ed="#L" n="19"/>est. Item eadem ratione non potest uxor quicquid dare de rebus 
+com<lb break="no" ed="#L" n="20"/>munibus sibi et marito sine consensu mariti. Unde eadem quaestione,
+<lb ed="#L" n="21"/>capitulo Ouod Deo pari consensu , Augustinus  dicit ibi cuidam
+<lb ed="#L" n="22"/>coniugatae: nihil de tua veste, nihil de auro vel de argento vel pecunia
+<lb ed="#L" n="23"/>vel rebus terrenis tuis sine arbitrio eius facere debuisti. Et ibi dicit
+<lb ed="#L" n="24"/>Glossa  quod duplicem servitutem habet vir in uxore, unam ad debitum,
+<lb ed="#L" n="25"/>aliam ad ministerium. Cum ergo vir habeat plenam potestatem dispensandi
+<lb ed="#L" n="26"/>et disponendi de bonis temporalibus etiam ad mulierem pertinentibus,
+<lb ed="#L" n="27"/>videtur quod de nulla re nec etiam de dote quae datur propter onera
+<lb ed="#L" n="28"/>matrimonii supportanda quae magis pertinet ad ipsam quam res aliae,
+<lb ed="#L" n="29"/>possit uxor eleemosynam facere nisi in quantum hoc procedit de licentia
+<lb ed="#L" n="30"/>et voluntate viri explicita et in actu, vel implicita et in habitu.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e252">
+               <pb ed="#L" n="225"/>
+               <lb ed="#L" n="1"/>Si tamen habeat secundum consuetudinem alicuius terrae aliqua
+<lb ed="#L" n="2"/>bona paraphernalia, id est, aliquas res proprias praeter dotem, a para
+<lb ed="#L" n="3"/>quod est iuxta, et pherna' quod est dos, potest de illis libere etiam
+<lb ed="#L" n="4"/>invito marito facere eleemosynam. In quibusdam enim locis huiusmodi
+<lb ed="#L" n="5"/>paraphernalia locum non habent, sed eo ipso quod vir ducit uxorem,
+<lb ed="#L" n="6"/>omnia quae habet uxor intelligitur accipere in dotem, et eadem ratione
+<lb ed="#L" n="7"/>etiam omnia quae postea acquirit vel lucratur transeunt in potestatem
+<lb ed="#L" n="8"/>et dominium viri, sicut etiam quae acquirit vel lucratur monachus in
+<lb ed="#L" n="9"/>dominium monasterii, et ideo etiam habet solus vir omnium 
+administra<lb break="no" ed="#L" n="10"/>tionem quae habuit uxor et quae acquirit, nisi quantum de consuetudine
+<lb ed="#L" n="11"/>honesta aut de licentia viri praedicta conceditur uxori. Si enim cum
+<lb ed="#L" n="12"/>uxor tradit se marito intelliguntur tradi quaecumque habet uxor, multo
+<lb ed="#L" n="13"/>magis etiam omnia quae postea quocumque modo acquirit uxor intrant
+<lb ed="#L" n="14"/>dominium et possessionem sive proprietatem ipsius vir. Hoc enim
+<lb ed="#L" n="15"/>exigit bonum et perfectio cuiuslibet multitudinis sive communitatis, quod
+<lb ed="#L" n="16"/>unus sit qui principetur et habeat potestatem administrandi secundum
+<lb ed="#L" n="17"/>quod competit unicuique; in domo autem hoc competit patri familias.
+<lb ed="#L" n="18"/>Unde de rebus sic principaliter ad administrationem viri pertinentibus
+<lb ed="#L" n="19"/>quae tamen secundum consuetudinem solent ad dispensationem uxorum
+<lb ed="#L" n="20"/>pertinere ut de pane, vino et huiusmodi aliis communibus domesticis
+<lb ed="#L" n="21"/>et familiaribus, potest et debet pro se et pro viro quasi negotium
+<lb ed="#L" n="22"/>commune gerendo facere eleemosynas, moderate tamen secundum 
+quan<lb break="no" ed="#L" n="23"/>titatem facultatum viri sive communium, et secundum maiorem et minorem
+<lb ed="#L" n="24"/>multitudinem et necessitatem pauperum, et secundum condicionem ipsorum.
+<lb ed="#L" n="25"/>Nam magis coniunctis magis est providendum.
+</p>
+            <p xml:id="v27ab7-d1e619-d1e311">
+               <lb ed="#L" n="26"/>Unde non videtur habere necessitatem distinctio qua dicitur quod
+<lb ed="#L" n="27"/>uxor aut est lucrosa et negotiosa aut non, sed otiosa, quia quantumcumque
+<lb ed="#L" n="28"/>fuerit lucrosa, ea tamen quae lucratur efficiuntur sub potestate domini
+<lb ed="#L" n="29"/>ad dispensandum et administrandum. Verumtamen facilius debet habere
+<lb ed="#L" n="30"/>licentiam disponendi de talibus quam aliis, et facilius potest sibi 
+con<lb break="no" ed="#L" n="31"/>formare conscientiam etiam absque licentia expressa quod hoc implicite
+<lb ed="#L" n="32"/>et in habitu velit maritus et cetera. Et etiam quantum ad alia bona
+<lb ed="#L" n="33"/>potest sibi uxor formare conscientiam ex qualitate sive condicione eius
+<lb ed="#L" n="34"/>cui vult dare, utpote si sit multum indigens aut si sit coniunctus et
+<lb ed="#L" n="35"/>cetera, cogitans quod si maritus hoc attenderet et videret, huiusmodi
+<lb ed="#L" n="36"/>factum sibi placeret. Sed si sciat hoc omnino esse contra voluntatem
+<lb ed="#L" n="37"/>et praeceptum mariti, nullo modo aliquid dare debet nisi in extrema
+<pb ed="#L" n="226"/>
+               <lb ed="#L" n="1"/>necessitate, ubi eius praecepto non astringitur. Ouantum ad hoc cavere
+<lb ed="#L" n="2"/>sibi! debet uxor ne propter vehementem affectionem quam habet ad
+<lb ed="#L" n="3"/>aliquos quibus dare vellet, obnubiletur in aestimando velle virum ? hoc
+<lb ed="#L" n="4"/>si sciret, aut etiam ne confidens in hoc quod ipsa aestimat magnum
+<lb ed="#L" n="5"/>bonum esse dare tali, iudicet hoc etiam debere velle maritum, aut si
+<lb ed="#L" n="6"/>non vellet, malus esset: frequenter enim sunt talia iudicia falsa. Et
+<lb ed="#L" n="7"/>etiam licet male faceret maritus si hoc non vellet, ipsa tamen non
+<lb ed="#L" n="8"/>potest dare, cum etiam ipse | possit male facere retractando votum
+<lb ed="#L" n="9"/>mulieris et tamen teneatur mulier oboedire, ut dicitur in capitulo
+<lb ed="#L" n="10"/>superiore .
+</p>
+            <p xml:id="v27ab7-d1e619-d1e363">
+               <lb ed="#L" n="11"/>De beata autem Lucia dicendum est quod ipsa habebat sponsum,
+<lb ed="#L" n="12"/>non virum sive maritum, et ideo de consensu matris, absque consensu
+<lb ed="#L" n="13"/>sponsi eleemosynas facere poterat et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

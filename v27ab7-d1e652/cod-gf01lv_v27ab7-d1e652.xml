@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="227"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e652"><!-- v27ab7-q3q15 -->
+            <head xml:id="v27ab7-d1e652-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-d1e652-Hd1e101" type="question-title">
+      Utrum voluntas sit magis libera potentia quam intellectus
+    </head>
+            <p xml:id="v27ab7-d1e652-d1e104">
+               <lb ed="#L" n="15"/>QUAESTIO XV.
+<lb ed="#L" n="16"/>Utrum voluntas sit magis libera potentia quam intellectus.
+</p>
+            <p xml:id="v27ab7-d1e652-d1e111">
+               <lb ed="#L" n="17"/>Deinde circa potentias ut circa potentiam voluntatis quaerebantur
+<lb ed="#L" n="18"/>duo. Primum erat de ipsa in comparatione eius ad aliam potentiam
+<lb ed="#L" n="19"/>scilicet intellectum, scilicet utrum voluntas sit magis libera potentia
+<lb ed="#L" n="20"/>quam intellectus. Secundum erat de ipsa in comparatione ad suum
+<lb ed="#L" n="21"/>actum, videlicet utrum voluntas facta in actu respectu finis, volendo
+<lb ed="#L" n="22"/>scilicet ipsum finem, possit se ipsam per se absque adiutorio apprehen-
+<pb ed="#L" n="228"/>
+               <lb ed="#L" n="1"/>sionis intellectus facere in actum respectu eorum quae sunt ad finem,
+<lb ed="#L" n="2"/>scilicet talia eligendo.
+</p>
+            <p xml:id="v27ab7-d1e652-d1e133">
+               <lb ed="#L" n="3"/>Ad primum praedictorum sic proceditur, et arguitur quod voluntas
+<lb ed="#L" n="4"/>sit minus libera quam intellectus, quia potentia quae aliquo modo cogi
+<lb ed="#L" n="5"/>potest est minus libera quam illa quae nullo modo cogi potest, cum
+<lb ed="#L" n="6"/>libertas coactioni repugnet. Sed intellectus cogi potest nullo modo ;
+<lb ed="#L" n="7"/>voluntas autem aliquo modo cogi potest. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e652-d1e147">
+               <lb ed="#L" n="8"/>Minor probatur. Nam ab illo quod convenit alicui secundum eius
+<lb ed="#L" n="9"/>naturalem inclinationem non cogitur illud. Sed intellectus naturalem habet
+<lb ed="#L" n="10"/>inclinationem et appetitum ad omne intelligibile ad quod est in potentia
+<lb ed="#L" n="11"/>naturali. Ergo a nullo intelligibili cogitur vel necessitatur. Sed voluntas
+<lb ed="#L" n="12"/>aliquando vult aliquid aliquo modo coacte et involuntarie. Nam secundum
+<lb ed="#L" n="13"/>Philosophum , tertio Ethicorum, est quoddam involuntarium et [im]
+mix<lb break="no" ed="#L" n="14"/>tum quod etsi sit simpliciter voluntarium, est tamen aliquo modo et 
+secun<lb break="no" ed="#L" n="15"/>dum quid involuntarium. Tale autem in quantum est involuntarium, in
+<lb ed="#L" n="16"/>tantum est coactum et violentatum. Ergo voluntas aliquo modo saltem
+<lb ed="#L" n="17"/>secundum quid violentatur et cogitur. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e652-d1e171">
+               <lb ed="#L" n="18"/>Contra. Illa potentia ratione cuius homo est dominus suorum actuum,
+<lb ed="#L" n="19"/>maxime estlibera. Sed haec est voluntas, quia secundum Bernardum 
+<lb ed="#L" n="20"/>de libero arbitrio, universa quae sunt hominis libera sunt et propter
+<lb ed="#L" n="21"/>voluntatem.
+</p>
+            <p xml:id="v27ab7-d1e652-d1e182">
+               <lb ed="#L" n="22"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

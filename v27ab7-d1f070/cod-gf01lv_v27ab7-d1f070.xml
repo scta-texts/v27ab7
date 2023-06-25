@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f070"><!-- v27ab7-q4short-q7 -->
+            <head xml:id="v27ab7-d1f070-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-d1f070-Hd1e101" type="question-title">Utrum corpus Christi possit confici de spelta</head>
+            <p xml:id="v27ab7-d1f070-d1e104">
+               <lb ed="#L" n="4"/>QUAESTIO VII
+<lb ed="#L" n="5"/>(BREVIS)
+<lb ed="#L" n="6"/>Utrum corpus Christi possit confici de spelta.
+</p>
+            <p xml:id="v27ab7-d1f070-d1e113">
+               <lb ed="#L" n="7"/>Postea quaerebatur unum quantum ad sacramenta quae sunt instituta propter
+<lb ed="#L" n="8"/>hominem, et est utrum corpus Christi possit confici  de spelta. Et arguitur quod
+<lb ed="#L" n="9"/>non, quia secundum usum Ecclesiae ab apostolis traditum materia huius  
+sacra<lb break="no" ed="#L" n="10"/>menti est panis triticeus. Sed spelta non est triticum. Ergo et cetera,
+</p>
+            <p xml:id="v27ab7-d1f070-d1e124">
+               <lb ed="#L" n="11"/>Contrarium fit in pluribus locis.
+</p>
+            <p xml:id="v27ab7-d1f070-d1e130">
+               <lb ed="#L" n="12"/>Respondeo. Veritas sacramentorum et efficacia dependet ex institutione Christi
+<lb ed="#L" n="13"/>quae nobis innotuit per doctrinam apostolorum qui fuerunt praesentes in dicta
+<lb ed="#L" n="14"/>constitutione" | et per usum Ecclesiae traditum  ab apostolis et per doctrinam
+<lb ed="#L" n="15"/>sacrae Scripturae. In. hoc ergo et in aliis diligenter est attendendus usus Ecclesiae.
+<lb ed="#L" n="16"/>Et ideo, sicut alias  dixi, ita et nunc dico quod cum  communis usus Ecclesiae
+<lb ed="#L" n="17"/>habeat quod aliquis pluries sacramentaliter confiteatur de eisdem , non videtur quod E
+<lb ed="#L" n="18"/>deberet sustineri quod dicatur quod sacramentum poenitentiae non habeat effectum
+<lb ed="#L" n="19"/>respectu eorundem peccatorum nisi semel, et hoc est magis necessarium quam scire
+<lb ed="#L" n="20"/>quomodo angelus sit in loco. Quia ergo " secundum usum Écclesiae panis triticeus
+<lb ed="#L" n="21"/>et non alius est materia huius sacramenti (hoc etiam patet quia Christus se 
+com<lb break="no" ed="#L" n="22"/>paravit grano frumenti et quia creditur ?' quod in tali pane confecit et sacramentum
+<lb ed="#L" n="23"/>instituit), — ideo dicendum est quod si spelta non est idem specie cum tritico, quod
+<lb ed="#L" n="24"/>non potest confici in pane facto '" de spelta. | Et quia in diversis locis diversa blada
+<lb ed="#L" n="25"/>specie vocantur ? spelta, credo quod aliqua spelta sit idem specie cum tritico, et de
+<lb ed="#L" n="26"/>tali spelta potest fieri materia conveniens huius  sacramenti. Nec obstat diversitas
+<lb ed="#L" n="27"/>magna quae apparet in accidentibus exterioribus, quia in multis aliis invenitur
+<lb ed="#L" n="28"/>magna 5 diversitas secundum accidentia inter ea quae sunt eiusdem speciei.
+</p>
+            <p xml:id="v27ab7-d1f070-d1e169">
+               <lb ed="#L" n="29"/>Et sic patet ad quaestionem et ad obiecta. ]
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

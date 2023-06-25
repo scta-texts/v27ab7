@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="243"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e702"><!-- v27ab7-q4q3 -->
+            <head xml:id="v27ab7-d1e702-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-d1e702-Hd1e101" type="question-title">
+      Utrum in perfectionibus essentialibus rerum sive ordinem essentialem habentibus sit processus in infinitum
+    </head>
+            <p xml:id="v27ab7-d1e702-d1e104">
+               <pb ed="#L" n="243"/>
+               <lb ed="#L" n="1"/>QUAESTIO: <unclear>II<!-- 3? --></unclear>
+               <lb ed="#L" n="2"/>(LONGA).
+<lb ed="#L" n="3"/>Utrum in perfectionibus essentialibus rerum sive ordinem
+<lb ed="#L" n="4"/>essentialem habentibus sit. processus in infinitum.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e122">
+               <lb ed="#L" n="5"/>Post hoc vero quaerebatur aliud pertinens ad entitatem quidditativam
+<lb ed="#L" n="6"/>vel essentialem quantum ad numerum secundum ordinem earum ad invicem,
+<lb ed="#L" n="7"/>scilicet utrum in perfectionibus essentialibus rerum sive ordinem 
+essen<lb break="no" ed="#L" n="8"/>tialem habentibus sit processus in infinitum. Et arguebatur quod sic, quia
+<lb ed="#L" n="9"/>in illis quae nata sunt imitari aliquid infinitum in infinitum est processus.
+<lb ed="#L" n="10"/>Sed creaturae secundum suas perfectiones essentiales natae sunt imitari
+<lb ed="#L" n="11"/>essentiam divinam infinitam in infinitum, quoniam quantumcumque sit
+<lb ed="#L" n="12"/>creatura quaecumque accepta vel acceptabilis perfecta, et quantumcumque
+<lb ed="#L" n="13"/>[perfecte] divinam essentiam perfecte imitetur, adhuc ipsa essentia divina
+<lb ed="#L" n="14"/>remanet imitabilis perfectiore modo. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e146">
+               <lb ed="#L" n="15"/>Contra. In illis quae sunt essentialiter ordinata non est processus in
+<lb ed="#L" n="16"/>infinitum, quia ubi non est primum et ultimum non est ordo; in infinito
+<lb ed="#L" n="17"/>autem haec non sunt. Sed in perfectionibus essentialibus et specificis 
+crea<lb break="no" ed="#L" n="18"/>turarum est ordo, cum una sit essentialiter alia perfectior et prior. Quare
+<lb ed="#L" n="19"/>et cetera.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e160">
+               <lb ed="#L" n="20"/>Respondeo dicendum quod, cum rerum species numeris comparentur,
+<lb ed="#L" n="21"/>sicut quocumque numero: dato non potest esse alius ei inaequalis nisi sit
+<lb ed="#L" n="22"/>alterius speciei, ita uno individuo sub una specie non potest esse alterum
+<lb ed="#L" n="23"/>inaequale secundum essentialia. Et ideo quocumque dato non potest fieri
+<lb ed="#L" n="24"/>perfectior illo in eadem specie quantum ad naturalia, nec processu finito
+<lb ed="#L" n="25"/>nec etiam infinito. Et etiam sicut non potest esse binarius singularis qui
+<lb ed="#L" n="26"/>non comprehendat perfecte totam perfectionem essentialem speciei ipsius
+<lb ed="#L" n="27"/>binarii,ita et in aliis speciebus et individuis est intelligendum. Sed sicut
+<lb ed="#L" n="28"/>quocumque numero specifico dato est accipere maiorem in infinitum, ita
+<lb ed="#L" n="29"/>videtur aliquibus quod quacumque specie entis data est accipere 
+perfec<lb break="no" ed="#L" n="30"/>tiorem in infinitum, propter infinitam distantiam quae est inter pelagus
+<lb ed="#L" n="31"/>infinitum perfectionis divinae et limitatum et determinatum gradum 
+cuius<lb break="no" ed="#L" n="32"/>cumque creaturae. Non videtur enim haec distantia continere duo extrema
+<lb ed="#L" n="33"/>finita, sed unum finitum et alium infinitum, ut sic ab infinito procedendo ad
+<pb ed="#L" n="244"/>
+               <lb ed="#L" n="1"/>aliud extremum in infinitum, propter quod contingit ad ipsum accedere et
+<lb ed="#L" n="2"/>nunquam contingit ipsum attingere, eo quod ratione suae infinitae 
+perfec<lb break="no" ed="#L" n="3"/>tionis continet in se quasi infinitos gradus perfectionum secundum 
+intel<lb break="no" ed="#L" n="4"/>lectum in ipso acceptabilium, secundum quos in infinitum est secundum
+<lb ed="#L" n="5"/>diversas perfectiones entium imitabilis.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e206">
+               <lb ed="#L" n="6"/>Sed nihil circa hoc determinando sed probabiliter coniecturando, 
+vide<lb break="no" ed="#L" n="7"/>tur posse poni contrarium primo, ratione determinati et ordinati appetitus
+<lb ed="#L" n="8"/>naturalis totius entis creati vel creabilis. Cum enim perfectio et forma, sive
+<lb ed="#L" n="9"/>actus a quo est esse quod omnia appetunt, sit id ad quod natura 
+universa<lb break="no" ed="#L" n="10"/>liter appetitu ordinato per se tendit, non videtur possibilis processus in
+<lb ed="#L" n="11"/>infinitum de forma in formam, qui nunquam possit reduci in actum 
+simpli<lb break="no" ed="#L" n="12"/>citer et completum. Immo cum entia perfecta magis sint de intentione
+<lb ed="#L" n="13"/>naturae et magis per se a natura appetantur maiores perfectiones, 
+incon<lb break="no" ed="#L" n="14"/>veniens videtur quod sit status in entibus imperfectis, et quod quantum
+<lb ed="#L" n="15"/>ad ila possit appetitus naturalis terminari sic. quod potest esse tale quo
+<lb ed="#L" n="16"/>im | perfectius esse non potest, et non sit status in perfectis, ita quod non
+<lb ed="#L" n="17"/>sit ponere ita perfectum quin nata sit esse perfectior. Et in hoc videtur
+<lb ed="#L" n="18"/>fundata intentio Aristotelis  dicentis quod non est processus in infinitum
+<lb ed="#L" n="19"/>in corporibus per augmentum. Sic enim esset corpus actu infinitum, cum
+<lb ed="#L" n="20"/>hoc sit ire ad formam et perfectionem et esse simpliciter quae sunt de
+<lb ed="#L" n="21"/>intentione appetitus principalis naturae, quem processum natura nunquam
+<lb ed="#L" n="22"/>inchoaret, nisi illum perficere potest. E contra, est processus in corporibus
+<lb ed="#L" n="23"/>in infinitum secundum deductionem vel continui divisionem, nec tamen erit
+<lb ed="#L" n="24"/>corpus actu divisum in infinitum, nec huiusmodi potentia potest terminari
+<lb ed="#L" n="25"/>complete eo quod semper est actus permixtus potentiae, ita quod semper
+<lb ed="#L" n="26"/>unum et idem numero remanet in potentia ut ulterius dividatur. Sed in 
+pro<lb break="no" ed="#L" n="27"/>cessu ad esse ad formam unumquodque ita completur per actum quod non
+<lb ed="#L" n="28"/>remanet potentia ad ulteriorem additionem. Unde dicit Augustinus  in
+<lb ed="#L" n="29"/>principio de Vera Religione : Deus est principium omnium naturarum à
+<lb ed="#L" n="30"/>quo universitas et inchoatur et perficitur et continetur. Sed ab eo non
+<lb ed="#L" n="31"/>posset universitas perfici s! semper esset processus in Infinitum dicto modo.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e265">
+               <lb ed="#L" n="32"/>Hoc etiam videtur ratione limitationis quae consequitur denominative
+<lb ed="#L" n="33"/>unamquamque creaturam et etiam universitatem omnium. Cum enim 
+uni<lb break="no" ed="#L" n="34"/>versitas entium creatorum vel creabilium sub determinatis generibus 
+clau<lb break="no" ed="#L" n="35"/>datur, videtur quod possibilitas creaturarum ad infinitos et indeterminatos
+<lb ed="#L" n="36"/>gradus nullatenus se extendat. Genus enim potestate differentias continet ;
+<pb ed="#L" n="245"/>
+               <lb ed="#L" n="1"/>genus autem quodcumque finitum est virtute, quia sic solum Deus est 
+infi<lb break="no" ed="#L" n="2"/>nitus. Ergo virtute non continet differentias infinitas. Et si in unoquoque
+<lb ed="#L" n="3"/>genere est ultimum, multo magis primum, quod est maximum virtute vel
+<lb ed="#L" n="4"/>potestate et mensura aliorum, non solum sicut Deus, qui omnino est extra
+<lb ed="#L" n="5"/>genus, aliquo modo dicitur primum et minimum in genere substantiae; nam
+<lb ed="#L" n="6"/>videtur et alia ponenda magis unigenea. Quod autem entia determinata sint
+<lb ed="#L" n="7"/>in generibus videtur per Augustinum  quinto super Genesim, undecimo:
+<lb ed="#L" n="8"/>secundum genera quae primum condidit, nova eum multa facere quae
+<lb ed="#L" n="9"/>tunc non fecit, manifestum est ; novum autem genus instituere, recte
+<lb ed="#L" n="10"/>credi non potest. Si enim non essent genera sub ente finita et omnia etiam
+<lb ed="#L" n="11"/>quae sub generibus nata sunt esse, non esset ens analogum ad ipsa, nec
+<lb ed="#L" n="12"/>esset habitudo analogiae omnium entium ad aliquod unum genus et ad
+<lb ed="#L" n="13"/>aliquod unum primi generis, quia nec esset primum generis. Nec etiam
+<lb ed="#L" n="14"/>esset analogia quae aliquo modo est in genere aliquo modo propter 
+inaequa<lb break="no" ed="#L" n="15"/>litatem generum et specierum subalternarum, quia non esset ibi primum.
+<lb ed="#L" n="16"/>Hoc etiam videtur ratione ordinis et colligationis entium ad invicem
+<lb ed="#L" n="17"/>et ad primum. Cum enim multitudo omnis participet uno, et omnis
+<lb ed="#L" n="18"/>multitudo secunda sit ab uno, omnia quae sunt partes alicuius multitudinis
+<lb ed="#L" n="19"/>essentialiter ordinatae ipsum per se unum ordinate nata sunt participare ;
+<lb ed="#L" n="20"/>infinitas autem in multitudine huiusmodi ordinem et habitudinem
+<lb ed="#L" n="21"/>excludit. Si enim non est dare primam creaturam perfectione et
+<lb ed="#L" n="22"/>dignitate, nec etiam erit dare et cetera, quia omnis ordo essentialis et
+<lb ed="#L" n="23"/>per se ordinatorum est respectu alicuius unius primi et perfecti. Cum
+<lb ed="#L" n="24"/>ergo species rerum numeris comparentur, sicut ordo essentialis 
+nume<lb break="no" ed="#L" n="25"/>rorum requirit quod sit status in aliquo primo qui quasi immediate 
+pro<lb break="no" ed="#L" n="26"/>ducitur ab unitate, et quo non potest esse minor nec unitati propinquior,
+<lb ed="#L" n="27"/>— ita etiam ordo entium requirit quod sit nata esse creatura primae unitati
+<lb ed="#L" n="28"/>divinae proxima, qua scilicet non potest esse perfectior nec Deo 
+pro<lb break="no" ed="#L" n="29"/>pinquior. Et sicut ordo et essentialis habitudo numerorum non attenditur
+<lb ed="#L" n="30"/>per aliquid remotum et distans ab unitate sive per aliquid summe 
+proce<lb break="no" ed="#L" n="31"/>dens ab ipsa, etiam si hoc possibile esset, sed per accessum ad eam et
+<lb ed="#L" n="32"/>recessum ab ea (etiam si non esset possibilis talis accessus, nullus esset
+<lb ed="#L" n="33"/>ordo essentialis in numeris; nam non est ordo in numeris quia 
+quater<lb break="no" ed="#L" n="34"/>narius magis accedit ad ultimum numerum quem non est ponere sive
+<lb ed="#L" n="35"/>ad quemcumque alium posteriorem quam ternarius, sed quia magis recedit
+<pb ed="#L" n="246"/>
+               <lb ed="#L" n="1"/>a prima unitate quae est principium numeri virtualiter quodammodo
+<lb ed="#L" n="2"/>omnes numeros continens, a qua non magis vel minus recederet, nisi
+<lb ed="#L" n="3"/>secundum aliquem gradum certum illi appropinquaret secundum quem
+<lb ed="#L" n="4"/>non appropinquatur alius numerus), — ita etiam debet attendi principaliter
+<lb ed="#L" n="5"/>ordo essentialis rerum per respectum ad unitatem primam, quae est summa
+<lb ed="#L" n="6"/>simplicitas et perfectio divinae essentiae, quae cum sit actus purus est
+<lb ed="#L" n="7"/>principium aliorum secundum quendam recessum ab eius unitate et
+<lb ed="#L" n="8"/>simplicitate, et secundum quendam accessum ad compositionem et
+<lb ed="#L" n="9"/>multitudinem ; prout omne particilpans uno est aliquo modo unum et
+<lb ed="#L" n="10"/>non unum secundum Proclum , secunda propositione.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e380">
+               <lb ed="#L" n="11"/>Sicut ergo est dare minimum numerum et primum, ita etiam creaturam
+<lb ed="#L" n="12"/>quae est maxime nata Deo appropinquare propter minimam eius 
+com<lb break="no" ed="#L" n="13"/>positionem | et simpliczZatem quae nata est esse in creatura. Sicut enim
+<lb ed="#L" n="14"/>si non esset ordo numerorum ad unitatem primam non esset omnino
+<lb ed="#L" n="15"/>ordo inter ipsos, nec potest in eis per se accipl ordo ex habitudine ad
+<lb ed="#L" n="16"/>ultimum numerum etiam sl possibile esset, nisi in quantum ex hoc quod
+<lb ed="#L" n="17"/>magis accederent ad illum magis recederent a prima unitate a qua ille
+<lb ed="#L" n="18"/>maxime recederet, — ita etiam in creaturis non est dare ordinem per se
+<lb ed="#L" n="19"/>et primo ex habitudine ad infimum ens; nam quod aliquid dicitur esse
+<lb ed="#L" n="20"/>imperfectius secundum talem gradum in quantum tantum accedit ad tale
+<lb ed="#L" n="21"/>ens, hoc est in quantum illud maxime recedit a primo et cetera. Sicut
+<lb ed="#L" n="22"/>ergo in numeris requirit ordo essentialis primum numerum scilicet
+<lb ed="#L" n="23"/>binarium, ita etiam ordo specierum sive ipsarum essentiarum requirit
+<lb ed="#L" n="24"/>primam creaturam quae primam compositionem et minimam habet et
+<lb ed="#L" n="25"/>cetera. Et sic est ordo rerum accipiendus ex elonratione a primo ente
+<lb ed="#L" n="26"/>et non ex elongatione ab ultimo nisi per accidens, in quantum scilicet
+<lb ed="#L" n="27"/>quanto aliquid magis elongatur ab illo, minus elongatur a primo respectu
+<lb ed="#L" n="28"/>cuius est ordo per se attendendus. Unde Dionysius , quinto de Divinis
+<lb ed="#L" n="29"/>Nominibus: Deus simpliciter et incircumscripte totum in se ipso esse
+<lb ed="#L" n="30"/>coaccepit et praeaccepit; et infra: in monade quantum autem a monade
+<lb ed="#L" n="31"/>procedit, tantum discernitur et multiplicatur. Et Proclus , vigesima
+<lb ed="#L" n="32"/>prima: omnis ordo ab unitate incipiens procedit in multitudinem unitati
+<pb ed="#L" n="247"/>
+               <lb ed="#L" n="1"/>coelementalem. Et vigesima octava : omne producens similia ad
+<lb ed="#L" n="2"/>se ipsum ante dissimilia substituit. Et vigesima nona  : omnis
+<lb ed="#L" n="3"/>processus per similitudinem secundorum ad prima efficitur. Et trigesima
+<lb ed="#L" n="4"/>sexta  : omnium eorum quae secundum processum multiplicantur
+<lb ed="#L" n="5"/>prima sunt perfectiora secundis, et secunda his quae fost ipsa, et 
+conse<lb break="no" ed="#L" n="6"/>quenter eo modo. Si autem sic imaginaretur processus in infinitum
+<lb ed="#L" n="7"/>secundum recessum ab infinito ente et secundum accessum ad primum
+<lb ed="#L" n="8"/>qui non posset compleri, periret ordo nec posset inchoari processus à
+<lb ed="#L" n="9"/>monade, immo magis a multitudine.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e452">
+               <lb ed="#L" n="10"/>Non sunt autem haec intelligenda quantum ad ordinem existendi
+<lb ed="#L" n="11"/>vel exeundi in esse, quia Deus potest producere viliorem creaturam in
+<lb ed="#L" n="12"/>esse ante nobiliorem, ut plantam ante hominem, sed quantum ad ordinem
+<lb ed="#L" n="13"/>essentialem, quia non obstante quod primum tempore  produceretur
+<lb ed="#L" n="14"/>planta, tamen homo dicit naturam primam nobilitate et dignitate et
+<lb ed="#L" n="15"/>cetera. Nec etiam propter ista debet dicere quod produxit nobilissimam
+<lb ed="#L" n="16"/>creaturam quae nata est esse.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e470">
+               <lb ed="#L" n="17"/>Hoc etiam patet propter infinitam distantiam quae est inter Deum
+<lb ed="#L" n="18"/>et creaturam, quia non est intelligendum solum esse infinitam distantiam
+<lb ed="#L" n="19"/>inter Deum et quam[tum]cumque creaturam, sed etiam totam universitatem
+<lb ed="#L" n="20"/>creaturarum acceptibilium. Sed si esset processus in infinitum, videretur
+<lb ed="#L" n="21"/>creatura infinitatem quandam perfectionum distinctarum realiter — sicut
+<lb ed="#L" n="22"/>Deus unite — importare, licet non quaelibet quae actu esset accipienda,
+<lb ed="#L" n="23"/>sed ipsa tota secundum se et ut in mente divina est considerata. Sicut
+<lb ed="#L" n="24"/>enim res quae nunc sunt, antequam essent, in se ipsis importabant in
+<lb ed="#L" n="25"/>mente divina eandem perfectionem finitam et limitatam quam nunc
+<lb ed="#L" n="26"/>habent in se ipsis, ita etiam tota universitas entium infinita, si sic esset
+<lb ed="#L" n="27"/>processus in infinitum, infinitam perfectionem  importaret ; et Deus
+<lb ed="#L" n="28"/>intelligeret infinita, non solum sicut ponitur intelligere numeros infinitos
+<lb ed="#L" n="29"/>et individua infinita, secundum infinitam perfectionem totius universitatis.
+</p>
+            <p xml:id="v27ab7-d1e702-d1e502">
+               <lb ed="#L" n="30"/>Si autem ponatur sic status, nec poneretur ex hoc infinitas creaturarum,
+<lb ed="#L" n="31"/>nec adaequatio ad creatorem, nec exhaustio vel adaequatio suae potentiae
+<lb ed="#L" n="32"/>et virtutis. Haec enim tenent in rebus eiusdem ordinis et univocis.
+<lb ed="#L" n="33"/>Quamvis enim non possit esse calidum formaliter perfectius igne, tamen
+<lb ed="#L" n="34"/>nulla est adaequatio caliditatis ignis ad caliditatem solis. Nec est intel-
+<pb ed="#L" n="248"/>
+               <lb ed="#L" n="1"/>lipgenda dicta distantia et imitabilitas creaturarum sic, quod sicut est
+<lb ed="#L" n="2"/>distinctio in gradibus rerum realiter, sic etiam sunt diversi gradus
+<lb ed="#L" n="3"/>perfectionum in Deo quos imitentur, una unum gradum et alia alium ;
+<lb ed="#L" n="4"/>sed tota essentia divina a qualibet zmnitatur' secundum alium gradum
+<lb ed="#L" n="5"/>realiter in creatura variatum, non autem in essentia divina. Sed solum
+<lb ed="#L" n="6"/>ipsa essentia divina ut unitas simplex est ratio cuiuslibet creaturae ut
+<lb ed="#L" n="7"/>aliquo modo multae, in quantum una est magis multa et plus recedens
+<lb ed="#L" n="8"/>ab hac unitate quam alia. Unde per exclusionem omnis multitudinis
+<lb ed="#L" n="9"/>et compositionis est divina essentia secundum suam simplicitatem et
+<lb ed="#L" n="10"/>unitatem mensura et propria ratio uniuscuiusque secundum recessum
+<lb ed="#L" n="11"/>ab hac unitate et accessum ad dictam multitudinem. Et sic multiplicatur
+<lb ed="#L" n="12"/>quodammodo ipsa essentia divina secundum rationem, non secundum
+<lb ed="#L" n="13"/>diversos gradus etiam in ipsa essentia acceptibiles | secundum rationem,
+<lb ed="#L" n="14"/>sed secundum quod secundum se totam apprehenditur ut imitabilis ab
+<lb ed="#L" n="15"/>una creatura secundum talem multitudinem. Et sic intelligitur multiplicari
+<lb ed="#L" n="16"/>quasi per intellectum in comparatione ad diversa. Unde sicut in unitate
+<lb ed="#L" n="17"/>non est aliquid quod imitetur unus numerus et non alius, immo totum
+<lb ed="#L" n="18"/>id quod est unitas quilibet numerus imitatur, sic non est aliquid in
+<lb ed="#L" n="19"/>Deo quod [in] una creatura imitetur et non alia. Unde ipsa simplex
+<lb ed="#L" n="20"/>unitas divinae essentiae, ut comprehensa ab intellectu ut diversimode
+<lb ed="#L" n="21"/>imitabilis dicto modo, est formaliter et actualiter ipsae distinctae et
+<lb ed="#L" n="22"/>diversae ideae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

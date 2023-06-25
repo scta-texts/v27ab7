@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 21</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 21</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="297"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e903"><!-- v27ab7-q4q21 -->
+            <head xml:id="v27ab7-d1e903-Hd1e99">Quaestio 21</head>
+            <head xml:id="v27ab7-d1e903-Hd1e101" type="question-title">
+      Utrum in pecunia usuraria sic transeat dominium in usurarium quod habens centum libras legitime et alias centum libras per usuram, absque periurio possit iurare se non habere nisi centum libras
+    </head>
+            <p xml:id="v27ab7-d1e903-d1e104">
+               <lb ed="#L" n="22"/>QUAESTIO XXI
+<lb ed="#L" n="23"/>(LONGA).
+<lb ed="#L" n="24"/>Utrum in pecunia usuraria sic transeat. dominium. in. 
+usura<lb break="no" ed="#L" n="25"/>rium quod habens centum libras legitime et. alias centum
+<lb ed="#L" n="26"/>libras per usuram, absque periurio possil iurare se non
+<lb ed="#L" n="27"/>habere nisi centum libras.
+</p>
+            <p xml:id="v27ab7-d1e903-d1e120">
+               <lb ed="#L" n="28"/>Deinde circa saeculares quaerebatur unum pertinens ad usuram,
+<lb ed="#L" n="29"/>scilicet utrum in pecunia usuraria sic transeat dominium in ipsum
+<lb ed="#L" n="30"/>usurarium quod habens centum libras legitime et alias centum libras
+<lb ed="#L" n="31"/>per usuram, absque periurio possit iurare se non habere nisi centum
+<pb ed="#L" n="298"/>
+               <lb ed="#L" n="1"/>libras. Et arguebatur quod sic, quia nullus potest effici dominus alicuius
+<lb ed="#L" n="2"/>rei contra voluntatem domini; sed omnium bonorum temporalium Deus
+<lb ed="#L" n="3"/>est dominus. Sed contra voluntatem Dei usurarius recipit pecuniam
+<lb ed="#L" n="4"/>usurariam, cum Deus in vetere et novo testamento usuras prohibeat.
+<lb ed="#L" n="5"/>Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e903-d1e144">
+               <lb ed="#L" n="6"/>Contra. Ex translatione voluntaria alicuius rei a vero domino in
+<lb ed="#L" n="7"/>alium, transfertur dominium talis rei in illum cui sic traditur. Sed hoc
+<lb ed="#L" n="8"/>contingit in usura. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e903-d1e154">
+               <lb ed="#L" n="9"/>Respondeo dicendum quod ad hoc quod plenum dominium alicuius
+<lb ed="#L" n="10"/>rei transferatur in alium ut non competat repetitio, requiritur plena et
+<lb ed="#L" n="11"/>libera voluntas veri domini illius rei ipsam libere transferre potentis. Per
+<lb ed="#L" n="12"/>voluntarium autem mixtum sic transfertur quod tamen competit repetitio
+<lb ed="#L" n="13"/>et recipiens tenetur ad restitutionem. Ita autem est in usura secundum
+<lb ed="#L" n="14"/>quod dominium transfertur tamen per voluntarium mixtum, et ideo 
+com<lb break="no" ed="#L" n="15"/>petit repetitio. Verumtamen quantum sufficit ad propositum, dicendum
+<lb ed="#L" n="16"/>est quod in tantum transit dominium in usurarium quod periurus efficitur
+<lb ed="#L" n="17"/>secundum casum positum. Nam licet dicta pecunia non sit omnino sua
+<lb ed="#L" n="18"/>sicut alia, est tamen sua secundum communem usum ioquendi et 
+secun<lb break="no" ed="#L" n="19"/>dum consuetudinem iuramenta in talibus recipiendi et exigendi, et
+<lb ed="#L" n="20"/>iuramentum secundum hunc modum fieri debet non secundum 
+intel<lb break="no" ed="#L" n="21"/>lectum privatum. Sed posset dicere: non habeo nisi centum libras sic
+<lb ed="#L" n="22"/>libere quin aliis tenear ad restitutionem et si darem, efficerer non
+<lb ed="#L" n="23"/>solvendo et ideo de talibus talia dare non debeo. Si enim unus civis
+<lb ed="#L" n="24"/>habeat centum libras ab alio de usuris et pro necessitatibus civitatis
+<lb ed="#L" n="25"/>rationabiliter possit fieri collectio ab omnibus qui tenentur contribuere
+<lb ed="#L" n="26"/>secundum suas facultates, de quibus debent iurare, — ponatur quod quilibet
+<lb ed="#L" n="27"/>debeat solvere centesimam bonorum suorum in una collecta, — constat
+<lb ed="#L" n="28"/>quod illae centum librae sunt de bonis civitatis et sunt bona civium.
+<lb ed="#L" n="29"/>Si ergo ille qui usurario dedit pecuniam praedictam, qui prius habebat
+<lb ed="#L" n="30"/>ducentas libras, potest iurare quod non habet nisi centum, et usurarius
+<lb ed="#L" n="31"/>etiam qui prius non habebat nisi centum, potest iurare quod adhuc non
+<lb ed="#L" n="32"/>habet nisi centum, ergo de tot libris non haberet civitas collectam nisi
+<lb ed="#L" n="33"/>pro ducentis libris et sic. defraudaretur. Ergo in tali casu debet dicere
+<lb ed="#L" n="34"/>ut dictum est, quod non habet nisi centum de quibus posset libere
+<lb ed="#L" n="35"/>contribuere, sed habet centum quae sunt restituendae tali et si solvat
+<lb ed="#L" n="36"/>de ilis minus restituere tenebitur illi, et forte verum est. Sed si habeat
+<lb ed="#L" n="37"/>illas centum libras ab alienis qui non tenentur contribuere, quia tamen
+<lb ed="#L" n="38"/>iuramentum debet fieri secundum communem usum, debet exprimere se
+<lb ed="#L" n="39"/>non habere nisi centum quae sic sunt suae quod non possit contribuere
+<pb ed="#L" n="299"/>
+               <lb ed="#L" n="1"/>de illis, quia verum est quod plus Aabet ille' per usuram et huiusmodi.
+<lb ed="#L" n="2"/>Sed quid si habeat per furtum vel rapinam ubi non transfertur dominium
+<lb ed="#L" n="3"/>nec potest dicere quod sit suum ? Poterit iurare quod non habet nisi
+<lb ed="#L" n="4"/>centum si alias centum furatus est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

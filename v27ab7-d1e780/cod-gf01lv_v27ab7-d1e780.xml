@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="261"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e780"><!-- v27ab7-q4q10 -->
+            <head xml:id="v27ab7-d1e780-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-d1e780-Hd1e101" type="question-title">
+      Utrum possit haberi certa scientia de conclusione elicita ex principiis solum creditis vel opinatis
+    </head>
+            <p xml:id="v27ab7-d1e780-d1e104">
+               <lb ed="#L" n="30"/>QUAESTIO X
+<lb ed="#L" n="31"/>(LONGA)
+<lb ed="#L" n="32"/>Utrum possit haberi certa scientia de conclusione elicita
+<lb ed="#L" n="33"/>ex principiis solum creditis vel opinatis.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e115">
+               <lb ed="#L" n="34"/>Post hoc vero quaerebatur unum pertinens ad cognitionem veri,
+<lb ed="#L" n="35"/>scilicet utrum possit haberi certa scientia de conclusione elicita ex
+<pb ed="#L" n="262"/>
+               <lb ed="#L" n="1"/>principis solum creditis vel opinatis. Et arguebatur quod sic, quia
+<lb ed="#L" n="2"/>principia scientiae subalternatae sunt solum credita, quia in illa scientia
+<lb ed="#L" n="3"/>non est aliquid prius per quod possunt sciri, et tamen ex ipsis eliciuntur
+<lb ed="#L" n="4"/>conclusiones de quibus habetur certa scientia. Principia etiam theologiae
+<lb ed="#L" n="5"/>sunt credita et tamen theologia est | vere scientia.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e135">
+               <lb ed="#L" n="6"/>Contra. Propter quod unumquodque est tale et illud magis. Sed
+<lb ed="#L" n="7"/>certitudo conclusionis est ex certitudine principiorum. Ergo principia
+<lb ed="#L" n="8"/>oportet esse certiora conclusione. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e145">
+               <lb ed="#L" n="9"/>Respondeo dicendum quod cum scientia sit habitus certus 
+certi<lb break="no" ed="#L" n="10"/>tudine evidentiae et adhaesionis, fides autem sit habitus certus certitudine
+<lb ed="#L" n="11"/>adhaesionis non evidentiae, opinio autem est habitus nec certus 
+certitu<lb break="no" ed="#L" n="12"/>dine evidentiae nec adhaesionis, certitudo autem conclusionis est ex
+<lb ed="#L" n="13"/>certitudine principiorum, secundum modum certitudinis principiorum
+<lb ed="#L" n="14"/>etiam est modus certitudinis conclusionum. Cum ergo principia habent
+<lb ed="#L" n="15"/>certitudinem evidentiae et adhaesionis, conclusio ex illis elicita etiam
+<lb ed="#L" n="16"/>huiusmodi certitudinem habet. Cum ergo principia credita vel opinata
+<lb ed="#L" n="17"/>non habeant certitudinem evidentiae quae est de ratione conclusionis
+<lb ed="#L" n="18"/>scitae, ideo ex principiis creditis vel opinatis non acquiritur certa scientia
+<lb ed="#L" n="19"/>de conclusione. Nec est differentia in hoc inter principia quorum est
+<lb ed="#L" n="20"/>habitus fidei et opinionis, quie sicut! principia quorum est opinio tantum
+<lb ed="#L" n="21"/>non faciunt nisl opinionem et non scientiam de conclusione, ita etiam
+<lb ed="#L" n="22"/>principia quorum tantum est fides respectu conclusionis quae ex ipsis
+<lb ed="#L" n="23"/>elicitur non faciunt nisi fidem. Sed in quantum maior est certitudo
+<lb ed="#L" n="24"/>fidei quam opinionis, maior etiam est certitudo conclusionis elicitae
+<lb ed="#L" n="25"/>ex creditis, ut nunc de credulitate loquimur, quam ex opinatis, prout
+<lb ed="#L" n="26"/>dicit Hugo : fides est infra scientiam et supra opinionem, eo quod
+<lb ed="#L" n="27"/>opinio utraque certitudine caret, scientia vero utramque habet. Sed
+<lb ed="#L" n="28"/>fides habet certitudinem adhaesionis et caret certitudine evidentiae. Et
+<lb ed="#L" n="29"/>ideo sicut irrationale est dicere quod ex principiis solum  opinatis
+<lb ed="#L" n="30"/>acquiritur certa scientia conclusionum ex ipsis elicitarum, ita etiam in
+<lb ed="#L" n="31"/>proposito ex principiis creditis.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e197">
+               <pb ed="#L" n="263"/>
+               <lb ed="#L" n="1"/>Dicere ergo quod principia theologiae vel cuiuscumque scientiae
+<lb ed="#L" n="2"/>in ipsa theologia sive apud illum qui dicitur esse sciens theologiam
+<lb ed="#L" n="3"/>sunt solum credita et non scita vel intellecta et sic solum certitudinem
+<lb ed="#L" n="4"/>adhaesionis habentia, et tamen efficiunt certitudinem scientiae in 
+con<lb break="no" ed="#L" n="5"/>clusionibus ex ipsis elicitis, est dicere quod conclusiones sint notiores
+<lb ed="#L" n="6"/>principiis, scilicet duplicem certitudinem habentes; cum principia non
+<lb ed="#L" n="7"/>habeant nisi unam. Et hoc est dicere contradictoria et multum derogare
+<lb ed="#L" n="8"/>sacrae theologiae et doctoribus ipsius, tales fictiones de ipsa theologia
+<lb ed="#L" n="9"/>attractantibus ipsam propalare.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e221">
+               <lb ed="#L" n="10"/>Simile autem quod introducitur in argumento non valet, quia
+<lb ed="#L" n="11"/>nullus sanae mentis intelligit quod scientia subalternata sit vere scientia
+<lb ed="#L" n="12"/>et solum de suis principiis habeat opinionem recipiendo ea a scientia
+<lb ed="#L" n="13"/>superiore et eis fidem opinatam adhibendo, eo quod a sapiente scientiae
+<lb ed="#L" n="14"/>superioris sunt nota et tradita, quoniam quicquid ex principiis sic
+<lb ed="#L" n="15"/>opinatis vel traditis eliceretur, cum non haberet certitudinem nisi in
+<lb ed="#L" n="16"/>quantum in illa principia reduceretur, solum esset creditum vel opinatum
+<lb ed="#L" n="17"/>etiam debilius quam ipsa principia. Ita ergo et in theologia est. Quoniam
+<lb ed="#L" n="18"/>principia theologiae sunt certissima in sua veritate et evidentia ? Deo et
+<lb ed="#L" n="19"/>beatis, ideo etiam in quantum revelata sunt ab illis creduntur. Sicut
+<lb ed="#L" n="20"/>enim auctoritas humana facit opinionem quae est habitus utraque
+<lb ed="#L" n="21"/>certitudine carens, ita auctoritas divina facit fidem quae est habitus
+<lb ed="#L" n="22"/>certitudinem adhaesionis habens. Sed quid prodest utenti talibus 
+prin<lb break="no" ed="#L" n="23"/>cipiis sic solum ab ipso creditis et conclusiones ex ipsis elicienti[s], ad
+<lb ed="#L" n="24"/>hoc quod certitudinem evidentiae habeat de huiusmodi conclusionibus,
+<lb ed="#L" n="25"/>quod beati de ipsis principiis habeant certitudinem evidentiae et quod
+<lb ed="#L" n="26"/>ipsa secundum se sunt evidentia et certa? Hoc enim nihil prodest ad
+<lb ed="#L" n="27"/>certitudinem evidentiae quae consistit in evidenti apprehensione rei in
+<lb ed="#L" n="28"/>se vel in sua causa vel effectu et cetera, sed solum ad certitudinem
+<lb ed="#L" n="29"/>adhaesionis quae consistit in auctoritate, sicut in scientia subalternata
+<lb ed="#L" n="30"/>esset, si principia illius solum essent cognita quia a superiore scientia
+<lb ed="#L" n="31"/>tradita. Oportet ergo principia scientiae subalternatae esse certa 
+certitu<lb break="no" ed="#L" n="32"/>dine evidentiae, ad hoc quod ex ipsis acquiratur scientia conclusionis
+<lb ed="#L" n="33"/>ex Ipsis elicitae. |
+</p>
+            <p xml:id="v27ab7-d1e780-d1e276">
+               <lb ed="#L" n="34"/>Sed duplex est cognitio, scilicet quia est et propter quid. Verum
+<lb ed="#L" n="35"/>est quod cognitione quia est possunt et debent esse certa in scientia
+<lb ed="#L" n="36"/>subalternata, quia talis bene habetur etiam ex aliquibus posterioribus,
+<lb ed="#L" n="37"/>ut ex effectibus et huiusmodi etiam in inferiore scientia sive praeter
+<pb ed="#L" n="264"/>
+               <lb ed="#L" n="1"/>notitiam superioris. Scientia autem propter quid, non quia, est per priora;
+<lb ed="#L" n="2"/>nihil autem prius est principiis in scientia. Sed haec habetur in scientia
+<lb ed="#L" n="3"/>superiore subalternante. Et sic cognitis principiis scientiae subalternatae
+<lb ed="#L" n="4"/>tum cognitione quia est, via sensus et memoriae et experientiae et ex
+<lb ed="#L" n="5"/>effectibus vel huiusmodi, tum propter quid, ex alia participatione
+<lb ed="#L" n="6"/>scientiae superioris (nunquam enim erit perfectus in perspectiva qui non
+<lb ed="#L" n="7"/>fuerit instructus in geometria per scientiam superiorem), tamen non
+<lb ed="#L" n="8"/>habetur certitudo principiorum inferioris scientiae subalternatae quia
+<lb ed="#L" n="9"/>sunt, quae est propria talis scientiae ut est a superiore distincta, sed
+<lb ed="#L" n="10"/>propter quid et cetera, quae non est necessaria ad conclusionem et
+<lb ed="#L" n="11"/>modum sciendi scientiam inferiorem, licet hoc faciat ad perfectionem
+<lb ed="#L" n="12"/>maiorem talis scientiae sive ad hoc quod ea quae sunt illius scientiae
+<lb ed="#L" n="13"/>perfectius sciantur. Ipsis quidem sic cognitis cognitione evidenti potest
+<lb ed="#L" n="14"/>ex eis acquiri scientia de conclusione ex ipsis elicita et non ante. Non
+<lb ed="#L" n="15"/>est ergo verum quod assumitur in primo argumento.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e322">
+               <lb ed="#L" n="16"/>Ad illud quod dicitur in secundo argumento, etiam intelligendum
+<lb ed="#L" n="17"/>quod si theologia esset scientia vere et proprie ad modum scientiae
+<lb ed="#L" n="18"/>subalternatae respectu scientiae pure subalternantis, oporteret quod
+<lb ed="#L" n="19"/>principia theologiae in ipsa theologia in hac vita essent certa certitudine
+<lb ed="#L" n="20"/>evidentiae, quantum ad notitiam saltem quia est, et in scientia beatorum
+<lb ed="#L" n="21"/>propter quid quantum ad illa, si qua sunt quae habent propter quid,
+<lb ed="#L" n="22"/>aut quod participaret tantum de scientia beatorum quod dicta principia
+<lb ed="#L" n="23"/>essent ei nota et quia sunt et propter quid. Unde quamdiu principia
+<lb ed="#L" n="24"/>theologiae sunt apud aliquem solum credita, ut quod sint tres personae
+<lb ed="#L" n="25"/>in divinis et cetera, tamdiu etiam est conclusio ex eis elicita solum
+<lb ed="#L" n="26"/>credita, ut quod una procedit per modum naturae, alia per modum
+<lb ed="#L" n="27"/>voluntatis. Et ideo ad hoc quod theologia sit scientia et quod non solum
+<lb ed="#L" n="28"/>fides habeatur de conclusionibus theologiae sicut habetur a principio,
+<lb ed="#L" n="29"/>etiam de principiis eius oportet quod sua principia sint non solum
+<lb ed="#L" n="30"/>credita, sed etiam evidenzia ! et nota, et secundum modum evidentiae
+<lb ed="#L" n="31"/>principlorum est evidentia in conclusionibus. Quamvis enim ex 
+prin<lb break="no" ed="#L" n="32"/>cipiis solum creditis possit conclusio? elici circa quam scitur consequentia
+<lb ed="#L" n="33"/>sive necessitas consequentiae, non tamen consequens sive necessitas
+<lb ed="#L" n="34"/>consequentis potest sciri ex.talibus principiis. Unde quamdiu solum
+<lb ed="#L" n="35"/>creditur quod Christus resurrexit, scitur quod et nos resurgemus 
+quan<lb break="no" ed="#L" n="36"/>tum ad consequentiam ; sicut si anima Socratis est immortalis, tunc ex
+<lb ed="#L" n="37"/>talibus principiis et quaelibet anima est immortalis. Sed sicut antecedens
+<lb ed="#L" n="38"/>solum creditur, ita et consequens.
+</p>
+            <p xml:id="v27ab7-d1e780-d1e374">
+               <pb ed="#L" n="265"/>
+               <lb ed="#L" n="1"/>Et ideo cum theologia ponatur esse scientia, oportet quod principia
+<lb ed="#L" n="2"/>eius fiant aliquo molo evidentia et nota sive intellecta, et hoc quidem
+<lb ed="#L" n="3"/>evidentia quae convenit excellentiae talis materiae respectu infirmitatis
+<lb ed="#L" n="4"/>talis scientis. Unde instructo in theologia multo evidentius fit quod
+<lb ed="#L" n="5"/>Christus Deus et homo resurrexit, sive quomodo hoc possibile sit et
+<lb ed="#L" n="6"/>non impossibile, quam simplici laico. Et ideo etiam theologo est
+<lb ed="#L" n="7"/>evidentius quod nos resurgemus quam laico. Licet ergo non sint ita
+<lb ed="#L" n="8"/>evidentia propter improportionerm eius sicut principia aliarum scientiarum,
+<lb ed="#L" n="9"/>sunt tamen tali evidentia nota quae sufficit. Et verum est quod hoc
+<lb ed="#L" n="10"/>etiam fidem simpliciter non evacuat, quia non facit omnino perfectam
+<lb ed="#L" n="11"/>notitiam rei in se ipsa et cetera. Constat enim secundum Philosophum ,
+<lb ed="#L" n="12"/>illud quod de immaterialibus scire possimus ex probabilibus est aliquo
+<lb ed="#L" n="13"/>modo scire respectu ignorantiae laicorum. Ita etiam in proposito. Fideles
+<lb ed="#L" n="14"/>participantes scientiam beatorum quasi subalternantis sive magis proprie
+<lb ed="#L" n="15"/>principalis; in quantum adiuvantur et illustrantur aliquo lumine 
+super<lb break="no" ed="#L" n="16"/>naturali imperfecto respectu luminis gloriae, et adiuti sensu et memoria
+<lb ed="#L" n="17"/>sive notitia quam ex sensibus et naturali ingenio habere possunt, habent
+<lb ed="#L" n="18"/>scientiam respectu igno | rantiae laicorum. Aliam ergo notitiam habent
+<lb ed="#L" n="19"/>simplices de his quae fidei sunt, aliam instructi in theologia, et aliam
+<lb ed="#L" n="20"/>beati. Prima nullo modo dicitur scientia; secunda dicitur scientia fidei
+<lb ed="#L" n="21"/>sive fidem non evacuans et ideo imperfecta; tertia dicitur visio et est
+<lb ed="#L" n="22"/>scientia omnino perfecta fidem omnino evacuans et cetera. De hoc
+<lb ed="#L" n="23"/>Augustinus, decimo quarto de Trinitate: hac scientia non pollent
+[in]fideles plurimi quamvis polleant ipsa fide; aliud enim est scire quid
+<lb ed="#L" n="24"/>homo credere debeat propter adipiscendam vitam beatam, aliud scire
+<lb ed="#L" n="25"/>quemadmodum hoc ipsum et piis opituletur et contra impios defendatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="343"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f170"><!-- v27ab7-q4short-q17 -->
+            <head xml:id="v27ab7-d1f170-Hd1e99">Quaestio 17</head>
+            <head xml:id="v27ab7-d1f170-Hd1e101" type="question-title">Utrum vovens absolute ingressum religionis et intrans cum proposito exeundi satisfaciat sic quod sit liberatus a voto</head>
+            <p xml:id="v27ab7-d1f170-d1e104">
+               <lb ed="#L" n="4"/>QUAESTIO XVII
+<lb ed="#L" n="5"/>(BREVIS).
+<lb ed="#L" n="6"/>Utrum vovens absolute ingressum religionis et intrans cum proposito exeundi
+<lb ed="#L" n="7"/>satisfaciat sic quod sit liberatus a voto .
+</p>
+            <p xml:id="v27ab7-d1f170-d1e115">
+               <lb ed="#L" n="8"/>Postea quaerebantur quattuor! quantum ad obligationem voti religiosorum.
+<lb ed="#L" n="9"/>Primum erat utrum vovens absolute ingressum religionis et intrans cum proposito
+<lb ed="#L" n="10"/>exeundi satisfaciat sic quod sit liberatus a voto. Secundum erat utrum in solemni
+<lb ed="#L" n="11"/>voto continentiae possit sic dispensari quod obligatus tali voto possit per 
+dispensa<lb break="no" ed="#L" n="12"/>tionem contrahere matrimonium. Tertium est utrum religiosus qui vovit oboedire
+<lb ed="#L" n="13"/>praelato teneatur contra praeceptum praelati exire claustrum ad subveniendum
+<lb ed="#L" n="14"/>necessitati parentum. Quartum erat? utrum religiosus teneatur revelare secretum
+<lb ed="#L" n="15"/>commissum fidei suae vel peccatum occultum proximi praelato talem revelationem
+<lb ed="#L" n="16"/>praecipienti.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e137">
+               <lb ed="#L" n="17"/>Ad primum sic proceditur, et arguitur quod talis non liberatur a voto quia ille
+<lb ed="#L" n="18"/>qui diminute facit quod promisit, non liberatur a promisso. Sed talis  est huiusmodi
+<lb ed="#L" n="19"/>quia quando vovit ingressum religionis proponebat experiri, alioquin indiscrete
+<lb ed="#L" n="20"/>vovisset. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e149">
+               <lb ed="#L" n="21"/>Contra. Non vovit nisi ingressum. Sed ingressum  solvit. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e154">
+               <lb ed="#L" n="22"/>Respondeo. Ad evidentiam huius quaestionis primo sciendum quod differt
+<lb ed="#L" n="23"/>simplex propositum et votum. Nam simplex propositum de aliquo faciendo quando
+<lb ed="#L" n="24"/>scilicet aliquis  intendit facere aliquid absolute, non obligat hominem ad faciendum
+<lb ed="#L" n="25"/>illud. Immo auctoritate propria potest illud mutare prout placet sibi nec peccat
+<lb ed="#L" n="26"/>mutando sicut transgressor alicuius obligationis licet possit peccare aliter, scilicet
+<lb ed="#L" n="27"/>Si hoc mutat ex causa illicita. Votum autem addit supra simplex propositum
+<lb ed="#L" n="28"/>promissionem qua homo se obligat Deo in his quae sunt Dei ad faciendum quod
+<lb ed="#L" n="29"/>proposuit, et post talem obligationem non potest illud propria auctoritate mutare
+<lb ed="#L" n="30"/>sine peccato. Quando ergo quaeritur utrum absolute aliquis  vovens ingressum 
+<lb ed="#L" n="31"/>liberatur a voto intrando cum proposito exeundi, dicendum quod sic, nec tenetur
+<lb ed="#L" n="32"/>nisi ad ingressum. Unde non tenetur ad aliquam experientiam sicut nec ad 
+profes<lb break="no" ed="#L" n="33"/>Ssionem, nec ratione voti tenetur stare ibi? ad horam. Sed si scandalum deberet
+<pb ed="#L" n="344"/>
+               <lb ed="#L" n="1"/>oriri de hoc quod statim exiret, teneretur ibi stare tantum quantum sufficeret ! ad
+<lb ed="#L" n="2"/>vitationem scandali quia peccaret exeundo cum scandalo |,sicut peccaret ille qui
+<lb ed="#L" n="3"/>sine aliquo voto intrat et statim exit. Sed quantum pertinet ad votum non est 
+trans<lb break="no" ed="#L" n="4"/>gressor voti.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e193">
+               <lb ed="#L" n="5"/>Et hoc patet tali ratione. Quia quandocumque ita est quod aliqua sic se
+<lb ed="#L" n="6"/>habent quod unum potest cadere sub voto sine alio, vovens liberatur a voto faciendo
+<lb ed="#L" n="7"/>unum sine alio, quia ratione voti nullus tenetur ad faciendum aliquid nisi illud 
+<lb ed="#L" n="8"/>quod vovit. Sed licet nullus possit bene proponere ingressum vel libera voluntate
+<lb ed="#L" n="9"/>velle quin proponat et? velit remanere sive saltem experiri, potest tamen vovere
+<lb ed="#L" n="10"/>ingressum absque hoc quod votum cadat super experientiam vel professionem. Ergo
+<lb ed="#L" n="11"/>et cetera. Maior patet; minor probatur.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e211">
+               <lb ed="#L" n="12"/>Primo quia illa quae sic se habent quod sunt separabilia re et intentione, unum
+<lb ed="#L" n="13"/>potest voveri sine alio. S»d ingressus et re et intentione est separabilis ab experientia
+<lb ed="#L" n="14"/>et professione licet non e converso, quia potest aliquis realiter | et de facto intrare
+<lb ed="#L" n="15"/>et non experiri, et potest etiam intendere se obligare per votum ad ingressum ita
+<lb ed="#L" n="16"/>quod non ad experientiam. Ergo ingressus potest cadere sub voto sine hoc quod
+<lb ed="#L" n="17"/>sub voto cadat experientia vel remansio. :
+</p>
+            <p xml:id="v27ab7-d1f170-d1e227">
+               <lb ed="#L" n="18"/>Secundo sic. Vovens ingressum  principalius intendit professionem quam
+<lb ed="#L" n="19"/>experientiam. Sed vovens ingressum religionis non vovet professionem quia fatuus
+<lb ed="#L" n="20"/>esset qui obligaret se per votum professionis ad rem quam ignorat. Ergo non
+<lb ed="#L" n="21"/>oportet quod vovens ingressum religionis, voveat experientiam vel etiam propositum
+<lb ed="#L" n="22"/>experiendi.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e240">
+               <lb ed="#L" n="23"/>Tertio sic. Nullus potest licite iurare alicui mulieri quod ducat eam in uxorem
+<lb ed="#L" n="24"/>nisi proponat remanere cum ea, nisi forte ad hoc metu  mortis cogatur  et tamen
+<lb ed="#L" n="25"/>sub obligatione talis iuramenti non cadit remanere cum uxore, sicut patet in illo
+<lb ed="#L" n="26"/>qui iuravit aliquam ducere et proponit intrare religionem. Tenetur eam ducere, non
+<lb ed="#L" n="27"/>tamen tenetur cum ea remanere , Ergo licet aliquis quando vovet ingressum
+<lb ed="#L" n="28"/>teneatur habere propositum experiendi, non oportet tamen quod experientia cadat
+<lb ed="#L" n="29"/>sub voto . — Si dicatur quod non est simile, quia ille dimittit uxorem propter melius
+<lb ed="#L" n="30"/>et perfectius, sic autem non est in proposito, istud non valet ad propositum. Quia
+<lb ed="#L" n="31"/>si oporteret implere iuramentum vel votum | in  proposito quod quis tenetur habere
+<lb ed="#L" n="32"/>in iurando vel vovendo, sicut intrans religionem non impleret votum nisi haberet
+<lb ed="#L" n="33"/>propositum remanendi, — ita in praedicto casu ducens uxorem non impleret 
+iuramen<lb break="no" ed="#L" n="34"/>tum nisi duceret eam cum proposito remanendi quia tenebatur habere tale propositum
+<lb ed="#L" n="35"/>quando iuravit, alioquin scandalizasset et decepisset mulierem. Unde quantum ad
+<lb ed="#L" n="36"/>propositum  est simile.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e274">
+               <lb ed="#L" n="37"/>Quarto sic, et est confirmatio rationis. Vovens ingressum religionis potest eligi
+<lb ed="#L" n="38"/>in episcopum ante ingressum. Sed talis non tenetur intrare cum proposito 
+remanendi<lb break="no" ed="#L" n="39"/>vel experiendi, cum status episcopalis ad quem est electus sit perfectior | quam
+<lb ed="#L" n="40"/>status religionis. Ergo saltem in tali casu vovens ingressum religionis, implet votum !
+<lb ed="#L" n="41"/>cum proposito exeundi quia exit propter maius bonum.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e287">
+               <pb ed="#L" n="345"/>
+               <lb ed="#L" n="1"/>Quinto sic. Quia aut tenetur experiri ad certum tempus aut non. Si non ad
+<lb ed="#L" n="2"/>certum tempus, ergo vel tenebitur perpetuo remanere, quod nullus potest !, vel erit
+<lb ed="#L" n="3"/>incertus quando impleverit illud  ad quod tenebatur quod est inconveniens. Si autem
+<lb ed="#L" n="4"/>tenetur ad certum tempus, puta ad totum annum probationis vel ad? aliud certum
+<lb ed="#L" n="5"/>tempus infra illum annum, tunc saltem potest intrare cum proposito exeundi post
+<lb ed="#L" n="6"/>illud tempus. Sed non refert utrum habeat propositum exeundi statim postquam
+<lb ed="#L" n="7"/>intravit vel  post mensem vel annum post. Ergo non tenetur habere propositum
+<lb ed="#L" n="8"/>remanendi ibi quantumcumque modicum, nisi forte per accidens propter scandalum
+<lb ed="#L" n="9"/>vitandum si immineret ex eius exitu. Si. dicatur quod tenetur habere propositum
+<lb ed="#L" n="10"/>remanendi " non ad certum tempus sed quantum Deus sibi inspiraverit, non valet.
+<lb ed="#L" n="11"/>Quia sic teneretur remanere in perpetuum, quia misi poneret obicem, Dominus
+<lb ed="#L" n="12"/>inspiraret sibi profiteri multo plus quam experiri. Ipse etiam posset temere definire
+<lb ed="#L" n="13"/>et determinare quantum ei  Dominus inspirasset.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e320">
+               <lb ed="#L" n="14"/>Sexto sic. Si tenetur habere propositum remanendi quando intrat, aut hoc est
+<lb ed="#L" n="15"/>tantum quia proposuit, aut quia vovit. Non quia proposuit, quia solum propositum
+<lb ed="#L" n="16"/>non obligat. Nec etiam quia vovit, quia aut vovit remanere aut vovit propositum
+<lb ed="#L" n="17"/>remanendi. Non quia vovit remanere, quia tunc nunquam licite posset exire. Nec
+<lb ed="#L" n="18"/>etiam quia vovit propositum remanendi, quia votum non cadit super actum voluntatis
+<lb ed="#L" n="19"/>elicitum quia nullus vovet proponere vel velle, sed cadit super actum imperatum
+<lb ed="#L" n="20"/>quem quis proponit vel vult. Si ergo nec vovit remanere nec propositum remanendi,
+<lb ed="#L" n="21"/>sed tantum nudum propositum habuit de remanendo, dicere quod non possit mutare
+<lb ed="#L" n="22"/>propositum de remanendo sicut nec potest mutare propositum de intrando, est dicere
+<lb ed="#L" n="23"/>contradictoria, scilicet quod mutabile non sit mutabile. Dicere etiam quod non
+<lb ed="#L" n="24"/>possit mutare propositum de remanendo et tamen possit non remanere, est irrationale.
+<lb ed="#L" n="25"/>Si dicatur quod debet intrare cum proposito  experiendi si placet sibi, hoc nihil
+<lb ed="#L" n="26"/>est dictum !, quia etiam sine quocumque voto et sine ingressu habet tale propositum
+<lb ed="#L" n="27"/>condicionatum, scilicet quod experiatur si placet sibi.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e353">
+               <lb ed="#L" n="28"/>Sed contra hoc posset obici sie. Intrare et non experiri nec remanere non est
+<lb ed="#L" n="29"/>bonum. Ergo intrare sine proposito experiendi non est materia voti, nec potest
+<lb ed="#L" n="30"/>aliquis " licite vovere ita quod non experiatur. Ergo nec implet votum licite si
+<lb ed="#L" n="31"/>intrat cum proposito non remanendi vel non experiendi. — Ad hoc est dicendum
+<lb ed="#L" n="32"/>quod illud quod non est simpliciter et universaliter bonum, potest esse bonum alicui
+<lb ed="#L" n="33"/>et in casu. Sicut si aliquis non posset vitare mortem nisi vovendo ingressum
+<lb ed="#L" n="34"/>religionis cum proposito exeundi, licet talis ingressus non sit simpliciter bonus ei
+<lb ed="#L" n="35"/>qui ? [ad vovendum ei qui] ad hoc non | compellitur metu mortis, tali tamen est
+<lb ed="#L" n="36"/>bonus ad vovendum ", Ita | etiam licet intrare cum proposito exeundi non sit
+<lb ed="#L" n="37"/>bonum ei qui non est obligatus ad ingressum quia nulla bona intentione hoc posset
+<lb ed="#L" n="38"/>facere, tamen ille qui est aliquo modo coactus ad intrandum per votum et invitus
+<lb ed="#L" n="39"/>quodammodo ! intrat, potest licite intrare, quia hoc bona intentione facit ad vitandum
+<lb ed="#L" n="40"/>scilicet mortem ! spiritualem transgressionis voti; sicut etiam !?? ille qui vovet intrare
+<lb ed="#L" n="41"/>cum proposito exeundi coactus metu mortis corporalis, licite facit et bona intentione.
+</p>
+            <p xml:id="v27ab7-d1f170-d1e386">
+               <pb ed="#L" n="346"/>
+               <lb ed="#L" n="1"/>Ad rationem in oppositum dicendum quod licet diminute faciat sic intrans
+<lb ed="#L" n="2"/>quantum ad illud' quod proposuit, non tamen diminute facit quantum ad illud 
+<lb ed="#L" n="3"/>quod vovit, quia totum  quod vovit implet  et ideo liberatur a voto .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

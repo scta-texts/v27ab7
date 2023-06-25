@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="288"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e870"><!-- v27ab7-q4q18 -->
+            <head xml:id="v27ab7-d1e870-Hd1e99">Quaestio 18</head>
+            <head xml:id="v27ab7-d1e870-Hd1e101" type="question-title">
+      Utrum qui vovit solemniter continere possit per dispensationem matrimonium contrahere
+    </head>
+            <p xml:id="v27ab7-d1e870-d1e104">
+               <lb ed="#L" n="33"/>OUAESTIO XVIII
+<lb ed="#L" n="34"/>(LONGA)
+<lb ed="#L" n="35"/>Utrum qui vovit. solemniter continere possit per
+<lb ed="#L" n="36"/>dispensationem. matrimonium contrahere.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e115">
+               <lb ed="#L" n="37"/>Post hoc vero circa secundum quaerebatur primo, utrum in voto
+<lb ed="#L" n="38"/>continentiae possit dispensari, utrum scilicet qui vovit solemniter 
+con<lb break="no" ed="#L" n="39"/>tinere possit per dispensationem matrimonium contrahere, Et arguebatur
+<lb ed="#L" n="40"/>quod non. Dicitur enim Extra de statu monachorum, Cum ad 
+mona<lb break="no" ed="#L" n="41"/>sterium, dicitur quod abdicatio proprietatis, sicut etiam custodia castitatis,
+<lb ed="#L" n="42"/>adeo est annexa regulae monachali ut contra eam nec summus pontifex
+<lb ed="#L" n="43"/>possit licentiam indulgere.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e133">
+               <lb ed="#L" n="44"/>Contra. Votum oboedientiae non minus est voto continentiae. Sed
+<lb ed="#L" n="45"/>in voto oboedientiae dispensatur, ut patet cum religiosus aliquis efficitur
+<lb ed="#L" n="46"/>episcopus, nam ab oboedientia sui abbatis vel prioris absolvitur. Quare
+<lb ed="#L" n="47"/>et cetera.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e145">
+               <lb ed="#L" n="48"/>Respondeo dicendum «quod in voto continentiae potest dispensari
+<lb ed="#L" n="49"/>non prohibet excellentia boni continentiae quod non possit 
+recompen<lb break="no" ed="#L" n="50"/>sari. Maius bonum enim potest provenire ex matrimonio unius virginis
+<lb ed="#L" n="51"/>in casu quam ex eius continentia, ut si per hoc fiat pax inter magnos
+<lb ed="#L" n="52"/>quorum discordia posset plurimum ecclesiam perturbare. Bonum enim
+<lb ed="#L" n="53"/>commune praeferendum est bono privato, in quo etiam reservatur
+<lb ed="#L" n="54"/>bonum singularis personae. Nam etiam in hoc casu est melius et magis
+<lb ed="#L" n="55"/>meritorium sic contrahere, sicut caelibatus lohannis non praefertur
+<lb ed="#L" n="56"/>matrimonio Abrahae. Per matrimonium enim non amovetur aliquid de
+<lb ed="#L" n="57"/>essentia virtutis in quo existit principaliter perfectio vitae humanae et
+<lb ed="#L" n="58"/>cetera. Cum etiam maiora bona, scilicet oratio, contemplatio et huiusmodi
+<lb ed="#L" n="59"/>recipiant dispensationem et aliquando meritorium est ea omittere propter
+<lb ed="#L" n="60"/>actionem cum publica res indiget, videtur idem dicendum de virginitate.
+<lb ed="#L" n="61"/>Unde cum dicitur Ecclesiastici vigesimo sexto: omnis ponderatio non
+<lb ed="#L" n="62"/>est digna animae continentis, sumitur continentia large pro omni virtute
+<lb ed="#L" n="63"/>comparata ad bona temporalia. Continentia enim non excluditur per
+<pb ed="#L" n="289"/>
+               <lb ed="#L" n="1"/>matrimonium ut est virtus, licet gradus in virtute scilicet virginitas
+<lb ed="#L" n="2"/>excludatur. Sicut enim abstinere a superHuis cibis et ab Z7"
+conve<lb break="no" ed="#L" n="3"/>nienti! modo sumendi et cetera, est virtuti abstinentiae essentiale, sed ex
+<lb ed="#L" n="4"/>voto abstinere a carnibus est accidentale, ita in proposito caste vivere
+<lb ed="#L" n="5"/>est essentiale continentiae, sed vivere in virginitate est accidentale.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e195">
+               <lb ed="#L" n="6"/>Nec etiam impeditur propter voti obligationem, quia in Dei voto
+<lb ed="#L" n="7"/>intelligitur auctoritas superioris excepta (Extra de iureiurando, Veniens) ,
+<lb ed="#L" n="8"/>cuius est discernere in quo casu non expedit votum servare. Nec
+<lb ed="#L" n="9"/>intelligitur quis sic voto se obligare quod etiam in nullum eventum,
+<lb ed="#L" n="10"/>etiam si totus mundus deberet perire, vellet immutare (hoc enim esset
+<lb ed="#L" n="11"/>fatuum), sed sic. quod quantum est de se, nec propter aliquod bonum
+<lb ed="#L" n="12"/>proprium vel huiusmodi vult immutare.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e213">
+               <lb ed="#L" n="13"/>Nec etiam propter consecrationem et sanctificationem impeditur.
+<lb ed="#L" n="14"/>Si enim sanctificatum Deo et ad honorem Dei et utilitatem proximi ad
+<lb ed="#L" n="15"/>aliquos usus non contrarios, scilicet inhonestos et vitiosos sed honestos
+<lb ed="#L" n="16"/>et virtuosos con | vertatur, non est inconveniens. Talis enim 
+sancti<lb break="no" ed="#L" n="17"/>ficatio est quaedam exterior solemnizatio nihil imprimens vel efficiens
+<lb ed="#L" n="18"/>in animam per se; est etiam instituta ab Ecclesia quae non intendit
+<lb ed="#L" n="19"/>ilam fieri contra bonum commune. Sicut enim continentia, ex statuto
+<lb ed="#L" n="20"/>Ecclesiae religiones sunt confir;atae?; et institutum est auctoritate
+<lb ed="#L" n="21"/>Ecclesiae. quod sic profitentes benedicantur benedictione nihil 
+impri<lb break="no" ed="#L" n="22"/>mente. Si autem fiat aliquid circa religiosos non auctoritate papae,
+<lb ed="#L" n="23"/>per papam potest immutari; si auctoritate papae, nullam dat super quam
+<lb ed="#L" n="24"/>non retineat potestatem. Unde circa ea quae essentialiter pertinent ad
+<lb ed="#L" n="25"/>religionem fidei christianae non cadit dispensatio; circa alia autem
+<lb ed="#L" n="26"/>quantumcumque sint circum[que] religioni essentialia, cadit. Nec 
+sanctifi<lb break="no" ed="#L" n="27"/>catio quae consistit in tali solemnizatione exteriore, scilicet in aspersione
+<lb ed="#L" n="28"/>aquae benedictae super vestimenta et super personam et in quibusdam
+<lb ed="#L" n="29"/>orationibus et huiusmodi, per quam absque hoc quod aliquid efficiat per
+<lb ed="#L" n="30"/>se indelebile in anima, fit solum quaedam deputatio et adaptatio sic
+<lb ed="#L" n="31"/>profitentis ad divinum cultum perfectius exercendum per abstractionem
+<lb ed="#L" n="32"/>ab exterioribus, potest praeiudicare sanctification7 ? principali religionis
+<lb ed="#L" n="33"/>christianae per quam fit aliquid realiter in anima et per quam deputatur
+<lb ed="#L" n="34"/>quis ad cultum divinum exercendum, secundum quod exprimitur in divinis
+<lb ed="#L" n="35"/>praeceptis. Quae scilicet non possunt observari nisi aliquando. oporteat
+<pb ed="#L" n="290"/>
+               <lb ed="#L" n="1"/>aliquibus exterioribus actibus se immiscere qui non sunt mali (licet ad
+<lb ed="#L" n="2"/>horam abstrahant ab aliquibus actibus contemplationis et caritatis, non
+<lb ed="#L" n="3"/>tamen excludunt caritatem), immo etiam in quantum fiunt propter 
+dilec<lb break="no" ed="#L" n="4"/>tionem Dei et proximi etiam magis meritorii efficiuntur, sicut etiam
+<lb ed="#L" n="5"/>oportet praelatos intermittere aliquando tales actus contemplationis et
+<lb ed="#L" n="6"/>exercere actus exteriores propter necessitatem populi, qui propter hoc
+<lb ed="#L" n="7"/>non dicuntur imperfectiores, quia ad hunc statum religiosi etiam 
+assu<lb break="no" ed="#L" n="8"/>muntur. Constat etiam quod manibus operari etiam in religione non
+<lb ed="#L" n="9"/>dicetur opus imperfectum religioni derogans, immo hoc multum videtur
+<lb ed="#L" n="10"/>in religiosis commendandum, quia etiam hoc docuit Apostolus. Similiter
+<lb ed="#L" n="11"/>etiam cibum parare et infirmos pascere in religione non reputatur
+<lb ed="#L" n="12"/>imperfectum. Quomodo ergo si religiosus sciens artem per quam poterit
+<lb ed="#L" n="13"/>multum lucrari propter sustentationem parentis vellet illa uti et si velit aliis
+<lb ed="#L" n="14"/>operibus pietatis intendere circa patrem, ex hoc imperfectius agere dicetur
+<lb ed="#L" n="15"/>vel recedere ab illa deputatione per quam per modum cuiusdam 
+reli<lb break="no" ed="#L" n="16"/>gionis in dicta sanctificatione dicitur divino cultui deputatus? Nonne est
+<lb ed="#L" n="17"/>divinus cultus patrem honorare? Sed haec licet pertineant ad aliam
+<lb ed="#L" n="18"/>quaestionem de honorando parentes contra praeceptum praelati, possunt
+<lb ed="#L" n="19"/>tamen adaptari ad propositum in quantum sic sanctificatus et divino
+<lb ed="#L" n="20"/>cultui et per talem religionis habitudinem deputatus, non elongatur a divino
+<lb ed="#L" n="21"/>cultu, cum ad Dei honorem et Ecclesiae utilitatem ponit se ad opus non
+<lb ed="#L" n="22"/>malum sed bonum et honestum licet secundum se minus bonum, ex
+<lb ed="#L" n="23"/>ordine tamen ad finem maius bonum. Sanctificatio enim religionis ab
+<lb ed="#L" n="24"/>homine confictae non praeiudicat sanctificationi religionis christianae
+<lb ed="#L" n="25"/>praedictae. Omnes enim religiones speciales sunt una religio christiana
+<lb ed="#L" n="26"/>nec sunt religiones verae nisi illius participatione et in conformitate ad
+<lb ed="#L" n="27"/>illas, quia in accidentalibus quibusdam quae superaddunt, differunt ab
+<lb ed="#L" n="28"/>ila et etiam inter se.
+</p>
+            <p xml:id="v27ab7-d1e870-d1e328">
+               <lb ed="#L" n="29"/>Non obstante ergo sanctificatione propter utilitatem totius Ecclesiae
+<lb ed="#L" n="30"/>potest fieri dispensatio in voto solemni continentiae. Non enim est magis
+<lb ed="#L" n="31"/>sanctificatus factus religiosus quam sacerdos, et non negatur quin cum
+<lb ed="#L" n="32"/>sacerdote possit dispensari. Cum enim in bonis secundum se et in malis
+<lb ed="#L" n="33"/>secundum se modo quo dictum est, cadat dispensatio, talia sunt quae
+<lb ed="#L" n="34"/>licet. sint bona secundum se vel mala ut in pluribus, sunt tamen in
+<lb ed="#L" n="35"/>casu bona quae in pluribus mala et in casu mala quae in pluribus
+<lb ed="#L" n="36"/>bona. Et talia sunt quae non sunt de iure divino vel de iure naturae
+<lb ed="#L" n="37"/>ut prima principia et conclusiones de necessi | tate ex eis sequentes,
+<pb ed="#L" n="291"/>
+               <lb ed="#L" n="1"/>sed quae sunt ut quaedam determinationes. Unde cum illud super quod
+<lb ed="#L" n="2"/>cadit votum solemne si[cu]t virginitas, videtur quod dispensationem possit
+<lb ed="#L" n="3"/>recipere. — Si tamen dicatur aliquando quod non est possibile in tali voto
+<lb ed="#L" n="4"/>fierl dispensationem, sicut in decretali  praeallegata, dicendum quod
+<lb ed="#L" n="5"/>secundum communem usum loquendi impossibile dicitur quod non
+<lb ed="#L" n="6"/>est faciendum nisi in summa necessitate et cum summa difficultate. Unde
+<lb ed="#L" n="7"/>cum dicitur in decretali  illa: non potest,id est non contingit quia
+<lb ed="#L" n="8"/>tales dispositiones rarissime fieri debent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e134"><!-- v27ab7-q1q8 -->
+            <head xml:id="v27ab7-d1e134-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-d1e134-Hd1e101" type="question-title">
+      Utrum intellectus possit simul intelligere plura ut plura
+    </head>
+            <p xml:id="v27ab7-d1e134-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO VIII.
+<lb ed="#L" n="6"/>Utrum intellectus possit simul intelligere plura ut plura.
+</p>
+            <p xml:id="v27ab7-d1e134-d1e111">
+               <lb ed="#L" n="7"/>Postea quaerebatur secundo , utrum intellectus possit simul 
+intel<lb break="no" ed="#L" n="8"/>ligere plura ut plura. Et arguitur quod sic, quia sicut se habet materia
+<lb ed="#L" n="9"/>prima respectu substantialium formarum materialium, ita intellectus 
+possi<lb break="no" ed="#L" n="10"/>bilis respectu formarum ? intelligibilium. Sed materia prima potest esse
+<lb ed="#L" n="11"/>simul et in actu sub formis pluribus substantialibus, secundum ponentes
+<lb ed="#L" n="12"/>gradus in formis . Ergo similiter intellectus possibilis poterit esse simul
+<lb ed="#L" n="13"/>et in actu pluribus formis intelligibilibus informatus. Sed cum est in actu
+<lb ed="#L" n="14"/>secundum aliquam formam intelligibilem, secundum illam intelligit. Ergo
+<lb ed="#L" n="15"/>simul multa intelligit.
+</p>
+            <p xml:id="v27ab7-d1e134-d1e133">
+               <lb ed="#L" n="16"/>Contrarium videtur, quia dicit Philosophus  quod contingit multa
+<lb ed="#L" n="17"/>scire in habitu, non autem contingit multa intelligere simul et in actu.
+</p>
+            <p xml:id="v27ab7-d1e134-d1e141">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod intelligere intellectus nihil aliud est quam
+<lb ed="#L" n="19"/>actus quo perficitur intellectus. Huiusmodi autem actus habet formam  sive
+<lb ed="#L" n="20"/>speciem ab obiecto sive intelligibili. Unde ab unoquoque ente quod est per
+<lb ed="#L" n="21"/>se intelligibile et obiectum intellectus causatur in intellectu actus 
+intelli<lb break="no" ed="#L" n="22"/>gendi formaliter et essentialiter a, quocumque alio differens....
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

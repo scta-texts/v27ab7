@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="307"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f003"><!-- v27ab7-q3short-q3 -->
+            <head xml:id="v27ab7-d1f003-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-d1f003-Hd1e101" type="question-title">
+      Utrum natura angelica sit composita ex materia et forma
+    </head>
+            <p xml:id="v27ab7-d1f003-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO III
+<lb ed="#L" n="6"/>(BREVIS)
+<lb ed="#L" n="7"/>Utrum natura angelica sit composita ex materia et forma .
+</p>
+            <p xml:id="v27ab7-d1f003-d1e113">
+               <lb ed="#L" n="8"/>Postea? quaerebatur unum de creatura? circa naturam angelicam, scilicet
+<lb ed="#L" n="9"/>utrum esset composita ex materia et forma. Et arguitur quod sic, quia natura angelica
+<lb ed="#L" n="10"/>composita est? ex actu et potentia, cum non sit ita simplex sicut Deus. Sed actus
+<lb ed="#L" n="11"/>et potentia sunt, ut videtur, forma et materia. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e124">
+               <lb ed="#L" n="12"/>Contra. Operatio  naturae angelicae est  omnino immaterialis , scilicet intelligere.
+<lb ed="#L" n="13"/>Ergo et natura cuius est operatio.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e132">
+               <lb ed="#L" n="14"/>Respondeo. Dicunt quidam naturam angelicam esse compositam ex materia |
+<lb ed="#L" n="15"/>et forma. Primo quia angeli patiuntur ab igne infernali et passio non est sine materia.
+<lb ed="#L" n="16"/>Secundo quia sunt mutabiles. In omni autem re mutabili oportet ponere materiam.
+<lb ed="#L" n="17"/>Ergo et cetera. Quod autem sint mutabiles patet, quia solus Deus est immutabilis !?.
+<lb ed="#L" n="18"/>Ergo et cetera. Dicunt tamen quod materia spiritualis angelorum est subtilior et
+<lb ed="#L" n="19"/>nobilior quam materia corporalium et est, ut dicunt, indivisibilis. Sed ista nou valent.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e148">
+               <lb ed="#L" n="20"/>Ad cuius evidentiam sciendum quod omne quod habet rationem potentiae habet
+<lb ed="#L" n="21"/>aliquo modo rationem materiae. Et ideo, sicut est duplex potentia, scilicet potentia
+<lb ed="#L" n="22"/>pura?! quae est ad actum simpliciter qui ' est forma substantialis, et potentia secundum
+<lb ed="#L" n="23"/>quid quae est ad actum secundum quid qui ? est forma accidentalis; ita etiam materia
+<lb ed="#L" n="24"/>dupliciter dicitur. Nam materia dicitur et potentia pura quae est respectu formae
+<lb ed="#L" n="25"/>substantialis, et haec proprie dicitur materia et hyle; et dicitur etiam materia 
+sub<lb break="no" ed="#L" n="26"/>stantia ens actu simpliciter existens, tamen in potentia ad actum accidentalem, et
+<lb ed="#L" n="27"/>haec proprie dicitur subiectum. Materia ergo quae est' potentia secundum quid,
+<lb ed="#L" n="28"/>subiectum scilicet accidentis, est in angelis, quia substantia eorum est subiectum
+<lb ed="#L" n="29"/>aliquorum accidentium. Sed materia quae est susceptiva formae substantialis et pars
+<lb ed="#L" n="30"/>substantiae compositae non potest esse in angelis.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e174">
+               <lb ed="#L" n="31"/>Hoc autem patet duplici ratione. — Prima talis est. Quaecumque communicant
+<lb ed="#L" n="32"/>in materia quae est subiectum formae substantialis sunt ad invicem transmutabilia,
+<pb ed="#L" n="308"/>
+               <lb ed="#L" n="1"/>et per consequens generabilia et corruptibilia. Sed angeli non sunt tales. Ergo non
+<lb ed="#L" n="2"/>communicant in materia. Sed si haberent materiam, communicarent | etiam cum
+<lb ed="#L" n="3"/>corporalibus in materia etiam eiusdem rationis. Ergo et cetera. Quod autem angeli,
+<lb ed="#L" n="4"/>si haberent materiam, partem sui communicarent? cum aliis habentibus materiam
+<lb ed="#L" n="5"/>quae sit pars substantiae rei in materia eiusdem rationis, patet sic. Quia, si in
+<lb ed="#L" n="6"/>habentibus materiam non sit materia eiusdem rationis, materiae in eis aut distinguuntur
+<lb ed="#L" n="7"/>se ipsis, aut per respectus ad diversas formas. Primo modo non potest esse, quia
+<lb ed="#L" n="8"/>omnis distinctio est per aliquem actum, ita quod distinctio essentialis est per actum
+<lb ed="#L" n="9"/>essentialem et distinctio accidentalis per actum accidentalem. Sed materia de qua 
+<lb ed="#L" n="10"/>nunc loquimur, non dicit aliquem actum, sed puram potentiam. Ergo et cetera. Nec
+<lb ed="#L" n="11"/>etiam potest esse talis distinctio per respectus , primo, quia cum tales respectus
+<lb ed="#L" n="12"/>nihil addant super essentiam materiae et sint posteriores ea, non poterunt esse causa
+<lb ed="#L" n="13"/>distinctionis materiae per essentiam ; secundo, quia si diversi respectus ad diversas
+<lb ed="#L" n="14"/>formas genere facerent diversas materias genere, ita diversi respectus ad diversas
+<lb ed="#L" n="15"/>formas specie  facient ? diversas materias " specie, quod falsum est. Ergo et cetera.
+<lb ed="#L" n="16"/>Item etiam, si materia est in angelis, saltem materia quae est in omnibus angelis |
+<lb ed="#L" n="17"/>erit eiusdem rationis; et cum aliqui angeli differant ab invicem specie, tales erunt
+<lb ed="#L" n="18"/>ad invicem transmutabiles. — Si dicatur ad hoc quod haec ratio non concludit, quia
+<lb ed="#L" n="19"/>ponetur quod forma erit? ita nobilis quod terminet  totum appetitum materiae, non
+<lb ed="#L" n="20"/>valet. Quia de ratione purae potentiae est habere appetitum ad omnem formam et
+<lb ed="#L" n="21"/>non ad unam determinatam; et dum est formata una illarum quantumcumque est 
+<lb ed="#L" n="22"/>perfecta, est" turpis et informis quantum ad aliam. Unde ponere in pura potentia
+<lb ed="#L" n="23"/>appetitum totaliter terminatum per unam formam sive propter determinationem
+<lb ed="#L" n="24"/>materiae ad determinatam formam sive ! propter nobilitatem et excellentiam virtutis
+<lb ed="#L" n="25"/>formae, est irrationabile.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e237">
+               <lb ed="#L" n="26"/>Secunda ratio principalis talis est. Virtus cuius operatio est intelligere non
+<lb ed="#L" n="27"/>potest esse immersa materiae quae est potentia pura. Operatio enim tam actualis
+<lb ed="#L" n="28"/>non potest dependere a potentia quae est potentia pura simpliciter, quia si pura
+<lb ed="#L" n="29"/>potentia non potest per se esse "5 intelligibilis ab intellectu qui movetur a rebus ad
+<lb ed="#L" n="30"/>intelligendum, multo minus illud  de cuius ratione est talis materia, potest esse
+<lb ed="#L" n="31"/>intellectus vel virtus intellectualis. Actus enim virtutis dependentis a tali potentia est
+<lb ed="#L" n="32"/>nimis potentialis et deficiens ab actualitate actus intelligendi. Sed si in angelo esset
+<lb ed="#L" n="33"/>materia quae est pura potentia, virtus intellectiva angeli esset dependens ab ea,
+<lb ed="#L" n="34"/>quia forma angeli non ponitur separabilis a tali materia sicut anima separabilis est a
+<lb ed="#L" n="35"/>materia corporali. Ergo in angelis non est materia quae sit subiectum formae 
+sub<lb break="no" ed="#L" n="36"/>stantialis. Et hoc vult beatus Dionysius quarto ! de Divinis Nominibus , ubi dicit
+<lb ed="#L" n="37"/>angelos esse incorporales et immateriales omnes. Et Commentator  vult quod in
+<lb ed="#L" n="38"/>ilis sit | materia sic dicta in quibus est mutatio secundum substantiam.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e268">
+               <pb ed="#L" n="309"/>
+               <lb ed="#L" n="1"/>Ad illud ergo de passione, dicendum quod illa passio non est naturalis et ideo
+<lb ed="#L" n="2"/>mon arguit materiam esse proprie in angelis.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e277">
+               <lb ed="#L" n="3"/>Ad aliud patet ex dictis, quia in angelis non negatur materia quae est subiectum
+<lb ed="#L" n="4"/>formae accidentalis, sed negatur materia quae sit! subiectum formae substantialis
+<lb ed="#L" n="5"/>quae proprie materia dicitur.
+</p>
+            <p xml:id="v27ab7-d1f003-d1e287">
+               <lb ed="#L" n="6"/>Ad rationem ? principaliter ad quaestionem inductam ? dicendum quod illud
+<lb ed="#L" n="7"/>argumentum in omnem eventum non valet. Quia nec ponendo cempositionem esse et
+<lb ed="#L" n="8"/>essentiae, nec ponendo compositionem formae et materiae subterfugitur illud 
+argu<lb break="no" ed="#L" n="9"/>mentum, quia hic non concluditur  de compositione essentiae cum alio, sed de
+<lb ed="#L" n="10"/>compositione vel de simplicitate essentiae in se. Si enim compositio cum alio sufficit
+<lb ed="#L" n="11"/>ad hoc | quod essentia creaturae recedat a simplicitate Dei, tunc sufficeret ponere
+<lb ed="#L" n="12"/>in qualibet creatura praeter substantiam aliquod accidens cum quo componatur,
+<lb ed="#L" n="13"/>absque hoc quod ponatur compositio ex esse et essentia vel ex materia et forma.
+<lb ed="#L" n="14"/>Et ideo aliter dicendum quod recessus a simplicitate divina non est per 
+aggrega<lb break="no" ed="#L" n="15"/>tionem plurium rerum, alioquin forma vel non recederet a simplicitate divina vel
+<lb ed="#L" n="16"/>esset composita ulterius ex aliquibus pluribus et iretur in infinitum. Sequeretur etiam
+<lb ed="#L" n="17"/>quod illud magis recederet a simplicitate divina quod esset ex pluribus compositum,
+<lb ed="#L" n="18"/>et sic elementum simplex minus recederet a simplicitate divina quam homo, et cum
+<lb ed="#L" n="19"/>recessus maior a divina simplicitate faciat aliquid ? minus perfectum, homo esset
+<lb ed="#L" n="20"/>minus perfectus " quam purum elementum. Et ideo dicendum quod iile recessus, sicut
+<lb ed="#L" n="21"/>alias dictum est, non est includere diversas res sed includere potentialitatem cum
+<lb ed="#L" n="22"/>actualitate defectiva in eadem re simplici  quantum ad compositionem realem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

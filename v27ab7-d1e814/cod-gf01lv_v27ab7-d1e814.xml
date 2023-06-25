@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="275"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e814"><!-- v27ab7-q4q13 -->
+            <head xml:id="v27ab7-d1e814-Hd1e99">Quaestio 13</head>
+            <head xml:id="v27ab7-d1e814-Hd1e101" type="question-title">
+      Utrum magister theologiae questionem cuius veritatem scire est necessarium ad salutem, debeat reputare esse litigiosam et ob hoc eam repellere et nolle determinare
+    </head>
+            <p xml:id="v27ab7-d1e814-d1e104">
+               <lb ed="#L" n="7"/>QUAESTIO XIII
+<lb ed="#L" n="8"/>(LONGA).
+<lb ed="#L" n="9"/>Utrum magister. theologiae quaestionem cutus. veritatem. scire
+<lb ed="#L" n="10"/>est necessarium ad. salutem, debeat reputare esse. litigriosam
+<lb ed="#L" n="11"/>et ob hoc eam repellere et nolle determinare.
+</p>
+            <p xml:id="v27ab7-d1e814-d1e117">
+               <lb ed="#L" n="12"/>Post hoc vero circa pertinentia ad personas inferiores habentes a
+<lb ed="#L" n="13"/>superioribus auctoritatem et potestatem | alicuius eminentiae et dignitatis
+<lb ed="#L" n="14"/>quaerebatur unum pertinens adl doctores, scilicet utrum magister 
+theo<lb break="no" ed="#L" n="15"/>logiae quaestionem cuius veritatem scire est necessariwn ad salutem,
+<lb ed="#L" n="16"/>debeat reputare esse litigiosam et generantem scandalum, et ob hoc
+<lb ed="#L" n="17"/>eam repellere et nolle determinare si super illa ab eo veritas requiratur. "n
+<lb ed="#L" n="18"/>Et arguebatur quod non, quia quaestionem quam debet aliquis 
+deter<lb break="no" ed="#L" n="19"/>minare non debet litigiosam vel generantem scandalum reputare. Sed
+<lb ed="#L" n="20"/>quaestionem cuius veritas est necessaria ad salutem debet magister
+<lb ed="#L" n="21"/>theologiae determinare. Quare et cetera. E
+</p>
+            <p xml:id="v27ab7-d1e814-d1e141">
+               <lb ed="#L" n="22"/>Contra. Scire veritatem super quaestione mota circa privilegium "ÁN
+<lb ed="#L" n="23"/>fratrum est necessarium ad salutem, et tamen a quibusdam reputatur
+<lb ed="#L" n="24"/>quaestio litigiosa et scandalum generans. Quare et cetera. f .
+</p>
+            <p xml:id="v27ab7-d1e814-d1e151">
+               <lb ed="#L" n="25"/>Respondeo dicendum quod litigiosum et scandalum generans potest
+<lb ed="#L" n="26"/>dici aliquid dupliciter, vel de iure et per causam vel occasionem datam
+<lb ed="#L" n="27"/>facto et per occasionem acceptam. Primo modo quaestio sic necessaria
+<lb ed="#L" n="28"/>ad salutem nullatenus debet dici litigiosa, immo salutifera, ab omnibus
+<lb ed="#L" n="29"/>amabilis et appetibilis, et sic non debet recusari ab aliquo tanquam
+<pb ed="#L" n="276"/>
+               <lb ed="#L" n="1"/>litigiosa, et qui eam talem reputaret in hoc stultus, non magister vere
+<lb ed="#L" n="2"/>esset. Quaestiones enim litigiosae sunt quae sunt stultae et inutiles
+<lb ed="#L" n="3"/>et sine disciplina (Glossa : in quibus non est proventus scientiae),
+<lb ed="#L" n="4"/>ut dicitur secunda ad Timotheum , secundo ; quia tales generant
+<lb ed="#L" n="5"/>lites, non aedificationem, ut ibi dicitur  ; servum autem Dosnaini
+<lb ed="#L" n="6"/>oportet litigare, id est tempus litibus expendere, ut ibi etiam dicitur ;
+<lb ed="#L" n="7"/>Titi tertio : stultas quaestiones devita (Glossa: ubi nec salus nec utilis
+<lb ed="#L" n="8"/>scientia est).
+</p>
+            <p xml:id="v27ab7-d1e814-d1e184">
+               <lb ed="#L" n="9"/>Secundo autem modo litigiosam quaestionem recusare aliquando
+<lb ed="#L" n="10"/>et in aliquo casu potest magister. Cum enim veritas odiosa sit aliquibus
+<lb ed="#L" n="11"/>habentibus appetitum corruptum, sicut oculis aegris secundum 
+Augus<lb break="no" ed="#L" n="12"/>tinum odiosa est lux, eo quod cum aliqua scriptura exponitur vitia 
+ali<lb break="no" ed="#L" n="13"/>quorum manifestantur vel ab assequendo bono aliquo utili vel delectabili
+<lb ed="#L" n="14"/>quod affectant impediuntur, — sanae expositioni resistunt et contradicunt,
+<lb ed="#L" n="15"/>et absque ratione contrarium docent vel praedicant, et contra veritatem
+<lb ed="#L" n="16"/>docentes insurgunt et se opponunt. Et hoc utinam modo non contingat
+<lb ed="#L" n="17"/>et impleatur illud secundae ad Timotheum , quarto : erit tempus cum
+<lb ed="#L" n="18"/>sanam doctrinam non sustinebunt, sed ad sua desideria coacervabunt
+<lb ed="#L" n="19"/>sibi magistros prurientes auribus (Glossa , secundum desideria et cetera :
+<lb ed="#L" n="20"/>qui ea doceant quae volunt. Prophetia est sancti apostoli qui praescius
+<lb ed="#L" n="21"/>futurorum in doctrina praecepit esse instandum ut contra hoc quod
+<lb ed="#L" n="22"/>futurum erat praeparetur Ecclesia. Tales enim dicit futuros qui pro
+<lb ed="#L" n="23"/>desideriis suis doceri volunt, ut a magistris constantibus et veracibus ad
+<lb ed="#L" n="24"/>hos convertantur qui haec illos doceant quae libenter audiant, quia veritas
+<lb ed="#L" n="25"/>ilis aspera videbitur. Prurientes auribus  : Desiderio talia audiendi) —
+<lb ed="#L" n="26"/>in hoc, inquam, prophetia utinam modo non impleatur. Sed constat quod
+<lb ed="#L" n="27"/>vel impleatur vel implebitur. Sed vae illis per quos et cetera. De talibus
+<lb ed="#L" n="28"/>ergo est litigiosa quaestio hoc modo, non ex natura rei sed ex 
+resi<lb break="no" ed="#L" n="29"/>stentia aliquorum. Et ideo secundum se non debet litigiosa iudicari nec
+<lb ed="#L" n="30"/>debet propter scandalum sic se' opponentium omitti, immo absolute
+<lb ed="#L" n="31"/>loquendo efficacius praedicari quam si nulla esset resistentia, nisi forte
+<lb ed="#L" n="32"/>per accidens aliquando omitteretur, non propter scandalum talium, sed
+<lb ed="#L" n="33"/>pusillorum scilicet populariunr et simplicium qui forte scandalizarentur
+<lb ed="#L" n="34"/>ex tali contrarietate quam vident in doctoribus fidei, et ex hoc quasi
+<pb ed="#L" n="277"/>
+               <lb ed="#L" n="1"/>titubarent in fide videntes tantos viros sibi invicem dissentire et sic
+<lb ed="#L" n="2"/>contendere. Et si hec scandalum esset maius malum quam aliqua
+<lb ed="#L" n="3"/>dilatio super dicta veritate manifestanda, expediret ad tempus 
+inter<lb break="no" ed="#L" n="4"/>mittere.
+</p>
+            <p xml:id="v27ab7-d1e814-d1e254">
+               <lb ed="#L" n="5"/>Descendendo ergo ad propositum casum pro quo quaeritur, dico
+<lb ed="#L" n="6"/>quod quaestio talis non est litigiosa primo modo, ut alias  declaravi, est
+<lb ed="#L" n="7"/>tamen aliquo modo litigiosa secundo modo ut patet. Et ideo absolute
+<lb ed="#L" n="8"/>non est omittenda nisi forte esset intermittenda dicto modo ad tempus,
+<lb ed="#L" n="9"/>sicut videbantur voluisse praelati anno praeterito , et sicut forte
+<lb ed="#L" n="10"/>intendebant nuper magistri dicentes quod quaestio litigiosa non
+<lb ed="#L" n="11"/>reciperetur. Et vere puto quod communiter ad hanc quaestionem de
+<lb ed="#L" n="12"/>confessionibus fra | trum intellectum suum referebant. Sed non puto
+<lb ed="#L" n="13"/>quod intelligerent eam litigiosam primo modo, nec ego intellexi, sed
+<lb ed="#L" n="14"/>forte aestimabant eam sic litigiosam secundo modo, quod ad tempus
+<lb ed="#L" n="15"/>et pro nunc posset omitti, et puto quod quidam contrarium aestimabant.
+<lb ed="#L" n="16"/>Et ideo quaesitum fuit quod specificaretur quid per litigiosum 
+intellige<lb break="no" ed="#L" n="17"/>retur hac intentione quod, si datum fuisset exemplum de ista quaestzone,
+<lb ed="#L" n="18"/>contradictum fuisset ab aliquibus, sed non fuit expressum. Ideo quidam
+<lb ed="#L" n="19"/>sane reputantes eam non litigiosam primo modo nec secundo sic quod
+<lb ed="#L" n="20"/>esset omittenda, eam receperunt et bene ut puto. Si autem aliqui non
+<lb ed="#L" n="21"/>receperunt eam propter dictam collocutionem eorum exteriorem, credentes
+<lb ed="#L" n="22"/>quod communis intentio fuerit omnium talis, et quod ob hoc eam
+<lb ed="#L" n="23"/>nullus recepturus esset hac disputatione, aliquo modo possunt excusari.
+<lb ed="#L" n="24"/>Dico autem aliquo modo excusari, quia doctor theologiae qui est doctor
+<lb ed="#L" n="25"/>veritatis nunquam debet dicere falsitatem, quia hoc prohibetur praecepto
+<lb ed="#L" n="26"/>negativo quod obligat semper et ad semper; veritatem autem debet
+<lb ed="#L" n="27"/>dicere pro loco et tempore, quia hoc cadit sub praecepto affirmativo
+<lb ed="#L" n="28"/>quod obligat semper sed non ad semper. Unde veritatem utilem et
+<lb ed="#L" n="29"/>fructuosam praecipue ad salutem animarum pertinentem pro tempore
+<lb ed="#L" n="30"/>pro quo est periculosum ignorare omnino tenetur docere, et graviter peccat
+<lb ed="#L" n="31"/>si favore vel odio hoc omittat.
+</p>
+            <p xml:id="v27ab7-d1e814-d1e315">
+               <lb ed="#L" n="32"/>Cum ergo proponitur aliqua quaestio alicui magistro existenti in statu
+<lb ed="#L" n="33"/>quaestiones communiter et de quolibet recipiendi, si proponatur ei
+<lb ed="#L" n="34"/>quaestio talis cuius veritas est sufficienter manifestata, et illud quod ipse
+<lb ed="#L" n="35"/>circa hoc diceret modicum proficeret, et vult circa alia magis proficua
+<lb ed="#L" n="36"/>intendere, licet eam non recipere. Si autem est dubia veritas et expedit
+<pb ed="#L" n="278"/>
+               <lb ed="#L" n="1"/>quod amplius declaretur, aut quantumcumque sit certa communiter
+<lb ed="#L" n="2"/>intellimentibus, si tamen ob malitiam aliqui resistunt et contradicunt ipsi,
+<lb ed="#L" n="3"/>debe[n]t eam recipere et prout poterit declarare, et ut testimonio plurium
+<lb ed="#L" n="4"/>veritas roboretur, illam partem quam viderit veriorem firmiter asserere,
+<lb ed="#L" n="5"/>nec propter scandalum sic debet omittere, nisi modo praedicto.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

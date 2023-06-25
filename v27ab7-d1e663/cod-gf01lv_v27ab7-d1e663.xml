@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="228"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e663"><!-- v27ab7-q3q16 -->
+            <head xml:id="v27ab7-d1e663-Hd1e99">Quaestio 16</head>
+            <head xml:id="v27ab7-d1e663-Hd1e101" type="question-title">
+      Utrum voluntas facta in actu respectu finis possit seipsam, absque adiutorio intellectus, facere in actum respectu eorum quae sunt ad finem
+    </head>
+            <p xml:id="v27ab7-d1e663-d1e104">
+               <lb ed="#L" n="23"/>QUAESTIO XVI.
+<lb ed="#L" n="24"/>Utrum voluntas facta in actu respectu fimis possit se ipsam
+<lb ed="#L" n="25"/>absque adiutorio intellectus facere in actum respectu eorum
+<lb ed="#L" n="26"/>quae sunt ad finem.
+</p>
+            <p xml:id="v27ab7-d1e663-d1e115">
+               <lb ed="#L" n="27"/>Ad secundum praedictorum sic proceditur, scilicet quod voluntas
+<lb ed="#L" n="28"/>facta in actu respectu finis scilicet volendo ipsum potest se ipsam |
+<lb ed="#L" n="29"/>absque adiutorio intellectus facere in actum respectu eorum quae sunt
+<pb ed="#L" n="229"/>
+               <lb ed="#L" n="1"/>ad finem, eligendo ea quae sunt ad finem. Nam voluntas est magis
+<lb ed="#L" n="2"/>activa potentia quam intellectus. Sed intellectus perfectus in actu 
+secun<lb break="no" ed="#L" n="3"/>dum cognitionem principiorum per se ipsum potest se facere in actum
+<lb ed="#L" n="4"/>secundum cognitionem conclusionum. Sicut autem intellectus se habet
+<lb ed="#L" n="5"/>respectu primorum principiorum et conclusionum, ita se habet voluntas
+<lb ed="#L" n="6"/>respectu finis et eorum quae sunt ad finem. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e663-d1e139">
+               <lb ed="#L" n="7"/>Praeterea, quanto aliquid est immaterialius, tanto est actualius et
+<lb ed="#L" n="8"/>virtuosius. Sed aliquod compositum immateriale ens in actu secundum
+<lb ed="#L" n="9"/>formam substantialem potest se ipsum facere in actum secundum formam
+<lb ed="#L" n="10"/>accidentalem. Nam, ut dicitur primo! Physicorum , materia cum
+<lb ed="#L" n="11"/>forma causa est omnium accidentium quae sunt in ea, quod non 
+intel<lb break="no" ed="#L" n="12"/>ligitur solum in ratione materiae et subiecti, sed in ratione agentis.
+<lb ed="#L" n="13"/>Quare et cetera. Nonne aqua existens aqua calida sibi derelicta reduceret
+<lb ed="#L" n="14"/>se ipsam ad frigiditatem absque transmutante essentialiter, et grave
+<lb ed="#L" n="15"/>etiam facit se ipsum deorsum cum est a generante factum actu grave
+<lb ed="#L" n="16"/>et cessat prohibens illud ?
+</p>
+            <p xml:id="v27ab7-d1e663-d1e164">
+               <lb ed="#L" n="17"/>Contra. Nihil reducit se ipsum de potentia in actum secundum
+<lb ed="#L" n="18"/>idem. Sed voluntas est simplex. Ergo cum est in potentia ad aliquid,
+<lb ed="#L" n="19"/>cum secundum se totam sit in potentia ad id, nullo modo potest se
+<lb ed="#L" n="20"/>ipsam reducere ad actum secundum illud. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e663-d1e175">
+               <lb ed="#L" n="21"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

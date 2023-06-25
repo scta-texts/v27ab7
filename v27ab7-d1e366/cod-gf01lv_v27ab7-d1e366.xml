@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="80"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e366"><!-- v27ab7-q2q4 -->
+            <head xml:id="v27ab7-d1e366-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-d1e366-Hd1e101" type="question-title">
+      Utrum aliqua substantia creata possit esse immediatum principium alicuius operationis
+    </head>
+            <p xml:id="v27ab7-d1e366-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO IV.
+<lb ed="#L" n="17"/>Utrum aliqua substantia creata possit esse. immediatum
+<lb ed="#L" n="18"/>principium alicuius. operationis.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e113">
+               <lb ed="#L" n="19"/>Postea circa creaturas in speciali quaerebantur quaedam pertinentia
+<lb ed="#L" n="20"/>ad substantiam in generali, quaedam pertinentia ad quasdam substantias
+<lb ed="#L" n="21"/>in speciali. Circa pertinentia ad substantiam in generali quaerebatur
+<lb ed="#L" n="22"/>unum, utrum aliqua substantia creata possit esse immediatum principium
+<lb ed="#L" n="23"/>alicuius operationis absque aliqua potentia ipsi substantiae  superaddita
+<lb ed="#L" n="24"/>quae habeat rationem accidentis. Et arguebatur quod substantia creata
+<lb ed="#L" n="25"/>possit esse immediatum principium alicuius operationis etiam 
+acciden<lb break="no" ed="#L" n="26"/>talis. Quia generare est quaedam operatio quae non substantia, quia nec
+<lb ed="#L" n="27"/>est substantia generantis nec generati nec tertia substantia subsistens;
+<lb ed="#L" n="28"/>quare est accidentalis. Et tamen huiusmodi operationis non potest esse
+<lb ed="#L" n="29"/>accidens principium, quia accidens non potest attingere ad aliquid quod
+<lb ed="#L" n="30"/>sit extra limites accidentis, et sic non ad substantiam ; substantia autem
+<lb ed="#L" n="31"/>producitur in esse per generationem. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e144">
+               <pb ed="#L" n="81"/>
+               <lb ed="#L" n="1"/>Contra. Oportet quod actio sit proportionalis virtuti agentis. Sed
+<lb ed="#L" n="2"/>omnis actio terminatae substantiae est accidens ; accidens autem non est
+<lb ed="#L" n="3"/>proportionale substantiae sed accidenti. Ergo operationis substantiae
+<lb ed="#L" n="4"/>quae accidens est ! non potest esse immediatum principium substantia.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e158">
+               <lb ed="#L" n="5"/>Respondeo dicendum: dicunt aliqui  quod circa hoc est intelligendum
+<lb ed="#L" n="6"/>quod duplex est potentia vel principium operationis in creaturis. 
+Quae<lb break="no" ed="#L" n="7"/>dam enim est activa, quaedam autem passiva; et quia agens secundum
+<lb ed="#L" n="8"/>quod agens assimilat sibi passum, id videtur esse immediatum principium
+<lb ed="#L" n="9"/>activum actionis in quo agens assimilat sibi passum et in quo attenditur
+<lb ed="#L" n="10"/>similitudo agentis ad passum . In mutatione autem ad substantiam quae
+<lb ed="#L" n="11"/>dicitur generatio attenditur similitudo in forma substantiali; generans
+<lb ed="#L" n="12"/>enim assimilat sibi generatum in substantia quantum ad formam ? 
+sub<lb break="no" ed="#L" n="13"/>stantialem. Quare forma substantialis videtur esse principium 
+genera<lb break="no" ed="#L" n="14"/>tionis substantiae activum. Quia etiam passivum in quantum huiusmodi
+<lb ed="#L" n="15"/>non reducit se ipsum ad actum, sed ab agente reducitur in actum,
+<lb ed="#L" n="16"/>videtur quod in passivo sufficiat quod sit potentia passiva receptiva
+<lb ed="#L" n="17"/>transmutationis et actionis et formae agentis. Hoc saltem videmus in
+<lb ed="#L" n="18"/>primo passivo quod est materia prima, quia  potentia materiae non potest
+<lb ed="#L" n="19"/>dicere aliquam rem absolutam sive aliquod accidens reale additum 
+essen<lb break="no" ed="#L" n="20"/>tiae materiae, sed solum respectum vel relationem aliquam aliquo modo
+<lb ed="#L" n="21"/>in ipsa nuda essentia materiae fundatam. Et quia etiam anima est quasi
+<lb ed="#L" n="22"/>materiale et passivum respectu sensibilium intelligibilium, videtur etiam
+<lb ed="#L" n="23"/>quod potentia sentiendi et intelligendi non dicant res? accidentales
+<lb ed="#L" n="24"/>additas ipsi essentiae animae.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e204">
+               <lb ed="#L" n="25"/>Sed quia evidentibus rationibus oppositum dicitur, ideo declarandum 5
+<lb ed="#L" n="26"/>est quod nulla substantia creata potest esse sua potentia activa, nec
+<lb ed="#L" n="27"/>etiam talis potentia passiva qualis ponitur sensitiva et intellectiva potentia
+<lb ed="#L" n="28"/>in anima. Primum patet in substantiis materialibus ex ratione patientis,
+<lb ed="#L" n="29"/>quia essentia materiae quae est primum passivum non potest attingi
+<lb ed="#L" n="30"/>immediate ab aliquo agente creato, ita scilicet quod, ut probat 
+Commen<lb break="no" ed="#L" n="31"/>tator , octavo Physicorum, si esset materia omnino prima non esset
+<lb ed="#L" n="32"/>susceptibilis alicuius transmutationis. Agens ergo naturale non potest
+<pb ed="#L" n="82"/>
+               <lb ed="#L" n="1"/>immediate attingere materiam, formam substantialem immediate in nuda
+<lb ed="#L" n="2"/>materia si praeexisteret imprimendo, nec immediate removet a materia
+<lb ed="#L" n="3"/>formam substantialem !, sed primo transmutat materiam quantum ad
+<lb ed="#L" n="4"/>dispositiones, et transmutando et disponendo eam inducit formam. Sicut
+<lb ed="#L" n="5"/>ergo materia non subicitur agenti nisi quia habet dispositiones contrarias
+<lb ed="#L" n="6"/>ei sic etiam ipsum agens naturale non transmutat materiam nisi per
+<lb ed="#L" n="7"/>qualitates contrarias inhaerentes ei. Sicut ergo sola substantia  materiae
+<lb ed="#L" n="8"/>non sufficit ut transmutetur, sic sola  substantia agentis non sufficit ut
+<lb ed="#L" n="9"/>transmutet.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e246">
+               <lb ed="#L" n="10"/>Hoc etiam patet ex parte agentis, culus actio non est subita et 
+indi<lb break="no" ed="#L" n="11"/>visibilis, sed successiva et divisibilis, quia illud quod  primo inducitur
+<lb ed="#L" n="12"/>in passo per potentiam activam agentis est forma accidentalis. Si enim
+<lb ed="#L" n="13"/>inducit formam substantialem, hoc est mediante forma accidentali in qua
+<lb ed="#L" n="14"/>potest | esse motus; et si induceretur forma substantialis ab agente
+<lb ed="#L" n="15"/>naturali non mediante dispositione accidentali, esset mutatio quae non
+<lb ed="#L" n="16"/>esset terminus alicuius motus et induceretur forma in materia indisposita.
+<lb ed="#L" n="17"/>Agens ergo naturale primo inducit immediate formam accidentalem, et
+<lb ed="#L" n="18"/>mediante illa formam substantialem. Et ideo oportet immediatam potentiam
+<lb ed="#L" n="19"/>activam talis agentis esse etiam formam accidentalem. Unde secundum
+<lb ed="#L" n="20"/>Commentatorem , septimo Metaphysicae, elementa non patiuntur neque
+<lb ed="#L" n="21"/>agunt nisi per qualitates, non per formas substantiales ; est tamen forma
+<lb ed="#L" n="22"/>substantialis id in cuius virtute activa potentia accidentalis operatur; et
+<lb ed="#L" n="23"/>sicut forma substantialis in agente | est illud  cui innititur omnis potentia
+<lb ed="#L" n="24"/>activa superaddita substantiae, sic forma substantialis introducta in passo
+<lb ed="#L" n="25"/>est id ad quod  tota transmutatio ordinatur. Et ideo secundum ipsam
+<lb ed="#L" n="26"/>non est transmutatio, sed ipsa est transmutationis terminus sive finis.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e285">
+               <lb ed="#L" n="27"/>Per praedicta patet hoc idem ex parte ipsius actionis. Nam cum
+<lb ed="#L" n="28"/>actio potentiae activae in creatura sit quaedam transmutatio, et omnis
+<lb ed="#L" n="29"/>transmutatio sive motus sit secundum formam accidentalem non 
+substan<lb break="no" ed="#L" n="30"/>tidem immediate, oportet potentiam quae est immediatum principium
+<lb ed="#L" n="31"/>talis transmutationis esse accidentalem.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e298">
+               <lb ed="#L" n="32"/>Ulterius tamen est intelligendum de potentia passiva materiae, vel
+<lb ed="#L" n="33"/>eius quod habet rationem materiae vel? subiecti, quod quia ipsa materia
+<lb ed="#L" n="34"/>est primum et purum potentiale in genere materialium, et forma substan-
+<pb ed="#L" n="83"/>
+               <lb ed="#L" n="1"/>tialis, qualiscumque est, est primum actuale et simpliciter actuale sive
+<lb ed="#L" n="2"/>simpliciter dans actum materiae, ideo quicquid potest intelligi 
+imme<lb break="no" ed="#L" n="3"/>diatissime adiunctum materiae primae ut res aliqua oportet esse formam
+<lb ed="#L" n="4"/>substantialem. Quare inter quamcumque formam substantialem, cum omnis
+<lb ed="#L" n="5"/>forma talis ! det esse  simpliciter et in actu, et ipsam essentiam materiae
+<lb ed="#L" n="6"/>non potest poni vel intelligi aliquid reale absolutum existens in materia ;
+<lb ed="#L" n="7"/>sed si aliquid intelligitur hoc est solum relatio vel respectus; et 
+quae<lb break="no" ed="#L" n="8"/>cumque res absolute intelligitur ? primo adesse materiae quae est pura
+<lb ed="#L" n="9"/>potentia non potest habere simpliciter rationem potentiae, sed simpliciter
+<lb ed="#L" n="10"/>rationem actus. Si ergo inter ens simpliciter in potentia quod est materia
+<lb ed="#L" n="11"/>et ens simpliciter in actu quod est forma substantialis non est medium,
+<lb ed="#L" n="12"/>sicut nec inter materiam sive ens in potentia et non ens simpliciter,
+<lb ed="#L" n="13"/>quicquid ponitur realiter adesse vel adunitum esse materiae primae
+<lb ed="#L" n="14"/>immediate est simpliciter actus vel forma substantialis , sicut quicquid
+<lb ed="#L" n="15"/>ponitur simpliciter deficere ab entitate materiae quantum ad entia 
+mate<lb break="no" ed="#L" n="16"/>rialia dicitur penitus non ens et nihil. Et ideo ultra substantiam materiae
+<lb ed="#L" n="17"/>non est aliquid ponendum in materia immediate quod sit res aliqua
+<lb ed="#L" n="18"/>absoluta nisi formam substantialem dantem esse in actu simpliciter.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e348">
+               <lb ed="#L" n="19"/>Sed ulterius, cum ipsa materia cum forma substantiali est causa
+<lb ed="#L" n="20"/>omnium accidentium quae sunt in ea in ordine quodam, potentia passiva
+<lb ed="#L" n="21"/>ad recipiendum primum accidens quod habet esse in re materiali est ipsa
+<lb ed="#L" n="22"/>substantia materiae mediante substantia formae, ita quod huiusmodi 
+poten<lb break="no" ed="#L" n="23"/>tia passiva ad recipiendum tale accidens non dicit aliquam rem praeter
+<lb ed="#L" n="24"/>substantiam materiae et formae nisi forte relationem vel respectum tantum,
+<lb ed="#L" n="25"/>ut etiam dicitur de potentia materiae respectu formae substantialis.
+<lb ed="#L" n="26"/>Cum enim non sit abire in infinitum, oportet ponere quod sit aliquod
+<lb ed="#L" n="27"/>accidens quod immediate derivatur a substantia. Sunt autem quaedam
+<lb ed="#L" n="28"/>quae oriuntur a substantia non sic immediate, sed mediante aliquo 
+acci<lb break="no" ed="#L" n="29"/>dente alio, scilicet in ipsa substantia composita naturaliter praeexistente.
+<lb ed="#L" n="30"/>Et sic etiam oportet ponere quandoque in materialibus aliquam potentiam
+<lb ed="#L" n="31"/>passivam respectu accidentium in suscipiendo (non dico in transmutando
+<lb ed="#L" n="32"/>sive transmutationis ad formam accidentalem), ipsam substantiam 
+compo<lb break="no" ed="#L" n="33"/>sitam immediate ut patet de quantitate; — aliquando vero ipsam 
+sub<lb break="no" ed="#L" n="34"/>stantiam mediante? alio accidente; non enim potest induci caliditas in
+<lb ed="#L" n="35"/>aliquo nisi sit quantum, nec albedo nisi sit quantum et quale utpote
+<lb ed="#L" n="36"/>calidum vel huiusmodi et cetera.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e391">
+               <pb ed="#L" n="84"/>
+               <lb ed="#L" n="1"/>Ad videndum autem utrum substantia animae secundum se absque
+<lb ed="#L" n="2"/>dispositione reali sive potentia quae sit res et proprietas addita ipsi
+<lb ed="#L" n="3"/>essentiae animae sit in potentia ad hoc ut actu possit esse sentiens et
+<lb ed="#L" n="4"/>intelligens praesente motivo vel activo, intelligendum quod accidentium
+<lb ed="#L" n="5"/>in substantia receptorum quaedam insunt inseparabiliter annexa, quaedam
+<lb ed="#L" n="6"/>autem separabiliter. Semper autem intelligitur substantia esse coniuncta
+<lb ed="#L" n="7"/>suae potentiae vel virtuti, licet non semper sit coniuncta operationi
+<lb ed="#L" n="8"/>propter defectum agentis vel alicuius alterius; ut animae semper est
+<lb ed="#L" n="9"/>coniuncta virtus et potentia intellectualis et sic | de aliis, non tamen
+<lb ed="#L" n="10"/>semper actu intelligit. In anima ergo quae est substantia incorruptibilis,
+<lb ed="#L" n="11"/>accidens quod immediate fundatur in tali substantia oportet esse 
+propor<lb break="no" ed="#L" n="12"/>tionatum substantiae tali ut etiam sit incorruptibile, quia et in omni
+<lb ed="#L" n="13"/>materiali substantia ! in qua habent esse accidentia, illud quod immediate
+<lb ed="#L" n="14"/>advenit est inseparabile. Quare operatio intelligendi a qua cessat
+<lb ed="#L" n="15"/>aliquando vel secundum quam ? variationem suscipit , immediate in 
+sub<lb break="no" ed="#L" n="16"/>stantia animae fundari non videtur, sed oportet quod insit animae
+<lb ed="#L" n="17"/>mediante aliquo inseparabili accidente. Omnis enim substantia  creata
+<lb ed="#L" n="18"/>aut nulla habet accidentia, aut videtur habere aliqua accidentia sibi
+<lb ed="#L" n="19"/>connaturalia a quibus non potest expoliari et separari, nisi via qua tendit
+<lb ed="#L" n="20"/>ad corruptionem. Sed si sit substantia incorporalis, proprietates illae erunt
+<lb ed="#L" n="21"/>simpliciter inseparabiles. Quare propter intelligere et velle actuale quod
+<lb ed="#L" n="22"/>non semper animae est coniunctum nec est perfectio substantialis animae
+<lb ed="#L" n="23"/>sed accidentalis et separabilis et circa eam variabilis, est dare in 
+sub<lb break="no" ed="#L" n="24"/>stantia animae aliquas proprietates inseparabiles quibus mediantibus
+<lb ed="#L" n="25"/>poterunt animae inesse intelligere et velle.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e450">
+               <lb ed="#L" n="26"/>Hoc etiam patet ex hoc quod ostensum est quod  nulla potentia
+<lb ed="#L" n="27"/>activa substantiae creatae potest esse ipsa ' substantiae essentia, quia
+<lb ed="#L" n="28"/>nec substantia potest agere immediate per suam substantiam vel 
+essen<lb break="no" ed="#L" n="29"/>tiam; nulla enim ? substantia creata immediate per suam essentiam
+<lb ed="#L" n="30"/>subicitur agenti creato. Et quamvis substantia possit esse immediatum
+<lb ed="#L" n="31"/>fundamentum alicuius accidentis (hoc verum est de accidente connaturali
+<lb ed="#L" n="32"/>et sibi proportionato), substantia tamen non videtur esse immediatum
+<lb ed="#L" n="33"/>subiectum alicuius accidentis circa ipsum transmutabilis. Quare anima
+<lb ed="#L" n="34"/>quae est substantia incorruptibilis non videtur posse esse naturaliter 
+[et] immediatum subiectum alicuius transmutabilis accidentis. Unde ratio
+<pb ed="#L" n="85"/>
+               <lb ed="#L" n="1"/>qua dicitur quod actus et potentia sunt in eodem genere, et actus animae
+<lb ed="#L" n="2"/>est accidens ideo et potentia, non videtur absolute valere. Nam actus
+<lb ed="#L" n="3"/>aliquis accidentalis est substantiae cui non respondet potentia quae sit
+<lb ed="#L" n="4"/>accidens reale ut dictum est. Si ergo intelligere esset perfectio 
+substan<lb break="no" ed="#L" n="5"/>tialis intellectus vel perfectio eius accidentalis inseparabilis et naturalis,
+<lb ed="#L" n="6"/>posset inesse substantiae animae, non mediante alio! accidente. Sed |
+<lb ed="#L" n="7"/>cum sit perfectio accidentalis et variabilis, ideo necesse est quod insit
+<lb ed="#L" n="8"/>mediante aliquo invarlabili et inseparabili: accidentia enim illa quae
+<lb ed="#L" n="9"/>immediate fundantur in substantia simul cum substantia incipiunt. Quia
+<lb ed="#L" n="10"/>ergo intelligere et velle, ut sunt actuales operationes animae, non simul
+<lb ed="#L" n="11"/>cum substantia animae esse incipiunt, immediate in substantia animae
+<lb ed="#L" n="12"/>fundari non videntur.
+</p>
+            <p xml:id="v27ab7-d1e366-d1e500">
+               <lb ed="#L" n="13"/>Hoc autem supposito et viso, multo magis patet de aliis potentiis
+<lb ed="#L" n="14"/>organicis quod sunt aliquae proprietates accidentales et cetera. Cum ergo
+<lb ed="#L" n="15"/>dicitur : substantia est potentia generativa, dicendum quod generatio 
+sub<lb break="no" ed="#L" n="16"/>stantiae est mutatio vel mutatum esse quae est terminus alterationis ; ut
+<lb ed="#L" n="17"/>cum generatur ignis, immediate calefit et rarefit materia secundum 
+exi<lb break="no" ed="#L" n="18"/>gentiam formae igneitatis, in cuius virtute etiam operatur ipsa potentia
+<lb ed="#L" n="19"/>activa. Et ideo dicitur generari ignis substantialis ab igne substantiali
+<lb ed="#L" n="20"/>mediante motu alterationis, et sic mediante potentia activa accidentali,
+<lb ed="#L" n="21"/>cuius actionis non est immediatum principium activum ipsa forma 
+sub<lb break="no" ed="#L" n="22"/>stantialis generantis, terminus tamen est forma substantialis generati sive
+<lb ed="#L" n="23"/>compositum secundum actum illius  formae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

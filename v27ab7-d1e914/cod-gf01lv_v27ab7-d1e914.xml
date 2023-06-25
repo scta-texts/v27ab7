@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 22</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 22</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e914"><!-- v27ab7-q4q22 -->
+            <head xml:id="v27ab7-d1e914-Hd1e99">Quaestio 22</head>
+            <head xml:id="v27ab7-d1e914-Hd1e101" type="question-title">
+      Utrum aliqua qualitas possit habere esse absque omni subiecto sive sine quantitate
+    </head>
+            <p xml:id="v27ab7-d1e914-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO XXII
+<lb ed="#L" n="6"/>(LONGA).
+<lb ed="#L" n="7"/>Utrum aliqua. qualitas possit habere esse absque omni
+<lb ed="#L" n="8"/>subiecto sive sine quantitate.
+</p>
+            <p xml:id="v27ab7-d1e914-d1e115">
+               <lb ed="#L" n="9"/>Deinde circa naturam accidentis quaerebatur unum, scilicet utrum T ONOOQE S
+<lb ed="#L" n="10"/>aliqua qualitas ut puta albedo vel huiusmodi possit habere esse absque
+<lb ed="#L" n="11"/>omni subiecto sive sine quantitate vel superficie. Et arguebatur quod sic,
+<lb ed="#L" n="12"/>quia quantitas non minus videtur dependere a substantia quam albedo
+<lb ed="#L" n="13"/>a superficie. Sed quantitas potest esse sine substantia. Ergo et albedo
+<lb ed="#L" n="14"/>sine superficie.
+</p>
+            <p xml:id="v27ab7-d1e914-d1e131">
+               <lb ed="#L" n="15"/>Contra. Illud de cuius ratione est dependere non potest esse non
+<lb ed="#L" n="16"/>dependens. Sed albedo essentialiter est dependens a superficie. Si autem
+<lb ed="#L" n="17"/>haberet esse sine superficie, non sic esset dependens. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e914-d1e141">
+               <lb ed="#L" n="18"/>Respondeo dicendum quod cum accidens essentialiter. dependeat a
+<lb ed="#L" n="19"/>substantia, est tamen ordo inter ea secundum quod quaedam immediatius
+<lb ed="#L" n="20"/>adhaerent substantiae ut quantitas, et secundum hoc etiam sunt magis
+<lb ed="#L" n="21"/>participabilia modum substantiae. Substantia enim materialis non habet
+<lb ed="#L" n="22"/>extensionem nec determinationem ad situm et locum nisi per quantitatem,
+<lb ed="#L" n="23"/>nec receptibilis est formae materialis sine quantitate. Verumtamen quia
+<lb ed="#L" n="24"/>quantitas nulli formae substantiali propria est, sed ex se est indeterminata
+<lb ed="#L" n="25"/>ad omnes materiales et accidit ei per quamcumque determinari, sed alia
+<lb ed="#L" n="26"/>accidentia sibi determinant quantitatem (unde albedo in nullo habet esse
+<lb ed="#L" n="27"/>per se et primo nisi in superficie et ideo albedo non potest per se
+<lb ed="#L" n="28"/>existere), sed quia quantitas non sic determinatur, — potest separari et in
+<lb ed="#L" n="29"/>ipsa alia accidentia et cetera. Quantitas etiam per se individuatur, et
+<lb ed="#L" n="30"/>una quantitas per se distinguitur ab alia, et quantitas per se est accidens
+<lb ed="#L" n="31"/>sensibile. Et quia immediatius adhaeret materiae et substantiae, magis
+<lb ed="#L" n="32"/>participat modum substantiae ut per se esse possit; non tamen ita
+<pb ed="#L" n="300"/>
+               <lb ed="#L" n="1"/>perfecte habet modum substantiae sive participat quod sic per se esse
+<lb ed="#L" n="2"/>possit virtute propria naturali, sed virtute divina ipsam sine subiecto
+<lb ed="#L" n="3"/>conservante. Sed qualitas non sic per se habet individuari et distingui,
+<lb ed="#L" n="4"/>sed pér quantitatem. Non est etiam quid sensibile nisi secundum esse
+<lb ed="#L" n="5"/>quod habet in superficie vel perspicuo terminato, sicut nec lux nisi
+<lb ed="#L" n="6"/>secundum quod est in diaphano perspicuo. Unde szne circumscripta 
+quan<lb break="no" ed="#L" n="7"/>titate non posset intelligi individuatio, nec distinctio diversarum albedinum,
+<lb ed="#L" n="8"/>diversarum superficierum, vel diversarum partium  albedinis eiusdem
+<lb ed="#L" n="9"/>superficiei, nec posset intelligi ut quid sensibile; sed cum esset forma
+<lb ed="#L" n="10"/>omnino simplex et immaterialis, esset natura intellectualis et esset natura
+<lb ed="#L" n="11"/>incorruptibilis nec alterativa vel transmutativa alterius nec alterabilis
+<lb ed="#L" n="12"/>vel transmutabilis ab alio, nec enim esset determinata ad hic nec ad
+<lb ed="#L" n="13"/>nunc et cetera.
+  
+<lb ed="#L" n="14"/>Explicit iste liber. Deo gratias. Amen.
+</p>
+            <p xml:id="v27ab7-d1e914-d1e209">
+               <pb ed="#L" n="301"/>
+               <lb ed="#L" n="1"/>QUODLIBETI TERTII ET QUARTI
+<lb ed="#L" n="2"/>TET OMIUS
+<lb ed="#L" n="3"/>QUODLIBETUM TERTIUM
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

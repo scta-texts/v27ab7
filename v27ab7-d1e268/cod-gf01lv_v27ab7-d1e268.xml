@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="43"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e268"><!-- v27ab7-q1q20 -->
+            <head xml:id="v27ab7-d1e268-Hd1e99">Quaestio 20</head>
+            <head xml:id="v27ab7-d1e268-Hd1e101" type="question-title">
+      Utrum alicui accidenti conveniat per naturam habere esse sine subiecto
+    </head>
+            <p xml:id="v27ab7-d1e268-d1e104">
+               <pb ed="#L" n="43"/>
+               <lb ed="#L" n="1"/>QUAESTIO XX.
+<lb ed="#L" n="2"/>Utrum alicui accidenti conveniat per naturam
+<lb ed="#L" n="3"/>habere esse sine subiecto.
+</p>
+            <p xml:id="v27ab7-d1e268-d1e115">
+               <lb ed="#L" n="4"/>Postea circa naturam accidentalem quaerebatur unum, videlicet utrum
+<lb ed="#L" n="5"/>alicui accidenti conveniat per naturam habere esse sine subiecto. Et
+<lb ed="#L" n="6"/>arguebatur quod aliquod accidens per naturam possit esse absque subiecto,
+<lb ed="#L" n="7"/>quia relatio realis in creaturis est vere accidens. Sed illa est sine omni
+<lb ed="#L" n="8"/>subiecto, quia non potest esse ut in ! subiecto in eo quod refertur,
+<lb ed="#L" n="9"/>quia accidens reale existens in aliquo ut in subiecto compositionem ?
+<lb ed="#L" n="10"/>realem facit cum illo. Sed lignum non est compositius ex eo quod est album
+<lb ed="#L" n="11"/>et simile, quam ex eo quod est album solum. Quare cum. similitudo cum
+<lb ed="#L" n="12"/>albo nullam facit compositionem ? non potest esse in illo ut in subiecto,
+<lb ed="#L" n="13"/>nec in eo ad quod refertur, quia illud quod est terminus respectu relationis
+<lb ed="#L" n="14"/>non potest esse subiectum eiusdem. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e268-d1e141">
+               <lb ed="#L" n="15"/>Contra. Ouandocumque aliquid convenit alicui per naturam, 
+contra<lb break="no" ed="#L" n="16"/>rium non potest ei competere per naturam. Sed [cum] accidenti secundum
+<lb ed="#L" n="17"/>quod accidens per naturam convenit esse in subiecto, eo quod secundum
+<lb ed="#L" n="18"/>Philosophum  accidentis esse est inesse. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e268-d1e153">
+               <lb ed="#L" n="19"/>Respondeo dicendum quod, cum ens primo et per se dividatur  in
+<lb ed="#L" n="20"/>ens secundum rationem essendi absolutam ? dictum ut substantia, et in
+<lb ed="#L" n="21"/>ens secundum rationem essendi ad aliud attributum ut accidens, quod
+<lb ed="#L" n="22"/>est | non ens, nisi quia entis quod est substantia dispositio, secundum
+<lb ed="#L" n="23"/>Philosophum  septimo Metaphysicae, ita quod habere entitatem 
+sepa<lb break="no" ed="#L" n="24"/>ratam et rationem essendi non in subiecto est habere rationem 
+sub<lb break="no" ed="#L" n="25"/>stantiae, hinc est  quod ponere aliquod ens realiter sine propria realitate
+<lb ed="#L" n="26"/>ab alio distinctum et non in alio existens secundum naturam suam est
+<pb ed="#L" n="44"/>
+               <lb ed="#L" n="1"/>ponere illud esse substantiam. Ponere ergo accidens quod dicat rem
+<lb ed="#L" n="2"/>aliam a substantia et illud non esse in alio ! ut in subiecto est ponere
+<lb ed="#L" n="3"/>illud esse substantiam et accidens simul. Nonne Philosophus  in primo
+<lb ed="#L" n="4"/>libro suo qui pueris in principio legitur, scilicet in praedicamentis, ponit
+<lb ed="#L" n="5"/>hanc divisionem per immediata quod eorum quae sunt, quaedam in nullo
+<lb ed="#L" n="6"/>subiecto sunt ut homo vel Socrates, alia in subiecto sunt non  sicut
+<lb ed="#L" n="7"/>pars, et impossibile est ea esse sine his  in quibus sunt ut album et
+<lb ed="#L" n="8"/>grammatica et huiusmodi, et parum post ponit aliam divisionem etiam
+<lb ed="#L" n="9"/>entis in communi iam sic  divisi ,» dicens : eorum quae secundum
+<lb ed="#L" n="10"/>nullam complexionem dicuntur, singulum aut substantiam significat aut
+<lb ed="#L" n="11"/>quantitatem aut qualitatem aut ad aliquid et cetera?
+</p>
+            <p xml:id="v27ab7-d1e268-d1e199">
+               <lb ed="#L" n="12"/>Cum ergo summe difficile sit intelligere quod quantitas et 
+quod<lb break="no" ed="#L" n="13"/>cumque accidens in sacramento altaris in virtute divina potest esse sine 
+<lb ed="#L" n="14"/>subiecto, mirabile est quod aliquis theologus audet dicere quod accidens
+<lb ed="#L" n="15"/>reale verum et aliam rem dicens quam substantia vel quodcumque aliud
+<lb ed="#L" n="16"/>accidens secundum naturam possit esse sine  subiecto. Si autem dicatur
+<lb ed="#L" n="17"/>quod tale accidens est relatio, idem inconveniens est de relatione quod
+<lb ed="#L" n="18"/>de alio accidente, quia posito  quod non habeat aliam realitatem a 
+fun<lb break="no" ed="#L" n="19"/>damento nec aliud accidens est, sed nec aliud inesse habet nec 
+com<lb break="no" ed="#L" n="20"/>positionem ? facit. Posito autem quod aliquam proprietatem realem habeat
+<lb ed="#L" n="21"/>et faciat cum substantia et eius alio accidente multitudinem sine 
+com<lb break="no" ed="#L" n="22"/>positione ! et inhaerentia sicut aliquid assistens et secundum se 
+sub<lb break="no" ed="#L" n="23"/>sistens, sequuntur inconvenientia infinita.
+</p>
+            <p xml:id="v27ab7-d1e268-d1e228">
+               <lb ed="#L" n="24"/>Explicit primum quodlibet Godefridi. Incipit aliud ''.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

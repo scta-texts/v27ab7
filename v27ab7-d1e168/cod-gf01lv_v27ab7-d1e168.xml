@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e168"><!-- v27ab7-q1q11 -->
+            <head xml:id="v27ab7-d1e168-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-d1e168-Hd1e101" type="question-title">
+      Utrum testamentum hominis quo disposuit ut eius corpus
+      sepeliretur in aliquo loco sacro, in quo etiam
+      patres sui communiter sunt sepulti, possit ab aliquo immutari in
+      hoc quod aliqua eius pars in alio loco sepeliatur
+    </head>
+            <p xml:id="v27ab7-d1e168-d1e104">
+               <lb ed="#L" n="4"/>QUAESTIO XI.
+<lb ed="#L" n="5"/>Utrum testamentum hominis quo disposuit ut eius corpus
+<lb ed="#L" n="6"/>sepeliretur in aliquo loco sacro, in quo etiam
+<lb ed="#L" n="7"/>patres sui communiter sunt sepulti, possit ab aliquo immutari in
+<lb ed="#L" n="8"/>hoc quod aliqua eius pars in alio loco sepeliatur.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e117">
+               <lb ed="#L" n="9"/>Postea quaerebatur aliud pertinens ad homines egredientes de hac
+<lb ed="#L" n="10"/>vita, et illud fuit utrum ! ultima voluntas sive  testamentum hominis, qua
+<lb ed="#L" n="11"/>vel quo disposuit et elegit ut eius corpus simpliciter nullam partem 
+exci<lb break="no" ed="#L" n="12"/>piendo sepeliretur? in aliquo loco sacro, in quo etiam patres sui communiter
+<lb ed="#L" n="13"/>sunt sepulti, possit ab aliquo 1mmutari  in hoc quod aliqua eius pars in
+<lb ed="#L" n="14"/>alio loco sepeliatur. Et arguebatur quod possit immutari, saltem de 
+con<lb break="no" ed="#L" n="15"/>sensu illorum in quorum loco elegit talem sepulturam; quia quod donatum
+<lb ed="#L" n="16"/>est alicui potest ab eo cui datum est vel de eius consensu alteri donari. Sed
+<lb ed="#L" n="17"/>eligens sepulturam corporis sui? in aliquo loco determinato intelligitur
+<lb ed="#L" n="18"/>corpus suum legasse vel donasse in potestatem  illorum quorum est dictus
+<lb ed="#L" n="19"/>locus. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e143">
+               <lb ed="#L" n="20"/>Contra. Dicitur tertia decima ?, quaestione secunda, capitulo?  quod
+<lb ed="#L" n="21"/>ultima voluntas defuncti est in omnibus observanda. Ergo qui eligit 
+sepul<lb break="no" ed="#L" n="22"/>turam sui corporis simpliciter in aliquo loco certo nullam partem 
+exci<lb break="no" ed="#L" n="23"/>piendo ?, debet in illo integraliter sepeliri, quantum ad omnes partes quae
+<lb ed="#L" n="24"/>ad illum locum contingit deferri. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e157">
+               <lb ed="#L" n="25"/>Respondeo dicendum quod ultima voluntas defuncti est observanda
+<lb ed="#L" n="26"/>prout potest fieri bono modo, voluntas quidem quam expressit, et quam
+<pb ed="#L" n="28"/>
+               <lb ed="#L" n="1"/>per expressa etiam conici potest ipsum exprimere voluisse si advertisset.
+<lb ed="#L" n="2"/>Supponendum est autem quod ipse, quantum ad non expressa, voluisset in
+<lb ed="#L" n="3"/>habitu et expressisset | si advertisset, quae rationi essent magis 
+consen<lb break="no" ed="#L" n="4"/>tanea circa ea quae expressa ab ipso contingebant. Si ergo aliquis voluit '
+<lb ed="#L" n="5"/>et elegit expresse sepeliri corpus suum simpliciter et absolute, nulla parte
+<lb ed="#L" n="6"/>excepta, in aliquo loco sacro et magnae sanctitatis et reverentiae, tum
+<lb ed="#L" n="7"/>propter praesentiam sanctarum reliquiarum et huiusmodi, tum propter
+<lb ed="#L" n="8"/>praesentiam quasi omnium progenitorum suorum et huiusmodi, 
+supponen<lb break="no" ed="#L" n="9"/>dum est quod voluit ibidem sepeliri, quanto integrius fieri  posset bono
+<lb ed="#L" n="10"/>modo. Hoc autem commode fieri  posset, si contingeret eum mori in  loco
+<lb ed="#L" n="11"/>propinquo loco sepulturae. Et ideo simpliciter dicendum esset ipsum
+<lb ed="#L" n="12"/>voluisse quod cum omni integritate sepeliretur ibidem, et quod nulla pars
+<lb ed="#L" n="13"/>corporis nec interior nec exterior deberet a corpore separari ad 
+sepe<lb break="no" ed="#L" n="14"/>liendum in alio loco.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e196">
+               <lb ed="#L" n="15"/>Sed si contingeret ipsum mori in partibus multum remotis a quibus
+<lb ed="#L" n="16"/>non posset deferri cum faecibus nec etiam cum interioribus nisi cum nimia
+<lb ed="#L" n="17"/>difficultate, — propter quod secundum antiquam consuetudinem maiores 
+per<lb break="no" ed="#L" n="18"/>sonae, et praecipue praelati et principes in remotis partibus morientes, in
+<lb ed="#L" n="19"/>terram in qua elegerunt sepeliri cum huiusmodi interioribus non 
+consue<lb break="no" ed="#L" n="20"/>verunt deferri, — non est supponendum quod voluerit cum omnimoda 
+inte<lb break="no" ed="#L" n="21"/>gritate sepeliri inloco praedicto. Nec supponendum est quod ad hoc 
+inten<lb break="no" ed="#L" n="22"/>derit  heredem suum obligare, quod cum tantis ex | pensis et difficultate
+<lb ed="#L" n="23"/>ipsum ad locum sepulturae praedictae deferret ; sed supponendum est quod
+<lb ed="#L" n="24"/>voluit quod interiora sua, sicut et de interioribus aliorum fieri consuevit
+<lb ed="#L" n="25"/>sepelirentur in loco in quo contingeret ipsum mori, nisi forte contingeret
+<lb ed="#L" n="26"/>illa cum praedictis expensis et difficultate ad locum praedictae sepulturae
+<lb ed="#L" n="27"/>deferri . Et ita dicendum, quod si de interioribus quae extrahi contingeret
+<lb ed="#L" n="28"/>nec cum corpore deferrentur nullam faceret dispositionem specialem?, de
+<lb ed="#L" n="29"/>iure communi deberent? sepeliri in loco in quo ipsum discedere 
+contin<lb break="no" ed="#L" n="30"/>geret, secundum iura et consuetudines quibus cavetur viatores esse 
+sepe<lb break="no" ed="#L" n="31"/>liendos ubi moriuntur, ex quo non elegerunt sepulturam "".
+</p>
+            <p xml:id="v27ab7-d1e168-d1e235">
+               <lb ed="#L" n="32"/>Sed si contingeret quod heres ex gratia et reverentia ad patrem plus
+<lb ed="#L" n="33"/>vellet facere quam intelligeretur ei incumbere ex voluntate expressa?! vel
+<lb ed="#L" n="34"/>implicita ipsius patris, utpote si nolens parcere laboribus et expensis voluit
+<lb ed="#L" n="35"/>sic facere interiora in toto vel in parte praeparari quod ad locum a patre
+<pb ed="#L" n="29"/>
+               <lb ed="#L" n="1"/>ad sepeliendum electum possent deferri, numquid illud, sic ab herede quasi
+<lb ed="#L" n="2"/>ex gratia non ex debito delatum simpliciter et absolute et nulli personae
+<lb ed="#L" n="3"/>vel loco donatum vel deputatum, remanet in potestate deferentis ut in loco
+<lb ed="#L" n="4"/>qui sibi placuerit illud faciat sepeliri, vel de iure sepeliendum est una cum
+<lb ed="#L" n="5"/>corpore principali? Videtur quod sepeliendum sit in loco a patre electo ;
+<lb ed="#L" n="6"/>nam cum cesset causa propter quam in alio loco poterat sepeliri, utpote si
+<lb ed="#L" n="7"/>contingeret illud relinqui propter ! praedictam incommoditatem et 
+difficul<lb break="no" ed="#L" n="8"/>tatem deferendi, videtur quod cum corpore debeat sepeliri. Nam heres non
+<lb ed="#L" n="9"/>faciens voluntatem defuncti, sed plus faciens quam dixerit vel senserit
+<lb ed="#L" n="10"/>dictus defunctus, dicitur implere voluntatem defuncti. Praedicta ergo 
+posi<lb break="no" ed="#L" n="11"/>tione facta non videtur quod potuerit per heredem fieri huiusmodi 
+immu<lb break="no" ed="#L" n="12"/>tatio, maxime in hoc casu in quo, ut dictum est, debet voluntas defuncti
+<lb ed="#L" n="13"/>observari prout potest fieri bono modo, et hoc tam voluntas expressa de
+<lb ed="#L" n="14"/>corpore simpliciter quam etiam implicita de omnibus quae cum corpore
+<lb ed="#L" n="15"/>contingeret deferri. Hoc enim debuit esse rationabiliter voluntas eius 
+impli<lb break="no" ed="#L" n="16"/>cita, ut si quocumque casu contingeret corpus cum huiusmodi deferri ,
+<lb ed="#L" n="17"/>quod simul cum illis sepeliretur in praedicto loco principali. Quia cum
+<lb ed="#L" n="18"/>corpus entitatem et? unitatem habeat ex aggregatione suarum partium,
+<lb ed="#L" n="19"/>sicut separatio partium est contra bonum naturae, ita velle illas separari
+<lb ed="#L" n="20"/>nisi ob aliquam necessitatem videtur esse contra bonum moris. Unde sicut
+<lb ed="#L" n="21"/>in esse naturae constitutum est cum omnibus membris et sic etiam resurget,
+<lb ed="#L" n="22"/>ita videtur quod rationalis voluntas uniuscuiusque debeat esse ut quanto
+<lb ed="#L" n="23"/>melius fieri potuerit, in unitate conservetur, et ad resurrectionem 
+dispo<lb break="no" ed="#L" n="24"/>natur, licet virtus  divina quantumcumque dispersa pos | sit recolligere et
+<lb ed="#L" n="25"/>reunire. Cum etiam huiusmodi separatio quamdam atrocitatem et 
+inhuma<lb break="no" ed="#L" n="26"/>nitatem importet, non debet fieri nisi necessitas ad hoc cogat.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e305">
+               <lb ed="#L" n="27"/>Sed quia quaestio quaerit ulterius utrum saltem de consensu eorum in
+<lb ed="#L" n="28"/>quorum loco est aliquis sepeliendus possit voluntas sepeliendi circa 
+sepul<lb break="no" ed="#L" n="29"/>turam immutari, ideo ulterius sciendum quod ad videndum quomodo
+<lb ed="#L" n="30"/>poterit vel non poterit immutari huiusmodi voluntas defuncti vel in toto vel
+<lb ed="#L" n="31"/>in parte de consensu illorum in? quorum loco talis elegit sepulturam, et
+<lb ed="#L" n="32"/>etiam cum hoc auctoritate superioris, consideranda est voluntas et devotio
+<lb ed="#L" n="33"/>quam habuit defunctus ad talem locum ex causis praedictis. Et tunc
+<lb ed="#L" n="34"/>huiusmodi voluntas non debet immutari nisi ob aliquam aliam causam
+<lb ed="#L" n="35"/>meliorem ; et hoc debet fieri ex dispensatione in qua necessitas (utpote si
+<pb ed="#L" n="30"/>
+               <lb ed="#L" n="1"/>locus esset! interdictus vel flumine vastatus vel ab inimicis occupatus et
+<lb ed="#L" n="2"/>huiusmodi), vel utilitas publica, non privata, et huiusmodi.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e334">
+               <lb ed="#L" n="3"/>Advertendum autem quod secus est? de aliquo? legato relicto ecclesiae
+<lb ed="#L" n="4"/>vel monasterio principaliter in favorem et utilitatem monasterii. Posset
+<lb ed="#L" n="5"/>enim aliud legatum in alium transferri servata iuris forma; non sic in
+<lb ed="#L" n="6"/>casu proposito; unde est casus iste  similis legato sic relicto quod non
+<lb ed="#L" n="7"/>alienetur ab ecclesia. Legatum autem sic relictum secundüm legem nullo
+<lb ed="#L" n="8"/>casu licet alienare, sed secundum canones licitum est forte pro 
+redemp<lb break="no" ed="#L" n="9"/>tione captivorum et huiusmodi; non tamen licet ex causa ex qua liceret
+<lb ed="#L" n="10"/>alienare rem simpliciter legatam vel relictam. Et secundum leges ex
+<lb ed="#L" n="11"/>causa necéssaria poterat corpus sepulturae perpetuae traditum transferri
+<lb ed="#L" n="12"/>ad alium locum de licentia rectoris provinciae qui comparatur  
+epi<lb break="no" ed="#L" n="13"/>scopo (Codice, de religiosis, lege prima) , scilicet propter inundationem
+<lb ed="#L" n="14"/>fluminis vel huiusmodi. Sed nulla tali causa existente " licebat de licentia
+<lb ed="#L" n="15"/>solius imperatoris, loco cuius potest intelligi papa esse in Ecclesia
+<lb ed="#L" n="16"/>(Codice, de religiosis, lege finali ) . Ex quo enim  defunctus transtulit
+<lb ed="#L" n="17"/>sive transferri desideravit reliquias suas in coemeterium, effectae sunt
+<lb ed="#L" n="18"/>in dispositione ecclesiae et praelati, non tamen sicut res ecclesiae, immo
+<lb ed="#L" n="19"/>in nullius bonis sunt, licet sint in dispositione ecclesiae.
+</p>
+            <p xml:id="v27ab7-d1e168-d1e373">
+               <lb ed="#L" n="20"/>Et est circa praemissa amplius intelligendum quod propter 
+inordina<lb break="no" ed="#L" n="21"/>tionem quae in huiusmodi divisione corporum contingere consuevit, eo
+<lb ed="#L" n="22"/>quod corpora cum integritate decet sepeliri et occasione sepulturae circa
+<lb ed="#L" n="23"/>ila nulla divisio fieri debet, summus pontifex dominus Bonifacius 
+<lb ed="#L" n="24"/>hoc omnino fieri prohibuit ; et super hoc quandam constitutionem 
+<lb ed="#L" n="25"/>edidit in qua sic dicit: detestandae feritatis abusum quod quidam corpus
+<lb ed="#L" n="26"/>defuncti qui elegit in remotis partibus sepulturam ex quodam piae
+<lb ed="#L" n="27"/>pietatis affectu truculenter exenterant, ac illud membratim vel in frusta
+<lb ed="#L" n="28"/>immaniter concidentes, ea subsequenter? aquis immersa exponunt ignibus
+<lb ed="#L" n="29"/>decoquenda, et tandem ab ossibus tegumento carnis excusso, ad locum
+<lb ed="#L" n="30"/>sepulturae deferunt tumulanda, piae intentionis ducti proposito 
+decer<lb break="no" ed="#L" n="31"/>nimus abolendum apostolica auctoritate, | statuentes ut circa corpora
+<pb ed="#L" n="31"/>
+               <lb ed="#L" n="1"/>defunctorum huiusmodi abusio et similis nullatenus observetur, sed ut
+<lb ed="#L" n="2"/>defunctorum corpora sic impie et crudeliter non tractentur, deferantur !
+<lb ed="#L" n="3"/>in loca in quibus viventes elegerunt sepeliri aut in loco ubi decesserint,
+<lb ed="#L" n="4"/>vel loco vicino ecclesiasticae sepulturae tradantur ad tempus, ita quod
+<lb ed="#L" n="5"/>demum incineratis corporibus aut alias ad loca ubi sepulturam 
+elege<lb break="no" ed="#L" n="6"/>rint deportentur. Nos enim si quae  contra huiusmodi nostri statuti et
+<lb ed="#L" n="7"/>ordinationis tenorem praesumpserit aliquis attentare, defunctorum corpora
+<lb ed="#L" n="8"/>inhumaniter et crudeliter pertractando, excommunicationis sententiam
+<lb ed="#L" n="9"/>ipso facto cognoverint se  incursuros et nihilominus ille cuius corpus
+<lb ed="#L" n="10"/>fuit sic immaniter pertractatum ecclesiasticà careat sepultura.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

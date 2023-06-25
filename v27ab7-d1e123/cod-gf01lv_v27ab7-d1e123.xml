@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="18"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e123"><!-- v27ab7-q1q7 -->
+            <head xml:id="v27ab7-d1e123-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-d1e123-Hd1e101" type="question-title">
+      Utrum intellectus possibilis ad ipsum actum intelligendi sit
+      aliquo modo activus, sive utrum ad ipsum se habeat
+      aliquo modo in ratione causae efficientis et agentis vel solum
+      in ratione recipientis et patientis.
+    </head>
+            <p xml:id="v27ab7-d1e123-d1e104">
+               <lb ed="#L" n="17"/>QUAESTIO VII.
+<lb ed="#L" n="18"/>Utrum intellectus possibilis ad ipsum actum intelligendi sit
+<lb ed="#L" n="19"/>aliquo modo activus, sive utrum ad ipsum se habeat
+<lb ed="#L" n="20"/>aliquo modo in ratione causae efficientis et. agentis vel solum
+<lb ed="#L" n="21"/>in ratione recipientis et. patientis.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e117">
+               <lb ed="#L" n="22"/>Consequenter circa pertinentia ad actus intellectus qui non sunt
+<lb ed="#L" n="23"/>boni vel mali moraliter quaerebantur tria. Primo, utrum intellectus 
+possi<lb break="no" ed="#L" n="24"/>bilis ad ipsum actum intelligendi sive ad ipsum intelligere sit aliquo
+<lb ed="#L" n="25"/>modo activus, sive utrum ad ipsum se habeat aliquo modo in ratione
+<lb ed="#L" n="26"/>causae efficientis et agentis, vel solum in ratione recipientis et patientis.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e130">
+               <lb ed="#L" n="27"/>Et arguebatur quod intellectus possibilis respectu ipsius intelligere
+<lb ed="#L" n="28"/>vel actus intelligendi aliquo modo sit activus, quia illud cuius est iudicare,
+<lb ed="#L" n="29"/>formare, componere, dividere, syllogizare et cetera est activum respectu
+<lb ed="#L" n="30"/>illorum actuum. Sed in actibus intelligendi haec inveniuntur. Est enim
+<lb ed="#L" n="31"/>aliquis actus ? intelligendi iudicativus, compositivus, ratiocinativus et
+<lb ed="#L" n="32"/>huiusmodi. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e147">
+               <pb ed="#L" n="19"/>
+               <lb ed="#L" n="1"/>Contra. Impossibile est quod unum et ' idem respectu eiusdem sit
+<lb ed="#L" n="2"/>activum et passivum, sive in actu et in potentia. Sed intelligere secundum
+<lb ed="#L" n="3"/>Philosophum  respectu intellectus possibilis est quoddam pati, et 
+intel<lb break="no" ed="#L" n="4"/>lectus possibilis respectu ipsius  intelligere est in potentia. Ergo respectu
+<lb ed="#L" n="5"/>ipsius nullo modo etiam se habet ut efficiens sive agens.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e163">
+               <lb ed="#L" n="6"/>Respondeo dicendum quod consideranti principia philosophiae 
+com<lb break="no" ed="#L" n="7"/>munia, quaestio proposita modicam habet dubitationem. Cum enim
+<lb ed="#L" n="8"/>potentia activa sit principium transmutationis in aliud secundum quod
+<lb ed="#L" n="9"/>aliud, quia nihil agit in seipsum prout dicitur nono Metaphysicae ,
+<lb ed="#L" n="10"/>intellectus autem possibilis in natura intellectuali importat illud cui 
+con<lb break="no" ed="#L" n="11"/>venit ratio  potentiae passivae respectu actus intelligendi, constat quod
+<lb ed="#L" n="12"/>intellectui possibili non potest convenire ratio potentiae activae  respectu
+<lb ed="#L" n="13"/>eiusdem. Et hoc potest sic persuaderi; quia cum rerum compositarum
+<lb ed="#L" n="14"/>quae exeunt de potentia in actum sint principia essendi ex quorum 
+con<lb break="no" ed="#L" n="15"/>iunctione constituuntur in esse et habent esse in facto esse, quaedam
+<lb ed="#L" n="16"/>autem sunt principia fiendi ex quorum coniunctione procedunt in esse
+<lb ed="#L" n="17"/>et habent esse in fieri, maior diversitas et distinctio debet esse inter illa
+<lb ed="#L" n="18"/>quae sunt principia fiendi rei quam inter principia essendi ipsius. 
+Prin<lb break="no" ed="#L" n="19"/>cipia autem essendi rei sunt actus et potentia, scilicet materia et forma
+<lb ed="#L" n="20"/>substantialis, vel subiectum et forma accidentalis ; quae licet subiecto
+<lb ed="#L" n="21"/>non differant, oportet tamen quod realis et essentialis sit distinctio inter
+<lb ed="#L" n="22"/>illa, alioquin constitutum ex eis non esset  compositum realiter. Ergo
+<lb ed="#L" n="23"/>etiam principia fiendi  rei | sicut activum et passivum quae etiam 
+diffe<lb break="no" ed="#L" n="24"/>runt secundum actum et potentiam, non solum erunt ditferentia realiter
+<lb ed="#L" n="25"/>et essentialiter, sed etiam subiecto. Cum ergo intellectus factus in actu
+<lb ed="#L" n="26"/>importet quoddam compositum ex potentia quae est ipse intellectus
+<lb ed="#L" n="27"/>possibilis et ex actu, scilicet intellectione, quae realiter et essentialiter
+<lb ed="#L" n="28"/>differunt licet sint unum subiecto, sicut perfectio et perfectibile, 
+passi<lb break="no" ed="#L" n="29"/>vum autem hoc est ipse intellectus possibilis, activum respectu ipsius
+<lb ed="#L" n="30"/>plus debet differre quam ipse actus. Horum autem ratio est quia activum,
+<lb ed="#L" n="31"/>cum agit, seipsum non potest producere in passivum vel educere de
+<lb ed="#L" n="32"/>potentia passivi, sicut per se patet cum iam sit existens et a quocumque
+<pb ed="#L" n="20"/>
+               <lb ed="#L" n="1"/>alio distinctum et separatum ; sed similitudinem suam ad quam passum
+<lb ed="#L" n="2"/>estin potentia eduxit de potentia ad actum: ex talibus autem fit unum.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e231">
+               <lb ed="#L" n="3"/>Ergo ex hoc patet quod intellectus possibilis respectu praedicti 
+com<lb break="no" ed="#L" n="4"/>positi non potest habere rationem principii activi, cum respectu eius non
+<lb ed="#L" n="5"/>possit habere rationem principii formalis. Maior est enim ' unitas vel
+<lb ed="#L" n="6"/>identitas inter principium activum fiendi et principium formale essendi,
+<lb ed="#L" n="7"/>quam inter principium activum et passivum. Nam licet principium activum
+<lb ed="#L" n="8"/>et formale non incidant in idem numero et subiecto, sunt tamen idem
+<lb ed="#L" n="9"/>secundum speciem, in quantum principium formale est similitudo activi et
+<lb ed="#L" n="10"/>est id quo  activum assimilat sibi passum. Ergo ex hoc ulterius potest
+<lb ed="#L" n="11"/>concludi quod magis differt principium activum a principio passivo quam
+<lb ed="#L" n="12"/>differunt actus vel forma a materia vel subiecto, et efficiens a forma. Sed
+<lb ed="#L" n="13"/>manifestum est quod illa differunt realiter et essentialiter. Ergo similiter
+<lb ed="#L" n="14"/>erit in proposito.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e260">
+               <lb ed="#L" n="15"/>Praeterea, quandocumque ? principia essendi rei simul sunt, res habet
+<lb ed="#L" n="16"/>esse simpliciter et in facto esse. Ergo similiter, quandocumque  principia
+<lb ed="#L" n="17"/>fiendi rei sunt sibi praesentia vel coniuncta, res habebit esse non in pura
+<lb ed="#L" n="18"/>potentia sed in actu permixto potentiae, quod est esse in fieri aut in facto
+<lb ed="#L" n="19"/>esse; sicut contingit in aliquibus ubi simul est fieri et factum esse, ut in
+<lb ed="#L" n="20"/>illuminatione medii vel aliis huiusmodi. Si ergo intellectus possibilis 
+re<lb break="no" ed="#L" n="21"/>spectu actus intelligendi habeat rationem principii activi et passivi, cum
+<lb ed="#L" n="22"/>secundum hoc principium | activum et passivum maxime sint  coniuncta,
+<lb ed="#L" n="23"/>non solum erit actus intelügendi in fieri sed etiam erit semper in facto
+<lb ed="#L" n="24"/>esse, quod apparet inconveniens. Si dicatur quod licet intellectus possibilis
+<lb ed="#L" n="25"/>sit activum et passivum, sed non sufficit ad agendum nisi praesente obiecto
+<lb ed="#L" n="26"/>in phantasmate per virtutem intellectus agentis sub ratione intelligibilis,
+<lb ed="#L" n="27"/>dicendum quod hoc non est aliud quam dicere quod obiectum habet 
+ratio<lb break="no" ed="#L" n="28"/>nem principii activi respectu actus intelligendi. Si dicatur quod verum est
+<lb ed="#L" n="29"/>quod obiectum aliquo modo habet rationem principii activi, sed ut causa
+<lb ed="#L" n="30"/>sine qua non, non autem ut causa per se, non valet; quia quandocumque
+<lb ed="#L" n="31"/>aliqua duo sic se habent ad invicem quod per unius praesentiam alterum
+<lb ed="#L" n="32"/>est in actu aliquo in quo prius non erat, et eodem absente illud desinit esse
+<lb ed="#L" n="33"/>in tali actu, constat quod illud cuius praesentia alterum fit in actu, habet
+<lb ed="#L" n="34"/>simpliciter et per se rationem principii activi et alterum rationem principii
+<lb ed="#L" n="35"/>passivi. Sed obiecto praesente intellectui ipse intellectus fit in actu in quo
+<lb ed="#L" n="36"/>non erat obiecto absente. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e123-d1e310">
+               <pb ed="#L" n="21"/>
+               <lb ed="#L" n="1"/>Praeterea, de ratione activi est quod similitudinem suam efficiat ! in
+<lb ed="#L" n="2"/>passivo per quam passivum assimilatur agenti: quicquid enim fit, fit a sibi
+<lb ed="#L" n="3"/>simili. Sed de illo quod est unum et idem secundum rem non potest dici
+<lb ed="#L" n="4"/>quod se ipsum sibi assimilet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

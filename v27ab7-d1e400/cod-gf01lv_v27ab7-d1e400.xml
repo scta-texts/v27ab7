@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="97"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e400"><!-- v27ab7-q2q7 -->
+            <head xml:id="v27ab7-d1e400-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-d1e400-Hd1e101" type="question-title">
+      Utrum homo habeat esse ab una forma substantiali vel a pluribus
+    </head>
+            <p xml:id="v27ab7-d1e400-d1e104">
+               <pb ed="#L" n="97"/>
+               <lb ed="#L" n="1"/>QUAESTIO VII.
+<lb ed="#L" n="2"/>Utrum homo habeat esse ab. una forma. substantiali
+<lb ed="#L" n="3"/>vel a pluribus.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e115">
+               <lb ed="#L" n="4"/>Deinde circa tertium praedictorum, scilicet circa naturam mediam 
+<lb ed="#L" n="5"/>inter pure immaterialem et pure materialem, scilicet circa hominem,
+<lb ed="#L" n="6"/>quaerebatur unum pertinens ad eius esse formale in generali, scilicet
+<pb ed="#L" n="98"/>
+               <lb ed="#L" n="1"/>utrum homo habeat esse ab una forma substantiali tantum vel a pluribus,
+<lb ed="#L" n="2"/>sive utrum in homine sit una forma substantialis tantum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e131">
+               <lb ed="#L" n="3"/>Et arguebatur quod homo non habeat esse ab una forma substantiali
+<lb ed="#L" n="4"/>tantum, quia ponere hominem habere tantum unam formam substantialem
+<lb ed="#L" n="5"/>est contra sensum, item est contra rationem, item est contra fidem.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e141">
+               <lb ed="#L" n="6"/>Contra sensum, quia in homine mortuo ad sensum apparent eadem
+<lb ed="#L" n="7"/>accidentia esse quae erant in ipso vivente. Hoc autem non esset nisi
+<lb ed="#L" n="8"/>aliqua forma substantialis quae erat in ipso vivente maneret in mortuo,
+<lb ed="#L" n="9"/>quia accidentia non consequuntur materiam ' nisi mediante forma 
+sub<lb break="no" ed="#L" n="10"/>stantiali. Sed forma substantialis quae est? anima non est in mortuo
+<lb ed="#L" n="11"/>homine, sed alia; et illa etiam erat in vivo simul cum anima. Quare et
+<lb ed="#L" n="12"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e159">
+               <lb ed="#L" n="13"/>Hoc etiam est contra rationem, quia ratio iudicat quod unicuique
+<lb ed="#L" n="14"/>agenti et actioni respondet suus terminus et effectus, quare duorum
+<lb ed="#L" n="15"/>agentium quae agunt diversis actionibus respondent diversi sive plures
+<lb ed="#L" n="16"/>effectus et termini. Sed ad productionem hominis concurrunt duo agentia,
+<lb ed="#L" n="17"/>scilicet agens naturale et agens supernaturale. Quare ad constitutionem
+<lb ed="#L" n="18"/>eius concurrent ? duae formae substantiales, quarum una erit terminus
+<lb ed="#L" n="19"/>agentis naturalis, alia erit terminus agentis supernaturalis.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e177">
+               <lb ed="#L" n="20"/>Hoc etiam videtur esse contra fidem, quoniam si in homine non sit
+<lb ed="#L" n="21"/>nisi una forma, scilicet anima, tunc cum Christus fuit mortuus, non
+<lb ed="#L" n="22"/>remansit idem corpus numero mortuum quod fuerat vivum; tunc etiam
+<lb ed="#L" n="23"/>substantia panis converteretur in solam materiam quae non est corpus ,
+<lb ed="#L" n="24"/>nec caro, aut converteretur in compositum ex materia et anima quae
+<lb ed="#L" n="25"/>tamen non dicitur ibi esse nisi per concomitantiam. Haec autem omnia
+<lb ed="#L" n="26"/>sunt inconvenientia. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e195">
+               <lb ed="#L" n="27"/>Contra. Secundum Philosophum , nono Metaphysicae, actus sive
+<lb ed="#L" n="28"/>forma facit distare et differre. Ouare illud in quo sunt plures formae
+<lb ed="#L" n="29"/>oportet habere differentiam realem. Sicut ergo illud in quo sunt plures
+<lb ed="#L" n="30"/>formae accidentales non est unum, ita illud in quo sunt plures formae
+<lb ed="#L" n="31"/>substantiales non potest esse unum, cum formae substantiales faciant
+<lb ed="#L" n="32"/>magis  unum distare quam accidentales.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e211">
+               <lb ed="#L" n="33"/>Respondeo dicendum quod quia homo est ens in genere determinato
+<pb ed="#L" n="99"/>
+               <lb ed="#L" n="1"/>existens, secundum aliquos  ponuntur in ipso plures formae secundum
+<lb ed="#L" n="2"/>pluralitatem generum et differentiarum quae sunt in ipso. — Quia ! etiam
+<lb ed="#L" n="3"/>est ens materiale? (materia prima ordine quodammodo naturali et 
+essen<lb break="no" ed="#L" n="4"/>tiali se habet ad formas materiales in ipsa receptibiles), secundum alios
+<lb ed="#L" n="5"/>ponuntur plures formae in ipso ? in quantum oportet materiam  eius primo
+<lb ed="#L" n="6"/>perfici formis simplicibus, et mediantibus illis aliqua forma mixtionem
+<lb ed="#L" n="7"/>elementorum consequente. — Quia etiam est ens non pure materiale et
+<lb ed="#L" n="8"/>corruptibile sive naturale, sed aliquo modo ens immateriale et 
+incorrup<lb break="no" ed="#L" n="9"/>tibile et supernaturale, in quantum in ipso est aliqua forma omnino 
+incor<lb break="no" ed="#L" n="10"/>ruptibilis et a materia separabilis, ideo secundum aliquos  oportet ponere
+<lb ed="#L" n="11"/>in homine ? aliquam formam substantialem naturalem et unam 
+supernatu<lb break="no" ed="#L" n="12"/>ralem, et pure materialem et | spiritualem. Et sic sunt tres modi ponendi
+<lb ed="#L" n="13"/>pluralitatem. formarum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e246">
+               <lb ed="#L" n="14"/>I. Quantum igitur ad primum istorum sciendum est quod rationi huic 
+<lb ed="#L" n="15"/>innititur, quod cum unumquodque ens specificum quod vere est in genere
+<lb ed="#L" n="16"/>sit compositum ex genere et differentia , differentia autem est qua abundat
+<lb ed="#L" n="17"/>species a genere et sic est aliquid additum generi in specie, oportet quod
+<lb ed="#L" n="18"/>in omni tali sint plures formae realiter differentes. Verumtamen species
+<lb ed="#L" n="19"/>erit? quid unum per se, quia sicut materia et forma sunt quaedam duae
+<lb ed="#L" n="20"/>essentiae, neutrum ipsorum est nihil aliquod ens, et tamen quia illud
+<lb ed="#L" n="21"/>entitatis quod importat materia potentiale quoddam est et imperfectum
+<lb ed="#L" n="22"/>respectu entitatis quam importat forma, ideo ex materia et forma fit unum in
+<lb ed="#L" n="23"/>gradu completiore. Similiter etiam licet prima? forma ? generis sit aliquod
+<lb ed="#L" n="24"/>ens, quia tamen est quid potentiale et imperfectum respectu formae 
+com<lb break="no" ed="#L" n="25"/>pletae quam importat differentia, et se habet compositum ex materia et
+<lb ed="#L" n="26"/>huiusmodi forma prima incompleta ad formam completam ut materia 
+pro<lb break="no" ed="#L" n="27"/>pria respectu illius, ideo etiam ex istis fiet unum per se. Unde dictum 
+Phi<lb break="no" ed="#L" n="28"/>losophi  est septimo Metaphysicae, quod ex duobus actibus vel entibus in
+<lb ed="#L" n="29"/>actu non fit aliquid unum per se; intelligitur de his quorum utrumque est
+<pb ed="#L" n="100"/>
+               <lb ed="#L" n="1"/>actus completus vel in actu completo, et non de his quorum unum habet
+<lb ed="#L" n="2"/>rationem actus incompleti respectu alterius. Prima autem forma, quia non
+<lb ed="#L" n="3"/>dat esse et actualitatem per quam compositum habeat esse simpliciter et
+<lb ed="#L" n="4"/>complete, ideo secundum illud esse vel secundum huiusmodi actualitatem
+<lb ed="#L" n="5"/>non habet esse in genere vel! in specie simpliciter et complete. De ratione
+<lb ed="#L" n="6"/>enim eius quod est in genere! substantiae simpliciter est quod habeat
+<lb ed="#L" n="7"/>esse simpliciter stabile et quietum vel fixum et completum per formam
+<lb ed="#L" n="8"/>specificam. Unde forma specifica complete consistit non solum in forma
+<lb ed="#L" n="9"/>differentiae, sed etiam in forma generis. Per formam enim substantialitatis
+<lb ed="#L" n="10"/>vel corporeitatis ante adventum formae specificae habet species 
+substan<lb break="no" ed="#L" n="11"/>tiae quendam modum substantiae vel corporis incompletum tamen, et
+<lb ed="#L" n="12"/>completur eius substantialitas et corporeitas per formam specificam. Si
+<lb ed="#L" n="13"/>enim tale compositum haberet esse completum in genere substantiae per
+<lb ed="#L" n="14"/>illam primam formam, forma specifica esset extra rationem et essentiam
+<lb ed="#L" n="15"/>talis compositi et esset accidentalis, et se haberet homo ad substantiam
+<lb ed="#L" n="16"/>sicut homo albus ad hominem. Per intellectivam ergo homo in specie
+<lb ed="#L" n="17"/>reponitur, et etiam perfecte per ipsam habet esse in genere, non dat tamen
+<lb ed="#L" n="18"/>homini esse substantiam, sed complementum substantiae, nec esse corporis
+<lb ed="#L" n="19"/>sed complementum corporeitatis. Et sicut materia habet per se gradum
+<lb ed="#L" n="20"/>substantialitatis incompletum tamen valde, ita illud compositum ex forma
+<lb ed="#L" n="21"/>praecedente specificam? est substantia incompleta, licet multum completior
+<lb ed="#L" n="22"/>quam materia. Non obstante ergo pluralitate formarum, cum una sit ut
+<lb ed="#L" n="23"/>materia respectu alterius et alia det primae esse comple | tum, erit unum
+<lb ed="#L" n="24"/>per se vel per essentiam ex eis, sicut ex materia quae secundum istorum
+<lb ed="#L" n="25"/>opinionem dicit aliquid actualitatis et forma, non obstante huiusmodi 
+actua<lb break="no" ed="#L" n="26"/>litate duplici fit unum per essentiam. Et sicut natura numquam permutat
+<lb ed="#L" n="27"/>materiam sine forma ad quam est in potentia, ut per ipsam habeat esse
+<lb ed="#L" n="28"/>completum, ita etiam numquam sistit sub prima forma, sed continue 
+pro<lb break="no" ed="#L" n="29"/>cedit natura ad formam completam specificam ad quam est in potentia 
+<lb ed="#L" n="30"/>et completur per eam. Unde huiusmodi compositum praecedens non est
+<lb ed="#L" n="31"/>principaliter intentum  a natura, sed est quasi  quoddam medium quo
+<lb ed="#L" n="32"/>natura incipiens a primo fundamento naturae devenit ad completum et
+<lb ed="#L" n="33"/>specificum ens quod intendit. — Ita etiam in resolutione naturae non
+<lb ed="#L" n="34"/>quiescit donec resolverit in huiusmodi primum fundamentum naturae.
+<lb ed="#L" n="35"/>Unde mortuo homine? non introducitur nova forma specifica, sed est
+<lb ed="#L" n="36"/>continuus processus corruptionis resolutorius ad fun | damentum prae-
+<pb ed="#L" n="101"/>
+               <lb ed="#L" n="1"/>dictum. Corpus tamen Christi ab hoc continuo processu reservabatur
+<lb ed="#L" n="2"/>virtute divina. Secundum legem enim communem, cadavera mortua non
+<lb ed="#L" n="3"/>habent esse stabile et quietum. — Secundum praedicta ! autem non
+<lb ed="#L" n="4"/>solum in entibus substantialibus materialibus, sed etiam in accidentibus
+<lb ed="#L" n="5"/>oportet ponere plures formas realiter differentes; sicut enim lapis est
+<lb ed="#L" n="6"/>compositus ex genere et differentia, ita albedo et cetera. S1 ergo genus
+<lb ed="#L" n="7"/>et differentia in substantiis important plures formas, non est ratio quare
+<lb ed="#L" n="8"/>hoc etiam non contingit in accidentibus.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e384">
+               <lb ed="#L" n="9"/>Sed arguitur quod sic non sit pluralitas formarum in aliquo, 
+quo<lb break="no" ed="#L" n="10"/>niam in omnibus generibus natura generalissimi magis convenit rei
+<lb ed="#L" n="11"/>secundum ultimam formam per quam habet esse specificum quam
+<lb ed="#L" n="12"/>secundum aliquam aliam earum quae finguntur praecedere et simul
+<lb ed="#L" n="13"/>coexistere in eadem re generata. Equus enim magis et verius subsistit 
+<lb ed="#L" n="14"/>per animam per quam habet esse specificum quam per aliquam aliam
+<lb ed="#L" n="15"/>praecedentem quae possit inesse ; ergo per ipsam etiam verius est
+<lb ed="#L" n="16"/>substantia quam per aliam possit esse. Hoc autem non contingeret si
+<lb ed="#L" n="17"/>esset alia forma a substantialhtate et non esset formaliter et essentialiter
+<lb ed="#L" n="18"/>substantialtas quaedam. Ergo per unam et eandem formam est aliquid
+<lb ed="#L" n="19"/>in genere substantiae, et equus et animal et substantia, vel pirus 
+vege<lb break="no" ed="#L" n="20"/>tabile et substantia. Si enim ab aliqua forma habet aliquid quod sit equus
+<lb ed="#L" n="21"/>et quod sit animal sive ens sensibile (et similiter de piro vegetativo ?
+<lb ed="#L" n="22"/>est intelligendum), cum forma quae dat esse specificum non sit minus
+<lb ed="#L" n="23"/>nobilis quam illa quae dat esse generis, scilicet forma qua aliquid est
+<lb ed="#L" n="24"/>equus est alia a forma qua  est animal, oportet quod sit anima sensitiva
+<lb ed="#L" n="25"/>sive dans esse sensitivum vel anima nobilior quam sensitiva. Sed vitabile ?
+<lb ed="#L" n="26"/>est dicere quod in equo sint duae animae sensitivae et quod in eo sit
+<lb ed="#L" n="27"/>aliqua anima ultra sensitivam, quia non ponitur talis nisi rationalis. Ergo
+<lb ed="#L" n="28"/>per eandem formam per quam aliquid est equus est etiam animal. Quod
+<lb ed="#L" n="29"/>autem per eandem? etiam" sit substantia, hoc patet, quia forma per
+<lb ed="#L" n="30"/>quam aliquid non est substantia non est substantialis, quia esse per?
+<lb ed="#L" n="31"/>formam substantialem oportet illud  cuius est esse substantiam. Si ergo
+<lb ed="#L" n="32"/>per formam per quam aliquid est equus, est et animal ", non est 
+sub<lb break="no" ed="#L" n="33"/>stantia, illa forma non est substantialis, quod est inconveniens.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e441">
+               <lb ed="#L" n="34"/>Immo etiam respiciendo comparationem et proportionem quam isti
+<lb ed="#L" n="35"/>faciunt, forma substantialis ipsi! materiae non dat substantialitatem
+<pb ed="#L" n="102"/>
+               <lb ed="#L" n="1"/>quam de se habet. Non enim sic perficit eam quod ipsam ! faciat 
+perfec<lb break="no" ed="#L" n="2"/>tiorem substantialitatem, quia sua substantialitas quae de se sibi debetur
+<lb ed="#L" n="3"/>convenit sibi secundum gradum suae essentiae invariabiliter. Sed quia
+<lb ed="#L" n="4"/>ipsa forma substantialis est substantialitas quaedam perfectior quia actualis
+<lb ed="#L" n="5"/>— non quia habeat esse secundum se, sed qua aliquid habet simpliciter —,
+<lb ed="#L" n="6"/>ideo compositum ex materia et forma est quoddam ens substantiale
+<lb ed="#L" n="7"/>perfectum quod non convenit materiae. Non? tamen ipsa forma cum
+<lb ed="#L" n="8"/>materia faceret sic unum compositum substantiale, nisi materia et forma
+<lb ed="#L" n="9"/>essent substantialitas quaedam essentialiter, haec potentialis, haec actualis
+<lb ed="#L" n="10"/>dicto modo. Non quod substantia dicat aliquam  rem indifferentem ad
+<lb ed="#L" n="11"/>materiam et formam, sive aliam ab utraque, sed ipsa substantialitas  non
+<lb ed="#L" n="12"/>est nisi vel materialitas, vel aliqua actualitas, vel aliquid existens ex
+<lb ed="#L" n="13"/>utroque. Consimili ergo ratione, si forma generis scilicet substantialitas
+<lb ed="#L" n="14"/>dicit aliquam substantialitatem formalem incompletam, forma specifica
+<lb ed="#L" n="15"/>realiter et actualiter ab ea differens non faciet perfectiorem ipsam 
+sub<lb break="no" ed="#L" n="16"/>stantialitatem primae formae; et sic corporeitas addita substantialitati
+<lb ed="#L" n="17"/>non addit  aliquid quo substantialitas praecedens sit perfectior 
+substan<lb break="no" ed="#L" n="18"/>tialitas, sed solum quo totum sit quoddam perfectius ens habens plures
+<lb ed="#L" n="19"/>perfectiones quarum una est substantialitas, alia vero non est 
+substan<lb break="no" ed="#L" n="20"/>tialitas. Propter quod etiam ipsa forma specifica non solum non faciet
+<lb ed="#L" n="21"/>substantialitatem | perfectiorem, immo etiam nec substantialitatem aliquam
+<lb ed="#L" n="22"/>faciet, nisi ipsa forma specifica sit essentialiter et formaliter 
+substan<lb break="no" ed="#L" n="23"/>tialitas quaedam, et sic simul cum prima forma faceret quandam novam
+<lb ed="#L" n="24"/>substantiam actualem, et essent duae substantialitates  formales et
+<lb ed="#L" n="25"/>actuales, immo plures simul in eodem. Hoc autem est impossibile, quia
+<lb ed="#L" n="26"/>in genere accidentium est impossibile dare duas formas accidentales in
+<lb ed="#L" n="27"/>eodem, nisi sint diversorum generum non subalternatim positorum et
+<lb ed="#L" n="28"/>saltem diversarum specierum disparatarum pertinentium ad disparata
+<lb ed="#L" n="29"/>genera propinqua non subalternatim posita. Ergo similiter nec in genere
+<lb ed="#L" n="30"/>substantiae poterunt inveniri plures formae substantiales in eodem, nisi
+<lb ed="#L" n="31"/>pertineant ad diversa genera non subalternatim posita , vel saltem ad
+<lb ed="#L" n="32"/>diversas species non subalternatim positas. Sed hoc est impossibile, quia
+<lb ed="#L" n="33"/>tunc aliquod unum in genere substantiae esset in diversis generibus
+<lb ed="#L" n="34"/>substantiae subalternatim positis. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e524">
+               <lb ed="#L" n="35"/>Si autem dicatur quod forma specifica substantiae non sit 
+substan<lb break="no" ed="#L" n="36"/>tialitas quaedam determinata, sicut prima forma substantiae ponitur esse
+<pb ed="#L" n="103"/>
+               <lb ed="#L" n="1"/>substantialitas quaedam indeterminata, sed sit! alia forma realis et etiam
+<lb ed="#L" n="2"/>non substantialitas, tunc non solum non complebit substantialitatem
+<lb ed="#L" n="3"/>praecedentem, ut dictum est, nec etiam eam determinabit vel coartabit,
+<lb ed="#L" n="4"/>secundum quod dicit Commentator(l1) septimo Metaphysicae, loquens de
+<lb ed="#L" n="5"/>ideis et universalibus separatis: « si in homine separato est pars ex
+<lb ed="#L" n="6"/>separatione animalitatis et rationabilitatis, tunc rationabilitas non 
+distin<lb break="no" ed="#L" n="7"/>guit animalitatem hominis ab animalitate simpliciter sive simplici sicut
+<lb ed="#L" n="8"/>accidit in definito », — sed non faciet simpliciter unum per sé in genere
+<lb ed="#L" n="9"/>substantiae cum illa. Ex substantialitate enim et non substantialitate non
+<lb ed="#L" n="10"/>fit una substantia per se; sed ex substantialitate completa ut forma et
+<lb ed="#L" n="11"/>substantialitate incompleta ut materia bene fit una substantialitas. Sicut
+<lb ed="#L" n="12"/>enim ex non | substantüs non fit substantia, ita ex duobus quorum
+<lb ed="#L" n="13"/>unum non est substantialitas formaliter sive essentialiter (non dico
+<lb ed="#L" n="14"/>actualiter propter materiam), et aliud est non substantialitas, non fiet
+<lb ed="#L" n="15"/>aliquid quod sit substantia tantum, sed erit substantia et aliquid aliud.
+<lb ed="#L" n="16"/>Et sic non est unum ens per se et quantum ad esse simpliciter sive
+<lb ed="#L" n="17"/>quantum ad esse substantiam, sed accidet ei tale quid quod erit accidens
+<lb ed="#L" n="18"/>simpliciter, ut patet, cum non sit substantia. Oportet ergo quod omne
+<lb ed="#L" n="19"/>quod est in genere substantiae, vel ut substantia per se subsistens, vel
+<lb ed="#L" n="20"/>ut principium materiale vel formale substantiae, sit substantialitas quaedam
+<lb ed="#L" n="21"/>formaliter et essentialiter dicto modo. Ergo omnis forma de genere
+<lb ed="#L" n="22"/>substantiae, sive substantialis, est substantialitas quaedam. Ergo forma
+<lb ed="#L" n="23"/>substantialis quae dat esse corporeum vel lapideum etiam dat esse 
+sub<lb break="no" ed="#L" n="24"/>stantiam, et per eandem formam est aliquid corpus vel lapis et substantia.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e585">
+               <lb ed="#L" n="25"/>Si dicatur quod in lapide non est aliqua forma substantialis quae
+<lb ed="#L" n="26"/>non sit substantialitas quaedam, sed est una quae est substantia tantum
+<lb ed="#L" n="27"/>scilicet forma generalissima, alia quae est substantia et lapideitas, et sic
+<lb ed="#L" n="28"/>per illam formam per quam lapis est, lapis est etiam substantia, non valet ;
+<lb ed="#L" n="29"/>quia si per illam per quam lapis est lapis est substantia, superfluit alia
+<lb ed="#L" n="30"/>per quam dicitur esse substantia tantum. Item, impossibile videtur quod
+<lb ed="#L" n="31"/>per unam formam aliquid habeat quod sit substantia et lapis, si 
+substan<lb break="no" ed="#L" n="32"/>tialitas et lapideitas dicant res diversas. Ergo per unam et eandem formam
+<lb ed="#L" n="33"/>non habet aliquid unum esse substantia et lapis, nisi lapideitas sit quaedam
+<lb ed="#L" n="34"/>substantialitas. Si ergo substantialitas respectu lapideitatis est sicut genus
+<pb ed="#L" n="104"/>
+               <lb ed="#L" n="1"/>respectu differentiae, ergo a forma una lapidis est accipere differentiam
+<lb ed="#L" n="2"/>et genus.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e616">
+               <lb ed="#L" n="3"/>Ulterius etiam ostendi potest quod non potest in genere substantiae
+<lb ed="#L" n="4"/>esse aliquid quod sit substantia tantum, sive grenus tantum, et non
+<lb ed="#L" n="5"/>species specialissima, ostendendo quod quaelibet substantialitas est 
+speci<lb break="no" ed="#L" n="6"/>fica, et nulla forma generis subalterni vel generalissimi realiter est alia
+<lb ed="#L" n="7"/>ab ipsis specificis; quia quaelibet forma in genere substantiae est 
+sub<lb break="no" ed="#L" n="8"/>stantialitas quaedam essentialiter; quare substantia in communi dicitur
+<lb ed="#L" n="9"/>de ipsis univoce et essentialiter. Ergo substantia praedicata de pluribus
+<lb ed="#L" n="10"/>in genere substantiae non potest esse alia forma realis ab illis de quibus
+<lb ed="#L" n="11"/>praedicatur; ergo est solum nomen commune secundum aliquam unam
+<lb ed="#L" n="12"/>communem rationem quam significat substantia, ut est | genus primum.
+<lb ed="#L" n="13"/>Constat enim quod nihil potest dici esse substantia nisi sit aliqua haec
+<lb ed="#L" n="14"/>substantia. Si autem aliquid est haec substantia singularis, substantialitas
+<lb ed="#L" n="15"/>quae praedicatur de ipsa et de quacumque alia praedicatur de talibus
+<lb ed="#L" n="16"/>ut quid! commune. Ergo cum illud quod est substantia tantum, secundum
+<lb ed="#L" n="17"/>istos sit haec substantia per suam substantialitatem, et illud quod est
+<lb ed="#L" n="18"/>corpus etiam sit haec substantia per ipsam corporeitatem, et substantia
+<lb ed="#L" n="19"/>praedicata de ipsis est quid commune quod est genus, aut ergo est
+<lb ed="#L" n="20"/>genus dicens rem aliam ab utraque talium specierum et sic esset abire
+<lb ed="#L" n="21"/>in infinitum, aut non dicit rem aliam. Sed qua ratione illud genus non
+<lb ed="#L" n="22"/>dicit rem aliam a suis talibus speciebus, eadem ratione nec aliud ; ergo
+<lb ed="#L" n="23"/>universaliter nullum genus dicit rem aliam a suis speciebus. Quare
+<lb ed="#L" n="24"/>omnis forma realis in quocumque genere est eadem realiter cum forma
+<lb ed="#L" n="25"/>specifica; quare ab eadem forma a qua species est species, etiam est
+<lb ed="#L" n="26"/>genus secundum aliam rationem, scilicet determinati vel indeterminati.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e671">
+               <lb ed="#L" n="27"/>Et ideo etiam formae substantiales numeris sive speciebus 
+nume<lb break="no" ed="#L" n="28"/>rorum comparantur octavo Metaphysicae . Sicut ergo numerus non
+<lb ed="#L" n="29"/>dicit aliquam formam realiter aliam a formis specierum  numerorum,
+<lb ed="#L" n="30"/>(impossibile enim est intelligere quod numerus dicat aliquam multitudinem
+<lb ed="#L" n="31"/>discretam quae nec sit par nec impar), sic impossibile etiam est esse
+<lb ed="#L" n="32"/>colorem qui non sit albus, vel niger, vel medius. Nam supponendo? quod
+<lb ed="#L" n="33"/>de ratione coloris sit lux terminata, impossibile est esse lucem  
+termi<lb break="no" ed="#L" n="34"/>natam, nullo tamen termino terminatam, et impossibile est lucem esse
+<pb ed="#L" n="105"/>
+               <lb ed="#L" n="1"/>terminatam nisi aliquo termino certo. Sed certa terminatio constituit
+<lb ed="#L" n="2"/>certam speciem, et ita etiam impossibile est esse animal habens pedes
+<lb ed="#L" n="3"/>et non habeat determinatos pedes, scilicet duos vel quattuor vel huiusmodi,
+<lb ed="#L" n="4"/>et animal videns nec acutissime vel limpidissime ut aquila, nec 
+obtusis<lb break="no" ed="#L" n="5"/>sime vel non? limpidissime ut noctua, nec medio modo ut alia, et sic
+<lb ed="#L" n="6"/>de aliis.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e707">
+               <lb ed="#L" n="7"/>Ouare videtur esse impossibile aliquod genus esse sine specie
+<lb ed="#L" n="8"/>specialissima, sive quod dicat formam aliam quam differentiam ipsam.
+<lb ed="#L" n="9"/>Ut enim exemplis Philosophi  utamur, sicut in animali bipede non sunt
+<lb ed="#L" n="10"/>aliqua duo, habere pedes et habere duos pedes, et in ternario esse
+<lb ed="#L" n="11"/>numerum et esse ternarium, itaque in omnibus est intelligendum. Forma
+<lb ed="#L" n="12"/>ergo generis respectu plurium specierum est una solum secundum
+<lb ed="#L" n="13"/>rationem et conceptum, non autem secundum rem, sive huic conceptui
+<lb ed="#L" n="14"/>non respondet una res extra sed plures respectu quarum tamen propter
+<lb ed="#L" n="15"/>aliquam apparentiam in eis in quibus conveniunt formatur unus 
+con<lb break="no" ed="#L" n="16"/>ceptus unius rationis de ipsis. Unde dicit Themistius ?, circa 
+princi<lb break="no" ed="#L" n="17"/>pium de anima, quod genus est conceptus sine hypostasi summatim
+<lb ed="#L" n="18"/>collectus ex tenui singularium similitudine, species autem natura vult
+<lb ed="#L" n="19"/>esse quaedam et forma. Et ideo logicus qui est artifex rationalis dicit
+<lb ed="#L" n="20"/>genus praedicari de speciebus univoce propter unitatem rationis et
+<lb ed="#L" n="21"/>conceptus, secundum quod genus dicitur aliquod unum solum secundum
+<lb ed="#L" n="22"/>rationem ; physicus vero qui est artifex realis dicit genus praedicari
+<lb ed="#L" n="23"/>aliquo modo aequivoce sive non simpliciter univoce, eo quod uni 
+con<lb break="no" ed="#L" n="24"/>ceptui et rationi secundum intellectum non respondet una forma et
+<lb ed="#L" n="25"/>natura in re extra, et secundum hoc latent aequivocationes ? in genere.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e751">
+               <lb ed="#L" n="26"/>Sed si forma generis esset una, secundum rem differens a 
+differen<lb break="no" ed="#L" n="27"/>tiis, sicut. eadem materia potest subesse diversis formis, ita etiam
+<lb ed="#L" n="28"/>eadem materia cum eadem forma generis pluribus differentiis posset
+<lb ed="#L" n="29"/>subesse, saltem successive et eadem numero, quod non contingit de
+<lb ed="#L" n="30"/>specie respectu individuorum, et sic esset maior unitas et univocatio
+<lb ed="#L" n="31"/>generis respectu specierum quam speciel respectu individuorum. Hoc
+<lb ed="#L" n="32"/>autem falsum est; hoc enim? solius materiae est, scilicet ipsam esse
+<pb ed="#L" n="106"/>
+               <lb ed="#L" n="1"/>unam secundum rem successive in diversis, et hoc propter diversitatem
+<lb ed="#L" n="2"/>eius realem a formis. Unde Commentator , duodecimo Metaphysicae,
+<lb ed="#L" n="3"/>loquens de materia dicit: « unum ! numero potest inveniri in pluribus ;
+<lb ed="#L" n="4"/>hoc autem non intelligitur de eo quod est in actu, sed ens in | potentia
+| unum numero potest esse commune pluribus. Ouia enim non habet
+<lb ed="#L" n="5"/>differentias quibus differt in singulis individuis et quibus invenitur 
+plu<lb break="no" ed="#L" n="6"/>ralitas in numero dicitur? esse unum, et quia caret forma qua res dicitur
+<lb ed="#L" n="7"/>esse una numero dicitur esse commune pluribus rebus in numero; non
+<lb ed="#L" n="8"/>quia habeat formam communem sicut est in genere —, formae enim 
+com<lb break="no" ed="#L" n="9"/>munes in quibus inveniuntur universalia sunt entia in potentia; et ideo
+<lb ed="#L" n="10"/>scire aliquid secundum quod est universale est scire in potentia. 
+Com<lb break="no" ed="#L" n="11"/>municatio ergo quae intelligitur in formis communibus habet esse extra
+<lb ed="#L" n="12"/>animam in potentia, ista autem communicatio quae intelligitur in materia
+<lb ed="#L" n="13"/>est pura privatio, cum non intelligatur nisi secundum ablationem 
+forma<lb break="no" ed="#L" n="14"/>rum diversarum individualium ab ea ».
+</p>
+            <p xml:id="v27ab7-d1e400-d1e801">
+               <lb ed="#L" n="15"/>Praeterea, si genus dicat aliam formam realiter a differentia, ergo
+<lb ed="#L" n="16"/>species est quoddam compositum ex materia et pluribus formis. Sed
+<lb ed="#L" n="17"/>pars non praedicatur de toto nisi denominative ; ergo non vere diceretur :
+<lb ed="#L" n="18"/>homo est substantia, sed substantialitas vel huiusmodi. Si autem dicatur
+<lb ed="#L" n="19"/>quod immo genus praedicatur de specie per se et essentialiter, non
+<lb ed="#L" n="20"/>denominative, quia genus non imponitur praecise illi formae sive 
+com<lb break="no" ed="#L" n="21"/>posito ex materia et illa prima forma, sed toti composito completo sub
+<lb ed="#L" n="22"/>ratione tamen incompleti et indeterminati, hoc videtur esse fictio. Ex
+<lb ed="#L" n="23"/>quo enim forma generis est aliqua forma realiter alia a forma 
+diffe<lb break="no" ed="#L" n="24"/>rentiae, huic rei per se potest nomen imponi, et supponendum est quod
+<lb ed="#L" n="25"/>impositum est nomen generis ei quod ? per se et de natura sua importat
+<lb ed="#L" n="26"/>talem entitatem. — Ulterius etiam si forma generis sit alia secundum rem
+<lb ed="#L" n="27"/>a forma differentiae, tunc illud quod importatur nomine generis non
+<lb ed="#L" n="28"/>esset specie  aliud et aliud in duabus speciebus, sicut illud ad quod
+<lb ed="#L" n="29"/>nomine hominis designatur non diversificatur  specie in homine albo
+<lb ed="#L" n="30"/>et nigro. Hoc autem est inconveniens. Sed natura generis, puta animalis,
+<lb ed="#L" n="31"/>hon esset alia et alia specie in homine et equo, nisi differentiae 
+divi<lb break="no" ed="#L" n="32"/>sivae animalis, quae constituunt aliud et aliud animal specie, acciperentur
+<lb ed="#L" n="33"/>a forma qua animal est animal Ergo differentiae divisivae huius 
+<pb ed="#L" n="107"/>
+               <lb ed="#L" n="1"/>generis quod est animal accipiuntur ab eadem forma a qua accipitur
+<lb ed="#L" n="2"/>genus quod est animal.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e851">
+               <lb ed="#L" n="3"/>Praeterea, si genus et species et differentia! dicerent diversas formas,
+<lb ed="#L" n="4"/>non differrent abstractio mathematica quae est abstractio formae a
+<lb ed="#L" n="5"/>materia sensibili ab abstractione logica quae est universalis a particulari,
+<lb ed="#L" n="6"/>quia utrobique differret re illad quod abstrahitur ab eo a quo abstrahitur
+<lb ed="#L" n="7"/>quantum ad formas a quibus nomina imponuntur.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e864">
+               <lb ed="#L" n="8"/>Praeterea, species non esset ens unum per se, quia ex pluribus
+<lb ed="#L" n="9"/>entibus? in actu non fit unum per se et simpliciter, quia huiusmodi
+<lb ed="#L" n="10"/>formae cum sint simplices se totis ab invicem differunt, et unaquaeque
+<lb ed="#L" n="11"/>est extra quamlibet secundum se totam. Quare habens istas non erit
+<lb ed="#L" n="12"/>unum nisi per agegregationem, et definitio istas explicans non erit unum
+<lb ed="#L" n="13"/>simpliciter, quod est contra Philosophum  et Commentatorem , septimo
+<lb ed="#L" n="14"/>Metaphysicae, ubi dicitur quod si genus divideretur per aliqua existentia
+<lb ed="#L" n="15"/>extra naturam generis, definitio non esset una. Commentator  septimo
+<lb ed="#L" n="16"/>Metaphysicae: Definitio est sermo unus, quia significat in re unam
+<lb ed="#L" n="17"/>substantiam. Et infra: illud quod est ante ultimam non est aliquid extra
+<lb ed="#L" n="18"/>animam in actu existens. Et definitio est una quoniam in ea non est
+<lb ed="#L" n="19"/>aliquid in actu nisi unum, et multitudo quae est in ea est in potentia
+<lb ed="#L" n="20"/>sicut indeterminatum et determinatum, et non facit unum ex determinato
+<lb ed="#L" n="21"/>et indeterminato sicut ex diversis, sed facit? ipsum indeterminatum
+<lb ed="#L" n="22"/>determinatum secundum processum ad ultimam et completam actus
+<lb ed="#L" n="23"/>specifici perfectionem, et omnia huiusmodi praecedentia non sunt realiter
+<lb ed="#L" n="24"/>nisi ipsa  ultima differentia, ut patet ibi. Et in tertio Metaphysicae 
+<lb ed="#L" n="25"/>vult quod praedicabilia in quid de definito sint principia cognoscendi
+<pb ed="#L" n="108"/>
+               <lb ed="#L" n="1"/>rationis, non tamen sunt principia rei, ita quod solum diversas rationes
+<lb ed="#L" n="2"/>dicant et non diversas res et cetera. Quia ergo unitas definitionis
+<lb ed="#L" n="3"/>attenditur penes unitatem formae, partes definitionis non sunt partes nisi
+<lb ed="#L" n="4"/>unius formae. Unitas enim definitionis et definiti non patiuntur 
+plurali<lb break="no" ed="#L" n="5"/>tatem formarum quarum una realiter sit extra naturam alterius 
+qualiter<lb break="no" ed="#L" n="6"/>cumque ad invicem ordinentur . Nec valet quod dicitur de completo |
+<lb ed="#L" n="7"/>et incompleto, quia cum unaquaeque formarum substantialium det actum
+<lb ed="#L" n="8"/>essendi, unaquaeque earum est actus completus simpliciter, et ita si in
+<lb ed="#L" n="9"/>re sint plures actus substantiales quantumcumque incompleti, illa res
+<lb ed="#L" n="10"/>erit plura sive multa simpliciter, cum secundum actum essendi res
+<lb ed="#L" n="11"/>uniuntur.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e932">
+               <lb ed="#L" n="12"/>Ulterius ergo ad exclusionem distinctionis qua dicunt quod forma
+<lb ed="#L" n="13"/>incompleta potest esse potentia respectu formae completae, non autem
+<lb ed="#L" n="14"/>completa, intelligendum quod aliquid dicere actum incompletum potest
+<lb ed="#L" n="15"/>intelligi dupliciter. Vel quia dicit illum actum subesse et ratione  
+poten<lb break="no" ed="#L" n="16"/>tiali, — sicut album in potentia et cum est in motu dealbationis dicitur
+<lb ed="#L" n="17"/>esse album incomplete, quasi scilicet non habet formam illam  in actu
+<lb ed="#L" n="18"/>sed in potentia. Secundum hoc ex completo et incompleto non fit
+<lb ed="#L" n="19"/>proprie aliquid. unum, sed ipsum incompletum fit completum, prout
+<lb ed="#L" n="20"/>album in potentia fit album in actu. Aliquando vero dicitur aliquid
+<lb ed="#L" n="21"/>incompletum secundum aliquam formam, non quia habeat illam formam
+<lb ed="#L" n="22"/>in potentia et sic formatum sit in potentia secundum illam, sed quia
+<lb ed="#L" n="23"/>habet totam actualitatem quam nata est materia habere vel compositum
+<lb ed="#L" n="24"/>secundum illam formam, illa tamen forma est incompleta vel imperfecta
+<lb ed="#L" n="25"/>respectu alterius, vel etiam ipsum compositum ex materia et illa forma
+<lb ed="#L" n="26"/>est incompletum aliquo modo respectu alterius formae vel compositi.
+<lb ed="#L" n="27"/>Et hoc modo bene una species specifica est quid incompletum  respectu
+<lb ed="#L" n="28"/>alterius et tale incompletum non fit  completum, nec ex ipso cum
+<lb ed="#L" n="29"/>completo fit aliquid unum per se in actu; quoniam cum aliquid est in
+<lb ed="#L" n="30"/>actu secundum aliquam huiusmodi formam scilicet substantialem 
+quam<lb break="no" ed="#L" n="31"/>cumque incompletam, quia tamen est in actu complete secundum illam
+<lb ed="#L" n="32"/>cum  eam habet complete, respectu nullius alterius potest esse in
+<lb ed="#L" n="33"/>potentia simpliciter sive habere potentialitatem simpliciter quae habeat
+<lb ed="#L" n="34"/>rationem subiecti respectu formae dantis esse simpliciter, quia iam in se
+<lb ed="#L" n="35"/>tale ens habet actualitatem simpliciter, cum habeat complete actualitatem
+<lb ed="#L" n="36"/>eius quod est forma et actus simpliciter, licet | sit incompletus ut dictum
+<pb ed="#L" n="109"/>
+               <lb ed="#L" n="1"/>est respectu alterius. Sed habere poterit rationem potentiae secundum
+<lb ed="#L" n="2"/>quid, quae bene facit ipsum subiectum esse ens in actu simpliciter et in
+<lb ed="#L" n="3"/>potentia quodammodo ; quare ex ipso et illo ad quod sic est in potentia
+<lb ed="#L" n="4"/>non poterit fieri unum ! essentialiter. Praedicta autem possunt per simile
+<lb ed="#L" n="5"/>declarari, quia licet aliqua qualitas non det ita completum esse quale
+<lb ed="#L" n="6"/>sicut albedo vel scientia, tamen quaelibet forma existens in genere 
+quali<lb break="no" ed="#L" n="7"/>tatis dat esse quale simpliciter et complete, sicut nigredo dat esse nigrum
+<lb ed="#L" n="8"/>complete quod est esse quale simpliciter, licet illud esse non sit ita
+<lb ed="#L" n="9"/>completum et perfectum sicut esse album. Ergo a simili quaelibet forma
+<lb ed="#L" n="10"/>in genere substantiae existens dat complete esse actu substantiam
+<lb ed="#L" n="11"/>aliquam, licet non sit ita? completa et perfecta substantia sicut multae
+<lb ed="#L" n="12"/>aliae. Sed illud quod advenit alicui quod est complete substantia est
+<lb ed="#L" n="13"/>accidens. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1020">
+               <lb ed="#L" n="14"/>Praemissa etiam ? possunt manifestari sic, quoniam haec est causa
+<lb ed="#L" n="15"/>quare ex materia et forma fit unum simpliciter sive per se et essentialiter,
+<lb ed="#L" n="16"/>quia materia de se non dicit aliquam entitatem actualem in genere
+<lb ed="#L" n="17"/>substantiae, sed solum potentialem ; est enim medium inter pure non
+<lb ed="#L" n="18"/>ens et inter actu ens; et ideo sicut inter materiam et non esse omnino
+<lb ed="#L" n="19"/>aliquid inferius non est medium, ita etiam inter materiam et esse 
+sim<lb break="no" ed="#L" n="20"/>pliciter ad superius non est medium . Oportet ergo quod omnis forma
+<lb ed="#L" n="21"/>quantumcumque imperfecta, si secundum actualitatem quam nata est
+<lb ed="#L" n="22"/>habere secundum se sit in materia, et non solum sit in ipsa in potentia,
+<lb ed="#L" n="23"/>quod det? materiae esse simpliciter, et quod huiusmodi forma in genere
+<lb ed="#L" n="24"/>substantiae sit actus et forma simpliciter sicut et ipsa materia in genere
+<lb ed="#L" n="25"/>substantiae est potentia simpliciter  et cetera. Et secundum hoc materia
+<lb ed="#L" n="26"/>non dicit aliquid actualitatis sed puram potentiam ; propter quod ex ipsa
+<lb ed="#L" n="27"/>cum quacumque forma substantiali fit unum simpliciter. Hoc patet per
+<lb ed="#L" n="28"/>Commentatorem  in de substantia orbis dicentem: « Aristoteles invenit
+<lb ed="#L" n="29"/>transmutationem individuorum in dispositionibus quae faciunt individua
+<pb ed="#L" n="110"/>
+               <lb ed="#L" n="1"/>transmutari nomine et definitione (quae transmutatio dicitur greneratio
+<lb ed="#L" n="2"/>et cor | ruptio), cogere subiectum non esse existens in actu et non
+<lb ed="#L" n="3"/>habere formam qua substantiatur. Si enim haberet formam, nullam aliam
+<lb ed="#L" n="4"/>reciperet nisi illa destructa; unam enim formam habere nisi unum ! 
+sub<lb break="no" ed="#L" n="5"/>iectum est impossibile. Ouod enim est in actu non recipit aliquid quod est
+<lb ed="#L" n="6"/>in actu secundum quod est in actu, sive quamdiu est in actu. Unde natura
+<lb ed="#L" n="7"/>huiusmodi subiecti recipientis formas substantiales scilicet primae materiae
+<lb ed="#L" n="8"/>necesse est esse naturam  potentiae, scilicet quod potentia est eius 
+diffe<lb break="no" ed="#L" n="9"/>rentia substantialis; et ideo nullam habet formam propriam et naturam
+<lb ed="#L" n="10"/>existentiae in actu, sed eius substantia est esse in posse et ex hoc haec
+<lb ed="#L" n="11"/>materia recipit omnes formas ». Unde quicumque ponebant materiam esse
+<lb ed="#L" n="12"/>aliquid in actu ponebant omnes formas accidentales. Sive ergo materia
+<lb ed="#L" n="13"/>dicatur esse de se quiddam in actu vel aliquam actualitatem importans,
+<lb ed="#L" n="14"/>sive intelligatur ut de se in potentia solum existens, tamen aliquo modo
+<lb ed="#L" n="15"/>in actu secundum formam substantialem quantumcumque incompletam,
+<lb ed="#L" n="16"/>ex ipsa et forma quae dicitur completa non poterit fieri unum per se.
+<lb ed="#L" n="17"/>Quare in proposito videtur esse dicendum quod si forma generis dicat
+<lb ed="#L" n="18"/>aliquam rem in materia aliam a differentia ex genere et differentia, non
+<lb ed="#L" n="19"/>fieret unum per se.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1101">
+               <lb ed="#L" n="20"/>Et sic non valet fundamentum dictae positionis. Quamvis autem ab
+<lb ed="#L" n="21"/>una et eadem re sumatur ordo praedicabilium quae distinguuntur secundum
+<lb ed="#L" n="22"/>genus et differentiam et speciem, item secundum genus generalissimum
+<lb ed="#L" n="23"/>et subalternum (haec autem multitudinem quandam important), tamen
+<lb ed="#L" n="24"/>ordo huiusmodi cui non respondet multitudo realis ex parte formae cui
+<lb ed="#L" n="25"/>imponuntur non est vanus, quia ordo praedicamentalis non dicit ordinem
+<lb ed="#L" n="26"/>aliquorum plurium realiter differentium, sed secundum rationem quae
+<lb ed="#L" n="27"/>fundantur  in una re concepta sub diversis rationibus ex comparatione
+<lb ed="#L" n="28"/>ad aliqua diversa? in aliquo etiam communicantia. Et ideo cum talis
+<lb ed="#L" n="29"/>pluralitas habeat fundamentum aliquo modo in re non est cassa; provenit
+<pb ed="#L" n="111"/>
+               <lb ed="#L" n="1"/>enim huiusmodi diversitas rationum non ex pluribus formis existentibus
+<lb ed="#L" n="2"/>in eodem sed ex parte eiusdem secundum eandem formam ad diversa.
+<lb ed="#L" n="3"/>Quamvis etiam eadem sit forma qua asinus est asinus et qua est animal,
+<lb ed="#L" n="4"/>unumquodque autem intelligitur intellecta sua forma, non oportet tamen
+<lb ed="#L" n="5"/>quod intellecto animali intelligatur asinus nisi in universali, quia anima
+<lb ed="#L" n="6"/>non imponitur ad significandum determinate asinum et eius formam sed
+<lb ed="#L" n="7"/>indeterminate; unde dicit aliquid quod indeterminate se habet ad asinum
+<lb ed="#L" n="8"/>et ad multa alia; et contractum ad asinum non dicit aliam formam in
+<lb ed="#L" n="9"/>asino ab illa qua asinus est asinus.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1147">
+               <lb ed="#L" n="10"/>II. Nunc ergo videamus de secundo modo quo ponitur plures esse 
+for<lb break="no" ed="#L" n="11"/>mas in homine. Sciendum ergo quod quantum ad hunc secundum, videtur
+<lb ed="#L" n="12"/>aliquibus quod quia homo est quoddam ens mixtum, oportet in ipso esse
+<lb ed="#L" n="13"/>plures formas. Nam elementa, quae sunt corpora simplicia habentia formas
+<lb ed="#L" n="14"/>simplices, aliquo modo manent in mixtis, quae sunt corpora composita
+<lb ed="#L" n="15"/>sive habentia formas aliquo modo compositas, et etiam praeter ipsas
+<lb ed="#L" n="16"/>formas elementorum in mixto aliquo modo manentes oportet esse aliquam
+<lb ed="#L" n="17"/>aliam formam completiorem, quae nec sit elementum nec ex elementis,
+<lb ed="#L" n="18"/>ut dicitur in fine septimi Metaphysicae . Si enim miscibilia elementa
+<lb ed="#L" n="19"/>sic essent in mixto quod corrumperentur omnino secundum suas 
+actua<lb break="no" ed="#L" n="20"/>litates. substantiales et esset in mixto tantum ? una forma simplex in
+<lb ed="#L" n="21"/>essentia alia ab ipsis ?, elementa non deberent dici elementa talis entis,
+<lb ed="#L" n="22"/>ut patet per definitionem elementi in quinto  Metaphysicae . Est enim
+<lb ed="#L" n="23"/>elementum ex quo componitur? aliud et est in eo. — Si etiam mixta sic
+<lb ed="#L" n="24"/>resolvantur in elementa quod fit elementorum omnino nova generatio,
+<lb ed="#L" n="25"/>non plus dicerentur mixta fieri ex elementis quam e converso. — 5i etiam
+<lb ed="#L" n="26"/>elementa sic corrumperentur in mixto, cum corruptio unius sit generatio
+<lb ed="#L" n="27"/>alterius, mixtio non differret a generatione. Unde quia formae elementorum
+<lb ed="#L" n="28"/>sunt inter omnes alias formas  substantiales incompletissimae vel 
+imper<lb break="no" ed="#L" n="29"/>fectissimae, utpote materiae primae propinquiores, et sic quodammodo
+<lb ed="#L" n="30"/>mediae inter formas substantiales completas et pure accidentales, et 
+quo<lb break="no" ed="#L" n="31"/>dammodo habentes contrarietatem ad invicem, et potentes suscipere magis
+<lb ed="#L" n="32"/>et minus et sic remanere ' in mixto non quidem | in actu completo neque
+<pb ed="#L" n="112"/>
+               <lb ed="#L" n="1"/>in potentia pura, sed quasi medio modo inter potentiam et actum, et sic |
+<lb ed="#L" n="2"/>videtur posse salvari mixtio secundum veritatem et distingui ab 
+elemen<lb break="no" ed="#L" n="3"/>torum corruptione ; — ideo sic ponuntur in omni mixto plures formae.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1208">
+               <lb ed="#L" n="4"/>Haec videtur etiam fuisse positio Commentatoris  ut patet tertio
+<lb ed="#L" n="5"/>caeli et mundi ; et ideo cum homo sit quoddam mixtum, praeter animam
+<lb ed="#L" n="6"/>oportet esse in mixto huiusmodi quattuor elementa ad minus. Unde dicit ?
+<lb ed="#L" n="7"/>Damascenus , libro tertio, capitulo decimo sexto: necesse est hominem
+<lb ed="#L" n="8"/>dicere ad minus compositum esse ex quinque naturis, id est  ex quattuor
+<lb ed="#L" n="9"/>elementis et anima. Contradicit ergo, ut videtur, philosophiae opinio ponens
+<lb ed="#L" n="10"/>in homine tantum unam formam  quae est anima, quare tunc in homine
+<lb ed="#L" n="11"/>non erunt elementa nec forma mixti et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1228">
+               <lb ed="#L" n="12"/>Verumtamen ex intentione Commentatoris, non habetur quod elementa
+<lb ed="#L" n="13"/>sic possint manere in mixto quod forma substantialis alicuius eorum dicatur
+<lb ed="#L" n="14"/>simpliciter manere ?, quamvis etiam esset imperfecta respectu cuiuscumque
+<lb ed="#L" n="15"/>alterius, eo quod secundum  ipsum compositum debet esse unum ab una
+<lb ed="#L" n="16"/>forma. Et ideo dictum suum videtur sic intelligendum, quod ipsa elementa
+<lb ed="#L" n="17"/>sic corrumpantur secundum medietatem suarum substantiarum, quod 
+con<lb break="no" ed="#L" n="18"/>veniant ad aliquam commixtionem, secundum quam non potest dici quod
+<lb ed="#L" n="19"/>aliquod elementorum sit in actu suae formae, nec etiam quod illa commixtio
+<lb ed="#L" n="20"/>quod est quoddam medium dispositum et adaptatum materiae ad formam
+<lb ed="#L" n="21"/>completam determinatam mixti sit aliqua forma substantialis in actu media
+<lb ed="#L" n="22"/>inter formas elementorum, — sicut forte imaginantur aliqui de medio
+<lb ed="#L" n="23"/>colore constituto ex extremis. Quoniam sicut ipsae formae elementorum
+<pb ed="#L" n="113"/>
+               <lb ed="#L" n="1"/>non possunt manere eo quod actualitates substantiales important, et in
+<lb ed="#L" n="2"/>composito substantiali non potest esse secundum eum nisi una forma
+<lb ed="#L" n="3"/>substantialis, ita etiam cum illa commixtione si diceret aliquam formam
+<lb ed="#L" n="4"/>substantialem, non posset compositum suscipere aliam formam 
+sub<lb break="no" ed="#L" n="5"/>stantialem. Et ideo non videtur tenendum esse quod videtur sonare
+<lb ed="#L" n="6"/>littera Commentatoris, sed est? dicendum quod mixtio? fit per hoc
+<lb ed="#L" n="7"/>quod ex elementis ad invicem coniunctis et per mutuam actionem ad
+<lb ed="#L" n="8"/>invicem corruptis, et quantum ad esse accidentale et quantum ad esse
+<lb ed="#L" n="9"/>substantiale, resultat virtute alicuius agentis aliquod mixtum et aliqua
+<lb ed="#L" n="10"/>qualitas media inter qualitates miscibilium, sicut quoddam medium inter
+<lb ed="#L" n="11"/>extrema, differens ab eis non sicut remissum ab intenso, sed specifice.
+<lb ed="#L" n="12"/>Et secundum hoc Commentator est exponendus, ut dicitur communiter,
+<lb ed="#L" n="13"/>quod scilicet elementa manent virtute in forma una secundum essentiam
+<lb ed="#L" n="14"/>mixti et in qualitate media quae multa est secundum virtutem, non sic
+<lb ed="#L" n="15"/>autem in elemento aliquo manet mixtum in virtute. Unde primo de 
+gene<lb break="no" ed="#L" n="16"/>ratione : neque manent actu ut corpus et album neque corrumpuntur,
+<lb ed="#L" n="17"/>neque alterum neque ambo, salvatur enim virtus eorum. Et ideo etiam
+<lb ed="#L" n="18"/>dicuntur mixta magis composita quam elementa in quantum remanent
+<lb ed="#L" n="19"/>formae elementorum et qualitates ipsorum quae dicuntur simplices in illa
+<lb ed="#L" n="20"/>forma mixti, et in qualitate media quae dicitur composita non secundum
+<lb ed="#L" n="21"/>partes realiter differentes, sed secundum partes virtuales differentes 
+secun<lb break="no" ed="#L" n="22"/>dum rationem. Secundum hoc etiam mixtum dicitur resolvi in elementa ;
+<lb ed="#L" n="23"/>non sic unum elementum in aliud, propter huiusmodi formam et qualitatem
+<lb ed="#L" n="24"/>mediam in qua modo supradicto virtute dicuntur remanere elementa, et
+<lb ed="#L" n="25"/>qua corrupta iterum generantur. Et secundum hoc, sicut elementa manent
+<lb ed="#L" n="26"/>in virtute in forma mixti mineralum et etiam ulterius elementa et etiam
+<lb ed="#L" n="27"/>forma mixti virtute remanent in forma vegetativa vegetabilium, ita etiam
+<lb ed="#L" n="28"/>ulterius haec omnia virtute remanent in una anima animalium brutorum.
+<lb ed="#L" n="29"/>Dictum etiam Commentatoris  super illud: quoniam in fundamento naturae
+<lb ed="#L" n="30"/>et cetera, quod prius intelliguntur in materia formae universales et postea
+<lb ed="#L" n="31"/>formae particulares et cetera, est sic intelligendum, quod huiusmodi ordo 
+<lb ed="#L" n="32"/>prioritatis et posterioritatis est ordo rationis qui non requirit diversas formas
+<lb ed="#L" n="33"/>realiter in eodem.
+  
+<pb ed="#L" n="114"/>
+               <lb ed="#L" n="1"/>III. Tertius modus ponendi pluralitatem formarum specialiter in solo
+<lb ed="#L" n="2"/>homine propter pluralitatem agentium est talis, quod quia homo est
+<lb ed="#L" n="3"/>quoddam medium inter penitus materialia et corruptibilia et inter pure
+<lb ed="#L" n="4"/>spiritualia et incorruptibilia, in ipso sunt duae formae, quia ratione ' 
+huius<lb break="no" ed="#L" n="5"/>modi suae naturae mediae est quid productum in esse a duobus agen- |
+<lb ed="#L" n="6"/>tibus, scilicet a naturali et a supernaturali. Duorum autem agentium
+<lb ed="#L" n="7"/>quorum unum agit ex praesupposita materia , aliud non, necesse est
+<lb ed="#L" n="8"/>actiones diversas? esse et terminari ad plures formas. Et est modus 
+posi<lb break="no" ed="#L" n="9"/>tionis quod, cum iam facta est dispositio quae est necessitas in materia
+<lb ed="#L" n="10"/>ad susceptionem illius formae naturalis quae producenda est de potentia
+<lb ed="#L" n="11"/>materiae, simul facta est necessitas ad susceptionem formae 
+supernatu<lb break="no" ed="#L" n="12"/>ralis, et tanquam unum subiectum facta est materia unica habilitate
+<lb ed="#L" n="13"/>potentiali proxima susceptiva duarum dictarum formarum simul et in
+<lb ed="#L" n="14"/>eodem instanti, etsi prius natura illius quae est naturalis, eo quod de
+<lb ed="#L" n="15"/>potentia ipsius materiae educitur, tanquam dispositio approprians  
+mate<lb break="no" ed="#L" n="16"/>riam ad aliam quae est ab extrinseco. Non enim magis uniretur anima
+<lb ed="#L" n="17"/>humana " materiae existenti[s] sub forma semiais equi quam existenti 
+<lb ed="#L" n="18"/>sub forma seminis hominis, nisi esset talis dispositio. Et sicut  una sine
+<lb ed="#L" n="19"/>alia non est nata advenire materiae, sed ambae simul, sic nec una earum
+<lb ed="#L" n="20"/>nata est dare esse aliquod supposito, et subsistere sine altera. Nec dant
+<lb ed="#L" n="21"/>aliud et aliud esse subsistentiae supposito, sed unum et idem, ita quod
+<lb ed="#L" n="22"/>illa forma naturalis respectu animae est ut dispositio in materia praecedens
+<lb ed="#L" n="23"/>naturaliter " ad recipiendum animam et ultimum actum, respectu vero
+<lb ed="#L" n="24"/>materiae est cum illa forma quae est anima habens rationem unius formae
+<lb ed="#L" n="25"/>aeque '" immediate perficientis materiam et dantis supposito unum esse
+<lb ed="#L" n="26"/>subsistentiae. Sed illud esse sub ratione esse simpliciter et quasi incompleti
+<lb ed="#L" n="27"/>et indeterminati est communiter ab illa forma naturali et ab | anima;
+<lb ed="#L" n="28"/>habet autem inten/ionem !! mixtionis sive rationem esse inixti a forma
+<lb ed="#L" n="29"/>corporeitatis ipsum compositum, ab anima vero sub ratione vitae et esse
+<lb ed="#L" n="30"/>completi et determinati ; et neutra earum in quantum forma est ' advenit
+<lb ed="#L" n="31"/>composito iam in aliquo esse constituto, licet naturalis ut est dispositio
+<lb ed="#L" n="32"/>ad animam immediatius adhaeret materiae. Quia enim anima humana
+<lb ed="#L" n="33"/>quae est immaterialis, plus elongata est a materia, ut non possit habere
+<pb ed="#L" n="115"/>
+               <lb ed="#L" n="1"/>in se rationem perficiendi materiam immediate sub ratione incompletissimi
+<lb ed="#L" n="2"/>et maxime materialis quod est esse mixti, et virtus sive potentia intelligendi
+<lb ed="#L" n="3"/>quae debet esse in homine non potest esse in forma|li] materiali educta de
+<lb ed="#L" n="4"/>potentia materiae, ut patet tertio de anima , ideo oportet in homine esse
+<lb ed="#L" n="5"/>aliquam formam naturalem materialem eductam de potentia materiae quae
+<lb ed="#L" n="6"/>est forma mixti determinata et appropriata homini, et aliam supernaturalem
+<lb ed="#L" n="7"/>immaterialem ! sive de potentia materiae non eductam, quae tamen possit
+<lb ed="#L" n="8"/>esse forma et actus materiae cum praedicta forma materiali.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1423">
+               <lb ed="#L" n="9"/>Et tamen ad argumentum contra eos quod unius unum est esse, et esse
+<lb ed="#L" n="10"/>est a forma et cetera, dicunt quod in uno non est nisi unum esse suppositi,
+<lb ed="#L" n="11"/>possunt tamen in uno esse plura esse naturae ; et unum esse non est nisi
+<lb ed="#L" n="12"/>ab una forma, verum est de esse naturae et non de esse suppositi. Et, ut
+<lb ed="#L" n="13"/>dicunt, non sic possunt evadere ponentes plures formas substantiales in
+<lb ed="#L" n="14"/>alis, ponendo scilicet diversa esse naturae ab illis pluribus formis, et
+<lb ed="#L" n="15"/>unum esse suppositi completive ab ultima forma specifica et inchoative
+<lb ed="#L" n="16"/>a praecedentibus. Quia, si plures essent formae in aliis, cum essent eductae
+<lb ed="#L" n="17"/>de potentia materiae et non essent solo numero differentes, oporteret illas
+<lb ed="#L" n="18"/>educi de diversis potentis materiae, quarum quaelibet illarum formarum,
+<lb ed="#L" n="19"/>per se non cum alia vel per alteram, nata esset perficere materiam in esse
+<lb ed="#L" n="20"/>et gradu naturae determinato secundum singulas potentias materiae. Quia
+<lb ed="#L" n="21"/>propriae formae respondent propria habilitas vel potentia materiae, ut
+<lb ed="#L" n="22"/>patet ? per Commentatorem , duodecimo Metaphysicae; et per hoc
+<lb ed="#L" n="23"/>quaelibet huiusmodi forma, quantum est de se, constituet compositum et
+<lb ed="#L" n="24"/>suppositum et hoc aliquid cum materia, dans ei et communicans suum
+<lb ed="#L" n="25"/>esse speciale ac si eam sola perficeret, quia nullam habent inter se in
+<lb ed="#L" n="26"/>perficiendo communicantiam. — In homine autem non sic ponuntur plures
+<lb ed="#L" n="27"/>formae eductae de eadem potentia vel de diversis, quia altera educitur
+<lb ed="#L" n="28"/>de una potentia materiae, altera vero de nulla producitur ab extrinseco.
+<lb ed="#L" n="29"/>Quae tamen ambae ordinantur ad perficiendum materiam secundum 
+ean<lb break="no" ed="#L" n="30"/>dem potentiam et habilitatem, ita quod altera non nisi cum alia nata est
+<lb ed="#L" n="31"/>materiam secundum illam potentiam perficere. Et ita neutra per | se nata
+<lb ed="#L" n="32"/>est facere per se compositum aut suppositum aut hoc aliquid cum materia.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1479">
+               <lb ed="#L" n="33"/>Unde etiam huiusmodi forma naturalis in Christo mansit post animae
+<lb ed="#L" n="34"/>separationem miraculose, et tunc dedit esse suppositi omnino incompletum
+<pb ed="#L" n="116"/>
+               <lb ed="#L" n="1"/>secundum naturam, eo quod illa potentia ad hoc ampliorem perfectionem
+<lb ed="#L" n="2"/>exspectabat ab anima accipiendam (quod non contingit in aliis ', cum
+<lb ed="#L" n="3"/>ponuntur esse perfecta per aliquam formam qua[ntu]mcumque); sicut etiam
+<lb ed="#L" n="4"/>si materia virtute divina conservaretur in actu naturae suae sine omni
+<lb ed="#L" n="5"/>forma non esset hoc aliquid et suppositum nisi incompletissimum. Et ideo
+<lb ed="#L" n="6"/>etiam anima adveniens? tali enti, scilicet corpori Christi mortuo, non habet
+<lb ed="#L" n="7"/>rationem. formae accidentalis, quia sic dare esse materiae secundum se
+<lb ed="#L" n="8"/>non est ei naturale, sed praeter vel supernaturale. Quod autem advenit
+<lb ed="#L" n="9"/>alicui enti post constitutionem eius in esse actuali quod habet naturaliter
+<lb ed="#L" n="10"/>de se, hoc advenit sibi accidentaliter. Unde quia quod materiae contingit
+<lb ed="#L" n="11"/>esse per se sine forma substantiali, hoc non contingit ei naturaliter, ideo
+<lb ed="#L" n="12"/>non sequitur quod formae ei advenientes sint accidentales esse accidentale
+<lb ed="#L" n="13"/>ei dantes. Sed si materiae existenti sub forma aliqua naturali educta de
+<lb ed="#L" n="14"/>potentia materiae quantumcumque imperfecta adveniat alia naturalis, non
+<lb ed="#L" n="15"/>potest esse nisi accidentalis, quia huiusmodi forma prima faceret, quantum
+<lb ed="#L" n="16"/>est de se, hoc aliquid et suppositum, ex quo non esset dispositio ad aliam
+<lb ed="#L" n="17"/>formam substantialem perfectivam eiusdem potentiae.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1525">
+               <lb ed="#L" n="18"/>Ad alias etiam rationes dicunt quod, quando prima sine secunda nata
+<lb ed="#L" n="19"/>est secundum se naturaliter dare esse sive actum materiae, sicut 
+contin<lb break="no" ed="#L" n="20"/>geret in pluribus formis naturalibus, secunda adveniret composito iam ? in
+<lb ed="#L" n="21"/>esse suppositi  constituto et facienti hoc aliquid; non autem in praedictis
+<lb ed="#L" n="22"/>formis humanis. Quamvis etiam istae duae formae ut sunt essentiae et
+<lb ed="#L" n="23"/>naturae non sunt eiusdem rationis, quia una est generabilis et corruptibilis,
+<lb ed="#L" n="24"/>alia non, in quantum tamen sunt formae magis sunt eiusdem rationis quam
+<lb ed="#L" n="25"/>quaecumque aliae duae formae naturalez, quia informant et perficiunt
+<lb ed="#L" n="26"/>materiam secundum rationem unius habilitatis et potentiae quod non
+<lb ed="#L" n="27"/>faciunt aliae.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1549">
+               <lb ed="#L" n="28"/>Sed contra istam positionem videntur posse induci quae inducta sunt
+<lb ed="#L" n="29"/>contra alias, nec videtur esse possibile quod tales duae formae 
+substan<lb break="no" ed="#L" n="30"/>tiales tali modo ponantur in homine, quoniam ex illis non poterit constitui
+<lb ed="#L" n="31"/>unum per se; — quoniam hoc est de ratione formae quod det  aliquod esse
+<lb ed="#L" n="32"/>in actu, et de ratione formae substantialis cuiuscumque quantumcumque
+<lb ed="#L" n="33"/>incompletae quod det esse simpliciter in actu. Nunc autem ista forma
+<lb ed="#L" n="34"/>naturalis est quaedam actualis natura in genere substantiae ; ergo est 
+quae<lb break="no" ed="#L" n="35"/>dam forma substantialis. Nec potest dici quod respectu materiae non debeat
+<lb ed="#L" n="36"/>dici forma simpliciter ipsa sola, sed una cum forma supernaturali , quia
+<pb ed="#L" n="117"/>
+               <lb ed="#L" n="1"/>ex quo ipsa non est id ipsum realiter quod forma supernaturalis, oportet
+<lb ed="#L" n="2"/>quod secundum illud actualitatis quam habet sit forma dans actualitatem
+<lb ed="#L" n="3"/>distinctam ab ea quam dat anima, quae etiam ponitur esse quid aliud.
+<lb ed="#L" n="4"/>Constat enim quod prima forma est quaedam entitas actualis, non 
+poten<lb break="no" ed="#L" n="5"/>tialis ut existentia materiae ; ergo ex ipsa habet compositum aliquam 
+actua<lb break="no" ed="#L" n="6"/>litatem substantialem praeter aliam, et ipsa secundum se respectu 
+mate<lb break="no" ed="#L" n="7"/>riae habet rationem formae simpliciter licet imperfecte respectu multarum
+<lb ed="#L" n="8"/>aliarum. Ergo male dicunt dicendo quod una forma non dat esse sine
+<lb ed="#L" n="9"/>alia, hoc sic intelligendo quod  esse quod dat una forma est idem quod
+<lb ed="#L" n="10"/>esse quod dat alia, et quod nulla earum det? esse | proprium et ab esse
+<lb ed="#L" n="11"/>quod dat alia distinctum. Quia cum quaelibet istarum formarum sit forma
+<lb ed="#L" n="12"/>substantialis, formae autem substantiali convenit dare esse simpliciter,
+<lb ed="#L" n="13"/>quaelibet istarum dabit esse simpliciter. Sed, ut pluries dictum est, illud
+<lb ed="#L" n="14"/>in quo sunt plures formae dantes esse in actu non potest esse aliquod
+<lb ed="#L" n="15"/>unum per se. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1606">
+               <lb ed="#L" n="16"/>Si autem dicatur quod formarum substantialium quaedam est talis
+<lb ed="#L" n="17"/>quod una sola existens per se dat esse simpliciter absque alia forma
+<lb ed="#L" n="18"/>substantiali, sicut est illa cui respondet una potentia materiae, quales sunt
+<lb ed="#L" n="19"/>omnes formae substantiales aliae ab anima humana et forma corporeitatis
+<lb ed="#L" n="20"/>in homine, quaedam vero est talis quod cum alia dat esse simpliciter
+<lb ed="#L" n="21"/>et non per se solam, sicut quando una sola potentia materiae | respondet
+<lb ed="#L" n="22"/>pluribus formis, sicut est in homine in quo una sola potentia materiae
+<lb ed="#L" n="23"/>respondet formae corporeitatis et animae, propter hoc quod una est educta
+<lb ed="#L" n="24"/>de potentia materiae et alia inducta ab extrinseco, — hoc non valet. Primo
+<lb ed="#L" n="25"/>quia in hoc petitur principium ; nam hoc est quod quaeritur, utrum materia
+<lb ed="#L" n="26"/>possit sive in homine sive in alio ordinari ad diversas formas substantiales
+<lb ed="#L" n="27"/>quibus simul perfici et informari possit. — Item per eandem viam aeque
+<lb ed="#L" n="28"/>faciliter poterit poni in quolibet alio esse plures ormas substantiales, quia
+<lb ed="#L" n="29"/>dicetur quod quaelibet potentia materiae ex qua debet aliquod ens 
+gene<lb break="no" ed="#L" n="30"/>rari respondet quodam ordine pluribus formis, uni mediante alia, et quod
+<lb ed="#L" n="31"/>nulla per se dat esse completum, sed ambae simul. — Nec valet quod isti
+<lb ed="#L" n="32"/>dicunt quod diversis formis educibilibus de potentia materiae respondent
+<lb ed="#L" n="33"/>diversae potentiae, et quod quaelibet completur per unam formam. Quia
+<lb ed="#L" n="34"/>dicetur quod hoc est verum de diversis formis quae non habent ordinem.
+<lb ed="#L" n="35"/>Sed de habentibus ordinem non oportet quin una potentia respondeat eis,
+<lb ed="#L" n="36"/>uni primo et immediate, et alii secundo et mediante prima, et quod ambae
+<lb ed="#L" n="37"/>simul perficiunt  materiam, nec sufficit una sine alia, si ita sit quod forma
+<pb ed="#L" n="118"/>
+               <lb ed="#L" n="1"/>substantialis (unde est forma substantialis) una sola existens non det ! esse
+<lb ed="#L" n="2"/>simpliciter; si autem unaquaeque forma substantialis secundum quod
+<lb ed="#L" n="3"/>huiusmodi per se solam dat esse simpliciter, habemus propositum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1665">
+               <lb ed="#L" n="4"/>Si autem dicatur quod immo etiam respectu omnium formarum
+<lb ed="#L" n="5"/>substantialium realiter est una potentia materiae, loquendo de potentia
+<lb ed="#L" n="6"/>materiae per quam ipsa est subiectum formae et facit unum per se cum
+<lb ed="#L" n="7"/>illa, sed ista potentia non potest simul ordinari ad diversas formas 
+educi<lb break="no" ed="#L" n="8"/>biles de potentia materiae, quia unaquaeque complet potentiam materiae,
+<lb ed="#L" n="9"/>sed bene potest simul ordinari ad diversas formas  quarum una educitur
+<lb ed="#L" n="10"/>de potentia materiae, alia ncn, quarum neutra dat per se esse simpliciter,
+<lb ed="#L" n="11"/>sed ambae simul, — hoc non valet; tum quia non potest reddi ratio quare
+<lb ed="#L" n="12"/>illa forma corporeitatis educta de potentia materiae in homine non 
+com<lb break="no" ed="#L" n="13"/>pleat perfecte potentiam materiae, sicut aliae formae educibiles de potentia
+<lb ed="#L" n="14"/>materiae, et sic anima advenit enti in actu et erit accidens; tum quia ?
+<lb ed="#L" n="15"/>illud quod non educitur  de potentia materiae, cum tamen ponatur esse
+<lb ed="#L" n="16"/>perfectio substantialis eius, non minus habet complere potentiam materiae
+<lb ed="#L" n="17"/>per se simpliciter ex quo inducitur in i//am  ut actus eius quam id quod
+<lb ed="#L" n="18"/>educitur de potentia materiae. Forma enim per se solam habet perfecte
+<lb ed="#L" n="19"/>complere potentiam materiae et dare ei simpliciter esse quia est forma
+<lb ed="#L" n="20"/>substantialis. Et cum ita sit, non videtur esse verum quod materia habeat
+<lb ed="#L" n="21"/>rationem subiecti unius vel potentiae unica habilitate potentiali proxima
+<lb ed="#L" n="22"/>susceptivi harum duarum formarum simul, sic scilicet quod ipsa forma
+<lb ed="#L" n="23"/>naturalis cum anima respectu materiae habeat rationem unius formae
+<lb ed="#L" n="24"/>aeque immediate materiam perficientis. Quoniam secundum illud  dicitur
+<lb ed="#L" n="25"/>aliquid  habere potentiam respectu alterius secundum quod natum est
+<lb ed="#L" n="26"/>perfici per illud; quod natum est etiam perficere aliquid habet 
+habitu<lb break="no" ed="#L" n="27"/>dinem ad illud secundum quod natum est ipsum perficere. Cum ergo
+<lb ed="#L" n="28"/>materia prima sit perfectibilis istis duabus formis, et ut nuda in sua
+<lb ed="#L" n="29"/>essentia sine alia forma praecedenti vel supposita nata sit perfici forma
+<lb ed="#L" n="30"/>naturali, ipsa autem non sic, sed ut iam in actu existens et sub dispositione
+<lb ed="#L" n="31"/>huiusmodi formae primae est perfectibilis ipsa anima, ergo cum non sit
+<lb ed="#L" n="32"/>eadem ratio potentiae et habilitatis materiae, ut secundum se nuda et ut
+<lb ed="#L" n="33"/>sic in actu disposita, alia et alia habilitate materia est susceptiva istarum
+<lb ed="#L" n="34"/>duarum formarum. Hoc modo enim ponitur de forma accidentali et 
+sub<lb break="no" ed="#L" n="35"/>stantiali respectu materiae, quod quia? materia prima nuda et ut mere
+<lb ed="#L" n="36"/>in potentia est susceptiva formae substantialis, ipsa autem ut existens
+<pb ed="#L" n="119"/>
+               <lb ed="#L" n="1"/>in forma substantiali est susceptiva accidentalis, ideo non ponitur una
+<lb ed="#L" n="2"/>habilitas vel potentia materiae sive una ratio subiecti respectu utriusque.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1746">
+               <lb ed="#L" n="3"/>Esto etiam quod una non det esse sine alia, non debet tamen
+<lb ed="#L" n="4"/>propter hoc? poni quod materia secundum rationem unius habilitatis vel
+<lb ed="#L" n="5"/>poten | tiae sit susceptiva utriusque. Multae enim formae substantiales
+<lb ed="#L" n="6"/>materiales non possunt inesse materiis nisi coinsint quaedam accidentia ;
+<lb ed="#L" n="7"/>ignis enim non est nisi sit calidus, nec terra est nisi sit sicca et sic de
+<lb ed="#L" n="8"/>aliis. Et cum materia respectu formae substantialis habet rationem alterius
+<lb ed="#L" n="9"/>potentiae secundum quam dicitur [non] subiectum, respectu accidentalis
+<lb ed="#L" n="10"/>habet rationem aliam potentiae secundum quam dicitur subiectum, et
+<lb ed="#L" n="11"/>sic quodammodo magis videtur differre potentia materiae respectu harum
+<lb ed="#L" n="12"/>formarum in homine quam respectu duarum naturalium specificarum, sicut
+<lb ed="#L" n="13"/>etiam magis differt potentia materiae respectu formae substantialis et
+<lb ed="#L" n="14"/>accidentalis quam respectu duarum substantialium. Nam et ipsa materia
+<lb ed="#L" n="15"/>etiam ut secundum se nuda respicit plures formas substantiales, nec sic
+<lb ed="#L" n="16"/>diversificatur diversitate reali sed solum secundum rationem, sicut cum
+<lb ed="#L" n="17"/>ipsa secundum se respicit unam et secundum quod iam in actu per
+<lb ed="#L" n="18"/>aliquam respicit aliam. Quod etiam diversae formae substantiales per se
+<lb ed="#L" n="19"/>respiciant unam et eandem potentiam non videtur rationale. Ex quo enim
+<lb ed="#L" n="20"/>actus dicitur ? ad potentiam et e converso, et alius actus ad aliam et aliam
+<lb ed="#L" n="21"/>potentiam dicetur eo modo quo potentia respectu  diversorum actuum
+<lb ed="#L" n="22"/>nata est diversificari .
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1793">
+               <lb ed="#L" n="23"/>Cum etiam huiusmodi forma non habet rationem dispositionis 
+prae<lb break="no" ed="#L" n="24"/>cedentis respectu animae nisi ratione actualitatis formalis quam dat (non
+<lb ed="#L" n="25"/>enim disponit materiam nisi ipsam sua actualitate perficiendo), et cum in
+<lb ed="#L" n="26"/>ratione formae [non] praecedat ordine naturae, non dignitatis, ut dicit haec
+<lb ed="#L" n="27"/>positio, — non videtur rationabile, et sic nullo modo respectu materiae
+<lb ed="#L" n="28"/>videntur posse habere rationem unius formae aeque immediate ipsam 
+per<lb break="no" ed="#L" n="29"/>ficientis. Immo quaelibet suam actualitatem habens rationem unius singu-
+<pb ed="#L" n="120"/>
+               <lb ed="#L" n="1"/>laris et distinctae formae habet et una immediate perficit materiam. et alia
+<lb ed="#L" n="2"/>ista mediante'. Frustra enim diceretur haec dispositio ad ipsam, nisi prius
+<lb ed="#L" n="3"/>natura intelligeretur materiae dare quendam actum et quoddam esse et sic
+<lb ed="#L" n="4"/>prius intelligitur ut forma materiae. — Cum etiam utraque det? aliquod
+<lb ed="#L" n="5"/>esse naturae quod est esse substantiale, et esse substantiale est esse 
+sim<lb break="no" ed="#L" n="6"/>pliciter, quomodo dicetur quod non dent plura esse existentiae simpliciter,
+<lb ed="#L" n="7"/>sive plura esse substantialia, ut faciant? plures substantias et unum solum
+<lb ed="#L" n="8"/>per accidens constituant, sicut etiam plures formae accidentales dant plura
+<lb ed="#L" n="9"/>esse qualia vel huiusmodi? Et si etiam dent plura esse naturae, quomodo
+<lb ed="#L" n="10"/>non sunt plures formae simpliciter, cum dare esse simpliciter sit formae
+<lb ed="#L" n="11"/>simpliciter et non habebunt rationem unius formae in dando esse? 
+Quo<lb break="no" ed="#L" n="12"/>modo etiam dabit quaelibet esse simpliciter quod est esse substantiale
+<lb ed="#L" n="13"/>et, quantum est de se, non dabit esse subsistentiae, cum. substantiae sit
+<lb ed="#L" n="14"/>subsistere secundum quod est in actu per formam substantialem quae
+<lb ed="#L" n="15"/>dicitur substantialis, quia dat esse simpliciter quod est esse subsistentiae ?
+<lb ed="#L" n="16"/>Ex quo etiam forma naturalis prius natura  perficit in esse substantiali
+<lb ed="#L" n="17"/>materiam, quod non facit nisi ut est forma et actualitas quaedam | ratione
+<lb ed="#L" n="18"/>cuius materia dicitur disposita ad ulteriorem dicto modo, quomodo alia
+<lb ed="#L" n="19"/>posterior natura perficiens non advenit iam in esse compositi et suppositi,
+<lb ed="#L" n="20"/>quantum est de se, constituti per actum substantialem dantem esse naturae
+<lb ed="#L" n="21"/>et  esse subsistentiae  quantum est de se? Et sic etiam talis forma 
+acci<lb break="no" ed="#L" n="22"/>dentalis erit: sicut enim  in uno non potest esse nisi unum esse 
+sup<lb break="no" ed="#L" n="23"/>positi, ita nec nisi unum esse [suppositi] naturae per se et simpliciter ;
+<lb ed="#L" n="24"/>et omnia alia erunt accidentalia.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1865">
+               <lb ed="#L" n="25"/>Quod enim? in Christo plura esse naturae sunt vel substantiae et
+<lb ed="#L" n="26"/>tamen non est nisi unum esse subsistentiae, hoc est virtute supernaturali.
+<lb ed="#L" n="27"/>Nam cuilibet esse naturae quantum est de se natum est convenire 
+pro<lb break="no" ed="#L" n="28"/>prium esse subsistentiae. Ouia enim accidens necessario concomitans 
+sub<lb break="no" ed="#L" n="29"/>stantiam sine quo substantia esse non potest, non perficit materiam 
+secun<lb break="no" ed="#L" n="30"/>dum eius nudam potentiam qua dicitur potentia aliquid esse simpliciter, sed
+<lb ed="#L" n="31"/>ut est iam aliquid in actu secundum aliquam formam, ideo est accidens.
+<lb ed="#L" n="32"/>Consimiliter ergo universaliter omnis forma perficiens materiam, non ut est
+<lb ed="#L" n="33"/>nuda potentia ad esse simpliciter, sed ut est aliquo modo in actu, est
+<lb ed="#L" n="34"/>forma accidentalis, sive materia possit habere esse in illo actu primo sine
+<lb ed="#L" n="35"/>isto sive non. Ex quo enim  talis forma naturalis dat aliquem actum
+<pb ed="#L" n="121"/>
+               <lb ed="#L" n="1"/>substantialem ! quantumcumque imperfectum, habet compositum ex ipsa
+<lb ed="#L" n="2"/>et materia rationem compositi subsistentis quantum est de se, licet hoc
+<lb ed="#L" n="3"/>non habeat sine aliquo alio quod ad eius essentiam et quidditatem non
+<lb ed="#L" n="4"/>potest pertinere, cum adveniat enti in actu.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1902">
+               <lb ed="#L" n="5"/>Exemplum etiam  de materia magis facere videtur ad oppositum, 
+quo<lb break="no" ed="#L" n="6"/>niam? materia, esto etiam quod per se esset, nullam formam substantialem
+<lb ed="#L" n="7"/>vel accidentalem haberet, nec haberet esse simpliciter quod sit formale
+<lb ed="#L" n="8"/>vel a forma. Et ut dicit Commentator , secundo de anima, materia non
+<lb ed="#L" n="9"/>est hoc nisi per formam, et si materia et forma essent in composito
+<lb ed="#L" n="10"/>existentes in actu, compositum  non diceretur simpliciter unum. Modo ?
+<lb ed="#L" n="11"/>autem quia materia non differt a forma in composito nisi potentia, et
+<lb ed="#L" n="12"/>compositum non est ens in actu  nisi per formam, tunc compositum non
+<lb ed="#L" n="13"/>dicitur unum nisi quia sua forma  est una et cetera. Et infra: si securis esset
+<lb ed="#L" n="14"/>ens naturale et acumen esset eius forma et auferretur acumen, tunc securis
+<lb ed="#L" n="15"/>non esset, quia materia et forma non essent. Formae enim rerum 
+natu<lb break="no" ed="#L" n="16"/>ralium cum fuerint ablatae, auferuntur et materiae, et nullum ens remanet
+<lb ed="#L" n="17"/>nisl aequivoce. Formae igitur naturales substantiae sunt, quia cum fuerint
+<lb ed="#L" n="18"/>ablatae, aufertur nomen quod demonstrat ens secundum quod est 
+indi<lb break="no" ed="#L" n="19"/>viduum substantiae, et similiter definitio quae est secundum illud nomen,
+<lb ed="#L" n="20"/>quia auferuntur genus et differentia. Forma autem artificialis non, quia
+<lb ed="#L" n="21"/>cum aufertur, non aufertur materia, sed remanet nomine ' et definitione.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1941">
+               <lb ed="#L" n="22"/>Sed si anima separata, etiam naturaliter secundum aliquos remanet
+<pb ed="#L" n="122"/>
+               <lb ed="#L" n="1"/>corpus mixtum idem quod prius (saltem secundum alios virtute divina
+<lb ed="#L" n="2"/>remanere potest) non videntur? esse vera quae hic dicuntur, quoniam
+<lb ed="#L" n="3"/>tunc anima esset forma accidentalis, quia materia eius secundum aliquem
+<lb ed="#L" n="4"/>actum priorem maneret ?, et non desineret praecedens compositum esse
+<lb ed="#L" n="5"/>simpliciter. Non enim dicitur materia entium naturalium ablata forma non
+<lb ed="#L" n="6"/>manere quia cedat in nihil, sed quia materia non habet esse nisi a forma.
+<lb ed="#L" n="7"/>Et ideo cum nihil formae alicuius remanet  nihil materiae illius dicitur
+<lb ed="#L" n="8"/>remanere; et cum materia non manet | sub aliquo actu sub quo erat,
+<lb ed="#L" n="9"/>cum erat materia alicuius determinati entis, dicitur materia talis entis non
+<lb ed="#L" n="10"/>manere.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1970">
+               <lb ed="#L" n="11"/>Item arguitur contra positionem hanc quia, sicut inconveniens est
+<lb ed="#L" n="12"/>quod in aliquo uno sint plures animalitates differentes vel specie 
+sub<lb break="no" ed="#L" n="13"/>alterna vel specialissima, ita etiam inconveniens est quod in homine sint
+<lb ed="#L" n="14"/>plures substantialitates vel huiusmodi, nisi una dicatur substantialitas in
+<lb ed="#L" n="15"/>potentia ut materia, et alia in actu ut formà. lam enim in tali uno non
+<lb ed="#L" n="16"/>est nisi substantialitas una simpliciter.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e1986">
+               <lb ed="#L" n="17"/>Item arguitur ad hoc contra istam positionem per ea per quae etiam
+<lb ed="#L" n="18"/>prima reprobatur, quoniam definitio hominis non erit una eo quod eius
+<lb ed="#L" n="19"/>unitas consistit in unitate formae, ut patet septimo Metaphysicae  ; et
+<lb ed="#L" n="20"/>si in homine sint plures huiusmodi formae, quaelibet est substantialitas
+<lb ed="#L" n="21"/>quaedam, alioquin ex ipsis non fieret substantia. Sicut autem 
+substan<lb break="no" ed="#L" n="22"/>tialitas cum non substantialitate faciunt aliquid quod non est unum in
+<lb ed="#L" n="23"/>genere substantiae sed est plura in diversis generibus, ita substantialitas
+<lb ed="#L" n="24"/>in actu cum substantialitate in actu facit etiam  plura simpliciter in uno
+<lb ed="#L" n="25"/>genere substantiae.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2009">
+               <lb ed="#L" n="26"/>Item substantia quae est genus ut praedicatur de aliis ab homine |
+<lb ed="#L" n="27"/>secundum istos dicit quid unum sub ratione indeterminati, quia animal
+<lb ed="#L" n="28"/>dicit talem formam sub ratione indeterminati quam dicit asinus sub ratione
+<lb ed="#L" n="29"/>determinati, quae quidem forma in asino non est nisi una secundum
+<lb ed="#L" n="30"/>positionem ipscrum. Si ergo substantia sit unius rationis in omnibus sicut
+<lb ed="#L" n="31"/>genus dicit unam rationem, ergo etiam praedicata de homine dicet unam
+<lb ed="#L" n="32"/>formam. Sed hoc non potest esse quod dicens unam formam dicat totam
+<lb ed="#L" n="33"/>essentiam et naturam eius quod importat plures formas. Quare non erit
+<lb ed="#L" n="34"/>unum et idem genus hominis et aliorum. Immo etiam nec huiusmodi
+<pb ed="#L" n="123"/>
+               <lb ed="#L" n="1"/>genus unam significans formam praedicari posset per se de homine in
+<lb ed="#L" n="2"/>quo sunt plura ut dictum est. Si autem substantia comparata ad hominem
+<lb ed="#L" n="3"/>intelligatur importare totam quidditatem ! hominis sub ratione 
+indeter<lb break="no" ed="#L" n="4"/>minati, tunc significabit plura sicut homo. Cum etiam genus non possit ?
+<lb ed="#L" n="5"/>dicere aliam formam a speciebus vel differentiis, et quaelibet differentia
+<lb ed="#L" n="6"/>cum genere constituit formam specificam, oportet quamlibet formam
+<lb ed="#L" n="7"/>realem substantiae esse specificam, et illam consideratam sub ratione
+<lb ed="#L" n="8"/>indeterminati et determinati habere rationem generis et differentiae vel
+<lb ed="#L" n="9"/>speciei. De ratione enim differentiae est quod non est realiter aliud a genere,
+<lb ed="#L" n="10"/>ut patet per Philosophum  et Commentatorem , septimo Metaphysicae,
+<lb ed="#L" n="11"/>et prius dictum est. Et sic anima non potest habere rationem differentiae
+<lb ed="#L" n="12"/>respectu huiusmodi ? formae naturalis, nec ipsa forma naturalis rationem
+<lb ed="#L" n="13"/>generis, sed quaelibet suo modo secundum rationem determinati vel
+<lb ed="#L" n="14"/>determinantis et indeterminati habebit rationem generis et differentiae et
+<lb ed="#L" n="15"/>sic constituent plura entia specifica.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2066">
+               <lb ed="#L" n="16"/>Cum etiam corpus hominis manens post animae separationem, 
+natu<lb break="no" ed="#L" n="17"/>raliter secundum aliquos, vel solum virtute divina in Christo, existens in
+<lb ed="#L" n="18"/>actu secundum aliquam formam sit in actu secundum formam substantialem
+<lb ed="#L" n="19"/>specificam, licet imperfectam respectu formae specificae dantis vitam, quia
+<lb ed="#L" n="20"/>nihil est in genere quin sit in aliqua atoma specie , ergo homo dum vivit
+<lb ed="#L" n="21"/>est plures species ; et esset unum: homo sicut aliquid constitutum ex lapide
+<lb ed="#L" n="22"/>aliquo et planta, manentibus ambobus in suis actualitatibus. Non enim
+<lb ed="#L" n="23"/>potest dici quod ab istis duabus formis sumatur ratio una generis sub
+<lb ed="#L" n="24"/>ratione indeterminati, et una ratio differentiae sub ratione determinati. Quia
+<lb ed="#L" n="25"/>licet respectu diversorum quorum quodlibet est quoddam unum per se
+<lb ed="#L" n="26"/>ratione alicuius convenientiae et habitudinis, respectu illorum possit aliquid
+<lb ed="#L" n="27"/>unum secundum rationem et? conceptum habere rationem generis sic quod
+<lb ed="#L" n="28"/>sit quodlibet illorum secundum rationem ? indeterminati, et quodlibet 
+illo<lb break="no" ed="#L" n="29"/>rum est quoddam unum secundum rationem determinati, tamen sicut habens
+<lb ed="#L" n="30"/>plures formas non potest esse unum simpliciter sive una species, ita etiam
+<lb ed="#L" n="31"/>a talibus pluribus non potest sumi aliquod unum secundum unam rationem
+<lb ed="#L" n="32"/>et conceptum habens rationem generis et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2105">
+               <lb ed="#L" n="33"/>Cum etiam de ratione generis sit per se habere plures differentias
+<lb ed="#L" n="34"/>et species, si tali speciei compositae ex pluribus formis respondet genus
+<pb ed="#L" n="124"/>
+               <lb ed="#L" n="1"/>aliquod quod etiam dicit totum illud specificum compositum sub ratione
+<lb ed="#L" n="2"/>indeterminati, oportet quod una cum homine respondeat ei alia species,
+<lb ed="#L" n="3"/>et quod quaelibet earum importet aliam et aliam rationem determinati ; ita
+<lb ed="#L" n="4"/>quod sicut animal praecise sensitivum non esset genus nisi essent diversae
+<lb ed="#L" n="5"/>species sub ipso, ita etiam oportet quod generi proprio hominis quod 
+com<lb break="no" ed="#L" n="6"/>prehendit duas formas sub ratione indeterminati respondeant duae species,
+<lb ed="#L" n="7"/>has duas formas secundum diversas determinabilitates importantes. Et sic
+<lb ed="#L" n="8"/>unum rationale et mortale habebit cum homine aliam speciem ; immo etiam
+<lb ed="#L" n="9"/>homo non posset esse in aliquo genere ' cum aliis animalibus, quia 
+quod<lb break="no" ed="#L" n="10"/>libet genus dictum de aliis inponitur uni formae ; quodlibet autem genus
+<lb ed="#L" n="11"/>dictum? de homine oportet plures formas reales importare ut dictum est.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2138">
+               <lb ed="#L" n="12"/>Item ratio potissima propter quam negatur pluralitas formarum in aliis
+<lb ed="#L" n="13"/>videtur etiam esse efficax in homine, eo quod prima daret esse simpliciter
+<lb ed="#L" n="14"/>et alia daret esse accidentale, quia sicut non potest esse recessus a potentia
+<lb ed="#L" n="15"/>materiae recedendo  ab actualitate amplius quin sit casus in non ens 
+sim<lb break="no" ed="#L" n="16"/>pliciter, quia infra materiam non est nisi non ens et nihil, ita non potest
+<lb ed="#L" n="17"/>esse recessus ab eadem potentialitate accedendo ad actualitatem nisi sit
+<lb ed="#L" n="18"/>processus ad ens in actu simpliciter | , quia nihil est supra materiam nisi
+<lb ed="#L" n="19"/>actus simpliciter et complete secundum se, licet possit esse quid 
+incom<lb break="no" ed="#L" n="20"/>pletum et imperfectum respectu alterius. Propter quod omne aliud eveniet
+<lb ed="#L" n="21"/>accidentaliter, et enti simpliciter non dabit esse simpliciter sed seciindum
+<lb ed="#L" n="22"/>quid. Et sic, quia quaelibet forma substantialis dat materiae esse completum
+<lb ed="#L" n="23"/>simpliciter respectu esse incompleti quod est esse potentiale simpliciter
+<lb ed="#L" n="24"/>(licet aliqua forma det esse incompletum respectu alterius esse 
+comple<lb break="no" ed="#L" n="25"/>tioris secundum formam | vel speciem completiorem dantis  esse simpliciter
+<lb ed="#L" n="26"/>et completum secundum gradus suos ultimatos, sicut contingit in numeris),
+<lb ed="#L" n="27"/>et illud quod habet aliquod  esse substantiale secundum aliquam formam
+<lb ed="#L" n="28"/>substantialem non potest esse in potentia ut a forma substantiali faciente 
+<lb ed="#L" n="29"/>unum in esse simpliciter et per se perficiatur, quia cum ex duobus fit unum
+<lb ed="#L" n="30"/>per se, oportet quod alterum? sit essentialiter et totaliter potentia sicut
+<lb ed="#L" n="31"/>alterum est essentialiter et totaliter actus; — non videtur quod aliquo modo
+<lb ed="#L" n="32"/>possint poni plures formae substantiales in homine.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2186">
+               <lb ed="#L" n="33"/>Si autem in omnem eventum oportet ponere ad minus duas, unam ab
+<lb ed="#L" n="34"/>extra et aliam ab intra propter diversitatem horum agentium, videtur quod
+<lb ed="#L" n="35"/>illa quae erit ab intra sit sensitivum. Quoniam cum homo sit vere mixtum
+<lb ed="#L" n="36"/>ut  asinus, et in asino vegetativum et sensitivum non differunt re a mixto, et
+<pb ed="#L" n="125"/>
+               <lb ed="#L" n="1"/>sic non est contra rationem vegetativi et sensitivi quod incidant in eadem
+<lb ed="#L" n="2"/>forma realiter cum forma a qua est aliquid mixtum, — videtur quod 
+simi<lb break="no" ed="#L" n="3"/>liter in homine. Aut etiam si, secundum alios, realiter differunt vegetativum,
+<lb ed="#L" n="4"/>sensitivum et mixtum et sunt ab intra, quare etiam non' in homine erunt
+<lb ed="#L" n="5"/>per actionem naturalis agentis sicut in alis? Cum etiam caro hominis sit
+<lb ed="#L" n="6"/>nobilior carne bovis, et caro bovis sit caro a forma quae essentialiter est
+<lb ed="#L" n="7"/>una, videtur etiam quod caro hominis sit caro a forma quae essentialiter
+<lb ed="#L" n="8"/>est nobilior ? vita. Cum etiam alimentum convertatur in substantiam nutriti,
+<lb ed="#L" n="9"/>videtur quod virtute potentiae ilius substantiae vel formae substantialis
+<lb ed="#L" n="10"/>per sua instrumenta debita fiat conversio huiusmodi quam inducit per
+<lb ed="#L" n="11"/>se materia nutrimenti. Ergo cum cibus convertatur in homine in 
+sub<lb break="no" ed="#L" n="12"/>stantiam carnis virtute animae vegetativae sicut etiam in asino, videtur
+<lb ed="#L" n="13"/>quod sicut forma substantialis a qua caro est caro in asino est alia
+<lb ed="#L" n="14"/>secundum rationem vegetativae, ita etiam erit in homine. Si etiam anima
+<lb ed="#L" n="15"/>perficit in esse corporeo organico per dispositiones accidentales ipsam
+<lb ed="#L" n="16"/>substantiam animae in composito sive magis compositum ipsum 
+conse<lb break="no" ed="#L" n="17"/>quentes, quare non in esse corporeo substantiali per suam substantiam
+<lb ed="#L" n="18"/>immediatius, sicut natura prius est corpus quam corpus animatum prout
+<lb ed="#L" n="19"/>etiam apparet esse in alis animalibus? Non videtur etiam quod minus
+<lb ed="#L" n="20"/>potens sit homo in generando quam asinus, ad inducendum formam
+<lb ed="#L" n="21"/>aliquam substantialem virtute naturae inducibilem. Si ergo asinus inducit
+<lb ed="#L" n="22"/>sensitivum, videtur quod homo in quo non minus perfecte est anima 
+sen<lb break="no" ed="#L" n="23"/>sitiva etiam inducere possit huiusmodi formam.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2249">
+               <lb ed="#L" n="24"/>Quamvis ergo utrumque sit difficile, scilicet ponere unam formam
+<lb ed="#L" n="25"/>tantum in homine et evadere omnia quae contra hoc obiciuntur, et
+<lb ed="#L" n="26"/>etiam ponere plures et contraria evitare, verumtamen difficiliora videntur
+<lb ed="#L" n="27"/>quae obiciuntur contra ponentes plures. Immo etiam videtur quod 
+potis<lb break="no" ed="#L" n="28"/>simae difficultates quae obiciuntur contra ponentes unam habent etiam
+<lb ed="#L" n="29"/>efficaciam contra ponentes plures, quia omnes illae fundantur in diffi
+<lb ed="#L" n="30"/>cultate maxima quae contingit ex hoc quod anima rationalis ponitur esse
+<lb ed="#L" n="31"/>substantia immaterialis et a materia independens pro tanto quod ipsa
+<lb ed="#L" n="32"/>de se est hoc aliquid sive natum per se subsistere naturaliter, et ponitur
+<lb ed="#L" n="33"/>tantae simplicitatis quod non est divisibilis nec extensibilis nec per se
+<lb ed="#L" n="34"/>nec per accidens; et nihilominus istis non obstantibus ponitur unibilis
+<lb ed="#L" n="35"/>materiae primae in esse, ita quod det? esse primum et substantiale
+<pb ed="#L" n="126"/>
+               <lb ed="#L" n="1"/>ipsi composito et materiae corporeae et extensae: quod est valde difficile
+<lb ed="#L" n="2"/>intelligere secundum quamcumque dictarum positionum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2285">
+               <lb ed="#L" n="3"/>Et ideo philosophi qui non posuerunt in homine plures formas
+<lb ed="#L" n="4"/>dantes esse substantiale magis quam in aliis sed unam tantum, de 
+intel<lb break="no" ed="#L" n="5"/>lectu quomodo se habe | at ad hominem multum varie sunt locuti.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2294">
+               <lb ed="#L" n="6"/>Alexander  enim videtur sensisse quod intellectus possibilis esset
+<lb ed="#L" n="7"/>virtus materialis et esset potentia substantiae vel formae corporalis.
+<lb ed="#L" n="8"/>Alii  autem posuerunt eum esse separatum in esse, coniunctum in
+<lb ed="#L" n="9"/>operatione et quidem! unum tantum, quod est erroneum. Unde si posset
+<lb ed="#L" n="10"/>poni quod intellectus non uniretur materiae, dando ipsi esse, sed alia
+<lb ed="#L" n="11"/>forma sensitiva scilicet nobilissima et tamen multiplicaretur intellectus
+<lb ed="#L" n="12"/>secundum multiplicationem hominum et communicaretur operatio 
+intel<lb break="no" ed="#L" n="13"/>ligendi et volendi et merendi et cetera hominibus secundum singulos
+<lb ed="#L" n="14"/>intellectus, facilius evitarentur inconvenientia alia. Sed quia hoc non
+<lb ed="#L" n="15"/>tenetur nec dicitur esse possibile, sed tenetur quod substantia animae
+<lb ed="#L" n="16"/>rationalis est dans homini esse substantiale et specificum, hoc supposito
+<lb ed="#L" n="17"/>remanet magna difficultas utrobique.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2323">
+               <lb ed="#L" n="18"/>Tamen videtur quod facilius sit tenere non esse in homine nisi
+<lb ed="#L" n="19"/>unam formam. Nam propter efficaciam rationum ostendentium in aliis
+<lb ed="#L" n="20"/>ab homine non posse esse nisi unam formam, quae eandem videztur ?
+<lb ed="#L" n="21"/>habere efficaciam in homine, videtur etiam quod si ponatur in homine
+<lb ed="#L" n="22"/>aliqua forma naturalis dans esse, quod oportebit intellectum non esse
+<lb ed="#L" n="23"/>formam dantem esse, sed separatam et unam quod est erroneum ; aut
+<lb ed="#L" n="24"/>etiam quod erunt plures dicto modo, quod non ita manifeste est
+<lb ed="#L" n="25"/>erroneum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2343">
+               <lb ed="#L" n="26"/>Et ideo absolute loquendo videtur probabilior positio quae ponit
+<lb ed="#L" n="27"/>tantum unam in omnibus, improbabilior quae plures in omnibus , minus
+<lb ed="#L" n="28"/>improbabilis autem quae tantum in homine ponit plures pro quanto id 
+<lb ed="#L" n="29"/>quod  minus est probabile, scilicet plures esse formas substantiales in
+<lb ed="#L" n="30"/>aliquo ponit in paucioribus, et pro quanto homo est ens multum differens
+<lb ed="#L" n="31"/>ab aliis compositis materialibus. Difficilior tamen est ad tenendum quia
+<lb ed="#L" n="32"/>habeat utrasque alias positiones contra se et rationes earum.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2361">
+               <pb ed="#L" n="127"/>
+               <lb ed="#L" n="1"/>Est autem circa praedicta intelüigendum quod, licet in homine vel
+<lb ed="#L" n="2"/>in quibuscumque viventibus non sit nisi una forma, sicut nec in aliis
+<lb ed="#L" n="3"/>sive mixtis sive simplicibus corporibus, vivum! tamen dicitur 
+compo<lb break="no" ed="#L" n="4"/>situm ex corpore et anima quasi ex duobus aliquam actualitatem
+<lb ed="#L" n="5"/>importantibus, nec? sic autem ignis vel lapis dicitur esse quoddam
+<lb ed="#L" n="6"/>compositum ex corpore et tali vel ta | li forma, quia anima plus 
+eleva<lb break="no" ed="#L" n="7"/>tur supra materiam quam aliae formae materiales, quia per ipsam
+<lb ed="#L" n="8"/>compositum ? habens eam movet se ipsum. Vel hoc ideo est quia vulgus
+<lb ed="#L" n="9"/>credit animam aliquid esse praeter corpus. nec includi in corpore; et
+<lb ed="#L" n="10"/>ideo sic loquitur de animabus. Sic etiam loquuntur sapientes quia
+<lb ed="#L" n="11"/>loquendum est ut plures.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2390">
+               <lb ed="#L" n="12"/>Et quia circa hoc inducuntur rationes tangentes ea quae sunt fidei,
+<lb ed="#L" n="13"/>quae non sunt nobis certa ex rei evidentia sed ex auctoritate Scripturae
+<lb ed="#L" n="14"/>vel Ecclesiae, de his autem quae fidei sunt non omnino manifeste ad
+<lb ed="#L" n="15"/>ipsam pertinentia vel ipsi repugnantia non est uniuscuiusque iudicare vel
+<lb ed="#L" n="16"/>determinare dicendo multum assertive: « hoc est contra fidem vel hoc »,
+<lb ed="#L" n="17"/>sed licet dicere: « non videtur mihi quod hoc est contra fidem, contra
+<lb ed="#L" n="18"/>quam tamen reputo omne ilud quod Ecclesia catholica communiter
+<lb ed="#L" n="19"/>iudicat esse contra ipsam », — ideo, quia ea quae circa materiam istam
+<lb ed="#L" n="20"/>pertinentia ad fidem inducuntur contra ponentes unam formam in homine
+<lb ed="#L" n="21"/>non manifeste ostenduntur esse contra fidem, quantum ad ea quae
+<lb ed="#L" n="22"/>adhuc vidi; et absolute loquendo probabilior est positio ista, si non
+<lb ed="#L" n="23"/>appareat aliquid ex ea consequens quod manifeste sit contra fidem,
+<lb ed="#L" n="24"/>immo adeo probabilis et consentanea apparentibus rationibus quod
+<lb ed="#L" n="25"/>intelligentiores etiam  vere fideles hoc posuisse videntur, — non de facili
+<lb ed="#L" n="26"/>debet dici quod ista positio repugnet fidei, ne ex hoc ea quae sunt
+<lb ed="#L" n="27"/>fidel minus revereantur?, credantur et tractentur ; et | detur occasio
+<lb ed="#L" n="28"/>haesitandi in fide iam credentibus, et non credentibus accedendi ad fidem
+<lb ed="#L" n="29"/>occasio auferatur.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2433">
+               <lb ed="#L" n="30"/>Ideo per modum saltem probabilis opinionis, et ut mihi videtur, eis
+<lb ed="#L" n="31"/>quae fide certa teneri oportet non repugnantis, potest teneri quod in
+<lb ed="#L" n="32"/>homine non sit nisi una forma, aliam tamen positionem non reprobando
+<lb ed="#L" n="33"/>nec impossibilem vel erroneam reputando. Et quia visum est mihi quod
+<lb ed="#L" n="34"/>rationes reprobantes pluralitatem formarum in aliis ab homine habent
+<pb ed="#L" n="128"/>
+               <lb ed="#L" n="1"/>efficaciam aequalem [habent] etiam in homine, ideo, quia nolo asserere
+<lb ed="#L" n="2"/>tanquam necessarium et cuius contrarium sit impossibile et erroneum,
+<lb ed="#L" n="3"/>quod in homine sit tantum una forma, sed solum hoc dicendo per
+<lb ed="#L" n="4"/>modum probabilis opinionis, — ideo etiam volo asserere in aliis ab
+<lb ed="#L" n="5"/>homine non posse esse nisi unam formam, paratus tenere determinate in
+<lb ed="#L" n="6"/>homine esse plures formas, si appareant aliae rationes efficaciores, vel
+<lb ed="#L" n="7"/>si ex determinatione Ecclesiae determinetur aliquid circa corpus Christi
+<lb ed="#L" n="8"/>esse tenendum quod nondum est determinatum, vel aliud ratione cuius
+<lb ed="#L" n="9"/>oporteat ponere in homine plures formas.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2468">
+               <lb ed="#L" n="10"/>Ad primum, cum arguitur quod eadem manent accidentia in corpore
+<lb ed="#L" n="11"/>Christi vivo et mortuo et cetera, secundum aliquos diceretur quod aliqua
+<lb ed="#L" n="12"/>accidentia symbola et communia eadem numero manent subiecto 
+secun<lb break="no" ed="#L" n="13"/>dum substantiam penitus transmutato. Sed quia hoc non videtur 
+pro<lb break="no" ed="#L" n="14"/>babile, dicendum quod quia accidentia non insunt materiae nisi ut in
+<lb ed="#L" n="15"/>actu est per formam substantialem, ideo eodem agente quo corrupto
+<lb ed="#L" n="16"/>homine vel alio inducitur alia forma substantialis, inducuntur etiam alia
+<lb ed="#L" n="17"/>accidentia numero saltem. Generans ergo novum compositum substantiale,
+<lb ed="#L" n="18"/>et corrumpens praecedens, est quo agente alia accidentia habent esse
+<lb ed="#L" n="19"/>et alia. — Cum dicitur quod non, quia materia non videbatur determinata
+<lb ed="#L" n="20"/>ad talia accidentia si ponatur non manere aliqua forma substantialis
+<lb ed="#L" n="21"/>praecedens, dico quod immo, propter ordinem essentialem formarum
+<lb ed="#L" n="22"/>succedentium sibi ordine naturali in materia, secundum quod non 
+quod<lb break="no" ed="#L" n="23"/>libet ! fit ex quolibet immediate. Ex vino enim immediate fit acetum, non
+<lb ed="#L" n="24"/>e converso, licet fiat resolutio ad materiam primam in utraque generatione
+<lb ed="#L" n="25"/>substantiali. — Cum dicitur quod materia non determinavit, verum est; nec
+<lb ed="#L" n="26"/>anima praecedens, dico quod immo. Ipsa enim dans esse vivum et mixtum
+<lb ed="#L" n="27"/>requirebat dispositiones in materia ratione quarum materia erat  disposita
+<lb ed="#L" n="28"/>et ordinata ad quandam formam substantialem determinatam inducendam
+<lb ed="#L" n="29"/>post corruptionem prioris compositi, vel post separationem formae 
+prae<lb break="no" ed="#L" n="30"/>cedentis, quia etiam consimilia accidentia consequuntur.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2516">
+               <lb ed="#L" n="31"/>Cum etiam dicitur quod ad hane formam introducendam non 
+deter<lb break="no" ed="#L" n="32"/>minat anima quia est ei repugnans, nulla autem forma ? determinat materiam
+<lb ed="#L" n="33"/>ad formam sibi repugnantem, dicendum quod cum omnis forma a qua
+<lb ed="#L" n="34"/>fit transmutatio sit repugnans et quodammodo contraria formae ad quam
+<lb ed="#L" n="35"/>fit transmutatio, quia contrarium fit ex contrario, et tamen oportet quod
+<lb ed="#L" n="36"/>materia intelligatur esse determinata per formam cui subicitur ad formam
+<lb ed="#L" n="37"/>ad quam materia a forma praecedenti potest immediate transmutari ut
+<pb ed="#L" n="129"/>
+               <lb ed="#L" n="1"/>patet in singulis, non est verum quod assumitur. Immo forma aliqua
+<lb ed="#L" n="2"/>existens in materia determinat ipsam ad formam sibi repugnantem
+<lb ed="#L" n="3"/>originaliter, quod determinat non ad id? quod natum est se compati,
+<lb ed="#L" n="4"/>sed ad id? quod natum est sibi succedere. Quamvis etiam forma mortui
+<lb ed="#L" n="5"/>cadaveris ratione qua mortuum repugnantiam habeat ad formam prae- ,
+<lb ed="#L" n="6"/>cedentem ratione qua vivens, propter quod transmutatur materia ab una
+<lb ed="#L" n="7"/>in aliam, tamen ratione qua quoddam mixtum determinatum, etiam ?
+<lb ed="#L" n="8"/>quandam conformitatem habet cum forma praecedenti quam non habet
+<lb ed="#L" n="9"/>cum aliis, ratione cuius etiam consimilia accidentia possunt hic et ibi
+<lb ed="#L" n="10"/>reperiri.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2558">
+               <lb ed="#L" n="11"/>Cum arguitur de duobus | agentibus et cetera, dicendum quod
+<lb ed="#L" n="12"/>propter perfectionem et nobilitatem hominis non potest homo perfecte
+<lb ed="#L" n="13"/>in esse produci ab agente naturali, sed dispositive, ita quod sicut in
+<lb ed="#L" n="14"/>generatione asini actione naturali proceditur usque ad dispositionem
+<lb ed="#L" n="15"/>materiae quae est necessitas, et ex consequenti etiam usque ad completam
+<lb ed="#L" n="16"/>generationem asini et inductionem-formae sensitivae virtute eiusdem
+<lb ed="#L" n="17"/>agentis cuius facultatem talis forma non excedit, ita in generatione
+<lb ed="#L" n="18"/>hominis fit processus naturalis usque ad dispositionem materiae quae
+<lb ed="#L" n="19"/>est necessitas. Et quia virtus naturalis agentis deficit respectu compositi
+<lb ed="#L" n="20"/>perfecti per animam intellectivam et respectu | ipsius animae, Deus
+<lb ed="#L" n="21"/>ipse consistens et virtutem omnium agentium in se habens, quasi vice
+<lb ed="#L" n="22"/>agentis naturalis, efficit compositum quod est homo, animam rationalem
+<lb ed="#L" n="23"/>non per se sed in materia disposita concreando. Et sicut si agens naturale
+<lb ed="#L" n="24"/>haberet efficaciam huiusmodi compositum perfecte generandi, illud 
+gene<lb break="no" ed="#L" n="25"/>rando corrumperet omnia praecedentia, scilicet formam substantialem et
+<lb ed="#L" n="26"/>accidentia illam concomitantia, et inducendo formam principalem 
+indu<lb break="no" ed="#L" n="27"/>ceret etiam accidentia illi convenientia, ita Deus agens quasi vice huius
+<lb ed="#L" n="28"/>naturalis agentis hoc idem facit; sunt enim agentia convenientissima et
+<lb ed="#L" n="29"/>ordinatissima.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2602">
+               <lb ed="#L" n="30"/>Cum ergo dicitur quod agens naturale aliquid agit et inducit
+<lb ed="#L" n="31"/>aliquam formam, verum est. Sed illa est dispositio quae est necessitas ad
+<lb ed="#L" n="32"/>intellectivam, non ut simul cum illa maneat, sed, cum alia introducitur,
+<lb ed="#L" n="33"/>ista corrumpatur, sicut contingit in alis quod generatio unius est
+<lb ed="#L" n="34"/>corruptio alterius. Et cum dicitur: illam non corrumpit nisi generando
+<lb ed="#L" n="35"/>aliam, quia per se non corrumpit, dicendum quod agens naturale 
+secun<lb break="no" ed="#L" n="36"/>dum se illam non corrumpit sicut secundum se non inducit intellectivam,
+<pb ed="#L" n="130"/>
+               <lb ed="#L" n="1"/>sed Deus qui est ibi quasi agens naturale sive eius vicem implens. Per
+<lb ed="#L" n="2"/>se enim producendo compositum perfectum ex materia et anima, per
+<lb ed="#L" n="3"/>accidens corrumpit praecedens compositum imperfectum ex materia et
+<lb ed="#L" n="4"/>forma praecedenti. Et sic non est transmutatio corruptionis formae
+<lb ed="#L" n="5"/>praecedentis absque transmutatione generationis alterius formae, 
+appel<lb break="no" ed="#L" n="6"/>lando generationem productionem alicuius entis naturalis et materialis
+<lb ed="#L" n="7"/>compositi ex materia et forma. Et hoc est! transmutatione materiae
+<lb ed="#L" n="8"/>actione naturali agentis naturalis ipsam materiam disponentis et 
+super<lb break="no" ed="#L" n="9"/>naturali actione agentis supernaturalis quasi vice naturalis secundum
+<lb ed="#L" n="10"/>convenientem huiusmodi dispositionem ipsam materiam forma 
+substan<lb break="no" ed="#L" n="11"/>tiali completiva perficiente. Et sic non fit huiusmodi compositum naturale
+<lb ed="#L" n="12"/>sine transmutatione naturali quae competit tali enti naturali quod multum
+<lb ed="#L" n="13"/>excedit alia composita naturalia ratione perfectionis suae formae.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2650">
+               <lb ed="#L" n="14"/>Cum ergo additur quod intellectiva non corrumpit, dicendum quod
+<lb ed="#L" n="15"/>intellectiva in quantum habet et continet virtute quicquid habent formae
+<lb ed="#L" n="16"/>naturales inferiores, perficiendo m materiam perfectius quam per illas
+<lb ed="#L" n="17"/>perficerentur, corrumpit praecedentes formaliter, Deus autem effective.
+<lb ed="#L" n="18"/>Quia non obstante quod posset animam intellectivam inducere in materia
+<lb ed="#L" n="19"/>nuda quae fuisset sub quacumque forma secundum suam omnipotentiam,
+<lb ed="#L" n="20"/>quia tamen non agit in huiusmodi actione nisi quasi? vice agentis
+<lb ed="#L" n="21"/>naturalis, ideo  agit sicut etiam alia agentia agunt secundum 
+disposi<lb break="no" ed="#L" n="22"/>tionem materiae. Licet etiam anima non sit ab agente naturali, tamen
+<lb ed="#L" n="23"/>quodammodo ab ipsa insunt dispositiones materiales consimiles 
+dispo<lb break="no" ed="#L" n="24"/>sitionibus praecedentibus; dispositiones enim materiales aliae et aliae
+<lb ed="#L" n="25"/>consequuntur in composito generato, ex hoc quod sub alis et aliis
+<lb ed="#L" n="26"/>dispositionibus prius fuit materia sub alia et alia forma substantiali in
+<lb ed="#L" n="27"/>composito ex quo fit generatio. Quae tamen non manet; et ideo requiritur
+<lb ed="#L" n="28"/>ad perficiendum cursum naturae quod naturale agens disponat materiam
+<lb ed="#L" n="29"/>quantum potest. Quo facto supernaturale[m] inducit animam; et simul
+<lb ed="#L" n="30"/>tempore consequuntur in composito dispositiones propriae consequentes
+<lb ed="#L" n="31"/>ipsum compositum per se ratione animae, et hoc ab agente qui est
+<lb ed="#L" n="32"/>Deus effective, et non a naturali nisi pro quanto disposuit materiam ad
+<lb ed="#L" n="33"/>talis formae susceptonem. Ulterius | etiam in composito consequuntur
+<lb ed="#L" n="34"/>aliae dispositiones magis materiales, ipsum compositum per se ratione
+<lb ed="#L" n="35"/>compositi consequentes, et in quantum communicat cum aliis entibus
+<lb ed="#L" n="36"/>pure naturalibus, puta cum brutis, vegetabilibus et mixtis, et tales
+<lb ed="#L" n="37"/>quodammodo sunt ab agente naturali effective. Huiusmodi enim disposi-
+<pb ed="#L" n="131"/>
+               <lb ed="#L" n="1"/>tiones materiales, quae scilicet de potentia materiae ! educuntur, possunt
+<lb ed="#L" n="2"/>dici aliquo modo produci ab agente naturali habente? potestatem
+<lb ed="#L" n="3"/>sic materiam transmutandi, licet illas non possit efficere, nisi a 
+super<lb break="no" ed="#L" n="4"/>naturali agente praeexistente in materia forma substantiali quam non
+<lb ed="#L" n="5"/>potest efficere agens naturale, quia non educitur de potentia materiae.
+<lb ed="#L" n="6"/>Sicut enim dicta positio ponens duas formas in homine tantum, ponit
+<lb ed="#L" n="7"/>quod huiusmodi formae simul tempore habent esse in materia a diversis
+<lb ed="#L" n="8"/>tamen agentibus, ita etiam hic potest dici quod cum inest anima ab
+<lb ed="#L" n="9"/>agente supernaturali, insunt huiusmodi dispositiones materiales ab agente
+<lb ed="#L" n="10"/>naturali Et sicut agens supernaturale non induceret animam nisi illa
+<lb ed="#L" n="11"/>naturali forma existente, ita naturale non possit inducere huiusmodi
+<lb ed="#L" n="12"/>dispositiones nisi huiusmodi forma supernaturali existente, quia non
+<lb ed="#L" n="13"/>agit huiusmodi accidentia nisi in composito ex materia et substantiali
+<lb ed="#L" n="14"/>forma. Quamvis enim corpus sit actu id quod est per animam 
+forma<lb break="no" ed="#L" n="15"/>liter, tamen huiusmodi accidentia non sunt ab anima effective. Si enim
+<lb ed="#L" n="16"/>accidentia aliqua consequantur aliquam formam substantialem ut causam
+<lb ed="#L" n="17"/>effectivam completam, nullum agens posset causare talia accidentia nisi
+<lb ed="#L" n="18"/>causando illam formam. Sed accidentia consequentia formam substantialem
+<lb ed="#L" n="19"/>non ut causam effectivam, sed subiectivam, potest causare agens quod
+<lb ed="#L" n="20"/>non efficit ipsam formam. Ita est in proposito, ideo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2751">
+               <lb ed="#L" n="21"/>Cum additur: si praecedentia corrumpantur frustra fuissent inducta,
+<lb ed="#L" n="22"/>item concluderetur in aliis ab homine secundum ponentes quod ultima
+<lb ed="#L" n="23"/>forma adveniente omnia praecedentia corrumpantur. Et dicendum quod
+<lb ed="#L" n="24"/>non frustra sunt, quia sine illis ? ordinate non erat procedere ad formam
+<lb ed="#L" n="25"/>ultimam, nec agens naturale etiam huiusmodi dispositiones consequentes 
+<lb ed="#L" n="26"/>in materia nisi sic fuisse[n]t praedisposita induceret.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2767">
+               <lb ed="#L" n="27"/>Cum dicitur ulterius quod in homine nihil est genitum et cetera,
+<lb ed="#L" n="28"/>immo totus homo quodammodo est genitus, licet non ita proprie omnino
+<lb ed="#L" n="29"/>sicut alia, quia actione naturali hominis generantis factum est dispositive
+<lb ed="#L" n="30"/>ut totus homo compositus ex materia et forma esse habeat, et quantum
+<lb ed="#L" n="31"/>ad huiusmodi dispositiones materiales consequentes potest dici aliquid
+<lb ed="#L" n="32"/>genitum esse in homine. Si enim vis in homine aliquid? esse genitum,
+<lb ed="#L" n="33"/>cum generationis omnino | propriae sit terminus secundum formam
+<lb ed="#L" n="34"/>specificam ultimam et completam, forma autem hominis specifica ultima
+<lb ed="#L" n="35"/>et completa secundum nullam praedictarum positionem inducitur per
+<lb ed="#L" n="36"/>generationem proprie dictam actione agentis naturalis, sed per crea-
+<pb ed="#L" n="132"/>
+               <lb ed="#L" n="1"/>tionem actione agentis supernaturalis, ideo proprie non potest dici homo
+<lb ed="#L" n="2"/>genitus. Cum ergo non debeat in homine quaeri talis et ita proprius
+<lb ed="#L" n="3"/>modus generationis sicut in aliis, in hoc sufficiat quod sufficere debet.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2800">
+               <lb ed="#L" n="4"/>Aliae rationes philosophicae quibus dicitur quod anima rationalis est
+<lb ed="#L" n="5"/>simpliciter inextensibilis et cetera, incorporea et cetera, tangunt 
+difficul<lb break="no" ed="#L" n="6"/>tatem quomodo possit! uniri materiae extensae sine extensione aliam
+<lb ed="#L" n="7"/>formam consequente sive ipsam animam.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2811">
+               <lb ed="#L" n="8"/>Dicendum ergo quod ipsa anima virtute est omnes formae inferiores,
+<lb ed="#L" n="9"/>scilicet substantialitatis et corporeitatis et huiusmodi. Ex quo enim
+<lb ed="#L" n="10"/>dicimus eam dare esse materiae, est quantum ad hoc materialis ; ex quo
+<lb ed="#L" n="11"/>etiam dicimus eam dare esse materiae  in? qua est extensio secundum
+<lb ed="#L" n="12"/>tres dimensiones, dicitur etiam esse forma corporeitatis. Verumtamen
+<lb ed="#L" n="13"/>non substantialitas nec corporeitas animae sicut nec sua essentia, quia
+<lb ed="#L" n="14"/>non est nisi una essentia licet designetur sub diversis rationibus talibus,
+<lb ed="#L" n="15"/>extenditur. In hoc etiam excedit alias formas materiam perficientes quod
+<lb ed="#L" n="16"/>potest esse in materia extensa et causare quantitatem in materia (sicut
+<lb ed="#L" n="17"/>forma substantialis causa est accidentium) quae extendit materiam, et
+<lb ed="#L" n="18"/>tamen ipsa non extenditur. Quae enim sunt formae simpliciter 
+mate<lb break="no" ed="#L" n="19"/>riales, sive praecedant quantitatem sive sequantur, extenduntur 
+exten<lb break="no" ed="#L" n="20"/>sione materiae, ut patet de lapideitate et de albedine eius et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2842">
+               <lb ed="#L" n="21"/>Nec hoc aliquid est causa sui contrarii; nec animae incorporeitas est
+<lb ed="#L" n="22"/>causa corporei contrarii sui, si non sit in homine nisi una forma 
+substan<lb break="no" ed="#L" n="23"/>tialis scilicet anima ipsa; nec etiam incorporeitas animae est cum
+<lb ed="#L" n="24"/>corpore | itate sibi contraria, si in homine sint plures formae. Ipsa enim
+<lb ed="#L" n="25"/>anima tale est incorporeum quod est natum  esse formaliter extensae
+<lb ed="#L" n="26"/>materiae, vel  posset dici quod immateriale non est causa formalis
+<lb ed="#L" n="27"/>materiae vel huiusmodi et cetera. Licet enim anima sit indivisibilis,
+<lb ed="#L" n="28"/>potest tamen esse causa [in]divisibilitatis talis sive quantitatis, quia
+<lb ed="#L" n="29"/>indivisibile et divisibile licet habeant rationes oppositas, ita quod unum
+<lb ed="#L" n="30"/>non potest esse alterum, tamen non sunt sic opposita quod unum non
+<lb ed="#L" n="31"/>possit esse cum alio et esse causa alterius. Similiter etiam spirituale
+<lb ed="#L" n="32"/>sic quod eius esse nullo modo communicabile est corpori et corpus sic
+<lb ed="#L" n="33"/>sunt disparata quod unum non solum non potest esse alterum, sed
+<lb ed="#L" n="34"/>etiam nec esse cum altero. Sed spirituale sic. quod non est quantum
+<lb ed="#L" n="35"/>per se nec per accidens, potest tamen esse forma corporis divisibilis ;
+<lb ed="#L" n="36"/>licet non possit esse corpus, potest tamen esse pars corporis nec ei
+<pb ed="#L" n="133"/>
+               <lb ed="#L" n="1"/>opponitur proprie; et sic esse corporeum substantiale hominis potest
+<lb ed="#L" n="2"/>esse ab anima. Eadem etiam ratione posset argui quod non daret esse
+<lb ed="#L" n="3"/>irrationale sive sensibile et cetera. Sic enim repugnare videntur sensibile
+<lb ed="#L" n="4"/>et intellectuale sicut corporeum et incorporeum, et ideo talia non faciunt
+<lb ed="#L" n="5"/>difficultatem propriam, sed explicant difficultatem quae est circa hoc
+<lb ed="#L" n="6"/>quomodo anima possit esse forma substantialis corporis et cetera.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2894">
+               <lb ed="#L" n="7"/>Ad illud de unitate corporis Christi vivi et mortui et cetera, puto
+<lb ed="#L" n="8"/>quod omnes auctoritates quae videntur ostendere corpus unum et idem
+<lb ed="#L" n="9"/>in Christo, dicerent etiam similiter in aliis. Unde Christo mortuo et
+<lb ed="#L" n="10"/>latrone similiter, non videtur quod deberent dici huiusmodi corpora
+<lb ed="#L" n="11"/>mortua ab invicem specie differentia, sicut nec cum erant! viva specie
+<lb ed="#L" n="12"/>differebant. Non video ergo quare oportet dici de Christo quod in ipso
+<lb ed="#L" n="13"/>vivo et mortuo fuit unum et idem corpus, si non dicatur hoc etiam de
+<lb ed="#L" n="14"/>aliis; nec video s! necessitate naturae in morte aliorum sic? 
+introdu<lb break="no" ed="#L" n="15"/>cuntur novae formae. Ouare Christus hoc etiam in se? ipso non 
+per<lb break="no" ed="#L" n="16"/>misit [qui] secundum quod dicit Augustinus  contra Felicianum : credo
+<lb ed="#L" n="17"/>Filium Dei mortuum secundum legem naturae quam pro humani generis
+<lb ed="#L" n="18"/>redemptione suscepit. Nec oportet dicere quod quia corpus Christi
+<lb ed="#L" n="19"/>debuit conservari sine putrefactione, ideo alia forma non debuit introduci
+<lb ed="#L" n="20"/>quia fuisset forma putredinis. Nam esto quod remansisset usque nunc
+<lb ed="#L" n="21"/>absque anima, potuit conservari sine putrefactione, sicut etiam contingit
+<lb ed="#L" n="22"/>de aliquibus corporibus sanctorum aliquorum ut dicitur. Quia etiam ita
+<lb ed="#L" n="23"/>cito surrexit et tali tempore et sic fuit aromatibus corpus eius conditum,
+<lb ed="#L" n="24"/>posset dici quod corpus Christi non vidit corruptionem sive 
+putrefac<lb break="no" ed="#L" n="25"/>tionem etiam absque aliquo miraculo; quia hoc dicitur propter velocitatem
+<lb ed="#L" n="26"/>et accelerationem suae resurrectionis, quasi dicens : non permittis eum
+<lb ed="#L" n="27"/>ita diu morte detineri quod etiam posset putrefieri. Nulla ergo videtur
+<lb ed="#L" n="28"/>necessitas hoc ponendi specialiter in Christo, esto quod in eo ? sint duae
+<lb ed="#L" n="29"/>formae, si in aliis hoc non ponatur.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2947">
+               <lb ed="#L" n="30"/>Si dicatur quod immo nova fieret unio quia sicut naturam 
+assump<lb break="no" ed="#L" n="31"/>tam non deposuit, ita etiam nec novam assumpsit, — sed ad hoc posset
+<lb ed="#L" n="32"/>dici quod verum est quod naturam novam per se non assumpsit. Sed
+<lb ed="#L" n="33"/>non  videtur inconveniens quod sit perfecta aliquo modo unio nova, licet
+<pb ed="#L" n="134"/>
+               <lb ed="#L" n="1"/>non proprie assumptio. Cum enim fuerit parvulus in conceptione multum
+<lb ed="#L" n="2"/>additum est! sibi de nova materia per nutrimentum. Sed illa secundum
+<lb ed="#L" n="3"/>se non assumebatur, sed materiae praeexistenti quae per se erat pars
+<lb ed="#L" n="4"/>assumptae naturae uniebatur, et ex consequenti divino supposito. Ita in
+<lb ed="#L" n="5"/>morte remansit unica anima et materia quam perfecit, et quia in materia
+<lb ed="#L" n="6"/>illa necessitate naturae fuit nova forma introducta, illa fuit unita materiae
+<lb ed="#L" n="7"/>Christi in esse naturae, non autem ulterius Filio Dei in esse suppositi
+<lb ed="#L" n="8"/>quod | esse£ potentiale secundum aliquos, quia est alia essentia a materia
+<lb ed="#L" n="9"/>unita. Sed non videtur hoc esse verum, quia ex quo illa | forma in se
+<lb ed="#L" n="10"/>non subsistebat oportet quod subsisteret in supposito in quo materia 
+sub<lb break="no" ed="#L" n="11"/>sistebat , ita quod in quantum erat perfectio illius materiae principaliter
+<lb ed="#L" n="12"/>unitae, ex consequenti in unitate eiusdem suppositi unita erat. Non est
+<lb ed="#L" n="13"/>enim contra Christi dignitatem ponere circa ipsam ea quae de necessitate
+<lb ed="#L" n="14"/>naturae assumptae consequuntur, ex quo ipsam cum suis defectibus  
+natu<lb break="no" ed="#L" n="15"/>ralibus et poenalibus voluit assumere.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e2993">
+               <lb ed="#L" n="16"/>Hoc tamen non assero, sed non video quare non possit sic dici.
+<lb ed="#L" n="17"/>Quod enim in Christo vel in aliis possit idem numero corpus esse vivum
+<lb ed="#L" n="18"/>et mortuum, ita impossibile videtur sicut quod aliquid unum numero possit
+<lb ed="#L" n="19"/>esse vinum et acetum. Immo in talibus non esset aliquid corruptum 
+sim<lb break="no" ed="#L" n="20"/>pliciter ut dictum est, quia si non sit aliquid novum generatum, nec
+<lb ed="#L" n="21"/>etiam est aliquid simpliciter corruptum. Quae est dispositio quae est
+<lb ed="#L" n="22"/>necessitas aliqua adhuc anima non separetur  quamdiu maneret quousque
+<lb ed="#L" n="23"/>facta circa dispositiones consequentes regeneratione vel antecedentes hanc
+<lb ed="#L" n="24"/>formam, similiter illa variatione non obstante hoc maneret. Et sicut in
+<lb ed="#L" n="25"/>aceto non est forma substantialis quae prius fuit (alioquin prius fuisset
+<lb ed="#L" n="26"/>simpliciter acetum et vinum), ita in corpore mortuo non est aliquid quod
+<lb ed="#L" n="27"/>prius fuit secundum formam substantialem, alioquin forma vivi et mortui
+<lb ed="#L" n="28"/>essent simul.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e3024">
+               <lb ed="#L" n="29"/>Sed nonne magis specialiter confitetur Ecclesia corpus Christi
+<lb ed="#L" n="30"/>unum numero fuisse, ut patet per auctoritates sanctorum valde 
+mani<lb break="no" ed="#L" n="31"/>festas, quam de aliis? Dicendum quod immo, quod licet non fuit unum
+<lb ed="#L" n="32"/>numero corpus Christi vivum et mortuum unitate formae substantialis,
+<lb ed="#L" n="33"/>fuit tamen unum speciali unitate suppositi.
+</p>
+            <p xml:id="v27ab7-d1e400-d1e3037">
+               <lb ed="#L" n="34"/>Ad aliud de transsuóstantiatione dicendum quod conversio fit in id
+<lb ed="#L" n="35"/>quod vere potest dici corpus compositum ex materia et forma substantiali.
+<pb ed="#L" n="135"/>
+               <lb ed="#L" n="1"/>Cum enim in homine una sola forma puta anima virtute contineat
+<lb ed="#L" n="2"/>omnes alias formas praecedentes scilicet substantialitatis et corporeitatis
+<lb ed="#L" n="3"/>et sic de aliis, et tota substantia panis quantum ad materiam et 
+quan<lb break="no" ed="#L" n="4"/>tum ad formam convertatur in substantiam corporis Christi compositam,
+<lb ed="#L" n="5"/>et sic in materiam et formam quae est ipsa anima secundum quod est
+<lb ed="#L" n="6"/>forma dans esse corporeum mixtum ; — nec obstat quod Augustinus 
+<lb ed="#L" n="7"/>dicit super Genesim quod corpus non potest converti in spiritum, quia
+<lb ed="#L" n="8"/>verum est ! secundum se —, sed in quantum est pars compositi materialis ?
+<lb ed="#L" n="9"/>quod est per ipsum spiritum et corpus et mixtum, potest fieri conversio
+<lb ed="#L" n="10"/>in ipsam sub hac ratione. Licet enim illud in quod convertitur substantia
+<lb ed="#L" n="11"/>panis sit realiter et essentialiter forma corporeitatis et anima, tamen ?
+<lb ed="#L" n="12"/>non est terminus huius  transmutationis per se in eo quod anima, sed
+<lb ed="#L" n="13"/>in eo quod ? forma corporeitatis. Quia dato quod illa natura non esset 
+<lb ed="#L" n="14"/>anima, et esset forma corporeitatis, adhuc fieret conversio in eam ; sed
+<lb ed="#L" n="15"/>si esset anima et non forma corporeitatis non fieret in eam conversio.
+<lb ed="#L" n="16"/>— Nec est intelligendum quod hoc quod est esse formam corporeitatis et
+<lb ed="#L" n="17"/>esse animam dicant circa animam intentiones vel rationes logicas ef?
+<lb ed="#L" n="18"/>ens rationis; immo dicunt rem veram, licet unam, virtualiter tamen
+<lb ed="#L" n="19"/>multiplicem. Et sic dicendo  quod forma hominis secundum quod dat
+<lb ed="#L" n="20"/>esse corporeum est terminus conversionis, ponitur terminus per se aliquid
+<lb ed="#L" n="21"/>reale, et pro tanto dicitur quod anima est in hoc sacramento per
+<lb ed="#L" n="22"/>concomitantiam. Sicut etiam si diceretur : hoc est caro bovis, — vel corpus
+<lb ed="#L" n="23"/>bovis? vel caro bovis non sit cibus nisi in quantum est tale mixtum,
+<lb ed="#L" n="24"/>sive vivum sive non vivum, et tamen cum vivit non nisi ab anima est
+<lb ed="#L" n="25"/>caro vel corpus ; — si ista verba haberent vim transsubstantiandi, posset
+<lb ed="#L" n="26"/>aliquo modo dici anima ibi esse per concomitantiam !",
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="3"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e67"><!-- v27ab7-q1q2 -->
+            <head xml:id="v27ab7-d1e67-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1e67-Hd1e101" type="question-title">
+      Utrum operatio qua Deus iustificat impium sit perfectior operatio Dei circa creaturas
+    </head>
+            <p xml:id="v27ab7-d1e67-d1e104">
+               <pb ed="#L" n="3"/>
+               <lb ed="#L" n="1"/>QUAESTIO II.
+<lb ed="#L" n="2"/>Utrum operatio qua. Deus iustificat impium sit. perfectior
+<lb ed="#L" n="3"/>operatio Dei circa creaturas.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e115">
+               <lb ed="#L" n="4"/>Secundo quaerebatur utrum operatio qua Deus iustificat impium sit ;
+<lb ed="#L" n="5"/>perfectior operatio Dei circa creaturas, et arguebatur | quod non. Quia
+<lb ed="#L" n="6"/>illa operatio per quam acquiritur alicui gratia consummata et inamissibiliter
+<lb ed="#L" n="7"/>est perfectior quam illa per quam acquiritur gratia imperfecta et 
+amissi<lb break="no" ed="#L" n="8"/>biliter. Sed! per glorificationem iusti acquiritur iusto gloria sive gratia
+<lb ed="#L" n="9"/>consummata inamissibiliter, per iustificationem impii acquiritur iniusto
+<lb ed="#L" n="10"/>gratia imperfecta amissibiliter. Ergo glorificatio iusti est perfectior operatio
+<lb ed="#L" n="11"/>quam iustificatio impii .
+</p>
+            <p xml:id="v27ab7-d1e67-d1e135">
+               <lb ed="#L" n="12"/>Contra. Dicitur in Psalmis : méserationes eius super omnia opera eius .
+<lb ed="#L" n="13"/>Sed miserando Deus operatur iustificationem impii. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e143">
+               <lb ed="#L" n="14"/>Et Augustinus  super illud Iohannis  decimo quarto : maiora
+<lb ed="#L" n="15"/>horum faciet et cetera, dicit quod maius est opus ? ut ex impio fiat iustus
+<lb ed="#L" n="16"/>quam creare caelum et terram.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e152">
+               <lb ed="#L" n="17"/>Respondeo dicendum quod ratione alicuius ex parte Dei considerandi
+<lb ed="#L" n="18"/>non potest dici una operatio Dei perfectior alia, quia  enim Deus et 
+quic<lb break="no" ed="#L" n="19"/>quid est in  ipso respectu creaturae? est unicum et simplex, ita quod non
+<lb ed="#L" n="20"/>est in ipso accipere aliquos gradus secundum perfectius et minus 
+per<lb break="no" ed="#L" n="21"/>fectum. Ideo etiam dicitur quod Deus uniformiter se habet ad res, licet
+<lb ed="#L" n="22"/>non e converso ; — sicut etiam dicitur quod accipiendo operationem Dei
+<lb ed="#L" n="23"/>pro ipsa operatione operante, ut ita liceat loqui, nullam diversitatem realem
+<lb ed="#L" n="24"/>in illa est accipere respectu creaturae, sed ratione  eorum quae ex parte
+<pb ed="#L" n="4"/>
+               <lb ed="#L" n="1"/>creaturae considerantur, accipiendo scilicet operationem pro opere operato.
+<lb ed="#L" n="2"/>Sic potest dici quod unum opus vel operatum est perfectius vel maius
+<lb ed="#L" n="3"/>altero, et ratione modi productionis suae, et ratione ipsius producti.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e181">
+               <lb ed="#L" n="4"/>Ratione modi producendi dicitur aliquod opus maius; tamen ad hoc
+<lb ed="#L" n="5"/>quod res in esse per huiusmodi opus producatur, nihil praesupponitur vel
+<lb ed="#L" n="6"/>subicitur ex parte producti in quo producendum virtualiter praeexistat ;
+<lb ed="#L" n="7"/>sed ipsum producibile secundum totum id quod ad eius esse habet 
+con<lb break="no" ed="#L" n="8"/>currere, et quantum ad potentiale, et quantum ad actuale eius, ex potentia
+<lb ed="#L" n="9"/>producentis dependet. Huiusmodi quidem opus dicitur maius vel perfectius
+<lb ed="#L" n="10"/>illo quo res in actu producitur ex aliquo praeexistente ente in potentia,
+<lb ed="#L" n="11"/>ut ex ipso fiat tale secundum esse in actu. Propter quod etiam potens
+<lb ed="#L" n="12"/>producere, nullo praesupposito, est maioris virtutis in infinitum potente
+<lb ed="#L" n="13"/>producere solum aliquo supposito. Et secundum hoc perfectior est operatio
+<lb ed="#L" n="14"/>Dei qua minimum et vilissimum vermem ! in esse producit creando, quam
+<lb ed="#L" n="15"/>operatio cuiuscumque agentis creati quantumcumque perfectam rem vel
+<lb ed="#L" n="16"/>speciem entis, actione naturali ex potentia materiae in esse producentis.
+<lb ed="#L" n="17"/>Et hoc modo etiam posset dici quod operationum Dei illa qua producit
+<lb ed="#L" n="18"/>minimum subsistens in se per creationem, est perfectior illa qua producit
+<lb ed="#L" n="19"/>aliquid ex materiali obedientia, absque ordine naturae, quod posset natura
+<lb ed="#L" n="20"/>producere per | plura media.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e220">
+               <lb ed="#L" n="21"/>Ex parte vero operati sive ratione termini productionis, sic illa operatio
+<lb ed="#L" n="22"/>dicitur perfectior per quam producitur perfectius in natura vel entitate ;
+<lb ed="#L" n="23"/>et sic operatio qua producuntur animata dicitur perfectior operatione qua
+<lb ed="#L" n="24"/>inanimata ; et operatio vel productio compositi substantiae nobilioris
+<lb ed="#L" n="25"/>perfectior est quam "productio compositi ex substantia inferiori et 
+quo<lb break="no" ed="#L" n="26"/>cumque accidente, ut productio angeli in natura sua est perfectior quam
+<lb ed="#L" n="27"/>productio hominis etiam in gratia, — considerando haec ut sunt entia
+<lb ed="#L" n="28"/>quaedam secundum se et secundum earum proprias naturas, quia quaelibet
+<lb ed="#L" n="29"/>substantia secundum se nobilior est quolibet accidente.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e242">
+               <lb ed="#L" n="30"/>Sed loquendo de perfectione alicuius, non secundum se, sed in ordine
+<lb ed="#L" n="31"/>et comparatione  ad finem, illud quo aliquid perfectius coniungitur fini
+<lb ed="#L" n="32"/>est perfectius illo quo non sic aliquid coniungitur. Et sic, cum per habitus
+<lb ed="#L" n="33"/>gratuitos rationalis creatura perfectius coniungatur fini ultimo, et efficitur
+<lb ed="#L" n="34"/>quodam nobiliori modo particeps divinae bonitatis et perfectionis quam
+<lb ed="#L" n="35"/>per acquisitos vel quam per potentias naturales nudas, secundum hoc
+<lb ed="#L" n="36"/>perfectior est operatio Dei qua producit gratiam in aliquo, sive qua facit
+<lb ed="#L" n="37"/>aliquem esse gratum, quam operatio qua producit in esse naturae quam-
+<pb ed="#L" n="5"/>
+               <lb ed="#L" n="1"/>cumque perfectam creaturam. Et sic etiam dicitur quod gratia perfectior
+<lb ed="#L" n="2"/>est substantia animae non simpliciter, sed quodammodo !, quantum ad hoc
+<lb ed="#L" n="3"/>scilicet quod fini coniungit animam modo perfectiori quam. possit coniungi
+<lb ed="#L" n="4"/>sine illa, licet anima, cum sit substantia quaedam perfecta, secundum se
+<lb ed="#L" n="5"/>sit perfectior. Sic etiam dicitur quod omne agens, in quantum agens,
+<lb ed="#L" n="6"/>perfectius est patiente, licet aliquando simpliciter sit imperfectius ; sicut
+<lb ed="#L" n="7"/>sensibile imperfectius est quam vis sensitiva.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e279">
+               <lb ed="#L" n="8"/>Quia ergo per nihil potest aliquod ens ita perfecte coniungi fini ultimo
+<lb ed="#L" n="9"/>sicut coniungitur creatura rationalis Deo per gratiam unionis, et praecipue
+<lb ed="#L" n="10"/>si supponitur quod ista unio includat illam quae consistit in actibus perfectis
+<lb ed="#L" n="11"/>beatae fruitionis, ideo videtur quod operatio qua natura rationalis unitur
+<lb ed="#L" n="12"/>divino supposito in unitate suppositi sit perfectior quacumque alia 
+ope<lb break="no" ed="#L" n="13"/>ratione. Et post hunc gradum est operatio qua fit ut per donum gloriae
+<lb ed="#L" n="14"/>beatus coniungitur Deo ut fini beatificanti. Et post hunc , operatio qua
+<lb ed="#L" n="15"/>viator ei coniungitur per gratiam. Et secundum hoc maius est, ut dicit
+<lb ed="#L" n="16"/>Augustinus , iustificare impium quam creare caelum et terram, sed non
+<lb ed="#L" n="17"/>dicit quod ? maius sit quam glorificare vel unire dicto modo.
+</p>
+            <p xml:id="v27ab7-d1e67-d1e304">
+               <lb ed="#L" n="18"/>Circa hoc tamen est considerandum quod considerando absolute
+<lb ed="#L" n="19"/>quantitatem boni dai vel? habiti per huiusmodi operationem, gratia unionis
+<lb ed="#L" n="20"/>et gloria sunt operationes sive operata maiora quam gratia qua impius
+<lb ed="#L" n="21"/>iustificatur. Considerando tamen donum gloriae et gratiae secundum 
+pro<lb break="no" ed="#L" n="22"/>portionem ad ea quibus dantur, sic maius est iustificare quam glorificare,
+<lb ed="#L" n="23"/>quia maius est gratiae donum quo iustificatur impius cum esset inimicus
+<lb ed="#L" n="24"/>et filius irae, quam donum gloriae quo beatificatur iustus cum esset 
+accep<lb break="no" ed="#L" n="25"/>tus et gratus Deo , quia ? plus excedit donum gratiae impiuz: ? qui dignus
+<lb ed="#L" n="26"/>erat non gratia sed poena, quam donum gloriae beatificatos qui, quod
+<lb ed="#L" n="27"/>iustum est et eis quo | dammodo ex condigno '? debitum recipiunt. Per
+<lb ed="#L" n="28"/>praedicta patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="68"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e355"><!-- v27ab7-q2q3 -->
+            <head xml:id="v27ab7-d1e355-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-d1e355-Hd1e101" type="question-title">
+      Utrum mundus sive aliqua creatura potuit esse vel existere ab aeterno
+    </head>
+            <p xml:id="v27ab7-d1e355-d1e104">
+               <lb ed="#L" n="12"/>QUAESTIO III
+<lb ed="#L" n="13"/>Utrum mundus sive aliqua creatura potuit. esse
+<lb ed="#L" n="14"/>vel existere ab aeterno.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e113">
+               <lb ed="#L" n="15"/>Deinde ad secundum arguebatur, et ostendebatur quod mundus sive
+<lb ed="#L" n="16"/>creatura non potuit esse ab aeterno, quia ex hoc sequuntur duo 
+impos<lb break="no" ed="#L" n="17"/>sibilia. Unum est quod possibile fuisset sic mundum fuisse a Deo quod
+<lb ed="#L" n="18"/>non potuisset non fuisse ab ipso, et sic de necessitate habuisset esse a
+<lb ed="#L" n="19"/>Deo; quia sicut quod est, quando est, necesse est esse, ita quod fuit,
+<lb ed="#L" n="20"/>quando fuit, necesse est fuisse. Ergo quod semper fuit semper necesse
+<lb ed="#L" n="21"/>fuit esse. Quare et cetera. — Alii sic formant quod sequitur quod Deus
+<lb ed="#L" n="22"/>non potuit non producere mundum in esse, quia non potuit non 
+pro<lb break="no" ed="#L" n="23"/>ducere? in illo instanti in quo productus est vel in quo ipsum produxit,
+<lb ed="#L" n="24"/>quia quod est, quando est, necessarium est esse, immo nec est dare instans
+<lb ed="#L" n="25"/>in quo non sit productus ab ipso. Quare nec potest dari instans in quo
+<lb ed="#L" n="26"/>potuit non esse productus ab ipso.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e142">
+               <lb ed="#L" n="27"/>Aliud impossibile quod ex hoc sequitur est quod si mundus potuit
+<lb ed="#L" n="28"/>esse ab aeterno, potuerunt infiniti dies praecessisse, et in quolibet potuit
+<lb ed="#L" n="29"/>Deus fecisse ? unum lapidem alicuius determinatae magnitudinis et illum
+<lb ed="#L" n="30"/>potuit conservare, et sic possent modo actu esse infiniti lapides finitarum
+  <pb ed="#L" n="69"/>
+               <lb ed="#L" n="1"/>quantitatum producti et conservati a Deo secundum totam ! mundi 
+dura<lb break="no" ed="#L" n="2"/>tionem. Sed si infiniti lapides finitarum quantitatum unirentur et fierent
+<lb ed="#L" n="3"/>unus lapis vel unum corpus, constitueretur ex eis unum corpus infinitum .
+<lb ed="#L" n="4"/>Deus autem omnes huiusmodi lapides quos posset fecisse ? posset sic
+<lb ed="#L" n="5"/>unire. Ergo posset aliquod corpus esse infinitum, quod est impossibile ;
+<lb ed="#L" n="6"/>et nihilominus est impossibile etiam esse nunc infinitos lapides finitarum
+<lb ed="#L" n="7"/>quantitatum. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e172">
+               <lb ed="#L" n="8"/>Contra. Illud quod non ? implicat contradictionem potest fieri a Deo.
+<lb ed="#L" n="9"/>Sed mundum fuisse ab aeterno contradictionem non implicat, quia hoc
+<lb ed="#L" n="10"/>nunquam accep | tum est a philosophis vel sanctis ad ostendendum
+<lb ed="#L" n="11"/>mundum non fuisse ab aeterno. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e183">
+               <lb ed="#L" n="12"/>Respondeo dicendum quod ad hoc intelligendum considerandum est,
+<lb ed="#L" n="13"/>quod si sit repugnantia intellectuum " quod mundus potuit esse ab aeterno
+<lb ed="#L" n="14"/>ut quid creatum a Deo et in diversitate substantiae, planum est quod
+<lb ed="#L" n="15"/>nullo modo potuit esse ab aeterno. Non est autem manifesta repugnantia
+<lb ed="#L" n="16"/>intellectuum ; quia si? esset, hoc contingeret quod Deus necessario 
+dura<lb break="no" ed="#L" n="17"/>tione praecederet creaturam quae ab ipso habet esse, vel quia de ratione
+<lb ed="#L" n="18"/>creaturae est quod habeat esse post non esse duratione. Sed non videtur
+<lb ed="#L" n="19"/>esse de ratione creaturae quod habeat esse post non esse duratione, sed
+<lb ed="#L" n="20"/>solum quod de se dicat naturam quae secundum quantamcumque 
+dura<lb break="no" ed="#L" n="21"/>tionem nata est esse, non tamen a se sed ab alio.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e207">
+               <lb ed="#L" n="22"/>Ad cuius intellectum est considerandum quod, non obstante quod non
+<lb ed="#L" n="23"/>est distinctio realis inter essentiam et existentiam creaturae, ita quod?
+<lb ed="#L" n="24"/>quantum convenit creaturae de ratione essentiae tantum convenit ei de
+<lb ed="#L" n="25"/>esse, dicimus tamen Deum creaturas duratione ! praecessisse, et non fuisse
+<lb ed="#L" n="26"/>ab aeterno nec !" quantum ad esse essentiae nec quantum ad esse 
+exis<lb break="no" ed="#L" n="27"/>tentiae, ita quod nec ab aeterno ' homo fuit , nec ab aeterno fuit animal,
+<lb ed="#L" n="28"/>nec ab aeterno homo fuit animal — dico ? secundum esse reale actuale,
+<lb ed="#L" n="29"/>— sed solum secundum esse potentiale et virtuale et secundum esse
+<lb ed="#L" n="30"/>cognitum. Quia ab aeterno homo et suum | esse cognitum fuit, et ab
+<lb ed="#L" n="31"/>aeterno de intellectu hominis fuit animal; et secundum esse potentiale et
+<lb ed="#L" n="32"/>virtuale in virtute et potentia suae causae ab aeterno fuit, et sicut ab
+<lb ed="#L" n="33"/>aeterno homo habuit esse, ita habuit esse animal, quia ab aeterno homo
+<lb ed="#L" n="34"/>fuit et fuit homo in potentia non in actu, et etiam fuit animal scilicet in
+<lb ed="#L" n="35"/>potentia. Non videtur ergo bene dictum, ut videtur aliquibus, quod ad hoc
+<pb ed="#L" n="70"/>
+               <lb ed="#L" n="1"/>quod ponatur Deum duratione creaturarum existentias praecessisse, quod
+<lb ed="#L" n="2"/>sit differentia realis inter essentiam et existentiam creaturarum, ita quod
+<lb ed="#L" n="3"/>ab aetérno creaturae etiam de necessitate habuerunt esse essentiae  
+sim<lb break="no" ed="#L" n="4"/>pliciter (et sic Deus solum natura, non duratione praecessit essentias
+<lb ed="#L" n="5"/>creaturarum), sed de novo habuerunt esse existentiae et quod quantum
+<lb ed="#L" n="6"/>ad z/lud? praecessit Deus duratione creaturas, ut patet ex praedictis.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e255">
+               <lb ed="#L" n="7"/>Immo etiam esto quod realis esset  differentia inter esse essentiae
+<lb ed="#L" n="8"/>et existentiae creaturae, sicut inter formale actuale, materiale et 
+poten<lb break="no" ed="#L" n="9"/>tiale, tamen prout creatura potuit ab aeterno esse secundum esse essentiae,
+<lb ed="#L" n="10"/>potuit etiam esse secundum esse existentiae ut quoddam compositum
+<lb ed="#L" n="11"/>perfectum sicut etiam materia et forma differunt. Et prout res materialis
+<lb ed="#L" n="12"/>potuit esse a Deo quantum ad principium materiale, potuit etiam esse
+<lb ed="#L" n="13"/>ab ipso quantum ad principium formale ut quoddam compositum 
+com<lb break="no" ed="#L" n="14"/>pletum. Et qui ponit essentias creaturarum fuisse vel posse fuisse ab
+<lb ed="#L" n="15"/>aeterno secundum id quod sunt essentialiter sive creaturas secundum
+<lb ed="#L" n="16"/>esse essentiae ipsarum, non debet negare fuisse vel posse fuisse 
+crea<lb break="no" ed="#L" n="17"/>turas simpliciter ab aeterno. Et ideo quia omnes ponunt creaturas,
+<lb ed="#L" n="18"/>quantum ad esse essentiae ipsarum et etiam quantum ad esse 
+exis<lb break="no" ed="#L" n="19"/>tentiae earum fuisse ab aeterno, saltem in virtute et potentia Dei — qui
+<lb ed="#L" n="20"/>est quodammodo omnia continens in virtute ut dictum est  et qui
+<lb ed="#L" n="21"/>ad hoc quod illud quod in eo est in potentia habeat esse in actu, non
+<lb ed="#L" n="22"/>indiget aliquo alio principio activo vel passivo praesupposito suae 
+causa<lb break="no" ed="#L" n="23"/>litati; sed ipsa voluntas Dei est natura rei secundum Ambrosium  ; —
+<lb ed="#L" n="24"/>ideo sicut in Christo quantum ad eius essentiam omnium entium 
+per<lb break="no" ed="#L" n="25"/>fectiones comprehendentem, et quantum ad eius scientiam omnia et
+<lb ed="#L" n="26"/>omnes modos entium in ipsa sua essentia apprehendentem, virtualiter
+<lb ed="#L" n="27"/>et exemplariter creaturae habuerunt esse ab aeterno, sic ab ipso 
+quan<lb break="no" ed="#L" n="28"/>tum ad eius potentiam et voluntatem efficacissimam a nullo dependentem
+<lb ed="#L" n="29"/>extra in se ipsis potuerunt habere esse efficienter.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e307">
+               <lb ed="#L" n="30"/>Quia ergo unaquaeque creatura secundum rationem suae essentiae
+<lb ed="#L" n="31"/>specificae abstrahit ab hic et nunc, propter quod dicitur quod universalia
+<lb ed="#L" n="32"/>sunt ubique et semper, quia scilicet non dicunt entia determinati 
+tem<lb break="no" ed="#L" n="33"/>poris simpliciter, sed dicunt res et naturas quae natae sunt esse semper
+<pb ed="#L" n="71"/>
+               <lb ed="#L" n="1"/>non solum secundum esse essentiae sed secundum esse existentiae, quia
+<lb ed="#L" n="2"/>nec natae sunt esse secundum esse essentiae nisi sint natae secundum
+<lb ed="#L" n="3"/>esse existentiae; nec quantum ad suum quod quid est, et quantum ad
+<lb ed="#L" n="4"/>esse essentiae possunt abstra | hi species creaturarum ab hic! et nunc
+<lb ed="#L" n="5"/>et sic habere perpetuitatem (ut quidam  concedunt ? negantes mundum
+<lb ed="#L" n="6"/>potuisse esse ab aeterno) nisi etiam quantum ad suam existentiam vel
+<lb ed="#L" n="7"/>quantum ad suum esse abstrahant ab hicetnunc, — ideo, sicut quidam 
+<lb ed="#L" n="8"/>concedunt, quod quid est eclipsis lunae abstrahit ab hic et nunc ut sic
+<lb ed="#L" n="9"/>simpliciter acceptum non possit probari, et similiter licet quaedam existentia
+<lb ed="#L" n="10"/>eius actualis pro aliquo tempore determinato et non abstrahens a quolibet
+<lb ed="#L" n="11"/>tempore vel nunc vel a quolibet ubi, sicut nec essentia eclipsis ad 
+huius<lb break="no" ed="#L" n="12"/>modi eclipsim contracta, probari possit hic et nunc esse, tamen existentia
+<lb ed="#L" n="13"/>eclipsis lunae universaliter sive simpliciter abstrahit ? ab hic et nunc sicut
+<lb ed="#L" n="14"/>et eius essentia simpliciter; et ideo sicut unum non potest probari ita nec
+<lb ed="#L" n="15"/>alterum. Sicut ergo si domus in mente artificis, quae dicitur ars et forma
+<lb ed="#L" n="16"/>exemplaris domus extra, una cum voluntate artificis esset causa sufficiens
+<lb ed="#L" n="17"/>essentiae et existentiae domus extra, et statim cum notitia domus in mente
+<lb ed="#L" n="18"/>ut causa exemplari formali posset adesse ipsa placentia existentiae vel
+<lb ed="#L" n="19"/>existendi domus ut causa? efficiente in ipsa voluntate, diceretur quod a
+<lb ed="#L" n="20"/>tempore quo? potuit esse notitia domus, potuit etiam esse natura vel
+<lb ed="#L" n="21"/>essentia domus sive ipsa domus in existentia in re extra; et si huiusmodi
+<lb ed="#L" n="22"/>notitia potuit esse ab aeterno, existere etiam potuisset domus ab aeterno.
+<lb ed="#L" n="23"/>Ita videtur posse dici in proposito, et videtur? hoc pertinere ad 
+emi<lb break="no" ed="#L" n="24"/>nentiam ? et virtutem divinae '" potentiae.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e372">
+               <lb ed="#L" n="25"/>Secundum hoc ergo de ratione creaturae solummodo est ut habeat
+<lb ed="#L" n="26"/>esse suum ab alio ex nihilo, id est non de aliquo ?; et quod habeat
+<lb ed="#L" n="27"/>esse post non esse natura, quia de se non habet esse, sed magis non
+<lb ed="#L" n="28"/>esse. Esse autem habet ab alio in quantum scilicet est effectus primi.
+<lb ed="#L" n="29"/>Per prius autem habet res quod naturaliter sibi debetur ex se quam
+<lb ed="#L" n="30"/>quod sibi debetur ab alio. Dato ergo ? quod creatura nunquam habuerit
+<lb ed="#L" n="31"/>actu non esse sed semper fuerit, tamen ipsa haberet esse post non esse
+<lb ed="#L" n="32"/>natura, quod sufficit ad rationem creaturae, et sic creatura habens esse
+<lb ed="#L" n="33"/>ab aeterno diceretur esse facta ex nihilo vel non de aliquo, quia prius
+<lb ed="#L" n="34"/>naturaliter haberet  non esse utpote ex se quam esse utpote ex
+<pb ed="#L" n="72"/>
+               <lb ed="#L" n="1"/>alio. Nec tamen sequitur quod esset ens et non ens, quia non ponitur
+<lb ed="#L" n="2"/>ipsam sic habere vel habuisse non esse quod aliquando esset totaliter L.
+<lb ed="#L" n="3"/>non ens: sic enim cum simul cum hoc poneretur semper fuisse, 
+seque<lb break="no" ed="#L" n="4"/>retur quod aliquando simul esset et non esset; — sed sic ponitur É
+<lb ed="#L" n="5"/>semper non esse et non fuisse quod natura eius talis est quod esset
+<lb ed="#L" n="6"/>nihil si ! sibi relinqueretur. Ut patet etiam: si aer semper esset illuminatus
+<lb ed="#L" n="7"/>a sole, diceretur  semper de non lucido lucidus factus, et prius non
+<lb ed="#L" n="8"/>lucidus quam lucidus, non ita quod aliquando fuerit non lucidus vel
+<lb ed="#L" n="9"/>tenebrosus, sed quia esset vel fuisset semper talis si eum sol sibi relin- à ]
+<lb ed="#L" n="10"/>queret; et sic ordine naturae, non duratione, fuisset etiam prius non
+<lb ed="#L" n="11"/>lucidus. Et secundum hoc non diceretur aer simul lucidus et tenebrosus, P.
+<lb ed="#L" n="12"/>sed de se non ens lucidus vel ens non lucidus ab alio semper haberet £z
+<lb ed="#L" n="13"/>quod esset lucidus. Ita | etiam in creatura aeterna praecederet non
+<lb ed="#L" n="14"/>esse ipsum esse ordine naturae et non diceretur creatura simul esse "!
+<lb ed="#L" n="15"/>et non esse, sed quod creatura de se non habens esse, ab alio semper
+<lb ed="#L" n="16"/>haberet esse. Et adhuc etiam modo sic esse et non esse verificantur
+<lb ed="#L" n="17"/>de creatura. Potest enim dici quod quaelibet creatura toto tempore E Th g
+<lb ed="#L" n="18"/>quo est habet non esse et esse 4 non esse a se, esse ab alio. Ex ; Sn
+<lb ed="#L" n="19"/>praemissis ergo patet quod de ratione creaturae non est quod post non 's
+<lb ed="#L" n="20"/>esse duratione habeat [non] esse, sed solum natura.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e443">
+               <lb ed="#L" n="21"/>Item ex parte Dei non convenit vere dicere quod oportet eum b
+<lb ed="#L" n="22"/>necessario praecedere suum effectum duratione. Et hoc quidem tenetur e E $
+<lb ed="#L" n="23"/>ratione. Nam omne agens cuius actio  vel operatio est successiva, vel E
+<lb ed="#L" n="24"/>etiam subita quae tamen est terminus  actionis successivae, duratione 43
+<lb ed="#L" n="25"/>necessario praecedit suum effectum, ut sol illuminans aerem in hemi- ' »
+<lb ed="#L" n="26"/>sphaerio nostro in instanti praecedit duratione hanc illuminationem sive "d"
+<lb ed="#L" n="27"/>etiam hoc illuminatum esse, quia non illuminat nisi accedendo per
+<lb ed="#L" n="28"/>motum cuius terminus est ista illuminatio. Sed actio Dei  respectu
+<lb ed="#L" n="29"/>creaturae immediate non est successiva, nec est terminus alterius actionis
+| successivae. Sequitur ergo quod Deus non necessario postposuit sibi
+<lb ed="#L" n="30"/>effectum suum in duratione, nisi fuerit alia causa postponendi necessario
+<lb ed="#L" n="31"/>effectum in duratione . Sed non est aliqua quae in Deo possit habere
+<lb ed="#L" n="32"/>locum, quia quod causa aliqua postponat sibi effectum in duratione
+<lb ed="#L" n="33"/>necessario, non est nisi propter imperfectionem causae quae aliquid
+<lb ed="#L" n="34"/>expectat ad hoc quod habeat perfectam virtutem producendi effectum,
+<lb ed="#L" n="35"/>aut quia talis causa effectum producit per motum, (et ideo quia causa
+<pb ed="#L" n="73"/>
+               <lb ed="#L" n="1"/>illa necessario est in principio motus et effectus non nisi in termino,
+<lb ed="#L" n="2"/>ideo non potest effectus esse coaequaevus suae causae), aut quia causa
+<lb ed="#L" n="3"/>non est productiva! effectus secundum totum id quod est, sed indiget ad
+[eius] productionem illius pass[1]o, quod si non fuerit praesens non? potest
+<lb ed="#L" n="4"/>agens ? producere effectum suum in illo quousque ipsum passum 
+appro<lb break="no" ed="#L" n="5"/>pinquaverit. Sed Deus ab aeterno fuit infinitae potentiae et virtutis, nec
+<lb ed="#L" n="6"/>ei defuit ulla potentia quam expectaret, et actio Deli etiam non est
+<lb ed="#L" n="7"/>successiva et divisibilis, sed actio qua creatura habet esse ab ipso est
+<lb ed="#L" n="8"/>indivisibilis : non enim habent esse ab ipso per motum vel mutationem
+<lb ed="#L" n="9"/>successivam. Est etiam causa totius rei quantum ad omnia quae ad
+<lb ed="#L" n="10"/>ipsam pertinent. Ouare effectum suum non de necessitate duratione
+<lb ed="#L" n="11"/>praecedit, et sic poterit creatura ab aeterno esse cum creatore, ab illo
+<lb ed="#L" n="12"/>tamen habens suum esse, non de aliquo. Quae ideo est creatura, quia
+<lb ed="#L" n="13"/>sic ab alio habet esse de nihilo, et ille creator, quia a nullo habet esse
+<lb ed="#L" n="14"/>sed omnia ab ipso.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e511">
+               <lb ed="#L" n="15"/>Praeterea, in quocumque instanti ponitur res esse, potest poni
+<lb ed="#L" n="16"/>principium actionis eius. Sed in operatione subita simul, immo idem
+<lb ed="#L" n="17"/>est principium et finis eius sicut in omnibus indivisibilibus. Ergo in
+<lb ed="#L" n="18"/>quocumque instanti ponitur agens producens effectum suum subito,
+<lb ed="#L" n="19"/>potest poni terminus actionis suae. Sed terminus actionis simul est
+<lb ed="#L" n="20"/>cum ipso facto. Ergo non importat repugnantiam intellectuum, si ponatur
+<lb ed="#L" n="21"/>causa producens effectum suum subito non praecedere duratione suum
+<lb ed="#L" n="22"/>effectum. Repugnat autem causae producenti effectum suum per motum,
+<lb ed="#L" n="23"/>quia oportet principium motus praecedere finem eius. Et quia homines
+<lb ed="#L" n="24"/>assueti sunt considerare huiusmodi factiones quae sunt per motum, ideo
+<lb ed="#L" n="25"/>non de facili capiunt quod causa agens effectum suum duratione non
+<lb ed="#L" n="26"/>praecedat.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e540">
+               <lb ed="#L" n="27"/>Nec huic rationi obviat quod Deus est agens creaturas non per
+<lb ed="#L" n="28"/>naturae necessitatem sed per liberam voluntatem, non quidem 
+delibera<lb break="no" ed="#L" n="29"/>tivam ? ut est nostra quae pendente deliberatione postponit facere suum
+<lb ed="#L" n="30"/>effectum ; — voluntas enim " Dei non est deliberativa ; si enim ageret de
+<lb ed="#L" n="31"/>necessitate naturae diceretur " quod mundus esset ab aeterno et de 
+neces<lb break="no" ed="#L" n="32"/>sitate. Sed voluntas in !! Deo nihil adimit sibi de potentia et virtute ;
+<lb ed="#L" n="33"/>immo potius ex hoc est potentior. Ergo sicut mundus esset ab ipso de
+<lb ed="#L" n="34"/>necessitate, si non esset agens liberum et " voluntarium, ita videtur quod
+<pb ed="#L" n="74"/>
+               <lb ed="#L" n="1"/>mundus potest esse vel non esse ab ipso secundum quod sua libera
+<lb ed="#L" n="2"/>voluntate sibi placuerit. Et si potuit ipsum velle fuisse ab aeterno, sicut
+<lb ed="#L" n="3"/>voluit ipsum esse ex tempore, potuit fuisse ab aeterno.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e569">
+               <lb ed="#L" n="4"/>Cum ergo voluntas Dei nihil diminuat de eius potentia et virtute
+<lb ed="#L" n="5"/>(et solventes ad rationes Aristotelis quibus arguit mundum non potuisse non
+<lb ed="#L" n="6"/>fuisse, per hoc quod idem manens idem semper facit idem, dicunt quod
+<lb ed="#L" n="7"/>hoc sequeretur si non esset agens per voluntatem), ergo non obstante
+<lb ed="#L" n="8"/>quod ponitur agens per voluntatem nihilominus potuit facere quod ' 
+crea<lb break="no" ed="#L" n="9"/>tum ab eo  nunquam non fuerit. Et haec videtur fuisse opinio Richardi ,
+<lb ed="#L" n="10"/>primo de Trinitate, capitulo sexto ubi dicit: omne esse triplici distinguitur
+<lb ed="#L" n="11"/>ratione; erit enim esse cuique  existenti ab aeterno et a semet ipso ,
+<lb ed="#L" n="12"/>aut e converso nec ab aeterno quidem nec a semet ipso, aut ab aeterno
+<lb ed="#L" n="13"/>quidem nec tamen a semet ipso. Et capitulo nono : fuisse autem aliquod
+<lb ed="#L" n="14"/>esse ab aeterno quod tamen non sit a semet ipso nemini videatur impos- j
+<lb ed="#L" n="15"/>sibile, quasi  sit necessarium causam semper effectum " praecedere, et
+<lb ed="#L" n="16"/>omne quod de alio est a  suo principio semper succedere oportere. Certe
+<lb ed="#L" n="17"/>enim radius solis de sole procedit et de sole originem trahit; | tamen
+<lb ed="#L" n="18"/>soli coaevus existit; ex quo enim fuit radium produxit et sine radio nullo
+<lb ed="#L" n="19"/>tempore fuit. In natura autem creata legimus quid de mafwra increata 
+<lb ed="#L" n="20"/>pensare et aestimare debeamus. Hanc tamen auctoritatem truncatam ad
+<lb ed="#L" n="21"/>oppositum inducunt aliqui. — Et <ref xml:id="v27ab7-d1e355-Rd1e610">Augustinus , undecimo de Civitate
+<lb ed="#L" n="22"/>Dei, capitulo quarto</ref>: qui mundum fatentur a Deo esse non tamen
+<lb ed="#L" n="23"/>initium temporis ei volunt, sed suae creationis habere ut modo vix
+<lb ed="#L" n="24"/>quodam intelligibili (quia scilicet non est consuetus talis modus factionis) é
+<lb ed="#L" n="25"/>semper si£ factus, dicunt | quidem aliquid.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e622">
+               <lb ed="#L" n="26"/>Sic ergo non videtur esse aliqua repugnantia intellectuum in hoc
+<lb ed="#L" n="27"/>quod dicitur creaturam habentem esse ex nihilo semper habuisse esse
+<lb ed="#L" n="28"/>a Deo ut a sua causa, etiam non obstante quod creatura habet esse a
+<lb ed="#L" n="29"/>Deo in aliena substantia quae dicto modo ex se habet non esse; quia
+<pb ed="#L" n="75"/>
+               <lb ed="#L" n="1"/>ut dictum est, huiusmodi suum esse, quia illad non habet ex se, semper
+<lb ed="#L" n="2"/>illud habet a Deo sibi! acquisitum de non esse vel de nihilo, non sic
+<lb ed="#L" n="3"/>quod illud prius duratione non haberet, sed quia illud ex se nunquam
+<lb ed="#L" n="4"/>habet, et quantum est  ex ratione sua absolute posset sibi esse ? acquisitum
+<lb ed="#L" n="5"/>de novo , licet ab aeterno habuisset esse non acquisitum post non esse,
+<lb ed="#L" n="6"/>sed dicto modo ? acquisitum. Quia enim esse habuisset libera voluntate
+<lb ed="#L" n="7"/>Dei nulla necessitate absoluta, ideo etiam ab aeterno absolute potuisset
+<lb ed="#L" n="8"/>non fuisse, .et post non esse habuisse esse acquisitum, sicut  et modo
+<lb ed="#L" n="9"/>cum habet a Deo esse, quia libera voluntate est ab ipso, et sic etiam
+<lb ed="#L" n="10"/>absolute potuisset non esse ab ipso in hoc instanti. Ideo etiam in hoc
+<lb ed="#L" n="11"/>instanti absolute loquendo posset sibi acquiri post non esse duratione ,
+<lb ed="#L" n="12"/>licet ex suppositione in quantum scilicet iam est? sibi acquisitum, sive
+<lb ed="#L" n="13"/>in quantum nunc est homo, non possit. Sic etiam intelligendum est quod
+<lb ed="#L" n="14"/>Deus faceret creaturam esse de non esse, et non solum daret creaturae
+<lb ed="#L" n="15"/>ut esset in facto esse et res crearet in esse et conservaret, si creaturam
+<lb ed="#L" n="16"/>ab aeterno fecisset; ita tamen quod haec non differrent re sed ratione.
+<lb ed="#L" n="17"/>Nam in quantum creatura considerata secundum se ut habens quantum
+<lb ed="#L" n="18"/>est de se non esse, intelligitur suum esse habere ab alio (et sic intelligitur
+<lb ed="#L" n="19"/>ibi non ? esse prius natura et esse posterius licet duratione non distent),
+<lb ed="#L" n="20"/>licitur fieri per respectum ad non esse praecedens dicto modo de non
+<lb ed="#L" n="21"/>esse ?!! et creari a Deo, mutatione quadam indivisibili, non reali habente
+<lb ed="#L" n="22"/>terminos realiter et secundum durationem distinctos, sed secundum
+<lb ed="#L" n="23"/>rationem sive secundum intellectum distantes; in quantum vere creatura
+<lb ed="#L" n="24"/>consideratur ut quid in actu simpliciter perfecto et non in nihilum cadens,
+<lb ed="#L" n="25"/>dicitur habere esse in facto esse sive conservar per comparationem
+<lb ed="#L" n="26"/>ad non esse sequens quod non cadit causalitate divina suam influentiam
+<lb ed="#L" n="27"/>qua produxit in esse non subtrahente, ut nuper fuit declaratum. Unde
+<lb ed="#L" n="28"/>bene videtur esse dictum quod mundus, si fuisset ab aeterno, non
+<lb ed="#L" n="29"/>accepisset a Deo esse. per mutationem realem et proprie dictam, sed
+<lb ed="#L" n="30"/>semper habuisset esse ab eo per simplicem influxum ". Ut sicut Filius
+<lb ed="#L" n="31"/>habet esse ab aeterno a Patre in identitate. substantiae per simplicem
+<lb ed="#L" n="32"/>influxum non per mutationem, ita mundus haberet esse ab aeterno in
+<lb ed="#L" n="33"/>diversitate substantiae per huiusmodi influxum.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e707">
+               <lb ed="#L" n="34"/>Si autem sit ita manifesta repugnantia intellectuum, nurum videtur
+<pb ed="#L" n="76"/>
+               <lb ed="#L" n="1"/>aliquibus quomodo Augustinus  hoc non vidit, qui tantum laboravit,
+<lb ed="#L" n="2"/>decimo et duodecimo de Civitate Dei, contra positionem philosophorum,
+<lb ed="#L" n="3"/>ad ostendendum quod mundus non fuisset aeternus, ad hoc multas
+<lb ed="#L" n="4"/>rationes inducendo, quia hoc fuisset efficacissima via ad improbandum
+<lb ed="#L" n="5"/>aeternitatem mundi, scilicet per repugnantiam intellectus. Hanc enim viam
+<lb ed="#L" n="6"/>praetermittit, quin immo videtur innuere quod non sit ibi repugnantia
+<lb ed="#L" n="7"/>intellectuum, ut patet ex aliquibus dictis suis ibi. Mirum etiam videtur
+<lb ed="#L" n="8"/>quomodo philosophi repugnantiam hanc' intellectauum non viderunt.
+<lb ed="#L" n="9"/>Unde cum dicitur quod de se non habet esse, ab alio acquirit esse, et
+<lb ed="#L" n="10"/>vadit de non esse ad esse, et prius habet non esse quam esse et omnia
+<lb ed="#L" n="11"/>talia, intelligenda sunt sic quod istud ire et illud habere non esse prius
+<lb ed="#L" n="12"/>est secundum naturam et modum intelligendi, non secundum durationem,
+<lb ed="#L" n="13"/>ut scilicet quia creatura quae de se non habet esse ab alio habet vel
+<lb ed="#L" n="14"/>accipit esse et cetera.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e745">
+               <lb ed="#L" n="15"/>Cum etiam dicitur quod si mundus semper fuisse potuisset, hoc
+<lb ed="#L" n="16"/>posito in esse, mundus nunquam potuisset non fuisse, dicendum quod
+<lb ed="#L" n="17"/>potentiae rationales sunt ad opposita. Unde Deus ab aeterno potuit
+<lb ed="#L" n="18"/>facere et non facere, et in Deo fuit  simul ab aeterno posse facere, et
+<lb ed="#L" n="19"/>non facere, et posse determinare se ad facere vel non facere, sive eligere
+<lb ed="#L" n="20"/>vel velle facere vel non facere. Et si mundus factus fuisset ab aeterno
+<lb ed="#L" n="21"/>absolute, tamen Deus semper potuisset ipsum facere vel non facere, et
+<lb ed="#L" n="22"/>determinasse se ad facere vel non facere sive elegisse vel velle facere
+<lb ed="#L" n="23"/>et non facere. Et libere | ad facere ab aeterno se determinasset et libere
+<lb ed="#L" n="24"/>fecisset, id est sua libera voluntate ab ipso ab aeterno esse habuisset,
+<lb ed="#L" n="25"/>ita tamen ? quod absolute loquendo etiam libera voluntate potuisset non
+<lb ed="#L" n="26"/>habuisse esse. Sicut ergo se determinavit ad facere sive ad hoc quod
+<lb ed="#L" n="27"/>mundus esset ab ipso, sic habet esse ab ipso, et ideo solum ex 
+suppo<lb break="no" ed="#L" n="28"/>sitione mundus de necessitate habet esse novum a Deo, quia scilicet
+<lb ed="#L" n="29"/>Deus libere se determinavit ad hoc quod voluit mundum sic esse ab
+<lb ed="#L" n="30"/>ipso. Ex quo autem sic se determinavit non potuit non determinasse,
+<lb ed="#L" n="31"/>et ideo ex suppositione mundus aliter ab ipso non potuit esse. Sed quia
+<lb ed="#L" n="32"/>absolute loquendo nulla necessitate ad hoc se determinavit, sed potuit
+<lb ed="#L" n="33"/>se determinasse ad aliter facere, ideo absolute loquendo mundus etiam
+<lb ed="#L" n="34"/>non sic de novo de necessitate est factus. Si etiam fuisset ab aeterno,
+<pb ed="#L" n="77"/>
+               <lb ed="#L" n="1"/>tamen libere se determinasset ad hoc quod mundus sic habuisset ab
+<lb ed="#L" n="2"/>ipso esse ab aeterno et potuisset determinare quod aliter habuisset esse.
+<lb ed="#L" n="3"/>Ideo etiam si mundus fuisset ab aeterno, non fuisset de necessitate
+<lb ed="#L" n="4"/>absoluta ab aeterno, sed solum condicionata sive ex suppositione, quod
+<lb ed="#L" n="5"/>non videtur inconveniens. Sicut ergo quod est, quando est, de necessitate
+<lb ed="#L" n="6"/>est, non simpliciter, sed ex suppositione scilicet in quantum est, — Socrates
+<lb ed="#L" n="7"/>enim currens in a non de necessitate currit in a, sed dum currit in a
+<lb ed="#L" n="8"/>non potest non currere, ita quod absolute loquendo posset ! non currere
+<lb ed="#L" n="9"/>in a, quia currere in a non est de eius ratione, — ita etiam mundo
+<lb ed="#L" n="10"/>non existente non est verum quod simpliciter loquendo | necesse sit?
+<lb ed="#L" n="11"/>ipsum esse a Deo hodie ; unde etiam cras non erit absolute verum. Est
+<lb ed="#L" n="12"/>dicere pro die hodierna: necesse fuit mundum heri a Deo fuisse, sed
+<lb ed="#L" n="13"/>ex suppositione et? condicione, in quantum est nunc vel in quantum fuit
+<lb ed="#L" n="14"/>her; ita etiam pro toto tempore praeterito et futuro.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e823">
+               <lb ed="#L" n="15"/>Non valet etiam ratio qua dicitur mundum non potuisse fuisse
+<lb ed="#L" n="16"/>aeternum, quia creatura parificaretur creatori in duratione, quia esset
+<lb ed="#L" n="17"/>aeterna, sicut Deus aeternus, et mensura Dei non excederet nec 
+compre<lb break="no" ed="#L" n="18"/>henderet nec ambiret totam durationem creaturae ; quia, ut probabiliter
+<lb ed="#L" n="19"/>dicebat respondens, hoc posito semper  aeternitas sive mensura vel
+<lb ed="#L" n="20"/>duratio Dei esset tota simul in summa simplicitate consistens, et duratio
+<lb ed="#L" n="21"/>mundi successiva, licet quia carens principio durationis et termino,
+<lb ed="#L" n="22"/>diceretur duratio aeterna, id est aeternitati indivisibili non secundum esse
+<lb ed="#L" n="23"/>omnino indivisibile, sed secundum suum esse successivum et secundum
+<lb ed="#L" n="24"/>suam aeternam mensuram successivam tamen semper coexistens. Et sic
+<lb ed="#L" n="25"/>etiam in perfectione et simplicitate excederet totam durationem mundi,
+<lb ed="#L" n="26"/>et eam uno modo ? simplici comprehenderet, quia non secundum aliud
+<lb ed="#L" n="27"/>et aliud ipsius aeternitatis tempus vel partes temporis sic coexisterent,
+<lb ed="#L" n="28"/>ut sic pars aeternitatis partem temporis cui coexisteret 
+comprehen<lb break="no" ed="#L" n="29"/>deret, et alia pars aliam, sed  illud secundum quod modo  coexistit ei
+<lb ed="#L" n="30"/>tempus praesens, secundum illud coexistet ei tempus  futurum in 
+mille<lb break="no" ed="#L" n="31"/>simum annum. Non solum enim inconveniens est quod divina aeternitas
+<lb ed="#L" n="32"/>ratione suae infinitatis non excedat durationem mundi aeternam a parte
+<lb ed="#L" n="33"/>ante, sed etiam a parte post. Cui non repugnat forte aeternum a parte
+<lb ed="#L" n="34"/>post, quia ista aeternitas mundi et sua infinitas habet esse semper in
+<lb ed="#L" n="35"/>actu permixto potentiae et non in actu simpliciter perfecto quia successiva
+<pb ed="#L" n="78"/>
+               <lb ed="#L" n="1"/>est, non potens esse tota simul; tale autem infinitum et aeternum 
+impor<lb break="no" ed="#L" n="2"/>ta£! unum esse et cetera.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e878">
+               <lb ed="#L" n="3"/>Non valent etiam rationes de infinitis lapidibus et infinitis 
+revolu<lb break="no" ed="#L" n="4"/>tionibus et huiusmodi, quia licet mundus fuisset ab aeterno, non possent
+<lb ed="#L" n="5"/>tamen lapides esse infiniti in actu, quia licet infiniti dies praecessissent
+<lb ed="#L" n="6"/>et quolibet die unum lapidem fecisse potuisset  Deus, tamen accipiendo
+<lb ed="#L" n="7"/>omnes simul  non potest esse quod sint facti lapides in omnibus diebus
+<lb ed="#L" n="8"/>simul. Constat enim quod quicquid Deus posset facere in diversis diebus
+<lb ed="#L" n="9"/>successive, simul posset facere in una hora quantum ad entia 
+perma<lb break="no" ed="#L" n="10"/>nentia; et constat quod statim facto uno lapide in hac hora, potest
+<lb ed="#L" n="11"/>facere alium  et sic in infinitum. Nec tamen in hac die possunt esse
+<lb ed="#L" n="12"/>facti lapides infiniti; potest tamen facere in infinitum lapidem post
+<lb ed="#L" n="13"/>lapidem, et fecisse in infinitum lapidem ante lapidem, sicut etiam potest
+<lb ed="#L" n="14"/>dividere continuum in infinitum, et secundum quodlibet signum divisivum
+<lb ed="#L" n="15"/>potest illud dividere, | non tamen potest facere quod sit actu divisum 
+<lb ed="#L" n="16"/>et sic de aliis. Item non oporteret inducere instantias de lignis et
+<lb ed="#L" n="17"/>lapidibus, quia illud idem quod per huiusmodi instantias concludi
+<lb ed="#L" n="18"/>videtur, efficacius concluditur de animabus humanis, si mundus fuisset ab
+<lb ed="#L" n="19"/>aeterno.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e917">
+               <lb ed="#L" n="20"/>Et est dicendum quod infinito universaliter repugnat esse simpliciter
+<lb ed="#L" n="21"/>in actu terminato, sed solum ei convenit esse in actu secundum aliquid, et
+<lb ed="#L" n="22"/>secundum aliquid semper in potentia. Et ideo quia successiva non habent
+<lb ed="#L" n="23"/>esse in actu nisi secundum aliquid indivisibile variabile secundum totam
+<lb ed="#L" n="24"/>successionem, ideo talium infinitas non importat aliquam repugnantiam,
+<lb ed="#L" n="25"/>quia quantumcumque detur in futurum, nunquam plus erit simul de
+<lb ed="#L" n="26"/>tempore quam modo est, quia semper pars parti succedit. Similiter
+<lb ed="#L" n="27"/>etiam , si tempus durasset in infinitum a parte ante, tamen nunquam
+<lb ed="#L" n="28"/>fuisset prius plus de tempore quam modo est, et ideo nullum 
+incon<lb break="no" ed="#L" n="29"/>veniens ipsum fuisse in infinitum à parte ante, sicut nec a parte post.
+<lb ed="#L" n="30"/>In permanentibus etiam nata est esse infinitas secundum divisionem
+<lb ed="#L" n="31"/>continui in infinitum, in post accipiendo, quia semper remanet aliquid
+<lb ed="#L" n="32"/>accipiendum, et nunquam poterit totum  esse acceptum. Et ideo quia
+[semper] illud quod est semper finitum est, ideo non obstante quod partes
+<lb ed="#L" n="33"/>acceptae non succedant , potest esse huiusmodi infinitas in permanentibus
+<lb ed="#L" n="34"/>ex parte post; similiter etiam eo modo a parte ante quo accipitur de
+<lb ed="#L" n="35"/>talibus semper aliquid finitum et relinquitur semper aliquid accipiendum,
+<pb ed="#L" n="79"/>
+               <lb ed="#L" n="1"/>potest dici esse possibile infinitum. Ut sicut Deus posset facere hodie
+<lb ed="#L" n="2"/>unum lapidem et cras alium et sic in infinitum, ita et in praeterito
+<lb ed="#L" n="3"/>potuit! ab heri unum fecisse et pridie alium et sic in infinitum. Et
+<lb ed="#L" n="4"/>sicut non potest esse quod sic faciat in futuro lapides quod simul essent
+<lb ed="#L" n="5"/>in facto esse, ita impossibile est quod sic fecerit in praeterito quod sint
+<lb ed="#L" n="6"/>etiam simul in facto esse . Hoc enim est contra rationem infiniti quod
+<lb ed="#L" n="7"/>habeat esse in facto esse completo. Et ideo talibus quae mata sunt
+<lb ed="#L" n="8"/>habere esse in facto esse permixto fieri non repugnat infinitas, nec a
+<lb ed="#L" n="9"/>parte ante, nec a parte post. Sed his quae ponuntur  habere esse in
+<lb ed="#L" n="10"/>facto esse complete repugnat omnino infinitas. Et quia permanentibus 77
+<lb ed="#L" n="11"/>post procedentibus in infinitum, etiam illis reservatis quae praecederent
+<lb ed="#L" n="12"/>sive quae prius acciperentur, non contingit esse in facto esse complete
+<lb ed="#L" n="13"/>et ideo in accepto esse, ideo eis ut sic non repugnat processus in 
+infi<lb break="no" ed="#L" n="14"/>nitum, sed quia eis in ante procedentibus in infinitum et omnibus
+<lb ed="#L" n="15"/>reservatis conveniret habere esse in facto esse complete, ideo eis ut sic
+<lb ed="#L" n="16"/>repugnat infinitas et cetera.
+</p>
+            <p xml:id="v27ab7-d1e355-d1e991">
+               <lb ed="#L" n="17"/>De infinitate igitur animarum esset  dicendum quod secundum
+<lb ed="#L" n="18"/>cursum qui nunc est, scilicet quod homo sit factus ut beatificabilis in
+<lb ed="#L" n="19"/>anima  et corpore, planum est quod mundus non potuit fuisse  ab
+<lb ed="#L" n="20"/>aeterno. Verumtamen, licet non posset secundum ordinem istum poni
+<lb ed="#L" n="21"/>homines potuisse fuisse ab aeterno, tamen absolute loquendo posset 
+<lb ed="#L" n="22"/>poni cum finitate animarum sufficientium ad existentiam omnium 
+homi<lb break="no" ed="#L" n="23"/>num | natorum esse secundum debitas circulationes orbium, videlicet
+<lb ed="#L" n="24"/>sic quod cum ponatur quod omnibus orbibus ad eumdem gradum et
+<lb ed="#L" n="25"/>statum redeuntibus in quo nunc sunt redeant omnia eadem et secundum
+<lb ed="#L" n="26"/>superiora et inferiora, tunc etiam aliquando eaedem animae quae modo
+<lb ed="#L" n="27"/>animant corpora, eadem corpora vel saltem omnino conformia aliquando
+<lb ed="#L" n="28"/>animare habent secundum cursum pure naturalem. Et sic posset esse
+<lb ed="#L" n="29"/>circulatio animarum etiam finitarum in infinitum, non talem qualem ponunt
+<lb ed="#L" n="30"/>fabulae Pythagoricae. Et animarum circulationem non videtur Augustinus 
+<lb ed="#L" n="31"/>reprobare, undecimo de Civitate Dei, nisi ex variatione secundum 
+felici<lb break="no" ed="#L" n="32"/>tatem et infelicitatem. Unde si ponerentur" animae solum ordinatae ad
+<lb ed="#L" n="33"/>perfectionem earum naturalem, non videretur huiusmodi circulatio efficaciter
+<pb ed="#L" n="80"/>
+               <lb ed="#L" n="1"/>Intelligendum ergo quod illud argumentum de animabus et illud de
+<lb ed="#L" n="2"/>lapidibus non arguunt mundum simpliciter non potuisse fuisse aeternum,
+<lb ed="#L" n="3"/>sive quantum ad aliquas partes eius, sive secundum alium ordinem sive
+<lb ed="#L" n="4"/>etiam alium mundum sive quamcumque creaturam. Sed quia mundus
+<lb ed="#L" n="5"/>secundum cursum ' quem videmus videtur esse sic factus quod homo est
+<lb ed="#L" n="6"/>principalius intentum inter entia inferiora, si homo non potuit esse ab
+<lb ed="#L" n="7"/>aeterno, probabiliter arguitur quod mundus secundum hunc cursum et
+<lb ed="#L" n="8"/>ordinem non potuit esse ab aeterno , potentia praecipue ordinata et
+<lb ed="#L" n="9"/>praecipue sicut nunc est in ordine ad gloriam et beatitudinem ; hoc
+<lb ed="#L" n="10"/>tamen non arguit quod ? nullo modo esse potuit creatura ab aeterno. Et
+<lb ed="#L" n="11"/>ideo neutram partem determinando tanquam verum necessarium, neutram
+<lb ed="#L" n="12"/>etiam reprobando tanquam falsum inmipossibile sed tanquam probabile
+<lb ed="#L" n="13"/>sive probabiliter verum vel falsum, potest dici quod utraque pars per
+<lb ed="#L" n="14"/>modum opinabilis sive etiam credibilis, non demonstrabilis, potest sustineri,
+<lb ed="#L" n="15"/>et neutra erronea.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

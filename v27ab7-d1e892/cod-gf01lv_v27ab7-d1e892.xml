@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="294"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e892"><!-- v27ab7-q4q20 -->
+            <head xml:id="v27ab7-d1e892-Hd1e99">Quaestio 20</head>
+            <head xml:id="v27ab7-d1e892-Hd1e101" type="question-title">
+      Utrum subditus qui scit aliquod secretum vel quodcumque occultum peccatum praelato praecipienti ut revelet teneatur revelare
+    </head>
+            <p xml:id="v27ab7-d1e892-d1e104">
+               <lb ed="#L" n="11"/>QUAESTIO XX
+<lb ed="#L" n="12"/>(ILONGA)
+<lb ed="#L" n="13"/>Utrum | subditus. qui scit. aliquod. secretum vel. quodcumque
+<lb ed="#L" n="14"/>occultum | peccatum. praelato. praecipienti ut. revelet teneatur
+<lb ed="#L" n="15"/>revelare.
+</p>
+            <p xml:id="v27ab7-d1e892-d1e117">
+               <lb ed="#L" n="16"/>Post hoc vero adhuc circa obligationem voti quaerebatur tertio,
+<lb ed="#L" n="17"/>scilicet utrum subditus qui scit aliquod secretum sibi sub fide secreti
+<lb ed="#L" n="18"/>commissum vel etiam quodcumque occultum peccatum a proximo vel
+<lb ed="#L" n="19"/>fratre suo commissum, praelato praecipienti ut revelet teneatur revelare.
+<lb ed="#L" n="20"/>Et arguebatur quod sic, quia subditus tenetur oboedire praelato in €o
+<lb ed="#L" n="21"/>quod cedit ad bonum proximi et commuitatis! et cuius contrarium
+<lb ed="#L" n="22"/>cederet ad malum contrarium. Sed »0n revelare tale secretum est malum
+<lb ed="#L" n="23"/>huiusmodi, nam ex hoc posset talis subditus occidi. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e892-d1e137">
+               <lb ed="#L" n="24"/>Contra. Illi secretum non est revelandum qui non habet de secretis
+<lb ed="#L" n="25"/>iudicare. Sed praelatus extra forum poenitentiae non habet de secretis
+<lb ed="#L" n="26"/>iudicare. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e892-d1e147">
+               <lb ed="#L" n="27"/>Respondeo dicendum quod, prout dictum est, votum religionis quo
+<lb ed="#L" n="28"/>quis se obligat ad observandum consilia, non obligat ad oboediendum
+<lb ed="#L" n="29"/>praelato in aliquo quod est contra caritatem vel contra aliquod 
+praecep<lb break="no" ed="#L" n="30"/>tum, immo debet ordinari ad perfectiorem praeceptorum et caritatis
+<lb ed="#L" n="31"/>observationem. Non enim subditur religiosus praelato ad oboediendum
+<lb ed="#L" n="32"/>in omnibus, quia non in his quae sunt contra praeceptum divinum et
+<pb ed="#L" n="295"/>
+               <lb ed="#L" n="1"/>praelati superioris, quod dicit Glossa super illud a4 Romanos , tertio
+<lb ed="#L" n="2"/>decimo: qui potestati resistunt damnationem acquirunt, si quid zusserit !
+<lb ed="#L" n="3"/>procurator numquid faciendum est si contra proconsulem iubeat?
+<lb ed="#L" n="4"/>Rursum si proconsul iubeat quid et aliud imperator, numquid dubitatur
+<lb ed="#L" n="5"/>illo conte;:/pto Isti? esse serviendum? Ergo si aliud imperator, aliud Deus
+<lb ed="#L" n="6"/>lubeat, contempto illo oboediendum est Deo. Item nec tenetur subditus
+<lb ed="#L" n="7"/>oboedire praelato in his quae pertinent ad interiores et occultos motus
+<lb ed="#L" n="8"/>voluntatis de quibus non habet homo exterior se intromittere. Videtur
+<lb ed="#L" n="9"/>ergo quod praelatus non habeat potestatem praecipiendi aliquid. super
+<lb ed="#L" n="10"/>occulta nisi in quantum per aliqua indicia manifestantur. Secretum ergo
+<lb ed="#L" n="11"/>commissum fidei alicuius non debet revelare praelato hoc praecipienti
+<lb ed="#L" n="12"/>ratione praecepti.
+</p>
+            <p xml:id="v27ab7-d1e892-d1e191">
+               <lb ed="#L" n="13"/>Sed videtur esse distinguendum de tali secreto, quia est tale quod
+<lb ed="#L" n="14"/>vergit in periculum aliorum quibus cavere tenetur, et illud illicitum est
+<lb ed="#L" n="15"/>celare et tenetur quis revelare etiam absque praecepto, non obstante
+<lb ed="#L" n="16"/>promisso de non revelando, quia in malis promissis fides est rescindenda,
+<lb ed="#L" n="17"/>nisi forte hoc non solum receperit sub secreto sed in confessione. Si
+<lb ed="#L" n="18"/>autem sit secretum quod celari potest sine periculo, tale non tenetur
+<lb ed="#L" n="19"/>nec debet revelare. Quod enim omne secretum sive de cogitatione vel
+<lb ed="#L" n="20"/>facto proprio sive bono sive malo, vel etiam de facto alterius teneatur
+<lb ed="#L" n="21"/>subditus revelare praelato, videtur inconveniens, quia si est secretum
+<lb ed="#L" n="22"/>et occultum bonum vel indifferens, non videtur; si autem est malum
+<lb ed="#L" n="23"/>committendum sed non sub sigillo confessionis receptum, cum imminet
+<lb ed="#L" n="24"/>periculum, est revelandum ; si autem sit commissum, non. Si enim aliquis
+<lb ed="#L" n="25"/>cogitavit et proposuit suum praelatum interficere vel aliquid aliud contra
+<lb ed="#L" n="26"/>ipsum cogitavit vel fecit, non videtur etiam quod in confessione ei debeat
+<lb ed="#L" n="27"/>revelare (immo est casus in quo debet alteri confiteri), multo minus ergo
+<lb ed="#L" n="28"/>extra confessionem. Similiter etiam si sit aliquod peccatum occultum fratris
+<lb ed="#L" n="29"/>ita quod illud per testes probare non posset, tenetur sine 1llo corripere
+<lb ed="#L" n="30"/>fratrem in secreto et nullo modo praelato. revelare ut praelato ad 
+corri<lb break="no" ed="#L" n="31"/>gendum. Nam sic praelatus habet locum Ecclesiae et eius qui per testes
+<lb ed="#L" n="32"/>convincere habet. Ouin immo si esset tale quod posset probari | per
+<lb ed="#L" n="33"/>duos testes, si adhuc non esset de hoc fama, non debet dicere praelato
+<lb ed="#L" n="34"/>quousque ipsum in secreto secundum ordinem caritatis corripuisset, eo
+<lb ed="#L" n="35"/>quod caritatis est quod aliquis parcat fratri in quantum potest; quare
+<lb ed="#L" n="36"/>debet niti quod corrigat culpam fratris servata fama eius. Nullus autem
+<pb ed="#L" n="296"/>
+               <lb ed="#L" n="1"/>debet oboedire praelato praetereundo praeceptum Evangelii de correctione
+<lb ed="#L" n="2"/>fraterna. Si autem praelatus esset talis quod vellet et posset prodesse, et
+<lb ed="#L" n="3"/>aestimaret quod frater non efficeretur deterior si a praelato corriperetur,
+<lb ed="#L" n="4"/>super hoc forte post admonitionem fraternam posset aliquis dicere praelato,
+<lb ed="#L" n="5"/>non tamen ut praelato sed ut bono viro, quia sic etiam posset dicere
+<lb ed="#L" n="6"/>alteri si crederetur ad hoc plus valere. Quod enim debeat dici praelato
+<lb ed="#L" n="7"/>secretum aliter quam nunc dictum, nullo modo videtur, quia si frater
+<lb ed="#L" n="8"/>non corrigitur ex admonitione fraterna, videretur esse dispositus ad peius,
+<lb ed="#L" n="9"/>si diceretur praelato coram quo quia magis verecundaretur, faciliter
+<lb ed="#L" n="10"/>negaret sciens quod probari non posset. Et ideo dicit Augustinus  de
+<lb ed="#L" n="11"/>verbis Domini, sermone decimo quinto: corripe eum inter te et ipsum
+<lb ed="#L" n="12"/>studens correctioni, parcens pudori. Forte enim prae verecundia incipiet
+<lb ed="#L" n="13"/>defendere peccatum suum et quem vis facere meliorem, forte facis
+<lb ed="#L" n="14"/>peiorem.
+</p>
+            <p xml:id="v27ab7-d1e892-d1e278">
+               <lb ed="#L" n="15"/>Cum ergo dicitur ab aliquibus quod licet tale sit occultum et 
+prae<lb break="no" ed="#L" n="16"/>latus non est iudex occultorum sed Deus, tamen ei praecipienti ut
+<lb ed="#L" n="17"/>talia sibi dicantur, est ei oboediendum eo quod exigens denuntiationem
+<lb ed="#L" n="18"/>de occultis non intendit contra denuntiatos procedere per viam iudicii,
+<lb ed="#L" n="19"/>quia per vocem unius nullus potest iudicialiter condemnari, sed intendit
+<lb ed="#L" n="20"/>procedere ut pater et pastor et medicus curando sicut pater et 
+praeser<lb break="no" ed="#L" n="21"/>vando sine famae laesione et cetera, — non valet, quia praelatus non habet
+<lb ed="#L" n="22"/>aliquid facere circa subditum ut praelatus nisi in foro exteriore iudiciali
+<lb ed="#L" n="23"/>vel secreto poenitentiali. Ouaecumque autem alio modo potest facere
+<lb ed="#L" n="24"/>circa subditum, potest et alius. Sicut ergo occultum peccatum '! non est
+<lb ed="#L" n="25"/>revelandum alii, ita nec praelato. Si enim peccatum occultum debet dici
+<lb ed="#L" n="26"/>praelato, cum praelatus sit homo discretus et etiam si[cu]t praelatus, si
+<lb ed="#L" n="27"/>dicendum est ei in quantum praelatus, cum non sit praelatus proprie
+<lb ed="#L" n="28"/>nisi quantum ad duplex forum, scilicet extrinsecum in capitulo vel
+<lb ed="#L" n="29"/>huiusmodi, et intrinsecum scilicet in confessione, — non secundo modo
+<lb ed="#L" n="30"/>debet sibi dici, quia de peccatis aliorum non fit confessio; nec etiam
+<lb ed="#L" n="31"/>primo modo, quia non sunt dicenda sic nisi levia per quae non 
+scanda<lb break="no" ed="#L" n="32"/>lizatur quis. Si autem in quantum bonus homo debeat sibi dici, tunc
+<lb ed="#L" n="33"/>etiam cum aliquando aliquis non praelatus posset proficere plus quam
+<pb ed="#L" n="297"/>
+               <lb ed="#L" n="1"/>praelatus Ecclesiae, esset ei dicendum. Non ergo dicendum est praelato
+<lb ed="#L" n="2"/>ratione praecepti eius, sed ratione caritatis quae ad hoc debet movere,
+<lb ed="#L" n="3"/>si hoc expediat ad salutem proximi, modo tamen quo non revelentur
+<lb ed="#L" n="4"/>ei quae secreto peccavit. Si etiam ex tali revelatione aliquando bonum
+<lb ed="#L" n="5"/>contingeret, scilicet emendatio proximi, tamen ut in pluribus posset malum
+<lb ed="#L" n="6"/>contingere. Hoc etiam non videtur posse fieri secundum ordinem 
+cor<lb break="no" ed="#L" n="7"/>rectionis fraternae in qua dicitur: si te non audierit, induc unum vel duos
+<lb ed="#L" n="8"/>testes et cetera, quod videtur intellirendum de scientibus, alioquin non
+<lb ed="#L" n="9"/>possent esse testes si ille vellet negare, immo posset agere contra eos.
+<lb ed="#L" n="10"/>Et sic non habens testes post secretam admonitionem nullum debet
+<lb ed="#L" n="11"/>peccatum revelare, licet bono modo illos qui prodesse possunt ad
+<lb ed="#L" n="12"/>diligentiam exhibendam circa custodiam correcti possit inducere, et debet
+<lb ed="#L" n="13"/>negotium Deo committi. Haec autem intelligenda sunt de peccato
+<lb ed="#L" n="14"/>commisso et prout quaeritur correctio  ipsius proximi in quantum
+<lb ed="#L" n="15"/>peccatum eius vergit in nocumentum ipsius personae. Sed de commi | 
+t<lb break="no" ed="#L" n="16"/>tendis quae vergunt in nocumentum aliorum, debet superiori denuntiari,
+<lb ed="#L" n="17"/>quaerendo emendationem proximi in quantum eius peccatum vergit in
+<lb ed="#L" n="18"/>nocumentum aliorum. Et quia ut sic, non quaeritur principaliter bonum
+<lb ed="#L" n="19"/>delinquentis. sed publicum, non pertinet proprie ad praeceptum de
+<lb ed="#L" n="20"/>fraterna correctione in qua principaliter quaeritur bonum delinquentis, sed
+<lb ed="#L" n="21"/>pertinet ad virtutem iustitiae publicae et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="251"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e725"><!-- v27ab7-q4q5 -->
+            <head xml:id="v27ab7-d1e725-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-d1e725-Hd1e101" type="question-title">
+      Utrum aliquod corpus possit simul esse in diversis locis
+    </head>
+            <p xml:id="v27ab7-d1e725-d1e104">
+               <lb ed="#L" n="28"/>QUAESTIO V
+<lb ed="#L" n="29"/>(LONGA).
+<lb ed="#L" n="30"/>Utrum aliquod corpus possit simul esse in diversis locis.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e113">
+               <lb ed="#L" n="31"/>Circa naturam pure corporalem quaerebatur unum pertinens ad
+<lb ed="#L" n="32"/>quodcumque corpus generaliter, scilicet utrum aliquod corpus possit
+<lb ed="#L" n="33"/>simul esse in diversis locis localiter, videlicet absque eo quod aliquid in
+<lb ed="#L" n="34"/>diversis locis praeexistens convertatur in ipsum, sicut contingit in corpore
+<pb ed="#L" n="252"/>
+               <lb ed="#L" n="1"/>Christi in diversis locis sacramentaliter existente. Et arguebatur quod
+<lb ed="#L" n="2"/>sic, quia quicquid Deus potest facere per medium sive per causam
+<lb ed="#L" n="3"/>mediam potest facere immediate sive virtute propria. Sed Deus potest
+<lb ed="#L" n="4"/>facere quod unum corpus sit simul in diversis locis per medium, scilicet
+<lb ed="#L" n="5"/>per conver | sionem diversorum in diversis locis praeexistentium. Illud
+<lb ed="#L" n="6"/>ergo hoc potest facere sine medio. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e139">
+               <lb ed="#L" n="7"/>Contra. Deus non potest facere illud in quo incompossibilia 
+inclu<lb break="no" ed="#L" n="8"/>duntur. Sed ita est in proposito. Nam esse in aliquo loco est circumscribi
+<lb ed="#L" n="9"/>a loco et includi in illo ita quod eius nihil sit extra. Cum ergo ponitur
+<lb ed="#L" n="10"/>aliquod corpus in diversis locis, ponitur quod ita sit in uno loco quod
+<lb ed="#L" n="11"/>nihil eius sit extra illum, et cum hoc quod ipsum secundum se totum
+<lb ed="#L" n="12"/>sit extra lllum. Haec autem sunt contradictoria. Ouare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e156">
+               <lb ed="#L" n="13"/>Respondeo dicendum quod illud quod est in loco est in illo per se,
+<lb ed="#L" n="14"/>vel per aliquid aliud sive per accidens. Esse autem in loco per se est
+<lb ed="#L" n="15"/>esse alicubi definitive ratione limitationis et determinationis suae naturae
+<lb ed="#L" n="16"/>quantum ad immaterialia creata et cum hoc circumscriptive, scilicet ipsi
+<lb ed="#L" n="17"/>loco commensurari et ipso circumscribi et ab eo comprehendi secundum
+<lb ed="#L" n="18"/>commensurationem propriarum dimensionum ! quantum ad corporalia.
+<lb ed="#L" n="19"/>Esse autem in loco per accidens sive per aliud est, vel quia operatur
+<lb ed="#L" n="20"/>circa aliud quod est in aliquo loco, vel patitur ab aliquo quod est in
+<lb ed="#L" n="21"/>aliquo loco, sicut spiritus aliquis dicitur esse non solum definitive in
+<lb ed="#L" n="22"/>loco aliquo ratione limitationis suae substantiae, sed etiam dicitur esse
+<lb ed="#L" n="23"/>ubi agit vel patitur, id est ubi est sua operatio vel illud circa quod
+<lb ed="#L" n="24"/>operatur et cetera, vel quia aliquid praeexistens in aliquo loco convertatur
+<lb ed="#L" n="25"/>in ipsum, sicut corpus Christi dicitur esse in altari sub speciebus panis,
+<lb ed="#L" n="26"/>quia substantia panis ibi praeexistens conversa est in ipsum corpus
+<lb ed="#L" n="27"/>Christi.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e191">
+               <lb ed="#L" n="28"/>Quod autem hoc modo aliquod corpus sic sit in diversis locis hoc
+<lb ed="#L" n="29"/>conceditur, sicut patet de corpore Christi sic in pluribus altaribus
+<lb ed="#L" n="30"/>existente. Sed impossibile est quod primo modo. Nam quod 
+comprehen<lb break="no" ed="#L" n="31"/>ditur ab aliquo loco ita est in illo loco quod nihil eius esse potest
+<lb ed="#L" n="32"/>extra ipsum. Hoc enim est comprehendi et circumscribi in loco. Unde
+<lb ed="#L" n="33"/>ponere quod sic sit in uno loco et cum hoc etiam sit in alio, est ponere
+<lb ed="#L" n="34"/>contradictoria simul, scilicet aliquid esse extra aliquem locum et non
+<lb ed="#L" n="35"/>esse extra illam. Et sequitur quod sit unum ex hoc quod commensuratur
+<lb ed="#L" n="36"/>dimensionibus unius loci et non unum sed plura, quia commensuratur
+<lb ed="#L" n="37"/>pluribus dimensionibus plurium locorum, quia dimensiones corporis
+<pb ed="#L" n="253"/>
+               <lb ed="#L" n="1"/>existentis per se in loco, sicut commensuratur secundum quantum et
+<lb ed="#L" n="2"/>continuum dimensionibus loci, sic commensurantur eis secundum multum
+<lb ed="#L" n="3"/>et numerum. Nam verum est enim quod corpus absolvi potest a situ
+<lb ed="#L" n="4"/>locali qui est ubi, sic quod potest esse simul cum aliquo corpore alio
+<lb ed="#L" n="5"/>quod per se est in loco secundum situm qui est ubi. Corpora enim esse
+<lb ed="#L" n="6"/>simul non impediunt dimensiones propter essentiam  dimensionurmi
+<lb ed="#L" n="7"/>secundum se, sed propter situm quem natae sunt habere in loco qui
+<lb ed="#L" n="8"/>est accidens dimensivum ! et a quo virtute divina absolvi possunt.
+<lb ed="#L" n="9"/>Propter illum enim situm qui dicit ordinem ad locum tangunt se corpora,
+<lb ed="#L" n="10"/>et tenent se extra se, et se penetrare non possunt, et hoc est praeter
+<lb ed="#L" n="11"/>essentiam dimensionum sive accidens ipsis dimensionibus et 
+super<lb break="no" ed="#L" n="12"/>naturaliter separabile. Et sic corpus manens corpus potest aliud penetrare
+<lb ed="#L" n="13"/>absque tali resistentia, et si illud corpus cum quo sic est aliud, est in
+<lb ed="#L" n="14"/>loco, tunc etiam corpus quod sic penetrat est in loco eodem per
+<lb ed="#L" n="15"/>accidens. Sicut enim duo quae sunt diversa per essentiam et unum
+<lb ed="#L" n="16"/>subiecto, quia unum alteri inhaeret simul sunt, quia diversa loca non
+<lb ed="#L" n="17"/>habent ut accidentia plura cum subiecto, ita etiam aliquid subsistens
+<lb ed="#L" n="18"/>non quantum potest esse cum alio subsistente quanto ut spiritus cum
+<lb ed="#L" n="19"/>corpore quod penetrat, vel cui illabitur et hoc naturaliter, et 
+super<lb break="no" ed="#L" n="20"/>naturaliter etiam corpus cum corpore dicto modo, non mutata natura
+<lb ed="#L" n="21"/>sua, nec ipsa una facta cum alia, sed amoto eo quo impediebatur esse
+<lb ed="#L" n="22"/>simul cum alio. Sed corpus non potest absolvi a situ determinationis et
+<lb ed="#L" n="23"/>definitionis quo oportet ipsum ita esse hic quod non alibi. Unde corpus
+<lb ed="#L" n="24"/>gloriosum, quod ponitur non habere situm ut in loco dicto modo, non
+<lb ed="#L" n="25"/>potest tamen absolvi a situ determinationis ut possit esse hic et alibi
+<lb ed="#L" n="26"/>per determinationem diversorum situum per se nisi sacramentaliter, quia
+<lb ed="#L" n="27"/>sic esset extra locum illum et non extra, ut praedictum est, propter quod
+<lb ed="#L" n="28"/>esse unum corpus sic in pluribus locis implicat contradictoria.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e278">
+               <lb ed="#L" n="29"/>Et hoc etiam sic patet. Materia recipit formam sensibilem per 
+quan<lb break="no" ed="#L" n="30"/>titatem et etiam per quantitatem determinatur ad locum. Nisi enim 
+quan<lb break="no" ed="#L" n="31"/>titas esset in materia, et forma in ea recepta non esset sensibilis sed
+<lb ed="#L" n="32"/>intelligibilis ; intellecta etiam materia sine quantitate iam non est in loco.
+<lb ed="#L" n="33"/>Quia ergo materia est extensa per quantitatem, in diversis partibus potest
+<lb ed="#L" n="34"/>recipere diversas formas etiam contrarias. Sed impossibile est hoc secundum
+<lb ed="#L" n="35"/>eandem partem materiae sive quod secundum eandem partem quantitatis
+<lb ed="#L" n="36"/>diversas formas recipiat, ut scilicet secundum idem sit album et nigrum
+<lb ed="#L" n="37"/>et sit album non album et cetera. Similiter etiam materia secundum ean-
+<pb ed="#L" n="254"/>
+               <lb ed="#L" n="1"/>dem quantitatem non potest determina | ri ad diversa loca. Est enim
+<lb ed="#L" n="2"/>contrarietas aliqua in loco aliquo natura sicut in formis. Immo, ut dicitur
+<lb ed="#L" n="3"/>decimo Metaphysicae , prima contrarietas est in loco, et omnis modus
+<lb ed="#L" n="4"/>qui est a loco ad locum, est aliquo modo a contrario ad contrarium.
+<lb ed="#L" n="5"/>Sicut ergo materia non potest recipere aliquam formam nisi dimittat
+<lb ed="#L" n="6"/>contrariam, sic corpus aliquod non potest acquirere aliquod ubi nisi
+<lb ed="#L" n="7"/>dimittat primum ubi. Impossibile est ergo idem corpus per eandem
+<lb ed="#L" n="8"/>quantitatem determinari ad loca contraria vel ad diversos situs. Quare
+<lb ed="#L" n="9"/>per eandem quantitatem sive per conversionem sive sine conversione,
+<lb ed="#L" n="10"/>non potest idem corpus esse in diversis locis; per aliam autem et aliam
+<lb ed="#L" n="11"/>poterit, ut corpus Christi per propriam quantitatem est in caelo et est
+<lb ed="#L" n="12"/>ibi localiter, per quantitatem panis est in altari et est sacramentaliter
+<lb ed="#L" n="13"/>ibi, et per diversas quantitates diversarum hostiarum est in diversis locis.
+</p>
+            <p xml:id="v27ab7-d1e725-d1e330">
+               <lb ed="#L" n="14"/>Ubi est considerandum quod per conversionem factam in corpus
+<lb ed="#L" n="15"/>Christi dicitur esse sacramentaliter ubi prius non erat, non sui mutatione
+<lb ed="#L" n="16"/>novum locum per se determinando, sed alterius in ipsum 
+transsubstan<lb break="no" ed="#L" n="17"/>tiatione sine qua non posset sibi novum locum determinare nisi mutando
+<lb ed="#L" n="18"/>locum in quo prius erat. Ubicumque ergo panis in Christum convertitur,
+<lb ed="#L" n="19"/>dicitur sacramentaliter esse, sed hoc quamdiu manent dimensiones
+<lb ed="#L" n="20"/>occupantes locum quem per illas! occuparet substantia, si illis afficeretur.
+<lb ed="#L" n="21"/>Unde omnis locus qui diceretur locus panis conversi, si non esset 
+con<lb break="no" ed="#L" n="22"/>versus (locus quidem in quo esset panis realiter et localiter per se), dicitur
+<lb ed="#L" n="23"/>locus corporis Christi per accidens sive per aliud et sacramentaliter. Et
+<lb ed="#L" n="24"/>sicut illis dimensionibus annihilatis vel in aliud omnino transmutatis non
+<lb ed="#L" n="25"/>amplius remanet locus panis, qui per aliquid ipsius panis determinetur
+<lb ed="#L" n="26"/>et occupetur, ita etiam non remanet aliquis locus ipsius corporis Christi
+<lb ed="#L" n="27"/>ex hoc. Unde si totus panis secundum substantiam et dimensiones
+<lb ed="#L" n="28"/>converteretur in corpus Christi, ex hoc corpus Christi nullo modo
+<lb ed="#L" n="29"/>diceretur esse in loco in quo prius erat panis, quia locus prior nullo modo
+<lb ed="#L" n="30"/>remanet locus panis praecedentis, nec in loco illo esset Christus potius
+<lb ed="#L" n="31"/>adorandus quam in alio, quia non est aliquid in loco aliquo nisi vel
+<lb ed="#L" n="32"/>per se ratione suarum dimensionum, vel per aliud ratione dimensionum
+<lb ed="#L" n="33"/>alterius. Cum ergo Christus nec sic nec sic esset in loco ubi fuit panis,
+<lb ed="#L" n="34"/>et nullo modo nec localiter nec sacramentaliter, nec visibiliter nec
+<pb ed="#L" n="255"/>
+               <lb ed="#L" n="1"/>invisibiliter ibi esset (unde quomodo diversa corpora sunt simul alterius
+<lb ed="#L" n="2"/>est considerationis), si latera aeris continentis in ea dispositione manerent
+<lb ed="#L" n="3"/>in qua prius erant, nullo alio corpore intercepto vel ipsis non coniunctis,
+<lb ed="#L" n="4"/>non diceretur ibi corpus Christi esse, quia nihil diceretur ibi esse, sed
+<lb ed="#L" n="5"/>omnino esset vacuum, multo minus ergo cum coniunguntur, vel cum
+<lb ed="#L" n="6"/>aliud. intercipitur; alioquin. corpus Christi etiam nunc esset ubicumque
+<lb ed="#L" n="7"/>aliquando fuit corporaliter, et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

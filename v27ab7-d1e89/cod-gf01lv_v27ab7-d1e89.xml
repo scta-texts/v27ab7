@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e89"><!-- v27ab7-q1q4 -->
+            <head xml:id="v27ab7-d1e89-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-d1e89-Hd1e101" type="question-title">
+      Utrum materia prima creata fuerit vel creari potuerit omnino informis sive carens omni forma
+    </head>
+            <p xml:id="v27ab7-d1e89-d1e104">
+               <pb ed="#L" n="7"/>
+               <lb ed="#L" n="1"/>QUAESTIO IV.
+<lb ed="#L" n="2"/>Utrum materia prima creata fuerit vel creari potuerit omnino
+<lb ed="#L" n="3"/>informis sive carens omni forma.
+</p>
+            <p xml:id="v27ab7-d1e89-d1e115">
+               <lb ed="#L" n="4"/>Consequenter circa creaturas quaerebatur primo utrum materia prima
+<lb ed="#L" n="5"/>creata fuerit vel creari potuerit omnino informis sive carens omni forma.
+<lb ed="#L" n="6"/>Et arguebatur quod sic, quia aut fuit creata sub aliqua forma secundaria
+<lb ed="#L" n="7"/>scilicet alicuius corporis mixti, aut sub forma primaria alicuius corporis !
+<lb ed="#L" n="8"/>simplicis. Non sub forma secundaria, quia non fuisset servatus debitus ordo
+<lb ed="#L" n="9"/>et processus naturae qui debet esse a prioribus et simplicioribus ad 
+poste<lb break="no" ed="#L" n="10"/>riora et composita. Nec sub forma primaria, quia non sub forma alicuius
+<lb ed="#L" n="11"/>elementi determinate eo quod aliquando nomine aquae significatur,aliquando
+<lb ed="#L" n="12"/>nomine abyssi, aliquando nomine terrae, quod secundum expositionem 
+doc<lb break="no" ed="#L" n="13"/>torum factum est ut sub nullius elementi determinati forma materia 
+intelli<lb break="no" ed="#L" n="14"/>gatur producta. Sed illae formae elementorum, ut dictum est, sunt primae.
+<lb ed="#L" n="15"/>Ergo relinquitur materiam productam fuisse omnino absque forma.
+</p>
+            <p xml:id="v27ab7-d1e89-d1e144">
+               <lb ed="#L" n="16"/>Contra. Quantum non potest fieri sine quantitate, nec unum sine unitate,
+<lb ed="#L" n="17"/>et sic de aliis. Ergo universaliter nec? potest aliquid esse productum in actu
+<lb ed="#L" n="18"/>essendi absque aliquo actu. Sed actus et forma secundum Philosophum 
+<lb ed="#L" n="19"/>sunt idem ?. Ergo nihil potest habere esse in actu absque aliqua forma, sed
+<lb ed="#L" n="20"/>oportet quod sit forma quaedam vel formam habens. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e89-d1e158">
+               <lb ed="#L" n="21"/>Dicendum quod aliqui doctrinam non modicum fructuosam cuiusdam
+<lb ed="#L" n="22"/>doctoris famosi , cuius memoria cum laudibus esse debet, ut in pluribus
+<lb ed="#L" n="23"/>impugnantes, vel deinde contra dicta sua procedentes, ad diffamationem
+<lb ed="#L" n="24"/>personae pariter et doctrinae opprobria magis quam rationes inducere
+<lb ed="#L" n="25"/>consueverunt. Invenientes in pluribus locis  quod materia non potest esse
+<lb ed="#L" n="26"/>sine forma, dicunt quod hoc non solum ? est falsum, sed est erroneum. Cum
+<lb ed="#L" n="27"/>enim alia sit essentia materiae et alia essentia formae, et magis dependet
+<pb ed="#L" n="8"/>
+               <lb ed="#L" n="1"/>essentia accidentis a subiecto quam essentia materiae a forma, et ab 
+aucto<lb break="no" ed="#L" n="2"/>ribus sacris ponitur quod accidentia possunt immediate ' a Deo fieri sine
+<lb ed="#L" n="3"/>subiecto, nullus fidelis dicere debet quod etiam non possit nuda materia
+<lb ed="#L" n="4"/>esse sine forma. Et hoc aliqui  nituntur sic declarare, quia materia non
+<lb ed="#L" n="5"/>est ita prope nihil nec est aliquid  ita in potentia quin sit aliqua res et
+<lb ed="#L" n="6"/>natura de genere substantiae, differens per essentiam a forma, a qua etiam
+<lb ed="#L" n="7"/>non est? sua entitas, quia essentialiter differunt. Et licet materia sit in
+<lb ed="#L" n="8"/>potentia ad formam et ad esse actu simpliciter per actualitatem formae, ipsa
+<lb ed="#L" n="9"/>tamen non est in potentia ad suam propriam entitatem ; sed seipsa est id
+<lb ed="#L" n="10"/>quod est in rerum natura, effective tamen a Deo. Unde actione creantis
+<lb ed="#L" n="11"/>potest conservari in esse, quod sibi competere potest secundum realitatem
+<lb ed="#L" n="12"/>suae substantiae naturae, spoliata omni forma, cum entitas materiae non
+<lb ed="#L" n="13"/>sit entitas formae nec eius esse. Licet autem materia sic possit habere
+<lb ed="#L" n="14"/>esse  sine forma, tamen bene habet esse simul cum forma in composito ;
+<lb ed="#L" n="15"/>et unitas compositi  non impeditur per hoc quod duo esse aliquo modo in
+<lb ed="#L" n="16"/>composito includi videntur. Quia si materia diceret aliquam naturam cui
+<lb ed="#L" n="17"/>secundum se extra compositum posset competere aliquod esse ex natura
+<lb ed="#L" n="18"/>sua absolute, ita quod illud esse etiam haberet in composito, — per hoc
+<lb ed="#L" n="19"/>unitas compositi impediretur; sed tale esse potest habere actione divina
+<lb ed="#L" n="20"/>supernaturali obedientia. Sed materia conservata sub forma existens illud
+<lb ed="#L" n="21"/>esse non habet. Ideo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e89-d1e223">
+               <lb ed="#L" n="22"/>Sed si recte intelligatur quid nomine materiae importatur, patet quod
+<lb ed="#L" n="23"/>materia non potest esse sine forma. Per materiam enim secundum
+<lb ed="#L" n="24"/>doctrinam Philosophi et commentatorum intelligimus aliquid quod non
+<lb ed="#L" n="25"/>est omnino non | ens et nihil, sed minimum habet de entitate, propter
+<lb ed="#L" n="26"/>quod dicitur | quod est prope nihil. Cum autem ens dividatur in actum
+<lb ed="#L" n="27"/>et potentiam, sive in ens actu quod est ens simpliciter et ens in potentia
+<lb ed="#L" n="28"/>quod est ens quasi secundum quid, et secundum hoc materia, cum non
+<lb ed="#L" n="29"/>sit ens simpliciter et ens actu, est solum ens in potentia. Unde dicitur
+<lb ed="#L" n="30"/>septimo Metaphysicae  : materia de se nec est quid nec quantum, nec
+<pb ed="#L" n="9"/>
+               <lb ed="#L" n="1"/>quale, nec aliquod aliorum praedicamentorum. Dicitur autem materia esse !
+<lb ed="#L" n="2"/>solum potentia vel ens in potentia, quia non est aliquid cui secundum se
+<lb ed="#L" n="3"/>conveniat esse quod convenit substantiae per se subsistenti, nec est
+<lb ed="#L" n="4"/>aliquid quo alicui conveniat esse quod convenit formae, sed est aliquid
+<lb ed="#L" n="5"/>quo aliquid? potest esse. Unde dicitur septimo.? Metaphysicae : hoc
+<lb ed="#L" n="6"/>autem est materia in unoquoque secundum quam possibile est esse et
+<lb ed="#L" n="7"/>non esse unumquodque eorum. Quamvis ergo materia importet aliquam
+<lb ed="#L" n="8"/>realitatem et entitatem in rerum natura, illa tamen est talis conditionis
+<lb ed="#L" n="9"/>et naturae quod in illa vel secundum illam non potest existere in rerum
+<lb ed="#L" n="10"/>natura.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

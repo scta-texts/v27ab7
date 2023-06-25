@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="86"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e378"><!-- v27ab7-q2q5 -->
+            <head xml:id="v27ab7-d1e378-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-d1e378-Hd1e101" type="question-title">
+      Utrum angeli superiores intelligant per universaliores species et pauciores quam inferiores
+    </head>
+            <p xml:id="v27ab7-d1e378-d1e104">
+               <pb ed="#L" n="86"/>
+               <lb ed="#L" n="1"/>QUAESTIO V.
+<lb ed="#L" n="2"/>Utrum angeli superiores intelligant per. universaliores species
+<lb ed="#L" n="3"/>et pauciores quam inferiores.
+</p>
+            <p xml:id="v27ab7-d1e378-d1e115">
+               <lb ed="#L" n="4"/>Postea circa quasdam substantias in speciali quaerebantur, quaedam
+<lb ed="#L" n="5"/>pertinentia ad substantiam penitus immaterialem, et primo utrum angeli
+<lb ed="#L" n="6"/>superiores intelligant per universaliores et  pauciores species quam angeli
+<lb ed="#L" n="7"/>inferiores. Et arguebatur quod angeli superiores intelligant per 5 species 
+<pb ed="#L" n="87"/>
+               <lb ed="#L" n="1"/>pauciores et magis universales ' quam inferiores, quia dicitur decima
+<lb ed="#L" n="2"/>propositione de Causis , quod omnis intelligentia plena est formis.
+<lb ed="#L" n="3"/>Verümtamen ex intelligentiis sunt quae continent formas minus universales,
+<lb ed="#L" n="4"/>scilicet inferiores, ut ibi   exponitur?; et | ex eis sunt quae continent
+<lb ed="#L" n="5"/>formas plus universales, scilicet intelligentiae superiores. Hoc etiam 
+expres<lb break="no" ed="#L" n="6"/>sius dicitur in septuagesima septima propositione Procli .
+</p>
+            <p xml:id="v27ab7-d1e378-d1e141">
+               <lb ed="#L" n="7"/>Contra. Si angeli superiores intelligerent per pauciores et 
+universa<lb break="no" ed="#L" n="8"/>liores species, cum multitudo angelorum specie differentium excedat vel
+<lb ed="#L" n="9"/>excedere possit multitudinem entium aliorum specie differentium, 
+contin<lb break="no" ed="#L" n="10"/>geret aliquem angelum superiorem intelligere per unam speciem et
+<lb ed="#L" n="11"/>aliquem  per nullam speciem, et sic per suam essentiam omnia quae
+<lb ed="#L" n="12"/>infimus intelligeret per plures species. Hoc autem est inconveniens .
+<lb ed="#L" n="13"/>Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e378-d1e160">
+               <lb ed="#L" n="14"/>Respondeo dicendum quod angeli superiores aliquo modo habent
+<lb ed="#L" n="15"/>universaliores et pauciores species quam inferiores. Ad cuius evidentiam
+<lb ed="#L" n="16"/>intelligendum quod unumquodque intelligens in  intelligendo assimilatur
+<lb ed="#L" n="17"/>rei intellectae, immo etiam aliquo modo est ipsa res intellecta sive
+<lb ed="#L" n="18"/>unum cum ipsa, saltem secundum esse intelligibile vel intentionale; prout
+<lb ed="#L" n="19"/>anima 'est omnia intelligibilia per intellectum et omnia sensibilia per
+<lb ed="#L" n="20"/>sensum. Illud ergo quod est natum intelligere omnia secundum proprias
+<lb ed="#L" n="21"/>eorum species et formas sive proprias omnium " rerum formas, oportet
+<lb ed="#L" n="22"/>quod natum sit assimilari omnibus proprie et distincte. Unaquaeque
+<lb ed="#L" n="23"/>autem substantia intellectualis est nata omnia secundum eorum proprias
+<lb ed="#L" n="24"/>rationes intelligere quae rationem entis nata sunt participare, quia 
+obiec<lb break="no" ed="#L" n="25"/>tum intellectus est ens secundum quod ens, et ideo unaquaeque substantia
+<lb ed="#L" n="26"/>intellectualis nata est assimilari omnibus entibus aliquo modo secundum
+<lb ed="#L" n="27"/>propriam rationem uniuscuiusque, sive aliquid nata est habere in se unde
+<lb ed="#L" n="28"/>possit unicuique enti " assimilari. Nunc autem cum unaquaeque natura
+<lb ed="#L" n="29"/>creata determinata et limitata sit ad genus et speciem, nullius creaturae
+<lb ed="#L" n="30"/>natura potest esse sufficiens similitudo omnium entium possibilium quae
+<lb ed="#L" n="31"/>tamen sunt obiecta uniuscuiusque creati intellectus, sed hoc solum 
+con<lb break="no" ed="#L" n="32"/>venit essentiae divinae !! ratione suae infinitatis et illimitationis . Oportet
+<pb ed="#L" n="88"/>
+               <lb ed="#L" n="1"/>ergo quod quaelibet substantia intellectualis in intelligendo assimiletur rei
+<lb ed="#L" n="2"/>intellectae per aliquid additum suae essentiae vel naturae. Et in! intellectu
+<lb ed="#L" n="3"/>humano aliqui dicunt quod? per nihil assimilatur intellectus possibilis ultra
+<lb ed="#L" n="4"/>suam speciem et potentiam naturalem rei intellectae, nisi per ipsum ? 
+intel<lb break="no" ed="#L" n="5"/>ligere, quod est aliud et aliud secundum alia et alia obiecta intelligibilia.
+<lb ed="#L" n="6"/>Nec ponunt aliquam speciem assimilantem vel determinantem intellectum
+<lb ed="#L" n="7"/>ad quodcumque intelligibile aliam quam ipsum intelligere rei intellectae,
+' quod efficit intellectus agens mediante phantasmate sensibili. Hoc autem
+<lb ed="#L" n="8"/>non potest poni in angelis qui non intelligunt alia a se recipiendo aliquid
+<lb ed="#L" n="9"/>ab eis virtute intellectus agentis saltem quantum ad intellectum. entium
+<lb ed="#L" n="10"/>specificorum, ut  secundum diversitatem cognoscibilium sic diversimode
+<lb ed="#L" n="11"/>assimilentur eis.
+</p>
+            <p xml:id="v27ab7-d1e378-d1e230">
+               <lb ed="#L" n="12"/>Et ideo dicitur quod oportet etiam praeter intelligere quo angelus
+<lb ed="#L" n="13"/>assimilatur rei intellectae, esse in 1pso speciem sive habitum aliquem,
+<lb ed="#L" n="14"/>— prout? etiam in nobis secundum multos ponitur praeter ipsum intelligere
+<lb ed="#L" n="15"/>aliqua species rei intelligibilis ipsum intellectum assimilans et determinans,
+<lb ed="#L" n="16"/>qua assimiletur et in virtute vel similitudine res intellecta 
+comprehen<lb break="no" ed="#L" n="17"/>datur, — ut, sicut Deus 1n intelligendo suam essentiam quae est sufficiens
+<lb ed="#L" n="18"/>omnium similitudo intelligit omnia alia  a se, et etiam secundum alios
+<lb ed="#L" n="19"/>philosophos aliae substantiae separatae in intelligendo se intelligunt alia 5,
+<lb ed="#L" n="20"/>ita etiam secundum nos angelus in intelliigyendo se ut informatum ?
+<lb ed="#L" n="21"/>specie alicuius intelligibilis et per illam ili assimilatum intelligat illud
+<lb ed="#L" n="22"/>culus est species vel similitudo. Et quanto angelus est perfectior in
+<lb ed="#L" n="23"/>essentia vel natura ", tanto etiam perfectius !! habent esse in ipso 
+huius<lb break="no" ed="#L" n="24"/>modi similitudines aliorum; et quia quanto aliquid est perfectius et actualius
+<lb ed="#L" n="25"/>et summo actui perfectissimo propinquius ", tanto quodammodo est
+<lb ed="#L" n="26"/>virtuosius et universalius ; sicut Deus existens simplicissimus secundum
+<lb ed="#L" n="27"/>rem est universalissimus et virtuosissimus secundum potentiam et virtutem.
+<lb ed="#L" n="28"/>Et ideo ponendae sunt huiusmodi species aliquo modo universaliores
+<lb ed="#L" n="29"/>et simpliciores in superioribus quam inferioribus.
+</p>
+            <p xml:id="v27ab7-d1e378-d1e272">
+               <lb ed="#L" n="30"/>Sed utrum sint universaliores et pauciores quia ad plura se extendat
+<lb ed="#L" n="31"/>una species in superiore quam in inferiore, de hoc sunt opiniones. Nam
+<lb ed="#L" n="32"/>cum in una re | simplici divina sit aliquo modo ponere diversas rationes
+<lb ed="#L" n="33"/>ideales cognoscendi, ita quod oportet respectu uniuscuiusque entis
+<lb ed="#L" n="34"/>specifici ponere | propriam rationem vel ideam, et saltem tot quot natae
+<pb ed="#L" n="89"/>
+               <lb ed="#L" n="1"/>sunt esse species (immo etiam secundum aliquos, z7052 ! sunt universales
+<lb ed="#L" n="2"/>rationes ideales in Deo nisi ad modum universalitatis specierum , quia
+<lb ed="#L" n="3"/>nec proprie sunt ideae generum, eo quod non dicunt genera aliquam
+<lb ed="#L" n="4"/>formam realem aliam a forma specifica, diversificantur autem ideae
+<lb ed="#L" n="5"/>secundum rationem prout diversificabiles sunt secundum rem formae
+<lb ed="#L" n="6"/>et essentiae creaturarum), et cum angeli secundum suas essentias ut
+<lb ed="#L" n="7"/>dictum est rebus assimilari non possunt, sed per aliquas species 
+super<lb break="no" ed="#L" n="8"/>additas, oportet quod secundum huiusmodi species superadditas 
+assimi<lb break="no" ed="#L" n="9"/>lentur speciebus entium propria assimilatione. Sicut autem natura angeli,
+<lb ed="#L" n="10"/>quia est limitata ad determinatam entis speciem, non potest esse similitudo
+<lb ed="#L" n="11"/>aliorum aliquorum a se propria et determinata, ita etiam quicquid habet
+<lb ed="#L" n="12"/>esse in angelo oportet esse limitatum. Quare etiam secundum illud non
+<lb ed="#L" n="13"/>videtur posse pluribus assimilari; et sic ut videtur, nec substantia angeli
+<lb ed="#L" n="14"/>nec aliqua species réalis in? ipso potest esse sufficiens similitudo plurium
+<lb ed="#L" n="15"/>ad invicem specie distinctorum. Et quia omnia quorum unus est 
+cogno<lb break="no" ed="#L" n="16"/>scens alius etiam est cognoscens, ideo videtur quod tot sunt species in uno
+<lb ed="#L" n="17"/>quot sunt in alio, et in quolibet tot quot sunt natae esse species entium ;
+<lb ed="#L" n="18"/>aut essent imperfecti etiam quantum ad intelligentiam naturalem non
+<lb ed="#L" n="19"/>habentes species omnes per quas nati essent intelligere. Ita quod species
+<lb ed="#L" n="20"/>uniuscuiusque entis specifici existens in intellectu angelico est sufficiens ad
+<lb ed="#L" n="21"/>cognitionem omnium individuorum, quodammodo variata vel multiplicata
+<lb ed="#L" n="22"/>secundum rationem respectu diversorum individuorum, — quod tamen
+<lb ed="#L" n="23"/>habet specialem difficultatem scilicet quomodo angeli de novo intelligunt
+<lb ed="#L" n="24"/>aliqua singularia.
+</p>
+            <p xml:id="v27ab7-d1e378-d1e340">
+               <lb ed="#L" n="25"/>Sunt ergo universaliores, id est virtuosiores, quia per 1psas 
+perfec<lb break="no" ed="#L" n="26"/>tius et limpidius superiores cognoscunt; sunt etiam pauciores, quia
+<lb ed="#L" n="27"/>simpliciores in quantum actualiores. Philosophi autem non ponebant
+<lb ed="#L" n="28"/>huiusmodi species esse res additas sed rationes tantum, sicut nos
+<lb ed="#L" n="29"/>dicimus de Deo. Et quia superiores angelos ponebant habere aliquam
+<lb ed="#L" n="30"/>rationem causalitatis respectu omnium entium inferiorum (non sic 
+infe<lb break="no" ed="#L" n="31"/>riores, quia respectu superiorum nullam causalitatem habebant), ideo
+<lb ed="#L" n="32"/>species illas dicebant universaliores in causando et quodammodo etiam
+<lb ed="#L" n="33"/>in cognoscendo ; vel si res additas ponebant, dicendum quod sunt
+<lb ed="#L" n="34"/>universaliores et pauciores, sicut prius et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

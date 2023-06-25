@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="214"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e563"><!-- v27ab7-q3q7 -->
+            <head xml:id="v27ab7-d1e563-Hd1e99">Quaestio 7</head>
+            <head xml:id="v27ab7-d1e563-Hd1e101" type="question-title">
+      Utrum confessus ab aliquo habente potestatem audiendi confessiones et absolvendi confitentes virtute privilegii Martini IV teneatur eadem peccata proprio sacerdoti iterum confiteri
+    </head>
+            <p xml:id="v27ab7-d1e563-d1e104">
+               <lb ed="#L" n="13"/>QUAESTIO VII.
+<lb ed="#L" n="14"/>Utrum confessus ab aliquo habente potestatem. audiendi 
+con<lb break="no" ed="#L" n="15"/>fessiones et absolvendi confitentes virtute privilegii Martini IV
+<lb ed="#L" n="16"/>teneatur eadem peccata proprio sacerdoti iterum confiteri.
+</p>
+            <p xml:id="v27ab7-d1e563-d1e115">
+               <lb ed="#L" n="17"/>Consequenter quaerebantur quaedam pertinentia ad actus 
+sacramen<lb break="no" ed="#L" n="18"/>tales. Primum est ex parte confitentis vel confessi, aliud ex parte
+<lb ed="#L" n="19"/>confessoris. Ex parte confitentis vel confessi quaerebatur unum, videlicet
+<lb ed="#L" n="20"/>utrum confessus ab aliquo habente potestatem audiendi confessiones
+<lb ed="#L" n="21"/>et absolvendi confitentes virtute privilegii hanc formam continentis :
+<lb ed="#L" n="22"/>Martinus et cetera, tibi fili et cetera, committendi auctoritate apostolica
+<lb ed="#L" n="23"/>fratribus talis ordinis officium audiendi confessiones et absolvendi
+<lb ed="#L" n="24"/>poenitentes, iniungendi eis poenitentias salutares eisdemque fratribus
+<lb ed="#L" n="25"/>quibus dictum officium taliter concessum seu commissum fuerit quod
+<lb ed="#L" n="26"/>illud libere valeant exercere, plenam damus et concedimus auctoritate[m]
+<lb ed="#L" n="27"/>praesentium facultatem ; volumus? autem quod hi qui fratribus 
+confite<lb break="no" ed="#L" n="28"/>buntur eisdem, suis parochialibus presbyteris confiteri saltem semel in
+<pb ed="#L" n="215"/>
+               <lb ed="#L" n="1"/>anno, prout generale Concilium statuit, nihilominus teneantur quodque
+<lb ed="#L" n="2"/>iidem ' fratres eos ad hoc diligenter et efficaciter secundum datam eis
+<lb ed="#L" n="3"/>a Domino gratiam ex/Aoríentur? , — teneatur eadem peccata numero
+<lb ed="#L" n="4"/>lam habenti dictam potestatem confessa proprio sacerdoti iterum
+<lb ed="#L" n="5"/>confiteri. Secundum est ex parte confessoris dictam potestatem habentis,
+<lb ed="#L" n="6"/>et est utrum habens talem potestatem possit absolvere in casibus episcopis
+<lb ed="#L" n="7"/>de iure et consuetudine et retentione reservatis.
+</p>
+            <p xml:id="v27ab7-d1e563-d1e161">
+               <lb ed="#L" n="8"/>Ad primum istorum sic procedebatur; et arguebatur quod sic
+<lb ed="#L" n="9"/>confessus non teneatur iterum confiteri prima ad 'Thessalonicenses ? ,
+<lb ed="#L" n="10"/>septimo, super illud : omnia probate et cetera, Glossa  : scilicet omnia
+<lb ed="#L" n="11"/>probanda; certa enim discussione non indigent. Ergo etiam non obstante
+<lb ed="#L" n="12"/>quod virtute statuti generalis Concilii confessus habenti dictam potestatem
+<lb ed="#L" n="13"/>teneatur iterum suo sacerdoti confiteri omnia peccata sua, hoc 
+intel<lb break="no" ed="#L" n="14"/>ligendum de illis quae sunt confitenda sive quae confessione indigent.
+<lb ed="#L" n="15"/>Sed ila quae iam confessus est sic privilegio non sunt huiusmodit
+<lb ed="#L" n="16"/>Nam sicut certa non indigent discussione, ita confessa non indigent
+<lb ed="#L" n="17"/>confessione. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e563-d1e186">
+               <lb ed="#L" n="18"/>Contrarium | arguitur, et ostendebatur quod sic confessus non
+<lb ed="#L" n="19"/>propter defectum sacramenti sive actus confitentis in confitendo sive
+<lb ed="#L" n="20"/>confessoris in absolvendo, sed propter vim obligationis praecedentis et
+<lb ed="#L" n="21"/>in robore suo non obstante huiusmodi confessione et absolutione
+<lb ed="#L" n="22"/>remanent/s , teneatur iterum eadem confiteri, quoniam non minus potest
+<lb ed="#L" n="23"/>quis efficaciter obligari ex statuto et praecepto Ecclesiae ad confitendum
+<lb ed="#L" n="24"/>alicui et teneri illi confiteri ratione huius obligationis, quam ex voto
+<lb ed="#L" n="25"/>proprio. Sed aliquis potest se sic obligare ex voto ad confitendum
+<lb ed="#L" n="26"/>alicui, quod etiam cum rite confessus et absolutus est ab alio, remanet
+<lb ed="#L" n="27"/>obligatus ad confitendum iterum eadem illi cui sic se obligavit . Quare
+<lb ed="#L" n="28"/>etiam ex statuto et praecepto Ecclesiae poterit aliquis sic esse obligatus
+<lb ed="#L" n="29"/>ad confitendum alicui, quod non obstante quod voluntarie alteri
+<lb ed="#L" n="30"/>confiteatur, tamen illi tenebitur virtute praedictae obligationis eadem
+<pb ed="#L" n="216"/>
+               <lb ed="#L" n="1"/>iterum confiteri. Sic autem videtur esse in proposito. Quare et cetera.
+<lb ed="#L" n="2"/>In libro magistri responsio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

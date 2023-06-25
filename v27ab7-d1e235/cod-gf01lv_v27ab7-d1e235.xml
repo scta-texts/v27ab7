@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="39"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e235"><!-- v27ab7-q1q17 -->
+            <head xml:id="v27ab7-d1e235-Hd1e99">Quaestio 17</head>
+            <head xml:id="v27ab7-d1e235-Hd1e101" type="question-title">
+      Utrum principes et potestates seculares ad mandatum Ecclesiae teneantur cercere et punire brachio seculari in excommunicatione permanentes per annum et claves Ecclesiae contemnentes
+    </head>
+            <p xml:id="v27ab7-d1e235-d1e104">
+               <lb ed="#L" n="16"/>QUAESTIO XVII.
+<lb ed="#L" n="17"/>Utrum principes et potestates saeculares ad mandatum Ecclesiae
+<lb ed="#L" n="18"/>teneantur coercere et punire brachio saeculari in 
+excommunica<lb break="no" ed="#L" n="19"/>tione permanentes per annum et claves Ecclesiae contemnentes.
+</p>
+            <p xml:id="v27ab7-d1e235-d1e115">
+               <lb ed="#L" n="20"/>Postea circa principes et potestates saeculares quaerebantur duo.
+<lb ed="#L" n="21"/>Primum est utrum ad mandatum Ecclesiae teneantur coercere et punire
+<lb ed="#L" n="22"/>brachio saeculari in excommunicatione permanentes per annum et claves
+<lb ed="#L" n="23"/>Ecclesiae contemnentes. Et arguebatur quod potestates saeculares
+<lb ed="#L" n="24"/>teneantur ad mandatum Ecclesiae coercere huiusmodi Ecclesiae 
+contem<lb break="no" ed="#L" n="25"/>ptores, quia dicit <name xml:id="v27ab7-d1e235-Nd1e130">Isidorus</name>  de summo bono, capitulo primo, secundo,
+<pb ed="#L" n="40"/>
+               <lb ed="#L" n="1"/>octavo, intra Ecclesiam potestates necessariae non essent nisi ut quod
+<lb ed="#L" n="2"/>non praevalet sacerdos efficere per doctrinae sermonem, potestas hoc
+<lb ed="#L" n="3"/>impleat per disciplinae terrorem. Cum ergo Ecclesia non habeat nisi
+<lb ed="#L" n="4"/>claves quibus potest subditos punire spiritualiter, ipsos a participatione
+<lb ed="#L" n="5"/>sacramentorum et huiusmodi bonorum Ecclesiae excludendo, et huiusmodi
+<lb ed="#L" n="6"/>punitio aliquando non sufficit tam ad utilitatem puniendi quam etiam
+<lb ed="#L" n="7"/>communitatis, in hoc debet saecularis potestas Ecclesiae subvenire.
+<lb ed="#L" n="8"/>Quare ! et cetera.
+</p>
+            <p xml:id="v27ab7-d1e235-d1e152">
+               <lb ed="#L" n="9"/>In contrarium videtur esse communis consuetudo.
+</p>
+            <p xml:id="v27ab7-d1e235-d1e158">
+               <lb ed="#L" n="10"/>Respondeo dicendum quod, quia secundum Apostolum  quae a
+<lb ed="#L" n="11"/>Deo sunt ordinata sunt, et omnis potestas a Deo est, et qui potestati
+<lb ed="#L" n="12"/>resistit ordinationi Dei resistit. Una autem non esset Ecclesia nisi esset
+<lb ed="#L" n="13"/>ordinata ita quod in ea esset una potestas suprema sub qua omnes
+<lb ed="#L" n="14"/>aliae essent suis gradibus ordinatae. Haec autem est ecclesiastica
+<lb ed="#L" n="15"/>potestas in qua est unum summum caput (nonagesima sexta 
+distinc<lb break="no" ed="#L" n="16"/>tione, Duo) , Ideo omnibus aliis potestatibus tanquam inferioribus potest
+<lb ed="#L" n="17"/>praecipere et aliae tenentur ei oboedire. Aliae autem, cum indigent illa
+<lb ed="#L" n="18"/>potestate, non habent ei imperare sed supplicare debent , ergo mutuo
+<lb ed="#L" n="19"/>se iuvare (nonagesima sexta distinctione, Cum  ad virum) . Et ideo
+<lb ed="#L" n="20"/>dicendum quod iudex saecularis tenetur et cetera, et per ecclesiasticam
+<lb ed="#L" n="21"/>potestatem potest ad hoc compelli (vigesima tertia, quaestione quinta,
+<lb ed="#L" n="22"/>Principes et capitulo Administratores et Extra de officio ordinarii, 
+capi<lb break="no" ed="#L" n="23"/>tulo primo) .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

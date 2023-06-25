@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="312"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f005"><!-- v27ab7-q3short-q5 -->
+            <head xml:id="v27ab7-d1f005-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-d1f005-Hd1e101" type="question-title">
+      Utrum corpus Christi mortuum et corpus alterius hominis mortuum statim post mortem sint corpora mortua univoce
+    </head>
+            <p xml:id="v27ab7-d1f005-d1e104">
+               <lb ed="#L" n="11"/>QUAESTIO V
+<lb ed="#L" n="12"/>(BREVIS)
+<lb ed="#L" n="13"/>Utrum corpus Christi mortuum et corpus alterius hominis mortuum statim
+<lb ed="#L" n="14"/>post mortem sint corpora mortua univoce .
+</p>
+            <p xml:id="v27ab7-d1f005-d1e115">
+               <lb ed="#L" n="15"/>Postea quaerebantur duo quantum ad corpus Christi  Primum erat, utrum
+<lb ed="#L" n="16"/>corpus Christi mortuum et corpus alterius hominis mortuum statim post mortem sint
+<lb ed="#L" n="17"/>corpora mortua univoce. Secundum erat, utrum ponere quod corpus Christi non
+<lb ed="#L" n="18"/>potuit comburi ab igne sit inconveniens secundum fidem.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e126">
+               <lb ed="#L" n="19"/>Ad primum sic proceditur, et arguitur quod corpus Christi mortuum et corpus
+<lb ed="#L" n="20"/>alterius. hominis mortuum statim post mortem ante" ulteriorem resolutionem sint
+<lb ed="#L" n="21"/>corpora mortua univoce, et quod ponere oppositum sit erroneum. Quia " sicut se
+<lb ed="#L" n="22"/>habet vivum ad vivum, ita mortuum ad mortuum. Sed ponere quod corpus Christi
+<lb ed="#L" n="23"/>vivum et corpus alterius hominis vivum non sint univoce corpora secundum 
+univoca<lb break="no" ed="#L" n="24"/>tionem speciei, ita scilicet quod non sint eiusdem speciei, est erroneum. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e143">
+               <lb ed="#L" n="25"/>Praeterea, sicut Christus vivus et alius homo vivus fuerunt homines vivi univoce,
+<lb ed="#L" n="26"/>ita etiam Christus mortuus et alius homo mortuus fuerunt homines univoce mortui ',
+<lb ed="#L" n="27"/>et " contrarium dicere est erroneum. Sed sicut ad rationem hominis vivi pertinent
+<lb ed="#L" n="28"/>corpus et anima coniuncta ad invicem, ita ad rationem hominis mortui pertinent
+<lb ed="#L" n="29"/>corpus ! et anima separata, et  sic Christus mortuus habuit corpus separatum ab anima
+<lb ed="#L" n="30"/>et mortuum univoce sicut alii homines mortui.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e159">
+               <lb ed="#L" n="31"/>Contra. In. corpus Christi mortuum non fuit no | va | forma introducta in
+<lb ed="#L" n="32"/>morte, alioquin fuisset ibi nova assumptio. Sed in morte alterius hominis cuiuscumque
+<lb ed="#L" n="33"/>introducitur nova forma, cum corruptio unius sit generatio alterius. Ergo non fuit
+<pb ed="#L" n="313"/>
+               <lb ed="#L" n="1"/>una forma substantialis specie in corpore Christi mortuo et corpore cuiuscumque
+<lb ed="#L" n="2"/>alterius hominis, nec per consequens Christi corpus fuit corpus mortuum | univoce
+<lb ed="#L" n="3"/>cum corpore mortuo cuiuscumque alterius hominis !.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e177">
+               <lb ed="#L" n="4"/>Respondeo. Circa istam quaestionem sic est procedendum. Primo ponentur diversae
+<lb ed="#L" n="5"/>opiniones de unitate formae. Secundo inquiretur quae illarum  est minus conveniens
+<lb ed="#L" n="6"/>secundum fidem. Et tertio concludetur in quaestione.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e186">
+               <lb ed="#L" n="7"/>Quantum ergo ? ad primum, sciendum quod de unitate formae est triplex opinio.
+<lb ed="#L" n="8"/>— Prima est quae  ponit unam formam in omnibus, ita quod nec in Christo nec
+<lb ed="#L" n="9"/>in alio homine nec in alia re quacumque ponunt nisi unam formam substantialem, et
+<lb ed="#L" n="10"/>ponunt quod tam in Christo quam in quocumque alio homine introducitur nova forma
+<lb ed="#L" n="11"/>in morte ? in materiam  quam informabat prius anima. — Alia positio est quae
+<lb ed="#L" n="12"/>ponit et in homine et in aliis saltem exceptis elementis plures formas, ita quod
+<lb ed="#L" n="13"/>posteriore separata vel corrupta remanet illa quae prior advenerat. Et si obiciatur
+<lb ed="#L" n="14"/>contra eos quod cum natura non intendat principaliter corruptionem, sed ex 
+conse<lb break="no" ed="#L" n="15"/>quenti, quia  scilicet disponendo ad aliam formam introducendam reddit materiam
+<lb ed="#L" n="16"/>indispositam priori formae ?, et per consequens corrumpitur prior forma per accidens
+<lb ed="#L" n="17"/>et introducitur secunda, — potest dici secundum eos quod agens corrumpens unam
+<lb ed="#L" n="18"/>formam disponit materiam ad aliam non statim introducendam, sed postea facta
+<lb ed="#L" n="19"/>ulteriore resolutione prout completa putrefactione generatur vermis vel elementum
+<lb ed="#L" n="20"/>vel aliquid aliud. — Tertia opinio est quae" in omnibus aliis ab homine ponit tantum
+<lb ed="#L" n="21"/>unam formam substantialem, in homine autem ponit plures, unam scilicet eductam
+<lb ed="#L" n="22"/>de potentia materiae et aliam creatam ab extra. Et ponit ista positio quod !' duae
+<lb ed="#L" n="23"/>formae simul naturaliter !! introducuntur, et simul cum una scilicet anima rationalis
+<lb ed="#L" n="24"/>separatur, alia corrumpitur si dimittatur suae naturae ". Unde ipsi ponunt quod in aliis
+<lb ed="#L" n="25"/>hominibus a Christo praedicta forma educta de potentia materiae in separatione
+<lb ed="#L" n="26"/>animae corrumpitur; in Christo autem ponunt quod fuit miraculose retenta. Et ideo
+<lb ed="#L" n="27"/>ponunt in aliis hominibus a Christo non esse idem corpus vivum et mortuum; sed in
+<lb ed="#L" n="28"/>Christo ponunt corpus vivum et mortuum esse idem numero, non tantum quantum
+<lb ed="#L" n="29"/>ad suppositum, sed etiam quantum ad formam substantialem.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e238">
+               <lb ed="#L" n="30"/>Alia autem opinio quae ponit plures formas et priorem manere naturaliter
+<lb ed="#L" n="31"/>corrupta vel separata posteriore, ponunt quod eodem modo oportet ponere idem
+<lb ed="#L" n="32"/>corpus  numero quantum ad formam substantialem in aliis hominibus '5 sicut in Christo,
+<lb ed="#L" n="33"/>et ponunt quod ita sit erroneum ponere non esse idem corpus numero in aliis hominibus
+<lb ed="#L" n="34"/>sicut in Christo, et hoc quantum ad formam ". Et hoc patet per  unum articulum
+<lb ed="#L" n="35"/>qui condemnatus est in Anglia , ubi dicitur quod corpus uniuscuiusque sancti vel
+<lb ed="#L" n="36"/>hominis, antequam sit per putrefactionem mutatum '5 in auras vel elementa, non est
+<pb ed="#L" n="314"/>
+               <lb ed="#L" n="1"/>idem numero cum,corpore eius vivo nisi secundum quid, scilicet ratione materiae
+<lb ed="#L" n="2"/>communis, sicut sunt unum quae invicem transmutantur , sicut? caro et vermis,
+<lb ed="#L" n="3"/>et ratione accidentis communis scilicet quantitatis; simpliciter autem est diversum .
+<lb ed="#L" n="4"/>corpus mortuum a vivo specie et numero. Habetur hoc pro errore et condemnatum
+<lb ed="#L" n="5"/>est ibi, scilicet in Anglia.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e269">
+               <lb ed="#L" n="6"/>Nec valet quod quidam dicunt, scilicet illi qui sunt de tertia opinione, videlicet
+<lb ed="#L" n="7"/>quod ille articulus est condemnatus in quantum sequitur ex unitate formae. Immo
+<lb ed="#L" n="8"/>quia videbatur condemnari  quod illud consequens, scilicet corpus vivum et mortuum
+<lb ed="#L" n="9"/>non esse idem numero, esset erroneum, manifeste ideo condemnavit antecedens. Unde
+<lb ed="#L" n="10"/>secundum intentionem condemnantis ideo condemnavit antecedens  quia videbatur.
+<lb ed="#L" n="11"/>sibi quod in consequente erat manifestus "error. Parisius autem non reputatur vel
+<lb ed="#L" n="12"/>consequens vel antecedens  praedictum continere errorem . Unde mirum est quomodo
+<lb ed="#L" n="13"/>unus homo  Parisius asserit  publice illos articulos esse in se vel in sibi similibus
+<lb ed="#L" n="14"/>damnatos non solum in Anglia sed etiam ubicumque  et denuntiat excommunicatos
+<lb ed="#L" n="15"/>omnes qui ' illos articulos vel aliquem ex illis docent, cum multi magistri  in theologia 1;
+<lb ed="#L" n="16"/>nuper scripserunt quod nesciunt illum articulum ex quo omnes alii articuli sequuntur,
+<lb ed="#L" n="17"/>esse habitum pro haeresi vel errore. Unde etiam nec Parisius habetur pro 
+errore<lb break="no" ed="#L" n="18"/>quod corpus Christi vel alterius hominis quantum ad formam sit aliud vivum et
+<lb ed="#L" n="19"/>mortuum vel diversum, licet esset error ponere de corpore Christi quod non " sit.
+<lb ed="#L" n="20"/>idem quantum ad suppositum vivum et mortuum, in quo non est simile de aliis.
+<lb ed="#L" n="21"/>hominibus.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e307">
+               <lb ed="#L" n="22"/>Quantum ad secundum sciendum quod positio quae ponit corpus Christi — £
+<lb ed="#L" n="23"/>mortuum et corpus alterius mortuum, considerando utrumque secundum condicionem
+<lb ed="#L" n="24"/>quam habet utrumque statim post mortem ante ulteriorem resolutionem "5, esse corpus.
+<lb ed="#L" n="25"/>mortuum univoce univocatione speciei, videtur convenientior secundum fidem quam.
+<lb ed="#L" n="26"/>illa quae ponit oppositum. Et hoc potest videri ratione et auctoritate.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e320">
+               <lb ed="#L" n="27"/>Ratione sic. Quia corpus Christi quando in conceptione fuit unitum animae, .
+<lb ed="#L" n="28"/>licet supernaturaliter  a Spiritu Sancto disponeretur !, tamen ' conveniens est 
+secun<lb break="no" ed="#L" n="29"/>dum fidem quod habuit consimilem dispositionem sicut corpora aliorum hominum, | ita EN
+<lb ed="#L" n="30"/>quod supposita illa dispositione supernaturaliter inducta, ita naturaliter et uniformiter —
+<lb ed="#L" n="31"/>uniebatur anima Christi eius corpori in eius conceptione sicut in aliis hominibus. ,
+<lb ed="#L" n="32"/>Ergo a simili anima eius separata in morte remansit corpus | in consimili dispositione b
+<lb ed="#L" n="33"/>quantum ad ea quae ad corpus pertinent, sicut corpora aliorum hominum in ' con- P.  "
+<lb ed="#L" n="34"/>simili morte mortuorum. Ergo et cetera. — ltem illi de tertia " qui ponunt plures —
+<lb ed="#L" n="35"/>formas in solo homine, ponunt quod illa forma | quae est educta de potentia materiae a 
+<pb ed="#L" n="315"/>
+               <lb ed="#L" n="1"/>est dispositio quae est necessitas? respectu animae. Sed nulla forma naturaliter
+<lb ed="#L" n="2"/>potest separari manente dispositione quae est necessitas . Ergo anima Christi etiam
+<lb ed="#L" n="3"/>supposita eius tanta passione, cum maneret secundum eos dicta forma  quae erat
+<lb ed="#L" n="4"/>dispositio quae est necessitas , non fuit naturaliter  separata in morte, nec per
+<lb ed="#L" n="5"/>consequens mors eius fuit naturalis. Sed dicunt quod immo, quia aliae dispositiones
+<lb ed="#L" n="6"/>accidentales quae disponebant ad utramque formam per passionem illatam erant
+<lb ed="#L" n="7"/>corruptae, et per consequens materia erat improportionata utrique formae; unde
+<lb ed="#L" n="8"/>separatio animae fuit naturalis, sed retentio alterius formae fuit miraculosa . Sed hoc
+<lb ed="#L" n="9"/>non valet. Primo quia ex quo illa forma  educta est principalis dispositio, illa
+<lb ed="#L" n="10"/>manente separatio animae non fuit ex toto naturalis. Secundo quia cum alià
+<lb ed="#L" n="11"/>accidentia non disponerent ad animam nisi mediante illa forma quae est necessitas ?
+<lb ed="#L" n="12"/>ad animam, licet eius retentio esset miraculosa, ipsa tamen retenta consequitur eam
+<lb ed="#L" n="13"/>proprietas sua naturalis quae est retinere animam in materia, sicut si potentia visiva
+<lb ed="#L" n="14"/>supernaturaliter sit in oculo inducta, naturaliter tamen videret homo per cam. Et sic
+<lb ed="#L" n="15"/>mors Christi erit ita innaturalis et separatio animae !" sicut si fuisset separata nulla
+<lb ed="#L" n="16"/>vulneratione facta in Christo.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e379">
+               <lb ed="#L" n="17"/>Auctoritate hoc idem patet, Damascenus , tertio libro, capitulo vigesimo
+<lb ed="#L" n="18"/>septimo dicit quod in ' graeco passio significat famem, sitim et consimiles passiones;
+<lb ed="#L" n="19"/>significat etiam mortem qua separatur anima a corpore et ulterius plenam 
+resolu<lb break="no" ed="#L" n="20"/>tionem in elementa. Et dicit quod Christus sustinuit famem, sitim et mortem sicut alii
+<lb ed="#L" n="21"/>homines, licet non sustinuerit pulverizationem et resolutionem ultimatam quae est
+<lb ed="#L" n="22"/>per ? putrefactionem. Et sic videtur quod corpus eius fuit univoce corpus cum corpore
+<lb ed="#L" n="23"/>alterius hominis consimili morte ' mortui.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e397">
+               <lb ed="#L" n="24"/>Ex his patet de facili ad tertium. Nam cum via !? necessaria ad salutem consistat
+<lb ed="#L" n="25"/>circa rectitudinem !" credendorum et agendorum, et error dicatur per recessum a recta
+<lb ed="#L" n="26"/>via, declinatio a cognitione veritatis in aliis scientiis a theologia dicitur simplex '
+<lb ed="#L" n="27"/>falsitas, in theolosia autem dicitur error. Et quia altera dictarum necessario est falsa
+<lb ed="#L" n="28"/>cum dictae opiniones sint circa ea quae sunt fidei, oportet alteram earum '? secundum
+<lb ed="#L" n="29"/>rem esse erroneam. Sed er | ror ille non est culpabilis quousque sit manifesta '?
+<lb ed="#L" n="30"/>veritas vel determinata per Ecclesiam ?. lila tamen positio quae ponit uniformitatem
+<lb ed="#L" n="31"/>in corpore Christi mortuo et corpore mortuo alterius hominis ' quantum ad formam
+<lb ed="#L" n="32"/>specificam, sive ?' sit per introductionem novae formae, sive per remansionem 
+natu<lb break="no" ed="#L" n="33"/>ralem alicuius formae naturaliter communis vivo et mortuo, videtur minus 
+discon<lb break="no" ed="#L" n="34"/>veniens fidei; et alia videtur magis erronea errore tamen poenali, quia neutra debet
+<lb ed="#L" n="35"/>iudicari haeretica quousque sit declarata veritas. i
+<pb ed="#L" n="316"/>
+               <lb ed="#L" n="1"/>Unde etiam nec ego assero unitatem formae nec pluralitatem, licet unitatem
+<lb ed="#L" n="2"/>tenuerim ' ut quoddam «quod probabiliter potest sustineri, cum non videam quin
+<lb ed="#L" n="3"/>rationes quae inducuntur ad probandum unam formam in aliis ab homine consimiliter
+<lb ed="#L" n="4"/>probent de homine. Et si tenerem pluralitatem formarum in eodem libentius tenerem
+<lb ed="#L" n="5"/>ilam quae ponit? plures sic quod naturaliter una separata manet alia et in Christo
+<lb ed="#L" n="6"/>et in aliis, quam illam quae ponit ambas in omnibus aliis a Christo simul desinere
+<lb ed="#L" n="7"/>esse, in Christo autem solo alteram retineri alia separata.
+</p>
+            <p xml:id="v27ab7-d1f005-d1e443">
+               <lb ed="#L" n="8"/>Sustinendo ergo unitatem formae potest dici ad rationem in contrarium quod
+<lb ed="#L" n="9"/>aliquid potest assumi? a Christo dupliciter, uno modo per se et directe uniendo
+<lb ed="#L" n="10"/>ipsum in suo esse hypostatico, et sic Christus nihil de novo assumpsit nec sic
+<pb ed="#L" n="317"/>assumptum deposuit; alio modo potest dici assumi  large et per accidens scilicet
+<lb ed="#L" n="1"/>ipsi per se assumpto uniri, et sic multa accidentia assumpsit et deposuit. Et ideo
+<lb ed="#L" n="2"/>dicendum quod illa nova forma licet esset de novo introducta et assumpto unita, non
+<lb ed="#L" n="3"/>tamen proprie erat assumpta nec etiam ratione dictae formae potuit Filius Dei dici
+<lb ed="#L" n="4"/>esse " alterius speciei quam prius, ita quod non fuerit tantum homo sed etiam alterius
+<lb ed="#L" n="5"/>speciei innominatae, licet compositum ex illa forma et materia esset alterius speciei
+<lb ed="#L" n="6"/>quam sit homo, quia non oportet ponere illam esse proprie  assumptam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

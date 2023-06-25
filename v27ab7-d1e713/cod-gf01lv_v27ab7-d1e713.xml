@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="248"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e713"><!-- v27ab7-q4q4 -->
+            <head xml:id="v27ab7-d1e713-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-d1e713-Hd1e101" type="question-title">
+      Utrum, supposito quod Deus posset facere angelum angelo perfectiorem in infinitum, oporteret quemlibet pertinere ad aliquam determinatam hierarchiam nunc existentium
+    </head>
+            <p xml:id="v27ab7-d1e713-d1e104">
+               <lb ed="#L" n="23"/>QUAESTIO IV
+<lb ed="#L" n="24"/>(LONGA).
+<lb ed="#L" n="25"/>Utrum supposito quod Deus posset facere angelum angelo
+<lb ed="#L" n="26"/>perfectiorem. in. infinitum oporteret. quemlibet : pertinere. ad
+<lb ed="#L" n="27"/>aliquam determinatam hierarchiam nunc existentium.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e117">
+               <lb ed="#L" n="28"/>Post hoc circa creaturas in speciali quaerebantur quaedam, et primo
+<lb ed="#L" n="29"/>quaerebatur circa naturam pure spiritualem scilicet angelicam, utrum
+<lb ed="#L" n="30"/>scilicet supposito quod Deus posset facere angelum angelo perfectiorem
+<lb ed="#L" n="31"/>in infinitum, utrum oporteret quemlibet angelum possibilem fieri pertinere
+<pb ed="#L" n="249"/>
+               <lb ed="#L" n="1"/>ad aliquam determinatam hierarchiam nunc existentium. Et arguebatur
+<lb ed="#L" n="2"/>primo quod non, quia in illo quod certis et finitis terminis clauditur
+<lb ed="#L" n="3"/>et limitatur non potest esse processus in infinitum, quia per processum
+<lb ed="#L" n="4"/>in infinitum oporteret transcendere quemcumque terminum praestitutum.
+<lb ed="#L" n="5"/>Sed quaelibet hierarchia certis et finitis terminis clauditur et limitatur.
+<lb ed="#L" n="6"/>Ergo non potest poni quod in perfectionibus angelorum sit processus
+<lb ed="#L" n="7"/>in infinitum, ita quod in infinitum possit fieri angelus angelo perfectior,
+<lb ed="#L" n="8"/>et quod quicumque angelus possibilis fieri infra aliquam hierarchiam
+<lb ed="#L" n="9"/>positam contineatur.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e150">
+               <lb ed="#L" n="10"/>Contra. Distinctio hierarchiarum videtur esse ad modum quo est
+<lb ed="#L" n="11"/>distinctio viventium secundum tres gradus principales vitae, qui sunt
+<lb ed="#L" n="12"/>vegetativum, sensitivum et motivum secundum locum. Sed si esset
+<lb ed="#L" n="13"/>possibilis processus in infinitum in viventibus, oporteret quodcumque
+<lb ed="#L" n="14"/>vivens possibile fieri pertinere ad aliquem praedictorum graduum, scilicet
+<lb ed="#L" n="15"/>ad vegetabilia vel ad sensibilia et cetera. Ergo similiter in proposito.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e167">
+               <lb ed="#L" n="16"/>Respondeo. Dicendum est quod sie etiam, si esset ponere processum
+<lb ed="#L" n="17"/>in infinitum in perfectionibus essentialibus rerum, ut videtur, tamen non
+<lb ed="#L" n="18"/>esset possibile ponere angelum angelo perfectiorem in infinitum, ita
+<lb ed="#L" n="19"/>quod simul cum hoc oporteret quemlibet determinari ad aliquam
+<lb ed="#L" n="20"/>hierarchiam nunc existentem, et per consequens ad aliquem ordinem ;
+<lb ed="#L" n="21"/>quia sicut est prima distinctio an;zrelorum in tres hierarchias, ita cuiuslibet
+<lb ed="#L" n="22"/>hierarchiae in tres ordines. Quoniam angelus angelo perfectior differret
+<lb ed="#L" n="23"/>specie ab imperfectiore, aut ergo cum hoc differret genere aut essent
+<lb ed="#L" n="24"/>plures unius generis proximi. — Si differret genere proximo, secundum
+<lb ed="#L" n="25"/>hoc quot essent angeli tot essent genera, et sic esset processus in
+<lb ed="#L" n="26"/>infinitum in genere angelorum. Sed quod aliquis angelus unius speciei
+<lb ed="#L" n="27"/>et generis sit eiusdem ordinis cum quocumque angelo existenti speciei
+<lb ed="#L" n="28"/>et generis in infinitum excedentis videtur irrationale, quoniam cum, ut!
+<lb ed="#L" n="29"/>dictum est, ordo debet esse in tota universitate entium, multo »agis
+<lb ed="#L" n="30"/>in uno determinato ordine unius hierarchiae. Hoc autem non posset
+<lb ed="#L" n="31"/>servari si sic esset processus in infinitum. Ergo quod angelus angelo
+<lb ed="#L" n="32"/>sic  perfectior in infinitum secundum speciem et genus differens pertineat
+<lb ed="#L" n="33"/>ad unum ordinem, est inconveniens. Si enim non sit dare infimum
+<lb ed="#L" n="34"/>angelum in aliquo ordine quo inferior esset alterius ordinis, et etiam
+<lb ed="#L" n="35"/>non sit dare supremum quo superior esset alterius ordinis? (si enim sit
+<lb ed="#L" n="36"/>dare infimum, eadem ratione immo potius supremum quia est dignior),
+<lb ed="#L" n="37"/>non est aliquis ordo in angelis eiusdem ordinis et sic ordo non est
+<pb ed="#L" n="250"/>
+               <lb ed="#L" n="1"/>ordo. Et sicut est de ordinibus, ita est de hierarchiis, multiplicatis enim
+<lb ed="#L" n="2"/>ordinibus oportet hierarchias multiplicari. — Idem arguitur si sint plures
+<lb ed="#L" n="3"/>eiusdem generis proximi, quoniam illud genus continens differentias
+<lb ed="#L" n="4"/>potestate est finitae virtutis. Non esset etiam ordo in speciebus eiusdem
+<lb ed="#L" n="5"/>generis proximi, nisi essent determinatae differentiae ipsius. Ergo est
+<lb ed="#L" n="6"/>ponere primum et ultimum angelum uniuscuiusque generis angelorum.
+<lb ed="#L" n="7"/>Ergo posito perfectiore angelo supremo angelo alicuius generis, ille
+<lb ed="#L" n="8"/>esset alterius generis, et tunc procederetur ut prius, quia si procederetur
+<lb ed="#L" n="9"/>in infinitum in perfectionibus angelorum, infinita essent genera. Non
+<lb ed="#L" n="10"/>potest autem esse eiusdem ordinis et hierarchiae angelus unius generis
+<lb ed="#L" n="11"/>vel speciei cum quocumque alterius generis vel speciei in infinitum
+<lb ed="#L" n="12"/>excedentis.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e245">
+               <lb ed="#L" n="13"/>Nec valet similitudo quae ponitur de  vegetativo, | sensitivo et
+<lb ed="#L" n="14"/>secundum locum motivo, quia etiam in illis non potest poni processus
+<lb ed="#L" n="15"/>in infinitum, nis] perveniatur ad entia extra istos modos vitae. Ponere
+<lb ed="#L" n="16"/>enim gradus viventium esse sic determinatos ita quod non possit esse
+<lb ed="#L" n="17"/>vivens nisl sic vel sic, et ponere possibilem processum in infinitum in
+<lb ed="#L" n="18"/>viventibus implicat contradictoria. Nam accipiendo genus animalis pro
+<lb ed="#L" n="19"/>uno gradu, posito quocumque animali nunc existenti, si illo potest fieri
+<lb ed="#L" n="20"/>non dico animal sed vivens nobilius et nobilius in infinitum, oportet
+<lb ed="#L" n="21"/>quod transcendat modum vitae animalis propter generis uniuscuiusque
+<lb ed="#L" n="22"/>limitationem. Et sic oportebit quod perveniat ad vitam aliam, quia in
+<lb ed="#L" n="23"/>uno modo vivendi impossibile est procedere in infinitum de modo
+<lb ed="#L" n="24"/>perfecto ad modum perfectiorem, esto quod in viventibus simpliciter
+<lb ed="#L" n="25"/>esset processus in infinitum. Sicut etiam si sit descensus sub quocumque
+<lb ed="#L" n="26"/>animali in infinitum, ita quod quocumque dato est ponere imperfectius
+<lb ed="#L" n="27"/>ens in infinitum, erit devenire ad aliquid quod non vivit vita animali, nec
+<lb ed="#L" n="28"/>etiam tandem vita plantae. Dicere ergo quod s? fieret quocumque animali
+<lb ed="#L" n="29"/>dato perfectius non solum ens sed etiam ens animal, nunquam exiret
+<lb ed="#L" n="30"/>modum vivendi animalis, [quia] hoc implicat contradictoria, quia exiret
+<lb ed="#L" n="31"/>et non exiret. In. quantum enim ponitur procedere in infinitum non
+<lb ed="#L" n="32"/>exiret; in quantum ponitur esse animal necessario exiret. Secus autem
+<lb ed="#L" n="33"/>esset dicere quod in viventibus posset esse processus in infinitum ;
+<lb ed="#L" n="34"/>nam siesset processus in infinitum in viventibus dicto modo, non esset
+<lb ed="#L" n="35"/>ponere aliquos modos determinatos vivendi, nec tres nec plures, sed
+<lb ed="#L" n="36"/>infinitos. Unde incompossibilitas in. tali modo ponendi non appareret.
+<lb ed="#L" n="37"/>Sed ponere determinatum modum vivendi et in illo processuz: in infinitum
+<lb ed="#L" n="38"/>secundum perfectius dicto modo est ponere incompossibilia. Sed tamen,
+<lb ed="#L" n="39"/>licet. ponere processum in infinitum in viventibus secundum diversos
+<pb ed="#L" n="251"/>
+               <lb ed="#L" n="1"/>modos vivendi non sic manifeste implicat contradictoria sive impossibilia,
+[sed] ponit tamen quid omnino non intelligibile, quia qui intelligit alium
+<lb ed="#L" n="2"/>modum vivendi quam vegetativum, sensitivum ve] intellectivum vel
+<lb ed="#L" n="3"/>huiusmodi nihil intelligit et cetera, nisi sint modi vivendi intellectuales
+<lb ed="#L" n="4"/>plures plus differentes quam sensitivum, vegetativum, et quantum ad
+<lb ed="#L" n="5"/>Deum constat quod suus modus vitae intellectualis multum differt.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e319">
+               <lb ed="#L" n="6"/>Sicut ergo in genere viventium semper de minus perfecta specie
+<lb ed="#L" n="7"/>viventis vegetativi ad magis perfectam speciem procedere est devenire
+<lb ed="#L" n="8"/>ad speciem qua perfectior de necessitate collocatur in grenere animalis,
+<lb ed="#L" n="9"/>et ponere oppositum est ponere contradictoria, ita etiam ponendo quod
+<lb ed="#L" n="10"/>in angelis sit processus in infinitum unius hierarchiae, ita quod semper
+<lb ed="#L" n="11"/>angelus angelo perfectior pertinebit ad illam hierarchiam unius implicat
+<lb ed="#L" n="12"/>contradictoria. Unde erit devenire ad angelum qui erit extra quemcumque
+<lb ed="#L" n="13"/>ordinem illius hierarchiae. Sicut enim non esset distinctio viventium
+<lb ed="#L" n="14"/>praedictorum, nisi esset status in eis sic quod esset devenire ad plantam
+<lb ed="#L" n="15"/>ita in summo sui generis perfectam et generi animalis propinquam quod
+<lb ed="#L" n="16"/>non posset fieri una perfectior quin esset animal, — ita etiam inhierarchiis
+<lb ed="#L" n="17"/>est ponere in infima hierarchia angelum ita perfectum et secundae
+<lb ed="#L" n="18"/>hierarchiae ita propinquum, quod non posset fieri perfectior quin esset
+<lb ed="#L" n="19"/>de hierarchia media, et ita de medio respectu tertiae, et in tertio esset
+<lb ed="#L" n="20"/>ponere summum quo superior institueret aliam hierarchiam.
+</p>
+            <p xml:id="v27ab7-d1e713-d1e354">
+               <lb ed="#L" n="21"/>Hoc ergo videtur dicendum quod qualiscumque sit distinctio 
+ange<lb break="no" ed="#L" n="22"/>lorum inter se et in suis ordinibus et hierarchiis, si poneretur distinctio
+<lb ed="#L" n="23"/>secundum naturalia specifice differentia, et esset in eis processus in
+<lb ed="#L" n="24"/>infinitum, non possent poni hierarchiae determinatae. Si autem solum
+<lb ed="#L" n="25"/>secundum gratuita, posset, quia constat quod homines ad diversos ordines
+<lb ed="#L" n="26"/>et hierarchias assumentur; sunt tamen omnes homines eiusdem speciei
+<lb ed="#L" n="27"/>secundum naturalia et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

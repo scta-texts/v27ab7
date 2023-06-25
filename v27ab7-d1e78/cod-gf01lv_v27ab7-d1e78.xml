@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="6"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e78"><!-- v27ab7-q1q3 -->
+            <head xml:id="v27ab7-d1e78-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-d1e78-Hd1e101" type="question-title">
+      Utrum in Christo sint duae filiationes reales,
+      una qua dicitur filius Patris ab aeterno et alia qua dicitur
+      filius matris ex tempore
+    </head>
+            <p xml:id="v27ab7-d1e78-d1e104">
+               <pb ed="#L" n="6"/>
+               <lb ed="#L" n="1"/>QUAESTIO III.
+<lb ed="#L" n="2"/>Utrum in Christo sint duae filiationes reales,
+<lb ed="#L" n="3"/>una qua dicitur filius Patris ab aeterno et alia qua dicitur
+<lb ed="#L" n="4"/>filius matris ex tempore.
+</p>
+            <p xml:id="v27ab7-d1e78-d1e117">
+               <lb ed="#L" n="5"/>Consequenter circa competentia Deo secundum utramque naturam,
+<lb ed="#L" n="6"/>divinam scilicet et assumptam in Christo, quaerebatur unum, scilicet utrunr
+<lb ed="#L" n="7"/>in Christo sint duae filiationes reales, una qua dicitur filius Patris ab
+<lb ed="#L" n="8"/>aeterno et alia qua dicitur filius matris ex tempore. Et arguebatur quod in
+<lb ed="#L" n="9"/>Christo sint duae filiationes reales, quia pluralitati relationum diversorum
+<lb ed="#L" n="10"/>principiorum ad diversa principiata respondet diversitas relationum ex
+<lb ed="#L" n="11"/>parte principiatorum. Sed Pater aeternus et mater temporalis sunt diversa
+<lb ed="#L" n="12"/>principia Christi secundum diversas naturas in Christo, et diversis 
+relatio<lb break="no" ed="#L" n="13"/>nibus realibus ista diversa principia referuntur ad Christum ratione 
+huius<lb break="no" ed="#L" n="14"/>modi diversarum naturarum. Ergo similiter in Christo erunt diversae
+<lb ed="#L" n="15"/>relationes reales istis correspondentes, quibus ad haec diversa principia
+<lb ed="#L" n="16"/>diversimode referuntur. Sed una filiatione reali refertur ad Patrem 
+aeter<lb break="no" ed="#L" n="17"/>num. Ergo alia filiatione etiam reali ' referetur ad matrem.
+</p>
+            <p xml:id="v27ab7-d1e78-d1e148">
+               <lb ed="#L" n="18"/>Contra. In uno et eodem subiecto vel supposito non possunt esse
+<lb ed="#L" n="19"/>plura accidentia solo numero differentia, utpote in eodem homine | non
+<lb ed="#L" n="20"/>possunt esse duae albedines; ergo similiter nec duae filiationes realiter
+<lb ed="#L" n="21"/>differentes. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e78-d1e160">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod hoc est singulare in Christo, quod in ipso
+<lb ed="#L" n="23"/>est tantum unum suppositum subsistens tamen in duabus naturis perfectis,
+<lb ed="#L" n="24"/>quarum quaelibet nata est in proprio supposito subsistere. Et quantum ad
+<lb ed="#L" n="25"/>quaestionem propositam et quantum ad quasdam alias quaestiones 
+diffi<lb break="no" ed="#L" n="26"/>cultates speciales oriuntur, quia quaedam videntur in Christo concedenda
+<lb ed="#L" n="27"/>propter diversitatem naturarum quae neganda videntur propter suppositi
+<lb ed="#L" n="28"/>unitatem. Propter quod circa praesentem quaestionem duae opiniones
+<lb ed="#L" n="29"/>solemnes inveniuntur. Quidam ? enim ad unitatem suppositi attendentes
+<lb ed="#L" n="30"/>dicunt quod cum  filiatio....
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

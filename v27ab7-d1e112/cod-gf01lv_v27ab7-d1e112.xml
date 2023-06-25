@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="17"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e112"><!-- v27ab7-q1q6 -->
+            <head xml:id="v27ab7-d1e112-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1e112-Hd1e101" type="question-title">
+      Utrum lex habeat facere homines bonos et virtuosos
+    </head>
+            <p xml:id="v27ab7-d1e112-d1e104">
+               <lb ed="#L" n="5"/>QUAESTIO VI.
+<lb ed="#L" n="6"/>Utrum lex habeat facere homines bonos et virtuosos.
+</p>
+            <p xml:id="v27ab7-d1e112-d1e111">
+               <lb ed="#L" n="7"/>Postea quaerebatur aliud quod erat pertinens ad habitum practicum,
+<lb ed="#L" n="8"/>videlicet utrum lex habeat facere homines bonos et virtuosos. Et 
+argue<lb break="no" ed="#L" n="9"/>batur quod lex non habeat facere homines bonos et virtuosos ?, quia
+<lb ed="#L" n="10"/>secundum Philosophum  secundo Ethicorum, virtus est quae habentem
+<lb ed="#L" n="11"/>perficit et opus eius bonum facit. Sed prout colligitur ex verbis 
+Augu<lb break="no" ed="#L" n="12"/>stini  secundo libro de libero arbitrio, virtus est bona qualitas mentis qua
+<lb ed="#L" n="13"/>recte vivitur et quam Deus in nobis sine nobis operatur. Ergo cum virtus
+<lb ed="#L" n="14"/>quae hominem bonum facit sit a solo Deo ? et non a lege, legis non est
+<lb ed="#L" n="15"/>homines facere bonos.
+</p>
+            <p xml:id="v27ab7-d1e112-d1e133">
+               <lb ed="#L" n="16"/>Contra. Intentio legislatoris in statuendo leges fertur. ad communem
+<lb ed="#L" n="17"/>populi utilitatem, non ad proprium commodum, secundum Isidorum 
+<lb ed="#L" n="18"/>primo Etymologiarum. Sed ad communem populi utilitatem principaliter
+<lb ed="#L" n="19"/>pertinet quod sint boni et virtuosi. Ergo legis est facere homines bonos.
+</p>
+            <p xml:id="v27ab7-d1e112-d1e145">
+               <lb ed="#L" n="20"/>Respondeo dicendum quod, cum lex sit quaedam mensura et regula
+<lb ed="#L" n="21"/>actuum humanorum secundum quam dirigitur homo et inducitur ad
+<lb ed="#L" n="22"/>agendum ea quae secundum rectam rationem sunt agenda (ad hoc
+</p>
+            <p xml:id="v27ab7-d1e112-d1e154">
+               <pb ed="#L" n="18"/>
+               <lb ed="#L" n="1"/>enim ! dantur praecepta in legibus ut actus humani dirigantur, quia
+<lb ed="#L" n="2"/>respectu actuum bonorum qui sunt virtuosi dantur praecepta affirmativa,
+<lb ed="#L" n="3"/>et quantum ad hoc dicitur lex imperare, respectu vero malorum dantur
+<lb ed="#L" n="4"/>praecepta negativa, et quantum ad hoc dicitur lex prohibere ; et quia
+<lb ed="#L" n="5"/>legislatores etiam habent vim et potestatem faciendi legem observari metu
+<lb ed="#L" n="6"/>poenae et ad hoc possunt poenas adhibere et illas lege statuere); ideo
+<lb ed="#L" n="7"/>et legislatorum  et legis ipsius effectus est inducere homines ad hoc
+<lb ed="#L" n="8"/>ut sint boni et virtuosi, non per informationem sicut virtus ipsa, sed
+<lb ed="#L" n="9"/>per inductionem et directionem, in quantum ? per ipsam legem actus
+<lb ed="#L" n="10"/>humani diriguntur per quos acquiritur virtus politica, et per quos homo
+<lb ed="#L" n="11"/>etiam ad virtutem infusam disponitur et promovetur.
+</p>
+            <p xml:id="v27ab7-d1e112-d1e183">
+               <lb ed="#L" n="12"/>Per hoc patet responsio ad argumentum in contrarium ; nam cum
+<lb ed="#L" n="13"/>lex ad hoc detur ut dirigat actus humanos, et hoc quidem est hominis
+<lb ed="#L" n="14"/>bonum quod in suis actibus dirigatur 5 item quia actus humani per
+<lb ed="#L" n="15"/>legem directi operantur ad virtutem habendam per quam formaliter est
+<lb ed="#L" n="16"/>homo bonus, manifestum est quod lex homines facit bonos.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

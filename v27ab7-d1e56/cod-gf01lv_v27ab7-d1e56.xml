@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e56"><!-- v27ab7-q1q1 -->
+            <head xml:id="v27ab7-d1e56-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-d1e56-Hd1e101" type="question-title">
+      Utrum eadem sit actio qua Deus producit res in esse et qua conservat easdem 1m esse per eiusdem esse continuationem
+    </head>
+            <p xml:id="v27ab7-d1e56-d1e104">
+               <pb ed="#L" n="1"/>
+               <lb ed="#L" n="1"/>MAGISTRI
+<lb ed="#L" n="2"/>GODEFRIDI DE FONTIBUS
+<lb ed="#L" n="3"/>PRIMA QUATTUOR
+<lb ed="#L" n="4"/>QUODLIBETA
+<lb ed="#L" n="5"/>REPORTATA
+</p>
+            <p xml:id="v27ab7-d1e56-d1e120">
+               <lb ed="#L" n="6"/>QUODLIBETUM PRIMUM
+<lb ed="#L" n="7"/>QUAESTIO I.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e127">
+               <lb ed="#L" n="8"/>Utrum eadem sit actio qua. Deus producit res in esse et qua
+<lb ed="#L" n="9"/>conservat easdem 1m esse per eiusdem esse continuationem ?.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e135">
+               <lb ed="#L" n="10"/>Quaerebantur quaedam circa Deum creatorem, et quaedam circa
+<lb ed="#L" n="11"/>creaturas. Circa Deum quaerebantur quaedam competentia sibi secundum
+<lb ed="#L" n="12"/>naturam divinam ; quaedam competentia sibi secundum naturam humanam
+<lb ed="#L" n="13"/>et divinam simul in Christo. Circa competentia Deo secundum eius 
+natu<lb break="no" ed="#L" n="14"/>ram divinam quaerebantur duo pertinentia ad eius actionem. Primum erat
+<lb ed="#L" n="15"/>de actione eius generaliter respectu omnium creaturarum. Secundum erat
+<pb ed="#L" n="2"/>
+               <lb ed="#L" n="1"/>de actione eius respectu unius effectus creati determinate in comparatione
+<lb ed="#L" n="2"/>ad alios.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e157">
+               <lb ed="#L" n="3"/>Quantum ad primum quaerebatur primo utrum eadem sit actio qua
+<lb ed="#L" n="4"/>Deus producit res in esse et qua conservat easdem in esse per eiusdem
+<lb ed="#L" n="5"/>esse continuationem.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e166">
+               <lb ed="#L" n="6"/>Et arguitur quod alia sit actio, quia productio rerum per creationem
+<lb ed="#L" n="7"/>nec est nec esse potest per cooperationem alicuius alterius agentis. Sed
+<lb ed="#L" n="8"/>conservatio multorum entium est per cooperationem gratiae ', artis et
+<lb ed="#L" n="9"/>naturae. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e177">
+               <lb ed="#L" n="10"/>Praeterea, non est eadem actio a qua Deus cessat et a qua non cessat.
+<lb ed="#L" n="11"/>Sed Deus, postquam res in principio mundi in esse produxit, ab opere
+<lb ed="#L" n="12"/>producendi cessavit, ut dicitur Genesis secundo , sed non cessavit nec
+<lb ed="#L" n="13"/>cessat ab opere conservandi. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e188">
+               <lb ed="#L" n="14"/>Contra. In omnibus causis quae sunt causae suorum effectuum 
+quan<lb break="no" ed="#L" n="15"/>tum ad fieri, et etiam quantum ad esse, eadem actione producitur effectus
+<lb ed="#L" n="16"/>ab illis et in esse conservatur; sicut patet in illuminatione medii a corpore
+<lb ed="#L" n="17"/>luminoso, nam eadem actione aer illuminatur a sole et in esse illuminato
+<lb ed="#L" n="18"/>conservatur, et etiam eadem actione grave in medio suspenditur et 
+suspen<lb break="no" ed="#L" n="19"/>sum ibidem conservatur vel detinetur. Sed Deus est causa rerum, non
+<lb ed="#L" n="20"/>solum quantum ad fieri sed quantum ad esse, quia secundum Gregorium 
+<lb ed="#L" n="21"/>et Augustinum , omnia creata in nihilum caderent sicut ex nihilo esse
+<lb ed="#L" n="22"/>habent, nisi manu omnipotentis in esse conservarentur. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e56-d1e210">
+               <lb ed="#L" n="23"/>Respondeo dicendum...
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

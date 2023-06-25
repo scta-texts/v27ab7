@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="336"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f110"><!-- v27ab7-q4short-q11 -->
+            <head xml:id="v27ab7-d1f110-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-d1f110-Hd1e101" type="question-title">
+      Utrum illud quod secundum se est malum et illicitum possit aliquo modo esse bonum et licitum
+    </head>
+            <p xml:id="v27ab7-d1f110-d1e104">
+               <lb ed="#L" n="27"/>QUAESTIO XI
+<lb ed="#L" n="28"/>(BREVIS)
+<lb ed="#L" n="29"/>Utrum illud quod secundum se est malum et illicitum possit aliquo
+<lb ed="#L" n="30"/>modo esse bonum et licitum .
+</p>
+            <p xml:id="v27ab7-d1f110-d1e115">
+               <lb ed="#L" n="31"/>Ad secundum sic proceditur, et arguitur quod illud  quod est secundum se
+<lb ed="#L" n="32"/>malum possit esse licitum per dispensationem, quia habere plura beneficia est 
+secun<lb break="no" ed="#L" n="33"/>dum se malum. Sed hoc fit licitum per dispensationem. Ergo et cetera. Minor
+<pb ed="#L" n="337"/>
+               <lb ed="#L" n="1"/>supponitur; maior probatur !, quia quod illud? quod datur pro servitio ?, detur
+<lb ed="#L" n="2"/>non potenti servire, est malum secundum se. Sed beneficia debent dari propter
+<lb ed="#L" n="3"/>servitia. Ergo malum est secundum se  ea dare non potenti servire. Sed idem non
+<lb ed="#L" n="4"/>potest deservire plura beneficia. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e135">
+               <lb ed="#L" n="5"/>Contra. Quod est tale secundum se, eius oppositum non potest ei qualitercumque
+<lb ed="#L" n="6"/>convenire. Ergo ei quod est malum secundum se non potest per dispensationem vel
+<lb ed="#L" n="7"/>qualiter aliter  convenire quod sit bonum et licitum.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e145">
+               <lb ed="#L" n="8"/>Respondeo dicendum quod tripliciter  contingit aliquid esse malum. Uno modo
+<lb ed="#L" n="9"/>quod secundum se sic includat  malum et illud  quod discordat a recta ratione,
+<lb ed="#L" n="10"/>quod  in nullo casu possit esse bonum. Et talia sunt illa quae sunt prima principia
+<lb ed="#L" n="11"/>vel prima principia iuris '" naturalis, sicut illa de quibus sunt praecepta sicut furtum
+<lb ed="#L" n="12"/>et!! homicidium et consimilia ", et in istis non cadit aliqua dispensatio quantum
+<lb ed="#L" n="13"/>ad ordinem iustitiae quem !? important. Unde nunquam per aliquam dispensationem
+<lb ed="#L" n="14"/>furtum manens furtum vel homicidium manens homicidium est licitum. Sed quantum
+<lb ed="#L" n="15"/>ad determinationem circa ! casus speciales, qua scilicet determinatione determinentur !
+<lb ed="#L" n="16"/>casus speciales esse vel non esse furtum, esse vel non esse fornicationem vel
+<lb ed="#L" n="17"/>adulterium, et sic de aliis, sunt talia mutabilia, quandoque sola auctoritate divina,
+<lb ed="#L" n="18"/>ut habere duas uxores ita quod habita prima recipere ! secundam non sit adulterium.
+<lb ed="#L" n="19"/>Quandoque vero | hoc fit statuto humano ut, si princeps prohibeat aliquid ' sub
+<lb ed="#L" n="20"/>poena capitis, ante statutum in praedicto casu interficere fuisset homicidium !5, post
+<lb ed="#L" n="21"/>statutum est exsecutio iustitiae et non homicidium, et sic de quibusdam aliis. Talia
+<lb ed="#L" n="22"/>quae sunt sic  secundum se mala sicut furtum manens furtum et homicidium et
+<lb ed="#L" n="23"/>consimilia  nullo modo possunt fieri licita per quamcumque dispensationem.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e182">
+               <lb ed="#L" n="24"/>Alia sunt secundum se mala | quae ex istis deducuntur quasi conclusiones, non
+<lb ed="#L" n="25"/>quidem de necessitate et semper, sed ut in pluribus, ita quod ut in pluribus 
+discor<lb break="no" ed="#L" n="26"/>dant a recta ratione, quandoque autem et in casu expediunt, et opposita eorum in
+<lb ed="#L" n="27"/>dicto casu essent mala vel minus bona. Et talia sunt quasi determinationes eorum
+<lb ed="#L" n="28"/>quae pertinent ad prima principia iuris naturalis quae quia mutabilia sunt, ut dictum
+<lb ed="#L" n="29"/>est, comparata certis personis vel temporibus vel locis  non expediunt. Et quia non
+<lb ed="#L" n="30"/>cuiuslibet potestati ? subest determinare quando ista sunt mala et quando non, sed
+<lb ed="#L" n="31"/>rectori multitudinis, talia non sunt licita nisi per dispensationem superioris qui habet
+<lb ed="#L" n="32"/>determinare in quibus casibus expediunt. Verbi gratia facere residentiam in ecclesia
+<lb ed="#L" n="33"/>cuius aliquis habet curam, communiter est bonum secundum se, et oppositum est
+<lb ed="#L" n="34"/>malum secundum se, scilicet non residere; tamen in casu non residere posset esse
+<lb ed="#L" n="35"/>bonum vel propter communem utilitatem ecclesiae, vel propter proprii corporis
+<lb ed="#L" n="36"/>salutem vel aliquid tale.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e213">
+               <lb ed="#L" n="37"/>Dicendum ergo quod illud quod est isto secundo modo malum secundum se
+<pb ed="#L" n="338"/>
+               <lb ed="#L" n="1"/>respectu eius respectu cuius dicitur esse malum secundum se, et in casu in quo
+<lb ed="#L" n="2"/>est malum, secundum se non potest esse bonum vel licitum; sed respectu 
+diver<lb break="no" ed="#L" n="3"/>sorum potest, sic scilicet quod illud ' quod est malum secundum se, ut in pluribus,
+<lb ed="#L" n="4"/>non sit malum in isto casu, talibus circumstantiis adhibitis et talibus concurrentibus.
+<lb ed="#L" n="5"/>Et ista non opponuntur, scilicet aliquid esse secundum se malum? ut in pluribus,
+<lb ed="#L" n="6"/>et esse bonum et licitum in casu speciali.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e233">
+               <lb ed="#L" n="7"/>Per quod etiam patet ad argumentum in contrarium. Quia ex hoc quod illud |
+<lb ed="#L" n="8"/>quod est secundum se malum ut in pluribus, ponitur esse bonum et licitum in
+<lb ed="#L" n="9"/>determinato casu, non ponitur quod unum oppositorum conveniat alteri vel habenti
+<lb ed="#L" n="10"/>alterum oppositum, quia sic malum et bonum non sunt opposita. Tale ergo malum
+<lb ed="#L" n="11"/>quando statuto humano prohibetur, dupliciter  est malum, scilicet et secundum se
+<lb ed="#L" n="12"/>est malum loquendo ut in pluribus, ut dictum est, et est etiam malum quia prohibitum.
+<lb ed="#L" n="13"/>In casu ergo speciali in quo ex natura rei non est malum, non potest habere
+<lb ed="#L" n="14"/>malitiam | nisi quia prohibitum ; et quia dispensatio superioris tollit obligationem
+<lb ed="#L" n="15"/>statuti humani, tale quid per dispensationem in tali casu fit bonum et licitum. In
+<lb ed="#L" n="16"/>casu autem in quo illud  quod secundum se est malum, ex natura rei non esset
+<lb ed="#L" n="17"/>bonum sed malum, non debet superior dispensare, quia eius dispensatio  in tali
+<lb ed="#L" n="18"/>casu esset dissipatio " secundum quod Bernardus(l) vult in epistula ad Eugenium.
+<lb ed="#L" n="19"/>Et tale malum est habere plura beneficia simul, quia sicut ad decorem huius  ecclesiae
+<lb ed="#L" n="20"/>pertinet quod diversi diversa officia et diversi diversa beneficia habeant, ut habetur
+<lb ed="#L" n="21"/>[in] Gregorius, octogesima nona distinctione, capitulo Singula, et hoc ut in
+<lb ed="#L" n="22"/>pluribus, — ita indecens et malum ut in pluribus, est quod unus habeat plura .
+<lb ed="#L" n="23"/>Sed in casu posset esse bonum, scilicet ubi esset penuria clericorum quibus danda.
+<lb ed="#L" n="24"/>essent beneficia vel ubi esset persona tanti valoris quod plus valet communi
+<lb ed="#L" n="25"/>utilitati ecclesiae quam plures mediocres, vel quando unum beneficium non sufficit.
+<lb ed="#L" n="26"/>Tunc enim habere plura '" beneficia non est malum, et tunc vel sine nova dispensatione
+<lb ed="#L" n="27"/>sicut in beneficiis annexis, licet habere plura sicut praebendam "' et archidiaconatum
+<lb ed="#L" n="28"/>et etiam cum nova dispensatione.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e283">
+               <lb ed="#L" n="29"/>Tertio vero modo dicitur aliquid malum non secundum se (immo quantum est
+<lb ed="#L" n="30"/>de se, est indifferens licet per accidens eius oppositum faciat ad bonum), sed ! est
+<lb ed="#L" n="31"/>malum quia prohibitum statuto humano, sicut comedere carnes sexta feria. Et talia
+<lb ed="#L" n="32"/>possunt esse bona et licita per dispensationem superioris. Nam cum talia non habeant
+<lb ed="#L" n="33"/>malitiam nisi propter obligationem statuti ?, per dispensationem superioris tollitur
+<lb ed="#L" n="34"/>ab eis esse malum.
+</p>
+            <p xml:id="v27ab7-d1f110-d1e299">
+               <lb ed="#L" n="35"/>Et sic patet ad quaestionem et ad argumenta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

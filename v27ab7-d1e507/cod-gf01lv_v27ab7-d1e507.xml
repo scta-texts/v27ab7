@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="178"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e507"><!-- v27ab7-q3q2 -->
+            <head xml:id="v27ab7-d1e507-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1e507-Hd1e101" type="question-title">
+      Utrum prius creetur essentia quam esse
+    </head>
+            <p xml:id="v27ab7-d1e507-d1e104">
+               <lb ed="#L" n="25"/>QUAESTIO II
+<lb ed="#L" n="26"/>(LONGA).
+<lb ed="#L" n="27"/>Utrum prius creetur essentia quam esse.
+</p>
+            <p xml:id="v27ab7-d1e507-d1e113">
+               <lb ed="#L" n="28"/>Postea circa secundum praedictorum, scilicet utrum in creatione
+<lb ed="#L" n="29"/>creaturae prius creetur ipsa essentia quam ipsum esse procedebatur. Et
+<lb ed="#L" n="30"/>arguebatur quod in creatione creaturae ? prius creetur esse quam essentia,
+<pb ed="#L" n="179"/>
+               <lb ed="#L" n="1"/>quia illud quod prius emanat a creante prius creatur. Sed hoc est
+<lb ed="#L" n="2"/>esse, nam dicit Dionysius , quinto de Divinis Nominibus : Deus est
+<lb ed="#L" n="3"/>simpliciter et incircumscripte et incircumfinite totum in se ipso [est]
+<lb ed="#L" n="4"/>esse[ndo] coambiens, et omnia ipsum participant et a nullo existentium
+<lb ed="#L" n="5"/>recedit. Et infra: et amfíe! alia esse praemittitur et cetera. Et quarta
+<lb ed="#L" n="6"/>propositione de Causis  dicitur: prima rerum creatarum est esse.
+</p>
+            <p xml:id="v27ab7-d1e507-d1e137">
+               <lb ed="#L" n="7"/>Contra. Sicut se habet generale compositum ex materia et forma
+<lb ed="#L" n="8"/>ad generationem , ita creabile et compositum ex esse et essentia
+<lb ed="#L" n="9"/>ad creationem. Sed in generatione compositi ex materia et forma non
+<lb ed="#L" n="10"/>generatur prius forma quam materia vel e converso, sed totum 
+compo<lb break="no" ed="#L" n="11"/>situm per se generatur et est terminus per se generationis. Ergo etiam
+<lb ed="#L" n="12"/>in creatione compositi ex esse et essentia non creabitur prius esse
+<lb ed="#L" n="13"/>quam essentia.
+</p>
+            <p xml:id="v27ab7-d1e507-d1e156">
+               <lb ed="#L" n="14"/>Ad illud patet responsio ex dictis . Si enim esse differret ab
+<lb ed="#L" n="15"/>essentia realiter, tunc fieret unum compositum ex essentia et esse
+<lb ed="#L" n="16"/>sicut ex potentia et actu. Non autem alia productione producitur potentia
+<lb ed="#L" n="17"/>et acíus , sed eo ipso quod " producitur unica productione totum
+<lb ed="#L" n="18"/>compositum per se ex potentia et actu, producuntur partes in illo 
+com<lb break="no" ed="#L" n="19"/>posito ex consequenti, quia producto toto producuntur partes. Et ideo
+<lb ed="#L" n="20"/>non esset dicendum proprie quod essentia prius produceretur quam esse,
+<lb ed="#L" n="21"/>vel e converso, cum haec per se non producantur, sed productione
+<lb ed="#L" n="22"/>compositi. Posset tamen dici secundum  quod dicit Augustinus , 
+duo<lb break="no" ed="#L" n="23"/>decimo Confessionum, capitulo vigesimo nono, quod cum esse informe
+<lb ed="#L" n="24"/>materiae praecedat formam, sed forma dignitate et perfectione praecedit
+<lb ed="#L" n="25"/>materiam, sicut materia non potest produci in esse omnino informis,
+<lb ed="#L" n="26"/>cum origine praecedat suam formationem, — sic essentia non potest
+<lb ed="#L" n="27"/>produci sine esse, tamen origine praecedit suum esse. Sed ex praedictis
+<lb ed="#L" n="28"/>potest ostendi quod sic non potest per omnem modum dici. Nam si
+<lb ed="#L" n="29"/>sic differunt haec, scilicet essentia et esse? ut potentia et actus, tunc
+<lb ed="#L" n="30"/>aut differunt ut potentia simpliciter quae est hyle et actus simpliciter
+<lb ed="#L" n="31"/>qui est forma substantialis, et sic veritatem habere videtur quod dicitur, —
+<pb ed="#L" n="180"/>
+               <lb ed="#L" n="1"/>aut differunt ut potentia secundum quid ut subiectum et actus secundum
+<lb ed="#L" n="2"/>quid qui est forma accidentalis, et tunc cum illud quod sic est in potentia
+<lb ed="#L" n="3"/>prius non solum origine sed actualitate et perfectione habeat esse 
+sim<lb break="no" ed="#L" n="4"/>pliciter quam illud quo perficitur sic secundum quid (et sic etiam dicitur
+<lb ed="#L" n="5"/>prius simpliciter absque aliqua determinatione licet ut est potentia
+<lb ed="#L" n="6"/>secundum quid sit prius solum origine et imperfectius secundum quid
+<lb ed="#L" n="7"/>et aliud prius per | fectione non simpliciter, sed secundum quid sicut
+<lb ed="#L" n="8"/>patet cum fit ignis calidus ut dictum est), — videretur quod simpliciter
+<lb ed="#L" n="9"/>crearetur prius essentia quam esse !, sicut simpliciter prius producitur
+<lb ed="#L" n="10"/>ignis in esse ignis per generationem | simpliciter quam producatur ignis
+<lb ed="#L" n="11"/>in esse calidi per generationem secundum quid. — Et ideo secundum
+<lb ed="#L" n="12"/>praedicta dicendum est quod cum omnino sint idem secundum rem
+<lb ed="#L" n="13"/>esse et essentia, non est ibi aliqua prioritas nec  ordo realis nisi forte
+<lb ed="#L" n="14"/>secundum rationem et modum intelligendi et significandi, etiam si hoc
+<lb ed="#L" n="15"/>dici possit? ut essentia prius est origine et cetera sub ratione habitus,
+<lb ed="#L" n="16"/>et esse posterius sub ratione actus et cetera. 51 etiam differrent intentione,
+<lb ed="#L" n="17"/>prius crearetur essentia quam esse, sicut prius fundamentum respectus
+<lb ed="#L" n="18"/>ut album similitudine, sed ex hoc etiam sequerentur inconvenientia
+<lb ed="#L" n="19"/>supra dicta et cetera.
+</p>
+            <p xml:id="v27ab7-d1e507-d1e241">
+               <lb ed="#L" n="20"/>Cum ergo dicitur de Dionysio quod ante omnia esse praemittitur,
+<lb ed="#L" n="21"/>et de libro de Causis quod prima rerum creatarum est esse, potest
+<lb ed="#L" n="22"/>intelligi secundum platonicos et secundum peripateticos.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

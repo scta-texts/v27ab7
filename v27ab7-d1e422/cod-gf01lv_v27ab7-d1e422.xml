@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="140"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e422"><!-- v27ab7-q2q9 -->
+            <head xml:id="v27ab7-d1e422-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-d1e422-Hd1e101" type="question-title">
+      Utrum voluntas vel intellectus sit excellentior potentia
+    </head>
+            <p xml:id="v27ab7-d1e422-d1e104">
+               <lb ed="#L" n="25"/>QUAESTIO IX.
+<lb ed="#L" n="26"/>Utrum voluntas vel intellectus sit. excellentior potentia.
+</p>
+            <p xml:id="v27ab7-d1e422-d1e111">
+               <lb ed="#L" n="27"/>Deinde circa secundum praedictorum, scilicet utrum voluntas vel
+<lb ed="#L" n="28"/>intellectus sit excellentior potentia sic procedebatur. Primo arguendo
+<lb ed="#L" n="29"/>scilicet quod intellectus sit excellentior quam voluntas, quia illa potentia
+<lb ed="#L" n="30"/>est excellentior in qua consistit principaliter beatitudo quae est hominis
+<pb ed="#L" n="141"/>
+               <lb ed="#L" n="1"/>summum bonum. Sed beatitudo consistit in actu intellectus non in
+<lb ed="#L" n="2"/>actu voluntatis secundum illud Iohannis , decimo septimo: haec est
+<lb ed="#L" n="3"/>vita aeterna ut cognoscant te unum Deum et quem misisti lesum
+<lb ed="#L" n="4"/>Christum. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e422-d1e133">
+               <lb ed="#L" n="5"/>Contra. Illa potentia est excellentior in qua est habitus sive virtus
+<lb ed="#L" n="6"/>excellentior. Sed voluntas est huiusmodi, quia in voluntate est caritas
+<lb ed="#L" n="7"/>quae est excellentior quam sapientia quae est in intellectu. Nam ordines
+<lb ed="#L" n="8"/>angelorum distinguuntur et ordinantur secundum distinctionem et ordinem
+<lb ed="#L" n="9"/>donorum quibus perficiuntur et a quibus ! denominantur. Summus autem
+<lb ed="#L" n="10"/>ordo angelorum denominatur ab ardore caritatis non autem a limpiditate
+<lb ed="#L" n="11"/>contemplationis. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e422-d1e152">
+               <lb ed="#L" n="12"/>Praeterea, illa potentia est excellentior quae omnibus alüs imperat
+<lb ed="#L" n="13"/>et eas movet, ipsa autem a nullo movetur  nec aliqua potentia ei imperat,
+<lb ed="#L" n="14"/>quam quaecumque potentia quae ab alio movetur et ab alia imperatur.
+<lb ed="#L" n="15"/>Sed voluntas movet alias potentias et eis imperat, et a nullo movetur
+<lb ed="#L" n="16"/>sed se ipsam movet, alioquin periret liberum arbitrium; nec aliqua potentia
+<lb ed="#L" n="17"/>ei imperat quia ipsa sola habet dominium sui actus. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e422-d1e168">
+               <lb ed="#L" n="18"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="348"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f190"><!-- v27ab7-q4short-q19 -->
+            <head xml:id="v27ab7-d1f190-Hd1e99">Quaestio 19</head>
+            <head xml:id="v27ab7-d1f190-Hd1e101" type="question-title">
+      Utrum in solemni voto continentiae possit sic dispensari quod obligatus tali
+      voto possit per dispensationem contrahere matrimonium
+    </head>
+            <p xml:id="v27ab7-d1f190-d1e104">
+               <pb ed="#L" n="348"/>
+               <lb ed="#L" n="1"/>QUAESTIO XIX
+<lb ed="#L" n="2"/>(BREVIS)
+<lb ed="#L" n="3"/>Utrum religiosus qui vovit oboedire praelato teneatur contra praeceptum
+<lb ed="#L" n="4"/>praelati exire claustrum ad subveniendum necessitati parentum .
+</p>
+            <p xml:id="v27ab7-d1f190-d1e117">
+               <lb ed="#L" n="5"/>Ad tertium sic proceditur, et arguitur quod talis religiosus non teneatur exire
+<lb ed="#L" n="6"/>claustrum pro subventione patris contra praeceptum praelati. Quia nullus  debet
+<lb ed="#L" n="7"/>facere contra votum, cum réddere quod quis debet?, sit necessarium ad salutem.
+<lb ed="#L" n="8"/>Sed talis vovit oboedientiam praelato. Ergo non debet facere contra talem 
+oboedien<lb break="no" ed="#L" n="9"/>tiam exeundo claustrum contra praeceptum praelati.
+</p>
+            <p xml:id="v27ab7-d1f190-d1e130">
+               <lb ed="#L" n="10"/>Contra. Ad subveniendum patri tenetur ex praecepto divino. Sed ad oboedientiam
+<lb ed="#L" n="11"/>non tenetur nisi ex propria electione. Sed plus tenetur quilibet? ad illud ad quod
+<lb ed="#L" n="12"/>tenetur ex praecepto divino quam ad illud ad quod tenetur ex electione propria .
+<lb ed="#L" n="13"/>Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f190-d1e142">
+               <lb ed="#L" n="14"/>Respondeo dicendum quod religiosus contra praeceptum praelati tenetur exire
+<lb ed="#L" n="15"/>claustrum ad subveniendum patri si potest? exeundo subvenire, non tantum ut
+<lb ed="#L" n="16"/>subveniat sibi in extrema necessitate, sed ut etiam subveniat ei " secundum decentiam
+<lb ed="#L" n="17"/>status sui.
+</p>
+            <p xml:id="v27ab7-d1f190-d1e153">
+               <lb ed="#L" n="18"/>Et hoc ostenditur sic. Quia unusquisque magis tenetur ad ea ad quae obligatur
+<lb ed="#L" n="19"/>ex praecepto divino quam ad ea ad quae obligatur ex voto, quia votum non absolvit
+<lb ed="#L" n="20"/>hominem a praecepto, cum vota quae sunt de his quae? pertinent ad consilia, fiant
+<lb ed="#L" n="21"/>propter perfectiorem impletionem praeceptorum. Sed quilibet ex praecepto divino
+<lb ed="#L" n="22"/>tenetur subvenire patri non solum in extrema necessitate, sed etiam secundum
+<lb ed="#L" n="23"/>decentiam sui status citra extremam necessitatem. Ad oboediendum autem praelato
+<lb ed="#L" n="24"/>in observantiis religionis non tenetur nisi ex voto. Ergo et cetera. — Maior videtur
+<lb ed="#L" n="25"/>manifesta; minor probatur, quia quilibet magis tenetur patri ut est pater quam
+<lb ed="#L" n="26"/>teneatur alii extraneo ut est proximus. Sed quilibet ex praecepto divino tenetur
+<lb ed="#L" n="27"/>[subvenire] in extrema necessitate subvenire cuicumque extraneo ut est proximus .
+<lb ed="#L" n="28"/>Ergo patri cui tenetur plus, tenetur subvenire citra extremam necessitatem in eis
+<lb ed="#L" n="29"/>quae sunt necessaria ad decentiam " status sui ", ita quod sicut religiosus tenetur
+<lb ed="#L" n="30"/>subvenire cuicumque extraneo in extrema necessitate existenti etiam contra praeceptum
+<lb ed="#L" n="31"/>praelati, ita etiam !? tenetur subvenire patri citra necessitatem extremam modo xe
+<lb ed="#L" n="32"/>dicto contra praeceptum praelati n
+</p>
+            <p xml:id="v27ab7-d1f190-d1e188">
+               <lb ed="#L" n="33"/>Si dicatur contra hoc quod plus obligat votum quam praeceptum secundae
+<lb ed="#L" n="34"/>tabulae, cum votum pertineat ad primam tabulam sive ad praecepta primae tabulae, : .
+<pb ed="#L" n="349"/>
+               <lb ed="#L" n="1"/>dicendum ? quod votum non semper pertinet ' ad aliqua ? praecepta primae tabulae ,
+<lb ed="#L" n="2"/>sed pertinet ad praeceptum illud circa cuius materiam fit sicut votum castitatis
+<lb ed="#L" n="3"/>reducitur ratione naturae rei ad illud praeceptum: non moechaberis, | et ex tali
+<lb ed="#L" n="4"/>voto oportet illud perfectius observari. Alioquin si votum absolveret aliquem a
+<lb ed="#L" n="5"/>praecepto affirmativo secundae tabulae, ita posset absolvere a praecepto negativo,
+<lb ed="#L" n="6"/>et sic ratione voti liceret  alicui committere furtum propter praeceptum praelati
+<lb ed="#L" n="7"/>quod falsum est.
+</p>
+            <p xml:id="v27ab7-d1f190-d1e212">
+               <lb ed="#L" n="8"/>Nec valet etiam quod dicunt quidam quod scilicet necessitas ante ingressum
+<lb ed="#L" n="9"/>impedit ingressum ita quod propter eam tenetur homo dimittere vel differre ingressum,
+<lb ed="#L" n="10"/>sed dicunt quod postquam est professus, tunc propter subventionem patris 
+neces<lb break="no" ed="#L" n="11"/>sitatem habentis non tenetur intermittere observantias religionis quia mortuus est
+<lb ed="#L" n="12"/>mundo et ideo absolvitur ab isto vinculo. Hoc, inquam, non valet; quia sicut ministrare
+<lb ed="#L" n="13"/>necessaria patri impedit ingressum religionis quia hoc pertinet ad praeceptum
+<lb ed="#L" n="14"/>necessarium saluti, — ita? per eandem rationem impletio dicti praecepti absolvit
+<lb ed="#L" n="15"/>eum ab observantiüis religionis post professionem quantum " requirit necessitas
+<lb ed="#L" n="16"/>patris , quia nulla professio absolvit a praecepto .
+</p>
+            <p xml:id="v27ab7-d1f190-d1e234">
+               <lb ed="#L" n="17"/>Quod autem dicitur quod mortuus est mundo, intelligi debet? secundum quod
+<lb ed="#L" n="18"/>mundus sonat in vitium, quia debet esse mortuus concupiscentiae inordinatae rerum
+<lb ed="#L" n="19"/>mundanarum. Sed non est mortuus mundo rerum naturalium quin adhuc vivat in hoc
+<lb ed="#L" n="20"/>mundo vita naturali habens adhuc usum rerum temporalium et quin maneat obligatus
+<lb ed="#L" n="21"/>ad subveniendum patri in rebus temporalibus. Sed liberatur per mortem talem
+<lb ed="#L" n="22"/>spiritualem ab hoc quod est oboedire patri volenti eum impedire a profectu religionis
+<lb ed="#L" n="23"/>ex affectione carnali vel mundana.
+</p>
+            <p xml:id="v27ab7-d1f190-d1e252">
+               <lb ed="#L" n="24"/>Ad rationem in oppositum dicendum '" quod oboedire praelato in his quae sunt
+<lb ed="#L" n="25"/>ordinis et non sunt contra praecepta divina est  necessitatis, oboedire autem in "
+<lb ed="#L" n="26"/>his quae sunt contra praecepta divina !?? non est necessarium nec etiam ' licitum. Sic
+<lb ed="#L" n="27"/>autem est in proposito quia illud praeceptum praelati esset contra praeceptum divinum.
+<lb ed="#L" n="28"/>Hoc etiam confirmatur per illud  quod habetur zn decretis, distinctione trigesima ,
+<lb ed="#L" n="29"/>ubi dicitur quod si aliquis obtentu cultus divini non reddidit ! debitum servitium !
+<lb ed="#L" n="30"/>parentibus, anathema sit
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="341"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f140"><!-- v27ab7-q4short-q14 -->
+            <head xml:id="v27ab7-d1f140-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-d1f140-Hd1e101" type="question-title"/>
+            <p xml:id="v27ab7-d1f140-d1e103">
+               <lb ed="#L" n="15"/>QUAESTIO XIV
+<lb ed="#L" n="16"/>(BREVIS).
+<lb ed="#L" n="17"/>Utrum examinati et approbati a certis personis habentes ex privilegio potestatem
+<lb ed="#L" n="18"/>praedicandi post talem approbationem debeant ab ordinariis recipi ad 
+praedi<lb break="no" ed="#L" n="19"/>candum nisi doceant se sic examuinatos .
+</p>
+            <p xml:id="v27ab7-d1f140-d1e116">
+               <lb ed="#L" n="20"/>Ad secundum sic proceditur, et arguitur quod talis teneatur? docere de
+<lb ed="#L" n="21"/>approbatione sua. Quia dicitur Extra, de officio iudicis delegati Cum ?? in iure 
+<lb ed="#L" n="22"/>quod cum aliquis iudex mandat vel praecipit sacerdoti alicui quod denuntiet aliquem
+<lb ed="#L" n="23"/>excommunicatum, quod sacerdos non tenetur hoc facere nisi sibi constiterit !! de
+<lb ed="#L" n="24"/>mandato auctoritate cuius dicit se hoc '? mandare. Ergo similiter et !? in proposito.
+</p>
+            <p xml:id="v27ab7-d1f140-d1e129">
+               <lb ed="#L" n="25"/>Contra est consuetudo communis qua tales sine tali certificatione recipiuntur.
+</p>
+            <p xml:id="v27ab7-d1f140-d1e135">
+               <lb ed="#L" n="26"/>Respondeo dicendum quod talis sic recipiendus aut est persona nota et gravis,
+<lb ed="#L" n="27"/>et sic decet quod recipiatur sine tali certificatione et potest recipi exemplo papae
+<lb ed="#L" n="28"/>nonageszma septima ' distinctione, Nobilissimus . Sed non est de iure scripto, immo,
+<lb ed="#L" n="29"/>ut dicitur ibi, ille fuit receptus ex gratia sine litteris, et ideo non est trahendum
+<lb ed="#L" n="30"/>in consequentiam. Si autem sit incognitus !5, debet docere de eo quod asserit, sicut
+<lb ed="#L" n="31"/>patet quadragesima secunda distinctione, Quiescamus  ubi dicitur quod dicens se
+<pb ed="#L" n="342"/>
+               <lb ed="#L" n="1"/>sacerdotem esse, si non sit notus, quod debet de hoc inquiri, et capitulo Contra
+<lb ed="#L" n="2"/>morem  quod allegans' ex privilegiis sibi aliquid competere debet docere. de
+<lb ed="#L" n="3"/>privilegiis ?.
+</p>
+            <p xml:id="v27ab7-d1f140-d1e159">
+               <lb ed="#L" n="4"/>Et per hoc patet ad quaestionem et ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

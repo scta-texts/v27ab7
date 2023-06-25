@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="255"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e736"><!-- v27ab7-q4q6 -->
+            <head xml:id="v27ab7-d1e736-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1e736-Hd1e101" type="question-title">
+      Utrum posset extra mundum istum fieri altera terra eiusdem speciei cum terra huius mundi
+    </head>
+            <p xml:id="v27ab7-d1e736-d1e104">
+               <lb ed="#L" n="8"/>QUAESTIO VI
+<lb ed="#L" n="9"/>(LONGA)
+<lb ed="#L" n="10"/>Utrum posset. extra mundum istum fieri altera terra
+<lb ed="#L" n="11"/>eiusdem. speciei cum terra huius mundi.
+</p>
+            <p xml:id="v27ab7-d1e736-d1e115">
+               <lb ed="#L" n="12"/>Post hoc vero quaerebatur aliud. pertinens ad naturam terrae 
+specia<lb break="no" ed="#L" n="13"/>liter, scilicet utrum. posset extra mundum istum fieri alia terra eiusdem
+<lb ed="#L" n="14"/>speciei cum terra huius mundi. Et arguebatur quod non, quia illud ad
+<lb ed="#L" n="15"/>quod sequitur impossibile est impossibile esse. Sed ad aliam terram esse
+<lb ed="#L" n="16"/>sequitur impossibile. Nam posita alia terra eiusdem speciei cum ista,
+<lb ed="#L" n="17"/>cum unicuique corpori eiusdem speciei debeatur unus locus naturalis,
+<lb ed="#L" n="18"/>illa naturaliter moveretur ad terram istam sive ad centrum istius terrae.
+<lb ed="#L" n="19"/>Et cum etiam poneretur esse in alio centro, non posset moveri ad illud
+<lb ed="#L" n="20"/>nisi ab illo ascendendo ad circumferentiam. Hoc autem est impossibile.
+<lb ed="#L" n="21"/>Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e736-d1e139">
+               <lb ed="#L" n="22"/>Contra. Illud cuius potentia est infinita, ita potest facere plura sicut
+<lb ed="#L" n="23"/>unum. Sed Deus est huiusmodi. Ergo ita potest facere plures terras sicut
+<lb ed="#L" n="24"/>unam.
+</p>
+            <p xml:id="v27ab7-d1e736-d1e149">
+               <lb ed="#L" n="25"/>Respondeo dicendum quod Philosophus  ponit quod Deus nihil
+<lb ed="#L" n="26"/>potest agere nisi mediante motu caeli et per materiae transmutationem,
+<lb ed="#L" n="27"/>praesupponens semper in omni nova factione materiam transmutationis
+<lb ed="#L" n="28"/>subiecti. Et ideo impossibile est secundum eum materiam novam produci,
+<lb ed="#L" n="29"/>et ex consequenti alium mundum vel aliam terram in alio mundo,
+<lb ed="#L" n="30"/>quia mundus iste activam naturam et actualem et possibilem continet.
+<lb ed="#L" n="31"/>Sed cum Deus semper possit produeere novam materiam, sicut pro-
+<pb ed="#L" n="256"/>
+               <lb ed="#L" n="1"/>duxit lam, et ex illa aliud producere potest. Non ergo quia mundus
+<lb ed="#L" n="2"/>est ex tota sua materia, impeditur quin alius possit esse.
+</p>
+            <p xml:id="v27ab7-d1e736-d1e173">
+               <lb ed="#L" n="3"/>Item, cum terra non habeat moveri nec esse in loco vel extra locum
+<lb ed="#L" n="4"/>convenientem suae naturae | nis! ex habitudine ad caelum et ex
+<lb ed="#L" n="5"/>influentia elus, quia primus motus secundum eum est causa omnium
+<lb ed="#L" n="6"/>motuum naturalium, ergo cum illa terra nullam habitudinem haberet
+<lb ed="#L" n="7"/>ad hoc caelum, nec illud suo motu aliquid influeret in ipsa terra, cum
+<lb ed="#L" n="8"/>moveretur ad circumferentiam illus mundi, moveretur violenter non
+<lb ed="#L" n="9"/>naturaliter propter habitudinem aliquam ad terram istam, sicut terra
+<lb ed="#L" n="10"/>quae est in Isto mundo, cum est extra centrum et locum terrae istius,
+<lb ed="#L" n="11"/>movetur naturaliter ad locum terrae Istius, quia ex appropinquatione ad
+<lb ed="#L" n="12"/>centrum huius mundi nullam naturalitatem haberet, cum illam influentiam
+<lb ed="#L" n="13"/>haberet ab hoc caelo. Et ponitur exemplum de fluxu sanguinis in corpore
+<lb ed="#L" n="14"/>diversorum animalium. Nec etiam oporteret poni vacuum ; vacuum enim
+<lb ed="#L" n="15"/>est locus inanis, id est superficles corporis apta nata continere corpus,
+<lb ed="#L" n="16"/>non tamen continens. Sed si mundus alius esset, sic haberet locum suum
+<lb ed="#L" n="17"/>sicut Iste; nec esset vacuum inter istum et illum, quia nihil natum continere,
+<lb ed="#L" n="18"/>non tamen continens nisi imaginatum, sicut modo imaginamur extra
+<lb ed="#L" n="19"/>caelum vacuum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

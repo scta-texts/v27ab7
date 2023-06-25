@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="326"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f030"><!-- v27ab7-q4short-q3 -->
+            <head xml:id="v27ab7-d1f030-Hd1e99">Quaestio 3</head>
+            <head xml:id="v27ab7-d1f030-Hd1e101" type="question-title">
+      Utrum in gradibus essentialibus creaturarum habentibus essentialem ordinem
+      sit possibilis processus in infinitum
+    </head>
+            <p xml:id="v27ab7-d1f030-d1e104">
+               <lb ed="#L" n="7"/>QUAESTIO III
+<lb ed="#L" n="8"/>(BREVIS)
+<lb ed="#L" n="9"/>Utrum in gradibus essentialibus creaturarum habentibus essentialem ordinem
+<lb ed="#L" n="10"/>sit possibilis processus in infinitum .
+</p>
+            <p xml:id="v27ab7-d1f030-d1e115">
+               <lb ed="#L" n="11"/>Ad secundum sic proceditur, et arguitur quod in perfectionibus essentialibus et
+<lb ed="#L" n="12"/>specificis creaturarum sit processus in infinitum, quia processus in gradibus specificis
+<lb ed="#L" n="13"/>creaturarum est secundum imitationem divinam. Sed Deus non potest ita imitari ab
+<lb ed="#L" n="14"/>aliqua creatura quin adhuc perfectiore modo possit imitari et hoc in infinitum. Ergo
+<lb ed="#L" n="15"/>et cetera.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e128">
+               <lb ed="#L" n="16"/>Contra. Ubi est ordo per se et essentialis, ibi oportet dare primum et ultimum.
+<lb ed="#L" n="17"/>Sed in infinitum  non est dare primum et ultimum. Ergo in essentialiter ordinatis non
+<lb ed="#L" n="18"/>est processus in infinitum. Sed gradus specifici creaturarum sunt essentialiter ordinati
+<lb ed="#L" n="19"/>cum per se unus sit perfectior alio. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e140">
+               <lb ed="#L" n="20"/>Respondeo. Ad istam quaestionem primo est sciendum quod in eadem specie
+<lb ed="#L" n="21"/>non possunt accipi duo inaequalia per se et secundum essentialia speciei sive 
+pro<lb break="no" ed="#L" n="22"/>cedatur in eis in infinitum sive non, | sicut apparet manifeste in numeris quia omnes
+<lb ed="#L" n="23"/>binarii sunt aequales. In eis autem quae specie differunt non est dare duo aequalia
+<lb ed="#L" n="24"/>quia per se habent diversitatem formalem, sicut in numeris patet in quibus duo
+<lb ed="#L" n="25"/>numeri specie differentes non possunt esse aequales. Ponunt ergo quidam quod non
+<lb ed="#L" n="26"/>solum in individuis sed etiam in speciebus creaturarum sit processus in infinitum et
+<lb ed="#L" n="27"/>hoc ideo, quia in isto processu licet procedatur ab uno extremo finito scilicet a
+<lb ed="#L" n="28"/>creatura, tenditur tamen ad aliud extremum infinitum et in infinitum distans a qualibet
+<lb ed="#L" n="29"/>creatura et continens infinitos gradus perfectionis. Et ideo processus ad ipsum
+<lb ed="#L" n="30"/>potest? tendere in infinitum, nec poterit tantum processus  tendere quod immediate
+<lb ed="#L" n="31"/>pertingat ad ipsum quin adhuc sint infiniti gradus medii  possibiles. Licet autem
+<lb ed="#L" n="32"/>contra hanc positionem non intendam determinando aliquid dicere, tamen 
+proba<lb break="no" ed="#L" n="33"/>biliter coniecturando posset eius contrarium poni. Et hoc patet ex quattuor.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e173">
+               <lb ed="#L" n="34"/>Primo ex naturali rerum appetitu, unde  arguitur sic. Illud '? ad quod tendit
+<lb ed="#L" n="35"/>naturalis appetitus rerum sive universi oportet ponere, quia appetitus naturalis non
+<pb ed="#L" n="327"/>
+               <lb ed="#L" n="1"/>est frustra. Sed naturae appetitus magis tendit ad perfectissimum quam ad infimum.
+<lb ed="#L" n="2"/>Ergo si potest dari infimum in entibus, | multo  plus potest poni summum. Infimum
+<lb ed="#L" n="3"/>autem potest dari scilicet materia quae est pura potentia. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e189">
+               <lb ed="#L" n="4"/>Item natura non inchoat processum qui non possit perfici nec per consequens
+<lb ed="#L" n="5"/>inchoat processum in infinitum. Sed constat quod inchoat processum quo  tendit ad
+<lb ed="#L" n="6"/>perfectionem. Ergo talis processus non potest ire  in infinitum. Hoc etiam confirmatur
+<lb ed="#L" n="7"/>per Philosophum  qui vult quod processus in augmentum quia vadit ad formam et
+<lb ed="#L" n="8"/>ad actum, non vadit in infinitum ; e contra processus ad diminutionem quia vadit ad
+<lb ed="#L" n="9"/>potentiam sive ad actum permixtum potentiae, vadit in infinitum. Augustinus 
+<lb ed="#L" n="10"/>etiam dicit in principio de Vera Religione quod Deus  universitatem rerum inchoat,
+<lb ed="#L" n="11"/>continet et perficit. Sed illud  in quo est possibilis processus in infinitum  nunquam
+<lb ed="#L" n="12"/>perficitur. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e211">
+               <lb ed="#L" n="13"/>Secundo idem patet" ex limitatione creaturae, quia limitatio creaturae requirit
+<lb ed="#L" n="14"/>universitatem creaturarum non solum existentem sed etiam possibilem claudi sub
+<lb ed="#L" n="15"/>determinatis generibus. Sed in eis quae sic clauduntur non sunt possibiles infiniti
+<lb ed="#L" n="16"/>gradus. Ergo et cetera. Probatio maioris, quia Augustinus  dicit " quinto super
+<lb ed="#L" n="17"/>Genesim, vigesimo primo capitulo, quod secundum genera quae primum condidit,
+<lb ed="#L" n="18"/>nova eum multa facere quae tunc non fecit manifestum est, novum autem genus
+<lb ed="#L" n="19"/>instituere recte credi non potest. Et sic secundum eum non possunt esse plura genera
+<lb ed="#L" n="20"/>creaturarum quam sint. Minor etiam probatur, quia nullum genus claudit infinita
+<lb ed="#L" n="21"/>virtute quia hoc est solius Dei qui est extra genus. Sed genus quodlibet virtute
+<lb ed="#L" n="22"/>claudit differentias suas. Ergo nullius generis sunt infinitae differentiae, nec per 
+con<lb break="no" ed="#L" n="23"/>sequens infinitae species existentes vel possibiles. Et sic patet quod non potest esse
+<lb ed="#L" n="24"/>infinitas in '' illis quae continentur sub determinatis generibus. Item analogia rerum
+<lb ed="#L" n="25"/>requirit quod omnia genera entium habeant attributionem ad aliquod primum genus,
+<lb ed="#L" n="26"/>et omnia illius primi generis reducantur ad aliquod primum illius generis quod sit.
+<lb ed="#L" n="27"/>mensura omnium illius  generis non solum sicut mensura extra genus, sed sicut
+<lb ed="#L" n="28"/>mensura in genere. Sed in " infinitis non est dare primum. Ergo in rebus creatis vel
+<lb ed="#L" n="29"/>creabilibus quae habent esse in genere, non est processus in infinitum.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e250">
+               <lb ed="#L" n="30"/>Tertio idem patet éx ordine rerum ad invicem sic, quia processus rerum non
+<lb ed="#L" n="31"/>debet accipi procedendo ab infimo ad supremum quod est Deus, sed procedendo a
+<lb ed="#L" n="32"/>primo eate simplicissimo ad infimum. Et hoc " patet per rationem, quia processus
+<lb ed="#L" n="33"/>debet incipere in uno simplicissimo, non autem in eo quod habet multitudinem et
+<lb ed="#L" n="34"/>potentialitatem ; et per simile, quia processus numerorum non incipit in multitudine !
+<lb ed="#L" n="35"/>maxima tendendo postea ad unitatem, sed incipit ab unitate; et per multas 
+aucto<lb break="no" ed="#L" n="36"/>ritates Procli  qui vult in pluribus propositionibus quod omnis multitudo et ab uno
+<lb ed="#L" n="37"/>incipit et ad unum ?? reducitur. Sed talis processus non posset in | cipere in primo
+<pb ed="#L" n="328"/>
+               <lb ed="#L" n="1"/>quod est Deus nisi esset possibile dare aliquam creaturam se habentem immediate ad
+<lb ed="#L" n="2"/>Deum inter quam et Deum non possit dari medium, sicut numeri non inciperent ab
+<lb ed="#L" n="3"/>unitate nisi esset aliquis numerus ita immediate se habens ad unitatem quod non
+<lb ed="#L" n="4"/>posset dari alius medius. Ergo possibile est dare creaturam ita immediate se habentem
+<lb ed="#L" n="5"/>in nobilitate | ad Deum quod non possit dari aliam nobiliorem ! et immediatius se
+<lb ed="#L" n="6"/>habentem ?, ita quod iste ordo accipiatur non secundum produci in actu quia Deus
+<lb ed="#L" n="7"/>potest producere vilem prius tempore quam nobilem, sed secundum gradum nobilitatis.
+<lb ed="#L" n="8"/>Sed? non potest quacumque virtute fieri quod duae species sint aequalis nobilitatis.
+</p>
+            <p xml:id="v27ab7-d1f030-d1e289">
+               <lb ed="#L" n="9"/>Quarto idem patet ex distantia infinita Dei et creaturae sic, quia si talis processus
+<lb ed="#L" n="10"/>in infinitum est possibilis, sequitur quod tota universitas creaturae possibilis includat
+<lb ed="#L" n="11"/>infinitatem perfectionum realiter distinctarum , sicut e contrario ? Deus includit
+<lb ed="#L" n="12"/>perfectiones infinitas | unite. Et ex hoc potest formari talis maior. Si talis processus
+<lb ed="#L" n="13"/>in infinitum est" possibilis, universitas creaturae possibilis existens in mente divina
+<lb ed="#L" n="14"/>ut intellecta importat infinitatem perfectionum. Sed illud quod est tale videtur aliquo
+<lb ed="#L" n="15"/>modo adaequari  nec distare a Deo ? in infinitum. Ergo tota universalitas  creaturae
+<lb ed="#L" n="16"/>possibilis non distaret a Deo '"" in infinitum !! quod est inconveniens. Ergo et cetera.
+<lb ed="#L" n="17"/>Nec tamen ex his" sequitur potentiam Dei esse finitam vel exhaustam per suos
+<lb ed="#L" n="18"/>effectus, quia nunquam effectus adaequatur causae in agentibus aequivocis, sicut
+<lb ed="#L" n="19"/>patet quod calor ignis, dato quod non possit esse maior calor ? eo, non tamen potest
+<lb ed="#L" n="20"/>adaequari virtuti calefactivae solis. Non est etiam intelligendum infinitos vel diversos
+<lb ed="#L" n="21"/>gradus esse in Deo secundum rem vel etiam secundum rationem sumptam ex
+<lb ed="#L" n="22"/>parte Dei. Immo unaquaeque creatura imitatur totam essentiam !? Dei et diversae
+<lb ed="#L" n="23"/>creaturae imitantur eam diversimode secundum rem secundum quod diversae creaturae
+<lb ed="#L" n="24"/>secundum diversos gradus reales magis ac '" magis recedunt per compositionem et
+<lb ed="#L" n="25"/>potentialitatem a simplicitate divina ". Et ex  hoc consurgit distinctio secundum
+<lb ed="#L" n="26"/>rationem in Deo intellecto ' in habitudine ad diversas creaturas. Non oportet ergo
+<lb ed="#L" n="27"/>ponere in Deo infinitos gradus perfectionis modo quo imaginantur ponentes 
+pro<lb break="no" ed="#L" n="28"/>cessum creaturarum in infinitum. Sed sufficit ? ponere in Deo unam perfectionem
+<lb ed="#L" n="29"/>infinitam et simplicissimam a finitis creaturis diversimode imitabilem ?!,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

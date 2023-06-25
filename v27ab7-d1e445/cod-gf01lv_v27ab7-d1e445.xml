@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="149"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e445"><!-- v27ab7-q2q11 -->
+            <head xml:id="v27ab7-d1e445-Hd1e99">Quaestio 11</head>
+            <head xml:id="v27ab7-d1e445-Hd1e101" type="question-title">
+      Utrum possit haberi una virtus moralis perfecte absque hoc quod perfecte prudentia habeatur
+    </head>
+            <p xml:id="v27ab7-d1e445-d1e104">
+               <pb ed="#L" n="149"/>
+               <lb ed="#L" n="1"/>QUAESTIO XI.
+<lb ed="#L" n="2"/>Utrum possit haberi. una. virtus moralis perfecte absque
+<lb ed="#L" n="3"/>hoc quod perfecte prudentia. habeatur.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e115">
+               <lb ed="#L" n="4"/>Postea circa habitus animae in speciali quaerebantur quaedam
+<lb ed="#L" n="5"/>pertinentia ad habitus bonos, quaedam pertinentia ad habitus malos.
+<lb ed="#L" n="6"/>Circa primum quaerebatur unum, utrum possit haberi una virtus moralis
+<lb ed="#L" n="7"/>perfecte absque hoc quod perfecte prudentia habeatur. Et arguebatur
+<lb ed="#L" n="8"/>quod una virtus moralis perfecte possit haberi absque hoc quod habeatur P
+<lb ed="#L" n="9"/>pru | dentia simpliciter et perfecte, quia habens habitum intellectualem Ans
+<lb ed="#L" n="10"/>quo sufficienter possit ratiocinari et iudicare de his quae pertinent ad
+<lb ed="#L" n="11"/>aliquem habitum unum alicuius virtutis moralis et ad operationes illius,
+<lb ed="#L" n="12"/>absque hoc quod habeat potestatem ratiocinandi de his quae pertinent
+<lb ed="#L" n="13"/>ad alium habitum moralem, non habet prudentiam simpliciter et perfecte,
+<lb ed="#L" n="14"/>scilicet quoad facultatem ratiocinandi et iudicandi non de omnibus
+<lb ed="#L" n="15"/>agibilibus humanis, sed tantum de aliquibus. Sed sapiens habet 
+pruden<lb break="no" ed="#L" n="16"/>tiam tantum quodammodo, scilicet quantum ad aliqua agibilia specialiter ;
+<lb ed="#L" n="17"/>ut patet per Philosophum , sexto Ethicorum, dicentem quod prudentis
+<lb ed="#L" n="18"/>est posse bene consiliari circa bona conferentia non secundum partem,
+<lb ed="#L" n="19"/>sed ad bene vivere totum. Et tamen talis habet perfecte unam virtutem
+<lb ed="#L" n="20"/>moralem, sicut etiam habens perfecte ! prudentiam habet omnes. Quare
+<lb ed="#L" n="21"/>et cetera.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e157">
+               <lb ed="#L" n="22"/>Contrarium vult Philosophus , sexto Ethicorum.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e163">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod ?, secundum quod docet? Philosophus ,
+<lb ed="#L" n="24"/>sexto Ethicorum, oportet virtutes morales esse connexas cum prudentia
+<lb ed="#L" n="25"/>et inter se, aliter tamen et aliter. Quia unamquamque virtutem moralem
+<lb ed="#L" n="26"/>perse et directe oportet connecti cum prudentia et e converso, sed una
+<lb ed="#L" n="27"/>virtus non connectitur alii sic, sed quasi per accidens et indirecte.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e176">
+               <pb ed="#L" n="150"/>
+               <lb ed="#L" n="1"/>Nam virtutis moralis, ut dicit , est facere electionem rectam, cum
+<lb ed="#L" n="2"/>sit habitus electivus; ad rectam autem electionem requiritur inclinatio
+<lb ed="#L" n="3"/>in appetitu ad finem debitum, et in intellectu recta aestimatio de 
+huius<lb break="no" ed="#L" n="4"/>modi fine debito, quam quidem inclinationem in appetitu facit habitus
+<lb ed="#L" n="5"/>moralis formaliter et quasi effective ut quoddam pondus in appetitu in
+<lb ed="#L" n="6"/>quo est! subiective et rectam huiusmodi aestimationem facit in intellectu
+<lb ed="#L" n="7"/>quasi obiective ; prout dicitur in  tertio Ethicorum  quod qualis
+<lb ed="#L" n="8"/>unusquisque est, talis etiam finis ei videtur, ut expositum est. Ad rectam
+<lb ed="#L" n="9"/>etiam electionem quae est eorum quae sunt ad finem huiusmodi, in
+<lb ed="#L" n="10"/>quantum inclinat virtus moralis dicto modo, requiritur recta ratio eorum
+<lb ed="#L" n="11"/>quae sunt expedientia ad finem. Horum autem est prudentia quae est
+<lb ed="#L" n="12"/>consiliativa et investigativa sive adinventiva talium expedientium. Et sic
+<lb ed="#L" n="13"/>patet quod ad virtutem moralem per se et directe requiritur prudentia,
+<lb ed="#L" n="14"/>in quantum virtus moralis sive habens virtutem moralem per ipsam non?
+<lb ed="#L" n="15"/>potest consequi finem in quantum inclinat, sine notitia eorum quae ad
+<lb ed="#L" n="16"/>ipsam tanquam expedientia ordinantur. — Consimiliter prudentia per se
+<lb ed="#L" n="17"/>et directe exigit virtutem moralem, in quantum non potest haberi recta
+<lb ed="#L" n="18"/>ratio vel cognitio aliquorum agibilium ordinabilium ad finis alicuius 
+conse<lb break="no" ed="#L" n="19"/>cutionem, nisi habeatur recta aestimatio et cognitio de ipso fine, quia
+<lb ed="#L" n="20"/>huiusmodi recta aestimatio est principium supponendum ad cognitionem
+<lb ed="#L" n="21"/>aliorum. Hanc autem rectam aestimationem de fine facit virtus moralis
+<lb ed="#L" n="22"/>modo praedicto, in quantum secundum inclinationem appetitus in aliquid
+<lb ed="#L" n="23"/>sibi conveniens et conforme secundum habitum est aestimatio in ipso
+<lb ed="#L" n="24"/>intellectu de illo sub ratione convenientis, ut dictum est. His ergo visis
+<lb ed="#L" n="25"/>patet primum, scilicet quod virtutes morales connectuntur prudentiae directe,
+<lb ed="#L" n="26"/>et e converso.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e237">
+               <lb ed="#L" n="27"/>Nunc ergo procedatur ad secundum, ad ostendendum scilicet quod
+<lb ed="#L" n="28"/>virtutes morales connectuntur sibi invicem, sed indirecte. Est ergo
+<lb ed="#L" n="29"/>intelligendum ulterius , quod licet virtutes morales ab invicem specie
+<lb ed="#L" n="30"/>differant, tamen una sine alia haberi non potest, nec etiam una potest
+<lb ed="#L" n="31"/>perfecte haberi nisi prudentia etiam perfecte habeatur. Unde dicit
+<lb ed="#L" n="32"/>Philosophus , sexto Ethicorum, quod neque contingit bonum esse
+<pb ed="#L" n="151"/>
+               <lb ed="#L" n="1"/>sine prudentia nec prudentem sine morali virtute. Sed de virtute
+<lb ed="#L" n="2"/>distinguitur secundum Philosophum in fine sexti (lI) Ethicorum, quod
+<lb ed="#L" n="3"/>virtus moralis potest dici quaedam perfecta, quaedam imperfecta. 
+Imper<lb break="no" ed="#L" n="4"/>fecta quidem secundum quam appetitus inclinatur ad aliquod opus de
+<lb ed="#L" n="5"/>genere bonorum faciendum, non tamen omnino perfecte, immobiliter
+<lb ed="#L" n="6"/>scilicet et delectabiliter, sive talis virtus insit a natura, sive ab aliqua
+<lb ed="#L" n="7"/>consuetudine secundum quam quidem, ut dicitur ibi, | non dicitur
+<lb ed="#L" n="8"/>quis principaliter sive simpliciter bonus, sed bene natus vel aptus ad
+<lb ed="#L" n="9"/>bonum. Perfecta autem virtus dicitur secundum quam ap | petitus
+<lb ed="#L" n="10"/>inclinatur perfecte, scilicet impermutabiliter et delectabiliter ad id quod
+<lb ed="#L" n="11"/>est conveniens secundum rationem.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e279">
+               <lb ed="#L" n="12"/>Primo modo loquendo de virtutibus sic, prout ibi dicit Philosophus,
+<lb ed="#L" n="13"/>non est necesse virtutes esse connexas inter se nec etiam in prudentia
+<lb ed="#L" n="14"/>perfecta . Potest enim aliquis ex naturali dispositione quodammodo
+<lb ed="#L" n="15"/>promptus esse ad opera liberalitatis, qui tamen non est promptus  ad
+<lb ed="#L" n="16"/>opera castitatis. Et sic, ut dicit? Commentator , contingit etiam 
+virtu<lb break="no" ed="#L" n="17"/>tem ad quam sic est aliquis aptus possidere ex aliqua assuefactione
+<lb ed="#L" n="18"/>ante alteram ad quam non est aptus. Sed talis non est principaliter sive
+<lb ed="#L" n="19"/>perfecte liberalis, sed bene natus sive dispositus vel aptus ad virtutem,
+<lb ed="#L" n="20"/>ut dicit ibi Commentator.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e301">
+               <lb ed="#L" n="21"/>Sed loquendo de virtutibus secundo modo, oportet eas esse connexas
+<lb ed="#L" n="22"/>inter se indirecte  sic. Quoniam cum huiusmodi virtutes sint in appetitu
+<lb ed="#L" n="23"/>facientes rectam eius inclinationem, cum secundum diversas appetitus
+<lb ed="#L" n="24"/>dispositiones sint in ipso diversae inclinationes quarum una alterius
+<lb ed="#L" n="25"/>est impeditiva vel coadiuvativa, — utpote secundum quod aliquis est affectus
+<lb ed="#L" n="26"/>ad opera castitatis sive secundum dispositionem qua ? convenientia sunt
+<lb ed="#L" n="27"/>et sibl conformia huiusmodi, secundum hoc in illa inclinatur ; secundum
+<lb ed="#L" n="28"/>autem quod est affectus vel dispositus secundum appetitum ad opera
+<lb ed="#L" n="29"/>illiberalitatis, inclinatur ad illa, — nunc autem quamvis unusquisque habitus
+<pb ed="#L" n="152"/>
+               <lb ed="#L" n="1"/>inclinet cum delectatione ad opera sibi conformia, si secundum se
+<lb ed="#L" n="2"/>consideretur et non sit in appetitu dispositio faciens inclinationem
+<lb ed="#L" n="3"/>ad aliquid impedientem huiusmodi inclinationem et ab ea retrahentem,
+<lb ed="#L" n="4"/>cum occurret illud, — iam non cum delectatione et immobilitate inclinabit
+<lb ed="#L" n="5"/>habitus virtutis, quantum ad illud secundum quod potest :dici virtus
+<lb ed="#L" n="6"/>dicto modo, in illud ', sed cum quadam tristitia. Et poterit ita vehemens
+<lb ed="#L" n="7"/>esse inclinatio in illud quod etiam aget contra inclinationem habitus
+<lb ed="#L" n="8"/>boni, eo quod semper sumus domini actuum, licet non habituum. Et sic
+<lb ed="#L" n="9"/>illud  habitus boni quod sic habetur sine alio sed cum alio forte vitio
+<lb ed="#L" n="10"/>vel cum inclinatione etiam naturali ad aliud, non per modum virtutis
+<lb ed="#L" n="11"/>perfectae inclinat ad opus bonum. Esto etiam quod persisteret  non
+<lb ed="#L" n="12"/>committendo malum ille qui habet habitum inclinantem ad malum, et
+<lb ed="#L" n="13"/>etiam paulative illud habitus boni quod erat corrumpitur.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e353">
+               <lb ed="#L" n="14"/>Quare licet, ut dictum est, quilibet habitus bonus virtutis sic afficit et
+<lb ed="#L" n="15"/>disponit appetitum respectu finis convenientis quod ipsum inclinat per se
+<lb ed="#L" n="16"/>delectabiliter et immobiliter secundum se consideratus in finem suum et in
+<lb ed="#L" n="17"/>ea quae ad illam  expediunt, et abhorreat directe contraria vel repugnantia,
+<lb ed="#L" n="18"/>per accidens tamen et indirecte, quia  est secundum aliam dispositionem
+<lb ed="#L" n="19"/>conformis et inclinatus in aliquid aliud, non directe contrarium fini
+<lb ed="#L" n="20"/>habitus boni sed disparatum, a quo non directe retrahit huiusmodi
+<lb ed="#L" n="21"/>habitus bonus ", sed alius quo caret secundum dispositionem , — ne 
+appe<lb break="no" ed="#L" n="22"/>titus impediatur a consecutione sui finis et ab immobilitate suae 
+inclina<lb break="no" ed="#L" n="23"/>tionis, indiget adiuvari ab habitu virtuoso contrario huic dispositioni
+<lb ed="#L" n="24"/>inclinanti appetitum inclinatione impediente inclinationem secundum
+<lb ed="#L" n="25"/>habitum virtuosum. Nam si aliquis habeat huiusmodi virtutem imperfectam,
+<lb ed="#L" n="26"/>scilicet naturalem inclinationem vel aliquam dispositionem ex 
+assue<lb break="no" ed="#L" n="27"/>factione acquisitam ad opera castitatis, et non habeat dispositionem
+<lb ed="#L" n="28"/>secundum quam inclinetur ad opera liberalitatis, immo magis contrariam,
+<lb ed="#L" n="29"/>cum ? occurret aliquid ayendum secundum castitatem, si offeratur magnum
+<lb ed="#L" n="30"/>lucrum ad quod inclinatur talis secundum habitum cupiditatis vel 
+illi<lb break="no" ed="#L" n="31"/>beralitatis, — in illud ita inclinabitur quod oportet impediri inclinationem
+<lb ed="#L" n="32"/>in opus castitatis, ita quod ad minus, etiam si persistat ne committat
+<lb ed="#L" n="33"/>actum inordinatum contra castitatem, tamen non delectabiliter, sed cum
+<lb ed="#L" n="34"/>tristitia et difficultate omittet, quod est contra rationem perfectam habitus
+<lb ed="#L" n="35"/>vel virtutis [et] | aut etiam non immobiliter stabit, sed cadet et cetera.
+<lb ed="#L" n="36"/>Et ideo quaelibet virtus moralis perfecta aliam coexigit dicto modo, et
+<pb ed="#L" n="153"/>
+               <lb ed="#L" n="1"/>etiam secundum hoc eodem modo quaelibet virtus moralis exigit?
+<lb ed="#L" n="2"/>prudentiam perfectam. Nam per se et directe exigit prudentiam directivam
+<lb ed="#L" n="3"/>in eis quae pertinent ad propriam materiam huiusmodi virtutis, per
+<lb ed="#L" n="4"/>accidens autem et indirecte ? indiget ea in quantum dirigit circa 
+mate<lb break="no" ed="#L" n="5"/>ram aliarum virtutum. Nam cum alis virtutibus indigeat quae non
+<lb ed="#L" n="6"/>possunt esse sine prudentia quantum ad id quod est eis proprium, ideo
+<lb ed="#L" n="7"/>etiam et prudentia indiget etiam secundum quod est directiva in his
+<lb ed="#L" n="8"/>quae sunt propria aliarum virtutum.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e426">
+               <lb ed="#L" n="9"/>Sic ergo patet quod virtus moralis perfecte haberi non potest nisi
+<lb ed="#L" n="10"/>perfecte ,prudentia habeatur.
+</p>
+            <p xml:id="v27ab7-d1e445-d1e433">
+               <lb ed="#L" n="11"/>Patet etiam quod prudentia perfecte haberi non potest nisi virtutes
+<lb ed="#L" n="12"/>omnes habeantur, quoniam ipsa est recta ratio agibilium humanorum in
+<lb ed="#L" n="13"/>communi, haec autem sunt secundum omnes virtutes. Sicut enim in 
+natu<lb break="no" ed="#L" n="14"/>ralibus omnes moventes secundum omnes motus eorum aliquid unum
+<lb ed="#L" n="15"/>intendunt, scilicet motum primi motoris, et motus orbium inferiorum motum
+<lb ed="#L" n="16"/>primi orbis qui est a primo motore, et sunt propter illum primum motum,
+<lb ed="#L" n="17"/>et dispositio illorum licet secundum se sit differens tamen consistit in
+<lb ed="#L" n="18"/>adiuvando se adinvicem et conservando sicut est dispositio bonorum
+<lb ed="#L" n="19"/>regentium et cetera, — ita in politicis debet esse ordo omnium operationum
+<lb ed="#L" n="20"/>secundum omnes virtutes et ipsarum virtutum inter se, in iuvando scilicet
+<lb ed="#L" n="21"/>se mutuo et conservando, et hoc respectu alicuius operationis ultimae et
+<lb ed="#L" n="22"/>perfectae quae est finis aliarum. Et est operatio huiusmodi propria
+<lb ed="#L" n="23"/>operatio prudentiae, in qua consistit felicitas politica, ut dicitur primo 
+<lb ed="#L" n="24"/>Ethicorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

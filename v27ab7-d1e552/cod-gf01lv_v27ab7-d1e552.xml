@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="212"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e552"><!-- v27ab7-q3q6 -->
+            <head xml:id="v27ab7-d1e552-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1e552-Hd1e101" type="question-title">
+      Utrum dicere quod corpus Christi non potuit comburi sit inconveniens secundum fidem
+    </head>
+            <p xml:id="v27ab7-d1e552-d1e104">
+               <lb ed="#L" n="24"/>QUAESTIO VI
+<lb ed="#L" n="25"/>(LONGA).
+<lb ed="#L" n="26"/>Utrum dicere quod corpus Christi non potuit comburi
+<lb ed="#L" n="27"/>sil inconveniens secundum fidem.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e115">
+               <lb ed="#L" n="28"/>Postea ad secundum praedictorum sic proceditur, et arguitur quod
+<lb ed="#L" n="29"/>dicere quod corpus Christi non potuit comburi sit inconveniens 
+secun<lb break="no" ed="#L" n="30"/>dum fidem, quia cum Christus fuerit homo univoce cum aliis hominibus
+<lb ed="#L" n="31"/>et habuerit corpus eiusdem rationis cum corporibus aliorum hominum,
+<lb ed="#L" n="32"/>dicere quod corpori suo non potuit convenire id quod corporibus
+<lb ed="#L" n="33"/>aliorum hominum naturaliter poterat convenire est inconveniens 
+secun<lb break="no" ed="#L" n="34"/>dum fidem. Sed cum corpus mixtum, quale fuit corpus Christi et
+<lb ed="#L" n="35"/>cuiuslibet hominis, sit naturaliter combustibile, dicere quod corpus
+<lb ed="#L" n="36"/>Christi non potuit comburi est dicere quod non fuit mixtum, nec fuit
+<lb ed="#L" n="37"/>eiusdem rationis et speciei cum corporibus aliorum hominum.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e139">
+               <lb ed="#L" n="38"/>Contra. Si corpus Christi potuit comburi, ponatur inesse va
+<lb ed="#L" n="39"/>forma. Sed hoc posito sequitur inconveniens secundum fidem. Ergo et
+<lb ed="#L" n="40"/>primum videtur inconveniens. Assumpta probatur: nam si corpus Christi
+<lb ed="#L" n="41"/>fuerit combustum et sic totaliter secundum esse formale transmutatum
+<lb ed="#L" n="42"/>vel in ignem vel in cineres vel in quodcumque aliud, constat quod in
+<lb ed="#L" n="43"/>matera corporis Christi non esset forma quae prius erat, sed esset
+<lb ed="#L" n="44"/>forma omnino nova, et illa, sicut prius dictum est, de novo esset supposito
+<lb ed="#L" n="45"/>divino unita. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e160">
+               <lb ed="#L" n="46"/>Dicendum, ut dictum est: Christus assumpsit naturam humanam
+<lb ed="#L" n="47"/>passibilem et corruptibilem, praedicta duplici corruptione, et cun: habuerit
+<lb ed="#L" n="48"/>materiam unigeneam cum materia corruptibili aliorum hominum, potuit
+<lb ed="#L" n="49"/>corrumpi omni modo corruptionis quo alii homines corrumpi possunt, et
+<lb ed="#L" n="50"/>eius materia informari qualibet forma materiali qua potest materia
+<lb ed="#L" n="51"/>aliorum hominum informari, si secundum se et absolute ut natura
+<lb ed="#L" n="52"/>humana etiam unione non obstante consideretur. Nam ponitur quod
+<lb ed="#L" n="53"/>forma quae in corpore Christi fuit anima separata, sive fuerit eadem
+<lb ed="#L" n="54"/>quae prius sive alia, sibi sive suae naturae derelicta per putrefactionem
+<lb ed="#L" n="55"/>et incinerationem corrupta fuisset, sicut contingit in corporibus aliorum
+<lb ed="#L" n="56"/>hominum, ut dicebat respondens et bene. Et quia tales quaestiones plus
+<pb ed="#L" n="213"/>
+               <lb ed="#L" n="1"/>habent curiositatis quam devotionis, potius esset haec benedicta natura
+<lb ed="#L" n="2"/>devote adoranda quam discussione talium quaestionum curiose 
+per<lb break="no" ed="#L" n="3"/>tractanda.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e195">
+               <lb ed="#L" n="4"/>Unde quod conservabatur ab omnimoda putrefactione etiam inchoata,
+<lb ed="#L" n="5"/>hoc fuit virtute supernaturali et miraculose. Unde etiam secundum
+<lb ed="#L" n="6"/>Augustinum , secundo libro de Baptismo parvulorum, si huiusmodi
+<lb ed="#L" n="7"/>morte violenta mortuus non fuisset, tamen senescendo naturaliter 
+defe<lb break="no" ed="#L" n="8"/>cisset, et hoc actione calidi radicale humidum consumentis. Cum autem
+<lb ed="#L" n="9"/>corpus mortuum ulterius naturaliter est resolubile in cineres vel elementa
+<lb ed="#L" n="10"/>actione agentium exteriorum et interiorum, sic etiam fuisset naturaliter
+<lb ed="#L" n="11"/>ulterius in cineres et elementa resolutum.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e215">
+               <lb ed="#L" n="12"/>Item, quia similitudo carnis peccati erat in eo, mutationes aetatum
+<lb ed="#L" n="13"/>perpeti voluit ab ipsa exorsus infantia, ut ad mortem etiam videatur
+<lb ed="#L" n="14"/>senescente illo caro pervenire potuisse, nisi iuvenis fuisset occisus . Cum
+<lb ed="#L" n="15"/>ergo agens approximatum patienti agit in illud nisi impediatur, ignis
+<lb ed="#L" n="16"/>qui maxime activus est, si fuisset approximatus corpori Christi sicut
+<lb ed="#L" n="17"/>contingit alteri corpori, illud combussisset si virtute supernaturali et
+<lb ed="#L" n="18"/>miraculose prohibitus | non fuisset agere, aut ipsum corpus virtute
+<lb ed="#L" n="19"/>supernaturali praeservatum non fuisset ne laederetur ab igne, prout de
+<lb ed="#L" n="20"/>tribus pueris in camino ignis conti[n eit '.
+</p>
+            <p xml:id="v27ab7-d1e552-d1e237">
+               <lb ed="#L" n="21"/>Cum igitur ponatur in forma quaestionis quod supposito quod
+<lb ed="#L" n="22"/>natura humana in Christo sibi sic relinqueretur quod nullum miraculum
+<lb ed="#L" n="23"/>vel opus supernaturale fieret circa ipsam, utrum inconveniens esset dicere
+<lb ed="#L" n="24"/>quod corpus eius ab igne non potuit comburi, dicendum quod sic,
+<lb ed="#L" n="25"/>ratione jam dicta. Et ex hoc planum est quod absolute loquendo non
+<lb ed="#L" n="26"/>est inconveniens nec contra fidem dicere quod in materia corporis
+<lb ed="#L" n="27"/>Christi potuit introduci aliqua forma substantialis nova, quae non erat
+<lb ed="#L" n="28"/>in ipso cum vivebat. Immo contrarium dicere esset haereticum, quia
+<lb ed="#L" n="29"/>hoc esset dicere Christum non fuisse eiusdem naturae cum aliis 
+homi<lb break="no" ed="#L" n="30"/>nibus. Nam si sibi derelicta fuisset huiusmodi natura ut dictum est,
+<lb ed="#L" n="31"/>senio defecisset etiam si prius non fuisset mortuus dicto modo, et tunc
+<lb ed="#L" n="32"/>ulterius ex corpore eius vermes generari potuissent, vel etiam forma
+<pb ed="#L" n="214"/>
+               <lb ed="#L" n="1"/>pulveris et cineris vel ignis et huiusmodi, si combustum fuisset. Nec
+<lb ed="#L" n="2"/>tamen ex hoc sequeretur quod nova facta fuisset unio vel assumptio
+<lb ed="#L" n="3"/>nisi modo supra dicto  qui non fuisset inconveniens. Sed si consideretur
+<lb ed="#L" n="4"/>huiusmodi natura, ut ad opus salutis et redemptionis nostrae divina
+<lb ed="#L" n="5"/>dispositione ordinata, sic scilicet quod corpus eius in animae separatione
+<lb ed="#L" n="6"/>ab ulteriore corruptione divina virtute praeservaretur, quod etiam 
+prae<lb break="no" ed="#L" n="7"/>dictum fuit per David  prophetam in psalmo : non dabis sanctum tuum
+<lb ed="#L" n="8"/>videre corruptionem, — sic dicendum! quod non potuit comburi; sicut
+<lb ed="#L" n="9"/>etiam dicitur quod illud quod est a Deo praevisum et per prophetas
+<lb ed="#L" n="10"/>praedictum secundum se consideratum non est necessarium et potest non
+<lb ed="#L" n="11"/>evenire, non tamen secundum quod praevisum est a Deo vel praedictum
+<lb ed="#L" n="12"/>a prophetis. Per hoc patet responsio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

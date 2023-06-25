@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="278"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e825"><!-- v27ab7-q4q14 -->
+            <head xml:id="v27ab7-d1e825-Hd1e99">Quaestio 14</head>
+            <head xml:id="v27ab7-d1e825-Hd1e101" type="question-title">
+      Utrum illi qui examinati et electi a certis personis 
+      habeant potestatem praedicandi ex privilegio vel delegatione, 
+      debeant recipi ad praedicandum in locis praelatorum ordinariorum
+    </head>
+            <p xml:id="v27ab7-d1e825-d1e104">
+               <lb ed="#L" n="6"/>QUAESTIO XIV
+<lb ed="#L" n="7"/>(LONGA).
+<lb ed="#L" n="8"/>Utrum illi qui examinati. et. electi a. certis personis. habeant
+<lb ed="#L" n="9"/>potestatem. praedicandi ex privilegio vel delegatione, debeant
+<lb ed="#L" n="10"/>recibi ad praedicandum in locis praelatorum. ordinariorum.
+</p>
+            <p xml:id="v27ab7-d1e825-d1e117">
+               <lb ed="#L" n="11"/>Postea vero quaerebatur aliud pertinens ad praedicatores, scilicet
+<lb ed="#L" n="12"/>utrum illi qui examinati et electi a certis personis habeant potestatem
+<lb ed="#L" n="13"/>praedicandi ex privilegio vel delegatione, debeant recipi ad praedicandum
+<lb ed="#L" n="14"/>in locis praelatorum ordinariorum, nisi doceant sic se examinatos esse
+<lb ed="#L" n="15"/>et electos et missos. Et videtur quod non, quia dicitur Extra , de
+<lb ed="#L" n="16"/>officio iudicis delegati, capitulo Cum in iure, quod cum aliquis iudex
+<lb ed="#L" n="17"/>mandat vel praecipit alicui sacerdoti quod denuntiet aliquem. 
+excom<lb break="no" ed="#L" n="18"/>municatum, quod sacerdos non tenetur hoc facere, nisi constiterit ei de
+<lb ed="#L" n="19"/>mandato et auctoritate culus dicit se hoc mandare. Ergo similiter in
+<lb ed="#L" n="20"/>proposito.
+</p>
+            <p xml:id="v27ab7-d1e825-d1e141">
+               <lb ed="#L" n="21"/>In contrarium est consuetudo ; nam tales absque tali certificatione
+<lb ed="#L" n="22"/>recipi consueverunt et cetera.
+</p>
+            <p xml:id="v27ab7-d1e825-d1e149">
+               <lb ed="#L" n="23"/>Respondeo dicendum quod qui dicit se missum, aut est incognitus,
+<lb ed="#L" n="24"/>et tunc scrutandum est sive examinandum an ita sit ut habetur 
+quadra<lb break="no" ed="#L" n="25"/>gesima secunda, distinctione secunda, capitulo Ouiescamus : si in clero
+<lb ed="#L" n="26"/>electum se esse dicat, si sacerdotem se nominat, scrutare ; circa maiora
+<lb ed="#L" n="27"/>periculum vertitur, et centesima distinctione, Contra morem , dicitur
+<lb ed="#L" n="28"/>quod allegans privilegio sibi aliquid competere, debet hoc ostendere ; —
+<lb ed="#L" n="29"/>aut ipse est persona nota tanquam gravis et honesta et ordinata [persona]
+<pb ed="#L" n="279"/>
+               <lb ed="#L" n="1"/>licet non constet de eius missione, et tunc decens et honestum est ut
+<lb ed="#L" n="2"/>admittatur exemplo papae quod est Nobilissimus . Sed de iure stricto
+<lb ed="#L" n="3"/>hoc non oportet. Papa enim illum de quo fit ibi mentio recepit sine
+<lb ed="#L" n="4"/>litteris ex gratia, ut patet ibi ; et hoc non oportet trahi ad consequentiam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

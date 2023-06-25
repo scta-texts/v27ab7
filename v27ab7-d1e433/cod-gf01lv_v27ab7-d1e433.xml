@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="141"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e433"><!-- v27ab7-q2q10 -->
+            <head xml:id="v27ab7-d1e433-Hd1e99">Quaestio 10</head>
+            <head xml:id="v27ab7-d1e433-Hd1e101" type="question-title">
+      Utrum caritas sive quicumque habitus possit augeri per essentiam
+    </head>
+            <p xml:id="v27ab7-d1e433-d1e104">
+               <lb ed="#L" n="19"/>QUAESTIO X.
+<lb ed="#L" n="20"/>Utrum caritas sive quicumque habitus possit augeri
+<lb ed="#L" n="21"/>per essentiam.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e113">
+               <lb ed="#L" n="22"/>Deinde circa animam quantum ad habitus perficientes eius potentias
+<lb ed="#L" n="23"/>quaerebantur quaedam pertinentia ad habitus animae in generali, et
+<lb ed="#L" n="24"/>primo quaerebatur unum scilicet utrum caritas sive quicumque habitus
+<lb ed="#L" n="25"/>possit augeri per essentiam. Et arguebatur quod caritas sive quicumque
+<lb ed="#L" n="26"/>habitus augeatur per essentiam, quia illud per? suam essentiam augetur
+<lb ed="#L" n="27"/>quod secundum se sive in se est magis vel minus, et non solum illud
+<lb ed="#L" n="28"/>in quo est dicitur secundum illud ? magis et minus. Sed? secundum
+<pb ed="#L" n="142"/>
+               <ref xml:id="v27ab7-d1e433-Rd1e132" target="http://scta.info/resource/iuy75t-d1e647-d1e340@2-21">Augustinum  super capitulo Iohannis</ref>: caritas meretur augeri ut
+<lb ed="#L" n="1"/>aucta mereatur perfici. Immo videtur quod secundum aliquem habitum
+<lb ed="#L" n="2"/>vel qualitatem non possit aliquod subiectum dici maius vel minus tale,
+<lb ed="#L" n="3"/>nisi ipsa secundum se habeat esse maius et minus, sicut nec secundum
+<lb ed="#L" n="4"/>ipsam est subiectum tale participazs ! nisi quia ipsa est talis per 
+essen<lb break="no" ed="#L" n="5"/>tiam. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e147">
+               <lb ed="#L" n="6"/>Contra. Illud cuius ratio et species consistit in indivisibili non
+<lb ed="#L" n="7"/>potest augeri per essentiam. Sed ratio speciei et essentiae uniuscuiusque
+<lb ed="#L" n="8"/>entis consistit in indivisibili Nam secundum Philosophum , octavo 
+<lb ed="#L" n="9"/>Metaphysicae, species et essentiae rerum numeris comparantur; ratio
+<lb ed="#L" n="10"/>autem cuiuslibet numeri consistit in unitate formali a qua si fiat diminutio
+<lb ed="#L" n="11"/>vel additio variatur essentia et species. Ergo similiter ratio et essentia
+<lb ed="#L" n="12"/>speciei uniuscuiusque habitus consistit in indivisibili , ita quod ipsa
+<lb ed="#L" n="13"/>manente eadem secundum essentiam non poterit diminui vel augeri.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e168">
+               <lb ed="#L" n="14"/>Respondeo dicendum quod sicut species cuiuslibet numeri consistit
+<lb ed="#L" n="15"/>in potentiali  multitudine, ut sex non est bis tres sed semel sex et
+<lb ed="#L" n="16"/>si magis vel minus ? accipiamus non habebimus speciem senarii, sic
+<lb ed="#L" n="17"/>essentia cuiuslibet formae quantum ad gradus essentiae est potentialis .
+<lb ed="#L" n="18"/>Et ideo si in forma secundum se accipiamus | magis et minus 
+varia<lb break="no" ed="#L" n="19"/>bimus speciem. Quia ergo quaelibet forma specifica est forma secundum
+<lb ed="#L" n="20"/>se una secundum aliquid fixum et stans et indivisibile, sortitur huiusmodi
+<lb ed="#L" n="21"/>unitatem specificam, et quaecumque ad illud ' attingunt sub illa specie
+<lb ed="#L" n="22"/>continentur. Quae autem recedunt ab illo vel in plus vel in minus ad
+<lb ed="#L" n="23"/>aliam speciem pertinent perfectiorem vel imperfectiorem. Et ideo nulla
+<lb ed="#L" n="24"/>forma specifica secundum se potest recipere magis et minus. — Sed
+<lb ed="#L" n="25"/>forma generis, quia non est una sic, ideo potest contingere circa ipsam
+<lb ed="#L" n="26"/>talis variatio. Intelligitur enim totus ordo entium fluere a primo ente.
+<lb ed="#L" n="27"/>Sicut totus ordo numerorum fluit ab unitate, propter quod non sunt nisi
+<lb ed="#L" n="28"/>duo numeri diversarum specierum aequaliter ab unitate et ab invicem
+<lb ed="#L" n="29"/>distantes, ita videtur quod non sint duae species in genere entium
+<lb ed="#L" n="30"/>aequaliter inter se et a primo secundum gradus perfectionis distantes.
+<pb ed="#L" n="143"/>
+               <lb ed="#L" n="1"/>Ordo ergo essentialis, qui! attenditur secundum gradus essentiales, per
+<lb ed="#L" n="2"/>se variat speciem, et non potest esse inter individua eiusdem speciei,
+<lb ed="#L" n="3"/>quia participant eandem essentiam in qua non est accipere gradus
+<lb ed="#L" n="4"/>secundum quos possit attendi huiusmodi ordo et magis et minus. Si
+<lb ed="#L" n="5"/>ergo sit ibi ordo et gradus secundum magis et minus, oportet quod hoc
+<lb ed="#L" n="6"/>sit per aliquod accidens et secundum diversam participationem eiusdem
+<lb ed="#L" n="7"/>formae secundum esse? specificum a subiecto. Si ergo colores essent
+<lb ed="#L" n="8"/>separati, esset unus perfectior alio, et esset ibi magis et minus perfectum,
+<lb ed="#L" n="9"/>quia color non est una forma, nec oportet quod quicquid est color
+<lb ed="#L" n="10"/>quod sit aeque perfectus secundum se. Sed si albedo esset separata,
+<lb ed="#L" n="11"/>dato quod essent plures albedines separatae, omnes essent aeque 
+per<lb break="no" ed="#L" n="12"/>fectae. Ouia cum forma specifica secundum se non possit habere
+<lb ed="#L" n="13"/>magis et minus, albedo separata non esset forma nisi secundum se, et
+<lb ed="#L" n="14"/>non diversimode participata a subiecto, et ideo et cetera.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e240">
+               <lb ed="#L" n="15"/>Nec huic est contrarium quod Philosophus videtur velle decimo
+<lb ed="#L" n="16"/>Ethicorum  quod sanitas separata etiam secundum se recipiat magis
+<lb ed="#L" n="17"/>vel minus, non solum ex diversa participatione subiecti. Quia forte
+<lb ed="#L" n="18"/>sanitas non dicit rem unius et eiusdem speciei; dicitur enim sanitas
+<lb ed="#L" n="19"/>non quaecumque humorum aequatio, sed aequatio humorum competens
+<lb ed="#L" n="20"/>tali speciei vel tali complexioni. Et ideo non est sanitas eiusdem speciei
+<lb ed="#L" n="21"/>in homine et leone, quia talis aequatio humorum in leone esset sanitas
+<lb ed="#L" n="22"/>quae? esset in homine aegritudo. Immo  forte in eadem specie animalis
+<lb ed="#L" n="23"/>variatur sanitas secundum speciem ; nam forte aequatio humorum quae ?
+<lb ed="#L" n="24"/>in cholerico esset sanitas, in phlegmatico esset infirmitas. Quia ergo
+<lb ed="#L" n="25"/>sanitas non dicit formam et essentiam unius speciei, ideo etiam secundum
+<lb ed="#L" n="26"/>se sive separata dicitur una esse perfectior vel maior alia.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e269">
+               <lb ed="#L" n="27"/>Si ergo recipiat forma eadem secundum speciem magis et minus,
+<lb ed="#L" n="28"/>hoc non potest contingere quia habet plures gradus essentiales. Immo
+<lb ed="#L" n="29"/>oportet quod hoc sit secundum aliquod accidens eius secundum gradus
+<lb ed="#L" n="30"/>virtuales eius. Alioquin albedines plures separatae dicerentur ? secundum
+<lb ed="#L" n="31"/>magis et minus, quod videtur inconveniens. Si ergo habeant gradus
+<lb ed="#L" n="32"/>aliquos virtuales quos non sic dicuntur habere formae substantiales quae
+<pb ed="#L" n="144"/>
+               <lb ed="#L" n="1"/>non recipiunt magis et minus, per hoc non videtur intelligi nisi quod
+<lb ed="#L" n="2"/>virtus et natura talium qualitatum hoc habet quod secundum diversos
+<lb ed="#L" n="3"/>gradus sive secundum magis et minus participari natae sunt a subiecto,
+<lb ed="#L" n="4"/>sive secundum magis et minus natum est subiectum perfici secundum
+<lb ed="#L" n="5"/>illas. Hoc autem est recipere magis et minus non secundum se, sed
+<lb ed="#L" n="6"/>secundum esse in subiecto, sive secundum participationem subiecti quod
+<lb ed="#L" n="7"/>sic contingere potest. Nam sicut virtus vel potentia se habet ad agere,
+<lb ed="#L" n="8"/>sic forma vel essentia se habet ad esse vel formaliter perficere. Sicut
+<lb ed="#L" n="9"/>ergo una et eadem virtus et potentia, si subiciatur ei aliquid magis
+<lb ed="#L" n="10"/>et minus passibile, magis et minus agit, ita quod intenditur et remittitur
+<lb ed="#L" n="11"/>actio alicuius agentis sive potentiae vel virtutis ex maiore et minore 
+dis<lb break="no" ed="#L" n="12"/>positione passivi, — ita una et eadem forma, prout suscipitur in subiecto
+<lb ed="#L" n="13"/>magis et minus disposito, dat ei magis et minus esse, sive magis et
+<lb ed="#L" n="14"/>minus perficit vel reducit z//ud ! ad actum secundum illam formam. Ut
+<lb ed="#L" n="15"/>quanto magis | subiectum disponitur ad susceptionem formae albi,
+<lb ed="#L" n="16"/>tanto plus participat de albedine, quia illa eadem albedo eiusdem
+<lb ed="#L" n="17"/>gradus essentialis quae subiecto indisposito daret esse remissum, subiecto
+<lb ed="#L" n="18"/>disposito et recedente a contrario dat esse intensum. Prout ergo formae
+<lb ed="#L" n="19"/>habent causari a diversis agentibus et inesse subiectis  secundum
+<lb ed="#L" n="20"/>diversas dispositiones, secundum hoc diversimode habent intendi et
+<lb ed="#L" n="21"/>remitti, ita tamen quod generaliter, si subiectum sit magis dispositum
+<lb ed="#L" n="22"/>ad susceptionem formae, plus participat de ea sive eam perfectius
+<lb ed="#L" n="23"/>participat, et habet eam perfectiorem et perfectius et imperfectiorem vel
+<lb ed="#L" n="24"/>imperfectius.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e339">
+               <lb ed="#L" n="25"/>Sed videtur quod isto modo magis et minus in forma non sit
+<lb ed="#L" n="26"/>ponere [non] secundum se, sed in eius participatione a subiecto 
+secun<lb break="no" ed="#L" n="27"/>dum maiorem et minorem dispositionem subiecti. Cum huiusmodi maior
+<lb ed="#L" n="28"/>et minor dispositio sit etiam quaedam forma accidentalis habens magis
+<lb ed="#L" n="29"/>et minus, et non est abire in infinitum, — unde magis et minus in illa
+<lb ed="#L" n="30"/>forma quae secundum magis et minus perficit subiectum est absque alia
+<lb ed="#L" n="31"/>dispositione, — potest dici quod aliquando forma aliqua recipit magis et
+<lb ed="#L" n="32"/>minus absque hoc quod dispositio subiecti recipiat magis et minus .
+</p>
+            <p xml:id="v27ab7-d1e433-d1e359">
+               <lb ed="#L" n="33"/>Erit tamen in uno subiecto maior dispositio ad huiusmodi formam
+<lb ed="#L" n="34"/>quam in alio, utpote si talis dispositio non innitatur uni formae sed
+<lb ed="#L" n="35"/>pluribus. Nam calidum stat cum humido et cum sicco, et tamen magis
+<lb ed="#L" n="36"/>propria materia calidi est siccum quam humidum. Unde eadem forma
+<lb ed="#L" n="37"/>caloris quae recepta est in materia sicca habebit esse intensum, recepta
+<pb ed="#L" n="145"/>
+               <lb ed="#L" n="1"/>in humida minus convenienti vel propria habebit esse minus intensum,
+<lb ed="#L" n="2"/>esto quod humidum et siccum non reciperet magis et minus. Secundum
+<lb ed="#L" n="3"/>aliquos etiam raritas et densitas contingit secundum magis et minus,
+<lb ed="#L" n="4"/>mediante multitudine et paucitate materiae et mediante quantitate 
+dimen<lb break="no" ed="#L" n="5"/>siva, ut quando tantum de materia est sub tantis dimensionibus, tantum
+<lb ed="#L" n="6"/>est rarum, quando sub maioribus, rarius. Et sic procedendo convenit
+<lb ed="#L" n="7"/>magis et minus in raro absque hoc quod in formis praecedentibus
+<lb ed="#L" n="8"/>raritatem ponatur intensio vel remissio proprie dicta; et hinc forte ex
+<lb ed="#L" n="9"/>intensione et remissione! rari et densi causabitur intensio et remissio
+<lb ed="#L" n="10"/>calidi et frigidi in elementis ut aliquid rarefiendo caleat, sicut  
+conden<lb break="no" ed="#L" n="11"/>sando frigescit. Ex intensione autem et remissione rari et densi et
+<lb ed="#L" n="12"/>primarum qualitatum elementarium potest salvari intensio et remissio
+<lb ed="#L" n="13"/>omnium aliarum qualitatum corporalium.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e403">
+               <lb ed="#L" n="14"/>In habitibus enim animae sic contingit. Nam cum habitus acquisiti
+<lb ed="#L" n="15"/>generantur ex actibus nostris, ipsorum autem actuum sumus domini
+<lb ed="#L" n="16"/>a principio usque in finem, ut dicitur tertio Ethicorum , et omnes
+<lb ed="#L" n="17"/>tales actus sunt voluntarii secundum quod magis et minus possumus
+<lb ed="#L" n="18"/>velle et maiore et minore conatu ferri in aliquid, magis et minus 
+genera<lb break="no" ed="#L" n="19"/>buntur, et generati augebuntur huiusmodi habitus in nobis, ut si tanti
+<lb ed="#L" n="20"/>actus  possint disponere potentiam et aggenerare in ea habitum, 
+perfec<lb break="no" ed="#L" n="21"/>tiores et magis continuati augmentabunt et perficient huiusmodi habitum
+<lb ed="#L" n="22"/>aggeneratum. Et sic contingit huiusmodi augmentum absque processu
+<lb ed="#L" n="23"/>in infinitum, quia intenditur? intensione et continuatione actuum, actus
+<lb ed="#L" n="24"/>autem intenduntur et continuantur per imperium voluntatis vel appetitus.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e430">
+               <lb ed="#L" n="25"/>In  infusis autem hoc etiam convenit suo modo, scilicet quod magis
+<lb ed="#L" n="26"/>datur gratia vel caritas secundum maiorem dispositionem de congruo,
+<lb ed="#L" n="27"/>et secundum ma | iorem conatum voluntatis et huiusmodi. Vel secundum
+<lb ed="#L" n="28"/>virtutem agentis etiam datur maior minus vel aequaliter disposito, prout
+<lb ed="#L" n="29"/>etiam calidum intensum vel infinitae virtutis, si ageret per liberam 
+volun<lb break="no" ed="#L" n="30"/>tatem, posset materiam minus dispositam magis reducere in actum 
+calidi<lb break="no" ed="#L" n="31"/>tatis et cetera, non tamen quin efficeret etiam dispositiones ad hoc, si
+<lb ed="#L" n="32"/>non praecederent, alioquin huiusmodi calidi | tas non maneret ut patet.
+<lb ed="#L" n="33"/>Caritate autem habita secundum quod per ac/us? perfectiores magis
+<pb ed="#L" n="146"/>
+               <lb ed="#L" n="1"/>disponitur suscipiens, sic etiam perfectius in actu secundum formam
+<lb ed="#L" n="2"/>caritatis reducitur ab eo qui est causa caritatis. Caritas ergo nec alia
+<lb ed="#L" n="3"/>qualitas non augetur per additionem essentiae vel partis essentiae ad
+<lb ed="#L" n="4"/>aliam partem, sed per hoc quod una et eadem etiam secundum gradum
+<lb ed="#L" n="5"/>essentiae magis facit vel reducit in actum unum quam alium ex diversa
+<lb ed="#L" n="6"/>dispositione subiecti, vel sola virtute agentis et cetera.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e467">
+               <lb ed="#L" n="7"/>Secundum hunc gradus processum dicendum videtur, quod 
+augmen<lb break="no" ed="#L" n="8"/>tum formae potest intelligi ex parte ipsius tormae sive secundum ipsam
+<lb ed="#L" n="9"/>formam ' secundum se sive secundum eius essentiam secundum se
+<lb ed="#L" n="10"/>consideratam, vel ex parte ipsius subiecti sive secundum esse quod
+<lb ed="#L" n="11"/>habet in subiecto sive secundum quod subiectum ipsam formam participat
+<lb ed="#L" n="12"/>magis et minus perfecte. Et secundum primum modum quidem non fit
+<lb ed="#L" n="13"/>augmentum, sed secundo modo in qualitatibus. Sed quia , si esse non
+<lb ed="#L" n="14"/>sit extra rationem essentiae realiter ut dictum est, et essentia accidentis
+<lb ed="#L" n="15"/>et eius esse et inesse cum inest non sit realiter aliud et aliud, non
+<lb ed="#L" n="16"/>videtur recipere magis et minus secundum esse vel inesse nisi etiam
+<lb ed="#L" n="17"/>recipiat secundum essentiam, ita quod ipsa essentia secundum  se
+<lb ed="#L" n="18"/>habeat multam latitudinem, continens scilicet multos gradus virtualiter et
+<lb ed="#L" n="19"/>non actualiter secundum se, — ideo ulterius intelligendum est quod illos
+<lb ed="#L" n="20"/>gradus actualiter non habet nisi in subiecto participata a quo non posset
+<lb ed="#L" n="21"/>perfectius et imperfectius " participari, nisi in ipsa essentia formae
+<lb ed="#L" n="22"/>secundum se et prius natura essent huiusmodi gradus virtuales et 
+virtua<lb break="no" ed="#L" n="23"/>liter, antequam essent in ipso subiecto formaliter et actualiter. — Sed
+<lb ed="#L" n="24"/>quod in essentia alicuius formae non possunt esse plures gradus 
+essen<lb break="no" ed="#L" n="25"/>tiales, sive ipsam formae essentiam quodammodo  integrantes, sive
+<lb ed="#L" n="26"/>constituentes quae dicitur constitui quasi ex genere et differentia ultima
+<lb ed="#L" n="27"/>et completa, ita quod ipsa manente possit secundum aliquos huiusmodi
+<lb ed="#L" n="28"/>gradus participari ab uno et secundum alios vel alium ab alio, (hoc
+<lb ed="#L" n="29"/>est quod non sint plures gradus in rei cuiuscumque essentia secundum
+<lb ed="#L" n="30"/>quos possit augeri vel minui sic essentialiter secundum se), — hoc videtur.
+<lb ed="#L" n="31"/>Nam essentia rei est ipsa rei quidditas quae attenditur secundum rationem
+<lb ed="#L" n="32"/>alicuius ultimi complementi per quod res collocatur ut ens determinatum
+<lb ed="#L" n="33"/>in determinata specie. De necessitate ergo quaecumque? forma specifica[m]
+<lb ed="#L" n="34"/>habet totam essentiam et omnes illos gradus essentiales qui pertinent
+<lb ed="#L" n="35"/>ad talem rem. Ex quo etiam species continet ultimum, continet omnia
+<lb ed="#L" n="36"/>quasi speciem antecedentia; et ex quo illud completive constituens speciem
+<pb ed="#L" n="147"/>
+               <lb ed="#L" n="1"/>est ultimum indivisibile, — in ultimo autem et indivisibili non possunt
+<lb ed="#L" n="2"/>esse gradus nec magis nec minus —, oportet quod forma specifica
+<lb ed="#L" n="3"/>quantum ad rationem suae speciei non possit habere magis et minus.
+<lb ed="#L" n="4"/>Unde si aliquid pertinens ad essentiam albedinis desit alicui colori, de
+<lb ed="#L" n="5"/>necessitate color ille non erit albedo. Secundum ergo tales gradus, formae
+<lb ed="#L" n="6"/>sunt sicut numeri ut, sicut qualibet unitate addita vel remota tollitur
+<lb ed="#L" n="7"/>species numerorum, sic quolibet tali gradu addito vel remoto non remanet
+<lb ed="#L" n="8"/>forma in illa specie.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e554">
+               <lb ed="#L" n="9"/>Oportet ergo quod si aliquid dicitur secundum magis et minus,
+<lb ed="#L" n="10"/>quod hoc attendatur secundum aliquod accidentale, quo etiam existente
+<lb ed="#L" n="11"/>non mutetur secundum speciem illad quod secundum illud dicitur magis
+<lb ed="#L" n="12"/>et minus. Huiusmodi autem accidens in qualitatibus est intensibilitas
+<lb ed="#L" n="13"/>secundum gradus virtuales quos continet forma specifica aliqua, 
+indivisi<lb break="no" ed="#L" n="14"/>bilis secundum essentiam sive secundum gradus essentiales, ut dictum
+<lb ed="#L" n="15"/>est; sicut in quantitatibus accidens quo convenit magis et minus in eis
+<lb ed="#L" n="16"/>est extensibilitas secundum partes quantitativas. Et huiusmodi accidentia,
+<lb ed="#L" n="17"/>ratione quorum contingere habet in quantitatibus et qualitatibus ! 
+huius<lb break="no" ed="#L" n="18"/>modi variabilitas secundum magis et minus, non important aliquam
+<lb ed="#L" n="19"/>naturam absolutam et positive dictam, sed quendam modum et 
+proprie<lb break="no" ed="#L" n="20"/>tatem. entis cul insunt et secundum rationem suae quidditatis et
+<lb ed="#L" n="21"/>essentiae, propter quod etiam ad transmutationem eorum contingit
+<lb ed="#L" n="22"/>transm | utatio in essentia, ut sunt par et impar in numero et cetera.
+<lb ed="#L" n="23"/>5i ergo talia insunt secundum rationem speciei simpliciter  et secundum
+<lb ed="#L" n="24"/>se, transmutatione facta in eis fit transmutatio secundum speciem. Si
+<lb ed="#L" n="25"/>autem insunt secundum rationem individui, sive insunt individuis secundum
+<lb ed="#L" n="26"/>essentialem modum ipsorum et praeter rationem speciei et ut nunc,
+<lb ed="#L" n="27"/>transmutatione eorum fit transmutatio secundum individuum, licet non
+<lb ed="#L" n="28"/>oporteat quod secundum speciem. Quare cum non possit attendi  magis
+<lb ed="#L" n="29"/>et minus in qualitatibus secundum rationem speciei quia in  indivisibili
+<lb ed="#L" n="30"/>consistit, oportet quod attendatur secundum rationem ? individuorum.
+<lb ed="#L" n="31"/>Et quia etiam esse individui in quantum individuum est, simplex est,
+<lb ed="#L" n="32"/>si fiat transmutatio in ? individuo secundum magis et minus, fit etiam
+<lb ed="#L" n="33"/>transmutatio ipsius individui, manente tamen specie eadem. Similiter
+<lb ed="#L" n="34"/>etiam se habet in quantitatibus maius et minus, et quantum ad hoc
+<lb ed="#L" n="35"/>quod convenit secundum individuum et quantum ad modum transmuta-
+</p>
+            <p xml:id="v27ab7-d1e433-d1e615">
+               <pb ed="#L" n="148"/>
+               <lb ed="#L" n="1"/>Cum ergo quaeritur utrum forma aliqua possit minui vel augeri
+<lb ed="#L" n="2"/>secundum magis et minus per essentiam, si intelligatur sic quod ipsa
+<lb ed="#L" n="3"/>essentia augeatur et minuatur secundum se sive secundum rationem suae
+<lb ed="#L" n="4"/>essentiae vel secundum ea quae ad ipsam essentiam pertinent, 
+dicen<lb break="no" ed="#L" n="5"/>dum quod non ; quia species secundum se consistit in aliquo complemento
+<lb ed="#L" n="6"/>indivisibili ut dictum est, ita quod ubicumque est species, ipsa est tota
+<lb ed="#L" n="7"/>secundum id quod ad eius essentiam pertinet. Si autem intelligatur
+<lb ed="#L" n="8"/>quod ipsa essentia sic augeatur ! et minuatur, quod ipsa in sua totalitate
+<lb ed="#L" n="9"/>quantum ad essentialia habeat esse, secundum totalitatem suae 
+quanti<lb break="no" ed="#L" n="10"/>tatis virtualis quae est magnitudo habens modum accidentalem ut dictum
+<lb ed="#L" n="11"/>est, in uno tempore in aliquo subiecto et in alio non, sed secundum
+<lb ed="#L" n="12"/>partem | suae totalitatis virtualis, tunc verum est quod  minuitur vel
+<lb ed="#L" n="13"/>augetur forma etiam secundum essentiam quodammodo. Ita quod, sicut
+<lb ed="#L" n="14"/>plus est de linea in linea longa quam in brevi etiam de essentia lineae,
+<lb ed="#L" n="15"/>cum tota essentia lineae sit in omnibus partibus et plures partes
+<lb ed="#L" n="16"/>determinatae quantitatis sunt in longa quam in brevi, plus est de linea
+<lb ed="#L" n="17"/>etiam secundum ? essentiam sic in una quam in alia, non ratione suae
+<lb ed="#L" n="18"/>essentiae, sed ratione accidentis ipsam consequentis variati circa diversa
+<lb ed="#L" n="19"/>individua lineae, non ponentis tamen variationem circa ipsam essentiam
+<lb ed="#L" n="20"/>formae specificae, — ita etiam tota essentia albedinis est in maius et
+<lb ed="#L" n="21"/>minus albo, tamen ipsa est plus in magis albo; sed hoc est ratione huius
+<lb ed="#L" n="22"/>accidentis ipsam sic consequentis, ut sicut in linea plus extensa est plus
+<lb ed="#L" n="23"/>de linea, ita in albedine plus intensa est plus de albedine et de substantia
+<lb ed="#L" n="24"/>vel essentia albedinis, sed per accidens tamen.
+</p>
+            <p xml:id="v27ab7-d1e433-d1e672">
+               <lb ed="#L" n="25"/>Unde plus est de essentia caritatis in. habente perfectiorem 
+carita<lb break="no" ed="#L" n="26"/>tem dicto modo. Quamvis ergo esse et inesse [et inesse] accidentis vel
+<lb ed="#L" n="27"/>caritatis sit idem secundum rem cum essentia, et sic non possit habere
+<lb ed="#L" n="28"/>magis et minus secundum esse vel inesse, nec possit magis inesse vel
+<lb ed="#L" n="29"/>radicari in subiecto nisi etiam secundum essentiam augeatur, tamen non
+<lb ed="#L" n="30"/>dicitur augeri secundum essentiam, quia hoc quod essentia habet aliquo
+<lb ed="#L" n="31"/>modo magis et minus, hoc non contingit ei ex ratione essentiae, sed
+<lb ed="#L" n="32"/>ex inesse in subiecto ex malore dispositione subiecti et perfectiore
+<lb ed="#L" n="33"/>virtute agentis et cetera. Cum ergo dicitur quod illud cuius ratio 
+con<lb break="no" ed="#L" n="34"/>sistit in aliquo indivisibili non variatur per essentiam eadem essentia
+<lb ed="#L" n="35"/>manente, dicendum quod verum est; variatur tamen essentia per 
+acci<lb break="no" ed="#L" n="36"/>dens dicto modo et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="234"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e691"><!-- v27ab7-q4q2 -->
+            <head xml:id="v27ab7-d1e691-Hd1e99">Quaestio 2</head>
+            <head xml:id="v27ab7-d1e691-Hd1e101" type="question-title">
+      Utrum ponere res praedicamentales esse aeternas secundum esse quidditativum sit ponere mundum esse aeternum
+    </head>
+            <p xml:id="v27ab7-d1e691-d1e104">
+               <lb ed="#L" n="28"/>QUAESTIO II
+<lb ed="#L" n="29"/>(LONGA).
+<lb ed="#L" n="30"/>Utrum ponere res praedicamentales esse aeternas secundum
+<lb ed="#L" n="31"/>esse quidditativum sil ponere mundum esse aeternum.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e115">
+               <lb ed="#L" n="32"/>Deinde circa creaturas in generali quaerebatur unum videlicet 
+per<lb break="no" ed="#L" n="33"/>tinens ad entitatem quidditativam vel essentialem secundum esse quod
+<lb ed="#L" n="34"/>habent in genere, scilicet utrum ponere res praedicamentales esse
+<pb ed="#L" n="235"/>
+               <lb ed="#L" n="1"/>aeternas secundum esse quidditativum vel essentiale secundum quod |
+<lb ed="#L" n="2"/>habent esse in genere, sit ponere mundum esse aeternum et fuisse. Et
+<lb ed="#L" n="3"/>arguebatur quod sic, quia ponere res praedicamentales fuisse ab aeterno
+<lb ed="#L" n="4"/>secundum esse quod habent in se ipsis, est ponere mundum fuisse aeternum.
+<lb ed="#L" n="5"/>Sed ponere res praedicamentales secundum esse quidditativum sive 
+essen<lb break="no" ed="#L" n="6"/>tiale ab aeterno fuisse in genere est ponere res praedicamentales fuisse
+<lb ed="#L" n="7"/>ab aeterno secundum esse quod habent in se ipsis. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e141">
+               <lb ed="#L" n="8"/>Minor probatur, quia res praedicamentales praeter esse quod habent
+<lb ed="#L" n="9"/>in se ipsis non habent nisi triplex esse, scilicet in mente divina, sed ut
+<lb ed="#L" n="10"/>sic non sunt in genere quia ut sic non sunt realiter aliud ab essentia
+<lb ed="#L" n="11"/>divina et sic habent esse omnino illimitatum et indeterminatum ad genus.
+<lb ed="#L" n="12"/>Item in conceptu intellectus creati, sed ut sic etiam non sunt in genere,
+<lb ed="#L" n="13"/>quia ut sic non habent esse simpliciter et perfecte sed esse diminutum
+<lb ed="#L" n="14"/>et imperfectum, quare et cetera. Item in suis principiis, sed ut sic etiam
+<lb ed="#L" n="15"/>non habent in genere esse, quia ut sic non habent esse in actu sed
+<lb ed="#L" n="16"/>solum in potentia et cetera.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e164">
+               <lb ed="#L" n="17"/>Contra. Consequentia non valet cuius consequens est damnatum et
+<lb ed="#L" n="18"/>non antecedens, quia remanente antecedente impossibile est consequens
+<lb ed="#L" n="19"/>damnatum esse. Sed in proposito consequens, scilicet mundum fuisse
+<lb ed="#L" n="20"/>ab aeterno est damnatum, non autem antecedens, quia adhuc ab aliquibus
+<lb ed="#L" n="21"/>catholicis ponitur. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e177">
+               <lb ed="#L" n="22"/>Respondeo dicendum quod ponere res in genere ab aeterno 
+quodam<lb break="no" ed="#L" n="23"/>modo hoc ponendo, est ponere mundum aeternum et quodammodo
+<lb ed="#L" n="24"/>non. Ad evidentiam huius tria sunt declaranda. Primo enim videndum
+<lb ed="#L" n="25"/>est quod res habet esse in genere uniformiter secundum esse essentiae
+<lb ed="#L" n="26"/>et existentiae, secundo quod omnis res quae habet esse in actu velin
+<lb ed="#L" n="27"/>potentia habet esse in genere licet diversimode, tertio quomodo res
+<lb ed="#L" n="28"/>diversimode habent esse in potentia et secundum hoc diversimode in
+<lb ed="#L" n="29"/>genere sunt. His autem declaratis patebit veritas quaestionis. Cum enim
+<lb ed="#L" n="30"/>res habeat esse in genere naturali sive reali vere et proprie secundum
+<lb ed="#L" n="31"/>quod est ens per se non per accidens, et secundum quod habet esse
+<lb ed="#L" n="32"/>verum reale et quidditativum secundum se, non secundum quod habet
+<lb ed="#L" n="33"/>esse diminutum secundum conceptionem intellectus, eo modo ponendum
+<lb ed="#L" n="34"/>est res fuisse in genere ab aeterno, quomodo ab aeterno habuerunt tale
+<lb ed="#L" n="35"/>esse reale quidditativum et essentiale.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e210">
+               <lb ed="#L" n="36"/>Quia vero de hoc alias diffusius est tractatum, quantum ad
+<lb ed="#L" n="37"/>praesens propter primum articulum est repetendum quod circa habitu-
+<pb ed="#L" n="236"/>
+               <lb ed="#L" n="1"/>dinem esse existentiae ad essentiam sive ad esse essentiae est diversus
+<lb ed="#L" n="2"/>modus ponendi Nam quidam dicunt quod esse realiter est aliud ab
+<lb ed="#L" n="3"/>essentia, realem compositionem faciens cum ipsa. Nunquam tamen est
+<lb ed="#L" n="4"/>unum separabile ab alio, ita quod cum res non habet esse existentiae
+<lb ed="#L" n="5"/>non habet esse essentiae. Sicut etiam materia differt a forma, si tamen
+<lb ed="#L" n="6"/>materia careat omni forma, secundum aliquos etiam desinit esse omnino.
+<lb ed="#L" n="7"/>— Alu autem dicunt quod haec sunt unum et idem secundum rem,
+<lb ed="#L" n="8"/>sed differunt intentione, et ob hoc faciunt aliquam compositionem, et
+<lb ed="#L" n="9"/>cum res corrumpitur secundum esse existentiae ipsa essentia etiam
+<lb ed="#L" n="10"/>sic corrumpitur quod non manet in se ipsa ut sic habens aliquod esse
+<lb ed="#L" n="11"/>reale extra intellectum vel extra principia ipsius rei, ut possit dici quod
+<lb ed="#L" n="12"/>ipsa essentia est praedicando secundum adiacens, tamen manet sic
+<lb ed="#L" n="13"/>secundum quod ipsa est aliquod ens verum pertinens ad verum genus
+<lb ed="#L" n="14"/>vel praedicamentum, et hoc modo res cum non est secundum esse
+<lb ed="#L" n="15"/>existentiae, est tamen secundum esse essentiae, et potest vere dici
+<lb ed="#L" n="16"/>talis res vere esse substantia vel animal vel huiusmodi, praedicando
+<lb ed="#L" n="17"/>tantum adiacens. Cum enim scientia non sit nisi entium et verorum,
+<lb ed="#L" n="18"/>et de rebus cum non sint secundum esse existentiae habetur vere
+<lb ed="#L" n="19"/>scientia ab intellectu cuius obiectum est vera quidditas et essentia rei,
+<lb ed="#L" n="20"/>de talibus non esset vere scientia nisi praedicata essentialia eis
+<lb ed="#L" n="21"/>attribuerentur. Unde pluvia non existente scitur natura pluviae ut veri
+<lb ed="#L" n="22"/>entis veram quidditatem importantis, et vere dicitur quod aqua est
+<lb ed="#L" n="23"/>pluvia guttatim cadens. Et sic secundum aliquos res dicitur habere
+<lb ed="#L" n="24"/>esse rei praedicabilis et esse in genere secundum esse essentiae et non
+<lb ed="#L" n="25"/>esse existentiae. Sed mihi videtur quod esse existentiae et essentia
+<lb ed="#L" n="26"/>omnino sint idem secundum rem et differunt solum secundum rationem
+<lb ed="#L" n="27"/>et modum intelligendi et significandi, nu | llam omnino compositionem
+<lb ed="#L" n="28"/>facientia, sicut nec currere et cursus vel huiusmodi. Et ideo, in quantum
+<lb ed="#L" n="29"/>manet res secundum esse essentiae manet etiam secundum esse
+<lb ed="#L" n="30"/>existentiae et e converso, et in quantum intelligitur de uno intelligitur
+<lb ed="#L" n="31"/>de alio et e converso, intellectu simplici non componente quod est
+<lb ed="#L" n="32"/>esse diminutum secundum quod dicitur quod est uno modo praedicatum
+<lb ed="#L" n="33"/>accidentale accidentis, alio modo generis vel essentiale. Licet enim
+<lb ed="#L" n="34"/>intelligendo naturam Socratis vel hominis secundum se intellectu
+<lb ed="#L" n="35"/>incomplexo, non inteligam eum esse vel non esse prout hoc dicunt
+<lb ed="#L" n="36"/>conceptus mentis tales terminos coniungentis, tamen intellipo — eius
+<lb ed="#L" n="37"/>existentiam quae non est alia res a sua essentia; et pro quanto aliquid
+<lb ed="#L" n="38"/>est res praedicabilis et habet esse in genere secundum esse essentiae,
+<pb ed="#L" n="237"/>
+               <lb ed="#L" n="1"/>pro tanto etiam habet hoc secundum esse existentiae et e converso. Et
+<lb ed="#L" n="2"/>hoc sufficiat quantum ad primum articulum. :
+</p>
+            <p xml:id="v27ab7-d1e691-d1e308">
+               <lb ed="#L" n="3"/>Nunc ergo videamus de secundo articulo. Cum quaelibet res
+<lb ed="#L" n="4"/>creata habeat dupliciter esse, scilicet quandoque in potentia solum,
+<lb ed="#L" n="5"/>quandoque vero in actu, licet aliter et aliter, quia quaelibet ante mundi
+<lb ed="#L" n="6"/>creationem aequaliter habuit esse in potentia solius Dei, sed post mundi
+<lb ed="#L" n="7"/>creationem substantiae generabiles et corruptibiles habent esse quandoque
+<lb ed="#L" n="8"/>in actu quandoque in potentia; et secundum quod rei convenit esse tam
+<lb ed="#L" n="9"/>esse essentiae quam existentiae quod accipio pro eodem, secundum hoc
+<lb ed="#L" n="10"/>convenit ei esse rem praedicabilem et esse in genere, ideo ponendum
+<lb ed="#L" n="11"/>est res omnes quae sunt et quae natae sunt esse aliquo modo esse
+<lb ed="#L" n="12"/>in genere sed diversimode, prout ponebatur in quarto articulo declarando.
+<lb ed="#L" n="13"/>Ad cuius intellectum considerandum est quod cum unumquodque genus
+<lb ed="#L" n="14"/>dividatur in actum et in potentiam, non sic quod in materiam et formam,
+<lb ed="#L" n="15"/>sed sic quod natura generis secundum totum illud quod importat
+<lb ed="#L" n="16"/>secundum se vel secundum suas species sic dividitur (nam est substantia
+<lb ed="#L" n="17"/>in actu et substantia in potentia, asinus in actu et in potentia, albedo
+<lb ed="#L" n="18"/>in actu et in potentia et sic de aliis, et sicut asinus in actu dicit
+<lb ed="#L" n="19"/>compositum ex materia et forma, ita asinus in potentia totum hoc dicit,
+<lb ed="#L" n="20"/>totum enim est in potentia licet secundum materiam quod postea fit,
+<lb ed="#L" n="21"/>in actu licet secundum formam), — secundum hoc omne illud quod
+<lb ed="#L" n="22"/>participat naturam alicuius generis sive in actu sive in potentia ad illud
+<lb ed="#L" n="23"/>genus pertinet, et res illius generis debet dici. Sed cum ens in potentia
+<lb ed="#L" n="24"/>non sit ens simpliciter (nam esse a forma quae est actus, unde habere
+<lb ed="#L" n="25"/>formam in potentia est habere esse in potentia et esse ens in potentia),
+<lb ed="#L" n="26"/>et potentia etiam habet rationem ex actu, substantia in potentia non
+<lb ed="#L" n="27"/>est substantia simpliciter, et homo in potentia non est homo simpliciter
+<lb ed="#L" n="28"/>nec est substantia simpliciter, sed ens in actu est in genere simpliciter,
+<lb ed="#L" n="29"/>quod est esse in genere in actu, ens autem in potentia est in genere
+<lb ed="#L" n="30"/>in potentia, quod non est esse in genere simpliciter. Et sic patet
+<lb ed="#L" n="31"/>secundus articulus, scilicet quod omnis res sive in actu sive in potentia
+<lb ed="#L" n="32"/>habet esse in genere, licet diversimode.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e376">
+               <lb ed="#L" n="33"/>Restat ergo videre de tertio articulo, quomodo scilicet res diversimode
+<lb ed="#L" n="34"/>habent esse in potentia et secundum hoc diversimode in genere, quod
+<lb ed="#L" n="35"/>quidem necessarium est videre. Nam cum ens in potentia non est ens
+<lb ed="#L" n="36"/>nisi in habitudine ad ens in actu quod est ens simpliciter, videtur
+<lb ed="#L" n="37"/>quod ad hoc quod aliquid habeat rationem generis, oportet quod sit
+<lb ed="#L" n="38"/>sic divisibile in ens in actu et potentia, et quod habeat rationem generis
+<lb ed="#L" n="39"/>simpliciter et proprie ex hoc quod est tale ens actu vel cui convenit
+<pb ed="#L" n="238"/>
+               <lb ed="#L" n="1"/>talis actus qui etiam natus est participari ab aliis non existentibus
+<lb ed="#L" n="2"/>actu sed potentia, et pro tanto ad rationem talis generis pertinentia
+<lb ed="#L" n="3"/>in quantum talem actualitatem participabilia actualiter in se ipsis. Unde
+<lb ed="#L" n="4"/>videtur quod non nullo ente creato non existente cui proprie convenit
+<lb ed="#L" n="5"/>esse in genere nullum genus proprie fuit, et nulla res rationem generis
+<lb ed="#L" n="6"/>habuit, quia non poterat ens creatum sic dividi in ens in actu et in
+<lb ed="#L" n="7"/>ens in potentia, cum nullum ens talis generis esset actu, sed omnia
+<lb ed="#L" n="8"/>in potentia, non quidem per aliquid sui quod sit aliquid generis, sed
+<lb ed="#L" n="9"/>per virtutem agentis primi extra genus. Unde tunc nihil erat in genere,
+<lb ed="#L" n="10"/>quia nulla species generis erat in actu, et sic nihil actu in genere,
+<lb ed="#L" n="11"/>tunc etiam species generum non erant in potentia in genere sicut nunc
+<lb ed="#L" n="12"/>sunt aliquae, quia scilicet essent in potentia per aliquid sui ad 
+partici<lb break="no" ed="#L" n="13"/>pandum actualitatem generis in potentia existentis. Cum enim potentia
+<lb ed="#L" n="14"/>habeat rationem ex actu, cum non est aliquid actu participans naturam
+<lb ed="#L" n="15"/>generis, videtur etiam quod non sit ponere aliquid potentia participans
+<lb ed="#L" n="16"/>ilam potentiam realiter ab actu distinctam, et si nihil sit in rerum
+<lb ed="#L" n="17"/>natura quod sit substantia, quae genus in actu sive de quo praedicetur
+<lb ed="#L" n="18"/>substantia quae est genus in actu, nihil est in rerum natura quod sit
+<lb ed="#L" n="19"/>substantia in potentia sive de quo praedicetur substantia quae est genus
+<lb ed="#L" n="20"/>in potentia. Immo nec est ponere aliquid tale in rerum natura quod
+<lb ed="#L" n="21"/>sic sit substantia in potentia quod non sit aliqua substantia in actu.
+<lb ed="#L" n="22"/>Sicut enim album in potentia est nigrum in actu, ita asinus in potentia
+<lb ed="#L" n="23"/>est aliqua alia natura in actu, et sic cum nulla fuit natura creata in
+<lb ed="#L" n="24"/>actu ut videtur, nulla natura fuit in potentia et per consequens nec
+<lb ed="#L" n="25"/>aliquid in genere in potentia.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e450">
+               <lb ed="#L" n="26"/>Necesse est ergo vi | dere quomodo aliquid diversimode est in potentia,
+<lb ed="#L" n="27"/>et secundum hoc diversimode in. genere. Sciendum est igitur quod est
+<lb ed="#L" n="28"/>ordo in entibus in potentia quae ex hoc quod sunt entia in potentia
+<lb ed="#L" n="29"/>sunt etiam in genere dicto modo in potentia. Nam quaedam, cum non
+<lb ed="#L" n="30"/>habent esse existentiae nec essentiae etiam ex consequenti in se ipsis,
+<lb ed="#L" n="31"/>habent esse essentiae et existentiae in suis causis vel principiis 
+diversi<lb break="no" ed="#L" n="32"/>mode. Entia enim vera et non diminuta quae dicuntur esse vere res
+<lb ed="#L" n="33"/>praedicamentales, quandoque habent esse in se ipsis formaliter prout ex
+<lb ed="#L" n="34"/>suis principiis ad eorum essentiam pertinentibus actualiter coniunctis
+<lb ed="#L" n="35"/>sunt in esse essentiae et existentiae constituta. Ouandoque etiam habent
+<lb ed="#L" n="36"/>esse extra non in se ipsis formaliter, sed in suis principiis virtualiter,
+<lb ed="#L" n="37"/>ita quod aliqua principia essentialia sive ad eorum essentiam 
+perti<lb break="no" ed="#L" n="38"/>nentia et ipsam ingredientia iam existunt in rerum natura, ut eorum
+<pb ed="#L" n="239"/>
+               <lb ed="#L" n="1"/>propria materia agenti proprio et particulari subiecta, ratione quorum
+<lb ed="#L" n="2"/>dicuntur tales res iam aliquo modo esse aliquid realiter, sed non
+<lb ed="#L" n="3"/>simpliciter et in actu sed imperfecte et in potentia, ut pluvia vel rosa
+<lb ed="#L" n="4"/>non existente in se ipsa, tamen vapore disposito ad generationem
+<lb ed="#L" n="5"/>pluviae et semine rosae disposito ad generationem rosae, dicitur pluvia
+<lb ed="#L" n="6"/>vel rosa esse in potentia proprie, ut patet nono Metaphysicae . Sed
+<lb ed="#L" n="7"/>cum haec habent esse in potentia remota, utpote in potentia terrae
+<lb ed="#L" n="8"/>vel alicuius elementi quod per multas transmutationes potest fieri rosa
+<lb ed="#L" n="9"/>vel pluvia, est etiam sic rosa vel pluvia in potentia, et secundum
+<lb ed="#L" n="10"/>modum secundum quem haec habent esse, et secundum hoc etiam
+<lb ed="#L" n="11"/>habent esse reale et sunt in genere et de ipsis est vera scientia. Cum
+<lb ed="#L" n="12"/>enim habent esse in se ipsis, habetur scientia de illis in se ipsis; cum
+<lb ed="#L" n="13"/>autem habent esse in suis causis, habetur scientia de ipsis in suis
+<lb ed="#L" n="14"/>causis sive secundum esse quod habent in suis causis et cetera. —
+<lb ed="#L" n="15"/>Quandoque autem haec habent esse solum virtualiter in suis principiis
+<lb ed="#L" n="16"/>extrinsecis, non ingredientibus essentiam ipsorum, ut in potentia Dei
+<lb ed="#L" n="17"/>qui ratione suae infinitae perfectionis quodammodo est omnia in virtute,
+<lb ed="#L" n="18"/>et omnia quodammodo virtualiter in se habet, omnia sua virtute in
+<lb ed="#L" n="19"/>esse producere potens, et sic omnia creabilia quae nec sunt aliquid in
+<lb ed="#L" n="20"/>se ipsis formaliter nec in aliquo suorum principiorum intrinsecorum
+<lb ed="#L" n="21"/>virtualiter, dicuntur tamen entia in potentia, in quantum habent esse
+<lb ed="#L" n="22"/>in Deo virtualiter dicto modo ut in sua causa. Talia autem fuerunt
+<lb ed="#L" n="23"/>omnia quae nunc sunt antequam crearentur, et omnia quae secundum
+<lb ed="#L" n="24"/>aliquem gradum  entitatis et perfectionis nata sunt imitari divinam
+<lb ed="#L" n="25"/>entitatem et perfectionem, et quae habent aliquam ideam exemplarem
+<lb ed="#L" n="26"/>secundum quam nata sunt produci in esse in se ipsis, divinam entitatem
+<lb ed="#L" n="27"/>participando secundum gradus suos. Et secundum hoc etiam Deus per
+<lb ed="#L" n="28"/>illas suas ideas et rationes exemplares habet scientiam de omnibus in
+<lb ed="#L" n="29"/>se ipso, nec aliam cum sunt quam cum non sunt. — Quaedam autem
+<lb ed="#L" n="30"/>habent solum esse cognitum, nec secundum formam et modum talis
+<lb ed="#L" n="31"/>cognitionis nata sunt existere realiter extra in se ipsis, et de talibus
+<lb ed="#L" n="32"/>ut de realibus obiectis non potest esse scientia, quia nullo modo
+<lb ed="#L" n="33"/>habent esse verum reale et essentiale, nec actu. in se ipsis, nec in suis
+<lb ed="#L" n="34"/>causis in potentia.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e558">
+               <lb ed="#L" n="35"/>Res ergo secundum esse quod habent primo modo vere et proprie
+<lb ed="#L" n="36"/>dicuntur esse in genere, quia simpliciter et in actu. Secundum esse
+<lb ed="#L" n="37"/>vero quod habent secundo modo dicuntur etiam esse in genere, quia
+<pb ed="#L" n="240"/>
+               <lb ed="#L" n="1"/>participant naturam generis in potentia et virtute suorum principiorum
+<lb ed="#L" n="2"/>intrinsecorum ad naturam generis essentialiter pertinentium et agentium
+<lb ed="#L" n="3"/>propriorum extrinsecorum, sicut principia rei sunt in genere ipsius.
+<lb ed="#L" n="4"/>Secundum esse vero quod habent tertio modo, magis remote et minus
+<lb ed="#L" n="5"/>proprie dicuntur esse in genere, quia secundum nullum principium ad
+<lb ed="#L" n="6"/>genus essentialiter pertinens habent esse, sed solum habent esse in
+<lb ed="#L" n="7"/>potentia et virtute principii omnino extra genus. Et sic videtur dicendum
+<lb ed="#L" n="8"/>quod res non habuerunt esse in genere ab aeterno, habuerunt tamen
+<lb ed="#L" n="9"/>aliquo modo esse in genere: quod enim aliquo modo fuerunt in genere
+<lb ed="#L" n="10"/>et quod habuerunt aliquo modo esse non est negandum. Et ideo forte
+<lb ed="#L" n="11"/>qui videntur dicere res non habere verum esse quidditativum et
+<lb ed="#L" n="12"/>praedicabile et vere esse in genere cum non sunt in existentia, non
+<lb ed="#L" n="13"/>discordant realiter ab his quae! nunc dicuntur. Constat enim quod isti
+<lb ed="#L" n="14"/>dicunt et iam dictum est, quod alio modo se habet cervus ad esse in
+<lb ed="#L" n="15"/>genere cum non existit, et hircocervus: nam cervus, cum non existit,
+<lb ed="#L" n="16"/>dicit naturam quae secundum aliquem gradum entitatis imi | tata[m] est
+<lb ed="#L" n="17"/>divinaze perfectionem? secundum aliquem gradum imitabilitatis, secundum
+<lb ed="#L" n="18"/>quem nata est habere esse in rerum natura in se ipsa actualiter 
+partici<lb break="no" ed="#L" n="19"/>pando divinam perfectionem, et sic ut aliquid quod natum est esse
+<lb ed="#L" n="20"/>effectus divinae voluntatis secundum formam divini exemplaris; — sed
+<lb ed="#L" n="21"/>hircocervus non dicit aliquid reale. Unde cervus dicit aliquid quod ex
+<lb ed="#L" n="22"/>natura sua, sive sit sive non sit, est determinatum ad genus 
+determi<lb break="no" ed="#L" n="23"/>natum, substantiae scilicet, et ita est huiusmodi generis quod non
+<lb ed="#L" n="24"/>alterius, et sic est in genere aliquo modo. Hircocervus autem dicit
+<lb ed="#L" n="25"/>conceptum qui non habet sic imitabilitatem in Deo, nec natus est esse
+<lb ed="#L" n="26"/>effectus Dei secundum aliquod genus praedicamenti, nec determinatur
+<lb ed="#L" n="27"/>ex natura sua ad aliquod genus; immo potius excludit ab omni genere,
+<lb ed="#L" n="28"/>quia importat id quod prohibetur esse propter contradictoriorum 
+implica<lb break="no" ed="#L" n="29"/>tionem, et ideo nec est ens in se nec in suis causis, sed est purum
+<lb ed="#L" n="30"/>figmentum. Secundum hoc ergo potest dici, ut dictum est, quod cervo,
+<lb ed="#L" n="31"/>sive sit sive non sit, convenit esse essentiae, quia importat naturam
+<lb ed="#L" n="32"/>quae nata est esse in se ipsa secundum modum quo intelligitur, et iam
+<lb ed="#L" n="33"/>est in virtute suorum principiorum quod est ipsam esse in potentia,
+<lb ed="#L" n="34"/>et ex hoc etiam verum est quod est verum obiectum intellectus in actu
+<lb ed="#L" n="35"/>de quo vere est scientia, licet quantum ad esse reale tam essentiae
+<lb ed="#L" n="36"/>quam existentiae in se ipsa solum sit in potentia. Si ergo pro tanto
+<lb ed="#L" n="37"/>dicatur res habere esse essentiae et quidditativum et esse vere res
+<pb ed="#L" n="241"/>
+               <lb ed="#L" n="1"/>praedicamenti vel praedicamentalis, in quantum scilicet non habens esse
+<lb ed="#L" n="2"/>in se habet esse in suis causis, ex! hoc non est inconveniens dicere
+<lb ed="#L" n="3"/>quod cum res non habet esse existentiae in se ipso, habet tamen esse
+<lb ed="#L" n="4"/>essentiae, quia etiam habet esse existentiae in suis causis dicto modo,
+<lb ed="#L" n="5"/>et etiam habet esse in genere secundum dictum modum.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e662">
+               <lb ed="#L" n="6"/>Non videtur tamen quod ita proprie et simpliciter et absolute
+<lb ed="#L" n="7"/>absque aliqua determinatione debeant dici res esse quidditates 
+praedica<lb break="no" ed="#L" n="8"/>mentales et esse in genere cum non sunt in se ipsis in actu, sed sunt
+<lb ed="#L" n="9"/>in potentia et virtute suorum principiorum intrinsecorum, sicut cum
+<lb ed="#L" n="10"/>sunt in se ipsis. Sed cum sunt in se ipsis debent dici res talis generis
+<lb ed="#L" n="11"/>simpliciter et praedicari potest ipsum genus simpliciter de illo. Nam
+<lb ed="#L" n="12"/>homo in actu est homo simpliciter et substantia simpliciter. Cum autem
+<lb ed="#L" n="13"/>sunt dicto modo in potentia, debent dici res talis praedicamenti in
+<lb ed="#L" n="14"/>potentia et praedicari potest genus de ipsis cum tali determinatione.
+<lb ed="#L" n="15"/>Nam homo in potentia nec est homo simpliciter nec est substantia
+<lb ed="#L" n="16"/>simpliciter, sed est tam homo quam substantia in potentia. Cum autem
+<lb ed="#L" n="17"/>res praedicamentales solum habent esse in suis principiis extrinsecis,
+<lb ed="#L" n="18"/>scilicet virtute et potentia primi principii quod est Deus, minus proprie
+<lb ed="#L" n="19"/>sunt in genere ut dictum est.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e695">
+               <lb ed="#L" n="20"/>Sed videtur mihi quod maris proprie dicatur quod talia non sunt
+<lb ed="#L" n="21"/>in genere nisi cum dicta determinatione, sicut non sunt entia nisi cum
+<lb ed="#L" n="22"/>illa determinatione, ut sicut homo in potentia est ens in potentia, ita est
+<lb ed="#L" n="23"/>substantia in potentia et in genere substantiae. Sed non est multum
+<lb ed="#L" n="24"/>contendendum de modo loquendi circa hanc materiam, cum secundum
+<lb ed="#L" n="25"/>rem concordia videatur. Est tamen attendendum, quod licet Simplicius
+<lb ed="#L" n="26"/>videtur facere pro isto secundo modo dicendi, non tamen omnino facit
+<lb ed="#L" n="27"/>pro illo magis quam pro primo. Et ideo utrumque modum secundum -
+<lb ed="#L" n="28"/>sanum intellectum sustinendo est sane auctoritas Simplicii intelligenda.
+<lb ed="#L" n="29"/>Dicit enim exponendo intentionem libri praedicti quod ipsa divisio
+<lb ed="#L" n="30"/>substantiae symbolum est existens substantiae quae est in existentibus
+<lb ed="#L" n="31"/>suis, sive sit in hypostasi sive penes intellectum existat. Nihil enim hoc
+<lb ed="#L" n="32"/>quantum ad praedicamentum differt. Non enim secundum quod est in
+<lb ed="#L" n="33"/>hypostasi sunt res significatae a praedicamento, sed secundum quod
+<lb ed="#L" n="34"/>concipiuntur vel existentes vel quasi existentes. Cum enim genus, 
+praedi<lb break="no" ed="#L" n="35"/>camentum, et cetera sint nomina secundae intentionis de quibus
+<lb ed="#L" n="36"/>considerat logicus cuius est negotium liber praedicamentorum, haec non
+<lb ed="#L" n="37"/>conveniunt rebus secundum  se nec secundum esse reale vel secundum
+<pb ed="#L" n="242"/>
+               <lb ed="#L" n="1"/>quod habent esse in se ipsis sive in singularibus, sed secundum quod
+<lb ed="#L" n="2"/>sic vel sic considerantur vel concipiuntur ab intellectu. Animal enim
+<lb ed="#L" n="3"/>esse genus substantiae, est naturam animalis considerari per. modum
+<lb ed="#L" n="4"/>naturae subsistentis et non dependentis secundum se in abstractione et
+<lb ed="#L" n="5"/>habitudine ad species in quibus nata est esse; substantiam etiam esse
+<lb ed="#L" n="6"/>genus generalissimum vel praedicamentum est considerari naturam
+<lb ed="#L" n="7"/>substantiae in maxima abstractione et huiusmodi. Unde talia accidentia
+<lb ed="#L" n="8"/>non conveniunt rebus in se ipsis, ut dicit Avicenna , sed esse album
+<lb ed="#L" n="9"/>vel | huiusmodi et cetera. Sicut ergo intellectus facit universalitatem
+<lb ed="#L" n="10"/>in rebus non secundum se sed secundum quod intelliguntur, sic etiam
+<lb ed="#L" n="11"/>facit rationem  praedicamenti et totum ordinem praedicamenti. Et sic
+<lb ed="#L" n="12"/>animali existenti non convenit quod sit genus subalternum in substantia,
+<lb ed="#L" n="13"/>nec substantiae existenti quod sit genus generalissimum modo logico
+<lb ed="#L" n="14"/>ut dictum est secundum tale esse reale, sed secundum talem modum
+<lb ed="#L" n="15"/>considerandi rem quae sic nata est esse. Sed loquendo de genere pro
+<lb ed="#L" n="16"/>natura substrata intentioni generis vel praedicamenti, non solum 
+secun<lb break="no" ed="#L" n="17"/>dum quod intelligitur sed secundum, se et secundum suum esse reale
+<lb ed="#L" n="18"/>in se ipsa, hoc est secundum rationem generis. naturalis, — sic videtur
+<lb ed="#L" n="19"/>quod esse in genere simpliciter non convenit alicui nisi secundum esse
+<lb ed="#L" n="20"/>reale dicto modo. Alia autem, scilicet quomodo verificantur tales 
+pro<lb break="no" ed="#L" n="21"/>positiones : rosa est flos rosa non existente et cetera, alias  sunt
+<lb ed="#L" n="22"/>habita.
+</p>
+            <p xml:id="v27ab7-d1e691-d1e786">
+               <lb ed="#L" n="23"/>Secundum unum ergo modum ponendi res in genere ab aeterno
+<lb ed="#L" n="24"/>est ponere mundum aeternum, secundum alium autem non, et eo modo
+<lb ed="#L" n="25"/>quo reprobatum est mundum fuisse aeternum, est etiam reprobatum res
+<lb ed="#L" n="26"/>fuisse ab aeterno in genere, et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

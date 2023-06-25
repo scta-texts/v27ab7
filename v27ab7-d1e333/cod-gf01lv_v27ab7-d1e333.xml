@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="45"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e333"><!-- v27ab7-q2q1 -->
+            <head xml:id="v27ab7-d1e333-Hd1e99">Quaestio 1</head>
+            <head xml:id="v27ab7-d1e333-Hd1e101" type="question-title">
+      Utrum anima Christi in triduo fuerit aliquo modo impedita a plenitudine beatitudinis ratione suae separationis a corpore
+    </head>
+            <p xml:id="v27ab7-d1e333-d1e104">
+               <pb ed="#L" n="45"/>
+               <lb ed="#L" n="1"/>QUODLIBETUM SECUNDUM
+<lb ed="#L" n="2"/>QUAESTIO I.
+<lb ed="#L" n="3"/>Utrum anima Christi in triduo fuerit aliquo modo impedita a
+<lb ed="#L" n="4"/>plenitudine beatitudinis ratione suae separationis a. corpore.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e117">
+               <lb ed="#L" n="5"/>Quaerebantur quaedam circa Christum qui est creator in quantum
+<lb ed="#L" n="6"/>Deus, et primo unum pertinens ad ipsum secundum naturam humanam !
+<lb ed="#L" n="7"/>quantum ad animam, scilicet utrum anima. Christi in triduo fuerit aliquo
+<lb ed="#L" n="8"/>modo impedita a plenitudine beatitudinis ratione suae separationis a
+<lb ed="#L" n="9"/>corpore. Et arguebatur quod anima Christi in triduo mortis aliquo modo
+<lb ed="#L" n="10"/>fuerit impedita a plenitudine beatitudinis, quia modus operandi sequitur
+<lb ed="#L" n="11"/>modum essendi agentis. Quanto ergo  agens habet perfectiorem modum
+<lb ed="#L" n="12"/>essendi tanto perfectiorem habet modum operandi. Sed anima cuius
+<lb ed="#L" n="13"/>operatio est beatitudo perfectiorem modum essendi habet cum est unita
+<lb ed="#L" n="14"/>corpori quam cum est a corpore separata, ut patet per Augustinum 
+<lb ed="#L" n="15"/>duodecimo super Genesim. Quare quamdiu est separata minus est 
+per<lb break="no" ed="#L" n="16"/>fecta operatio beatitudinis.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e146">
+               <lb ed="#L" n="17"/>Contra. Actus et operationes sunt suppositorum. Manente ergo
+<lb ed="#L" n="18"/>eodem supposito alicuius naturae aliqualiter perfecto, erit etiam eius
+<lb ed="#L" n="19"/>omnis ? operatio aeque perfecta. Sed anima Christi non habuit rationem
+<lb ed="#L" n="20"/>suppositi nisi ex supposito divino aeque perfecto, cum erat separata
+<lb ed="#L" n="21"/>anima sicut cum est corpori coniuncta. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e160">
+               <pb ed="#L" n="46"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod, cum perfectio et plenitudo operationis
+<lb ed="#L" n="2"/>in qua con | sistit principaliter beatitudo consurgat ex perfectione et 
+excel<lb break="no" ed="#L" n="3"/>lentia obiecti quod est ipsa divina essentia, et ! ex perfectione et virtute
+<lb ed="#L" n="4"/>potentiae sive rei cuius est ipsa operatio, scilicet  ipsius rationabilis 
+<lb ed="#L" n="5"/>creaturae, potest contingere impedimentum  a perfectione huiusmodi
+<lb ed="#L" n="6"/>operationis aut ex subtractione ipsius obiecti qualicumque existente
+<lb ed="#L" n="7"/>dispositione et perfectione in subiecto cuius est talis  operatio, aut ex
+<lb ed="#L" n="8"/>imperfectione existente in ipso subiecto sive in eius potentia et virtute
+<lb ed="#L" n="9"/>secundum quam convenit ei huiusmodi operatio. Primo modo non potuit
+<lb ed="#L" n="10"/>impedir anima Christi a plenitudine beatitudinis, eo quod nunquam
+<lb ed="#L" n="11"/>fuit anima benedicta Christi, postquam primo  unita fuit vel assumpta,
+<lb ed="#L" n="12"/>a divino supposito separata, nec deitas a conspectu intellectus animae
+<lb ed="#L" n="13"/>se subtraxit.  Immo secundum aliquos manente unione in unitate 
+sup<lb break="no" ed="#L" n="14"/>positi non poterit fieri subtractio deitatis ratione obiecti fruibilis ; alioquin
+<lb ed="#L" n="15"/>posset natura rationalis assumpta esse simpliciter viatrix et mereri
+<lb ed="#L" n="16"/>gloriam et etiam demereri et peccare quae videntur inconvenientia.
+<lb ed="#L" n="17"/>Secundo modo etiam videtur aliquibus quod non potuit impediri non
+<lb ed="#L" n="18"/>solum anima Christi sed nec anima cuiuslibet alterius. Quia. cum 
+beati<lb break="no" ed="#L" n="19"/>tudo principaliter consistat in. visione nudae divinae  essentiae quae
+<lb ed="#L" n="20"/>non videtur nisi intellectuali visione, intellectus autem non indiget ad
+<lb ed="#L" n="21"/>perfectam sui operationem corpore nisi propter phantasmata in quibus
+<lb ed="#L" n="22"/>veritatem intelligibilem intuetur, ad visionem autem nudam et 
+imme<lb break="no" ed="#L" n="23"/>diatam divinae essentiae phantasmata non cooperantur, — ideo aeque
+<lb ed="#L" n="24"/>perfecte ut videtur, videt anima Deum sine corpore sicut cum corpore.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e217">
+               <lb ed="#L" n="25"/>Cum etiam, ut dicebat respondens, beatitudo non fluat " a corpore
+<lb ed="#L" n="26"/>in animan», sed magis e converso ab anima in corpus quod etiam
+<lb ed="#L" n="27"/>gloriosum efficitur per quandam redundantiam gloriae animae in ipsum,
+<lb ed="#L" n="28"/>videtur quod corpus a sua gloria impediatur ex separatione animae ab
+<lb ed="#L" n="29"/>ipso, sed anima a | sua gloria nullo modo impeditur ex separatione
+<lb ed="#L" n="30"/>corporis ab ipsa; ut in resumptione " corporis non crescat beatitudo
+<lb ed="#L" n="31"/>intensive, sed tantum extensive, quasi scilicet anima ex huiusmodi unione
+<lb ed="#L" n="32"/>non habet perfectius actum videndi Deum in quo consistit beatitudo,
+<lb ed="#L" n="33"/>sed ex anima " etiam extenditur et redundat ad corpus quod 
+perfectis<lb break="no" ed="#L" n="34"/>sime habet perficere cum est glorificata.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e241">
+               <lb ed="#L" n="35"/>Sed hoc non valet. Quia, licet animae in visione divinae essentiae
+<lb ed="#L" n="36"/>non deserviant phantasmata, nec ex corpore sive ex eius gloria fluat vel '
+<pb ed="#L" n="47"/>
+               <lb ed="#L" n="1"/>redundet aliquid gloriae in animam beati, quia tamen nec anima modum
+<lb ed="#L" n="2"/>videndi quo videt Deum absque phantasmate nec etiam gloriam quam
+<lb ed="#L" n="3"/>nata est habere, potest ita perfecte habere si non habeat perfecte omnem
+<lb ed="#L" n="4"/>modum naturae suae sicut si hoc habeat (quanto enim aliquid perfectius
+<lb ed="#L" n="5"/>habeat modum naturae suae tanto perfectius potest habere operationem
+<lb ed="#L" n="6"/>sibi convenientem ; anima autem non est ens secundum se perfectum
+<lb ed="#L" n="7"/>omnino et omnem modum perfectionis suae naturalis secundum se
+<lb ed="#L" n="8"/>habens, quia est pars naturae compositae ex anima et corpore; 
+una<lb break="no" ed="#L" n="9"/>quaeque pars autem ' habet perfectius esse in toto quam secundum se,
+<lb ed="#L" n="10"/>quia etiam ? totum est quoddam ens actu perfectum ex partibus quasi
+<lb ed="#L" n="11"/>imperfectis rebus constitutum), — et ideo operationem ipsam secundum
+<lb ed="#L" n="12"/>quam est beata et ipsam gloriam qua ad hanc operationem perfectam
+<lb ed="#L" n="13"/>elevatur vel? disponitur perfectius habet unita corpori quam secundum
+<lb ed="#L" n="14"/>se separata existens; et licet neutrum horum ? habeat directe ex
+<lb ed="#L" n="15"/>corpore, hoc tamen habet in ipso corpore et cetera.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e283">
+               <lb ed="#L" n="16"/>Hoc etiam est contra Augustinum  duodecimo super Genesim 
+capi<lb break="no" ed="#L" n="17"/>tulo, primo qui postquam quaesivit quid opus sit spiritZbus  defunctorum
+<lb ed="#L" n="18"/>corpora sua in resurrectione recipere, si potest eis etiam sine corporibus
+<lb ed="#L" n="19"/>summa illa beatitudo praeberi, respondet dicens: minime dubium? est et
+<lb ed="#L" n="20"/>raptam hominis mentem ? a carnis sensibus et post mortem ipsam ? carne
+<lb ed="#L" n="21"/>deposita !!, transcensis etiam similitudinibus corporalium, non sic videre
+<lb ed="#L" n="22"/>posse incommutabilem substantiam ut sancti angeli vident, sive alia 
+laten<lb break="no" ed="#L" n="23"/>tiore causa, sive ideo quia inest ei quidam appetitus naturalis corpus
+<lb ed="#L" n="24"/>administrandi quo appetitu retardatur " quodammodo ne tota intentione
+<lb ed="#L" n="25"/>pergat in illud caelum summum quamdiu non subest corpus cuius 
+admi<lb break="no" ed="#L" n="26"/>nistratione appetitus ille conquiescat ". Et infra secundo, capitulo  :
+<lb ed="#L" n="27"/>proinde cum corpus non iam animale sed per futuram commutationem
+<lb ed="#L" n="28"/>spiritale receperit, angelis adaequata perfectum habebit naturae suae
+<lb ed="#L" n="29"/>modum, oboediens et imperans, vivificata et vivificans cum ineffabili 
+faci<lb break="no" ed="#L" n="30"/>litate ut sit ei gloriae quod sarcinae fuit.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e318">
+               <lb ed="#L" n="31"/>Ex praedicta ergo ratione et ex hac Augustini auctoritate bene 
+conclu<lb break="no" ed="#L" n="32"/>dunt quidam in scriptis suis, prout etiam communiter  dicitur, quod
+<lb ed="#L" n="33"/>loquendo generaliter de anima cuiuslibet hominis ad hoc quod habeat
+<pb ed="#L" n="48"/>
+               <lb ed="#L" n="1"/>omnino perfectam beatitudinem sive ad operationem beatitudinis, indiget !
+<lb ed="#L" n="2"/>corpore cui uniatur et quod perficiat, eo quod non quietatur perfecte
+<lb ed="#L" n="3"/>appetitus animae extra corpus, quod tamen ad omnino perfectam 
+beatitu<lb break="no" ed="#L" n="4"/>dinem requiritur. Nam ut dicunt, licet desiderium animae separatae quiescat
+<lb ed="#L" n="5"/>totaliter ex parte appetibilis eo quod nihil aliud desideret, non tamen
+<lb ed="#L" n="6"/>totaliter quiescit ex parte ipsius appetentis, quia illud bonum non possidet
+<lb ed="#L" n="7"/>secundum omnem modum secundum quem possidere vellet. Et ideo
+<lb ed="#L" n="8"/>resumpto corpore beatitudo crescit non solum intensive, sed etiam 
+exten<lb break="no" ed="#L" n="9"/>sive, licet in libris communiter non reperiatur, noo solum propter vitium
+<lb ed="#L" n="10"/>scriptorum aut propter oblivionem aliquam scribentis principalis. — Quia
+<lb ed="#L" n="11"/>ergo anima Christi univoce fuit anima cum aliis animabus (ex quo enim
+<lb ed="#L" n="12"/>Christus dignatus est sumere talem animam), videtur quod attribuenda sunt
+<lb ed="#L" n="13"/>ei ea quae consequuntur ipsam ex conditione suae naturae. Unde dicitur
+<lb ed="#L" n="14"/>quod a plenitudine suae beatitudinis  fuit dicto modo aliqualiter impedita,
+<lb ed="#L" n="15"/>si hoc sit praecisa causa quare in aliis animabus sf  huiusmodi 
+impedi<lb break="no" ed="#L" n="16"/>mentum. Nec videretur inconveniens dicere quod ex morte qua mereri
+<lb ed="#L" n="17"/>habebat  aliquod detrimentum tale quod ex necessitate naturae 
+conseque<lb break="no" ed="#L" n="18"/>batur, contingebat in ipso : volens enim suscipere talem naturam, absque
+<lb ed="#L" n="19"/>inconvenienti sustinuit omnia quae naturam necessitate suae naturae |
+<lb ed="#L" n="20"/>consequebantur. Communiter tamen habetur pro inconvenienti quod aliquo
+<lb ed="#L" n="21"/>modo fuerit a sua beatitudine impedita.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e375">
+               <lb ed="#L" n="22"/>Sed videtur aliquibus quod illud quod dictum est non sit causa
+<lb ed="#L" n="23"/>impedimenti contingentis animae etiam cuicumque " separatae respectu
+<lb ed="#L" n="24"/>actus beatitudinis. Nam ex huiusmodi appetitu non videretur impediri
+<lb ed="#L" n="25"/>nisi per modum cuiusdam abstractionis vel distractionis, prout scilicet
+<lb ed="#L" n="26"/>ex hoc amore naturali quo  appeteret perficere corpus quo careret,
+<lb ed="#L" n="27"/>minus intensus esset? actus cognitionis et amoris quo unitur  summo
+<lb ed="#L" n="28"/>vero et bono "; prout etiam aliquod corpus habens aliquam | levitatem
+<lb ed="#L" n="29"/>ratione cuius tendit sursum, impediretur a velocitate ascensus, et a
+<lb ed="#L" n="30"/>nisu ! ad hunc ascensum si aliquid ei esset  annexum quo aliquo modo
+<lb ed="#L" n="31"/>inclinaretur et traheretur deorsum. Sed per hunc modum non potuit
+<lb ed="#L" n="32"/>impediri a perfectione beatitudinis anima Christi scilicet per modum talis
+<lb ed="#L" n="33"/>distractionis, immo nec anima cuiuscumque. Et hoc ut videtur potest
+<pb ed="#L" n="49"/>
+               <lb ed="#L" n="1"/>declarari specialiter de anima Christi, primo ex hoc quod magis videtur
+<lb ed="#L" n="2"/>impediri anima in actu fruitionis beatae per modum huiusmodi 
+abstrac<lb break="no" ed="#L" n="3"/>tionis vel distractionis, ex dolore et tristitia in potentiis animae sensitivis
+<lb ed="#L" n="4"/>radicatis in eadem essentia animae in qua radicantur potentiae mediantibus
+<lb ed="#L" n="5"/>quibus fruitur, quam ex sola corporis carentia; et cum huiusmodi dolor et
+<lb ed="#L" n="6"/>tristitia vehemens perfectionem fruitionis in Christo non impedivit, quare
+<lb ed="#L" n="7"/>nec separatio animae a corpore impedivit. — Hoc etiam ! secundo patet
+<lb ed="#L" n="8"/>respectu cuiuscumque animae, scilicet quod propter huiusmodi appetitum
+<lb ed="#L" n="9"/>administrandi corpus non distrahitur ab actu beatitudinis, quia huiusmodi
+<lb ed="#L" n="10"/>appetitus ad unionem cum corpore pure naturalis et est in essentia animae
+<lb ed="#L" n="11"/>prout habet corpus suum substantialiter perficere cui respondet appetitus
+<lb ed="#L" n="12"/>ex parte corporis quo appetit perfici ab anima et a sua forma substantiali ;
+<lb ed="#L" n="13"/>et est solum quaedam habilitas naturalis ad mutuam unionem. Et est
+<lb ed="#L" n="14"/>huiusmodi appetitus similis appetitui naturali voluntatis ad bonum 
+simpli<lb break="no" ed="#L" n="15"/>citer quem habet nihil omnino volens; et est aequaliter in dormiente et
+<lb ed="#L" n="16"/>vigilante; unde voluntas ut voluntas est et actu volens in suo actu ab illo
+<lb ed="#L" n="17"/>appetitu in nullo dependet, quare neque [de]retrahitur  aut retardatur.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e444">
+               <lb ed="#L" n="18"/>Unde Augustinus hoc innuens non dixit absolute: « quia inest
+<lb ed="#L" n="19"/>ei quidam appetitus naturalis », sed sub disiunctione dixit : « sive alia
+<lb ed="#L" n="20"/>latentiore causa ». Haec ergo causa est investipanda. Non enim est
+<lb ed="#L" n="21"/>propter subtractionem alicuius pertinentis ad animam ipsam, nec 
+quan<lb break="no" ed="#L" n="22"/>tum ad eius potentias, nec etiam quantum ad ipsam essentiam. Nam
+<lb ed="#L" n="23"/>potentiae quae sunt intellectus et voluntas ?, mediantibus quibus fruitur
+<lb ed="#L" n="24"/>anima, nullo modo ab ipsa anima  subtrahuntur, nec etiam vigor eorum
+<lb ed="#L" n="25"/>diminuitur cum separatur anima, quia ex hoc habent vigorem quo possunt
+<lb ed="#L" n="26"/>in  suos actus quod sunt abstractae a materia et quod sunt in  substantia
+<lb ed="#L" n="27"/>immateriali Nunc autem in anima separata non minus sunt abstractae
+<lb ed="#L" n="28"/>quam in coniuncta. Nec etiam subtrahitur ab anima ex parte essentiae
+<lb ed="#L" n="29"/>ipsius animae, cum sit omnino incorporalis.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e473">
+               <lb ed="#L" n="30"/>Ad videndum ergo quid sit causa secundum istos, considerandum
+<lb ed="#L" n="31"/>quod in omni actione procedente ab agente est considerare id quod
+<lb ed="#L" n="32"/>agit quod est res ipsa habens rationem suppositi (istorum dictum in hoc
+<lb ed="#L" n="33"/>verum est, sed intelligendum est hoc si habeat rationem suppositi
+<lb ed="#L" n="34"/>secundum modum naturae suae completa et perfecta existens), et id ?
+<lb ed="#L" n="35"/>quo agit quod est principium absolutum formale in re ipsa quae agit.
+<pb ed="#L" n="50"/>
+               <lb ed="#L" n="1"/>In natura autem humana intellectus et voluntas sunt principium 
+intellec<lb break="no" ed="#L" n="2"/>tualis et voluntariae operationis beatificantis; et ' in ipsa etiam natura
+<lb ed="#L" n="3"/>humana pura prout habet esse in aliis a Christo, ratio[ne] suppositi cui
+<lb ed="#L" n="4"/>per se debentur actiones intelligendi et volendi, consistit  in natura
+<lb ed="#L" n="5"/>duplici  sive in composita ex anima et corpore, ita quod anima etsi
+<lb ed="#L" n="6"/>possit esse separata secundum se existens, quia tamen semper  nata est
+<lb ed="#L" n="7"/>existere in alio ut in corpore, et contra suam naturam est et contra eius
+<lb ed="#L" n="8"/>naturalem inclinationem quod sit extra corpus , rationem perfectam
+<lb ed="#L" n="9"/>suppositi non habet sed diminuti rationem ; quia ratio suppositi consistit
+<lb ed="#L" n="10"/>in hoc quod res huiusmodi in se separata sit a quocumque alio, nec
+<lb ed="#L" n="11"/>nata sit secundum suam naturam naturaliter existere in alio ut aliquid
+<lb ed="#L" n="12"/>eius. Et ideo actio intelligendi et volendi quae sunt actiones suppositi
+<lb ed="#L" n="13"/>ut suppositum est, sive ut habet rationem suppositi etiam  diminute et
+<lb ed="#L" n="14"/>imperfecte, conveniet animae sic secundum se existenti et rationem 
+sup<lb break="no" ed="#L" n="15"/>positi diminute habenti. Licet enim corpus non sit ratio intelligendi et
+<lb ed="#L" n="16"/>volendi supposito subsisten/i? in natura composita ex anima et corpore,
+<lb ed="#L" n="17"/>sed anima quantum ad potentiam intellectivam et volitivam , vim tamen
+<lb ed="#L" n="18"/>perfecte intelligendi et volendi non habet anima nisi in tali composito,
+<lb ed="#L" n="19"/>vel non nisi tale compositum ex hac duplici natura, et hoc ideo cum
+<lb ed="#L" n="20"/>causa non habendi perfectum actum beatitudinis est non tam propter
+<lb ed="#L" n="21"/>defectum corporis secundum se quam propter defectum personalitatis
+<lb ed="#L" n="22"/>sive rationis suppositi quam non habet anima sine corpore. Sed quia
+<lb ed="#L" n="23"/>in Christo anima a corpore separata habuit perfectam rationem suppositi
+<lb ed="#L" n="24"/>ex ratione suppositi divini a quo erat assumpta et nunquam derelicta, ideo
+<lb ed="#L" n="25"/>propter imperfectionem vel  diminutionem rationis suppositi in anima
+<lb ed="#L" n="26"/>Christi nulla fuit imperfectionis ratio ad eliciendum actum intelligendi
+<lb ed="#L" n="27"/>et volendi. Quare secundum hoc, non obstante defectu et imperfectione
+<lb ed="#L" n="28"/>animae Christi ex separatione eius a corpore, non impediebatur vel
+<lb ed="#L" n="29"/>retardabatur a perfectione fruitionis eo quod habebat perfecte rationem
+<lb ed="#L" n="30"/>personalitatis sive suppositi.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e556">
+               <lb ed="#L" n="31"/>Sed cum anima non unita duplicem modum subsistendi et 
+suppo<lb break="no" ed="#L" n="32"/>siti habeat, unum secundum se | imperfectum et incompletum, in 
+quan<lb break="no" ed="#L" n="33"/>tum ratione suae immaterialitatis nata est per se existere sine corpore,
+<lb ed="#L" n="34"/>alium. perfectum et completum in composito per se subsistente cuius
+<lb ed="#L" n="35"/>anima est pars, pars autem non habet perfectum modum subsistendi nec
+<lb ed="#L" n="36"/>existendi nisi cum actu est in toto, — hunc duplicem modum subsistendi
+<pb ed="#L" n="51"/>
+               <lb ed="#L" n="1"/>et suppositi vel personae quam nata est habere non unita in se! vel
+<lb ed="#L" n="2"/>in supposito potest etiam habere unita divino supposito, sortiens rationem
+<lb ed="#L" n="3"/>suppositi divini cui unitur et aliam rationem suppositi non habens.
+<lb ed="#L" n="4"/>Quando ergo anima sine corpore aut simul cum corpore unitur 
+sup<lb break="no" ed="#L" n="5"/>posito divino, habet rationem suppositi quam nata est habere non unita ',
+<lb ed="#L" n="6"/>et hoc | vel in se vel in composito. Sicut ergo non ? assumpta 
+secun<lb break="no" ed="#L" n="7"/>dum se haberet rationem suppositi incomplete respectu rationis suppositi
+<lb ed="#L" n="8"/>quam haberet in composito, ita etiam unita divino supposito, licet
+<lb ed="#L" n="9"/>habeat rationem divini suppositi, non sul sive secundum se, tamen prout
+<lb ed="#L" n="10"/>ipsa manet imperfecta eo quod pars non actu in toto, videtur quod
+<lb ed="#L" n="11"/>haec ratio suppositi sit incompleta respectu rationis suppositi quam
+<lb ed="#L" n="12"/>haberet, si simul cum corpore esset unita. Anima énim non unita et a
+<lb ed="#L" n="13"/>corpore separata secundum se subsistens non dicitur habere imperfecte
+<lb ed="#L" n="14"/>rationem suppositi, nisi quia imperfecte habet rationem entis, eo quod
+<lb ed="#L" n="15"/>secundum se non est ens completum, sed ? pars entis completi et 
+per<lb break="no" ed="#L" n="16"/>fecti. Et quia licet non inclinetur ad aliquid in quo sit tanquam in
+<lb ed="#L" n="17"/>subiecto ut accidens, inclinatur tamen ad aliquid quod substantialiter
+<lb ed="#L" n="18"/>perficiat et cum quo unum ens et per se et essentialiter. constituat.
+<lb ed="#L" n="19"/>Huiusmodi autem imperfectionem habet etiam cum unitur divino 
+suppo<lb break="no" ed="#L" n="20"/>sito sine corpore, ex qua unione solum habet rationem suppositi quam
+<lb ed="#L" n="21"/>haberet sibi derelicta.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e619">
+               <lb ed="#L" n="22"/>Sicut ergo alterius anima habet actum beatitudinis imperfectae
+<lb ed="#L" n="23"/>quia separata, et ita anima Christi habuit cum separata fuit a 
+corpore<lb break="no" ed="#L" n="24"/>Constat enim quod natura angelica quae secundum se  nata est habere
+<lb ed="#L" n="25"/>perfecte rationem suppositi et personae posset assumi a divino supposito,
+<lb ed="#L" n="26"/>sicut et anima sola sine corpore. Nunc autem natura angelica sic
+<lb ed="#L" n="27"/>assumpta ex unione huiusmodi haberet omnem modum et rationem
+<lb ed="#L" n="28"/>subsistendi  quem nata esset habere etiam secundum se non assumpta ;
+<lb ed="#L" n="29"/>et ideo nullo modo esset imperfecta in ea? ratio suppositi. Sed anima
+<lb ed="#L" n="30"/>separata, aut non sic haberet omnem modum et rationem  suppositi
+<lb ed="#L" n="31"/>quem  nata est habere secundum se, sed solum unum modum qui
+<lb ed="#L" n="32"/>videtur esse imperfectus, quare et actiones suppositi imperfecte haberet;
+<lb ed="#L" n="33"/>— aut aeque perfecte haberet omnimode rationem suppositi et personae
+<lb ed="#L" n="34"/>anima unita sic supposito divino sicut et angelus, et non tunc esset
+<lb ed="#L" n="35"/>causa quare huiusmodi anima naturaliter appeteret suo corpori uniri, si
+<pb ed="#L" n="52"/>
+               <lb ed="#L" n="1"/>posset sine illo omnem modum et rationem essendi et subsistendi
+<lb ed="#L" n="2"/>habere ? et summa illa beatitudine aequaliter perfrui. Ut dicit Augustinus
+<lb ed="#L" n="3"/>ubi supra, ponens causam resumptionis corporum in animabus 
+com<lb break="no" ed="#L" n="4"/>muniter imperfectionem actus beatificantis, quia etiam illud quod subsistit,
+<lb ed="#L" n="5"/>in aliqua natura subsistit, perfectio naturae in qua aliquid subsistit videtur
+<lb ed="#L" n="6"/>exigi ad perfectam rationem subsistendi. Si ergo anima sine. corpore
+<lb ed="#L" n="7"/>non habet perfecte omnem modum suae naturae, videtur quod nec
+<lb ed="#L" n="8"/>perfectum modum subsistendi habere possit, non propter imperfectionem
+<lb ed="#L" n="9"/>subsistentiae divini suppositi, sed propter imperfectionem naturae in
+<lb ed="#L" n="10"/>qua subsistere habet.
+</p>
+            <p xml:id="v27ab7-d1e333-d1e676">
+               <lb ed="#L" n="11"/>Quod ergo ? dicunt quod illud quod agit est illud quod habet rationem
+<lb ed="#L" n="12"/>suppositi, intellipendum est quod si debeat perfecte agere oportet quod
+<lb ed="#L" n="13"/>habeat rationem suppositi secundum modum naturae suae completam et
+<lb ed="#L" n="14"/>perfectam ; sed hoc non fuit in anima Christi separata. — Quod etiam dicitur
+<lb ed="#L" n="15"/>quod huiusmodi appetitus non est voluntarius sive voluntatis ut voluntas,
+<lb ed="#L" n="16"/>sed est voluntatis ut natura sive [est] ut appetitus naturalis, et ideo non
+<lb ed="#L" n="17"/>impedit voluntatem ut voluntas est in suo actu, non videtur verum ; quia
+<lb ed="#L" n="18"/>cum habitus perficientes potentiam inclinent in modum naturae et 
+aequa<lb break="no" ed="#L" n="19"/>liter in dormiente et vigilante, tamen impediunt actionem appetitus quae
+<lb ed="#L" n="20"/>non est secundum huiusmodi inclinationem etiam habitualem, sive etiam
+<lb ed="#L" n="21"/>potentia non potest ita perfecte in actus suos sicut si non esset huiusmodi
+<lb ed="#L" n="22"/>inclinatio etiam habitualis in appetitu. — Hoc etiam videtur contra dictum
+<lb ed="#L" n="23"/>et rationem Augustini. Ad impedimentum enim  actionis videtur sufficere
+<lb ed="#L" n="24"/>quod agens non habeat perfecte omnem modum naturae suae 
+convenien<lb break="no" ed="#L" n="25"/>tem. — Nec obstat illud quod dicitur quod fruebatur perfecte et absque
+<lb ed="#L" n="26"/>impedimento vel retardatione etiam cum patiebatur, licet difficile sit 
+intel<lb break="no" ed="#L" n="27"/>ligere qualiter hoc sit | possibile, nam ex quo  quaelibet potentia habebat
+<lb ed="#L" n="28"/>perfecte suum modum essendi et subsistendi in quantum erat in anima
+<lb ed="#L" n="29"/>actu[s] corpus perficiente, utraque secundum se considerata potuit habere
+<lb ed="#L" n="30"/>suam operationem ? perfecte  absolute considerando, nisi per accidens
+<lb ed="#L" n="31"/>impediretur una ab alia. Ouod impedimentum Deus abstulit dispensative
+<lb ed="#L" n="32"/>praeservando ne gloria animae redundaret in corpus, et ne dolor passionis
+<lb ed="#L" n="33"/>redundaret in partem superiorem, utramque scilicet actionem huiusmodi
+<lb ed="#L" n="34"/>praeservando vel cohibendo, — sicut etiam virtute divina fieri potest quod
+<lb ed="#L" n="35"/>calidum intensum existens perfecte in actu caloris sit approximatum pas-
+<pb ed="#L" n="53"/>
+               <lb ed="#L" n="1"/>sivo et tamen non agit in illud nec illud aliquo modo impediat, ut fuit in
+<lb ed="#L" n="2"/>pueris natura, calido non ita intenso, nec sic virtute divina approxümato
+<lb ed="#L" n="3"/>jraeservato ' alicui passivo, illud afficiente et redeunte. Sic ergo non
+<lb ed="#L" n="4"/>videtur quod propter praedicta non possit dici quin anima Christi aliquo
+<lb ed="#L" n="5"/>modo fuit retardata. — Videretur dicendum quod praedictus appetitus 
+natu<lb break="no" ed="#L" n="6"/>ralis virtute divina fuit a sua inclinatione suspensus si hoc possibile fuit,
+<lb ed="#L" n="7"/>aut intellectus et voluntas in actu fruitionis alias in tantum fortificabatur,
+<lb ed="#L" n="8"/>in? quantum ex huiusmodi ? inclinatione naturali poterat impediri. Per
+<lb ed="#L" n="9"/>dicta  patet responsio ad obiecta secundum utramque viam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

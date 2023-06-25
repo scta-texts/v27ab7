@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="216"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e574"><!-- v27ab7-q3q8 -->
+            <head xml:id="v27ab7-d1e574-Hd1e99">Quaestio 8</head>
+            <head xml:id="v27ab7-d1e574-Hd1e101" type="question-title">
+      Utrum habens talem potestatem possit absolvere in casibus episcopi de iure et consuetudine et retentione reservatis
+    </head>
+            <p xml:id="v27ab7-d1e574-d1e104">
+               <lb ed="#L" n="3"/>QUAESTIO VIII.
+<lb ed="#L" n="4"/>Utrum habens talem potestatem | possit absolvere in. casibus
+<lb ed="#L" n="5"/>episcopis de iure et consuetudine et retentione reservatis.
+</p>
+            <p xml:id="v27ab7-d1e574-d1e113">
+               <lb ed="#L" n="6"/>Ad secundum praedictorum sic proceditur, et arguitur quod habens
+<lb ed="#L" n="7"/>talem potestatem possit absolvere in casibus et cetera, quia habens
+<lb ed="#L" n="8"/>plenam potestatem audiendi confessiones et absolvendi ab illo a quo
+<lb ed="#L" n="9"/>alius habet omnem potestatem quam habet in talibus, sive a superiore
+<lb ed="#L" n="10"/>illus utpote a papa, qui habet plenitudinem potestatis in omnibus in
+<lb ed="#L" n="11"/>quibus episcopi habent aliquam potestatem, potest absolvere virtute talis
+<lb ed="#L" n="12"/>potestatis de omnibus de quibus potest absolvere quicumque episcopus.
+<lb ed="#L" n="13"/>Sed virtute dicti privilegii  habent fratres plenam potestatem audiendi
+<lb ed="#L" n="14"/>confessiones et absolvendi, nec post clausulam qua huiusmodi potestas
+<lb ed="#L" n="15"/>eis datur in dicto privilegio, ponitur aliquid quo restringatur. Quare et
+<lb ed="#L" n="16"/>cetera.
+</p>
+            <p xml:id="v27ab7-d1e574-d1e139">
+               <lb ed="#L" n="17"/>Contra. Quandocumque per aliquod privilegium datur aliquibus
+<lb ed="#L" n="18"/>potestas limitata ita quod ab huiusmodi potestate casus aliqui excipiuntur
+<lb ed="#L" n="19"/>ad quae se non extendit, per privilegium generale sequens non amovetur
+<lb ed="#L" n="20"/>huiusmodi 2» illo!, nisi in secundo fiat mentio de priore per: non obstante,
+<lb ed="#L" n="21"/>sicut in talibus fieri consuevit. Sed fratres praedicatores habent privilegia
+<lb ed="#L" n="22"/>a Clemente  per quae datur eis potestas, ut cum eis committitur
+<pb ed="#L" n="217"/>
+               <lb ed="#L" n="1"/>potestas audiendi confessiones a papa vel a legato et ab ipso, irrequisitis
+<lb ed="#L" n="2"/>sacerdotibus inferioribus, possunt libere audire confessiones et absolvere
+<lb ed="#L" n="3"/>poenitentes, ita tamen quod virtute talis commissionis generalis non
+<lb ed="#L" n="4"/>exfendant! manus ad casus et cetera, nisi etiam super illis eis fiat
+<lb ed="#L" n="5"/>commissio specialis. Cum ergo in dicto privilegio Martini  quod etiam
+<lb ed="#L" n="6"/>habent fratres praedicatores, non fiat mentio de huiusmodi privilegio
+<lb ed="#L" n="7"/>Clementis per: non obstante et cetera, nec in huiusmodi privilegio fiat
+<lb ed="#L" n="8"/>fratribus de dictis casibus commissio specialis, videtur quod ad illos
+<lb ed="#L" n="9"/>non possunt extendere manus suas. Sed eandem videntur habere 
+pote<lb break="no" ed="#L" n="10"/>statem virtute dicti privilegii fratres minores quam habent fratres 
+prae<lb break="no" ed="#L" n="11"/>dicatores. Ergo nec ipsi in dictis casibus absolvere possunt.
+</p>
+            <p xml:id="v27ab7-d1e574-d1e182">
+               <lb ed="#L" n="12"/>Responsio in libro magistri.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

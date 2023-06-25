@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="9"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e101"><!-- v27ab7-q1q5 -->
+            <head xml:id="v27ab7-d1e101-Hd1e99">Quaestio 5</head>
+            <head xml:id="v27ab7-d1e101-Hd1e101" type="question-title">
+      Utrum scientia theologica habeat pro obiecto Deum 
+      simpliciter et absolute vel sub aliqua ratione speciali
+    </head>
+            <p xml:id="v27ab7-d1e101-d1e104">
+               <lb ed="#L" n="11"/>QUAESTIO V.
+<lb ed="#L" n="12"/>Utrum scientia theologica habeat pro obiecto Deum simpliciter
+<lb ed="#L" n="13"/>et absolute vel sub aliqua ratione speciali.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e113">
+               <lb ed="#L" n="14"/>Consequenter quaerebantur quaedam pertinentia ad omnes homines
+<lb ed="#L" n="15"/>generaliter sive de quocumque statu. Primum erat utrum scientia 
+theo<lb break="no" ed="#L" n="16"/>logica habet pro obiecto Deum simpliciter et absolute vel sub aliqua
+<lb ed="#L" n="17"/>ratione speciali.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e124">
+               <lb ed="#L" n="18"/>Et arguebatur quod Deus simpliciter et absolute sive sub  ratione
+<lb ed="#L" n="19"/>absoluta non possit esse subiectum theologiae, quia scientia habet
+<lb ed="#L" n="20"/>rationem et speciem ab obiecto sive a ratione formali obiecti. Sed ratio
+<lb ed="#L" n="21"/>formalis Dei, ut absolute consideratur, non est nisi ratio suae infinitatis.
+<lb ed="#L" n="22"/>Ergo etiam scientia quae esset de ipso sub tali ratione haberet entitatem
+<lb ed="#L" n="23"/>et rationem sive speciem infinitam. Sed hoc est impossibile ponere de
+<lb ed="#L" n="24"/>scientia habita ab homine. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e143">
+               <lb ed="#L" n="25"/>Contra. Deus simpliciter sive sub ratione absoluta est subiectum
+<lb ed="#L" n="26"/>in illa scientia in qua omnia quae considerantur in illa considerantur
+<lb ed="#L" n="27"/>in quantum habent aliquam attributionem ad ipsum. Sed omnia quae in
+<lb ed="#L" n="28"/>theologia considerantur, considerantur in ipsa in quantum habent 
+attri<lb break="no" ed="#L" n="29"/>butionem aliquam ad ipsum Deum. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e156">
+               <pb ed="#L" n="10"/>
+               <lb ed="#L" n="1"/>Respondeo dicendum quod, cum scientia habeat entitatem et speciem
+<lb ed="#L" n="2"/>sive rationem ab obiecto, secundum formalem rationem obiecti, secundum
+<lb ed="#L" n="3"/>quam est consideratio de ipso in scientia, supposito quod Deus sit 
+subiec<lb break="no" ed="#L" n="4"/>tum in theologia, potest quaeri sub qua ratione sit subiectum in scientia
+<lb ed="#L" n="5"/>theologiae, aut secundum modum secundum quem est tradita, aut 
+sim<lb break="no" ed="#L" n="6"/>pliciter et absolute secundum modum secundum quem ' nata est scientia
+<lb ed="#L" n="7"/>haberi de Deo ab homine fideli secundum quod fidelis. Si enim de
+<lb ed="#L" n="8"/>naturalibus non esset? tradita scientia nisi de corpore mobili secundum
+<lb ed="#L" n="9"/>quod est mobile ad situm, licet esset nata esse scientia de corpore mobili
+<lb ed="#L" n="10"/>secundum quod mobile simpliciter et absolute, posset quaeri isto, duplici
+<lb ed="#L" n="11"/>modo de subiecto scientiae naturalis. Et diceretur quod subiectum
+<lb ed="#L" n="12"/>scientiae naturalis ut tradita est, est? corpus mobile sub hac determinata
+<lb ed="#L" n="13"/>ratione, qua scilicet mobile ad situm, et non sub ratione absoluta qua
+<lb ed="#L" n="14"/>scilicet est mobile simpliciter. Subiectum tamen scientiae naturalis, ut
+<lb ed="#L" n="15"/>nata est esse de corpore mobili, est ipsum corpus mobile secundum se
+<lb ed="#L" n="16"/>sub ratione qua mobile est simpliciter. Ita in proposito.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e195">
+               <lb ed="#L" n="17"/>Quia enim theologia videtur esse scientia tradita principaliter propter
+<lb ed="#L" n="18"/>hominem lapsum reparandum, ut agnosceret lapsum suum et modum
+<lb ed="#L" n="19"/>reparationis et ad quid reparatur et huiusmodi, — unde etiam quasi per
+<lb ed="#L" n="20"/>totam Scripturam sacram videtur tradi cognitio eorum quae ad hoc 
+per<lb break="no" ed="#L" n="21"/>tinent, — hoc quidem attendentes, aliqui  dicunt quod Deus sub ratione
+<lb ed="#L" n="22"/>qua reparator et glorificator vel huiusmodi est subiectum.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e211">
+               <lb ed="#L" n="23"/>Videtur tamen quod deberent dicere quod subiectum theologiae sive
+<lb ed="#L" n="24"/>scientiae quam fidelis secundum quod fidelis  natus est habere de Deo,
+<lb ed="#L" n="25"/>non est Deus sub hac speciali ratione ; quia si etiam  talis consideratio,
+<lb ed="#L" n="26"/>non est proprie de Deo, sed potius de homine vel de bono hominis,
+<lb ed="#L" n="27"/>sive de effectu Dei circa hominem vel naturam . Unde cum dicitur
+<lb ed="#L" n="28"/>quod in hac scientia (lacuna) Deus est subiectum vel obiectum, in 
+quan<lb break="no" ed="#L" n="29"/>tum Deus est glorificator, restaurator vel suppletor, | constat quod ibi
+<lb ed="#L" n="30"/>consideratur Deus in quantum est causa efficiens istorum. Non enim dicitur
+<lb ed="#L" n="31"/>restaurator vel suppletor defectuum rationalis naturae, nisi secundum
+<lb ed="#L" n="32"/>rationem causae efficientis. Licet etiam. posset dici glorificator dupliciter,
+<lb ed="#L" n="33"/>scilicet in ratione causae finalis et obiectivae, secundum quod beatitudo
+<pb ed="#L" n="11"/>
+               <lb ed="#L" n="1"/>dicitur consistere ! in visione aperta deitatis, sic tamen non accipitur hic,
+<lb ed="#L" n="2"/>sed secundum quod est glorificator in ratione causae efficientis, in 
+quan<lb break="no" ed="#L" n="3"/>tum scilicet nostram gloriam producit, dona et beneficia circa nos 
+effi<lb break="no" ed="#L" n="4"/>ciendo per quae gloriam possumus adipisci. Manifestum est autem quod
+<lb ed="#L" n="5"/>sic considerare de Deo [quod] non est considerare de ipso secundum
+<lb ed="#L" n="6"/>quod est aliquod ens perfectissimum secundum se, sed est considerare
+<lb ed="#L" n="7"/>principaliter de restauratione, reparatione vel suppletione defectuum 
+ratio<lb break="no" ed="#L" n="8"/>nalis creaturae et de eius glorificatione, quae non sunt ipse Deus, sed
+<lb ed="#L" n="9"/>quidam eius effectus circa creaturam. Nec esset aliqua scientia apud fideles
+<lb ed="#L" n="10"/>in qua Deus esset subiectum, et quae consideraret ? de Deo, et de his quae
+<lb ed="#L" n="11"/>conveniunt sibi secundum id? quod est ens perfectissimum secundum
+<lb ed="#L" n="12"/>seipsum. Et quia huiusmodi restauratio et glorificatio, licet fiat a Deo
+<lb ed="#L" n="13"/>principaliter agente, fit tamen aliqualiter creatura coagente, — cooperatores
+<lb ed="#L" n="14"/>enim Dei sumus  —, ista scientia esset similiter  magis practica quam
+<lb ed="#L" n="15"/>speculativa.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e272">
+               <lb ed="#L" n="16"/>Item, cum ut dictum est Deus non solum sit cognoscibilis? ut
+<lb ed="#L" n="17"/>glorificator effective, sed etiam ut glorificator formaliter et obiective quod
+<lb ed="#L" n="18"/>idem est quod esse glorificatorem finaliter (sic autem cognoscitur a beatis
+<lb ed="#L" n="19"/>per apertam visionem divinae essentiae) constat quod sic cognoscitur
+<lb ed="#L" n="20"/>Deus secundum se et absolutissime secundum id quod est in natura sua
+<lb ed="#L" n="21"/>perfectissime, prout dicitur primae lohannis  tertio : videbimus eum
+<lb ed="#L" n="22"/>sicuti est. Et multum differt illa cognitio ab illa qua cognoscitur Deus
+<lb ed="#L" n="23"/>ut glorificator primo modo, sicut differt cognitio creaturae et creatoris;
+<lb ed="#L" n="24"/>et cognitio non solum secundum quod causa sed secundum? id quod
+<lb ed="#L" n="25"/>est in seipso et cognitio effectus. Videtur ergo ista | positio irrationalis
+<lb ed="#L" n="26"/>in quantum ponit quod Deus potest cognosci ut glorificator effective,
+<lb ed="#L" n="27"/>et videtur negare quod non sit cognoscibilis ut glorificator obiective ;
+<lb ed="#L" n="28"/>cum tamen unum videatur sequi ad aliud, quia non est glorificator effective
+<lb ed="#L" n="29"/>nisi quia nos perducit ad gloriam in qua ipsum videbimus obiective,
+<lb ed="#L" n="30"/>in se autem non.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e307">
+               <lb ed="#L" n="31"/>Item, constat quod licet Deus non ponatur subiectum in metaphysica,
+<lb ed="#L" n="32"/>tamen metaphysicus considerat de Deo non sub ratione aliqua 
+deter<lb break="no" ed="#L" n="33"/>minata, sed simpliciter et absolute. Quamvis enim scientia humana non
+<lb ed="#L" n="34"/>possit cognoscere de Deo quae ei conveniant nisi ex creaturis, tamen non
+<pb ed="#L" n="12"/>
+               <lb ed="#L" n="1"/>est negandum quin ex illis deveniat in cognitionem Dei quantum ad ea
+<lb ed="#L" n="2"/>quae sibi conveniunt secundum se et absolute, sicut patet per ea quae
+<lb ed="#L" n="3"/>traduntur in duodecimo Metaphysicae . Et secundum hoc metaphysica
+<lb ed="#L" n="4"/>verius esset dicenda scientia et verius et universalius considerare de Deo
+<lb ed="#L" n="5"/>quam illa quae considerat de Deo solum secundum quod glorificator vel
+<lb ed="#L" n="6"/>defectuum suppletor.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e334">
+               <lb ed="#L" n="7"/>Item, si homo lapsus non fuisset, nihilominus nata esset scientia
+<lb ed="#L" n="8"/>quae esset! de Deo. Secundum plures alias rationes etiam a fideli et est
+<lb ed="#L" n="9"/>cognoscibilis et creditus fuisse cognitus  a prophetis, apostolis et sacris
+<lb ed="#L" n="10"/>doctoribus.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e345">
+               <lb ed="#L" n="11"/>Propter quod aliqui modum istum reprobantes, ad evitandum 
+incon<lb break="no" ed="#L" n="12"/>veniens quod in argumento primo inducitur, dicunt quod Deus sub ratione
+<lb ed="#L" n="13"/>infinita potest dici subiectum scientiae dupliciter. Uno modo ut utrumque,
+<lb ed="#L" n="14"/>scilicet et res ipsa quae Deus est et ipsa ratio infinitatis sit obiectum
+<lb ed="#L" n="15"/>sclentiae ; alio modo ut solum res subiecta illi rationi sit obiectum ?
+<lb ed="#L" n="16"/>scientiae, sic tamen ut est sub ratione infinitatis, ut ipsa infinitas sive
+<lb ed="#L" n="17"/>ratio infinitatis sit quoddam annexum obiecto sic quod non sit obiectum
+<lb ed="#L" n="18"/>sub ratione contraria ; illa tamen ratio non sit obiectum scientiae. Primo
+<lb ed="#L" n="19"/>modo Deus est obiectum suae scientiae solius et differt secundum hoc
+<lb ed="#L" n="20"/>scientia Dei quae est de ipso a scientia hominum et angelorum penes
+<lb ed="#L" n="21"/>subiectum  absolutum et determinatum. Et ex hoc respondent dicentes
+<lb ed="#L" n="22"/>quod scientia cuius obiectum est Deus infinitus sub ratione infinitatis,
+<lb ed="#L" n="23"/>ut scilicet ipsa ratio infinitatis est obiectum, est infinita, non autem illa  |
+<lb ed="#L" n="24"/>in qua ratio infinitatis est annexa ipsi obiecto.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e378">
+               <lb ed="#L" n="25"/>Sed ista distinctio non videtur conveniens, nec ad evadendum 
+dic<lb break="no" ed="#L" n="26"/>tum inconveniens videtur necessaria. Primum patet quia  cum infinitum
+<lb ed="#L" n="27"/>accipiatur pro " quodam attributo pertinente ad divinam perfectionem
+<lb ed="#L" n="28"/>sicut aeternitas 5, simplicitas et alia huiusmodi, sicut non dicitur quod
+<lb ed="#L" n="29"/>Deus sit obiectum suae scientiae sub ratione aeternitatis vel simplicitatis ,
+<lb ed="#L" n="30"/>ita etiam nec sub ratione infinitatis. Talia enim respectu Dei non dicunt
+<lb ed="#L" n="31"/>rationem formalem subiecti, sed quasi quasdam proprietates vel quasi
+<lb ed="#L" n="32"/>quasdam passiones ipsius, supponentes subiectum secundum suam 
+ratio<lb break="no" ed="#L" n="33"/>nem formalem, nullum talium specialiter determinantem, omnia tamen
+<lb ed="#L" n="34"/>secundum considerationem universalem et absolutam indistincte inclu-
+<pb ed="#L" n="13"/>
+               <lb ed="#L" n="1"/>dentem, Nullius ergo scientiae subiectum debet poni sub ratione 
+infini<lb break="no" ed="#L" n="2"/>tatis vel sub ratione consimili determinata.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e409">
+               <lb ed="#L" n="3"/>Item, ponere quod Deus sit subiectum alicuius scientiae non in
+<lb ed="#L" n="4"/>quantum infinitas cadit per se sub obiecto, vel in quantum est ratio sub
+<lb ed="#L" n="5"/>qua consideratur per se obiectum, sed in quantum infinitas  est annexa, —
+<lb ed="#L" n="6"/>et per esse annexum intelligatur quod sub generali et universali ratione ?
+<lb ed="#L" n="7"/>sub qua Deus per se est obiectum una cum aliis condicionibus ad Dei
+<lb ed="#L" n="8"/>perfectionem pertinentibus indistincte tamen includa[n]tur, — non videtur
+<lb ed="#L" n="9"/>inconveniens.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e427">
+               <lb ed="#L" n="10"/>Item, in hoc quod dicitur quod Deus isto modo absolute consideratus
+<lb ed="#L" n="11"/>est obiectum scientiae creaturae rationalis, sed obiectum suae  scientiae est
+<lb ed="#L" n="12"/>sub ratione determinata, includitur inconveniens, scilicet quod nobiliore
+<lb ed="#L" n="13"/>modo, quia universaliore, est obiectum scientiae creaturae quam sul ipsius,
+<lb ed="#L" n="14"/>et quod  scientia qua Deus cognoscit se videtur esse sub scientia qua
+<lb ed="#L" n="15"/>cognoscitur a creatura secundum unum modum subalternationis positum
+<lb ed="#L" n="16"/>a Philosopho. - Sed ad hoc respondent praedicti qui, ut in pluribus,
+<lb ed="#L" n="17"/>nimis leviter ponunt contraria his quae in philosophia rationabiliter sunt
+<lb ed="#L" n="18"/>posita; et dicunt quod illud quod hic concluditur non est verum ; immo
+<lb ed="#L" n="19"/>scientia quam habet creatura de Deo vere subalternatur scientiae quam
+<lb ed="#L" n="20"/>habet Deus de seipso secundum modum praedictum. Et est iste  modus
+<lb ed="#L" n="21"/>subalternationis alius et contrarius uni modorum positorum a Philosopho,
+<lb ed="#L" n="22"/>quia haec scientia considerans subiectum contractum et cum 
+determi<lb break="no" ed="#L" n="23"/>natione subalternat scientiam  considerantem illud simpliciter et sine
+<lb ed="#L" n="24"/>determinatione . — Sed quia irrationabilitas huius dicti secundum se
+<lb ed="#L" n="25"/>satis patet et manifeste contradicit bene dictis a Philosopho, non  indiget
+<lb ed="#L" n="26"/>speciali reprobatione.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e466">
+               <lb ed="#L" n="27"/>Praeterea diceretur non minus scientia creaturae de Deo infinita, si
+<lb ed="#L" n="28"/>consideret infinitatem Dei ut annexam rationem Deo e[s]t subiectum 
+con<lb break="no" ed="#L" n="29"/>siderationis quam si consideret ipsam ut est ratio ipsius subiecti quod
+<lb ed="#L" n="30"/>non importet !! aliam rem uno modo et aliam alio modo. Si enim propter
+<lb ed="#L" n="31"/>infinitatem obiecti ? scientiae sit scientia infinita, et secundum istum
+<lb ed="#L" n="32"/>modum ita realiter obicitur rationi ipsius intellectus infinitas divina, sicut !?
+<lb ed="#L" n="33"/>secundum alium modum, licet minus principaliter, utcumque hic sumatur
+<lb ed="#L" n="34"/>infinitas sicut ibi. Non enim debet dici quod Deus ' sit obiectum scientiae
+<pb ed="#L" n="14"/>
+               <lb ed="#L" n="1"/>alicuius in quantum infinitas est sibi annexa, et tamen illa scientia 
+ratio<lb break="no" ed="#L" n="2"/>nem infinitatis non apprehendat, ita quod solum apprehendat quod infinitas
+<lb ed="#L" n="3"/>est in Deo, sed qualis est non cognoscat. Sic enim non cognosceret
+<lb ed="#L" n="4"/>infinitatem Dei, nec ut rationem principalem obiecti, nec ut rationem
+<lb ed="#L" n="5"/>annexam illi, sed tantum sciret quod est sibi annexum et quid sit ignoraret;
+<lb ed="#L" n="6"/>quod est inconveniens cum, ut dictum est, ipse Deus non sit nisi infinitas
+<lb ed="#L" n="7"/>quaedam, nec infinitas super essentiam divinam aliquid reale addat. 
+Impos<lb break="no" ed="#L" n="8"/>sibile est quod videns non solum quod Deus est, sed etiam quid est Deus,
+<lb ed="#L" n="9"/>et qualis est, non videat etiam non solum quod in Deo est infinitas, sed
+<lb ed="#L" n="10"/>quid est, et qualis est illa infinitas.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e511">
+               <lb ed="#L" n="11"/>Et ideo videtur dicendum quod Deus simpliciter et absolute | sub ea
+<lb ed="#L" n="12"/>ratione generali sub qua omnium cognoscendorum a fideli ad ipsum potest
+<lb ed="#L" n="13"/>fieri attributio, sive secundum quod apprehendit omnes rationes secundum
+<lb ed="#L" n="14"/>quas potest haberi de ipso cognitio a fideli, debet dici subiectum in hac
+<lb ed="#L" n="15"/>scientia; sicut etiam a ponentibus Deum esse subiectum in metaphysica
+<lb ed="#L" n="16"/>dicitur | quod non sub ratione aliqua speciali est subiectum, sed 
+simpli<lb break="no" ed="#L" n="17"/>citer et absolute sub ea ratione generali et absoluta sub qua 
+cognoscen<lb break="no" ed="#L" n="18"/>dorum omnium naturali intelligentia ad ipsum potest fieri attributio, sive
+<lb ed="#L" n="19"/>secundum quod comprehendit omnes rationes secundum quas potest
+<lb ed="#L" n="20"/>haberi de ipso cognitio naturalis. Unde et similiter secundum hoc 
+dicen<lb break="no" ed="#L" n="21"/>dum quod subiectum scientiae theologiae, simpliciter loquendo de ipsa
+<lb ed="#L" n="22"/>scientia, est Deus simpliciter sive sub  absoluta ratione, id est non sub
+<lb ed="#L" n="23"/>aliqua una determinata per quam aliae excludantur. Cum enim fidei 
+aenig<lb break="no" ed="#L" n="24"/>maticae viatorum, cuius obiectum est Deus, succedat visio aperta 
+bea<lb break="no" ed="#L" n="25"/>torum ; non debet autem dici quod Deus sub aliqua determinata ratione
+<lb ed="#L" n="26"/>videatur a beatis, sed secundum se et absolute, sive sub ratione absoluta
+<lb ed="#L" n="27"/>in qua implicite continentur omnes rationes speciales sub quibus Deus est
+<lb ed="#L" n="28"/>cognoscibilis in seipso, (quoniam si non cognosceretur Deus a beato nisi
+<lb ed="#L" n="29"/>sub aliqua ratione determinata et remaneret incognitus sub alia, non
+<lb ed="#L" n="30"/>posset intellectus in hoc quietari, quod est contra rationem beatitudinis) ;
+<lb ed="#L" n="31"/>immo cum omnes huiusmodi rationes sub quibus Deus dicitur 
+cognos<lb break="no" ed="#L" n="32"/>cibilis intelligantur ut quaedam perfectiones circa divinam naturam, quae
+<lb ed="#L" n="33"/>non dicunt rem aliam ab ipsa essentia divina, sed ut ad Deum referuntur,
+<lb ed="#L" n="34"/>differunt ratione solum; et cognoscere Deum secundum id ? quod est 
+sim<lb break="no" ed="#L" n="35"/>pliciter et absolute ut cognoscitur a beatis est etiam cognoscere ipsum
+<lb ed="#L" n="36"/>sub talibus perfectionibus ; — ideo beati cognoscentes Deum per speciem,
+<lb ed="#L" n="37"/>visione aperta, ipsum sub istis rationibus etiam distincte et perfecte
+<pb ed="#L" n="15"/>
+               <lb ed="#L" n="1"/>cognoscunt; viatores etiam Deum cognoscentes in aenigmate, ipsum sub 
+<lb ed="#L" n="2"/>huiusmodi rationibus, licet minus distincte et minus perfecte, cognoscunt.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e579">
+               <lb ed="#L" n="3"/>Praeterea, quicquid est in Deo est infinitum, et est unum, simplex,
+<lb ed="#L" n="4"/>et realiter indistinctum ?. Ergo sub nulla ratione potest dici Deus cognosci
+<lb ed="#L" n="5"/>quae non sit infinita, et quae non sit realiter id  ipsum cum quacumque
+<lb ed="#L" n="6"/>alia, licet in huiusmodi rationibus distinctio aliqua ponatur per actum
+<lb ed="#L" n="7"/>rationis simplicitatem Dei ad aliquam diversitatem in creaturis conferentis
+<lb ed="#L" n="8"/>et comparantis  Et secundum hoc infinitas eo. modo quo dicit aliquid
+<lb ed="#L" n="9"/>ad perfectionem Dei pertinens, et realiter idem existens cum ipso Deo
+<lb ed="#L" n="10"/>et cum quacumque alia ratione in Deo, cognoscitur a quocumque divinam
+<lb ed="#L" n="11"/>essentiam cognoscente. Et si propter hoc diceretur scientia qua Deus
+<lb ed="#L" n="12"/>cognoscitur infinita, non posset cognosci Deus secundum suam 
+essen<lb break="no" ed="#L" n="13"/>tiam et naturam nisi scientia infinita, quod est falsum ; quia cum infinitas
+<lb ed="#L" n="14"/>in essentia divina non addat aliquam rem, quantum cognoscit aliquis de
+<lb ed="#L" n="15"/>Deo, tantum cognoscit de eius infinitate. Et sicut dicitur quod essentia
+<lb ed="#L" n="16"/>divina, quae est quaedam infinitas sive quoddam pelagus infinitum,
+<lb ed="#L" n="17"/>cognoscitur sub aliqua ratione finita, similiter etiam est dicendum quod
+<lb ed="#L" n="18"/>infinitas divina cognoscitur sub ratione finita. Sed cum ratio finita et
+<lb ed="#L" n="19"/>infinita sint contrariae, secundum hoc potest poni quod Deus in sua
+<lb ed="#L" n="20"/>essentia de cuius ratione est infinitas , aeternitas et cetera ", aperte
+<lb ed="#L" n="21"/>videatur, et similiter ipsa infinitas et aeternitas divina ; et tamen sub
+<lb ed="#L" n="22"/>ratione finita vel speciali, quae quidem 7-075? sit eius secundum se et ad
+<lb ed="#L" n="23"/>eius perfectionem simpliciter pertinens ? videatur, quia nulla talis in Deo
+<lb ed="#L" n="24"/>esse potest.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e629">
+               <lb ed="#L" n="25"/>Circa praedicta etiam est intelligendum quod, licet secundum 
+Dama<lb break="no" ed="#L" n="26"/>scenum  nomine Dei intelligatur realiter quoddam pelagus infinitum,
+<lb ed="#L" n="27"/>ex hoc tamen non habetur quod eadem sit ratio deitatis absolute et
+<lb ed="#L" n="28"/>ratio infinitatis suae ; sicut etiam qui dicit Deum dicit quoddam ens
+<lb ed="#L" n="29"/>aeternum, et tamen non est eadem ratio !" deitatis et aeternitatis. Et ideo
+<lb ed="#L" n="30"/>non potest concludi quod qui ponit Deum esse subiectum alicuius 
+scien<lb break="no" ed="#L" n="31"/>tiae sub ratione deitatis, sive sub ratione absoluta, ponat ipsum esse
+<lb ed="#L" n="32"/>subiectum sub ratione infinitatis; sed verum est quod et ratio ista et
+<lb ed="#L" n="33"/>aliae rationes in tali subiecto realiter includuntur, et de ipso cognoscibiles
+<pb ed="#L" n="16"/>
+               <lb ed="#L" n="1"/>sunt ab illo, ad cuius scientiam pertinet consideratio de Deo secundum
+<lb ed="#L" n="2"/>se et absolute.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e658">
+               <lb ed="#L" n="3"/>Quia ergo, licet ad quantitatem litterae plura tradantur cognoscibilia
+<lb ed="#L" n="4"/>de Deo sub praedictis rationibus propriis quam sub aliis; quia ista scientia
+<lb ed="#L" n="5"/>traditur homini ut viatori et ut eius adiutorio tendat ad beatitudinem
+<lb ed="#L" n="6"/>aeternam ; quia etiam quaedam cognoscibilia traduntur de ipso quae
+<lb ed="#L" n="7"/>conveniunt Deo secundum id quod est secundum se et absolute, ut quod
+<lb ed="#L" n="8"/>trinus et cetera, — ideo etiam videtur dicendum quod Deus est subiectum
+<lb ed="#L" n="9"/>theologiae etiam modo quo tradita est simpliciter et absolute . 
+Verum<lb break="no" ed="#L" n="10"/>tamen sciendum est quod, licet Deus consideretur in hac scientia sub
+<lb ed="#L" n="11"/>ratione absoluta, non | tamen est scientia infinita qua Deus infinitus
+<lb ed="#L" n="12"/>cognoscitur, sicut scientia secundum quam Deus seipsum infinitum infinite
+<lb ed="#L" n="13"/>apprehendit; quia nec etiam videtur a beatis ut eorum scientia ex infinitate
+<lb ed="#L" n="14"/>visa sit infinita, quia etiam ex parte videntium videtur  modo finito. Cum
+<lb ed="#L" n="15"/>enim actus agentis recipiatur in subiecto, secundum modum et 
+disposi<lb break="no" ed="#L" n="16"/>tionem ilius recipientis et non omnino secundum modum eius quod
+<lb ed="#L" n="17"/>recipitur, Deus infinitus, prout est obiectum intellectus increati infiniti,
+<lb ed="#L" n="18"/>causat cognitionem infinitam, sed respectu creati et finiti causat scientiam
+<lb ed="#L" n="19"/>finitam. Et est scientia finita ratione subiecti finiti; est tamen de obiecto
+<lb ed="#L" n="20"/>infinito. Si enim supponendum esset quod Deus a creatura non posset
+<lb ed="#L" n="21"/>cognosci nisi sub ratione finita, cessaret difficultas quam patiuntur qui
+<lb ed="#L" n="22"/>ponunt quod beati vident[es] Deum visione aperta actu finito potentiae
+<lb ed="#L" n="23"/>finitae obiectum infinitum apprehendente, cum finiti ad infinitum non sit
+<lb ed="#L" n="24"/>proportio.
+</p>
+            <p xml:id="v27ab7-d1e101-d1e708">
+               <lb ed="#L" n="25"/>Ad argumentum in oppositum | est dicendum quod, cum dicitur quod
+<lb ed="#L" n="26"/>actus intellectus habet formam et speciem ab obiecto, non est intelligendum
+<lb ed="#L" n="27"/>quod eamdem speciem et formam realem habeat quam habet obiectum, ut
+<lb ed="#L" n="28"/>videlicet actus quo intelligitur Deus sit vere et realiter Deus, et actus quo
+<lb ed="#L" n="29"/>intelligitur infinitum sit vere et realiter infinitus. Sed est intelligendum
+<lb ed="#L" n="30"/>quod actus intelligendi est quaedam similitudo causata ab obiecto, et
+<lb ed="#L" n="31"/>secundum diversitatem obiectorum causantur diversi actus qui sunt 
+diver<lb break="no" ed="#L" n="32"/>sae similitudines illorum obiectorum. Sicut ergo conceditur quod 
+intel<lb break="no" ed="#L" n="33"/>lectus alicuius cognoscit Deum, tamen per actum intelligendi qui non est
+<lb ed="#L" n="34"/>Deus nec creator, sed est quaedam similitudo Dei in intellectu per quam
+<lb ed="#L" n="35"/>intellectus Deo maxime assimilatur, — secundum illud primae Iohannis 
+<pb ed="#L" n="17"/>
+               <lb ed="#L" n="1"/>tertio: <quote xml:id="v27ab7-d1e101-Qd1e738">cum apparuerit, simüles ei erimus, quoniam videbimus eum. sicuti
+<lb ed="#L" n="2"/>est</quote>, — ita etiam concedendum est quod intellectus finitus cognoscit 
+obiec<lb break="no" ed="#L" n="3"/>tum infinitum per actum qui non est infinitus, similitudine repraesentativa
+<lb ed="#L" n="4"/>talis obiecti finita eo quod est in subiecto  finito recepta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

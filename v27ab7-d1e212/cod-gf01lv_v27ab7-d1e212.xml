@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="36"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e212"><!-- v27ab7-q1q15 -->
+            <head xml:id="v27ab7-d1e212-Hd1e99">Quaestio 15</head>
+            <head xml:id="v27ab7-d1e212-Hd1e101" type="question-title">
+      Utrum monasterium aliquod habens sub se aliquem prioratum 
+      fundatum de bonis alicuius defuncti hac intentione ut de illis ministrantes 
+      in illo prioratu sustententur et ut etiam hospitalitates et eleemosynae 
+      in illo loco possint fieri, 
+      convenienter possit tali prioratui de novo imponere aliquod onus
+    </head>
+            <p xml:id="v27ab7-d1e212-d1e104">
+               <lb ed="#L" n="15"/>QUAESTIO XV.
+<lb ed="#L" n="16"/>Utrum monasterium aliquod habens sub se aliquem prioratum
+<lb ed="#L" n="17"/>fundatum de bonis alicuius defuncti hac intentione ut de
+<lb ed="#L" n="18"/>illis. ministrantes in. illo prioratu. sustententur et. ut. etiam
+<lb ed="#L" n="19"/>hospitalitates et. eleemosynae in. illo loco possint fieri, 
+conve<lb break="no" ed="#L" n="20"/>nienter possit tali prioratui de novo imponere aliquod onus.
+</p>
+            <p xml:id="v27ab7-d1e212-d1e120">
+               <lb ed="#L" n="21"/>Postea quaerebatur aliud pertinens ad gubernationem temporalium
+<lb ed="#L" n="22"/>bonorum videlicet utrum monasterium aliquod sive abbas habens sub se
+<lb ed="#L" n="23"/>aliquem prioratum fundatum de | bonis alicuius defuncti hac intentione
+<lb ed="#L" n="24"/>ut de bonis  illis ministrantes in illo prioratu sustententur et ut etiam
+<lb ed="#L" n="25"/>hospitalitates et eleemosynae in illo loco secundum facultatum 
+quantita<lb break="no" ed="#L" n="26"/>tem possint fieri convenienter, possit tali prioratui de novo imponere
+<lb ed="#L" n="27"/>aliquod onus utpote quod monasterio principali vel sibi teneatur  singulis
+<pb ed="#L" n="37"/>
+               <lb ed="#L" n="1"/>annis reddere aliquam pensionem. Et arguebatur quod tale monasterium
+<lb ed="#L" n="2"/>possit imponere ! tali prioratui tale onus, quia membra inferiora tenentur
+<lb ed="#L" n="3"/>capiti superiori subvenire et subministrare et caput potest ad suam 
+utili<lb break="no" ed="#L" n="4"/>tatem eis uti. Sed prioratus praedictus supponitur esse membrum dicti
+<lb ed="#L" n="5"/>monasteri. Ergo poterit ei aliquod onus huiusmodi imponi ad capitis
+<lb ed="#L" n="6"/>subsidium. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e212-d1e153">
+               <lb ed="#L" n="7"/>Contra. Non debet aliquid fieri per quod fundatoris intentio 
+defrau<lb break="no" ed="#L" n="8"/>detur. Sed per impositionem talis oneris defraudaretur intentio dicti
+<lb ed="#L" n="9"/>fundatoris, quia ex hoc sequeretur diminutio numeri ministrantium, 
+eleemo<lb break="no" ed="#L" n="10"/>synarum et huiusmodi. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e212-d1e165">
+               <lb ed="#L" n="11"/>Respondeo dicendum quod cum intentio et devotio fidelium circa
+<lb ed="#L" n="12"/>ecclesiastica praecipue sit observanda nisi necessitas vel utilitas cogat
+<lb ed="#L" n="13"/>vel inducat ad immutandum , nec tunc contrariari proprie contingit 
+inten<lb break="no" ed="#L" n="14"/>tioni vel devotioni praedictae saltem quam intelligendum est habere
+<lb ed="#L" n="15"/>fideles in talia disponendo saltem in habitu et implicite — prout etiam
+<lb ed="#L" n="16"/>dicitur : non est fractor voti qui illud non implet quia non potest 
+neces<lb break="no" ed="#L" n="17"/>sitate ipsum excusante, vel cum ? illud commutat in melius, — hinc est
+<lb ed="#L" n="18"/>quod in casu proposito abbas non potest imponere tali prioratui tale
+<lb ed="#L" n="19"/>onus  nisi ob necessitatem vel magnam utilitatem non privatam sed 
+com<lb break="no" ed="#L" n="20"/>munem et hoc tamen non nisi auctoritate superioris scilicet episcopi
+<lb ed="#L" n="21"/>(Extra de censibus, capitulo Prohibemus et Praeterea illi[us]) . Omnes
+<lb ed="#L" n="22"/>enim tales mutationes, quibus receditur ab his quae regulariter et 
+com<lb break="no" ed="#L" n="23"/>muniter sunt observanda, dispensationes quaedam sunt. Unde coniungere
+<lb ed="#L" n="24"/>vel dividere beneficia et huiusmodi non debent fieri nisi ex causa 
+ratio<lb break="no" ed="#L" n="25"/>nabili et iusta. Si ergo monasterium multum indigeat et magis expedit
+<lb ed="#L" n="26"/>ad Ecclesiae utilitatem quod  monasterio tamquam capiti bene 
+provi<lb break="no" ed="#L" n="27"/>deatur quam prioratui, nec hoc possit fieri bono modo nisi de bonis
+<lb ed="#L" n="28"/>dicti monasterii aliqua abstrahantur vel aliqua huiusmodi interveniant ,
+<lb ed="#L" n="29"/>potest fieri. Si autem huiusmodi onus debet imponi, faciendum est hoc
+<lb ed="#L" n="30"/>illo prioratu vacante, vel ex intervallo post provisionem factam de 
+con<lb break="no" ed="#L" n="31"/>sensu eius cui collatum est beneficium si consuevit conferri canonice
+<lb ed="#L" n="32"/>et ad perpetuitatem, non ad voluntatem superioris; alioquin videretur
+<lb ed="#L" n="33"/>committi simonia. Instituens ergo vel fundans talem prioratum quia
+<lb ed="#L" n="34"/>transtulit dispositionem illius Ecclesiae, sua intentione non obstante
+<pb ed="#L" n="38"/>
+               <lb ed="#L" n="1"/>potest huiusmodi mutatio ex causa fieri, nisi forte ex institutione 
+reti<lb break="no" ed="#L" n="2"/>nuisset sibi aliquod quod per hoc non remaneret ei salvum, tunc enim
+<lb ed="#L" n="3"/>requirendus esset consensus eius. De hoc Extra de iure patronatus,
+<lb ed="#L" n="4"/>capitulo Nobis .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

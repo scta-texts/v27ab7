@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="329"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f040"><!-- v27ab7-q4short-q4 -->
+            <head xml:id="v27ab7-d1f040-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-d1f040-Hd1e101" type="question-title">
+      Utrum, si Deus posset facere angelum perfectiorem quolibet dato in infinitum,
+      oporteret quemlibet eorum pertinere ad aliquam hierarchiam nunc existentium
+    </head>
+            <p xml:id="v27ab7-d1f040-d1e104">
+               <pb ed="#L" n="329"/>
+               <lb ed="#L" n="1"/>QUAESTIO IV
+<lb ed="#L" n="2"/>(BREVIS)
+<lb ed="#L" n="3"/>Utrum, si Deus posset facere angelum perfectiorem quolibet dato in infinitum,
+<lb ed="#L" n="4"/>oporteret quemlibet eorum pertinere ad aliquam hierarchiam nunc existentium .
+</p>
+            <p xml:id="v27ab7-d1f040-d1e117">
+               <lb ed="#L" n="5"/>Postea quaerebatur circa naturam angelicam unum, utrum scilicet si' Deus
+<lb ed="#L" n="6"/>posset facere angelum perfectiorem quolibet dato in infinitum, oporteret quemlibet
+<lb ed="#L" n="7"/>eorum pertinere ad aliquam hierarchiam nunc existentium, Et arguitur quod non, quia
+<lb ed="#L" n="8"/>in illo quod certis limitibus clauditur non potest esse processus in infinitum. Sed
+<lb ed="#L" n="9"/>quaelibet hierarchia certis limitibus clauditur. Ergo si possibilis  est processus in
+<lb ed="#L" n="10"/>infinitum in angelis, non possunt omnes angeli possibiles | fieri pertinere ad aliquam
+<lb ed="#L" n="11"/>hierarchiam nunc existentium. P
+</p>
+            <p xml:id="v27ab7-d1f040-d1e135">
+               <lb ed="#L" n="12"/>Contra. Si esset possibilis processus in infinitum in viventibus materialibus ?,
+<lb ed="#L" n="13"/>oporteret tamen omnia viventia possibilia fieri pertinere ad aliquem trium modorum
+<lb ed="#L" n="14"/>communium vitae, scilicet ad vegetativum vel sensitivum vel motivum secundum
+<lb ed="#L" n="15"/>locum. Ergo a simili posito processu in infinitum in angelis omnes angeli possibiles
+<lb ed="#L" n="16"/>fieri pertinent ad aliquam hierarchiarum  nunc existentium.
+</p>
+            <p xml:id="v27ab7-d1f040-d1e149">
+               <lb ed="#L" n="17"/>Respondeo dicendum quod processus in infinitum in angelis? potest intelligi
+<lb ed="#L" n="18"/>dupliciter, uno modo quantum ad gratuita, et si poneretur sic  processus in infinitum
+<lb ed="#L" n="19"/>in angelis, adhuc manerent infra ordines et hierarchias nunc existentes, sicut patet
+<lb ed="#L" n="20"/>de hominibus qui quantum ad gratuita assumuntur ad aequalitatem angelorum
+<lb ed="#L" n="21"/>cuiuscumque hierarchiae vel ordinis et? tamen manent infra " speciem humanam.
+<lb ed="#L" n="22"/>Alio modo potest intelligi processus in infinitum in angelis ", scilicet quantum ad
+<lb ed="#L" n="23"/>naturalia, et cum tali processu in infinitum impossibile est stare quod omnes angeli
+<lb ed="#L" n="24"/>possibiles fieri pertineant ad hierarchias et ordines nunc existentes. Immo . necessario
+<lb ed="#L" n="25"/>sequeretur processus in ordinibus et hierarchiis in infinitum ' sive ponatur quoscumque
+<lb ed="#L" n="26"/>duos angelos !? non solum differre specie sed etiam genere propinquo sive non, quia
+<lb ed="#L" n="27"/>cum ordo generalis omnium  entium, ut supra dictum est, requirat supremum et
+<lb ed="#L" n="28"/>infimum, multo plus unus ordo angelorum exigit quod in illo ordine sit ita dare
+<lb ed="#L" n="29"/>infimum citra quem non possit dari angelus pertinens ad illum ordinem et multo
+<lb ed="#L" n="30"/>plus etiam oporteat dare supremum ultra quem nullus pertineret ad illum ordinem.
+<lb ed="#L" n="31"/>Nisi enim detur sic supremum et infimum, non erit ordo essentialis. Sed in infinitis !5
+<pb ed="#L" n="330"/>
+               <lb ed="#L" n="1"/>non est dare supremum et infimum. Ergo impossibile est infinitos angelos possibiles
+<lb ed="#L" n="2"/>fieri pertinere ad ordines finitos, quia ordines finiti, cum quilibet habeat supremum et
+<lb ed="#L" n="3"/>infimum, continent! tantum finitos gradus. Et per consequens etiam impossibile est
+<lb ed="#L" n="4"/>eos pertinere ad finitas hierarchias, quia sicut impossibile est unum ordinem continere
+<lb ed="#L" n="5"/>infinitas species, ita impossibile est unam hierarchiam continere infinitos ordines. Sed
+<lb ed="#L" n="6"/>ordines et hierarchiae nunc existentes sunt finitae. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f040-d1e199">
+               <lb ed="#L" n="7"/>Ad rationem dicendum quod impossibile esset omnia viventia possibilia fieri
+<lb ed="#L" n="8"/>reduci ad illos tres modos generales de quibus dictum est? vel ad quoscumque
+<lb ed="#L" n="9"/>modos finitos vivendi si ponatur processus in viventibus in infinitum . Unde ponere
+<lb ed="#L" n="10"/>processum possibilem in infinitum  in viventibus et ponere omnia viventia possibilia
+<lb ed="#L" n="11"/>fieri | reduci ad dictos? tres modos vel ad quoscumque modos finitos, implicat
+<lb ed="#L" n="12"/>contradictoria . Unde licet simpliciter ponere processum in infinitum in viventibus non
+<lb ed="#L" n="13"/>sit bene intelligibile, non tamen absolute ponere talem processum in infinitum ita
+<lb ed="#L" n="14"/>evidenter implicat contradictoria sicut ponere cum tali processu reductionem omnium
+<lb ed="#L" n="15"/>possibilium ad modos finitos sive ad genera finita.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

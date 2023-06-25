@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="309"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f004"><!-- v27ab7-q3short-q4 -->
+            <head xml:id="v27ab7-d1f004-Hd1e99">Quaestio 4</head>
+            <head xml:id="v27ab7-d1f004-Hd1e101" type="question-title">
+      Utrum anima separata retineat totum esse quo existit totus homo
+    </head>
+            <p xml:id="v27ab7-d1f004-d1e104">
+               <lb ed="#L" n="23"/>QUAESTIO IV
+<lb ed="#L" n="24"/>(BREVIS)
+<lb ed="#L" n="25"/>Utrum anima separata retineat totum esse quo existit totus homo .
+</p>
+            <p xml:id="v27ab7-d1f004-d1e113">
+               <lb ed="#L" n="26"/>Postea quaerebatur de natura humana, et primo quaerebatur unum quantum ad
+<lb ed="#L" n="27"/>animam, et est utrum anima separata retineat totum esse quo existit totus homo cum
+<lb ed="#L" n="28"/>est anima corpori coniuncta. Et videtur? quod sic, quia aliud et aliud esse arguit
+<lb ed="#L" n="29"/>aliam et aliam essentiam. Sed animra coniuncta et separata est eadem per essentiam.
+<lb ed="#L" n="30"/>Ergo idem esse habet separata quod  habebat coniuncta. Sed anima coniuncta habet
+<lb ed="#L" n="31"/>esse per illud esse quo totus homo habet esse, quia idem est esse totius et partium
+<lb ed="#L" n="32"/>in toto. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f004-d1e131">
+               <lb ed="#L" n="33"/>Contra. Quod convenit toti per se, non potest convenire parti. Sed esse convenit
+<lb ed="#L" n="34"/>per se ipsi supposito sicut et agere. Ergo esse quod est totius huius suppositi quod
+<lb ed="#L" n="35"/>est homo, per se non potest convenire soli animae.
+</p>
+            <p xml:id="v27ab7-d1f004-d1e141">
+               <pb ed="#L" n="310"/>
+               <lb ed="#L" n="1"/>Ad istam quaestionem dicunt quidam qui ponunt esse et essentiam re differre
+<lb ed="#L" n="2"/>in creaturis, quod sicut in una re non est nisi una extensio per quam omnia illius rei
+<lb ed="#L" n="3"/>sunt extensa licet diversimode (nam materia est extensa sicut subiectum extensionis,
+<lb ed="#L" n="4"/>alia autem sicut dccidentia supervenientia sunt extensa | quia recipiuntur in extenso,
+<lb ed="#L" n="5"/>sicut est albedo et consimilia), — ita etiam in una re non est nis! unum existere,
+<lb ed="#L" n="6"/>per quod omnia existunt, ita quod substantia existit sicut subiectum existendi, sed
+<lb ed="#L" n="7"/>alia, scilicet accidentia existunt quia recipiuntur in existente. Ulterius dicunt quod
+<lb ed="#L" n="8"/>istud existere vel esse principaliter consequitur formam aliquam principaliter, scilicet
+<lb ed="#L" n="9"/>formam substantialem, et illam solam quae dat esse completivum , si sint plures
+<lb ed="#L" n="10"/>formae substantiales. Et quando separatur talis forma, separatur talis actus essendi;
+<lb ed="#L" n="11"/>et quando corrumpitur forma, corrumpitur esse; et quando introducitur? talis forma,
+<lb ed="#L" n="12"/>introducitur esse. Haec autem forma in homine est anima rationabilis , et ideo in
+<lb ed="#L" n="13"/>anima rationabili  separata remanet totum esse quod erat in homine.
+</p>
+            <p xml:id="v27ab7-d1f004-d1e174">
+               <lb ed="#L" n="14"/>Quod autem ita sit, scilicet quod in eodem non sit nisi unum esse, probatur 
+<lb ed="#L" n="15"/>quattuor rationibus. — Prima talis est. Esse consequitur formam substantialem et
+<lb ed="#L" n="16"/>solum illam quae est completiva, si dentur plures. Sed in una re non est nisi una talis
+<lb ed="#L" n="17"/>forma. Ergo et cetera. Utraque propositio patet, ut videtur, ex dictis". — Secunda
+<lb ed="#L" n="18"/>talis est. Omnia quae sunt" unum subiecto, dicuntur unum secundum esse. Sed hoc
+<lb ed="#L" n="19"/>non esset, si in eodem essent plura esse. Ergo et cetera. — Tertia talis est. 
+Acci<lb break="no" ed="#L" n="20"/>dentia non dicuntur esse nisi quia sunt entis. Sed hoc non est propter aliud nisi quia
+<lb ed="#L" n="21"/>accidentia non habent proprium esse, sed solum habent esse quia sunt in existente.
+<lb ed="#L" n="22"/>Ergo et cetera. — Quarta talis est. Si ponerentur in eodem plura esse, unum esse
+<lb ed="#L" n="23"/>participaret alterum. Sed hoc est impossibile, quia ipsi esse repugnat aliquid 
+par<lb break="no" ed="#L" n="24"/>ticipare . Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f004-d1e200">
+               <lb ed="#L" n="25"/>Sed hoc stare non potest ?, scilicet quod in eodem sit tantum unum esse positis
+<lb ed="#L" n="26"/>pluribus essentiis, sive ponantur esse et essentia idem re sive diversa. Et si quidem
+<lb ed="#L" n="27"/>esse et essentia sint idem re, hoc patet de se, quod scilicet plurificato uno realiter
+<lb ed="#L" n="28"/>plurificabitur alterum. Si po | natur etiam quod sint diversa, ad hoc '' sequitur idem, et
+<lb ed="#L" n="29"/>hoc patet quattuor rationibus. — Prima talis est. Illud in quo sunt plures formae non
+<lb ed="#L" n="30"/>potest esse unum ens simpliciter et per se. Sed illud quod non est unum ens per se
+<lb ed="#L" n="31"/>non potest habere unum actum essendi. Ergo et cetera. Minor patet, quia illud quod
+<lb ed="#L" n="32"/>non est unum ?? simpliciter sed tantum per accidens, per se loquendo est plura, quod
+<lb ed="#L" n="33"/>non posset fieri nisi haberet plura esse. Maior autem probatur, quia unum per se non
+<lb ed="#L" n="34"/>faciunt nisi illa quorum unum est potentia pura et aliud est actus simpliciter ?. Sed
+<lb ed="#L" n="35"/>illud quod iam habet aliquam formam non potest dici pura potentia, nec per 
+con<lb break="no" ed="#L" n="36"/>sequens actus superveniens potest dici actus dans esse simpliciter. Ergo illud quod
+<lb ed="#L" n="37"/>iam habet aliquam formam cum alia superveniente non potest esse ' unum ens per se
+<lb ed="#L" n="38"/>et simpliciter. Et per consequens patet quod illud ' in quo sunt plures formae | non
+<lb ed="#L" n="39"/>est unum ens per se, et sic patet maior ". — Secunda talis est. Secundum Philo-
+<pb ed="#L" n="311"/>
+               <lb ed="#L" n="1"/>sophum  primo. de Generatione, duplex est generatio, scilicet generatio simpliciter
+<lb ed="#L" n="2"/>quae:terminatur ad substantiam, et generatio secundum quid quae terminatur ad
+<lb ed="#L" n="3"/>accidens. Sed omnis generatio terminatur ad aliquod esse. Ergo praeter esse quod
+<lb ed="#L" n="4"/>consequitur formam  substantialem oportet ponere aliud esse quod consequatur !
+<lb ed="#L" n="5"/>formam | accidentalem ?. — Tertia talis est. Esse est actus essentiae formaliter
+<lb ed="#L" n="6"/>perficiens eam. Sed secundum numerum perfectibilium oportet ponere numerum 
+pro<lb break="no" ed="#L" n="7"/>priarum ?. perfectionum. Ergo quot sunt formae in eodem, tot oportet ponere esse
+<lb ed="#L" n="8"/>perficientia ipsas; alioquin nisi unaquaeque perficeretur suo esse, non existerent. —
+<lb ed="#L" n="9"/>Quarta. talis est. Transsubstantiata substantia panis, manent accidentia et habent
+<lb ed="#L" n="10"/>esse. Sed non potest dici quod tunc quantitas  cum aliis accidentibus habeat esse, quia
+<lb ed="#L" n="11"/>est in existente substrato, cum hoc sit substantia quae non manet. Ergo oportet dicere
+<lb ed="#L" n="12"/>quod tunc quantitas habeat esse per actum essendi formaliter perficientem ipsam .
+<lb ed="#L" n="13"/>Ergo et similiter " habebat talem actum essendi cum esset in subiecto. — Si dicas
+<lb ed="#L" n="14"/>quod non, quia prius erat tantum per esse substantiae et postea habet esse aliud
+<lb ed="#L" n="15"/>quod eam formaliter perficit, non valet; quia mutato esse necessario mutatur res vel
+<lb ed="#L" n="16"/>secundum speciem vel secundum numerum, et sic non maneret idem accidens quod
+<lb ed="#L" n="17"/>est inconveniens.
+</p>
+            <p xml:id="v27ab7-d1f004-d1e274">
+               <lb ed="#L" n="18"/>Et ideo aliter est dicendum, scilicet quod in eodem  non est nisi unum esse
+<lb ed="#L" n="19"/>simpliciter quod est esse substantiale et quod vocatur esse subsistentiae, sed praeter
+<lb ed="#L" n="20"/>hoc esse sunt plura esse secundum quid, et tot quot sunt ibi formae accidentales .
+<lb ed="#L" n="21"/>Et quia omnia alia  innituntur ipsi '" esse simpliciter sive accipiatur esse essentiae
+<lb ed="#L" n="22"/>sive esse existentiae, ideo illud esse simpliciter est aliquo modo esse omnium, et
+<lb ed="#L" n="23"/>quantum- ad hoc dicuntur omnia existentia in uno esse unum secundum esse in
+<lb ed="#L" n="24"/>quantum ab esse tali omnia dependent; et sicut esse ab esse, ita essentia ab essentia.
+<lb ed="#L" n="25"/>Et ex ista dependentia invenitur analogia in entibus, non autem propter hoc quod
+<lb ed="#L" n="26"/>non sit tantum misi unus actus essendi qualitercumque in eodem. Et ideo anima
+<lb ed="#L" n="27"/>separata non retinet omnem ? actum essendi qui erat in homine cuius erat forma, sed
+<lb ed="#L" n="28"/>tantum esse actuale substantiale et esse accidentalia illorum accidentium quae sunt
+<lb ed="#L" n="29"/>solius animae et non coniuncti. Et per hoc patet ad rationem opponentis ".
+</p>
+            <p xml:id="v27ab7-d1f004-d1e303">
+               <lb ed="#L" n="30"/>Ad primum ergo quod illi de alia opinione inducunt, dicendum quod illud 
+argu<lb break="no" ed="#L" n="31"/>mentum non concludit, nisi quod in eodem non sit nisi unum esse actuale simpliciter,
+<lb ed="#L" n="32"/>non autem concludit quin cum tali esse sint multa esse secundum quid, quae sunt esse
+<lb ed="#L" n="33"/>accidentalia, quia illud esse simpliciter est quod consequitur formam substantialem.
+<lb ed="#L" n="34"/>— Ad secundum patet ex dictis , | quia quae sunt in uno dicuntur unum secundum
+<lb ed="#L" n="35"/>esse,in quantum esse simpliciter est quodammodo esse omnium aliorum ei innitentium.
+<lb ed="#L" n="36"/>— Ad tertium similiter patet, quia !5 accidentia non dicuntur esse nisi quia sunt entis
+<lb ed="#L" n="37"/>propter hoc quod suum proprium esse non possunt habere nisi ut innixum ipsi esse
+<lb ed="#L" n="38"/>simpliciter quod est esse substantiale. — Ad quartum dicendum quod sicut una essentia
+<pb ed="#L" n="312"/>
+               <lb ed="#L" n="1"/>participat aliam, ita non est inconveniens quod unum esse participet aliud. Et hoc etiam
+<lb ed="#L" n="2"/>habet necesse ' alia positio ponere, cum substantia et esse substantiae praesupponatur
+<lb ed="#L" n="3"/>ut substratum  ipsi accidenti ; substantia enim non solum quantum ad essentiam, sed
+<lb ed="#L" n="4"/>etiam quantum ad esse in actu praesupponitur  accidenti, Simile etiam de extensione
+<lb ed="#L" n="5"/>non valet, quia extensio dicit aliquid determinatum non plurificabile in eodem. Unde
+<lb ed="#L" n="6"/>oportet quod omnia quae sunt in eodem extenso sint extensa una extensione sicut
+<lb ed="#L" n="7"/>etiam  omnia quae dicuntur alba in eodem sunt alba eadem albedine. Sed esse est
+<lb ed="#L" n="8"/>nomen generalis  rei et plurificabilis " in eodem sicut et essentia. Unde sicut omnia
+<lb ed="#L" n="9"/>quae sunt in eodem sunt qualia eadem qualitate nec ? sunt entia  eadem essentia, ita
+<lb ed="#L" n="10"/>nec sunt existentia uno solo actu essendi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

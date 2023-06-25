@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="31"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e179"><!-- v27ab7-q1q12 -->
+            <head xml:id="v27ab7-d1e179-Hd1e99">Quaestio 12</head>
+            <head xml:id="v27ab7-d1e179-Hd1e101" type="question-title">
+      Quis illorum gravius peccat, 
+      vel qui omnino non vult baptizari, 
+      vel qui baptismum circa seipsum vult iterari
+    </head>
+            <p xml:id="v27ab7-d1e179-d1e104">
+               <lb ed="#L" n="11"/>QUAESTIO XII.
+<lb ed="#L" n="12"/>Quis illorum gravius peccat vel qui omnino non vult baptizari
+<lb ed="#L" n="13"/>vel qui baptismum circa se ipsum. vult iterari.
+</p>
+            <p xml:id="v27ab7-d1e179-d1e113">
+               <lb ed="#L" n="14"/>Postea circa pertinentia ad actus vitiosos quaerebantur duo, unum est
+<lb ed="#L" n="15"/>respectu contemptus sacramenti baptismi, videlicet quis illorum gravius
+<lb ed="#L" n="16"/>peccat et peior est dicendus vel qui omnino non vult baptizari vel qui 
+bap<lb break="no" ed="#L" n="17"/>tismum circa seipsum vult iterari. Et arguebatur quod ille qui non vult
+<lb ed="#L" n="18"/>baptizari gravjus peccet, quia peius est et maioris defectus non habere
+<lb ed="#L" n="19"/>aliquam formam nec etiam dispositionem ad illam, quam non habere solum
+<lb ed="#L" n="20"/>huiusmodi formam, habere tamen dispositionem ad illam. Sed nolens 
+bapti<lb break="no" ed="#L" n="21"/>zari, ex eo quod | non baptizatur caret non solum gratia gratum faciente,
+<lb ed="#L" n="22"/>sed etiam dispositione ad illam scilicet charactere. Hac autem non caret
+<lb ed="#L" n="23"/>qui iterum baptizatur, licet gratia careat. Quare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e179-d1e137">
+               <lb ed="#L" n="24"/>Contra. Dicitur secunda Petri  secundo quod melius, id est minus
+<lb ed="#L" n="25"/>malum est non cognoscere viam iustitlae quam post aggressionem iterum
+<lb ed="#L" n="26"/>reverti. Sed qui iterum baptizatur, a iustitia fidei quam habuit ex primo ?
+<lb ed="#L" n="27"/>actu baptizandi retrorsum abiit per secundum actum, quia haereticus est
+<pb ed="#L" n="32"/>
+               <lb ed="#L" n="1"/>ex hoc, et sic infidelis. Qui autem non vult baptizari nunquam 
+huius<lb break="no" ed="#L" n="2"/>modi viam iustitiae agnovit, et sic nec ab ea retrocedit. Ouare et cetera.
+</p>
+            <p xml:id="v27ab7-d1e179-d1e156">
+               <lb ed="#L" n="3"/>Respondeo dicendum quod, cum secundum Augustinum  peccatum
+<lb ed="#L" n="4"/>sit dictum, vel factum, vel concupitum contra legem aeternam, id ! quod
+<lb ed="#L" n="5"/>principale et quod formale est in peccato est contemptus, reliqua autem
+<lb ed="#L" n="6"/>sunt materialia. Propter quod, ubi est maior Dei contemptus, ibi est maius
+<lb ed="#L" n="7"/>peccatum : unde et indifferentia facta contra conscientiam et in 
+contemp<lb break="no" ed="#L" n="8"/>tum sunt peccata mortalia. Si ergo non baptizatus non  vult baptizari,
+<lb ed="#L" n="9"/>sclens quantum virtutis praedicatur et tenetur ab Ecclesia esse in 
+bap<lb break="no" ed="#L" n="10"/>tismo, et nihilominus vilipendit et nihil reputat baptismum in Ecclesia —
+<lb ed="#L" n="11"/>utendo baptismo credit errare, — et ideo nec ipsum curat suscipere,
+<lb ed="#L" n="12"/>gravius videtur peccare quam ille qui in infantia suscepit baptismum, et
+<lb ed="#L" n="13"/>veniens ad aetatem adultam antequam complete sit instructus in his quae
+<lb ed="#L" n="14"/>fidei sunt, vel etiam adultus antequam etiam plene sit instructus, credens
+<lb ed="#L" n="15"/>magnam efficaciam habere baptismum, ideo ut perfectiorem effectum 
+con<lb break="no" ed="#L" n="16"/>sequatur, iterum procurat se baptizari. Quia ille etsi peccet ex ignorantia
+<lb ed="#L" n="17"/>— non omnino invincibili, quia deberet inquirere quid circa hoc esset
+<lb ed="#L" n="18"/>agendum, — tamen quia non est tantus contemptus sicut in primo casu,
+<lb ed="#L" n="19"/>ideo nec tantum peccat. Si autem post sufficientem instructionem non
+<lb ed="#L" n="20"/>vult credere Ecclesiae docenti quod baptismus non est iterandus et quod 
+<lb ed="#L" n="21"/>iteratus nullum bonum facit immo malum, in dicto casu per accidens 
+gra<lb break="no" ed="#L" n="22"/>vius peccat, cum talis iam sit apostata, et haereticus efficiatur a communi
+<lb ed="#L" n="23"/>doctrina catholicae Ecclesiae resiliendo, et sic ingratus est gratiae in primo
+<lb ed="#L" n="24"/>baptismo susceptae.
+</p>
+            <p xml:id="v27ab7-d1e179-d1e206">
+               <lb ed="#L" n="25"/>Quod ergo talis habet dispositionem ad gratiam quantum ad 
+charac<lb break="no" ed="#L" n="26"/>terem quod est quoddam bonum quod alius non habet, non facit ipsum
+<lb ed="#L" n="27"/>minus  malum simpliciter sed secundum quid, nam isti dispositioni ex
+<lb ed="#L" n="28"/>graviore contemptu et peccato superinducto maiorem indispositionem 
+<lb ed="#L" n="29"/>inducit. Characteris enim dispositione non praeparatur homo adultus ad
+<lb ed="#L" n="30"/>gratiam consequendam nisi libero arbitrio actu concurrente. Nunc 
+<lb ed="#L" n="31"/>autem ille per actum liberi arbitrii magis redditur indispositus ad gratiam
+<lb ed="#L" n="32"/>quam alius. Ideo et cetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

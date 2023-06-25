@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="260"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1e769"><!-- v27ab7-q4q9 -->
+            <head xml:id="v27ab7-d1e769-Hd1e99">Quaestio 9</head>
+            <head xml:id="v27ab7-d1e769-Hd1e101" type="question-title">
+      Utrum in prima productione rerum mulier debuit produci in esse a Deo
+    </head>
+            <p xml:id="v27ab7-d1e769-d1e104">
+               <pb ed="#L" n="260"/>
+               <lb ed="#L" n="1"/>QUAESTIO IX
+<lb ed="#L" n="2"/>(LONGA).
+<lb ed="#L" n="3"/>Utrum in prima productione rerum mulier. debuit
+<lb ed="#L" n="4"/>produci in esse a. Deo.
+</p>
+            <p xml:id="v27ab7-d1e769-d1e117">
+               <lb ed="#L" n="5"/>Post hoc vero circa secundum quaerebatur unum, scilicet utrum in
+<lb ed="#L" n="6"/>prima productione rerum mulier debuit produci in esse a Deo. Et
+<lb ed="#L" n="7"/>arguebatur quod non, quia illud quod fuit causa | vel occasio mali et gj oà5 pa
+<lb ed="#L" n="8"/>peccati a Deo optimo non debuit produci. Sed. mulier fuit huiusmodi ;
+<lb ed="#L" n="9"/>nam ipsa fuit occasio peccati Adae et sic proditionis totius generis
+<lb ed="#L" n="10"/>humani et cetera.
+</p>
+            <p xml:id="v27ab7-d1e769-d1e133">
+               <lb ed="#L" n="11"/>Contrarium patet Genesis primo .
+</p>
+            <p xml:id="v27ab7-d1e769-d1e139">
+               <lb ed="#L" n="12"/>Respondeo dicendum quod cum opera Dei sint perfecta, in prima
+<lb ed="#L" n="13"/>productione rerum decuit ipsum producere ea quae ad perfectionem
+<lb ed="#L" n="14"/>universi pertinent. Haec autem sunt rerum species et praecipue nobiliores
+<lb ed="#L" n="15"/>inter quas quantum ad materiales nobilior est species humana. Et quia
+<lb ed="#L" n="16"/>species corruptibllum non conservantur nec perpetuantur in uno, sic
+<lb ed="#L" n="17"/>decuit eum rerum species producere in suis individuis in propria forma
+<lb ed="#L" n="18"/>et natura vel in suis causis et principiis naturalibus quod possent in
+<lb ed="#L" n="19"/>esse conservar] et perpetuari et multiplicari. Et praecipue hoc 
+inten<lb break="no" ed="#L" n="20"/>debatur circa hominem qui est finis aliorum. omnium corporalium, et
+<lb ed="#L" n="21"/>cuius multiplicatio secundum numerum  principalius intendebatur. Et
+<lb ed="#L" n="22"/>quia homo naturaliter non est nisi ex homine per naturalem 
+propaga<lb break="no" ed="#L" n="23"/>tionem, et ad hoc requiritur mas et femina, ideo debuit producere
+<lb ed="#L" n="24"/>hominem perfectum in esse specifico et etiam in virtute propagandi
+<lb ed="#L" n="25"/>et generandi. Quamvis autem uno producto haberet natura humana
+<lb ed="#L" n="26"/>esse perfectum secundum se, non tamen ut est conservativa et 
+multi<lb break="no" ed="#L" n="27"/>plicativa sui ipsius. Et ideo intentio naturae ad esse hominis perfectum
+<lb ed="#L" n="28"/>non sistit in solo viro, propter quod debuit mulier fieri in adiutorium
+<lb ed="#L" n="29"/>vir principaliter quantum ad actum generationis. Unde dicitur Genesis 
+<lb ed="#L" n="30"/>primo: creavit Deus hominem ad imaginem et similitudinem suam,
+<lb ed="#L" n="31"/>masculum et feminam creavit eos et dixit eis: crescite et multiplicamini
+<lb ed="#L" n="32"/>et cetera.
+</p>
+            <p xml:id="v27ab7-d1e769-d1e187">
+               <pb ed="#L" n="261"/>
+               <lb ed="#L" n="1"/>Quamvis enim, sicut creavit primum virum, ita etiam per creationem
+<lb ed="#L" n="2"/>potuit multiplicare genus humanum in sexu masculino absque hoc quod
+<lb ed="#L" n="3"/>nunquam mulier produceretur, quia tamen remaneret imperfectio naturae
+<lb ed="#L" n="4"/>in hoc quod a Deo non haberet virtutem quam nata est habere sic,
+<lb ed="#L" n="5"/>scilicet per propagationem naturaliter multiplicandi se, et quia Deus
+<lb ed="#L" n="6"/>res sic administrat ut eas proprios motus vel actus agere sinat, non
+<lb ed="#L" n="7"/>obstante quod Deus scivit angelum vel hominem peccaturum et mulierem
+<lb ed="#L" n="8"/>fore viro occasionem peccandi, fecit tamen effectum suum bonum et
+<lb ed="#L" n="9"/>perfectum in esse naturae, et ipsum sibi ipsi reliquit pro tanto quod
+<lb ed="#L" n="10"/>usum liberi arbitrii qui ad eius naturam pertinet permisit ei, nec ipsum
+<lb ed="#L" n="11"/>ad unum immobiliter determinavit. Unde reliquit hominem in manu
+<lb ed="#L" n="12"/>consilii sui. Ad ipsum enim Deum pertinet mala permittere, tum quia
+<lb ed="#L" n="13"/>res non debent impediri a motibus sibi ex natura convenientibus, tum
+<lb ed="#L" n="14"/>quia ex malis bonum elicit.
+</p>
+            <p xml:id="v27ab7-d1e769-d1e222">
+               <lb ed="#L" n="15"/>Quamvis ergo mulier sit vir occasionatus pro tanto, quia est quid
+<lb ed="#L" n="16"/>aliquo modo imperfectum in specie humana respectu viri, et ideo
+<lb ed="#L" n="17"/>respectu naturae particularis quae intendit in particulari id quod in
+<lb ed="#L" n="18"/>particulari est perfectius (virtus enim quae est in semine viri intendit
+<lb ed="#L" n="19"/>sibi simile producere secundum sexum masculinum qui perfectior est),
+<lb ed="#L" n="20"/>tamen respectu naturae universalis quae intendit principaliter bonum
+<lb ed="#L" n="21"/>speciei quod consistit in eius conservatione et multiplicatione, non est
+<lb ed="#L" n="22"/>aliquid occasionatum sed per se intentum. Unde a natura est modus et
+<lb ed="#L" n="23"/>via generationis feminae sicut et viri determinatus, non sic autem
+<lb ed="#L" n="24"/>monstrorum, quae per errorem naturae particularis contingunt, et quae a
+<lb ed="#L" n="25"/>natura universali per se non intenduntur nec per se et primo sicut
+<lb ed="#L" n="26"/>intenditur vir, nec per se, licet non primo sed quasi occasionaliter,
+<lb ed="#L" n="27"/>scilicet propter necessitatem generationis, sicut mulier quae dicitur vir
+<lb ed="#L" n="28"/>occasionatus, id est occasionaliter non primo et per se et propter se
+<lb ed="#L" n="29"/>intenta, sed dicto modo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GodfreyOfFontaines">Godfrey of Fontaines</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-24">June 24, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-gf01lv">Louvain 1904</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="318"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="v27ab7-d1f006"><!-- v27ab7-q3short-q6 -->
+            <head xml:id="v27ab7-d1f006-Hd1e99">Quaestio 6</head>
+            <head xml:id="v27ab7-d1f006-Hd1e101" type="question-title">Utrum ponere quod corpus Christi non potuit comburi sit inconveniens secundum fidem</head>
+            <p xml:id="v27ab7-d1f006-d1e104">
+               <pb ed="#L" n="318"/>
+               <lb ed="#L" n="1"/>QUAESTIO VI
+<lb ed="#L" n="2"/>(BREVIS)
+<lb ed="#L" n="3"/>Utrum ponere quod corpus Christi non potuit comburi sit inconveniens
+<lb ed="#L" n="4"/>secundum fidem .
+</p>
+            <p xml:id="v27ab7-d1f006-d1e117">
+               <lb ed="#L" n="5"/>Ad secundum sic proceditur, et arguitur quod inconveniens sit secundum fidem
+<lb ed="#L" n="6"/>ponere? quod corpus Christi non potuerit comburi, quia inconveniens est ponere
+<lb ed="#L" n="7"/>quod corpus Christi non fuerit corpus mixtum uniformiter, sicut corpora aliorum
+<lb ed="#L" n="8"/>hominum. Sed omne mixtum est naturaliter combustibile. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f006-d1e128">
+               <lb ed="#L" n="9"/>Contra. Inconveniens videtur ponere quod nova forma potuerit uniri de novo !!
+<lb ed="#L" n="10"/>supposito divino. Sed hoc sequitur si ponatur | corpus Christi comburi, quia forma
+<lb ed="#L" n="11"/>ignis introduceretur  in materiam corporis Christi, et per consequens uniretur divino
+<lb ed="#L" n="12"/>supposito. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f006-d1e140">
+               <lb ed="#L" n="13"/>Respondeo dicendum quod corpus Christi dupliciter potest considerari, scilicet
+<lb ed="#L" n="14"/>absolute ! secundum suam naturam, scilicet ' secundum illud quod sibi naturaliter
+<lb ed="#L" n="15"/>contingit " derelictam !, alio modo potest considerari secundum quod a Deo erat
+<pb ed="#L" n="319"/>
+               <lb ed="#L" n="1"/>praeordinatum ad opus redemptionis sic complendum | sicut factum est. Si primo
+<lb ed="#L" n="2"/>modo consideretur, sic inconveniens secundum fidem esset ponere quod non potuerit
+<lb ed="#L" n="3"/>comburi, quia ponere quod corpus Christi non fuerit passibile naturaliter sicut
+<lb ed="#L" n="4"/>corpora aliorum hominum et a consimili agente a quo erant passibilia corpora
+<lb ed="#L" n="5"/>aliorum hominum et transmutabile ad formas ad quas naturaliter sunt transmutabilia
+<lb ed="#L" n="6"/>corpora aliorum hominum, esset inconveniens et haereticum. Unde et secundum
+<lb ed="#L" n="7"/>beatum Augustinum (1l), si Christus non fuisset iuvenis occisus, senio ' defecisset,
+<lb ed="#L" n="8"/>et ulterius incineratum ? fuisset corpus eius si non fuisset praeservatum miraculo.
+<lb ed="#L" n="9"/>Sed ad hoc quod est corpus Christi non posse comburi, sequitur ipsum non esse
+<lb ed="#L" n="10"/>naturaliter passibile sicut corpora aliorum ?, nec per consequens transmutabile et cetera
+<lb ed="#L" n="11"/>quae supra posita sunt. Ergo et cetera.
+</p>
+            <p xml:id="v27ab7-d1f006-d1e175">
+               <lb ed="#L" n="12"/>Si autem consideretur  secundo modo, sic non potuit comburi sicut ponitur
+<lb ed="#L" n="13"/>illud  quod est provisum a Deo | non posse non evenire licet considerando ipsum
+<lb ed="#L" n="14"/>secundum naturam suam absolute posset non evenire. Nec tamen, ut ex praecedenti
+<lb ed="#L" n="15"/>quaestione patet, sequitur nova assumptio vel unio ad divinum suppositum nisi
+<lb ed="#L" n="16"/>valde per accidens, secundum quod" in dicta quaestione expositum est. Ex dictis
+<lb ed="#L" n="17"/>patet ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
