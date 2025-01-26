@@ -209,12 +209,12 @@ inconve<lb break="no" ed="#L" n="34"/>niens, immo in hoc est meritum fidei quod 
 <lb ed="#L" n="13"/>approbati, ut patet decima quinta distinctione, capitulo Sancta romana
 <lb ed="#L" n="14"/>Ecclesia , tamen in aliquibus dictis in quibus magis est postea veritas
 <lb ed="#L" n="15"/>declarata, non omnino tenentur et cetera. Unde etiam dicit Augustinus,
-<lb ed="#L" n="16"/>antequam eius scriptura esset sic approbata, tertio de Trinitate , in
-<lb ed="#L" n="17"/>principio sive in prologo: in omnibus litteris meis non solum pium
-<lb ed="#L" n="18"/>lectorem, sed etiam liberum correctorem desidero; et infra de Trinitate?:
-<lb ed="#L" n="19"/>noli meis litteris quasi canonicis servire, sed in illis et quod non
+<lb ed="#L" n="16"/>antequam eius scriptura esset sic approbata, <ref xml:id="v27ab7-d1e541-Rgg88ah" corresp="#v27ab7-d1e541-Qchhe77">tertio de Trinitate</ref>, in
+<lb ed="#L" n="17"/>principio sive in prologo: <quote xml:id="v27ab7-d1e541-Qchhe77" source="http://scta.info/resource/adt-l3-d1e365@3-15">in omnibus litteris meis non solum pium
+<lb ed="#L" n="18"/>lectorem, sed etiam liberum correctorem desidero</quote>; et <ref xml:id="v27ab7-d1e541-Rc88111" corresp="#v27ab7-d1e541-Qbuuaa7">infra</ref> de Trinitate:
+<lb ed="#L" n="19"/><quote xml:id="v27ab7-d1e541-Qbuuaa7" source="http://scta.info/resource/adt-l3-d1e365@65-95">noli meis litteris quasi canonicis servire, sed in illis et quod non
 <lb ed="#L" n="20"/>credebas cum inveneris incunctanter crede, in istis autem quod certum
-<lb ed="#L" n="21"/>non habebas nisi certum intellexeris noli firme retinere.
+<lb ed="#L" n="21"/>non habebas nisi certum intellexeris noli firme retinere</quote>.
 </p>
             <p xml:id="v27ab7-d1e541-d1e437">
                <lb ed="#L" n="22"/>Et ideo non est credendum quod aliquis fidelis his diebus auderet
